@@ -1,0 +1,11 @@
+&9<Chef> &f: Désolé, la cantine est fermée.
+&9<Chef> &f: On n'a plus rien.
+&9<Chef> &f: Ah mais ... tu n'es pas d'ici toi !
+&9<Chef> &f: Qu'est-ce que tu fais ici ?
+&9<Chef> &f: C'est pas vraiment un endroit pour se balader ...
+&9<Chef> &f: Si tu veux, tu peux aller te balader en faisant des courses pour moi.
+&9<Chef> &f: Enfin, pour la cantine ...
+&9<Chef> &f: Il me-... Il nous faudrait des légumes, et des fruits, pour commencer.
+&9<Chef> &f: Juste de quoi survivre, on verrra pour le reste plus tard.
+&9<Chef> &f: Si tu m'aides ... Bah déjà c'est chouette. Et puis je te donnerai un truc. Ptet ...
+&9<Chef> &f: hmmm ... Ce truc bizarre ... (&5Coeur?&).

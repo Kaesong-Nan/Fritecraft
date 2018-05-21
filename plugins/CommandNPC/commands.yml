@@ -1,0 +1,184 @@
+NPCS:
+  '287':
+    Commands:
+    - gcs open allauctions~~false
+  '292':
+    Commands:
+    - prices plants~~false
+  '288':
+    Commands:
+    - prices food~~false
+  '289':
+    Commands:
+    - prices ores~~false
+  '293':
+    Commands:
+    - prices drops~~false
+  '295':
+    Commands:
+    - prices misc~~false
+  '294':
+    Commands:
+    - prices deco~~false
+  '291':
+    Commands:
+    - prices raw~~false
+  '312':
+    Commands:
+    - prices nether~~false
+  '313':
+    Commands:
+    - prices end~~false
+  '314':
+    Commands:
+    - prices ocean~~false
+  '315':
+    Commands:
+    - prices tools~~false
+  '316':
+    Commands:
+    - prices brewing~~false
+  '317':
+    Commands:
+    - prices dyes~~false
+  '296':
+    Commands:
+    - momo~~false
+  '276':
+    Commands:
+    - permipex~~false
+  '70':
+    Commands:
+    - caserne~~false
+  '224':
+    Commands:
+    - rules~~false
+  '225':
+    Commands:
+    - cosmetiques~~false
+  '129':
+    Commands:
+    - metro~~false
+  '130':
+    Commands:
+    - metro~~false
+  '124':
+    Commands:
+    - metro~~false
+  '131':
+    Commands:
+    - metro~~false
+  '135':
+    Commands:
+    - metro~~false
+  '300':
+    Commands:
+    - games~~false
+  '301':
+    Commands:
+    - dac list~~false
+  '302':
+    Commands:
+    - is~~false
+  '226':
+    Commands:
+    - metro~~false
+  '336':
+    Commands:
+    - satanklaus~~false
+  '244':
+    Commands:
+    - banque~~false
+  '303':
+    Commands:
+    - dac stats~~false
+  '458':
+    Commands:
+    - quests 3~~false
+  '459':
+    Commands:
+    - quests 3~~false
+  '460':
+    Commands:
+    - mh achievements~~false
+  '464':
+    Commands:
+    - mh top Kills_total Jour~~false
+  '465':
+    Commands:
+    - mh top Kills_total Semaine~~false
+  '466':
+    Commands:
+    - mh top Kills_total Mois~~false
+  '467':
+    Commands:
+    - mh top Kills_total Année~~false
+  '470':
+    Commands:
+    - party ?~~false
+  '496':
+    Commands:
+    - jukebox~~false
+  '503':
+    Commands:
+    - quests 38~~false
+  '73':
+    Commands:
+    - quests 18~~false
+  '508':
+    Commands:
+    - quests~~false
+  '136':
+    Commands:
+    - warps~~false
+  '132':
+    Commands:
+    - warps~~false
+  '134':
+    Commands:
+    - warps~~false
+  '137':
+    Commands:
+    - warps~~false
+  '125':
+    Commands:
+    - warps~~false
+  '138':
+    Commands:
+    - warps~~false
+  '277':
+    Commands:
+    - warps~~false
+  '127':
+    Commands:
+    - warps~~false
+  '133':
+    Commands:
+    - warps~~false
+  '126':
+    Commands:
+    - warps~~false
+  '128':
+    Commands:
+    - warps~~false
+  '140':
+    Commands:
+    - warps~~false
+  '510':
+    Commands:
+    - ah~~false
+  '522':
+    Commands:
+    - cc preview Divin~~false
+  '345':
+    Commands:
+    - quests 16~~false
+  '535':
+    Commands:
+    - quests 42~~false
+  '560':
+    Commands:
+    - banque~~false
+  '664':
+    Commands:
+    - prices blocs~~false

@@ -1,0 +1,9 @@
+&e<Maitre Queux> &f: Vous avez vu Ron ?
+&e<Maitre Queux> &f: Il est sympa, pas vrai ?
+&e<Maitre Queux> &f: Et vous avez... du lait en poudre ?
+&e<Maitre Queux> &f: Bon ça fera l'affaire.
+&e<Maitre Queux> &f: Bon, parlons sérieusement... Vous voyez l'usine à cookies ? Du côté de Chocotown ?
+&e<Maitre Queux> &f: Dans les environs, il y a des genres de zombies assez étranges.
+&e<Maitre Queux> &f: Ils ont les poches remplies de cookies radioactifs.
+&e<Maitre Queux> &f: Il m'en faut une bonne dizaine. Au moins.
+&e<Maitre Queux> &f: C'est très important pour le breuvage !

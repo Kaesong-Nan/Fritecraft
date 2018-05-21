@@ -1,0 +1,10 @@
+&a<Penfield> &f: Ah parfait !
+&a<Penfield> &f: Bon, j'avoue que la tarte, c'était juste pour moi parce que j'ai faim ...
+&a<Penfield> &f: Ok, laissez moi un instant pour assembler ça ...
+&7*fabrique fabrique*
+&7*il a l'air de savoir ce qu'il fait*
+&7*c'est le meilleur il est trop fort*
+&7*ca ressemble à rien mais c'est sûrement bon signe*
+&a<Penfield> &f: Voilà !
+&a<Penfield> &f: J'espère que c'est bien ça en tout cas ...
+/give <player> glass_bottle 1 name:&dFlacon_de_catalyse_cyclique_de_phase

@@ -1,0 +1,161 @@
+id: 2
+category: 16
+cooldown: -60000
+name: '&6&lMystérieuse Energie'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Bedrock
+    lore:
+    - §8Blocks
+    - §8Vanilla
+    internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGa8OiCyO9DCmDpUDL7CgMwnQGGwqm8Fw+oMSVZ3fynW9xVAAVXg6XQYiP7qtqBFPgEZfwiixkuYWLtNJkrmY5hq65RV5p6C95nuvWQgV1lq6s6xt2ewalZ/d+6NhNBYAHBZ7SXAwMftjoI3qqUXnyRTFiZ+7xAYkQ8+sCt+l4fscOljPfvjm70f23tfv8aIvM9Gva7oezTNHOjATbRnohk+9gopfgSOtMRjIwkol42CDTuqGekGGcSsI/TSqTkXAiiRfYdBPxQGb3bBIii2tJ+UrP+GqifC2IkaBwg23c6m61Xy7nB/ALq+rowxwBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+parentId: b224c636-e6be-4152-96f9-2391afc51777
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: REACH_LOCATION
+  custom_string: Un panneau, quel panneau?
+  timeframe: 0
+  questId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+  reset-on-death: false
+  display-name: Une étrange piste
+  location:
+    world: Bouquenia
+    x: -424.0
+    y: 114.0
+    z: 2536.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5aac50cb-a6c6-4e50-8c61-9241625c7fbe
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: REACH_LOCATION
+  custom_string: Maison suspecte
+  timeframe: 0
+  questId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+  reset-on-death: false
+  display-name: Trouver un moyen d'entrer
+  location:
+    world: Bouquenia
+    x: -296.0
+    y: 122.0
+    z: 2436.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6b9ffe5a-d6ac-4dc4-9fa1-7c87e8ebfac5
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: REACH_LOCATION
+  custom_string: Quel est cet endroit?
+  timeframe: 0
+  questId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+  reset-on-death: false
+  display-name: Le début des ennuis
+  location:
+    world: Bouquenia
+    x: -191.0
+    y: 1.0
+    z: 2504.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d158778c-5905-472a-8009-ab7659d5a802
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: KILL_NAMED_MOB
+  custom_string: '&dAldrich'
+  timeframe: 0
+  questId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+  reset-on-death: false
+  display-name: Une rencontre sulfureuse
+  location:
+    world: Bouquenia
+    x: -218.0
+    y: 9.0
+    z: 2610.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 186a4bc1-9573-4fdc-a480-0a8bf21eb6bf
+  entity: ZOMBIE_VILLAGER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: e9c90040-f55e-4b51-8cc0-7c0acf7874e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -396.0
+    y: 48.0
+    z: 2624.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3f1a739a-5b48-408c-852a-e2b9fccdcedb
+  entity: PLAYER
+  custom_int: 656
+  exclude-spawners: false

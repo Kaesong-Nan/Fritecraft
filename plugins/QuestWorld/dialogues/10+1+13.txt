@@ -1,0 +1,8 @@
+§6<Zac> §f: Magnifique.
+§6<Zac> §f: Cette épée devrait surement aboutir aux meilleurs résultats possibles.
+§6<Zac> §f: Une puissante magie devrait émaner de cette arme après l'infusion.
+§7*Infuse l'épée avec l'artefact*
+§6<Zac> §f: Hmm ...
+§6<Zac> §f: La réponse n'est pas aussi prononcée que prévu.
+§6<Zac> §f: Même pire qu'avec l'épée en fer.
+§6<Zac> §f: Le diamant semble ne pas réagir aussi bien ...

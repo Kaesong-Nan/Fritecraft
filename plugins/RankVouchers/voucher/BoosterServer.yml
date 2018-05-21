@@ -1,0 +1,20 @@
+voucher:
+  item:
+    item: PAPER
+    name: '&e&lBoost XP &d(Serveur)'
+    lore:
+    - '&7Clic droit pour activer un boost pour le server!'
+    - ''
+    - '&6+50% XP &7(Talents) pendant &b20 minutes'
+    - '&7Durée cumulable'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] booster exp %player% 1.5 20'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

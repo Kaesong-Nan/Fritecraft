@@ -1,0 +1,103 @@
+id: 26
+category: 42
+cooldown: -60000
+name: '&bExploration : Voltige'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '§bExploration : Voltige'
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dDisque du Soleil §r
+      lore:
+      - §7Jeton de la fête de l'été.
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_NUGGET
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a§lJeton de jeu
+      lore:
+      - §7Un jeton pour le §ecasino
+      enchants:
+        LUCK: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBrochette de pastèque
+  - ==: org.bukkit.inventory.ItemStack
+    type: NETHER_BRICK_ITEM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lBourse du Festival §r
+      lore:
+      - §7Clic droit pour ouvrir pour
+      - '§7obtenir un loot aléatoire :'
+      - ''
+      - §f- Oeuf de Perroquet
+      - §f- Potion de Resistance au feu
+      - §f- Fusées de feu d'artifice x10
+      - §b- Flacons d'expérience x10
+      - §b- Disque de musique
+      - §b- Paquet de Glaces
+      - §e- Cape de Lune
+      - §e- Cape d'Eclipse
+      - §a- Elytres de Lune
+      - §a- Elytres d'Eclipse
+      - §a- Sac de Skins
+      - §a- Jetons de jeu
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: d21ccd33-5b09-44f8-b1e5-7a687e368df5
+categoryId: f26971cf-a3cd-45b2-90ba-1f4268a9adde
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&bBasile Voltige'
+  timeframe: 0
+  questId: d21ccd33-5b09-44f8-b1e5-7a687e368df5
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1456.0
+    y: 108.0
+    z: 1562.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4083b279-c841-44d6-9060-e53ed275355f
+  entity: PLAYER
+  custom_int: 545
+  exclude-spawners: false

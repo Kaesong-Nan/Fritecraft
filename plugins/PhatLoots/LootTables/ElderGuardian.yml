@@ -1,0 +1,13 @@
+ElderGuardian:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList: []
+  Name: ElderGuardian
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

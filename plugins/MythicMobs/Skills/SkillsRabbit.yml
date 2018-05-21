@@ -1,0 +1,21 @@
+RabbitLeap:
+  Skills:
+  - message{m="<mob.name> utilise RabbitLeap"} @PlayersInRadius{r=50}
+  - effect:sound{s=entity.polar_bear.warning;v=1;p=0.8} @Self
+  - potion{type=SLOWNESS;lvl=100;duration=40} @Self
+  - delay 40
+  - leap{v=200} @Target
+  - effect:sound{s=entity.husk.hurt;v=1;p=0.2} @Self
+
+RabbitThrow:
+  Skills:
+  - message{m="<mob.name> utilise RabbitThrow"} @PlayersInRadius{r=50}
+  # - effect:particles
+  - throw{v=9;vy=2} @PlayersInRadius{r=3}
+
+RabbitHit:
+  Cooldown: 2
+  Skills:
+  - effect:particles{particle=reddust;amount=70;hs=0.2;vs=0.2} @Target
+  - consume{d=10;h=50;pk=true;ia=true}
+  - effect:sound{s=entity.husk.hurt;v=1;p=0.2} @Self

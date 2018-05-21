@@ -1,0 +1,21 @@
+name: cathédrale
+displayname: '&8&l[&b&m=---=&8&l> &f&lGrande Cathédrale &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&eRécompenses de paliers'
+- '&dPrécurseurs'
+- '&dArmes Légendaires'
+- '&6Equipement spécial'
+- ''
+- '&8&m---------------------------'
+cooldown: 3
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: QUARTZ
+data: 0
+location: HUB<>547.4577233851943<>32.0<>32.40348904181571<>-1.1008291<>-90.83699
+slot: 2

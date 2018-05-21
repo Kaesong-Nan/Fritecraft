@@ -1,0 +1,23 @@
+name: ressources
+displayname: '&8&l[&b&m=---=&8&l> &f&lMonde Survie &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&eMaisons'
+- '&7Ressources'
+- '&7Biomes uniques'
+- '&7Mobs uniques'
+- '&7Structures inédites'
+- '&aPas de reset'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.ressources
+item: GRASS
+data: 0
+location: Pitman<>-739.9411153327122<>56.0<>447.29208116499547<>1.823667<>-269.8363
+slot: 3

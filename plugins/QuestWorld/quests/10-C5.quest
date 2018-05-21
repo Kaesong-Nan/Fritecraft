@@ -1,0 +1,166 @@
+uniqueId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 10
+category: 5
+cooldown: -1
+name: '&d&lSigle Céleste'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: §d§lSigle Céleste §r
+    lore:
+    - §7Utilisé pour les armes légendaires.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lSigle Céleste §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dFragment Nébuleux §r
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: cc091136-fe8c-40b4-9271-03c1347ca9d4
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dFragment Etoilé §r
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4aee5d0a-4029-43bf-b38e-0bf27537077d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dFragment de Vortex §r
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 81baa67d-28ba-40b9-8bf3-2c84eb6bb849
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dFragment Solaire §r
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d4e2f270-ac8e-45f8-9a94-ff6281eca071
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+  amount: 666
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: bc16d48b-3cba-4b3e-925e-c2943c3d4fa4
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b66eb2ba-b1f7-4c43-a397-320e3dbdcf4b
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,119 @@
+#This is the boss itself!
+Aldrich:
+  Type: ZOMBIE_VILLAGER
+  Display: '&dAldrich'
+  Health: 2000
+  # Disguise:
+  #   Type: zombievillager
+  #   Burning: false
+  Armor: 0
+  Damage: 10
+  BossBar:
+    Enabled: true
+    Title: '&eAldrich'
+    Range: 40
+    Color: RED
+    Style: SOLID
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 20
+    KnockbackResistance: 5.0
+    MovementSpeed: 0.1
+    NoDamageTicks: 10
+    Persistant: true
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    RepeatAllSkills: true
+  Modules:
+    ThreatTable: true
+    ImmunityTable: true
+  Drops:
+  - BagAldrich
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 MeleeAttack
+  - 2 RandomStroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attackers
+  DamageModifiers:
+  - PROJECTILE 0.5
+  - FIRE -1
+  - FIRE_TICK -1
+  - LAVA -1
+  - MAGIC 6
+  - POISON 3
+  KillMessages:
+  - '&6<target.name> &eest mort contre &6<mob.name>'
+  Skills:
+  - sendtitle{fadein=20;fadeout=20;duration=100;title=“&eAldrich”;subtitle=“&cLe<&sp>prêtre<&sp>des<&sp>flammes”} @PlayersInRadius{r=50} ~onSpawn
+  - effect:particles{particle=lava;amount=6;hs=1;vs=1} @self ~onTimer:5
+  - healpercent{m=0.1} @self ~onKillPlayer
+  - skill{s=Ignite} @target ~onTimer:200 >75%
+  - skill{s=OmegaSlam} @self ~onDamaged 0.02 >75%
+  - ignite{ticks=100} @target ~onDamaged <75% 0.5
+  - skill{s=FireBlast} @target ~onDamaged >75% 0.03
+  - skill{s=GroundSlam} @self ~onDamaged >75% 0.05
+  - skill{s=OmegaDisguise} @self ~onDamaged =75% 1
+  - skill{s=FireBlast} @target ~onDamaged <75% 0.1
+  - skill{s=Imprison} @target ~onDamaged <50% 0.02
+  - skill{s=MeteorShower} @self ~onTimer:300 <75%
+  - skill{s=WitheredRain} @RTT ~onDamaged <50% 0.01
+  - sendtitle{fadein=20;fadeout=20;duration=100;title=“&eAldrich”;subtitle=“&4est<&sp>vaincu”} @PlayersInRadius{r=50} ~onDeath
+  - message{msg="<mob.name> &3a été battu par <trigger.name>!"} @PlayersOnServer ~onDeath
+
+#This is a mob that is used for the MeteorShower ability!, This is also from Roboboy64!
+MeteorPointer:
+  Type: bat
+  Display: ''
+  Health: 1000
+  Damage: 0
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - MAGIC 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  Skills:
+  - skill{s=MeteorPointerSpawn} @Self ~onSpawn
+  - skill{s=MeteorPointerFinish} @Self ~onTimer:5 0.07
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Silent: true
+
+MiniMeteorPointer:
+  Type: bat
+  Display: ''
+  Health: 1000
+  Damage: 0
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - MAGIC 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  Skills:
+  - skill{s=MiniMeteorPointerSpawn} @Self ~onSpawn
+  - skill{s=MiniMeteorPointerFinish} @Self ~onTimer:5 0.07
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Silent: true

@@ -1,0 +1,42 @@
+Draconique:
+  Id: DIAMOND_SWORD
+  Display: '&6&lLame Draconique &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Fléau I'
+  - '&7Châtiment I'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Vigueur IV'
+  - '&7Armure I'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Maudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      Armor: 2
+      Health: 8
+      # Luck: 4
+
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DAMAGE_ARTHROPODS:1
+  - DAMAGE_UNDEAD:1
+  - SWEEPING:3
+  - DURABILITY:5
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self

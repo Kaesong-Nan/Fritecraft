@@ -1,0 +1,57 @@
+BuyItemList:
+  BlackList: true
+  Items: []
+WorldBlacklist: []
+HideInactiveShops: false
+MaxAmountOnCreative: true
+Debug:
+  Save: false
+  Thread: false
+  Chunk: false
+  Log: false
+  Permissions: false
+  Shop:
+    Creation: false
+Display:
+  UseStorage: true
+  UseSigns: true
+Spawning:
+  ToMax: false
+  Count: 0
+Towny:
+  allowInWilderness: false
+  needsResident: true
+  needsToBeOwner: false
+Limitation:
+  MaxAmount: -1
+BlockList:
+  BlackList: true
+  Blocks: []
+SellItemList:
+  BlackList: true
+  Items: []
+Residence:
+  flag: shops
+  allowOwner: true
+  hook: true
+Default:
+  Unit: 64
+  ShowTransactionMessages: true
+  ShowTransactionMessagesOnUnlimited: false
+CancelExplosions: false
+Save:
+  Interval: 60
+Localization:
+  File: locale_EN.yml
+  Version: 3.21
+AccessThroughInventory: true
+CreatePrice:
+  SellShop: 0.0
+  BuyShop: 0.0
+  Display: 0.0
+  Exchange: 0.0
+EconomySystem: Vault
+Disable:
+  FBasicsInventoryDupeListener: true
+Visible:
+  CustomName: false

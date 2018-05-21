@@ -1,0 +1,16 @@
+id: 0
+name: '&a&lTutoriel'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §a§lTutoriel
+permission: ''
+hidden: false
+world-blacklist: []
+item_extra:
+  custom-skullOwner: CSCoreLib
+uniqueId: 90fe56fe-23a0-4074-8543-a811345179ad

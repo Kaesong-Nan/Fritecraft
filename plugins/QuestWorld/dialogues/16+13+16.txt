@@ -1,0 +1,3 @@
+&f&e<Employé> &f: Merci, merci. Mais au fait, j'y pense. Vous vous êtes donné tout ce mal pour rien.
+&f&e<Employé> &f: J'ai des matériaux dans mon coffre de l'end.
+&f&e<Employé> &f: Vous avez juste à m'en rammener un.

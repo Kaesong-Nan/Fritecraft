@@ -1,0 +1,77 @@
+id: 17
+category: 13
+cooldown: -60000
+name: Le pouvoir de l'argent
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: EGG
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Le pouvoir de l'argent
+    lore:
+    - Un des cinq oeufs sacrés pondus par Poulard. Ils sont très fragiles.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 59
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 54
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 44
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 13-C8
+uniqueId: 185857aa-d444-41a7-ae4b-b4c80af14f53
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+parentId: 165c0676-247c-429b-92b7-818a9eeae75b
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dOeuf Sacré de Poulard
+      lore:
+      - §fL'un des 5 oeufs sacrés de Poulard
+      - §fIl est très fragile.
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJv6scPDRC4hpZqgLrcoN1DdBFDULr8lx9wHLscTIzOoAOb4evQcrP7nqupdDgGZ/gvZw7JUL+2bDmnBsuR4XhW8I10IL79sL1rAW3ddCn6Sa6vhb3GWi9ePRDJ+46ADxp8JoVchDwK9TGzI+VeTpuJFcYTZwcTBnj5jbHl0yVK4xwO/n1B9oq/1/r9QX1JHM2VX7ZDWWbmVtnL8V6b/E2/SYJU3GQjhHNakLZz8ReTvdVnoQ2G6uKBESyBqucZk3enJooSVU0ZnUcRBaj6YMEoclGbMeUVHkQKmaHDr5Y/nm3XAJo8EKKVsBsdVhdO7GtS4A/oJkYci4BAAA=
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Chasseur de primes
+  timeframe: 0
+  questId: 185857aa-d444-41a7-ae4b-b4c80af14f53
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -804.0
+    y: 72.0
+    z: 1726.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7b95a110-0a21-45ec-b2ab-57ffe1543639
+  entity: PLAYER
+  custom_int: 190
+  exclude-spawners: false

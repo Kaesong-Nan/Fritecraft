@@ -1,0 +1,39 @@
+Xiadz:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&4&lXiadz &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité III'
+  - '&7Recul I'
+  - '&7Vampirisme I'
+  - '&cLenteur II'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dMaudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - DURABILITY:3
+  - KNOCKBACK:1
+
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=EnchantVampirisme} ~onAttack 1

@@ -1,0 +1,5 @@
+/playsound entity.enderman.scream master @a[r=30] 240 72 1412 2
+&7*Apparemment c'est pas assez*
+/playsound entity.enderman.portal master @a[r=30] 240 72 1412 2
+&7*Vous sentez l'appel du foin*
+&7*BEAUCOUP de foin*

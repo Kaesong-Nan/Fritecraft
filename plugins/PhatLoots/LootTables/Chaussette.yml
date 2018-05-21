@@ -1,0 +1,149 @@
+Chaussette:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice Alex §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice Steve §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice Creeper §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre à la menthe poivrée §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_CHICKEN
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDinde rotie §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSauce canneberge §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPurée §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte aux noix §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGateau aux fruits §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTrifle §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPudding de noel §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GRILLED_PORK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fJambon roti §r
+      Probability: 100.0
+    LowerNumberOfLoots: 3
+    Name: Food
+    Probability: 100.0
+    UpperNumberOfLoots: 3
+  Name: Chaussette
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

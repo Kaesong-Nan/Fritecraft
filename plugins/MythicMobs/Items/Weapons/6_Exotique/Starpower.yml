@@ -1,0 +1,40 @@
+Starpower:
+  Id: DIAMOND_SWORD
+  Display: '&6&lStarpower &r'
+  Lore:
+  # - '&b&oPrécurseur'
+  # - '&b&oLégendaire'
+  # - ' '
+  # - '&7Stats :'
+  - '&7Tranchant V'
+  - '&7Fléau V'
+  - '&7Solidité V'
+  - '&7Vitesse I'
+  - '&cFragilité II'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Paradoxal'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.05
+      AttackSpeed: -0.6
+      Damage: 7
+      Health: -4
+
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DAMAGE_ARTHROPODS:5
+  - DURABILITY:5
+
+  Skills:
+  - skill{s=Paradoxal} ~onTimer:5 @self

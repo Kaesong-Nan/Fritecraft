@@ -1,0 +1,317 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lRègles du serveur'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'rules'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Menu:
+#   COMMAND: 'open: menu.yml'
+#   NAME: '&e[arrow_left] Menu principal'
+#   LORE:
+#     - 'Aller au menu principal'
+#   ID: 347
+#   POSITION-X: 1
+#   POSITION-Y: 1
+
+here:
+  NAME: '&c&lLe fonctionnement du serveur'
+  LORE:
+    - ''
+    - 'Ce panneau vous explique brièvement'
+    - 'les règles à suivre sur Fritecraft.'
+    - ''
+    - 'Le non-respect de ces règles entrainera'
+    - 'des sanctions pouvant aller jusq''au ban.'
+  ID: book
+  POSITION-X: 5
+  POSITION-Y: 1
+
+Staff:
+  NAME: '&c&lI. &7STAFF'
+  LORE:
+    - ''
+    - '&fLe Staff est désigné par le &dClergé&f :'
+    - '&f- les &eDiacres&7 (modérateurs)'
+    - '&f- les &6Archévêques &7(admins)'
+    - '&f- le &4Cardinal &f(fondateur)'
+    - ''
+    - '&fEn cas de non-respect des règles, le Clergé'
+    - '&fpourra appliquer des sanctions en mesure du'
+    - '&fdélit commis, allant jusqu''au ban définitif.'
+    - ''
+    - '&fPour profiter pleinement du contenu du serveur,'
+    - '&fvous devez atteindre le rang de &aMoine&f :'
+    - '&f- 3 heures de jeu sur le serveur'
+    - '&f- Terminer le tutoriel'
+    - '&f- Niveau de puissance 200'
+    - '&f- Atteindre le niveau 2 dans une adoration'
+    - ''
+    - '&7Pensez à visiter le site pour la page complète'
+    - '&7de notre règlement et le détail des sanctions.'
+  ID: nether_star
+  POSITION-X: 2
+  POSITION-Y: 2
+
+Chat:
+  NAME: '&c&lII. &7CHAT'
+  LORE:
+    - ''
+    - '&fLe spam et le flood sont interdits.'
+    - ''
+    - '&fRestez polis : les insultes ne seront pas tolérées.'
+    - '&fLes joueurs qui ne connaissent pas la courtoisie et le respect'
+    - '&fne sont pas les bienvenues sur Fritecraft.'
+    - ''
+    - '&fNous ne tolérons pas les langages "sms".'
+    - '&fNous encourageons les joueurs à faire des efforts au niveau'
+    - '&fde l''orthographe, mais comprenons que personne n''est parfait.'
+  ID: paper
+  POSITION-X: 3
+  POSITION-Y: 2
+
+Comportement:
+  NAME: '&c&lIII. &7CHEATS'
+  LORE:
+    - ''
+    - '&fLe cheat est strictement interdit,'
+    - '&fet sera puni d''un &cban définitif &f:'
+    - '&f- utilisation de bugs du jeu'
+    - '&f- mods (fly, xray)'
+    - '&f- détournement de fonctionnalités de plugins'
+    - '&f- exploitation d''une faille'
+    - ''
+    - '&fSi vous rencontrez un bug, vous devez'
+    - '&fle rapporter au Clergé.'
+    - ''
+    - '&7Mods autorisés: Optifine, MatMos, Minimap, Schematica'
+  ID: repeater
+  POSITION-X: 4
+  POSITION-Y: 2
+
+Grief:
+  NAME: '&c&lIV. &7GRIEF ET VOLS'
+  LORE:
+    - ''
+    - '&fLe grief de &estructure générée par le jeu'
+    - '&fen monde survie est autorisé.'
+    - ''
+    - '&fLe grief ciblant un joueur'
+    - '&fest strictement interdit.'
+    - '&f'
+    - '&fLe serveur est équipé de plusieurs plugins'
+    - '&fantigrief (GriefPrevention, CoreProtect).'
+    - ''
+    - '&fLes actions des joueurs sont enregistrées.'
+    - '&fLe Clergé peut savoir qui enfreint cette règle.'
+  ID: lava_bucket
+  POSITION-X: 5
+  POSITION-Y: 2
+
+Survie:
+  NAME: '&c&lV. &7MONDE SURVIE ET FARMING'
+  LORE:
+    - ''
+    - '&fSont interdits :'
+    - '&f- farms à golems'
+    - '&f- farms à PNJ'
+    - '&f- farm à MobSpawner'
+    - '&f- machine à cobble'
+    - '&f- élevage automatisé'
+    - '&f- récoltes avec eau'
+    - '&f- récoltes avec piston'
+    - '&f- tours à mobs'
+    - ''
+    - '&fLe "minage optimisé" est autorisé.'
+    - '&fLes cultures sous terre sont autorisées'
+    - '&f'
+    - '&fLimite de 25 bêtes par personne.'
+    - '&f'
+    - '&fConstruction de portail du Nether interdits.'
+  ID: carrot
+  POSITION-X: 6
+  POSITION-Y: 2
+
+Divers:
+  NAME: '&c&lVI. &7DIVERS'
+  LORE:
+    - ''
+    - '&fSont interdits :'
+    - '&f- Ne pas réclamer un changement d''heure.'
+    - '&f- Ne pas réclamer de d''équiment'
+    - '&f- Circuits redstone du type "clock" sont interdits'
+  ID: brick
+  POSITION-X: 7
+  POSITION-Y: 2
+
+RP:
+  NAME: '&c&lVII. &7RP'
+  LORE:
+    - ''
+    - '&fLe thème du serveur est principalement axé'
+    - '&fsur des constructions du type médiéval.'
+    - ''
+    - '&fTout manque de respect envers le RP du serveur'
+    - '&fégalement être puni, notamment envers les Divinités.'
+    - ''
+    - '&fPour les quêtes, il est attendu des jouers de faire'
+    - '&fpreuve d''un minimum de motivation.'
+    - '&fLes questions seront ignorées par le Clergé si les'
+    - '&fréponses peuvent être trouvées par le joueur facilement.'
+    - ''
+    - '&fToutes les informations sont sonnées aux joueurs'
+    - '&fdans les dialogues, le livre de quêtes,'
+    - '&fsur la Dynmap, ou dans les annonces.'
+  ID: written_book
+  POSITION-X: 8
+  POSITION-Y: 2
+
+
+Blanc11:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc12:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc13:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc14:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc16:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc17:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc18:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc19:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc51:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc52:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc53:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc54:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc55:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc56:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc57:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc58:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc59:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc21:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+Blanc31:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true

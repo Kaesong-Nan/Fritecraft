@@ -1,0 +1,32 @@
+id: 26
+category: 11
+cooldown: -60000
+name: '&4Machines'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §4Machines
+    internal: H4sIAAAAAAAAAE2LQW+CMBhAvy1bgmQ/Y1eSIgLj4GHTqSW0Du1AeiulDrSoQdjE37UfOI87vrz3TAATntb7TuuP5rittDLgHhfw/CJknudCWj5CnjWyfWEFdiGsPHCCrat8xy6kCeZtOqmmrdR5AEarLm3XqLMJAHcGPCZCdwp+VR8ivilRsQm17LF3Y7ZGeol3Jx8fkj6fYA/XN7949aI++Ne6rUhdnTlhyQ9xl9cJipyVVouVLevPb8KwQ6e0XM5DnTFpkzoe8vmspjvZ83lSkmvmcDYraRpfl6wseUorzt52ZEhGdPp1zdj+h6fEzVKC6PS9z1h8wQc72MbjMYABD1TUCgaT9eTYqKjKAf4ASNDtQy4BAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3NDNhOGJlYTc1MmQ2ZGFmNjcyZGVhMzY3ZTFhNWQzOThhZWNiZTBjM2M4NDgzYTkwZWM5YWM0NDEyYTQxIn19fQ==
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 5aa53be5-d88a-4e33-941d-dada420d8c62
+categoryId: a459e4e2-189c-439d-a548-6e53b73dd5a9
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

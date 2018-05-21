@@ -1,0 +1,195 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&6&lMonde Ressource'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'boussole; compas'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'console: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Help:
+  NAME: '&eMenu du monde ressource'
+  LORE:
+    - 'Le monde ressource est l''endroit où'
+    - 'vous pouvez récolter autant de ressources'
+    - 'que nécessaire.'
+    - ''
+    - 'Les nouveaux joueurs peuvent construire dans'
+    - 'ce monde dès le début.'
+    - ''
+    - 'Pour vous rendre dans ce monde, utilisez'
+    - 'un des boutons ci dessous pour vous téleporter'
+    - 'quelque part dans le monde.'
+  ID: 175
+  POSITION-X: 5
+  POSITION-Y: 1
+
+tp1:
+  COMMAND: 'console: warp mega1 {player}'
+  NAME: '1'
+  LORE:
+    - ''
+  ID: '351:0'
+  POSITION-X: 3
+  POSITION-Y: 3
+tp2:
+  COMMAND: 'console: warp mega4 {player}'
+  NAME: '2'
+  LORE:
+    - ''
+  ID: '351:1'
+  POSITION-X: 3
+  POSITION-Y: 4
+tp3:
+  COMMAND: 'console: warp mega7 {player}'
+  NAME: '3'
+  LORE:
+    - ''
+  ID: '351:2'
+  POSITION-X: 3
+  POSITION-Y: 5
+tp4:
+  COMMAND: 'console: warp mega10 {player}'
+  NAME: '4'
+  LORE:
+    - ''
+  ID: '351:3'
+  POSITION-X: 3
+  POSITION-Y: 6
+tp5:
+  COMMAND: 'console: warp mega13 {player}'
+  NAME: '5'
+  LORE:
+    - ''
+  ID: '351:4'
+  POSITION-X: 4
+  POSITION-Y: 3
+tp6:
+  COMMAND: 'console: warp mega16 {player}'
+  NAME: '6'
+  LORE:
+    - ''
+  ID: '351:5'
+  POSITION-X: 4
+  POSITION-Y: 4
+tp7:
+  COMMAND: 'console: warp mega2 {player}'
+  NAME: '7'
+  LORE:
+    - ''
+  ID: '351:6'
+  POSITION-X: 4
+  POSITION-Y: 5
+tp8:
+  COMMAND: 'console: warp mega5 {player}'
+  NAME: '8'
+  LORE:
+    - ''
+  ID: '351:7'
+  POSITION-X: 4
+  POSITION-Y: 6
+tp9:
+  COMMAND: 'console: warp mega8 {player}'
+  NAME: '9'
+  LORE:
+    - ''
+  ID: '351:8'
+  POSITION-X: 6
+  POSITION-Y: 3
+tp10:
+  COMMAND: 'console: warp mega11 {player}'
+  NAME: '10'
+  LORE:
+    - ''
+  ID: '351:9'
+  POSITION-X: 6
+  POSITION-Y: 4
+tp11:
+  COMMAND: 'console: warp mega14 {player}'
+  NAME: '11'
+  LORE:
+    - ''
+  ID: '351:10'
+  POSITION-X: 6
+  POSITION-Y: 5
+tp12:
+  COMMAND: 'console: warp mega3 {player}'
+  NAME: '12'
+  LORE:
+    - ''
+  ID: '351:11'
+  POSITION-X: 6
+  POSITION-Y: 6
+tp13:
+  COMMAND: 'console: warp mega6 {player}'
+  NAME: '13'
+  LORE:
+    - ''
+  ID: '351:12'
+  POSITION-X: 7
+  POSITION-Y: 3
+tp14:
+  COMMAND: 'console: warp mega9 {player}'
+  NAME: '14'
+  LORE:
+    - ''
+  ID: '351:13'
+  POSITION-X: 7
+  POSITION-Y: 4
+tp15:
+  COMMAND: 'console: warp mega12 {player}'
+  NAME: '15'
+  LORE:
+    - ''
+  ID: '351:14'
+  POSITION-X: 7
+  POSITION-Y: 5
+tp16:
+  COMMAND: 'console: warp mega15 {player}'
+  NAME: '16'
+  LORE:
+    - ''
+  ID: '351:15'
+  POSITION-X: 7
+  POSITION-Y: 6

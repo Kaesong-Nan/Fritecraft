@@ -1,0 +1,406 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&6&lCoffret Divin'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 2
+  OpeningBroadCast: true
+  # BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&6&lCoffret Divin'
+  Lore:
+  - '&7Ce coffret contient divers objets.'
+  - '&7Vous avez &6%Keys% clés &7pour ce coffret.'
+  - '&7&l(&e&l!&7&l) Clic droit pour voir les récompenses.'
+  PhysicalKey:
+    Name: '&6&lClé Divine'
+    Lore:
+    - '&7Une clé pour le coffret &6Divin'
+    Item: '318'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&b&l13'
+      DisplayItem: '2256'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2256, Amount:1
+      Messages:
+      - ''
+    '2':
+      DisplayName: '&b&lCat'
+      DisplayItem: '2257'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2257, Amount:1
+      Messages:
+      - ''
+    '3':
+      DisplayName: '&b&lBlocks'
+      DisplayItem: '2258'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2258, Amount:1
+      Messages:
+      - ''
+    '4':
+      DisplayName: '&b&lChirp'
+      DisplayItem: '2259'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2259, Amount:1
+      Messages:
+      - ''
+    '5':
+      DisplayName: '&b&lFar'
+      DisplayItem: '2260'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2260, Amount:1
+      Messages:
+      - ''
+    '6':
+      DisplayName: '&b&lMall'
+      DisplayItem: '2261'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2261, Amount:1
+      Messages:
+      - ''
+    '7':
+      DisplayName: '&b&lMellohi'
+      DisplayItem: '2262'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2262, Amount:1
+      Messages:
+      - ''
+    '8':
+      DisplayName: '&b&lStal'
+      DisplayItem: '2263'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2263, Amount:1
+      Messages:
+      - ''
+    '9':
+      DisplayName: '&b&lStrad'
+      DisplayItem: '2264'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2264, Amount:1
+      Messages:
+      - ''
+    '10':
+      DisplayName: '&b&lWard'
+      DisplayItem: '2265'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2265, Amount:1
+      Messages:
+      - ''
+    '11':
+      DisplayName: '&b&l11'
+      DisplayItem: '2266'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2266, Amount:1
+      Messages:
+      - ''
+    '12':
+      DisplayName: '&b&lWait'
+      DisplayItem: '2267'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:2267, Amount:1
+      Messages:
+      - ''
+    '13':
+      DisplayName: '&b&lMinibloc Deco'
+      DisplayItem: '397'
+      Lore:
+      - '&a12% &eprobabilité'
+      MaxRange: 100
+      Chance: 12
+      Firework: true
+      Commands:
+      - loot give %Player% DecoDivine
+      Messages:
+      - ''
+    '14':
+      DisplayName: '&e&l3 Perles'
+      DisplayItem: '368'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:368, Amount:3
+      Messages:
+      - ''
+    '15':
+      DisplayName: '&e&l3 Larmes'
+      DisplayItem: '370'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:370, Amount:3
+      Messages:
+      - ''
+    '16':
+      DisplayName: '&e&l3 Poudres Incendiaire'
+      DisplayItem: '377'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:377, Amount:3
+      Messages:
+      - ''
+    '17':
+      DisplayName: '&e&l3 Soufles de Dragon'
+      DisplayItem: '437'
+      Lore:
+      - '&a7% &eprobabilité'
+      MaxRange: 100
+      Chance: 7
+      Firework: true
+      Items:
+      - Item:437, Amount:3
+      Messages:
+      - ''
+    '18':
+      DisplayName: '&e&l5 Quartz'
+      DisplayItem: '406'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:406, Amount:5
+      Messages:
+      - ''
+    '19':
+      DisplayName: '&e&l10 Sucre'
+      DisplayItem: '353'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:353, Amount:10
+      Messages:
+      - ''
+    '20':
+      DisplayName: '&a&l15 Flacons'
+      DisplayItem: '384'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:384, Amount:15
+      Messages:
+      - ''
+    # '21':
+    #   DisplayName: '&a&l30 Flacons'
+    #   DisplayItem: '384'
+    #   Lore:
+    #   - '&a10% &eprobabilité'
+    #   MaxRange: 100
+    #   Chance: 10
+    #   Firework: true
+    #   Items:
+    #   - Item:384, Amount:30
+    #   Messages:
+    #   - ''
+    # '22':
+    #   DisplayName: '&a&l45 Flacons'
+    #   DisplayItem: '384'
+    #   Lore:
+    #   - '&a10% &eprobabilité'
+    #   MaxRange: 100
+    #   Chance: 10
+    #   Firework: true
+    #   Items:
+    #   - Item:384, Amount:45
+    #   Messages:
+    #   - ''
+    '23':
+      DisplayName: '&e&lEtiquette'
+      DisplayItem: '421'
+      Lore:
+      - '&a8% &eprobabilité'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Items:
+      - Item:421, Amount:1
+      Messages:
+      - ''
+    '24':
+      DisplayName: '&e&l3 Etiquettes'
+      DisplayItem: '421'
+      Lore:
+      - '&a5% &eprobabilité'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Items:
+      - Item:421, Amount:3
+      Messages:
+      - ''
+    '25':
+      DisplayName: '&d&lFragment Etoilé &r'
+      DisplayItem: '409'
+      Lore:
+      - '&a8% &eprobabilité'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Items:
+      - Item:409, Amount:1, Name:&dFragment Etoilé &r
+      Messages:
+      - ''
+    '26':
+      DisplayName: '&d&lFragment de Vortex &r'
+      DisplayItem: '409'
+      Lore:
+      - '&a8% &eprobabilité'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Items:
+      - Item:409, Amount:1, Name:&dFragment de Vortex &r
+      Messages:
+      - ''
+    '27':
+      DisplayName: '&d&lFragment Solaire &r'
+      DisplayItem: '409'
+      Lore:
+      - '&a8% &eprobabilité'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Items:
+      - Item:409, Amount:1, Name:&dFragment Solaire &r
+      Messages:
+      - ''
+    '28':
+      DisplayName: '&d&lFragment Nébuleux &r'
+      DisplayItem: '409'
+      Lore:
+      - '&a8% &eprobabilité'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Items:
+      - Item:409, Amount:1, Name:&dFragment Nébuleux &r
+      Messages:
+      - ''
+    '29':
+      DisplayName: '&d&lHasard &r'
+      DisplayItem: '403'
+      Lore:
+      - '&a1% &eprobabilité'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - mm i give %Player% Hasard
+      Messages:
+      - ''
+    '30':
+      DisplayName: '&d&l3 Pommes dorées'
+      DisplayItem: '322'
+      Lore:
+      - '&a10% &eprobabilité'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: true
+      Items:
+      - Item:322, Amount:3
+      Messages:
+      - ''
+    '31':
+      DisplayName: '&d&lIchor &r'
+      DisplayItem: '353'
+      Lore:
+      - '&a5% &eprobabilité'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Items:
+      - Item:353, Amount:1, Name:&dIchor &r
+      Messages:
+      - ''
+    '32':
+      DisplayName: '&b&lTotem d''Immortalité &r'
+      DisplayItem: '449'
+      Lore:
+      - '&a4% &eprobabilité'
+      MaxRange: 100
+      Chance: 4
+      Firework: true
+      Items:
+      - Item:449, Amount:1
+      Messages:
+      - ''

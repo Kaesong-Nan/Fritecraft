@@ -1,0 +1,14 @@
+&9<Holmback> &f: Regardez moi ça.
+&9<Holmback> &f: Ma nouvelle invention.
+&9<Holmback> &f: On met du linge dedans, du savon, et ça lave tout !
+&9<Holmback> &f: Je vais l'appeler ...
+&9<Holmback> &f: "Mécanisme à léssiver"
+&9<Holmback> &f: Vous avez besoin que je lave vos habits ?
+&9<Holmback> &f: Vous êtes sûr ?
+&9<Holmback> &f: Tant pis.
+&9<Holmback> &f: Il vous faut quelque chose d'autre sinon ?
+&9<Holmback> &f: Un &dcompensateur thermique&f ? C'est quoi ça ?
+&9<Holmback> &f: Ah oui ! Je me souviens ! Je travaillais sur la cryogénie avant ...
+&9<Holmback> &f: Euh, oui, j'ai encore quelques notions ...
+&9<Holmback> &f: Je peux en fabriquer un, mais il me manque juste une chose je pense.
+&9<Holmback> &f: Un peu de neige, pour infuser le dispositif.

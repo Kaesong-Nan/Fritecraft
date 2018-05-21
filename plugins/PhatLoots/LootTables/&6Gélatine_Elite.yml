@@ -1,0 +1,65 @@
+'&6Gélatine_Elite':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    BonusAmount: 1
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SLIME_BALL
+    Probability: 100.0
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 4
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: '1'
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: '&6Gélatine_Elite'
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

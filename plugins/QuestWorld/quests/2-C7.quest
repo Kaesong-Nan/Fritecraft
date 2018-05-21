@@ -1,0 +1,123 @@
+uniqueId: 343c703e-8a9f-4b2e-9df4-46ef8ddb1f28
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+id: 2
+category: 7
+cooldown: -1
+name: '&aRencontrer l''équipe du CRB'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Noseless Villager
+    lore:
+    - §8Humanoid
+    - §8Villager, §8Male
+    internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIsn5WjSqVLuqCU8rE3CossLLWhYICn8hHFm5PMYTK/SUYGkOHh0I5CvPdfFRdMgltcwiMykGEXNlJKndmKYWmqYhd5paA/5Xm+0Z4sGeR1dGH9wNn1HqSBTcPYs6sMADcS3MW5GBn8sNlDNK1RmXqimLG15uiARICbywaf4/n0ii3crf3u2drP9j/WHPLEFJnu1fT8MZ66GO31ULBdqBbd8dt3yEyWdqYdVol2nDItbHyXTNmSmTQKaz8KO+J6nDSfKk0op25cB87KOy+tv9SrtyZ137i/FFoQ1ZwkW16lqr2+h1/BM7RQGAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 23920c66-5af9-49d8-8bcb-20626f9ea987
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 343c703e-8a9f-4b2e-9df4-46ef8ddb1f28
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ddb00e74-1e96-49f4-b00f-f3c8c0202d26
+  entity: PLAYER
+  custom_int: 30
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 343c703e-8a9f-4b2e-9df4-46ef8ddb1f28
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2aed7d35-55b3-4a05-8062-8c2fa8040a49
+  entity: PLAYER
+  custom_int: 29
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 343c703e-8a9f-4b2e-9df4-46ef8ddb1f28
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2b2fe2a2-ac98-4d86-a15e-ff7f693d7cea
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 343c703e-8a9f-4b2e-9df4-46ef8ddb1f28
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1910df8c-191d-4a54-8203-473604141df8
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false

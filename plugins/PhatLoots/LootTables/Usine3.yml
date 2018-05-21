@@ -1,0 +1,28 @@
+Usine3:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aFragment Nucléaire
+        lore:
+        - Eclat du minerai servant à
+        - faire tourner la centrale.
+        enchants:
+          THORNS: 3
+        internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy45d5DzdWSzSzALAydIyCc1sbhkRuvuH4466d/YGNgcc/NL80ocBBjAgIOBJTgnv4SBPT8tLSMxL4WDgRdug19ibiqDYHpqXmpRZrJebmKFR2piTkkGMwOnf0FqUWJJZn4e1AiwSi6givgMsBIGJOf4Vtnu3bTafy6ycxZHR2a48V+5BnfOAWKdwwtzTmJRbn4RLqewgmWRXcH2sYn5SoGLILIr9rptXheU8ZYR7gr7nTNBYBZBV4jCAyW/LDU3Na8kuCA1NQXNNUww1/DBVMUXg5QhO2tF2Oy2i95ujMjOWhsgxZWt8cwHETgKRAYOD8xZOaXJ2bjChgUkycAAAC0YRchOAgAA
+    Probability: 100.0
+  Name: Usine3
+  Reset:
+    Hours: 5
+    Days: 1
+    Seconds: 4
+    Minutes: 7
+  RoundDownTime: false

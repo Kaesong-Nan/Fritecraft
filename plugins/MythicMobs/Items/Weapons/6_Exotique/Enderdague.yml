@@ -1,0 +1,39 @@
+Enderdague:
+  Id: DIAMOND_SWORD
+  Display: '&6&lEnderdague &r'
+  Lore:
+  # - '&b&oPrécurseur'
+  # - '&b&oLégendaire'
+  # - ' '
+  # - '&7Stats :'
+  - '&7Tranchant XX'
+  - '&7Vitesse III'
+  - '&cFragilité VII'
+  - '&cCécité I'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Paradoxal'
+  - '&7Compétence :&9 Linceul'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.15
+      AttackSpeed: -0.5
+      Damage: 7
+      Health: -14
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  Skills:
+  - skill{s=Paradoxal} ~onTimer:5 @self
+  - skill{s=EnchantLinceul} ~onUse
+  - potion{type=BLINDNESS;duration=100;level=1;force=true} @self ~onTimer:20

@@ -1,0 +1,19 @@
+name: Champi
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation Champi &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dQuêtes de la Forteresse'
+- '&5Anomalie d''Hamburgirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: HUGE_MUSHROOM_2
+data: 0
+location: Bouquenia<>-854.9915712712517<>76.0<>1126.273599423561<>1.6413031<>-267.2157
+slot: 30

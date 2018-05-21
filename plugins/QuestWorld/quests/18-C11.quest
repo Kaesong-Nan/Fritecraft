@@ -1,0 +1,169 @@
+id: 18
+category: 11
+cooldown: -60000
+name: '&6Fruits et légumes'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6Fruits et légumes
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJAgJ68NBoU5fIUuRPuPGzxNVdNQjW9bn6gN1jj5OZ0QF0eIuPI+ff/bljnGrwjFt4N+257VR1Y7TIMY1p586MeuZRw64ry+w6s3FaTwddTRfaD4xeJ6AN9D6MPb3qAPCkwWtW8ZHCL5U+Knd71O583kjsKk5ixEN8uHj4lMl6iV0slF9/uBs5/9c6Q5U7vLD9fXmKxlpkaGNvOV1vzUakN2KlDhGEl1/BtDikVrgirMw/f4KksIPH8UEEthSrpuRhEk2LxGeqZ2QVIfXIME/vpVD2sD0GIpWFVSB8MuddtFgAaPBCKkFhsoyX555uWA3wB+ZBy/ouAQAA
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NmNlZGM4YjU2ODNiZWEwMTY3MzkzNmI2ZWE5NmZlOTQ4YTJiNmNiNDQ0ZGMyOWUxZmNmZjRkMmUyY2Y0In19fQ==
+  custom-skullOwner: CSCoreLib
+uniqueId: 9825cd54-c32d-455c-a8da-a9004eac095d
+categoryId: a459e4e2-189c-439d-a548-6e53b73dd5a9
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 12caaf01-d06d-41f0-8de6-725d5c1d074a
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 94704de8-13d3-408c-b0cd-fa796ba87e28
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6c1658ff-2f4c-4aea-a389-b8610e3a53c3
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CARROT_ITEM
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c000c268-411c-493a-a4e6-63f660972bd9
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTATO_ITEM
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0e8e69f8-a1db-4f3b-9ddc-806eba664ad2
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEETROOT
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9825cd54-c32d-455c-a8da-a9004eac095d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3943e90f-a488-4615-90fc-cc492f96b922
+  entity: PLAYER
+  custom_int: 20
+  exclude-spawners: false

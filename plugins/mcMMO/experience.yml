@@ -1,0 +1,294 @@
+
+#
+#  Experience configuration
+#  Last updated on 1.5.09-SNAPSHOT-b${BUILD_NUMBER}
+#
+#  Configure the experience formula and experience settings here.
+#
+#####
+#
+#  Settings for XP formula
+###
+Experience_Formula:
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:      base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
+    Curve: LINEAR
+    # If invalid values are entered mcMMO will not start and print an error in the console
+    Linear_Values:
+        base: 105
+        multiplier: 5
+    Exponential_Values:
+        multiplier: 0.1
+        exponent: 1.8
+        base: 2000
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    Cumulative_Curve: false
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
+    Multiplier:
+        Global: 1.0
+        PVP: 1.0
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
+    Mobspawners:
+        Multiplier: 0.2
+    Breeding:
+        Multiplier: 1.0
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
+    Modifier:
+        Swords: 3.0
+        Taming: 1.2
+        Acrobatics: 0.8
+        Excavation: 1.3
+        Herbalism: 1.0
+        Unarmed: 3.0
+        Woodcutting: 0.8
+        Mining: 1.9
+        Archery: 5.0
+        Axes: 3.0
+        Repair: 1.0
+        Fishing: 1.5
+        Alchemy: 1.0
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
+    Custom_XP_Perk:
+        Boost: 1.25
+#
+# Settings for Diminished Returns
+###
+Diminished_Returns:
+    Enabled: true
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
+    Threshold:
+        Swords: 15000
+        Taming: 15000
+        Acrobatics: 15000
+        Excavation: 15000
+        Herbalism: 15000
+        Unarmed: 15000
+        Woodcutting: 15000
+        Mining: 15000
+        Archery: 15000
+        Axes: 15000
+        Repair: 15000
+        Fishing: 15000
+        Alchemy: 15000
+    Time_Interval: 120
+#
+#  Settings for XP conversion with '/mcconvert experience'
+###
+Conversion:
+    # Old experience will get divided by this modifier
+    Exp_Modifier: 1
+#
+#  Settings for XP distribution
+###
+Experience:
+    PVP:
+        Rewards: false
+    Acrobatics:
+        Dodge: 12
+        Roll: 10
+        Fall: 12
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
+        FeatherFall_Multiplier: 3.0
+    Alchemy:
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
+        Potion_Stage_1: 20
+        Potion_Stage_2: 50
+        Potion_Stage_3: 35
+        Potion_Stage_4: 35
+        Potion_Stage_5: 10
+    Archery:
+        Distance_Multiplier: 0.02
+    Fishing:
+        Raw_Fish: 100
+        Raw_Salmon: 100
+        Clownfish: 200
+        Pufferfish: 200
+        Shake: 30
+    Excavation:
+        Clay: 15
+        Dirt: 3
+        Coarse_Dirt: 3
+        Podzol: 5
+        Grass: 1
+        Gravel: 5
+        Mycel: 5
+        Sand: 4
+        Red_Sand: 4
+        Snow: 1
+        Snow_Block: 2
+        Soul_Sand: 4
+    Woodcutting:
+        Acacia: 10
+        Birch: 10
+        Dark_Oak: 10
+        Generic: 10
+        Jungle: 10
+        Redwood: 10
+        Huge_Mushroom_Red: 5
+        Huge_Mushroom_Brown: 5
+        Huge_Mushroom_2: 50
+        Huge_Mushroom_1: 50
+    Herbalism:
+        Allium: 12
+        Azure_Bluet: 12
+        Blue_Orchid: 12
+        Brown_Mushroom: 15
+        Cactus: 9
+        Carrot: 10
+        Chorus_Flower: 10
+        Chorus_Plant: 6
+        Cocoa: 14
+        Crops: 10
+        Dead_Bush: 2
+        Lilac: 12
+        Melon_Block: 15
+        Nether_Warts: 10
+        Orange_Tulip: 12
+        Oxeye_Daisy: 12
+        Peony: 12
+        Pink_Tulip: 16
+        Poppy: 12
+        Potato: 10
+        Pumpkin: 15
+        Red_Mushroom: 12
+        Red_Tulip: 12
+        Rose_Bush: 12
+        Small_Fern: 2
+        Small_Grass: 2
+        Sugar_Cane_Block: 5
+        Sunflower: 9
+        Tall_Grass: 3
+        Tall_Fern: 3
+        Vine: 2
+        Water_Lily: 10
+        White_Tulip: 12
+        Yellow_Flower: 12
+        Beetroot_Block: 11
+        Potato_Ungrown: 0
+        Crops_Ungrown: 0
+        Cocoa_Ungrown: 0
+        Nether_Warts_Ungrown: 0
+        Beetroot_Block_Ungrown: 0
+        Carrot_Ungrown: 0
+        Beetroot_Block_Ripe: 50
+        Crops_Ripe: 50
+        Potato_Ripe: 50
+        Carrot_Ripe: 50
+        Cocoa_Ripe: 30
+        Nether_Warts_Ripe: 50
+    Mining:
+        Coal_Ore: 10
+        Diamond_Ore: 50
+        Emerald_Ore: 20
+        End_Bricks: 1
+        Ender_Stone: 1
+        Glowstone: 10
+        Gold_Ore: 30
+        Hard_Clay: 1
+        Iron_Ore: 15
+        Lapis_Ore: 20
+        Mossy_Cobblestone: 5
+        Obsidian: 10
+        Packed_Ice: 1
+        Quartz_Ore: 20
+        Redstone_Ore: 15
+        Sandstone: 1
+        Stained_Clay: 1
+        Red_Sandstone: 1
+        Prismarine: 8
+        Purpur_Block: 1
+        Purpur_Pillar: 1
+        Purpur_Slab: 1
+        Purpur_Stairs: 1
+        Stone: 1
+        Netherrack: 1
+        Stone|*: 30
+        Stained_Clay|*: 50
+    Repair:
+        Base: 80.0
+        Wood: 1.0
+        Stone: 1.5
+        Iron: 2.5
+        Gold: 2.0
+        Diamond: 5.0
+        Leather: 2.0
+        String: 2.0
+        Other: 1.5
+    Smelting:
+        Coal_Ore: 2
+        Diamond_Ore: 8
+        Emerald_Ore: 8
+        Gold_Ore: 12
+        Iron_Ore: 10
+        Lapis_Ore: 8
+        Quartz_Ore: 10
+        Redstone_Ore: 4
+    Taming:
+        Animal_Taming:
+            Wolf: 100
+            Ocelot: 150
+            Horse: 100
+            Mule: 1000
+            Zombie_Horse: 1000
+            Donkey: 1000
+            Skeleton_Horse: 1000
+    Combat:
+        Multiplier:
+            Animals: 0.3
+            Creeper: 1.0
+            Skeleton: 1.0
+            Spider: 1.0
+            Giant: 0.0
+            Zombie: 1.0
+            Slime: 1.0
+            Ghast: 4.0
+            Pig_Zombie: 1.0
+            Enderman: 1.0
+            Cave_Spider: 1.0
+            Silverfish: 1.0
+            Blaze: 1.0
+            Magma_Cube: 2.0
+            Ender_Dragon: 0.5
+            Wither: 0.3
+            Witch: 1.0
+            Iron_Golem: 1.0
+            Wither_Skeleton: 1.0
+            Endermite: 2.0
+            Guardian: 3.0
+            Elder_Guardian: 3.0
+            Shulker: 1.0
+            Rabbit: 1.0
+            Snowman: 0.0
+            Squid: 1.0
+            Zombie_Villager: 2.0
+            Zombie_Horse: 1.0
+            Vindicator: 3.0
+            Pig: 1.0
+            Cow: 1.0
+            Chicken: 1.0
+            Polar_Bear: 1.0
+            Mule: 1.0
+            Bat: 1.0
+            Stray: 2.0
+            Mushroom_Cow: 1.0
+            Skeleton_Horse: 1.0
+            Evoker: 3.0
+            Llama: 1.0
+            Ocelot: 1.0
+            Sheep: 1.0
+            Donkey: 1.0
+            Husk: 3.0
+            Horse: 1.0
+            Villager: 1.0
+            Illusioner: 3.0
+            Parrot: 1.0

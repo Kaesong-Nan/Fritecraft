@@ -1,0 +1,61 @@
+id: 10
+category: 4
+cooldown: 79200000
+name: '&4&lLe Nécromant, Tyran des morts'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §4§lLe Nécromant, Tyran des morts
+    internal: H4sIAAAAAAAAAE2QTY+bMBCGvVUrZVF/Rq+RMAGiHPawS7KJrdiUxJjgGx9ObTAsysdm4dfXvfU2o+ed0TPjAOCAn8f2bszvy8dZGzkD31ANfsGFF3r1uZ7XRVXP/WIp5yu4XM1lWHs+tK17rhzg2KFBXm5aXp/B7Ca/bveLvDoAgKcZ+MELc5dPTI7YLTJoqsVBladXHTcbSNbkEbPWJw3xyXpzRf3bWHpiKLcciwiFqDGGNH8C0RBIbE3XiUs7qqlHDZ0QpKxWlKUTadAX0g9d7fCn6MxVpIEqs1THGm9E9u4WEbK76SC8QNU7PgqOTXXiQ9XxFjWDW/Xc7CPsipNy65NlIwqtLzu6JrZ8iXo+lv98Ost3r+F+XP2XDW5FFph8gZXok3vZcXe/OBi5O8CqSz9zplrRWe/1xhfsXdMsgWR6UzHjSmzTgHbCxFtu71AtnQ6tzTd5hjWdqIozbPIMwZjZD7B2yr0kIFn+QD1cnZOXFwBm4DstOgmeo2P0cZF7XQLwFxjgCvbOAQAA
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skullOwner: CSCoreLib
+  custom-skull: eyJ0aW1lc3RhbXAiOjE1MDMwOTk4MjM4MDEsInByb2ZpbGVJZCI6IjllMjg5ZjM1MjllNDQ0NmNiN2NlNzI1NTdhNTUzMjIxIiwicHJvZmlsZU5hbWUiOiJEZWF0aCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThkZmQ0NDE4ZTFiNWQ1MzBhOTVhZGU5NmZlOGVhNThkNzRkYThjYWJiNzNhOWJlYWI1OTZjMTkzY2Q5MWYwIn19fQ==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 4d7e924d-3c00-42e9-b9e9-62c8933ef750
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&4&lNecromant'
+  timeframe: 0
+  questId: 4d7e924d-3c00-42e9-b9e9-62c8933ef750
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 251.0
+    y: 34.0
+    z: 1152.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7de15e5a-ee6c-42cc-a19c-346b457174d7
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false

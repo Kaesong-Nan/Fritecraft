@@ -1,0 +1,20 @@
+voucher:
+  item:
+    item: PAPER
+    name: '&e&lBoost de Valeur'
+    lore:
+    - '&7Clic droit pour activer un boost pour tout le serveur !'
+    - ''
+    - '&6+20% émeraudes &7(Lionel) pendant &b1 heure'
+    - '&7Durée cumulable par d''autres joueurs et vous-même'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] booster monetary %player% 1.2 60'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

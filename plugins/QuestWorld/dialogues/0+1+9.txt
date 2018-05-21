@@ -1,0 +1,11 @@
+&6<Tuteur> &f: Oh, un nouveau !
+&6<Tuteur> &f: Je me demande laquelle de nos &5Déesses &fvous allez choisir !
+&6<Tuteur> &f: Hé oui, tout le monde ici "suit" une déesse en particulier.
+&6<Tuteur> &f: Essentiellement, elles nous aident dans certaines tâches.
+&6<Tuteur> &f: Et peuvent également nous accorder une partie de leurs pouvoirs !
+&6<Tuteur> &f: Certaines actions plaisent à certaines déesses, et elles nous récompensent avec de la &afaveur divine&f.
+&6<Tuteur> &f: La &afaveur divine &fest représentée par l'expérience. &7(barre d'xp, et flacons)
+&6<Tuteur> &f: Plus votre niveau d'adoration est élevé, et plus vous aurez de bonus.
+&6<Tuteur> &f: Pour choisir une adoration, c'est facile.
+&6<Tuteur> &f: Simplement, depuis le /menu, puis l'icone "adorations".
+&6<Tuteur> &f: N'hésitez par à lire les descriptions des icones !

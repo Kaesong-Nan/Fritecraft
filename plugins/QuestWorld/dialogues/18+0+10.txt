@@ -1,0 +1,4 @@
+&9<Patrick> &f: Je n'ai le droit de faire passer que ceux qui y sont autorisés.
+&9<Patrick> &f: Il y a un projet très sensible au delà de cette grille.
+&9<Patrick> &f: Si vous ne me prouvez pas que vous faites parti de l'équipe de recherche, vous ne pouvez pas entrer.
+&e&l>> &r&7Terminez la quête d'introduction du &eCentre de Recherche &7 pour pouvoir faire les quêtes du Nether.

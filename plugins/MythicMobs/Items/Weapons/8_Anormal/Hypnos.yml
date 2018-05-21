@@ -1,0 +1,38 @@
+Hypnos:
+  Id: DIAMOND_SWORD
+  Display: '&4&lHypnos &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Solidité V'
+  - '&7Poison II'
+  - '&7Amphibie'
+  - '&cLenteur I'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dObscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+      # Armor: 4
+      # Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - DURABILITY:5
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantAmphibie} ~onTimer:40 1
+  - skill{s=EnchantPoison} ~onAttack @Target 1

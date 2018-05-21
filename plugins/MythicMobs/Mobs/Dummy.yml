@@ -1,0 +1,17 @@
+Dummy:
+  Mobtype: ZOMBIE
+  Health: 2000
+  Display: '&eDummy'
+  Skills:
+  - heal{amount=500} @self ~onTimer:200
+  - message{msg="<mob.hp> / <mob.mhp>"} @Trigger ~onDamaged 1
+  BossBar:
+    Enabled: true
+    Title: '&eDummy'
+    Range: 10
+    Color: YELLOW
+    Style: SEGMENTED_10
+  Options:
+    Despawn: false
+    MovementSpeed: 0.0
+    NoAI: true

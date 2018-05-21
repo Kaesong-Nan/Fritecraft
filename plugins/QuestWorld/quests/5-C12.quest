@@ -1,0 +1,138 @@
+id: 5
+category: 12
+cooldown: -60000
+name: Enquête
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Wither
+    lore:
+    - §8Monsters
+    - §8Vanilla, §8Nether
+    internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbkkGKJhZGmvaIQWE8js7CoMwzNSGginzVD6ixJV3d3PuSa4OoMPTcZiF+Bi/2l4wDe5JA89ogza4xshobIaNjWuZBq6r1kB/qarKtpAO+ipd2Dj17PoI2sRu0zyyqw4Adxo8ZJWYGfywxUO06FBTeKJeiLv25IhESPjlhZyz5fRGXCJXvn91Dwv+t3WmKndEaXsdPUfzSWboYMeC7WOzlul3acUyULHwFVE0j5CfRCrggxXkpVmq1Ka7WPr88xbkkekrf6EydcJEiIB3spTEoVvKKc94uPOGYPuuwrzs28LE63v4BWCoauMYAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.choco.usine6
+  items: []
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 12-C4
+uniqueId: ced62a85-bdea-4c57-be88-3f94416293f2
+categoryId: 4cc988b3-c359-42e3-b557-5c2a3507b1fb
+parentId: 6d56470a-ae66-4b17-8a91-29a97d3f3933
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Clé en os
+  amount: 1
+  lore: ''
+  index: 0
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: ced62a85-bdea-4c57-be88-3f94416293f2
+  reset-on-death: false
+  display-name: '&fTrouver quelque chose de suspect'
+  location:
+    world: Bouquenia
+    x: 574.0
+    y: 125.0
+    z: 2010.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 654e5b59-e8bb-493a-bb4a-c1cb196e7abe
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '§7X: 633 Y: 108 Z: 1932'
+  amount: 1
+  lore: ''
+  index: 1
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: ced62a85-bdea-4c57-be88-3f94416293f2
+  reset-on-death: false
+  display-name: '&fFouiller la maison suspecte'
+  location:
+    world: Bouquenia
+    x: 633.0
+    y: 108.0
+    z: 1932.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e2b1cdcc-f0e0-482a-a87c-aa9b99674b67
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dLotus Noir §r
+  amount: 1
+  lore: ''
+  index: 2
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: ced62a85-bdea-4c57-be88-3f94416293f2
+  reset-on-death: false
+  display-name: '&fTrouver un signe de Fringirl'
+  location:
+    world: Bouquenia
+    x: 624.0
+    y: 93.0
+    z: 1992.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 28101e46-467a-4d16-a885-d0a5a1aacada
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: '&aMaire de Chocotown'
+  timeframe: 0
+  questId: ced62a85-bdea-4c57-be88-3f94416293f2
+  reset-on-death: false
+  display-name: Prévenir le maire
+  location:
+    world: Bouquenia
+    x: 624.0
+    y: 93.0
+    z: 1992.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d58fcb8c-9a9a-4f54-a6ec-22f698f213fb
+  entity: PLAYER
+  custom_int: 319
+  exclude-spawners: false

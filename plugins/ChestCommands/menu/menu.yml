@@ -1,0 +1,375 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1&lMenu'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 347
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+# Rules:
+#   COMMAND: 'open: reglement.yml'
+#   NAME: '&e&lRèglement'
+#   LORE:
+#     - 'Menu du règlement'
+#   ID: barrier
+#   POSITION-X: 1
+#   POSITION-Y: 1
+#
+# Grief:
+#   COMMAND: 'open: grief.yml'
+#   NAME: '&e&lGrief'
+#   LORE:
+#     - 'Menu des protections'
+#   ID: 284
+#   POSITION-X: 1
+#   POSITION-Y: 2
+
+Divi:
+  COMMAND: 'open: divine.yml'
+  NAME: '&5&l[**] Divinités [**]'
+  LORE:
+    - 'Menu des divinités'
+  ID: nether_star
+  POSITION-X: 2
+  POSITION-Y: 2
+
+Cosmetics:
+  COMMAND: 'open: cosmetiques.yml'
+  NAME: '&6&l[**] Cosmétiques [**]'
+  LORE:
+    - ''
+    - 'Gagdets'
+    - 'Transformations'
+    - 'Déguisements'
+    - 'Particules'
+    - 'Emotes'
+    - 'Tags'
+    - 'Montures'
+    - 'Minipets'
+    - 'Elytra'
+  ID: 385
+  POSITION-X: 8
+  POSITION-Y: 2
+
+
+# Elixir:
+#   COMMAND: 'open: elixir.yml'
+#   NAME: '&6&lElixirs'
+#   LORE:
+#     - 'Voir les elixirs'
+#   ID: 373
+#   POSITION-X: 2
+#   POSITION-Y: 5
+
+# Boussole:
+#   COMMAND: 'console: warp Pitman {player}'
+#   NAME: '&e&lMonde Ressources'
+#   LORE:
+#     - 'Voir les points de teleportation'
+#     - 'Pour couper du bois'
+#     - 'Pour miner à volonté'
+#     - 'Ou tuer tout ce qui bouge'
+#   ID: compass
+#   POSITION-X: 5
+#   POSITION-Y: 1
+Metro:
+  COMMAND: 'warps'
+  NAME: '&e&l[**] Transports [**]'
+  LORE:
+    - ''
+    - 'Stations de Bouquenia'
+    - 'Accès Ile-Divine'
+    - 'Accès Grande Cathédrale'
+  ID: 328
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+
+Minigames:
+  # COMMAND: 'open: games.yml'
+  NAME: '&6&l[**] Mini-jeux [**]'
+  LORE:
+    - ''
+    - '&cTemporairement désactivé'
+    - '&cIncomptaible 1.12'
+  ID: 331
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+# DAC:
+#   COMMAND: 'dac list'
+#   NAME: '&6&lDé à coudre'
+#   LORE:
+#     - 'Listes des arènes de'
+#     - 'dé à coudre'
+#   ID: 138
+#   POSITION-X: 9
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+#
+# DACSTATS:
+#   COMMAND: 'dac stats'
+#   NAME: '&dStatistiques'
+#   LORE:
+#     - 'Voir vos statistiques,'
+#     - 'classements, défis ...'
+#   ID: 439
+#   POSITION-X: 8
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+#
+# Island:
+#   COMMAND: 'is'
+#   NAME: '&6&lSkyblock'
+#   LORE:
+#     - 'Ouvrir le menu du mini jeu Skyblock'
+#   ID: 2
+#   POSITION-X: 7
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+Banque:
+  COMMAND: 'open: banque.yml'
+  NAME: '&a&l[**] Banque [**]'
+  ID: EMERALD
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  LORE:
+    - ''
+    - '&7Dépot d''émeraudes'
+    - '&7Retrait d''émeraudes'
+    - ''
+    - '&7Requiert un coffre [vault]'
+
+Pexi:
+  COMMAND: 'open: pexmenu.yml'
+  NAME: '&b[**] Utilitaires de Pex [**]'
+  ID: 402
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+# Ender:
+#   COMMAND: 'customec open'
+#   NAME: '&5EnderChest'
+#   ID: '130'
+#   POSITION-X: 8
+#   POSITION-Y: 1
+#   KEEP-OPEN: true
+#   VIEW-PERMISSION: CustomEnderChest.commands
+#
+# Bench:
+#   COMMAND: 'wbench'
+#   NAME: '&9Etabli'
+#   ID: workbench
+#   POSITION-X: 9
+#   POSITION-Y: 2
+#   KEEP-OPEN: true
+#   VIEW-PERMISSION: essentials.workbench
+
+MMO2:
+  COMMAND: 'open: mmo.yml'
+  NAME: '&6&l[**] Compétences [**]'
+  POSITION-X: 2
+  POSITION-Y: 3
+  ID: stone-pickaxe
+  LORE:
+    - ''
+    - 'Détails des talents'
+    - 'Boosts'
+
+Quests:
+  COMMAND: 'quests'
+  NAME: '&d&l[**] Journal des quetes [**]'
+  POSITION-X: 5
+  POSITION-Y: 4
+  ID: book
+  LORE:
+    - ''
+    - 'Progrès des quêtes'
+    - 'Objectifs'
+  KEEP-OPEN: true
+
+
+
+Blanc11:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc12:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc13:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc14:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc15:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc16:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc17:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc18:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc19:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc51:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc52:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc53:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc54:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc55:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc56:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc57:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc58:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc59:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc21:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+Blanc31:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc41:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 4
+  KEEP-OPEN: true
+Blanc92:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+Blanc93:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc94:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 4
+  KEEP-OPEN: true

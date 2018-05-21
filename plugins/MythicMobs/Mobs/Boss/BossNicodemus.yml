@@ -1,0 +1,115 @@
+Nicodemus:
+  Mobtype: IRON_GOLEM
+  Disguise:
+    Type: player
+    Player: '&4&lNicodemus'
+    Skin: Ender
+  BossBar:
+    Enabled: true
+    Title: '&4Nicodemus'
+    Range: 40
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  Options:
+    Silent: true
+    Despawn: true
+    FollowRange: 50
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+    PreventMobKillDrops: true
+  Display: '&4&lNicodemus'
+  Health: 2000
+  Damage: 20
+  Skills:
+  - sound{s=entity.witch.death;p=0.8;v=0.8} @self ~onDamaged
+  - sound{s=entity.blaze.ambient;p=0.3;v=0.2} @self ~onTimer:60 0.25
+  - particles{p=reddust;a=150;hs=0.8;vs=1.2;s=0;y=1.0;c=#8ad9ff} @self ~onDamaged
+  # - skill{s=healthbarA} ~onDamaged 1
+  # - skill{s=healthbarB} ~onDeath 1
+  - summon{type=KarazschCloud;amount=1;radius=15} ~onDamaged 0.25
+  # - skill{s=KarazschBossParticles} @self ~onTimer:20
+  - skill{s=KarazschArcaneBolt} @target ~onTimer:80
+  - summon{type=KarazschLaserMob;amount=1;radius=20;os=true} ~onTimer:200
+  Equipment:
+  - KarazschHead:4
+  DamageModifiers:
+  - FALL 0
+  Faction: Karazsch
+  Drops:
+  - BagNicodemus
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+
+KarazschLaserMob:
+  Type: BABY_PIG_ZOMBIE
+  Disguise:
+    Type: ENDER_CRYSTAL
+  Display: ''
+  Health: 5
+  Damage: 0
+  Skills:
+  - skill{s=KarazschLaser} @Target ~onTimer:100
+  - skill{s=KarazschLaserDeath} @Self ~onSpawn
+  - potion{type=SLOW;d=999999;l=10} @self ~onSpawn
+  AITargetSelectors:
+  - 0 clear
+  - 1 Golems
+  Faction: Laser
+  DamageModifiers:
+  - FALL 0
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Silent: true
+
+KarazschCloud:
+  Type: CHICKEN
+  Disguise:
+    Type: CHICKEN
+    Invisible: true
+  Display: 'Dispersed Magic'
+  Health: 1000
+  Damage: 0
+  Skills:
+  - skill{s=KarazschCloudDeath} @Self ~onSpawn
+  - skill{s=MagicCloudEffect} @Self ~onTimer:20
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - MAGIC 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  AIGoalSelectors:
+  - 0 clear
+  - 2 RandomStroll
+  - 3 AvoidArrows
+  - 4 LookAtPlayers
+  - 5 MoveTowardsTarget
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  DamageModifiers:
+  - FALL 0
+  Options:
+    Silent: true
+    Despawn: true
+    FollowRange: 50
+    AlwaysShowName: false
+    MovementSpeed: 0.1
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 1.0
+    PreventMobKillDrops: true

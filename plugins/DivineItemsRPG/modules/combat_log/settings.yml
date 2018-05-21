@@ -1,0 +1,23 @@
+cfg_version: 1.0
+Messages:
+  Chat: false
+  ActionBar: true
+  Default: true
+  Critical: true
+  Dodge: true
+  Block: true
+Sounds:
+  Default:
+    Enabled: true
+    Value: ENTITY_IRONGOLEM_ATTACK
+  Critical:
+    Enabled: true
+    Value: ENTITY_GENERIC_EXPLODE
+  Dodge:
+    Enabled: true
+    Value: ENTITY_COW_MILK
+  Block:
+    Enabled: true
+    Value: BLOCK_ANVIL_PLACE
+Indicators:
+  Enabled: false

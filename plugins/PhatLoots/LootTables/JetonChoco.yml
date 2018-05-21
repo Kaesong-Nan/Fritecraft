@@ -1,0 +1,29 @@
+JetonChoco:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Message
+    Message: -§a§lVous avez trouvé des jetons de Chocogirl !
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Chocogirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: JetonChoco
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

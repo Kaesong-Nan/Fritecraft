@@ -1,0 +1,7 @@
+&a<Lazarus> &f: Mais ...
+&a<Lazarus> &f: C'est quoi ce truc !
+&a<Lazarus> &f: C'est pas ça du tout qu'il faut !
+&a<Lazarus> &f: Un flacon de catalyse cyclique de phase !
+&7*gribouille une note*
+/give <player> paper 1 name:&dNote lore:Flacon_de_catalyse_cyclique_de_phase
+&a<Lazarus> &f: Montrez lui ça.

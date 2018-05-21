@@ -1,0 +1,40 @@
+pBrimstone:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lBrimstone §r
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self
+pOnyx:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lOnyx §r
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self
+pObsidian:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lEpée en Obsidienne §r
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self
+pNether:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lEpée du Nether §r
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self

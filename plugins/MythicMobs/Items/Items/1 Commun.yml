@@ -1,0 +1,12 @@
+CuirCreeper:
+  Id: 334
+  Display: '&fCuir de creeper &r'
+BaconZombie:
+  Id: 367
+  Display: '&fBacon zombie &r'
+FioleGlowstone:
+  Id: 348
+  Display: '&fFiole de glowstone &r'
+FioleRedstone:
+  Id: 334
+  Display: '&fFiole de redstone &r'  

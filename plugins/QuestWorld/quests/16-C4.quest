@@ -1,0 +1,61 @@
+id: 16
+category: 4
+cooldown: 79200000
+name: '&4&lNicodemus, Maitre de la magie du sang'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §4§lNicodemus, Maitre de la magie du sang
+    internal: H4sIAAAAAAAAAE2Ly06DQBhGf40mlPgYbklguDlLg6QdUkahlJbZcRkKdKZtKBjhqXxEWbo4iy/nOyqACi+78yjEV3+tW8EVeCQVvNq2WdTuG9YsjCvNqrGr5bgytLLiNkIGL90yV0Fdohvvh5bfV6AM/GcYe35XAeBBgec0FyOHXz4FOjs2enUMRDkRZ9nJThefpLu55JJOhUccIhe/eXe2E/73tYf8YIvMDBp2icZCpvrWjAXfxEYp99/hzJrssLeojJtwTc/h7JtZEplM+oh2mcVkpNP5ZGRd2lDkmyyJBfsQgqKgo90J0SRol36i89mia7IQtvXRwAAKPNFcclh5O+/a821bAPwBchRf5SoBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhYWU4NmRhMGNkMzE3YTQ3ZmE2NjY4ZmQ0Nzg1YjVhN2E3ZTRlZDllN2JjNjg2NTJiYWUyNzk4NGI4NGMifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: cac600b4-b050-4a71-8495-02b5db5cf27e
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 99
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&4&lNicodemus'
+  timeframe: 0
+  questId: cac600b4-b050-4a71-8495-02b5db5cf27e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 55.0
+    y: 65.0
+    z: 1983.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4c14e0e7-74b3-4ec8-821c-bd669133df21
+  entity: IRON_GOLEM
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,2 @@
+/fill -809 90 1770 -809 89 1770 minecraft:air
+&7*Un passage s'est ouvert ...*

@@ -1,0 +1,302 @@
+uniqueId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 31
+category: 5
+cooldown: -1
+name: '&d&lLa Relique &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: §d§lLa Relique §r
+    lore:
+    - §7Echangeable contre un objet §5Légendaire§7.
+    enchants:
+      ARROW_INFINITE: 10
+    ItemFlags:
+    - HIDE_ENCHANTS
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lLa Relique §r
+      lore:
+      - §7Echangeable contre un objet §5Légendaire§7.
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §d§lPrisme de l'Infini §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 85a6ab44-0898-4894-8b4c-bd84ab8c2f16
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lSigle Céleste §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: da8a1ceb-e0b4-43d7-885e-bf44e5f76515
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lMonolithe §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6e762de4-02a6-41b8-a8e2-ca18f8a155f1
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STRUCTURE_VOID
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3b054cd7-4779-40f5-a9b1-556e87d6abc9
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lMantra §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9d0c23e7-ea94-4e96-83b3-3d12b8fe5b1e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lL'Ankh §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 31805e4f-96f2-4b09-bd61-f3dc866e124b
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lNazar §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bb231956-38c4-4aed-8118-fd771625e8bb
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lProtecteur §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e0553daa-747f-4707-8f67-fbbe1e88f8ad
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lBezoar §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 8
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 34b983b9-3e98-472e-b9d2-da73f495ccb5
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,39 @@
+AnomalieFlurry:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §dGlace à la vanille
+        lore:
+        - §7Utilisé pour les armes légendaires.
+        internal: H4sIAAAAAAAAAE2O306DMBxGf5qYIPExvCXhzwrucsrMSkbnGFDauwIlUMtcNtCxZ/Ih5dLLk+98yTEBTHg6fI5af5y/mk5LA+5xDc+BsCtZC8cq3VpYi7IJrLISvlW+oMAL6qp2F40J5nw6yfPQycsjGIO8DuNZXkwAuDPgIRd6lPArp8jmRWvXRaSrCfszpwdb77A6BfiYT+Ub9nE/75uVv52W/1w0CIo086KWH/dj2ef21ku03CRO1WffjGKX3N5VHOIf0mcTo3nLw9eW0AwxldmEMi8OK0QUVyxdOyRlN67WHk9X1x1Nujjl7ewhHmZu7O67pnCWczn8AVMCvtUUAQAA
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Fringirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: AnomalieFlurry
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

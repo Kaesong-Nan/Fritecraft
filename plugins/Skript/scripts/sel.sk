@@ -1,0 +1,13 @@
+#
+# these triggers fix some drops.
+#
+
+on block damage:
+    player is in world "Bouquenia":
+        if "%region at player%" contains "sel":
+            block is snow block:    
+                cancel event
+                set block to air
+                drop 1 light gray dye named "&fSel"
+                wait 60 seconds
+                set block to snow block

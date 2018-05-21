@@ -1,0 +1,50 @@
+id: 13
+category: 3
+cooldown: -60000
+name: Slimes
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Slimes
+    id: slime
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 3805ab2c-02a2-41f3-b7cd-374a7834eeb6
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 55
+  amount: 25
+  lore: ''
+  index: 0
+  type: KILL
+  custom_string: ''
+  timeframe: 0
+  questId: 3805ab2c-02a2-41f3-b7cd-374a7834eeb6
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 17b23b3e-e73f-4482-94aa-66285081da16
+  entity: SLIME
+  custom_int: 0
+  exclude-spawners: false

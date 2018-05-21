@@ -1,0 +1,54 @@
+id: 4
+category: 0
+cooldown: -1
+name: '&c&lLes Rangs'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §c§lLes Rangs
+    internal: H4sIAAAAAAAAAE2LQW+CMBhAvy1bgmQ/Y1cSEIrrYYdFEy0RGFLB9oa0hmqrBsGJv2s/cB53fHnv2QA2vOWHXuvv9rRTWlrwTAS8oxC7SIyx84F95ATBxHeqiawdjMd+5XliFwTYBvsxnWXbKXkZgdXJW9e38mIDwJMFr0Wlewm/cohcvmlcsYl0PZDwwTR3dUr25wk5FsN2SkJiHn7xFS4H/K9FXVUizfyo4ces35rCXforLRcrrzbra2zigBsyju/ikJj1jVGhGG0Mowefl2vEZwTFtNDpLLtz2mh2r1E8zwK2F4rv2U8yaxSnbIjLQifzzEtLrlge4d3G/QSw4CWpjITRNJ+eWrlUW4A/9K1Cqy4BAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM4ZmI2MzdkNmUxYTdiYThmYTk3ZWU5ZDI5MTVlODQzZThlYzc5MGQ4YjdiZjYwNDhiZTYyMWVlNGQ1OWZiYSJ9fX0=
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: b90e02ae-c72e-4fad-8444-d6e326bb6a04
+categoryId: 90fe56fe-23a0-4074-8543-a811345179ad
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: b90e02ae-c72e-4fad-8444-d6e326bb6a04
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 18da79cd-b154-47d0-abd5-f7690b50b58f
+  entity: PLAYER
+  custom_int: 690
+  exclude-spawners: false

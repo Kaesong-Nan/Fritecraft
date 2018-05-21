@@ -1,0 +1,25 @@
+'&6Silverfish_des_tombes':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Flurrygirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: '&6Silverfish_des_tombes'
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

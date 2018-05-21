@@ -1,0 +1,191 @@
+id: 29
+category: 7
+cooldown: -60000
+name: Etude Bovine III
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Jukebox
+    lore:
+    - §8Decoration
+    - §8Vanilla, §8Technical Device
+    internal: H4sIAAAAAAAAAE2OwU6DQBiEf01MkPgYXkmWQtE9eCAiFFIW2yKFvW1hKSxLbVpogKfyESWenMtk8s0kowKo8LRreik/L99lLbkC934Bz8hEJs4x0gqDY820FrqGc1Zq6E+MsYX+qoI6j8780tX8+ghKx4euv/CrCgB3CjwkTPYcfvgYIJpWqEgDmY++Ned4h2Tki/OLf0rGw7tv+e3MV7a1HvG/7rJj+6XMjKCip01/aBO0NraSr7Z63n7diLcZqFMJEtsocjIjisOJTPZEvY+JtIkIY7clcWhSkY1EJG0UHxFx3CZyjgPdu4I4laQimL2ZiBcOWR3gMkVv83v4BeHpIBoYAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.crb.bovin3
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 25988e80-1bc6-40f6-b238-878aee48684c
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: 6ed97900-af3a-4529-9638-a9f061efd474
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE_BLOCK
+  amount: 25
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Zajonc
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 605.0
+    y: 72.0
+    z: 908.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a137d669-9d89-43ee-a4df-72f7942139ab
+  entity: PLAYER
+  custom_int: 30
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: Meuh
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 603.0
+    y: 72.0
+    z: 908.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6ff66c28-ed5f-444e-8460-c1dcd394861a
+  entity: PLAYER
+  custom_int: 43
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: Zajonc
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 602.0
+    y: 72.0
+    z: 911.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8bf23de7-7e2f-4520-b5c9-98f6d5565fd1
+  entity: PLAYER
+  custom_int: 30
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6f9cd83d-e2a7-4aa2-84e9-d3e1c86e3775
+  entity: PLAYER
+  custom_int: 33
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: RECORD_4
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7b2e0d04-7ab0-41c5-9021-ccbb44b22df7
+  entity: PLAYER
+  custom_int: 33
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: RECORD_4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dDisque formaté
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 25988e80-1bc6-40f6-b238-878aee48684c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 72603138-73dd-4fb6-8c97-876ca649ecdf
+  entity: PLAYER
+  custom_int: 30
+  exclude-spawners: false

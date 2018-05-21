@@ -1,0 +1,22 @@
+LavaSlime:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+    Probability: 100.0
+  Name: LavaSlime
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

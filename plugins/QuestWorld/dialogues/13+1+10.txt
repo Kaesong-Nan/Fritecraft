@@ -1,0 +1,9 @@
+&e<Prêtre de Irvine> &f : Je vous ai vu saluer Poulard, la plume céleste de Irvine, grand bec d'or de Bouquenia et prix Nobel de la volaille.
+&e<Prêtre de Irvine> &f : Z'avez surement rien bité à ce qu'il a dit, pas vrai ?
+&e<Prêtre de Irvine> &f : Heureusement, mon rôle principal est de traduire les propos divins de Poulard.
+&e<Prêtre de Irvine> &f : Alors... en gros...
+&e<Prêtre de Irvine> &f : Les cheveux du papier peint sentent la tomate
+&e<Prêtre de Irvine> &f : ...
+&e<Prêtre de Irvine> &f : Ok, j'avoues, j'ai séché les cours de traduction de poulet.
+&e<Prêtre de Irvine> &f : Vous savez quoi ? Allez me chercher un livre de traduction universel à la bibliothèque de Bouquenia.
+&e<Prêtre de Irvine> &f : Pourquoi je l'ai pas déjà sur moi ? Ben ça serait trop facile sinon. Mouarf, ouarf, ouarf !

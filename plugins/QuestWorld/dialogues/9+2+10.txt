@@ -1,0 +1,9 @@
+&9<Clovis> &f: Vous encore !
+&9<Clovis> &f: Alors, cette armure ? Vous l'avez trouvé ?
+&9<Clovis> &f: Content pour vous.
+&9<Clovis> &f: Sa pioche ?
+&9<Clovis> &f: Oui, ça on l'a retrouvé.
+&9<Clovis> &f: Elle est juste là derrière moi.
+&9<Clovis> &f: Et non, je ne peux pas vous la donner.
+&9<Clovis> &f: Elle appartient à la mine.
+&9<Clovis> &f: Désolé.

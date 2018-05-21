@@ -1,0 +1,232 @@
+id: 9
+category: 7
+cooldown: -60000
+name: Enchantements I
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Enchantment Table
+    lore:
+    - §8Decoration
+    - §8Vanilla, §8Book
+    internal: H4sIAAAAAAAAAE2OzWqDQBzE/y0UrPQxehXWXTXssTTBrGS1Mdavm9GVbLKbBqNN9Jn6kJWeOqcZfjMwJoAJL7vToNRH99VKJQx4ZA28Igc5tKbIaoigluNh26J11VroT1VVYbowwZxHF9H1UlyfwejFvR86cTUB4MGAp7RSg4AfMQaozA+oyQNVj8ybc7JDKmLHy4Kd03H/zjymZ75+8zYj/dd1+ypzVUGCQ3neDnudog2JlVjHdq0/v3lSY65X9zBjt3BZuLMfyySWHJeSTwXmODiFPiPRcjuFfnwskxXhUyAjP5U846RIlA4xv5U60KEuZJvbdH4Ov+6oHIUUAQAA
+rewards:
+  money: 0
+  xp: 10
+  commands:
+  - pex user @p add permission.crb.echantements1
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 5
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+parent: 7-C6
+world-blacklist: []
+min-party-size: 1
+uniqueId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: a318cd49-4a54-4921-8f7c-e97866a33f22
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_PROJECTILE: 2
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0ca0f7f0-a283-42a7-b06f-62d25e84e7f3
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        SILK_TOUCH: 1
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a7f62efd-b9b6-4f12-a2b5-62a4a01ce309
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DAMAGE_UNDEAD: 3
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 124a7260-5778-47d4-a831-6fb9a0826949
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 2
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 151e89a7-a810-4019-9168-ec1033525220
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DURABILITY: 1
+  amount: 1
+  lore: ''
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b5203f5c-31f1-4beb-9433-ceb8e7445aad
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        THORNS: 1
+  amount: 1
+  lore: ''
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c1b6c877-a1bb-464a-9a4b-41458ef06468
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_FIRE: 2
+  amount: 1
+  lore: ''
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 58159eca-1910-4bf2-aa5c-0e35c245419f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c6d33d34-3a69-4205-b962-b796d8f22c6d
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false

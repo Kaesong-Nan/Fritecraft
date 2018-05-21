@@ -1,0 +1,22 @@
+name: jungle
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation de la Jungle &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dChocotown'
+- '&dCookieland'
+- '&dUsine à cookies'
+- '&cBoss Prototype V'
+- '&5Anomalie de Chocogirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: CONCRETE_POWDER
+data: 12
+location: Bouquenia<>566.0023932633017<>66.0<>2019.2125508127529<>-1.2831825<>-89.51538
+slot: 20

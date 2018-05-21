@@ -1,0 +1,45 @@
+FeralLove:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&4&lFeral Love &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Fléau III'
+  - '&7Raccommodage'
+  - '&7Vampirisme I'
+  - '&cLenteur I'
+  - '&cFaim'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dObscur'
+  - '&7&oPassif Secret'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+      # Armor: 4
+      # Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - DAMAGE_ARTHROPODS:3
+  - DURABILITY:3
+  - MENDING:1
+
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=EnchantVampirisme} ~onAttack 1
+  - skill{s=FeralLove} ~onAttack @Self 1 <30%

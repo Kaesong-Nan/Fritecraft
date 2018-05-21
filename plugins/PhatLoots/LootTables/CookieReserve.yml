@@ -1,0 +1,24 @@
+CookieReserve:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §eCacao
+        internal: H4sIAAAAAAAAAE2Qz0+DMBzFq4nJJP4ZXpdAAbcdPOjcjzZr62YZ0NuAMtoVNWPI4K+33jx88zm8903eew4ADnj4OLXGvJ+/SmXkCNyiAjxKOCvhbOqNvcmhHAehDMbTwAvHEwmDzM/LIJ94DnDs07c8X5Rs7sHoIq+X9iwbBwBwMwJ3+4Np5U0ge+weYs/k/q7KkhfF9MKleuHRt3xgPA2pPjbo87XPoPjOVnss5ugJ6aijwylINa4o3F5TbY/vFK2XJh0s46hjMdaE51ekOpWv8Y+oTSOisMriSDGFl9ma+iIx/Z9erPZBsd73IiGKfTYqci+YK/Rks3l53f35v4r1rmNq+vPP22axaUVM+zQW7qYOTTGfuSKp3CLBZjMQm//YpxC5KUcDW0VXwo+hqHfKsmd8OxC48IllCkVFuO3DkU9rYmk0GbY90Qvfatr2NARuBzbHszJxn+2C4BeMgc5gnAEAAA==
+    Probability: 100.0
+  Name: CookieReserve
+  Reset:
+    Hours: 2
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

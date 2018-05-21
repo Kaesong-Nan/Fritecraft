@@ -1,0 +1,37 @@
+ZombieWorker:
+  Mobtype: ZOMBIE_VILLAGER
+  Display: '&aOuvrier Contaminé'
+  Health: 15
+  Damage: 10
+  Drops:
+  - CaneEnSucre 1 1
+  KillMessages:
+  - '&7<target.name> a été tué par un ouvrier contaminé'
+  Equipment:
+    - wood_sword:0
+  Skills:
+  # - potion{type=CONFUSION;d=400} @Target ~onAttack
+  # - effect:particles{particle=mobSpell;amount=10;hs=1;vs=1;c=#a500ff} ~onTimer:5 @self
+  - remove @Self ~onDeath
+  - summon{type=ZombieWorkerDead;amount=1} @Self ~onDeath
+  Options:
+    MovementSpeed: 0.2
+    KnockbackResistance: 1.0
+    PreventRandomEquipment: true
+
+ZombieWorkerDead:
+  Mobtype: ZOMBIE_VILLAGER
+  Health: 350
+  Damage: 0
+  Equipment:
+    - wood_sword:0
+  Skills:
+  # - effect:particles{particle=mobSpell;amount=10;hs=1;vs=1;c=#a500ff} ~onTimer:5 @self
+  - effect:spin{d=70} @Self ~onSpawn
+  - skill{s=ZWorker} ~onSpawn 1
+  Options:
+    MovementSpeed: 0.2
+    KnockbackResistance: 1.0
+    NoAI: true
+    Invincible: true
+    PreventRandomEquipment: true

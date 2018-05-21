@@ -1,0 +1,73 @@
+uniqueId: 7d5d748a-7fa0-48cf-8bb2-6258c3b60579
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 5
+category: 5
+cooldown: -1
+name: '&c&lGardien'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Golden Orb
+    lore:
+    - §8Miscellaneous
+    - §8Orb, §8Gem
+    internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIsH0U5GmvaJWVR2gK7N7osLstSmxYa2afyEcWbc5v5zSRjA9jwsO1Grd/PX02rhQW3uIZHFKAg4hFyal9EThB6rhPxqnHQn6qq8pH/bIM9j07iPLTicg/WIL6H8SwuNgDcWHCXV3oU8COmGLFSorqMNZ9wOPvdFukUq9MTPubT4RWHuJ/5+iXcTNG/7mKoioWmfizZ8WM89Dna+JkW68zl/f5KlvuJrYgkSqp0RQNaUDcxpKeKG+IxyYpcUi/WxLz5VHVeuuTenKtk9xkkKuuoibvE1JIaHqQFU8TwtindaH4Pv0P/cvIYAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: deluxetags.tag.gardien
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 06f11223-e629-430e-9a00-6a1366be6e02
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SUGAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dIchor §r
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 7d5d748a-7fa0-48cf-8bb2-6258c3b60579
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ec9a19e2-cdc0-4a61-b660-9a4c9111714a
+  entity: PLAYER
+  custom_int: 443
+  exclude-spawners: false

@@ -1,0 +1,159 @@
+Necromant:
+  Type: Skeleton
+  Display: '&4&lNecromant'
+  Health: 2000
+  Armor: 0
+  Drops:
+  - BagNecro
+  BossBar:
+    Enabled: true
+    Title: '&4&lNecromant'
+    Range: 30
+    Color: GREEN
+    Style: SOLID
+  Faction: Boss
+  Disguise:
+    Type: player
+    Player: '&4&lNecromant'
+    Skin: Death
+  KillMessages:
+  - '<target.name> a été tué par le Necromant'
+  DamageModifiers:
+  - DROWNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE .25
+  - POISON 7
+  - MAGIC 6
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=10;hs=1;vs=1} @self ~onTimer:5
+  - skill{s=SummonDead} @Self ~onDamaged 0.1
+  - skill{s=Rapiddamage} @Target ~onTimer:140
+  - skill{s=SkullShot} =1%-50% 1 @Target ~onTimer:540
+  - skill{s=Convert} @Self ~onKillPlayer
+  - message{m="&4&l<mob.name>&f&l<&co> &7Vous voulez rejoindre les morts ?"} @PlayersInRadius{r=100} ~onEnterCombat
+  - message{m="&4&l<mob.name>&f&l<&co> &7Un nouveau serviteur !"} @PlayersInRadius{r=100} ~onKillPlayer
+  - message{m="&4&l<mob.name>&f&l<&co> &7Fringirl vous attend ..."} @PlayersInRadius{r=100} ~onDeath
+  - effect:sound{s=entity.zombie.ambient;v=5.0;p=0.1} @Self ~onSpawn
+  - effect:particles{p=smoke;a=1000;hs=1;vs=1;s=1;y=0} @Self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  - effect:particles{p=smoke;a=15;hs=.6;vs=.6;s=0.3;y=0} =1%-100% @Self ~onDamaged
+  - effect:sound{s=entity.enderdragon.growl;v=4;p=0.1} @Self ~onDeath
+  - skill{s=NecroDeath} @Self ~onDeath
+  - healpercent{m=0.5} @self ~onKillPlayer
+  # - skill{s=ND2} @Self ~onDeath
+  - message{msg="<mob.name> &3a été battu par <trigger.name>!"} @PlayersOnServer ~onDeath
+  Damage: 20
+  Equipment:
+  - Nwwand:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  - 2 Attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 LookAtPlayers
+  - 3 Float
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Options:
+    Silent: true
+    Despawn: false
+    FollowRange: 100
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+    PreventMobKillDrops: false
+    Persistent: true
+    PreventRenaming: true
+    NoDamageTicks: 0
+Dead:
+  Type: Skeleton
+  Display: 'Squelette'
+  Health: 20
+  Modules:
+    ImmunityTable: true
+  Skills:
+  - effect:itemspray{item=bone;amount=20;velocity=0.5;r=0;d=100} @self ~onDeath
+#  - command{c="loot give <target.name> Fritegirl"} @PlayersInRadius{r=25} ~onDeath
+  Damage: 5
+  Equipment:
+  - Bedrock:0
+  Drops:
+  - exp 1-5
+  - bone 1-2 .6
+  - rotten_flesh 1 .6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 AvoidArrows
+  - 3 LookAtPlayers
+  - 4 Float
+  KillMessages:
+  - '<target.name> a été tué par un squelette'
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  Options:
+    Silent: false
+    Despawn: true
+    FollowRange: 40
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.4
+    PreventMobKillDrops: false
+    Persistent: false
+    PreventRenaming: false
+    NoDamageTicks: 1
+    Collidable: false
+    Glowing: false
+DeadP:
+  Type: Zombie
+  Display: 'Undead Player'
+  Health: 200
+  Armor: 5
+  Modules:
+    ImmunityTable: true
+  Skills:
+  - effect:itemspray{item=rotten_flesh;amount=30;velocity=0.2;r=0;d=100} @self ~onSpawn
+  Damage: 6
+  Equipment:
+  - Air:0
+  Drops:
+  - exp 2-10
+  - bone 2-4 .8
+  - rotten_flesh 2-8 .8
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 LookAtPlayers
+  - 3 Float
+  KillMessages:
+  - '<target.name> was disfigured by an Undead player'
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  Options:
+    Silent: false
+    Despawn: true
+    FollowRange: 40
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.8
+    PreventMobKillDrops: false
+    Persistent: false
+    PreventRenaming: false
+    NoDamageTicks: 1
+    Collidable: true
+    Glowing: false

@@ -1,0 +1,230 @@
+id: 26
+category: 3
+cooldown: 172800000
+name: '&dGlaive Brisée &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §dGlaive Brisée §r
+    Unbreakable: true
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §d§lGlaive Brisée §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 5
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&6Cadavre Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2be9719b-6238-41df-8de9-809b98784a03
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+  amount: 5
+  lore: ''
+  index: 1
+  type: KILL_NAMED_MOB
+  custom_string: '&6Creeper Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d550e7eb-3bea-441c-8718-db1b77052d96
+  entity: CREEPER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 5
+  lore: ''
+  index: 2
+  type: KILL_NAMED_MOB
+  custom_string: '&6Squelette Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bb01b704-a379-4cf7-ab9e-d6822e9a855e
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 52
+  amount: 5
+  lore: ''
+  index: 3
+  type: KILL_NAMED_MOB
+  custom_string: '&6Araignée Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0bc333b6-79af-4ae1-9cb3-320f068f667e
+  entity: SPIDER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 55
+  amount: 5
+  lore: ''
+  index: 4
+  type: KILL_NAMED_MOB
+  custom_string: '&6Gélatine Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e00395f1-b741-4696-87de-f9fdc7650218
+  entity: SLIME
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 58
+  amount: 5
+  lore: ''
+  index: 5
+  type: KILL_NAMED_MOB
+  custom_string: '&6Enderman Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bd6d5f75-aaa9-4b73-abc9-60a7404d2ee3
+  entity: ENDERMAN
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 59
+  amount: 5
+  lore: ''
+  index: 6
+  type: KILL_NAMED_MOB
+  custom_string: '&6Araignée Venimeuse Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 52cc904a-3f6b-4738-a28d-1bed53d86b85
+  entity: CAVE_SPIDER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 60
+  amount: 5
+  lore: ''
+  index: 7
+  type: KILL_NAMED_MOB
+  custom_string: '&6Silverfish Elite'
+  timeframe: 0
+  questId: 633fc7a3-1af0-417c-91b2-487569a2dcd2
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 44958093-ea62-4fba-89fb-19a4782d97fc
+  entity: SILVERFISH
+  custom_int: 0
+  exclude-spawners: false

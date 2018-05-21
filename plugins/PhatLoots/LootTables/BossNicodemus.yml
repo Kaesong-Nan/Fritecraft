@@ -1,0 +1,101 @@
+BossNicodemus:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lFemur §r
+          lore:
+          - §7Sweeping III
+          - §7Solidité III
+          - §7Recul III
+          - §7Vigueur V
+          - §7Armure II
+          - §7Vampirisme I
+          - ''
+          - §6Exotique
+          - §7Particules :§d Maudit
+          enchants:
+            DAMAGE_ALL: 15
+            KNOCKBACK: 3
+            DURABILITY: 3
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy75N/Xbrr9VChEsDJwgIZ/UxOISpv2BkWbJwn/YGNgcc/NL80ocVBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg2B6al5qUWayXm5ihUdqYk5JBjMDp39BalFiSWZ+HtQMHCoZSHXW/mdpYEDYWcIwyxJLShKTs4MLUlNT0BzGCHMYNrUkO81BidgQE0G1ziUxNzE9FVegYVVMuuMEiHUcL9y+otz8IlyuQlXFwAAANZVdIXwCAAA=
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 5
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossNicodemus
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

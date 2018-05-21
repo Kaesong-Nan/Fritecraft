@@ -1,0 +1,66 @@
+Firebolt:
+  Cooldown: 1.0
+  Conditions:
+  - targetinlineofsight true
+  Skills:
+  - missile{ot=FBLT_TICK;oh=FBLT_HIT;v=15;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+FBLT_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#e10000;a=5;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=flame;a=8;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=lava;a=1;hS=0.12;vS=0.12} @origin
+FBLT_HIT:
+  Skills:
+  - damage{amount=5;i=false}
+  - effect:particles{p=lava;a=15;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}
+Fireball:
+  Cooldown: 1.0
+  Conditions:
+  - targetinlineofsight true
+  Skills:
+  - missile{ot=FB_TICK;oh=FB_HIT;v=20;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+FB_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#ff005a;a=10;hS=0.20;vS=0.20} @origin
+  - effect:particles{p=flame;a=10;hS=0.15;vS=0.15} @origin
+  - effect:particles{p=lava;a=1;hS=0.15;vS=0.15} @origin
+FB_HIT:
+  Skills:
+  - damage{amount=10;i=false}
+  - effect:particles{p=lava;a=25;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}
+Incinerate:
+  Cooldown: 1.0
+  Conditions:
+  - targetinlineofsight true
+  Skills:
+  - missile{ot=INC_TICK;oh=INC_HIT;v=25;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+INC_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#ff008d;a=15;hS=0.24;vS=0.24} @origin
+  - effect:particles{p=flame;a=15;hS=0.24;vS=0.24} @origin
+  - effect:particles{p=lava;a=1;hS=0.15;vS=0.15} @origin
+INC_HIT:
+  Skills:
+  - damage{amount=15;i=false}
+  - effect:particles{p=lava;a=35;hS=0.2;vS=0.2;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}
+PyroclasticBlast:
+  Cooldown: 1.0
+  Conditions:
+  - targetinlineofsight true
+  Skills:
+  - missile{ot=PYR_TICK;oh=PYR_HIT;v=30;i=1;hR=1;vR=1;in=0.75;syo=1.5}
+PYR_TICK:
+  Skills:
+  - effect:particles{p=witchMagic;a=15;hS=0.24;vS=0.24} @origin
+  - effect:particles{p=flame;a=15;hS=0.24;vS=0.24} @origin
+  - effect:particles{p=smoke;a=20;hS=0.3;vS=0.3} @origin
+  - effect:particles{p=lava;a=3;hS=0.15;vS=0.15} @origin
+PYR_HIT:
+  Skills:
+  - damage{amount=20;i=false}
+  - effect:particles{p=lava;a=200;hS=1.0;vS=1.0;y=1.0;s=2.5;}
+  - effect:particles{p=witchMagic;a=50;hS=1.0;vS=1.0;y=1.0;s=2.5;}
+  - effect:sound{s=entity.generic.explode;v=1.2;p=1.5}

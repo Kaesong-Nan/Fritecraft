@@ -1,0 +1,547 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lMomo'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'momo'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Mining:
+  NAME: '&6&lMinage'
+  LORE:
+    - '+33% de chance'
+  ID: stone_pickaxe
+  POSITION-X: 1
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.mining; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.mining
+  VIEW-PERMISSION: -mcmmo.perks.lucky.mining
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Exca:
+  NAME: '&6&lExcavation'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: stone_spade
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.excavation; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.excavation
+  VIEW-PERMISSION: -mcmmo.perks.lucky.excavation
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Buche:
+  NAME: '&6&lBûcheronnage'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: stone_axe
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.woodcutting; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.woodcutting
+  VIEW-PERMISSION: -mcmmo.perks.lucky.woodcutting
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Herb:
+  NAME: '&6&lHerboristerie'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: stone_hoe
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.herbalism; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.herbalism
+  VIEW-PERMISSION: -mcmmo.perks.lucky.herbalism
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+# Chimie:
+#   NAME: '&6&lAlchimie'
+#   LORE:
+#     - '+33% de chance'
+#   ID: brewing_stand
+#   POSITION-X: 5
+#   POSITION-Y: 3
+#   COMMAND: 'console: pex user {player} add essentials.workbench; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -CustomEnderChest.commands
+#   VIEW-PERMISSION: -CustomEnderChest.commands
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Sword:
+  NAME: '&6&lEpées'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: iron_sword
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.swords; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.swords
+  VIEW-PERMISSION: -mcmmo.perks.lucky.swords
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Arc:
+  NAME: '&6&lArcherie'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: bow
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.archery; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.archery
+  VIEW-PERMISSION: -mcmmo.perks.lucky.archery
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Hache:
+  NAME: '&6&lHaches'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: iron_axe
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.axes; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.axes
+  VIEW-PERMISSION: -mcmmo.perks.lucky.axes
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Peche:
+  NAME: '&6&lPêche'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: fishing_rod
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.fishing; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.fishing
+  VIEW-PERMISSION: -mcmmo.perks.lucky.fishing
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Poings:
+  NAME: '&6&lPoings'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: 298
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.unarmed; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.unarmed
+  VIEW-PERMISSION: -mcmmo.perks.lucky.unarmed
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Apprivoisement:
+  NAME: '&6&lApprivoisement'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: bone
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.taming; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.taming
+  VIEW-PERMISSION: -mcmmo.perks.lucky.taming
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Acrobaties:
+  NAME: '&6&lAcrobaties'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'
+  ID: 301
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.acrobatics; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.acrobatics
+  VIEW-PERMISSION: -mcmmo.perks.lucky.acrobatics
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+repair:
+  NAME: '&6&lRéparation'
+  LORE:
+    - '+33% de chance'
+    - ''
+    - '&cPrix = 500e'   
+  ID: 301
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'console: pex user {player} add mcmmo.perks.lucky.repair; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -mcmmo.perks.lucky.repair
+  VIEW-PERMISSION: -mcmmo.perks.lucky.repair
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+
+
+#
+#
+#
+#
+#
+#
+# Test:
+#   NAME: 'test'
+#   COMMAND: 'sound: entity experience_orb pickup, 1, 1'
+#   ID: '1'
+#   KEEP-OPEN: false
+#   POSITION-X: 9
+#   POSITION-Y: 1
+#
+#
+# Ender:
+#   NAME: '&d&l[**] Disrupteur Multi-Dimensionnel [**]'
+#   COMMAND: 'console: pex user {player} add CustomEnderChest.commands; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fVous n''aimez pas avoir à trouver'
+#     - '&fun coffre de l''End pour accéder à son contenu ?'
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrace au &6Disrupteur Multi-Dimensionnel &fde'
+#     - '&fchez &6Zoltan Tech (tm)&f, vous pourrez ouvrir votre'
+#     - '&fcoffre directement depuis le menu montre !'
+#     - ''
+#     - '&fProfitez vite de notre offre limitée de -89,13% !'
+#     - ''
+#     - '&cPrix = 540e'
+#   ID: '130'
+#   POSITION-X: 1
+#   POSITION-Y: 2
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -CustomEnderChest.commands
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Workbench:
+#   NAME: '&9&l[**] Station Swanson Swag [**]'
+#   COMMAND: 'console: pex user {player} add essentials.workbench; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fEst-ce que ça vous est déjà arrivé de vouloir'
+#     - '&fconstruire un truc vite fait, mais la table'
+#     - '&fde craft la plus proche est tellement loin que'
+#     - '&fça vous embête de devoir marcher ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrace à la &6Station Swanson Swag &fde'
+#     - '&fchez &6Ron & Co (tm)&f, vous pourrez ouvrir un'
+#     - '&fétabli directement depuis le menu montre !'
+#     - ''
+#     - '&fProfitez vite de notre offre limitée de -2,97% !'
+#     - ''
+#     - '&cPrix = 500e'
+#   ID: workbench
+#   POSITION-X: 2
+#   POSITION-Y: 2
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -essentials.workbench
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Sell:
+#   NAME: '&9&l[**] iBrocante Express [**]'
+#   COMMAND: 'console: pex user {player} add quicksell.sell; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fVous êtes en pleine exploration et votre'
+#     - '&fbutin commence à être un peu trop encombrant ?'
+#     - '&fVous désirez pouvoir tout vendre sans avoir à'
+#     - '&ffaire tout le chemin jusqu'' au marché ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrace à la &6iBrocante Express &fproduite'
+#     - '&fpar &6Banane Inc.&f, vous pourrez ouvrir un'
+#     - '&fécran de vente rapide directement depuis le menu !'
+#     - ''
+#     - '&fProfitez vite de notre offre limitée de -5%* !'
+#     - ''
+#     - '&cPrix = 500e'
+#     - '*voir CGU'
+#   ID: emerald
+#   POSITION-X: 3
+#   POSITION-Y: 2
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -quicksell.sell
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Scs:
+#   NAME: '&3&l[**] Don de Lévitation Quantique [**]'
+#   COMMAND: 'console: pex user {player} add scs.create.display; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fAvez-vous déjà vu les petites icones'
+#     - '&fflottantes dans les magasins ?'
+#     - '&fVous voulez faire pareil ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrace au &6Don de Lévitation Quantique &fproduite'
+#     - '&fpar &6SCS&f, vous pourrez placer un'
+#     - '&fitem comme "vitrine" sur un bloc !'
+#     - ''
+#     - '&fProfitez vite de notre offre découverte !'
+#     - ''
+#     - '&cPrix = 1000e'
+#     - '&7(tapez &d/scs display this &7pour créer une vitrine)'
+#   ID: 44
+#   POSITION-X: 4
+#   POSITION-Y: 2
+#   PRICE: 1000
+#   KEEP-OPEN: false
+#   PERMISSION: -quicksell.sell
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Claim1:
+#   NAME: '&c&l[**] Permis de construire tout à fait légal [**]'
+#   COMMAND: 'console: pex user {player} add griefprevention.moreaccrued; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fUn décret de la mairie vous empêche d''étendre'
+#     - '&fvotre propriété et vous force à vivre sur un'
+#     - '&fterrain ridiculement petit ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrace à ce &6Permis de construire &fimprimé'
+#     - '&fdans &6Mon Garage&f, vous obtenez une limite'
+#     - '&fde blocs protégés plus grande (2025, 45x45)*.'
+#     - ''
+#     - '&fProfitez vite de notre offre, c''est le dernier !'
+#     - ''
+#     - '&cPrix = 500e'
+#     - '*Il faudra toujours acheter ces protections à la caserne'
+#   ID: 284
+#   POSITION-X: 1
+#   POSITION-Y: 3
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -griefprevention.moreaccrued
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Claim2:
+#   NAME: '&c&l[**] Un zéro en trop dans un dossier (oups alors) [**]'
+#   COMMAND: 'console: pex user {player} add griefprevention.mostaccrued; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fToujours pas assez de place pour laisser'
+#     - '&fvotre imagination travailler ?'
+#     - '&fOu pour votre ... euh ... machin que ...'
+#     - '&fBesoin de BEAUCOUP de place ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrâce à un &6Ami bien placé &fqui travaille'
+#     - '&fà &6La Mairie&f, vous obtenez une limite'
+#     - '&fde blocs protégés plus grande (10.000, 100x100).'
+#     - ''
+#     - '&fDépêchez-vous, il va peut-être pas rester très longtemps !'
+#     - ''
+#     - '&cPrix = 5000e'
+#     - '(ici aussi y''a un zéro en trop du coup)'
+#   ID: 277
+#   POSITION-X: 2
+#   POSITION-Y: 3
+#   PRICE: 5000
+#   KEEP-OPEN: false
+#   PERMISSION: -griefprevention.mostaccrued
+#   VIEW-PERMISSION: griefprevention.moreaccrued
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Claim3:
+#   NAME: '&c&l[**] Coup de fil à un ami [**]'
+#   COMMAND: 'console: adjustbonusclaimblocks {player} 10000; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fBon, je vois que vous aimez les grosses propriétés.'
+#     - '&fQue dis-je, les IMMENSES propriétés !'
+#     - '&fEt ... je suppose que vous en voulez encore plus ?'
+#     - '&fDevinez quoi !'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrâce à mon &6Ami avocat &fque je peux'
+#     - '&fappeler directement depuis &6Mon Annuaire&f,'
+#     - '&fil peut faire un procès à Bouquenia pour vous'
+#     - '&ffaire obtenir 10.000 blocs en bonus !'
+#     - ''
+#     - '&fNan mais y''a aucun risque de prison, faut pas avoir peur...'
+#     - ''
+#     - '&cPrix = 10000e'
+#     - '&7(Les blocs bonus &ane comptent pas &7dans votre limite standard)'
+#   ID: 269
+#   POSITION-X: 3
+#   POSITION-Y: 3
+#   PRICE: 5000
+#   KEEP-OPEN: false
+#   VIEW-PERMISSION: griefprevention.mostaccrued
+#
+# Hunger1:
+#   NAME: '&e&l[**] Coupe-faim 5000 [**]'
+#   COMMAND: 'console: pex user {player} add usb.extra.hunger; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#     - '&fVous aimez jouer au &cSkyBlock&f, mais'
+#     - '&fvotre faim constante vous ralentit ?'
+#     - ''
+#     - '&fPex a la solution !'
+#     - ''
+#     - '&fGrâce à un petit &6Coupe-faim 5000 &ffabriqué'
+#     - '&fpar une &6genre de sorcière pas louche du tout&f,'
+#     - '&fvotre barre de faim diminuera 25% moins vite !'
+#     - ''
+#     - '&fFaites-vite, il m''en reste ... 2.'
+#     - ''
+#     - '&cPrix = 500e'
+#     - '(Ne s''applique que pour le mode Skyblock)'
+#   ID: 357
+#   POSITION-X: 6
+#   POSITION-Y: 3
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -usb.extra.hunger
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Hunger2:
+#   NAME: '&e&l[**] Producteur Proto-Glucidique [**]'
+#   COMMAND: 'console: pex user {player} add usb.extra.hunger2; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#       - '&fVous avez pris un coupe-faim &cSkyBlock&f,'
+#       - '&fmais sous ressentez toujours un petit creux ?'
+#       - ''
+#       - '&fPex a la solution !'
+#       - ''
+#       - '&fGrâce au &6Producteur Proto-Glucidique &ffabriqué'
+#       - '&fchez &6Ethical Corp&f, votre barre de faim'
+#       - '&fdiminuera 50% moins vite !'
+#       - ''
+#       - '&fAchetez le vite. S''il te plait.'
+#       - ''
+#       - '&cPrix = 750e'
+#       - '(Ne s''applique que pour le mode Skyblock)'
+#   ID: 353
+#   POSITION-X: 7
+#   POSITION-Y: 3
+#   PRICE: 500
+#   KEEP-OPEN: false
+#   PERMISSION: -usb.extra.hunger2
+#   VIEW-PERMISSION: usb.extra.hunger
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Hunger3:
+#   NAME: '&e&l[**] Implant Lithium 50V [**]'
+#   COMMAND: 'console: pex user {player} add usb.extra.hunger3; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#       - '&fToujours pas au point sur votre sensation'
+#       - '&fd''appétit sur le mode SkyBlock ?'
+#       - ''
+#       - '&fPex a la solution !'
+#       - ''
+#       - '&fGrâce à un &6Implant Lithium 50V &fque j''ai'
+#       - '&ftrouvé &6Par Terre Sur Le Chemin&f, votre barre de faim'
+#       - '&fdiminuera 75% moins vite !'
+#       - ''
+#       - '&fVas-y prend le maintenant, et je fais l''opération gratis'
+#       - ''
+#       - '&cPrix = 1000e'
+#       - '(Ne s''applique que pour le mode Skyblock)'
+#   ID: 265
+#   POSITION-X: 8
+#   POSITION-Y: 3
+#   PRICE: 1000
+#   KEEP-OPEN: false
+#   PERMISSION: -usb.extra.hunger3
+#   VIEW-PERMISSION: usb.extra.hunger2
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+#
+# Hunger4:
+#   NAME: '&e&l[**] Bénédiction Entropique [**]'
+#   COMMAND: 'console: pex user {player} add usb.extra.hunger4; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+#   LORE:
+#       - '&fOk, alors comme ça, vous voulez vous la jouer'
+#       - '&f"paradoxe espace-temps", hmm ?'
+#       - ''
+#       - '&fPex a la solution !'
+#       - ''
+#       - '&fGrâce à une &6Bénédiction Enthropique &fextorquée'
+#       - '&fà un &6prête des 8 Déesses&f,'
+#       - '&fvotre barre de faim diminuera 100% moins vite !'
+#       - ''
+#       - '&fSatisfait ou ... oh un creeper rose !'
+#       - ''
+#       - '&cPrix = 2000e'
+#       - '(Ne s''applique que pour le mode Skyblock)'
+#   ID: 322
+#   POSITION-X: 9
+#   POSITION-Y: 3
+#   PRICE: 2000
+#   KEEP-OPEN: false
+#   PERMISSION: -usb.extra.hunger4
+#   VIEW-PERMISSION: usb.extra.hunger3
+#   PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'

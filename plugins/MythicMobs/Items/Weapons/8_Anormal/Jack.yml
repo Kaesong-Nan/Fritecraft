@@ -1,0 +1,40 @@
+Jack:
+  Id: DIAMOND_SWORD
+  Display: '&4&lJack &r'
+  Lore:
+  - '&7Tranchant XIX'
+  - '&7Fléau IV'
+  - '&7Châtiment IV'
+  - '&7Sweeping III'
+  - '&7Raccommodage'
+  - '&7Vigueur IV'
+  - '&7Vampirisme I'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dMaudit'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      Health: 8
+  Enchantments:
+  - DAMAGE_ALL:19
+  - DAMAGE_ARTHROPODS:4
+  - DAMAGE_UNDEAD:4
+  - SWEEPING:3
+  - MENDING:1
+
+  Skills:
+  - skill{s=EnchantVampirisme} ~onAttack 1
+  - effect:particles{particle=largesmoke;amount=5;hs=0.5;vs=1} ~onTimer:5 @self
+  - effect:particles{particle=lava;amount=3;hs=0.5;vs=1} ~onAttack @target
+  - skill{s=Spook} ~onUse

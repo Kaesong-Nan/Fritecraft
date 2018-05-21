@@ -1,0 +1,57 @@
+id: 10
+category: 8
+cooldown: 43200000
+name: '&fCarottes'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: CARROT_ITEM
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fCarottes
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: efb5754e-ce89-43be-99bb-2e889d565dcb
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CARROT_ITEM
+  amount: 128
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: efb5754e-ce89-43be-99bb-2e889d565dcb
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8a6ca0d0-68e5-4131-b668-54f09eac919b
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

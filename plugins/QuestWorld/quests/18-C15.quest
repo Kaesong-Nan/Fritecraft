@@ -1,0 +1,32 @@
+uniqueId: 452a20f3-77a6-4838-b631-a51499ab2211
+categoryId: 77860246-f4f8-4383-895f-c51db047253c
+id: 18
+category: 15
+cooldown: -1
+name: '&5&lCoffre du Néant'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Enderchest
+    lore:
+    - §8Decoration
+    - §8Vanilla, §8Chest, §8End
+    - §8ID:§7 228
+    internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIsy4dy6MFIYpcUKhRod29bWORjF5sWKvhUPqLEk3Ob+c0kowPo8LDrRinfz59VI4UGt6SER2Qj2ys8ZJSW8AzbxabhFbwy0J845xg/66Avo5M4D4243IM2iGkYz+KiA8CNBnc5l6OAHzEHiB1qVB4CWczEXXy6Q3JL2tMT6fP5+Epcoha+fnE3s/ev6wx870hqBTXr4/GocrSxEinWiVmo7EpT1tLv2I5UOFOVTRQTh70tWRvIKI065ss6xJlD0w87xIGi+6QJ23LhnRkpOm39DjOffoWKoNCnFulNr4pXq+U9/AJI9nSEGAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

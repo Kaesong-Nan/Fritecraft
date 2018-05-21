@@ -1,0 +1,73 @@
+ParkourFrite:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §aChapeau Steve §r
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §aTunique Steve §r
+        color:
+          ==: Color
+          RED: 76
+          BLUE: 153
+          GREEN: 127
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §aPantalon Steve §r
+        color:
+          ==: Color
+          RED: 51
+          BLUE: 178
+          GREEN: 76
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CAKE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BLAZE_POWDER
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_INGOT
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 16
+    Probability: 100.0
+  Name: ParkourFrite
+  Reset:
+    Hours: 0
+    Days: 3
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

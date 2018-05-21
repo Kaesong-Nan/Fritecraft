@@ -1,0 +1,22 @@
+bonekey:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Clé en os
+    Probability: 100.0
+  Name: bonekey
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 2
+  RoundDownTime: false

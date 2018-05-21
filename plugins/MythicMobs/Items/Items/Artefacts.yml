@@ -1,0 +1,259 @@
+Fleur:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lFleur Eternelle &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Vitesse'
+  - '&7- Sauts'
+  - '&7- Esquive'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      MovementSpeed: 0.15
+  Skills:
+  - skill{s=EnchantJumps} ~onTimer:80 1
+  - skill{s=EnchantDodge} ~onDamaged @Self 0.2
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Chalice:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lChalice Impie &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Force'
+  - '&7- Vitesse'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      MovementSpeed: 0.15
+  Skills:
+  - skill{s=EnchantForce} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Philosophale:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lPierre Philosophale &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Vigueur'
+  - '&7- Régénération'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      Health: 10
+  Skills:
+  - skill{s=EnchantRegen} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Rose:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lRose d''Obsidienne &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Immunité au feu'
+  - '&7- Vigueur'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      Health: 10
+  Skills:
+  - skill{s=EnchantLava} ~onTimer:60 1
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+EauBenite:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lEau Bénite &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Amphibie'
+  - '&7- Régénération'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Skills:
+  - skill{s=EnchantAmphibie} ~onTimer:40 1
+  - skill{s=EnchantRegen} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Amielette:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lAmielette &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Invisibilité'
+  - '&7- Vitesse'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      MovementSpeed: 0.15
+  Skills:
+  - skill{s=EnchantCamouflage} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+MiroirGlace:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lMiroir de Glace &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Célérité'
+  - '&7- Vision'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Skills:
+  - skill{s=EnchantVision} ~onTimer:40
+  - skill{s=EnchantHaste} ~onTimer:80 1
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Palentir:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lPalentir &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Vision'
+  - '&7- Vitesse'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      MovementSpeed: 0.15
+  Skills:
+  - skill{s=EnchantVision} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=Divin} ~onTimer:5 @self
+
+Necrotique:
+  Id: ENCHANTED_BOOK
+  Display: '&5&lParchemin Nécrotique &r'
+  Lore:
+  - '&7Effets main gauche :'
+  - '&7- Force'
+  - '&7- Célérité'
+  - '&7- Egide'
+  - '&7- Bénédiction'
+  - '&c- Faim'
+  - '&c- Lenteur'
+  - ''
+  - '&5Légendaire'
+  - '&7Particules :&d Divin'
+
+  Options:
+    Unbreakable: true
+    Repairable: false
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    OffHand:
+      MovementSpeed: -0.1
+  Skills:
+  - skill{s=EnchantForce} ~onTimer:40
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=Divin} ~onTimer:5 @self

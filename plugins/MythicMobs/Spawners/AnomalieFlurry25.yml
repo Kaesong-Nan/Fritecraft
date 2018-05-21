@@ -1,0 +1,25 @@
+AnomalieFlurry25:
+  SpawnerGroup: Anomalie
+  MobName: Emissaire
+  World: Bouquenia
+  X: 918
+  Y: 9
+  Z: 449
+  Radius: 3
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 100
+  CooldownTimer: 0
+  Warmup: 10
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

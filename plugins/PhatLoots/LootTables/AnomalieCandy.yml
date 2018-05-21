@@ -1,0 +1,39 @@
+AnomalieCandy:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §dSucre d'orge
+        lore:
+        - §7Utilisé pour les armes légendaires.
+        internal: H4sIAAAAAAAAAE1Py06DQBS9mpgg8TPckgxvWXRhxNohHRDKo7DjMWMLAzYUaul3+YHO0sVJznNxZAAZnnbdzPnn+M2OnEpwjxt41pBaNQwxxXZorRiGwZTSFEwtX0yT1U1TMlsGWYxOdJyO9PwI0kSv0zzSswwAdxI8pCWfKfzSxUPF/oCavcfrBVtCxzvEA9yebDykS/WGLdyLfPNqbRfnX9ecyszkue4diiGcqz5FWz3idBOpdZ9c/A+/JVquB+66DWJ8y2NsBG7TkzhqSZbyPH6/Ejf5IXGuBQJFizXiYtW/fSHirkUvVEmWCK/T87bTgyzq8aA6LFytxAP4AxJ3ugIcAQAA
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Fringirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: AnomalieCandy
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

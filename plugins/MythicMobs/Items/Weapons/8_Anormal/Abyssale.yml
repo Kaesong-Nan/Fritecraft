@@ -1,0 +1,44 @@
+Abyssale:
+  Id: DIAMOND_SWORD
+  Display: '&4&lLame Abyssale &r'
+  Lore:
+  - '&7Tranchant XX'
+  # - '&7Fléau V'
+  # - '&7Châtiment V'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Vitesse II'
+  # - '&7Recul I'
+  # - '&7Vigueur IV'
+  - '&7Armure I'
+  - '&cFaim'
+  - ''
+  - '&4Anormal'
+  - '&7Particules :&d Obscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      MovementSpeed: 0.10
+      Armor: 2
+      # Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - DURABILITY:5
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantAtrophie} ~onAttack 1
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1

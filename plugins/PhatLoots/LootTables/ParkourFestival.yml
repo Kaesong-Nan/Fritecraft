@@ -1,0 +1,78 @@
+ParkourFestival:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §e§lBourse du Festival §r
+        lore:
+        - §7Clic droit pour ouvrir pour
+        - '§7obtenir un loot aléatoire :'
+        - ''
+        - §f- Oeuf de Perroquet
+        - §f- Potion de Resistance au feu
+        - §f- Fusées de feu d'artifice x10
+        - §b- Flacons d'expérience x10
+        - §b- Disque de musique
+        - §b- Paquet de Glaces
+        - §e- Cape de Lune
+        - §e- Cape d'Eclipse
+        - §a- Elytres de Lune
+        - §a- Elytres d'Eclipse
+        - §a- Sac de Skins
+        - §a- Jetons de jeu
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHORUS_FRUIT_POPPED
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lPaquet de glaces
+        lore:
+        - §7Clic droit pour ouvrir pour
+        - §7obtenir 6 glaces aléatoires.
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_NUGGET
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §a§lJeton de jeu
+        lore:
+        - §7Un jeton pour le §ecasino
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dDisque du Soleil §r
+        lore:
+        - §7Jeton de la fête de l'été.
+    Probability: 100.0
+  Name: ParkourFestival
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

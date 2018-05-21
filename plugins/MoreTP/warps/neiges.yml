@@ -1,0 +1,20 @@
+name: neiges
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation des Neiges &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dMines Glacées'
+- '&5Anomalie de Flurrygirl'
+- ''
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: PACKED_ICE
+data: 0
+location: Bouquenia<>1167.0539069285733<>73.0<>410.01587388760186<>-0.113279805<>-90.97705
+slot: 28

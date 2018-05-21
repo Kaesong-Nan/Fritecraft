@@ -1,0 +1,11 @@
+&a<Zajonc> &f: Hmm, ça n'a pas l'air génial pour la vache.
+&a<Zajonc> &f: Mais c'était un peu prévisible.
+&a<Zajonc> &f: On avait un terrain neutre, et on est passé vers un terrain moins bien, et il y a eu une réaction.
+&a<Zajonc> &f: Maintenant, on va faire l'inverse.
+&a<Zajonc> &f: On va changer son environnement pour un type enrichi..
+&a<Zajonc> &f: C'est à dire, plus idéal pour la vache.
+&a<Zajonc> &f: Il va donc me falloir du mycelium.
+&a<Zajonc> &f: Vous pouvez soit tout récuperer dans un biome champi,
+&a<Zajonc> &f: Ou juste un peu, et le faire pousser vous même, ce qui peut etre amusant.
+&a<Zajonc> &f: Je vais remettre son ancien environnement, pour ne pas la faire déprimer plus.
+/fill 609 71 910 614 71 905 minecraft:dirt 2

@@ -1,0 +1,33 @@
+#  █     █▀▀▀█  █▀▀█  █▀▀▀    █▀▀█  █▀▀█  █▀▀█ ▀▀█▀▀ ▀█▀  █▀▀█  █     █▀▀▀  █▀▀▀█ 
+#  █     █   █  █▄▄▀  █▀▀▀    █▄▄█  █▄▄█  █▄▄▀   █    █   █     █     █▀▀▀  ▀▀▀▄▄ 
+#  █▄▄█  █▄▄▄█  █  █  █▄▄▄    █     █  █  █  █   █   ▄█▄  █▄▄█  █▄▄█  █▄▄▄  █▄▄▄█ 
+# ---------------- By: MachisCZ --------------------- #
+# Depends: SkDragon, SkQuery, skRayFall, and ExtrasSK
+# Tested with Spigot 1.8.8, Skript 2.1.2, SkQuerry 3.21.4, SkDragon 0.0.8, SkRayFall 1.9.2 and ExtrasSK 1.1 (java 8)
+# Main command /lp
+
+
+# ------------------ Options ------------------------- #
+
+options:
+	NoPermission: &cYou dont have permission for that.
+	Prefix: &f[&6Lore Particles&f]
+	LoreAdded: &2Lore has been suscefully added to item.
+	InvalidScroll: &cInvalid scroll name!
+	Lore1: Magique
+	Lore2: Infernal
+	Lore3: Lovely
+	Lore4: Aura
+	Lore5: Crit
+	ScrollName: &6Scroll of particles
+	ScrollLore: Have your weapon at first hotbar slot and use this scroll.
+	BadUsage: &cBad ussage. Type &6/lp &cfor more info.
+	GetInGUI: &aGet
+
+
+every 10 tick:
+	loop all players:
+		lore of tool of loop-player contains "Magique":
+			set {particule.%player%} to location of player
+			show 10 "CRIT_MAGIC" particles at {particule.%player%} for player
+			stop trigger

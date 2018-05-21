@@ -1,0 +1,10 @@
+&9<Chef> &f: Oh, comme je sens qu'on va se régaler.
+&9<Chef> &f: Je dirai même que ça a l'air meilleur que ce qu'on a l'habitude de manger !
+&9<Chef> &f: Ce qui aurait été bien, c'est des couverts et des assiettes pour manger.
+&9<Chef> &f: Oui, on mange sur les tables.
+&9<Chef> &f: Ca te pose un problème ?
+&9<Chef> &f: Non ? T'es sûr ?
+&9<Chef> &f: BAH NOUS SI !
+&9<Chef> &f: Alors, ils sont capables de faire une plateforme comme ça ...
+&9<Chef> &f: ... mais mettre des assiettes, c'est trop compliqué, c'est ça ?
+&9<Chef> &f: Je sais pas où est-ce que tu peux trouver tous ça, mais j'ai confiance en toi.

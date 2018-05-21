@@ -1,0 +1,40 @@
+Poisson:
+  Mobtype: GUARDIAN
+  Health: 50
+  Damage: 10
+  Drops:
+  # - CandyCorn 2 1
+  # - CaneEnSucre 2 1
+  KillMessages:
+  - '&7<target.name> a été tué par un gros poisson'
+GrosPoisson:
+  Mobtype: ELDER_GUARDIAN
+  Health: 150
+  Damage: 16
+  Drops:
+  # - CandyCorn 3 1
+  KillMessages:
+  - '&7<target.name> a été tué par un gros poisson'
+Fantome:
+  Mobtype: GHAST
+  Health: 20
+  Damage: 25
+  Drops:
+  # - CandyCorn 3 1
+  # - CaneEnSucre 3 1
+  Display: 'Fantome'
+  KillMessages:
+  - '&7<target.name> a été tué par un ghast'
+Incendiaire:
+  Mobtype: BLAZE
+  Health: 30
+  Damage: 8
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+  Display: 'Incendiaire'
+  KillMessages:
+  - '&7<target.name> a été tué par un incendiaire'
+  Skills:
+  - ignite{ticks=80} @Target ~onAttack
+  - ignite{ticks=80} @Trigger ~onDamaged

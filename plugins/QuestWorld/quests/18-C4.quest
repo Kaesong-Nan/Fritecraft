@@ -1,0 +1,58 @@
+id: 18
+category: 4
+cooldown: 86400000
+name: '&c&lHorreur Décharnée'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §c§lHorreur Décharnée
+item_extra:
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: dbfbc969-db60-4461-b138-377b415bb5de
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&cHorreur Décharnée'
+  timeframe: 0
+  questId: dbfbc969-db60-4461-b138-377b415bb5de
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 517.0
+    y: 79.0
+    z: 720.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 235b24cd-0a04-4d2c-b7b7-027f76725e74
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,381 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&c&lCosmétiques'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cosmetiques; cosmétiques; c'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 385
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+# Menu:
+#   COMMAND: 'open: menu.yml'
+#   NAME: '&e[arrow_left] Menu principal'
+#   LORE:
+#     - 'Aller au menu principal'
+#   ID: 347
+#   POSITION-X: 1
+#   POSITION-Y: 1
+
+Cosm:
+  NAME: '&c&lLes cosmétiques'
+  LORE:
+    - 'Il y a différentes catégories, accessibles'
+    - 'depuis ce menu.'
+    - 'Un clic gauche équipera le cosmétique.'
+    - 'Pour le retirer, il y a un bouton'
+    - 'tout en bas.'
+    - 'Certains cosmétiques sont réservés aux joueurs'
+    - 'qui ont contribué au serveur (&dPrêtre&r).'
+    - 'Ces cosmétiques n''apportent aucun avantage,'
+    - 'ils sont purement visuels.'
+  ID: book
+  POSITION-X: 5
+  POSITION-Y: 1
+
+Elytra:
+  NAME: '&d&l[*] Elytra [*]'
+  COMMAND: 'ep'
+  LORE:
+    - '&fChanger le style de particules'
+    - '&fdu boost de l''Elytra.'
+  ID: 443
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+# Baguettes:
+#   NAME: '&b&l[*] Baguettes [*]'
+#   COMMAND: 'funshop'
+#   LORE:
+#     - '&fPour jouer une trainée de particules.'
+#     - '&fUtilisez la commande &c/funshop'
+#     - '&fIl faut débloquer les baguettes'
+#     - '&favant de pouvoir les utiliser.'
+#     - '&fChaque baguette coute &a500 Emeraudes &fà débloquer.'
+#     - '&fActivez la baguette avec un clic gauche.'
+#     - '&fUn clic droit jouera les particules une fois'
+#   ID: bone
+#   POSITION-X: 3
+#   POSITION-Y: 2
+#   KEEP-OPEN: true
+
+# Masques:
+#   NAME: '&9&l[*] Masques [*]'
+#   COMMAND: 'gmenu menu hats'
+#   LORE:
+#     - ''
+#     - '&fDes masques (chapeaux) qui se'
+#     - '&fplacent directement sur votre tête.'
+#     - ''
+#     - '&7Les masques ne donnent pas d effets.'
+#   ID: 314
+#   POSITION-X: 3
+#   POSITION-Y: 3
+#   KEEP-OPEN: true
+
+# Minipets:
+#   NAME: '&d&l[*] Minipets [*]'
+#   COMMAND: 'gmenu menu pets'
+#   LORE:
+#     - ''
+#     - '&fLes minipets sont des versions'
+#     - '&fminiatures des animaux de Bouquenia'
+#     - '&fqui vous suivent partout, en jouant'
+#     - '&fun petit effet rigolo.'
+#     - ''
+#     - '&7Il est possible de renomer son minipet.'
+#   ID: 383:98
+#   POSITION-X: 3
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+Gadgets:
+  NAME: '&6&l[*] Cosmétiques [*]'
+  COMMAND: 'gmenu main'
+  LORE:
+    - ''
+    - '&fLe coffre à jouets de Bouquenia !'
+    - '&fLes gadgets sont équipées dans votre'
+    - '&f9ème emplacement de la barre.'
+    - '&fSi il y avait déjà quelque chose à cet'
+    - '&femplacement, il sera placé ailleurs dans'
+    - '&fvotre inventaire.'
+    - ''
+    - '&fCertains cosmétiques sont'
+    - '&fexclusifs aux &dPrêtres&r.'
+  ID: 401
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+# Montures:
+#   NAME: '&e&l[*] Particules [*]'
+#   COMMAND: 'gmenu menu particles'
+#   LORE:
+#     - ''
+#     - '&fLes montures vous permettent'
+#     - '&fde vous déplacer avec originalité'
+#     - '&fdans Bouquenia.'
+#     - ''
+#     - '&fChevaux, poulpes, monstres ...'
+#   ID: saddle
+#   POSITION-X: 7
+#   POSITION-Y: 3
+#   KEEP-OPEN: true
+
+# Transformations:
+#   NAME: '&3&l[*] Transformations [*]'
+#   COMMAND: 'gmenu menu morphs'
+#   LORE:
+#     - ''
+#     - '&fPrenez une apparence de monstre !'
+#     - '&fCertains déguisements ont'
+#     - '&fla capacité de jouer une petite'
+#     - '&fcompétence amusante.'
+#     - ''
+#     - '&fVous pouvez desactiver ou activer'
+#     - '&fla vue de votre propre déguisement.'
+#   ID: leather
+#   POSITION-X: 7
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+Tags:
+  NAME: '&3&l[*] Tags [*]'
+  COMMAND: 'tags'
+  LORE:
+    - ''
+    - '&fObtenez un préfixe de chat !'
+    - '&fCertaines étiquettes peuvent être'
+    - '&fdébloquées avec vos rangs en'
+    - '&fadoration, avec les talents,'
+    - '&7ou par les evennements'
+  ID: 421
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+# Emotes:
+#   NAME: '&e&l[*] Capes [*]'
+#   COMMAND: 'gmenu lmenu cloaks'
+#   LORE:
+#     - ''
+#     - '&fDes capes de particules.'
+#   ID: '397:3'
+#   POSITION-X: 5
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+# Desactiver:
+#   NAME: '&c&lDesactiver'
+#   COMMAND: 'console: gmenu reset all {player}'
+#   LORE:
+#     - ''
+#     - '&fCliquez pour desactiver tous vos'
+#     - '&feffets cosmétiques.'
+#   ID: barrier
+#   POSITION-X: 5
+#   POSITION-Y: 6
+
+# Fire:
+#   NAME: '&6&lMenu'
+#   COMMAND: 'console: give {player} 385 1'
+#   PRICE: 1
+#   LORE:
+#     - '&fVous pouvez ouvrir ce menu'
+#     - '&fà tout moment en faisant un'
+#     - '&fclic droit sur une &6charge incendiaire&f.'
+#     - '&fElle ne sera pas consommée, une seule suffit.'
+#     - '&fVous pouvez acheter une ici pour &a1 Emeraude&f si besoin.'
+#     - '&fSinon il y a une commande : &9/c'
+#   ID: 385
+#   POSITION-X: 9
+#   POSITION-Y: 6
+
+# Key:
+#   NAME: '&6&l[*] Acheter une clé [*]'
+#   COMMAND: 'console: uc give key 1 {player}'
+#   PRICE: 250
+#   LORE:
+#     - '&fCliquez ici pour acheter'
+#     - '&fune clé vous permettant'
+#     - '&fd''ouvrir le coffre à cosmétiques.'
+#     - '&f '
+#     - '&fChaque clé coûte &a250 Emeraudes&f.'
+#     - ''
+#     - '&7Uniquement pour les contributeurs.'
+#   ID: 131
+#   POSITION-X: 1
+#   POSITION-Y: 5
+#
+# Coffre:
+#   NAME: '&6&l[*] Ouvrir un coffre [*]'
+#   COMMAND: 'uc treasure {player} 256 65 976 Bouquenia'
+#   LORE:
+#     - '&fCliquez ici pour utiliser'
+#     - '&fune clé et recevoir des jouets'
+#     - '&faléatoires !'
+#   ID: CHEST
+#   POSITION-X: 1
+#   POSITION-Y: 6
+
+
+
+
+Blanc11:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc21:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc31:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc41:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+# Blanc55:
+#   NAME: ''
+#   ID: '160:15'
+#   POSITION-X: 5
+#   POSITION-Y: 3
+#   KEEP-OPEN: true
+Blanc61:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc71:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc81:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc91:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+
+Blanc12:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+Blanc92:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+
+Blanc51:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc52:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc53:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc54:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc55:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc56:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc57:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc58:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+Blanc59:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 3
+  KEEP-OPEN: true

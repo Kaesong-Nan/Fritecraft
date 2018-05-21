@@ -1,0 +1,11 @@
+ptest:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lEclipse §r
+  Skills:
+  - skill{s=Etrange} ~onTimer:5 @self
+  - skill{s=EnchantEgide} ~onTimer:400 1

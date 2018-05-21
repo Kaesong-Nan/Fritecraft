@@ -1,0 +1,152 @@
+messages:
+  sell:
+  - '&a&l+ {MONEY}e &7[&o{ITEMS} &eObjets&7 &evendus]'
+  no-access:
+  - '&4You do not have access to this Shop'
+  total:
+  - '&2TOTAL: &6+ {MONEY}e'
+  get-nothing:
+  - '&4Sorry, but you will get nothing for these Items :('
+  dropped:
+  - '&cYou have been given back some of your Items because you could not sell them...'
+  no-permission:
+  - '&cYou do not have the required Permission to do this!'
+  unknown-shop:
+  - '&cUnknown Shop!'
+  no-items:
+  - '&cSorry, but you have no Items that can be sold!'
+  estimate:
+  - '&eVous pouvez avoir &6{MONEY} émeraudes &epour le tout'
+  booster-use:
+    MONETARY:
+    - '&a&l+ ${MONEY} &7(&e%multiplier%x Booster &7&oHover for more Info &7)'
+    EXP: []
+    MCMMO: []
+    PRISONGEMS:
+    - '&7+ &a{GEMS} &7(&e%multiplier%x Booster &7&oHover for more Info &7)'
+  pbooster-use:
+    MONETARY:
+    - '&a&l+ ${MONEY} &7(&e%multiplier%x Booster &7&oHover for more Info &7)'
+    EXP: []
+    MCMMO: []
+    PRISONGEMS:
+    - '&7+ &a{GEMS} &7(&e%multiplier%x Booster &7&oHover for more Info &7)'
+commands:
+  booster:
+    permission:
+    - '&cYou do not have permission to activate a Booster!'
+  permission:
+  - '&cYou do not have permission for this!'
+  usage:
+  - '&4Usage: &c%usage%'
+  reload:
+    done:
+    - '&7All Shops have been reloaded!'
+  price-set:
+  - '&7%item% is now worth &a$%price% &7in the Shop %shop%'
+  shop-created:
+  - '&7You successfully created a new Shop called &b%shop%'
+  shop-deleted:
+  - '&cYou successfully deleted the Shop called &4%shop%'
+  sellall:
+    usage:
+    - '&4Usage: &c/sellall <Shop>'
+  disabled:
+  - '&cThis command has been disabled'
+  prices:
+    usage:
+    - '&4Usage: &c/prices <Shop>'
+    permission:
+    - '&cYou do not have permission for this!'
+menu:
+  accept:
+  - '&a> Clic pour vendre'
+  estimate:
+  - '&e> Clic pour estimation'
+  cancel:
+  - '&c> Clic pour annuler'
+  title:
+  - '&6&lVente rapide'
+booster:
+  reset:
+  - '&cReset %player%''s multiplier to 1.0x'
+  extended:
+    MONETARY:
+    - '&6%player% &ehas extended the %multiplier%x Booster (Money) for %time% more
+      Minute/s'
+    EXP:
+    - '&6%player% &ehas extended the %multiplier%x Booster (Experience) for %time%
+      more Minute/s'
+    MCMMO:
+    - '&6%player% &ehas extended the %multiplier%x Booster (mcMMO) for %time% more
+      Minute/s'
+    PRISONGEMS:
+    - '&6%player% &ehas extended the %multiplier%x Booster (Gems) for %time% more
+      Minute/s'
+  activate:
+    MONETARY:
+    - '&7&l>> &6&l%player% &ea activé un boost %multiplier%x (Emeraudes) pour %time%
+      minutes'
+    EXP:
+    - '&7&l>> &6&l%player% &ea activé un boost %multiplier%x (Expérience) pour %time%
+      minutes'
+    MCMMO:
+    - '&7&l>> &6&l%player% &ea activé un boost %multiplier%x (McMMO) pour %time% minutes'
+    PRISONGEMS:
+    - '&6&l%player% &ehas activated a %multiplier%x Booster (Gems) for %time% Minute/s'
+  deactivate:
+    MONETARY:
+    - '&7&l>> &4Le boost &c%multiplier%x (Emeraudes) de %player% est fini.'
+    EXP:
+    - '&7&l>> &4Le boost &c%multiplier%x (Expérience) de %player% est fini.'
+    MCMMO:
+    - '&7&l>> &4Le boost &c%multiplier%x (McMMO) de %player% est fini.'
+    PRISONGEMS:
+    - '&4%player%''s &c%multiplier%x Booster (Gems) est fini.'
+boosters:
+  reset:
+  - '&cReset all Boosters to 1.0x'
+editor:
+  create-shop:
+  - '&a&l! &7Please type in a Name for your Shop in Chat!'
+  - '&7&oColor Codes are supported!'
+  rename-shop:
+  - '&a&l! &7Please type in a Name for your Shop in Chat!'
+  - '&7&oColor Codes are supported!'
+  renamed-shop:
+  - '&a&l! &7Successfully renamed Shop!'
+  set-permission-shop:
+  - '&a&l! &7Please type in a Permission for your Shop!'
+  - '&7&oType "none" to specify no Permission'
+  permission-set-shop:
+  - '&a&l! &7Successfully specified a Permission for your Shop!'
+pbooster:
+  extended:
+    MONETARY:
+    - '&eYour %multiplier%x Booster (Money) has been extended for %time% more Minute/s'
+    EXP:
+    - '&7Votre &6Boost %multiplier%x &e(Experience) &7a été rallongé de &b%time% minutes'
+    MCMMO:
+    - '&eYour %multiplier%x Booster (mcMMO) has been extended for %time% more Minute/s'
+    PRISONGEMS:
+    - '&eYour %multiplier%x Booster (Gems) has been extended for %time% more Minute/s'
+  activate:
+    MONETARY:
+    - '&7Vous venez de recevoir un &6Boost %multiplier%x &e(Emeraudes) &7pour &b%time%
+      minutes&7'
+    EXP:
+    - '&7Vous venez de recevoir un &6Boost %multiplier%x &e(XP) &7pour &b%time% minutes&7'
+    MCMMO:
+    - '&7Vous venez de recevoir un &6Boost %multiplier%x &e(Talents) &7pour &b%time%
+      minutes&7'
+    PRISONGEMS:
+    - '&eYou have been given a %multiplier%x Booster (Gems) for %time% Minute/s'
+  deactivate:
+    MONETARY:
+    - '&4Your &c%multiplier%x Booster (Money) wore off!'
+    EXP:
+    - '&cVotre &6Boost %multiplier%x (XP) &cest terminé!'
+    MCMMO:
+    - '&4Your &c%multiplier%x Booster (mcMMO) wore off!'
+    PRISONGEMS:
+    - '&4Your &c%multiplier%x Booster (Gems) wore off!'

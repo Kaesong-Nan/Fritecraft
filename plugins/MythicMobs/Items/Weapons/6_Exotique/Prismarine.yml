@@ -1,0 +1,38 @@
+Prismarine:
+  Id: DIAMOND_SWORD
+  Display: '&6Lame Prismarine &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Sweeping III'
+  - '&7Solidité III'
+  - '&7Vigueur V'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Etrange'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 10
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - SWEEPING:3
+  - KNOCKBACK:1
+  - DURABILITY:3
+  Skills:
+  - skill{s=Etrange} ~onTimer:5 @self

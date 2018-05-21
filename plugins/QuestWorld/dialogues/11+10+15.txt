@@ -1,0 +1,8 @@
+§5<Esprit du lit> §f: Oouuuhh, je suis l'esprit du lit !
+§5<Esprit du lit> §f: Vous êtes ici pour voler le lit de Marco, hmm ?
+§5<Esprit du lit> §f: C'est pas biiieeeen.
+§5<Esprit du lit> §f: Mais ainsi soit-il.
+§5<Esprit du lit> §f: Tenez.
+/give <player> bed 1 name:&dLit_de_Marco
+§5<Esprit du lit> §f: Faites en bon usage.
+&e&l>> &r&7Donnez ce lit au PNJ pour la quête !

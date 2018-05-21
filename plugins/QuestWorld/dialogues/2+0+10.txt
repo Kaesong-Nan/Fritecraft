@@ -1,0 +1,9 @@
+/playsound entity.endermen.stare master @a[r=30] 240 72 1412 2
+&7*Il vous regarde intensement dans les yeux*
+/playsound entity.endermen.portal master @a[r=30] 240 72 1412 2
+&7*Il vous ouvre son ame*
+/playsound entity.endermen.death master @a[r=30] 240 72 1412 2
+&7*Vous comprenez que quelque chose ne va pas*
+/playsound entity.endermen.scream master @a[r=30] 240 72 1412 2
+&7*Vous sentez en vous un besoin de lui apporter du foin*
+/playsound entity.endermen.idle master @a[r=30] 240 72 1412 2

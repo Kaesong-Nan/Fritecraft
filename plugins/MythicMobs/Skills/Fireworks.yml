@@ -1,0 +1,18 @@
+Firework:
+  Skills:
+  - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5}
+Firework1:
+  Skills:
+  - effect:firework{t=0;d=0;f=true;tr=true;c=fe0000} @self
+Firework2:
+  Skills:
+  - effect:firework{t=0;d=0;f=true;tr=true;c=fdfe02} @self
+Firework3:
+  Skills:
+  - effect:firework{t=0;d=0;f=true;tr=true;c=0bff01} @self
+Firework4:
+  Skills:
+  - effect:firework{t=0;d=0;f=true;tr=true;c=011efe} @self
+Firework5:
+  Skills:
+  - effect:firework{t=0;d=0;f=true;tr=true;c=fe00f6} @self

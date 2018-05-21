@@ -1,0 +1,26 @@
+§6<Fritegirl> §c: C'était moi.
+§6<Fritegirl> §c: Je suis intervenue.
+§6<Fritegirl> §c: Il était faible, et je lui ai donné la force de vivre et de se battre.
+§6<Fritegirl> §c: Je voyais en lui un potentiel.
+§6<Fritegirl> §c: Très vite, il a commencé à vouer une certaine adoration pour moi.
+/tp <player> -20 100 1738
+§6<Fritegirl> §c: Il a commencé à peindre la représentation qu'il se faisait de moi.
+§6<Fritegirl> §c: Mais ce n'était pas encore suffisant pour lui.
+§6<Fritegirl> §c: Humble, il a voulu cacher les secrets que je lui avais enseigné.
+/tp <player> 155 48 1756
+§6<Fritegirl> §c: Il a construit un donjon.
+§6<Fritegirl> §c: Dans lequel il aurait mit en sécurité mes secrets.
+§6<Fritegirl> §c: Accessible uniquement par ceux qui le mérité.
+/tp <player> 309 79 1558
+§6<Fritegirl> §c: Mais le donjon a vieilli.
+§6<Fritegirl> §c: Il n'est plus ce qu'il était.
+§6<Fritegirl> §c: Une force maléfique l'a grandement érrodé.
+§6<Fritegirl> §c: Cependant, il n'est pas mort.
+/tp <player> 127 88 1716
+§6<Fritegirl> §c: Il renferme toujours mon énergie.
+§6<Fritegirl> §c: Ceux qui savent chercher trouveront des points de force précis.
+/tp <player> 111 55 1722
+§6<Fritegirl> §c: Ils sont nombreux.
+/tp <player> 175 37 1756
+§6<Fritegirl> §c: Eparpillés dans les ruines du donjon.
+/tp <player> -34 88 1734

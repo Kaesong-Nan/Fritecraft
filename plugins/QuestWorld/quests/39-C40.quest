@@ -1,0 +1,57 @@
+id: 39
+category: 40
+cooldown: -1
+name: Secret 4
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Secret 4
+    lore:
+    - §8Decoration
+    - §8Skull, §8Treasure
+    internal: H4sIAAAAAAAAAE2LwW6CQBQAX5s2QdLP6JVkUViyx8ZaXOIuBZUVbqJPBRc1CKbwVf3EcuxxMjMmgAlvy3Or9Xd9PRQaDXjme3inOLYZI2g59EAsB5lrMS9Hi9oeQY9RtHeOCeYw3bBuCryPwGjwp2lrvJsA8GTAa7LVLcIvdgHJNiey3wR613E68GpJdMjLm8cvSZdPOeXV4OcfdNGxf63bbJWr00lwyi5Rm1cJWUxijfPY3lXrh+z3RajiKvvkjlCxTlVSiTLtQv/rLFdHIvyISBWUmT8jos/OcnCyPBLZrx05TvtUiYksIzf0Z7ZQwpHlrDhsbAZgwIvcVgij6XJ6rXFR5AB/PVEL5yoBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdiOWRmZDI4MWRlYWVmMjYyOGFkNTg0MGQ0NWJjZGE0MzZkNjYyNjg0NzU4N2YzYWM3NjQ5OGE1MWM4NjEifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 1ff72ab6-1e00-4459-9f8e-1820011b3ecb
+categoryId: 032ccd89-1e72-4cd0-b76d-d26bc04f471e
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: 1ff72ab6-1e00-4459-9f8e-1820011b3ecb
+  reset-on-death: false
+  display-name: Trouver le secret 4
+  location:
+    world: Bouquenia
+    x: 1192.0
+    y: 70.0
+    z: 487.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a64524b1-82dc-4a41-9a48-dbfa7988a1ab
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false

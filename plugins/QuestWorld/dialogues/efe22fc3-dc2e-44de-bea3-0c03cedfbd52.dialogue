@@ -1,0 +1,2 @@
+/playsound entity.cow.say master @a[r=10] ~ ~ ~ 1
+&7*La vache ne semble pas trop d'accord pour être touchée*

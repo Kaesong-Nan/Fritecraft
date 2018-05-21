@@ -1,0 +1,118 @@
+uniqueId: 1fb79bcf-8e91-401d-95dc-ad3a05fe283d
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+id: 20
+category: 16
+cooldown: -1
+name: '&6&lAnalyse Moléculaire'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9§eOrdinateur
+    lore:
+    - §8Decoration
+    - §a
+    internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGq2HhgrSpHdJphY4UZkdhCJeZ2lCwHZ7LBxRdeXYn33cWRwfQ4WnfjUK8959VI7gG97iEZ+Qgxy98ZJQ29w3Hs0zDL/LKQH/J89xyTB30eXTm/dDwyyNoA78NY88vOgDcafCQ5GLk8M1ViFhaozINRaGwN3e6R2KH2/MLPiXquMAeljNfB95G+f9cd8gPrsjssGanaDzKBG3sWPB1bBby44vQwM2sWJDDSmZTZ2Y0srdvkSItNrc0uu5oKdiSdWTqboyWbTaVNaMrSdpAMRk3TEbql2eSuLslmX1ik0XoVyl6nR/ADx+U/dUcAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 1fb79bcf-8e91-401d-95dc-ad3a05fe283d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1c672b5d-185a-428a-b88e-cd6885ec50d0
+  entity: PLAYER
+  custom_int: 75
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §9§eOrdinateur
+      lore:
+      - §8Decoration
+      - §a
+      internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGq2HhgrSpHdJphY4UZkdhCJeZ2lCwHZ7LBxRdeXYn33cWRwfQ4WnfjUK8959VI7gG97iEZ+Qgxy98ZJQ29w3Hs0zDL/LKQH/J89xyTB30eXTm/dDwyyNoA78NY88vOgDcafCQ5GLk8M1ViFhaozINRaGwN3e6R2KH2/MLPiXquMAeljNfB95G+f9cd8gPrsjssGanaDzKBG3sWPB1bBby44vQwM2sWJDDSmZTZ2Y0srdvkSItNrc0uu5oKdiSdWTqboyWbTaVNaMrSdpAMRk3TEbql2eSuLslmX1ik0XoVyl6nR/ADx+U/dUcAQAA
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 1fb79bcf-8e91-401d-95dc-ad3a05fe283d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3dc99b28-ea7a-44cc-b319-f7db3b050adf
+  entity: PLAYER
+  custom_int: 75
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §9§aBatterie (100%)
+      lore:
+      - §8Decoration
+      - §a
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG4WJm0YVRtEMKWMqlw47CIExnsGnBFJ7KRxR3nt2X853k6AA6POyOo5Qf56+mk1yDW1rDI7KRTSqCjNrixLBdbBqkKhsD/aUsS5dgpIO+jE78PHT8cg/awK/DeOYXHQBuNLjLSjly+OGTj4p9i+q9L6uJugsnOyQjKk5PtM+mwwt1qVr69bO7mcg/1xnK3JHM8tui344HlaGNFUu+js1Kpd9h4mEmmB3MFWazZwd54LCkmsPXUBV5OofiaBXqrWU4E8GcXgMh1eKj4j01o8RDTMVdIT5xlAc4THxBe5M029VqeQ+/ZLFt+xgBAAA=
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 1fb79bcf-8e91-401d-95dc-ad3a05fe283d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: fd777e3f-d2db-4442-8101-3f151c1ce068
+  entity: PLAYER
+  custom_int: 75
+  exclude-spawners: false

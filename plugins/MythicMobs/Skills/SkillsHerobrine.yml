@@ -1,0 +1,125 @@
+######################
+# +----------------+ #
+# |Herobrine Skills| #
+# +----------------+ #
+######################
+HerobrineSpawn:
+  Skills:
+  - message{m="&7&l<mob.name>&7&l<&co> HerobrineSpawn"} @PlayersInRadius{r=30}
+  - potion{type=INVISIBILITY;duration=100;level=4} @self
+  - potion{type=SLOW;duration=110;level=8} @self
+  - delay 10
+  - effect:lightning @Self
+  - delay 20
+  - effect:lightning @Self
+  - delay 20
+  - effect:lightning @Self
+  - delay 50
+  - effect:particles{p=witchMagic;amount=130;speed=0.03;hR=2;vR=2} @self
+  - throw{velocity=6;velocityY=2} @PlayersInRadius{r=8}
+
+HerobrineEnd:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=120;hS=0.6;vS=1.1;speed=0.2} @self
+  - delay 3
+  - effect:lightning @self
+  - delay 10
+  - sound{s=mob.wither.death;p=0.2} @self
+  - delay 3
+  - effect:firework{t=2;d=0.5;f=true;tr=true} @self
+  - delay 6
+  - remove @Self
+
+HerobrineSkill1:
+  # Conditions:
+  # - stance combat
+  Cooldown: 9
+  Skills:
+  - effect:lightning @self
+  - summon{mob=HerobrineLightning;amount=1;noise=5} @Origin
+  - delay 2
+  - delay 5
+  - potion{type=BLINDNESS;duration=40;level=4} @target
+  - potion{type=CONFUSION;duration=90;level=4} @target
+  - delay 5
+  - sound{s=mob.endermen.portal} @self
+  - teleport{spreadh=5;spreadv=0} @Target
+  - sound{s=mob.endermen.portal} @self
+  - effect:particles{particle=enchantmenttable;amount=120;hS=0.6;vS=1.1;speed=0.2} @self
+  - potion{type=SPEED;duration=50;level=4} @self
+
+HerobrineSkill2:
+  # Conditions:
+  # - stance combat
+  Skills:
+  - sound{s=mob.wither.shoot;p=0.3} @self
+  - projectile{onTick=Herobrine2_TICK;onHit=Herobrine2_HIT-Hit;v=3;i=1;hR=1;vR=1} @Ring{radius=10;points=4}
+Herobrine2_TICK:
+  Skills:
+  - effect:particles{p=witchMagic;amount=2;hSpread=0.1;vSpread=0.1;speed=0.1;yOffset=0} @origin
+  - delay 2
+  - effect:particles{p=magicCrit;amount=3;hSpread=0.1;vSpread=0.1;speed=0.1;yOffset=0} @origin
+Herobrine2_HIT:
+  Skills:
+  - damage{a=20} @Target
+  - effect:sound{s=random.explode;v=1;p=0}
+  - potion{type=SLOW;duration=200;level=2}
+  - potion{type=WEAKNESS;duration=500;level=1}
+
+HerobrineSkill3:
+  # Conditions:
+  # - stance combat
+  Cooldown: 20
+  Skills:
+  - setstance{stance=HS2} @self
+  - effect:particles{p=enchantmenttable;amount=190;speed=0.03;hR=3;vR=3} @self
+  - sound{s=mob.wither.spawn;p=0.3;v=6} @self
+  - delay 50
+  - potion{type=BLINDNESS;duration=90;level=4} @target
+  - potion{type=CONFUSION;duration=170;level=4} @target
+  - delay 5
+  - potion{type=SLOW;duration=280;level=8} @self
+  - potion{type=INVISIBILITY;duration=280;level=8} @self
+  - delay 10
+  - summon{mob=HerobrineCopy;amount=1;noise=5} @Ring{radius=10;points=8}
+  - teleport{spreadh=10;spreadv=0} @Self
+  - sound{s=mob.endermen.portal} @self
+  - effect:particles{particle=largesmoke;amount=120;hS=0.6;vS=1.2;speed=0.2} @self
+
+HS1:
+  Skills:
+  - setstance{stance=combat} @self
+
+HerobrineDamaged:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=30;hS=0.5;vS=0.5;speed=0} @self ~onTimer:20 1
+  - effect:particles{particle=smoke;amount=20;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  - effect:particles{particle=enchantmenttable;amount=40;hS=0.6;vS=0.5;speed=0.1} @self ~onTimer:27 1
+
+#HerobrineSpawner
+HSpawner:
+  Conditions:
+  - onblock diamond_block
+  - inblock fire
+  Skills:
+  - summon{type=Herobrine;amount=1;noise=5} @Origin
+  - command{c="minecraft:execute <mob.uuid> ~ ~ ~ fill ~ ~ ~ ~ ~-1 ~ air 0 replace"} @Self
+  - delay 5
+  - remove @Self
+
+#THANKS @ jaylawl for the healthbar !
+healthbarA:
+  Skills:
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>&7"} @PlayersInRadius{r=50} =100%-90%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>&7<&skull>"} @PlayersInRadius{r=50} =90%-80%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>&7<&skull><&skull>"} @PlayersInRadius{r=50} =80%-70%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull><&skull><&skull>&7<&skull><&skull><&skull>"} @PlayersInRadius{r=50} =70%-60%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull><&skull>&7<&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =60%-50%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull><&skull>&7<&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =50%-40%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull><&skull>&7<&skull><&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =40%-30%
+  - sendactionmessage{msg="&4<&skull><&skull><&skull>&7<&skull><&skull><&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =30%-20%
+  - sendactionmessage{msg="&4<&skull><&skull>&7<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =20%-10%
+  - sendactionmessage{msg="&4<&skull>&7<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50} =10%-1%
+healthbarB:
+  Skills:
+  - sendactionmessage{msg="&7<&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull><&skull>"} @PlayersInRadius{r=50}

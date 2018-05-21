@@ -1,0 +1,314 @@
+uniqueId: a99333a0-96c2-41c8-8b60-f2473329db90
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 11
+category: 5
+cooldown: -1
+name: '&d&lMonolithe &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: §d§lMonolithe §r
+    lore:
+    - §7Utilisé pour les armes légendaires.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lMonolithe §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dPoulet
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2PS26DMBiE/1aqRFGP0S0Sb8IiC1SkxigxTcIj9g4cI2IMjQhUwLl6wLLsajTzzSxGBVDh7dyMUn7139VNcgWe0RXey2rjGaXLNN9knmY7NtOKQnc0w7O5yyp/w2xHBXUd3Xk/3PjjFZSBT8PY84cKAE8KvGSFHDn88jnS6aXWr5dIshm5q0/OuoyRuHuoy+byA7moXfkucPez/6/rDEXuSGJFNe2OY9lm+t46Sb47GaxNf6gITJykBl4CkwiiH3LakHzVhYpDyEwscBsnaCE5FTjPJF7QhEO6ZsEUJ1lLxGHBJnLoZ2phQYw4rBvUGX513G7XB/AHfbbTNBwBAAA=
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ef6bccb1-3d64-484f-a0e2-e262e9126a7e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dFrites
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2OwW6CQBiE/zZpYkkfo1eSXWFBjrahEaJrxQVcbgpLAP+1RqEFnqqPWI49zUy+mWQMAANe9ucO8fP2VdaoZvAYFPBqz53C8YrcXDCmTJtZ1Fy47sL0SuZSapOjTYkBxjS6qltbq/szzFrVt91N3Q0AeJjBU3LETsGvGkKSHSpSHELMh8CZstgT3AbN1Q0uyXB6D5xAT3y1dNaD96/L2mPKUFphlV123UknZG1FqFYRzXX8LcUbypRXctz1UuDk5Q8X/sjHDLMm1FsRMz4u+0x81FLHvdSSyNSf89GnMo2azRjVXE/aYLURHKU41+WBetN7+AMOF2BzGAEAAA==
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e9ea0e52-9804-4a46-b52f-c2b47b8d7219
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dHamburger
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2Py06DQBhGf01MkPgYbkmG29guXBgb7ZACQrkNO2AGaRlq04Jh5rl8QHHn8uQ73+LoADo87PtJiI/LV3sQXINbwuCxYciqraoxLIdxw2GVbdQYM2PlILetamyubKaDvpzO/DIe+PUetJHP43ThVx0AbjS4yyoxcfjh0kNl0SFWeKKRBC+c7JEIyfH8RE6ZrF8JJsOyb1/wTq7/ue5Y5a6gtteVp2iqhwzt7FjwbWw2Q/pNrbgr3+kcqAgFG1+VydsxUKL388gM80gGqrHLTa/CPBZ+kro0IYha1Ays1KEJnan6lHTwUTmk6s8NklRR6a3bAj0vBfALpqWPPhwBAAA=
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 76ac3702-5eae-4571-a622-667b13ac84bb
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dSoupe
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbkkGGBAWLmrRdkiZSjulDDt+pinjUJsWKvBUPqIs3d2Te25ydQAdnrZfnVKfl+9DrYQG96SCZ2F7OS4s2xDY9wxcesLwsOkYZY4K27Qr5BSFDvo0OotLW4vrI2it6NvuIq46ANxp8JDkqhPwK4YQZekRVWmoyoG4E7MtUmsizy/klAzFnLikmfrlzF0N/j/XafO9o7gdHrNT3BVNglb2Ronlxiyb3Y1bUU+Dd0QXU9pHKGPc4pJKGsQjlfwnWyQ1H8uRW2SIGDGzYDb5b5Kyj5qy3RA1EeaMYy5LvGZxT+ehf0jR6/Qe/gCUaEyjGAEAAA==
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ba576673-bfc6-43da-a5e1-58003279ddc0
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dSoda
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2PvW6DMBhFv1aqRFEfoyuSA4HAkKEtQ4yCKYSf4A2IkQFDIwJt8HP1AcvYu12de4arAqjwcupmIT7Hr7oRTIFHfIFXu7Qre+tYmm3XSNs6aKeVZV1p5tY0Ct1Yo1sqqKt0ZePUsNszKBO7T/PIbioAPCjwlBZiZvDLFg/RM0eXsyeqBVtrj09IBLi97vCQLuUHtnC/8sObdVycf1tzKjJT5IbH6RDOZZ+ioxEJdog2VZ985y3nvoy6wKWc6F7jx6QjbsppH7Ukfu98PWppnAqahSbJknvghoj2Xkez5CfXCScykbmknS99RPpE+lIIPGycOtzv1wfwB9BXixQcAQAA
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 56e6d8a8-d5d9-4f19-8a0e-ab49ea167efc
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dSucre d'orge
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE1Py06DQBS9mpgg8TPckgxvWXRhxNohHRDKo7DjMWMLAzYUaul3+YHO0sVJznNxZAAZnnbdzPnn+M2OnEpwjxt41pBaNQwxxXZorRiGwZTSFEwtX0yT1U1TMlsGWYxOdJyO9PwI0kSv0zzSswwAdxI8pCWfKfzSxUPF/oCavcfrBVtCxzvEA9yebDykS/WGLdyLfPNqbRfnX9ecyszkue4diiGcqz5FWz3idBOpdZ9c/A+/JVquB+66DWJ8y2NsBG7TkzhqSZbyPH6/Ejf5IXGuBQJFizXiYtW/fSHirkUvVEmWCK/T87bTgyzq8aA6LFytxAP4AxJ3ugIcAQAA
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 65de1aa1-98a2-4238-a89a-5035bde29747
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dGlace à la vanille
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2O306DMBxGf5qYIPExvCXhzwrucsrMSkbnGFDauwIlUMtcNtCxZ/Ih5dLLk+98yTEBTHg6fI5af5y/mk5LA+5xDc+BsCtZC8cq3VpYi7IJrLISvlW+oMAL6qp2F40J5nw6yfPQycsjGIO8DuNZXkwAuDPgIRd6lPArp8jmRWvXRaSrCfszpwdb77A6BfiYT+Ub9nE/75uVv52W/1w0CIo086KWH/dj2ef21ku03CRO1WffjGKX3N5VHOIf0mcTo3nLw9eW0AwxldmEMi8OK0QUVyxdOyRlN67WHk9X1x1Nujjl7ewhHmZu7O67pnCWczn8AVMCvtUUAQAA
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 804be6a0-1211-4ca1-a9e4-4783fa1ce967
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dChocolat
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2PzW6CQBhFvzZpYkkfo1sSEBBYuGiL1TE6FOTHmR0MQ3WYsUahBZ+rD1iWXd6ccxZXA9Dgadd0Un5cvuqj5BO4RxU886Kw3dKsdFY6rm57zNOL2rJ0Vtt15Xvu1LJNDbQxOvNLe+TXR5i0vG+7C79qAHA3gYeskB2HXz6sDbo/GNV+LdmAZuNOdoYMkTi76JQN5RuaITXy1ctsM/j/XKctckcSa32gp6grVWZsrFjyVWwylX6HwcKhojHCZdTjG+vD5XtDcixxHjdYpT84eRU4+ZxuBXKwSG9UZQqLyKQB67cJPpCxpcHCIoLcwhwLHJApOpl+Hc3n4wP4A66zlIccAQAA
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1a356d5d-ad7d-4469-b3d1-3b5614ae181e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dComposte
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      internal: H4sIAAAAAAAAAE2QS0+EMACEq4nJSvwZXjfhLRzV1d02tri4UNrbQtG2FDXLIo9fL948TOYwM8mXsQCwwM1b0xvzevp6V6ZegUsowO0xDOIqKqN1WYdi7cdevI7syF0fgzhw3TAWtrizgLWMvuvTWdXdNVid6/Hcn+rOAgBcrMBVfjR9feHXE7KP1DGVl8qyuFeJfrLx3Dh4wxyiP8Zkc9/Bz4epdPl3uc0Rf4Qh1NlA5sZnGkni7kemFx1SRdpnw+bFaTYkFGl8qEaoBlXt0A9vTcezQJY0U4lCz+WOeLww018utrkvdvnEC6ySz05l9hkdFAwXNqdqh7/+l9ilQ6Kin3/dvqSm55RMjHL7pQ2MeIxtXkhbFMi8zHLheZoSmkuipcRb7GIKR05Tidu9z2iusZtNWMOAzNDDM5yZFg1uU0nahX2TajY/aL5BDadsyfYePkD1Xjjx8iD4BX2GCkOcAQAA
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 8
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a99333a0-96c2-41c8-8b60-f2473329db90
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9b46fa92-6711-4d94-9dee-e5930ab90a4c
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

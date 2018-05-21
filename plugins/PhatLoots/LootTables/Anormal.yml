@@ -1,0 +1,421 @@
+Anormal:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lCzarny §r
+          lore:
+          - §7Tranchant XV
+          - §7Fléau IV
+          - §7Sweeping III
+          - §7Antigrav
+          - §7Camouflage
+          - ''
+          - §4Anormal
+          - '§7Particules : §dMaudit'
+          enchants:
+            DAMAGE_ALL: 15
+            DAMAGE_ARTHROPODS: 4
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy45k8/aemGy8l4WBk6QkE9qYnHJd9eVKy0TO2axMbA55uaX5pXsf5YGBhwMLME5+SUMHLmJmXkZiXkpHAy8cCv8EnNTGYTTU/NSizKT9RJLShKTs4MLUlNTmBk4/QtSixJLMvPzgLYzAk3BqZaBVKc5yDCAAWGniaBa55KYm5ieiuY2BpjbsCpmYAAAsRQMC1YBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lEpée de Wolfe §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité V
+          - §7Chance II
+          - §7Egide
+          - §cLenteur I
+          - §cFaim
+          - ''
+          - §4Anormal
+          - '§7Particules : Obscur'
+          - §7§oPassifs secrets
+          enchants:
+            DAMAGE_ALL: 20
+            LOOT_BONUS_MOBS: 2
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZWHgCA31dPHNLy7hzljjWqU2dRILAydIyCc1sbhE8MM3FddZRq1sDGyOufmleSX7d84EgVkcDCzBOfklDBy5iZl5GYl5KRwMvHAr/BJzUxlE01PzUosyk/Vy88tSc1PzSoILUlNTmBk4/QtSixJLMvPzgPYzAs3Bo5qBVOc5CDCAAWHn8cAszClNzkZzFQPMVSiKSHbM/mdpYEDYMcIwexJLShKTs/GGFDa1pIeTDLHhJIJqnUtibmJ6Kq7wwqqYdMcxEOs4Xrh9Rbn5RbhchaqKgQEAtqQuHBEDAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lDague Rouillée §r
+          lore:
+          - §7Tranchant XXX
+          - §7Vampirisme I
+          - §cLenteur
+          - ''
+          - §4Anormal
+          - '§7Particules : §dObscur'
+          enchants:
+            DAMAGE_ALL: 30
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy4Rjbu7JIgn3Z+FgRMk5JOaWFyiXncr2rNNooeNgc0xN780r2T/y5kgMIuDgSU4J7+EgSM3MTMvIzEvhYOBF26FX2JuKoNwempealFmsl5iSUlicnZwQWpqCjMDp39BalFiSWZ+HtB2RqApONUykOo0BxkGMCDsNBFU61wScxPTU9HcxgBzG1bFDAwAT3xQJ1YBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lEzkaton §r
+          lore:
+          - §7Tranchant XX
+          - §7Fléau II
+          - §7Châtiment II
+          - §7Sweeping III
+          - §7Recul I
+          - §7Solidité V
+          - §cLenteur I
+          - ''
+          - §4Anormal
+          - '§7Particules : §dMaudit'
+          - '§7Compétence : §eVivavité'
+          enchants:
+            DAMAGE_ALL: 20
+            DAMAGE_UNDEAD: 2
+            DAMAGE_ARTHROPODS: 2
+            KNOCKBACK: 1
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy4RKGD5Xn4gbDsLAydIyCc1sbhk9UVVlyOHn8iyMbA55uaX5pXs3zkTBGZxMLAE5+SXMHDkJmbmZSTmpXAw8MKt8EvMTWUQTU/NSy3KTNbLzS9LzU3NKwkuSE1NYWbg9C9ILUosyczPA9rPCDQHj2oGkp33LA0MCDtPGGZhYklJYnI2XsdhU0uy0xxkGMCAsNNEUK1zScxNTE9FcxsDzG1YFTMwAADbOIeX9QEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lAnathema §r
+          lore:
+          - §7Tranchant XXV
+          - §7Solidité III
+          - §7Vampirisme I
+          - §7Armure II
+          - §cLenteur I
+          - ''
+          - §4Anormal
+          - '§7Particules : §dMaudit'
+          enchants:
+            DAMAGE_ALL: 25
+            DURABILITY: 3
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy4J7TR5+pcj7SoLAydIyCc1sbjki3Gg5aKZ713YGNgcc/NL80r275wJArM4GFiCc/JLGDhyEzPzMhLzUjgYeOFW+CXmpjKIpqfmpRZlJuvl5pel5qbmlQQXpKamMDNw+hekFiWWZObnAe1nBJqDRzUDyc57lgYGhJ0nDLMwsaQkMTkbr+OwqSXZaQ4yDGBA2GkiqNa5JOYmpqeiuY0B5jasikl3nACxjuOF21eUm1+Ey1WoqhgYAC/bx1eEAgAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lAbstrakcji §r
+          lore:
+          - §7Tranchant XV
+          - §7Sweeping III
+          - §7Solidité V
+          - §7Chance I
+          - §7Faveur I
+          - §7Egide
+          - §7Sapeur
+          - ''
+          - §4Anormal
+          - '§7Particules : §dObscur'
+          enchants:
+            DAMAGE_ALL: 15
+            LOOT_BONUS_MOBS: 1
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy4JiCnp3Wr91oiFgRMk5JOaWFxyRu11/xEZBwE2BjbH3PzSvBIHBgjgYGAJzskvYeDITczMy0jMS+Fg4IVb4ZeYm8rAk56al1qUmayXU5qczczA6V+QWpRYkpmfB9WOqYiBVMfsf2wMBoQdIwyzJ7GkJDE5O7ggNTUFzU2MMDdhU0uy0xxkiA0nEVTrXBJzE9NTcYUXVsUMDAADfFIU4wEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lFeral Love §r
+          lore:
+          - §7Tranchant XV
+          - §7Fléau III
+          - §7Raccommodage
+          - §7Vampirisme I
+          - §cLenteur I
+          - §cFaim
+          - ''
+          - §4Anormal
+          - '§7Particules : §dObscur'
+          - §7§oPassif Secret
+          enchants:
+            DAMAGE_ALL: 15
+            DAMAGE_ARTHROPODS: 3
+            DURABILITY: 3
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy4pTTJbE8BuspSFgRMk5JOaWFzCdEJi3X/m6CNsDGyOufmleSX7d84EgVkcDCzBOfklDBy5iZl5GYl5KRwMvHAr/BJzUxlE01PzUosyk/Vy88tSc1PzSoILUlNTmBk4/QtSixJLMvPzgPYzAs3Bo5qBZOc9SwMDws4ThlmYWFKSmJyN13HY1JLsNAcZBjAg7DQRVOtcEnMT01PR3MYAcxtWxQwMAEvTtmT1AQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lXiadz §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité III
+          - §7Recul I
+          - §7Vampirisme I
+          - §cLenteur II
+          - ''
+          - §4Anormal
+          - '§7Particules : §dMaudit'
+          enchants:
+            DAMAGE_ALL: 20
+            KNOCKBACK: 1
+            DURABILITY: 3
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy45ZvGr+evyV8dZGDhBQj6picUldgZ1YU37DdLZGNgcc/NL80r275wJArM4GFiCc/JLGDhyEzPzMhLzUjgYeOFW+CXmpjKIpqfmpRZlJuvl5pel5qbmlQQXpKamMDNw+hekFiWWZObnAe1nBJqDRzUDyc57lgYGhJ0nDLMwsaQkMTkbr+OwqSXZaQ4yDGBA2GkiqNa5JOYmpqeiuY0B5jasihkYAE7lqCb1AQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lPsyche §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité V
+          - §7Vampirisme I
+          - §7Armure I
+          - §7Chance II
+          - §7Egide
+          - ''
+          - §4Anormal
+          - '§7Particules : §dObscur'
+          enchants:
+            DAMAGE_ALL: 20
+            LOOT_BONUS_MOBS: 2
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy5xfVjy9dJbtnUsDJwgIZ/UxOIS2bLlW96XPXvHxsDmmJtfmlfiIMAABhwMLME5+SUMHLmJmXkZiXkpHAy8cCv8EnNTGXjSU/NSizKT9XJKk7OZGTj9C1KLEksy8/Og2jEVMZDqmP2PjcGAsGOEYfYklpQkJmcHF6SmpqC5iRHmJmxqSXaagwyx4SSCap1LYm5ieiqu8MKqmHTHER2JvHD7inLzi3C5ClUVAwMAqjJJlHICAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lEvangelion §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité III
+          - §7Célérité I
+          - §7Critique I
+          - ''
+          - §4Anormal
+          - '§7Particules : §dMaudit'
+          enchants:
+            DAMAGE_ALL: 20
+            DURABILITY: 3
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6paoveuzivZR0LAydIyCc1sbjEeVno/6zl9z+xMbA55uaX5pU4KDCAAQcDS3BOfgkDR25iZl5GYl4KBwMv3Aq/xNxUBsH01LzUosxkvdzECo/UxJySDGYGTv+C1KLEksz8PKgZOFQykOqs/Y+NwYCws4RhliWWlCQmZwcXpKamoDmMEeYwbGpJdpqDDLEhJoJqnUtibmJ6Kq5Aw6qYgQEABhorwu0BAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lHypnos §r
+          lore:
+          - §7Tranchant XV
+          - §7Solidité V
+          - §7Poison II
+          - §7Amphibie
+          - §cLenteur I
+          - ''
+          - §4Anormal
+          - '§7Particules : §dObscur'
+          enchants:
+            DAMAGE_ALL: 15
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy45VvZOQ8nr2FkWBk6QkE9qYnEJa9/azQf4C4TYGNgcc/NL80r275wJArM4GFiCc/JLGDhyEzPzMhLzUjgYeOFW+CXmpjKIpqfmpRZlJuvl5pel5qbmlQQXpKamMDNw+hekFiWWZObnAe1nBJqDRzUDyc57lgYGhJ0nDLMwsaQkMTkbr+OwqSXZaQ4yDGBA2GkiqNa5JOYmpqeiuY0B5jasihkYALmCjvP1AQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lLame Abyssale §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité V
+          - §7Vitesse II
+          - §7Armure I
+          - §cFaim
+          - ''
+          - §4Anormal
+          - §7Particules :§d Obscur
+          enchants:
+            DAMAGE_ALL: 20
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy4RVu9eI/mVQ4iFgRMk5JOaWFwimSB6RctCVoKNgc0xN780r8R+50wQmMXBwBKck1/CwJGbmJmXkZiXwsHAC7fCLzE3lUE0PTUvtSgzWS83vyw1NzWvJLggNTWFmYHTvyC1KLEkMz8PaD8j0Bw8qhlIdd7+x8ZgQNh5wjALE0tKEpOz8ToOm1qSneYgwwAGhJ0mgmqdS2JuYnoqmtsYYG7Dqph0xzEQ6zheuH1FuflFuFyFqoqBAQBv7akBhAIAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lApokalypsis §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité V
+          - §7Raccommodage
+          - §cLenteur I
+          - §cFaim
+          - ''
+          - §4Exotique
+          - §7Particules :§d Obscur
+          enchants:
+            DAMAGE_ALL: 20
+            DURABILITY: 5
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6RldWM/XDQwYOFgRMk5JOaWFySc1v5xbpjG4zZGNgcc/NL80r275wJArM4GFiCc/JLGDhyEzPzMhLzUjgYeOFW+CXmpjKIpqfmpRZlJuvl5pel5qbmlQQXpKamMDNw+hekFiWWZObnAe1nBJqDRzUDyc57lgYGhJ0nDLMwsaQkMTkbr+OwqSXZaQ4yDGBA2GkiqNa5JOYmpqeiuY0B5jasihkYAKmwMoH1AQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§lFaux du Tourment §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping IV
+          - §7Solidité V
+          - §7Vampirisme
+          - §cFaim
+          - ''
+          - §4Anormal
+          - §7Particules:§d Obscur
+          - '§7Compétence: §b???'
+          enchants:
+            DAMAGE_ALL: 20
+            LOOT_BONUS_MOBS: 2
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy5RfHV4WXGQ1CIWBk6QkE9qYnFJulCc9mVzLxU2BjbH3PzSvBIHAQYw4GBgCc7JL2HgyE3MzMtIzEvhYOCFW+GXmJvKIJiempdalJmsl5tY4ZGamFOSwczA6V+QWpRYkpmfBzUDh0oGUp21/+VMEJhF2FnCMMsSS0oSk7ODC1JTU9AcxghzGDa1JDvNQYHYEBNBtc4lMTcxPRVXoGFVzMAAAAdxUMPtAQAA
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Weapon
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: Anormal
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

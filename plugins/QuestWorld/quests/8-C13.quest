@@ -1,0 +1,107 @@
+id: 8
+category: 13
+cooldown: -60000
+name: Touche pas à mes oeufs
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Touche pas à mes oeufs
+    id: chicken
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: b560c570-47d6-4306-9426-42c6b0fc09d4
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Moine Kami
+  timeframe: 0
+  questId: b560c570-47d6-4306-9426-42c6b0fc09d4
+  reset-on-death: false
+  display-name: Allez parler au Moine Kami
+  location:
+    world: Bouquenia
+    x: -806.0
+    y: 82.0
+    z: 1779.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bc38c0dc-5e42-4788-b048-a4fa9672bb7c
+  entity: PLAYER
+  custom_int: 156
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dOeuf Sacré de Poulard
+      lore:
+      - §fL'un des 5 oeufs sacrés de Poulard
+      - §fIl est très fragile.
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJv6scPDRC4hpZqgLrcoN1DdBFDULr8lx9wHLscTIzOoAOb4evQcrP7nqupdDgGZ/gvZw7JUL+2bDmnBsuR4XhW8I10IL79sL1rAW3ddCn6Sa6vhb3GWi9ePRDJ+46ADxp8JoVchDwK9TGzI+VeTpuJFcYTZwcTBnj5jbHl0yVK4xwO/n1B9oq/1/r9QX1JHM2VX7ZDWWbmVtnL8V6b/E2/SYJU3GQjhHNakLZz8ReTvdVnoQ2G6uKBESyBqucZk3enJooSVU0ZnUcRBaj6YMEoclGbMeUVHkQKmaHDr5Y/nm3XAJo8EKKVsBsdVhdO7GtS4A/oJkYci4BAAA=
+      skull-owner: CSCoreLib
+  amount: 1
+  lore: ''
+  index: 1
+  type: DETECT
+  custom_string: Moine Kami
+  timeframe: 0
+  questId: b560c570-47d6-4306-9426-42c6b0fc09d4
+  reset-on-death: false
+  display-name: Trouver un des oeufs sacrés et l'observer
+  location:
+    world: Bouquenia
+    x: -807.0
+    y: 82.0
+    z: 1779.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8d7df9f1-6e7d-4f0c-b361-2da298e7e6a2
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: Chasseur de primes
+  timeframe: 0
+  questId: b560c570-47d6-4306-9426-42c6b0fc09d4
+  reset-on-death: false
+  display-name: Chercher quelqu'un à la taverne
+  location:
+    world: Bouquenia
+    x: -806.0
+    y: 72.0
+    z: 1725.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a418f8a7-1447-4778-86b8-0700b3f9f58e
+  entity: PLAYER
+  custom_int: 190
+  exclude-spawners: false

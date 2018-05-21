@@ -1,0 +1,21 @@
+id: 36
+name: 'Event : Apocalypse'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: 'Event : Apocalypse'
+    lore:
+    - §8Monsters
+    internal: H4sIAAAAAAAAAE2LwW6CQBRFX5s2QdLP6JYEZEBZuDCQ6BAHKyCV2QEOhXFGDUILfFc/sCy7ujk556oAKrxFl06Ij+ZW1oIp8IzP8I6M3EC5nWlOVsw1tHRsbWnqtoYWpeWckVFaZaaCOp3urGlr9piB0rK+7Rr2UAHgSYHXJBMdg182+Do9Vfr55ItiwPbEcaSLPeb3Bb4mQ+5iG8vJb9f2bnD+tVabfVoiNf2KXg9dLhN9Z4aCbUOjkMfvICYm8dKeyqQK4mIkMp0HktaErw26IT31johyX6Zjiqj3NZCRcuqFnMSJINLnAS/6/YbydLz8BHyNph3w1XDKw2oFoMBLkEkGMzdybw3b1TnAH6ACsoYuAQAA
+    skull-owner: CSCoreLib
+permission: ''
+hidden: true
+world-blacklist: []
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM3MDYxZmVhNTczMmY2NmZiMjA1ZGMxZDU4ZjJmYzY4ZDgyMzZjZDRjMTVlMmJjNjcxOGZjYzkwNjA4YzkyIn19fQ==
+  custom-skullOwner: CSCoreLib
+uniqueId: c4c26d10-eb9f-4502-9548-8ac3bee219d5

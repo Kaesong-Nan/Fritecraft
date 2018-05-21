@@ -1,0 +1,50 @@
+id: 11
+category: 3
+cooldown: -60000
+name: Squelettes
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Squelettes
+    id: skeleton
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 38fec5af-6a27-4056-9dea-2ee4f73f973f
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 20
+  lore: ''
+  index: 0
+  type: KILL
+  custom_string: ''
+  timeframe: 0
+  questId: 38fec5af-6a27-4056-9dea-2ee4f73f973f
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: af8f1982-c4d8-4996-b98c-3b4ecda5e683
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false

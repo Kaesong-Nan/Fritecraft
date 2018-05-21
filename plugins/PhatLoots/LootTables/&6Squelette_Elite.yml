@@ -1,0 +1,42 @@
+'&6Squelette_Elite':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    BonusAmount: 11
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      amount: 8
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 11
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 8
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    Probability: 100.0
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  Name: '&6Squelette_Elite'
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

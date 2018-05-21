@@ -1,0 +1,12 @@
+§9<Penfield> §f: Oh, vous en avez trouvé un ?
+§9<Penfield> §f: Excellent !
+§9<Penfield> §f: Vous avez eu le temps de l'écouter avant ou pas ?
+§9<Penfield> §f: Car une fois le contenu effacé, ça ne sera plus possible !
+§7*En fait si, mais ça va retirer le nom spécial, et il ne sera plus utilisable pour la quête*
+§9<Penfield> §f: Bon aller, j'efface tout !
+§9<Penfield> §f: ...
+/playsound bot1 master @a 612 72 906 1
+/playsound bot2 master @a 612 72 906 1
+§9<Penfield> §f: Et voilà !
+/give <player> record_chirp 1 name:&dDisque_formaté
+§9<Penfield> §f: En principe ça sera utilisable pour votre étude !

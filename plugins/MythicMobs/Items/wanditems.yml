@@ -1,0 +1,46 @@
+fireboltwand:
+  Id: stick
+  Display: '&rFirebolt Wand'
+  Lore:
+  - '&r&6Rarity: &rSimple'
+  - '&r&6Spell: &5Firebolt'
+  - '&r&6Right-Click enemy to cast'
+  - "&r&6Durability 250 / 250"
+  Skills:
+  - skill{s=Firebolt} @target ~onUse
+fireballwand:
+  Id: stick
+  Display: '&r&aFireball Wand'
+  Enchantments:
+  - POWER:1  
+  Lore:
+  - '&r&6Rarity: &aRare'
+  - '&r&6Spell: &5Fireball'
+  - '&r&6Right-Click enemy to cast'
+  - "&r&6Durability 500 / 500"
+  Skills:
+  - skill{s=Fireball} @target ~onUse
+incineratewand:
+  Id: bone
+  Display: '&r&bIncinerate Wand'
+  Enchantments:
+  - POWER:2
+  Lore:
+  - '&r&6Rarity: &bExquisite'
+  - '&r&6Spell: &5Incinerate'
+  - '&r&6Right-Click enemy to cast'
+  - "&r&6Durability 750 / 750"
+  Skills:
+  - skill{s=Incinerate} @target ~onUse
+pyroclasticwand:
+  Id: blaze_rod
+  Display: '&r&5Pyroclastic Wand'
+  Enchantments:
+  - POWER:3
+  Lore:
+  - '&r&6Rarity: &l&5Apocryphal'
+  - '&r&6Spell: &5Pyroclastic Blast'
+  - '&r&6Right-Click enemy to cast'
+  - "&r&6Durability 1000 / 1000"
+  Skills:
+  - skill{s=PyroclasticBlast} @target ~onUse

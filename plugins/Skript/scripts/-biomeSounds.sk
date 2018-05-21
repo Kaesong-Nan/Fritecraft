@@ -1,0 +1,6 @@
+every 30 real seconds:
+    loop all players:
+        biome at the player is taiga
+        play resource pack "creepy" to player
+    
+    

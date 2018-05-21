@@ -1,0 +1,67 @@
+cfg_version: 1.0
+AbyssDusts:
+  abyss_soul:
+    Material: SULPHUR:0
+    Display: '&9&lLotus Noir (Liaison)'
+    Lore:
+    - '&7Retire la &9&lLiaison&7 d''un objet.'
+    - ''
+    - '&7&[Glissez sur un item pour utiliser]'
+    Enchanted: true
+    Type: SOULBOUND
+    Amount: 1
+    OnUse:
+      Sound: ITEM_FIRECHARGE_USE
+      Effect: SMOKE_NORMAL
+  abyss_gem:
+    Material: SULPHUR:0
+    Display: '&9&lLotus Noir (Gemme)'
+    Lore:
+    - '&7Retire 1 &9&lGemme&7 d''un objet.'
+    - ''
+    - '&7&[Glissez sur un item pour utiliser]'
+    Enchanted: true
+    Type: GEM
+    Amount: 1
+    OnUse:
+      Sound: ITEM_FIRECHARGE_USE
+      Effect: SMOKE_NORMAL
+  abyss_enchant:
+    Material: SULPHUR:0
+    Display: '&9&lLotus Noir (Enchantement)'
+    Lore:
+    - '&7Retire 1 &9&lEnchantement&7 d''un objet.'
+    - ''
+    - '&7&[Glissez sur un item pour utiliser]'
+    Enchanted: true
+    Type: ENCHANT
+    Amount: 1
+    OnUse:
+      Sound: ITEM_FIRECHARGE_USE
+      Effect: SMOKE_NORMAL
+  abyss_rune:
+    Material: SULPHUR:0
+    Display: '&9&lLotus Noir (Rune)'
+    Lore:
+    - '&7Retire 1 &9&lRune&7 d''un objet.'
+    - ''
+    - '&7&[Glissez sur un item pour utiliser]'
+    Enchanted: true
+    Type: RUNE
+    Amount: 1
+    OnUse:
+      Sound: ITEM_FIRECHARGE_USE
+      Effect: SMOKE_NORMAL
+  abyss_ability:
+    Material: SULPHUR:0
+    Display: '&9&lLotus Noir (Pouvoir)'
+    Lore:
+    - '&7Retire 1 &9&lPouvoir&7 d''un objet.'
+    - ''
+    - '&7&[Glissez sur un item pour utiliser]'
+    Enchanted: true
+    Type: ABILITY
+    Amount: 1
+    OnUse:
+      Sound: ITEM_FIRECHARGE_USE
+      Effect: SMOKE_NORMAL

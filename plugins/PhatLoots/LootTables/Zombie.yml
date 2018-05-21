@@ -1,0 +1,37 @@
+Zombie:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT_ITEM
+    Probability: 4.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTATO_ITEM
+    Probability: 4.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_INGOT
+    Probability: 4.0
+  - ==: Experience
+    Lower: 2
+    Probability: 100.0
+    Upper: 2
+  Name: Zombie
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

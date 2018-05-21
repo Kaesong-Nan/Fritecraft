@@ -1,0 +1,4 @@
+&e<Ron> &f : Bon, vous avez l'air honnête vous...
+&e<Ron> &f : Par contre, j'ai que du lait en poudre.
+&e<Ron> &f : Mais ça devrait faire l'affaire... Surtout pour un poivrot comme lui !
+/give <player> sugar 1 0 {display:{Name:"Lait de fourmis en poudre",Lore:[A mélanger avec un peu d'eau pour obtenir un liquide sucré et doux]}}

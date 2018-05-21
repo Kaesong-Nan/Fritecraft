@@ -1,0 +1,83 @@
+# Welcome to the McMMOExtras configuration file!
+
+bar:
+    format: '@skill (Niveau @level)'
+    # Seconds until disappear
+    disappear: 10
+    # Colorize the skill name
+    color:
+        mining: '3'
+        woodcutting: 'a'
+        herbalism: '2'
+        excavation: '6'
+        fishing: '1'
+        unarmed: 'd'
+        swords: 'c'
+        taming: 'f'
+        archery: '5'
+        axes: '4'
+        repair: 'd'
+        acrobatics: 'c'
+        smelting: '7'
+        alchemy: '9'
+    # 1.9+ only settings
+    # If the value is empty it will be ignored
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+    barColor:
+        mining: WHITE
+        woodcutting: GREEN
+        herbalism: GREEN
+        excavation: PURPLE
+        fishing: BLUE
+        unarmed: WHITE
+        swords: YELLOW
+        taming: BLUE
+        archery: GREEN
+        axes: PINK
+        repair: PURPLE
+        acrobatics: RED
+        smelting: WHITE
+        alchemy: PURPLE
+    # 1.9+ only settings
+    # If the value is empty it will be ignored
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+    segments:
+        mining: SEGMENTED_10
+        woodcutting: SEGMENTED_10
+        herbalism: SEGMENTED_10
+        excavation: SEGMENTED_10
+        fishing: SEGMENTED_10
+        unarmed: SEGMENTED_10
+        swords: SEGMENTED_10
+        taming: SEGMENTED_10
+        archery: SEGMENTED_10
+        axes: SEGMENTED_10
+        repair: SEGMENTED_10
+        acrobatics: SEGMENTED_10
+        smelting: SEGMENTED_10
+        alchemy: SEGMENTED_10
+
+# Should the bar always show up
+alwaysShow: false
+
+# Checks the region the player is in and shows only if the skill is listed in a flag there
+useWorldGuardFlags: false
+
+# permission based max levels
+permissions:
+    # permission group
+    guest:
+        # skill type: max level to show the level in the bar
+        unarmed: 100
+
+# 1.9+ only settings
+# This is value is used if no specific segments style is set (See above)
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+segments: SEGMENTED_10
+
+## This is value is used if no specific color is set (See above)
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+color: PURPLE
+
+# How many bars should be displayed at the same time
+concurrentBars: 4

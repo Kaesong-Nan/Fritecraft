@@ -1,0 +1,19 @@
+id: 4
+name: '&4&lBoss'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §4§lBoss
+    internal: H4sIAAAAAAAAAE2LwW6CQBRFX5s2QdLP6JaEUcBh2aitQxQKjsqwA3woMqhBaISv6id2lt3de869OoAOb5uqk/K7uRalRA2e2QHec6SZ61A0kFJiWJZKlE4Lg+LYcYs0ddB2ddDV6YZNW+J9BFqLj7Zr8K4DwJMGr7tUdgi/2HtmEp/MQ+zJvGeO6nxjyoCdb1N22fXZjDmsVn754ax699/WbtO9LcXEOyWXsMvqnbmaRBKXEcnr7Y8YM8vnXin4ggTzqBJcSp/nD39+JAGvbJ+HZL3fmuJcmf4QWmKIqmQuBqGYcoMYFiQ5yzr4+pSKEjEcyyImLoAGL35aI4xmm9m1wVWZAfwBWdqJQioBAAA=
+    skull-owner: CSCoreLib
+permission: ''
+hidden: false
+world-blacklist: []
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: c5ec5678-2e3f-40ba-aaac-c7b028aff784

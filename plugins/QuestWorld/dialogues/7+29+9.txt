@@ -1,0 +1,9 @@
+§9<Zajonc> §f: Je pense que ça devrait être suffisant, merci.
+§9<Zajonc> §f: Alors on va placer ça dans l'enclos de manière stratégique ...
+§9<Zajonc> §f: D'abord, un ici ...
+/setblock 610 72 905 minecraft:redstone_block
+§9<Zajonc> §f: Ensuite, un petit paquet ici plus loin ...
+/setblock 612 72 908 minecraft:redstone_block
+/setblock 612 72 909 minecraft:redstone_block
+/setblock 611 72 909 minecraft:redstone_block
+§9<Zajonc> §f: Je pense que ça devrait être pas mal pour commencer.

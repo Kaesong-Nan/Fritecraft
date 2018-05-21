@@ -1,0 +1,127 @@
+id: 6
+category: 12
+cooldown: -60000
+name: Le repère de Dude
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Le repère de Dude
+    internal: H4sIAAAAAAAAAE2LzW6CQBSFb5s2QdLH6JZk+JHqshUbhwgUmaLMjpGhInfUIFjxmfqQpbsuTnJOvu/oADo8JXWH+NEcywqlBve0gOdy7JSTibk1BBGu4dgmMYRbSiMnlrBEIZxpbumgD6eTbNpKnkegtfLado086wBwp8FjmmMn4Uf2PuGbHSk2Pm576g6bJQQjuj+90EPaixl1qRr44tVd9tN/7rjN12PMbH/HD3EnVEqW9grlYmVu1ecl8urviL3X4Q0xY28qZIh8XwypCfeKKlNzi7NUBaxQgcps7sVmePP3obdS0Z9/40P/ukbruR2wuCo35hRAg4cwVxJGs2R2bOSyEgC/MROLJiYBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.choco.usine7
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 12-C5
+uniqueId: 0679edc9-54ea-4f77-a4f2-69397d4b65cd
+categoryId: 4cc988b3-c359-42e3-b557-5c2a3507b1fb
+parentId: ced62a85-bdea-4c57-be88-3f94416293f2
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '§7X: 410 Y: 57 Z: 2114'
+  amount: 1
+  lore: ''
+  index: 0
+  type: REACH_LOCATION
+  custom_string: Repère de Dude
+  timeframe: 0
+  questId: 0679edc9-54ea-4f77-a4f2-69397d4b65cd
+  reset-on-death: false
+  display-name: '&fTrouver le repère de Dude dans l''usine'
+  location:
+    world: Bouquenia
+    x: 410.0
+    y: 57.0
+    z: 2114.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 435e1750-d2c7-413e-bdd7-ecb381c35baa
+  entity: PLAYER
+  custom_int: 6
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '§7X: 409 Y: 46 Z: 2137'
+  amount: 1
+  lore: ''
+  index: 1
+  type: REACH_LOCATION
+  custom_string: Capsule de survie
+  timeframe: 0
+  questId: 0679edc9-54ea-4f77-a4f2-69397d4b65cd
+  reset-on-death: false
+  display-name: '&fTrouver le capsule de survie de Dude'
+  location:
+    world: Bouquenia
+    x: 409.0
+    y: 46.0
+    z: 2137.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e7252f7b-a494-4e8e-8b5f-d494dc378b42
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 99
+  amount: 1
+  lore: ''
+  index: 2
+  type: KILL_NAMED_MOB
+  custom_string: '&ePrototype V'
+  timeframe: 0
+  questId: 0679edc9-54ea-4f77-a4f2-69397d4b65cd
+  reset-on-death: false
+  display-name: '&fEn finir avec cette histoire ...'
+  location:
+    world: Bouquenia
+    x: 403.0
+    y: 46.0
+    z: 2149.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 32f744e0-7979-4459-9096-974fe373f579
+  entity: IRON_GOLEM
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,151 @@
+WarBlade:
+  Id: 267
+  Data: 0
+  Display: '&4Armageddon Blade'
+  Lore:
+  - '&6Re-forged by Ulthane,the only weapon '
+  - '&6Powerful enough to slay the Destroyer'
+  Enchantments:
+  - DAMAGE_UNDEAD:3
+  - LOOT_BONUS_MOBS:15
+WarHelm:
+  Id: 310
+  Data: 0
+  Amount: 1
+  Display: '&3Helm of The Rider'
+  Lore:
+  - '&6A Helmet forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_EXPLOSIONS:10
+  - DURABILITY:10
+WarChest:
+  Id: 311
+  Data: 0
+  Amount: 1
+  Display: '&3Mantle of The Rider'
+  Lore:
+  - '&6A Mantle forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+WarLegs:
+  Id: 312
+  Data: 0
+  Amount: 1
+  Display: '&3Greaves of The Rider'
+  Lore:
+  - '&6Greaves forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+WarBoots:
+  Id: 313
+  Data: 0
+  Amount: 1
+  Display: '&3Boots Of The Rider'
+  Lore:
+  - '&6Boots forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+  - PROTECTION_FALL:10
+WarHelms:
+  Id: 306
+  Data: 0
+  Amount: 1
+  Display: '&3Helm of The Rider'
+  Lore:
+  - '&6A Helmet forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_EXPLOSIONS:10
+  - DURABILITY:10
+WarChests:
+  Id: 307
+  Data: 0
+  Amount: 1
+  Display: '&3Mantle of The Rider'
+  Lore:
+  - '&6A Mantle forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+WarLegss:
+  Id: 308
+  Data: 0
+  Amount: 1
+  Display: '&3Greaves of The Fallen'
+  Lore:
+  - '&6Greaves forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+WarBootss:
+  Id: 309
+  Data: 0
+  Amount: 1
+  Display: '&3Boots Of The Rider'
+  Lore:
+  - '&6Boots forged for the use of'
+  - '&6The Four Horsemen'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - DURABILITY:10
+  - PROTECTION_FALL:10
+PestBow:
+  Id: 261
+  Data: 0
+  Display: '&4Prière'
+  Lore:
+  - '&6Forged from the desires of man'
+  - '&6Used to rid those it targets of greed'
+  Enchantments:
+  - ARROW_DAMAGE:5
+  - ARROW_KNOCKBACK:3
+  - DURABILITY:10
+  - ARROW_INFINITE:1
+FamineAxe:
+  Id: 275
+  Data: 0
+  Display: '&4Maladie'
+  Lore:
+  - '&6Forged from the Struggles of man'
+  - '&6Used to rid those it victims of sin'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DAMAGE_UNDEAD:3
+  - DURABILITY:10
+  - FIRE_ASPECT:1
+  - LOOT_BONUS_MOBS:3
+Scythe:
+  Id: 292
+  Data: 0
+  Display: '&4Faux'
+  Lore:
+  - '&6A Soul Eating Scythe'
+  - '&6Created by Death himself'
+  Enchantments:
+  - DURABILITY:10
+  - LOOT_BONUS_MOBS:3

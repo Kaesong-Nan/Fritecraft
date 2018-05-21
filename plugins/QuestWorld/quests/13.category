@@ -1,0 +1,20 @@
+id: 13
+name: '&9&lIrvine'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9§lIrvine
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJLn+FQw+NJHUJLFX+hNuCi4K7ahAMvFUfsRx7nMyMCqDCW3wehfjpr00ruALP5ADv2HQZtrCjOZbpaCY7cM01G6xhp3IcizfMZEwFdZluvB9afl+BMvBpGHt+VwHgSYHXjImRwy+ffVTuT+iw90U9E3vhJEYiIt3tg1yyuVoTm8jFb77sYHb/tdbAcksUhn8qL9uxkhkKjJ3gmx2uZfqIvFJSr9Yjr57KfDuHemFEeWoUnThT74ypd7Qi72iUCUH0O9TDRHQ0T6elQWFOZZRkbdjVU5H4opCpQWPfbfboE0CBF8okh9U6Xl97HrQVwB861stvKgEAAA==
+    skull-owner: CSCoreLib
+permission: ''
+hidden: false
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmNDc2ODcxZWQyM2Y3OWU3YjlkNDk1NDg5ODg3ZTI0NGM2MTljNWUxOWU0MWNmOTViMjcxYTJlYmU3NSJ9fX0=
+  custom-skullOwner: CSCoreLib
+world-blacklist: []
+uniqueId: fc84e293-0f50-49bd-af0d-509ade0467dd
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e

@@ -1,0 +1,30 @@
+§9<Boom Boom> §f: Sssssalut !
+/playsound entity.creeper.say master master @a 532 100 721 1
+§9<Boom Boom> §f: Pas de panique ! Je ne vais pas exssploser ...
+§9<Boom Boom> §f: Fais moi confianssss.
+§9<Boom Boom> §f: Je fais parti du C.R.E.E.P.
+§9<Boom Boom> §f: Commité Representatif des Entites Explosives Passssifissstes.
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: L'allure de cet édifisss doit te laisssser penssser que c'est ma faute ...
+§9<Boom Boom> §f: Je fasais parti d'ailleurs parti d'un deployement de creepers.
+§9<Boom Boom> §f: Et on avait comme missssion de venir ... "redécorer" ce manoir...
+§9<Boom Boom> §f: Mais j'ai fini par deserter.
+§9<Boom Boom> §f: Apres avoir fais ccccette découverte.
+§9<Boom Boom> §f: Fritegirl.
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: Ma ssssalvation.
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: Sssiii .... Sssublime ...
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: Je voudrais lui faire honneur.
+§9<Boom Boom> §f: Lui prouver ma sssagessse en lui offrant le pouvoir ...
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: Le pouvoir d'exssploser.
+§9<Boom Boom> §f: Pour ca, j'aurai besoin de ton aide.
+§9<Boom Boom> §f: Je voudrais lui offrir la plus grosssse bombe jamais pensssee.
+§9<Boom Boom> §f: Il va me falloir une grande quantité d'exssplosifs.
+§9<Boom Boom> §f: Et pour des raisons évidentes, je ne peux pas me procurer la poudre moi meme.
+/playsound entity.creeper.say master @a 532 100 721 1
+§9<Boom Boom> §f: Je vais attendre iccci, en penssssant à ma déessssse.
+/playsound entity.creeper.say master @a 532 100 721 1
+&e&l>> &r&7Apportez 100 TNT à Boom Boom pour son offrande

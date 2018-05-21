@@ -1,0 +1,57 @@
+id: 9
+category: 8
+cooldown: 43200000
+name: '&fBlé'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: WHEAT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fBlé
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 8cbc6219-3570-44f3-97a7-3c86599c7504
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WHEAT
+  amount: 128
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8cbc6219-3570-44f3-97a7-3c86599c7504
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a6291b47-1f3a-4a4f-aa4a-6e255d0292e1
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

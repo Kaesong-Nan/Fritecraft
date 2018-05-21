@@ -1,0 +1,33 @@
+Wither:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dEtoile du Wither
+    Probability: 100.0
+  - ==: Experience
+    Lower: 500
+    Probability: 100.0
+    Upper: 500
+  - ==: Item
+    BonusAmount: 10
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 50
+    Probability: 100.0
+  Name: Wither
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,62 @@
+id: 19
+category: 3
+cooldown: -60000
+name: Creeper Elite
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Creeper Elite
+    enchants:
+      ARROW_DAMAGE: 2
+    id: creeper
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.guilde.creeperelite
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 29082fa8-32f5-4e27-9bee-eb2f67483227
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 50
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&6Creeper Elite'
+  timeframe: 0
+  questId: 29082fa8-32f5-4e27-9bee-eb2f67483227
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 84.0
+    z: 717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 41c6c4ce-8456-4831-b062-9d4e5281b01c
+  entity: CREEPER
+  custom_int: 0
+  exclude-spawners: false

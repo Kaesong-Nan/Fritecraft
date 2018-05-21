@@ -1,0 +1,99 @@
+id: 5
+category: 2
+cooldown: -60000
+name: Pirate
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Dead Captain
+    lore:
+    - §8Humans
+    - §8Seafarer, §8Skull, §8Headgear
+    internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmG4WJm0YVapUPKIC2XDjsKg4ADNi20hefyAcWdZ3fyfWdxVAAVHrZfg5Qfx++ylkKBW1rAIzKRSXKCtMIQRDNtrGskz0oN/SXLMovoWAV1Hh3Esa/F6R6UXlz74ShOKgDcKHAXZ3IQ8CNGF6W7ChU7V+YjtecebpH0aXN4ol087l+pTduZr57t9Uj+uVafJZbkhlulXTDs2xitjY0Uq42et9HZa16qtJ3ZMrJ48mb6YT6mTnRlbXBhCZ84ZpXvUMxxLPn0idNlgFnzLnnoGSyU0gvpJQ355DVFzZzIYI7b0k4nZbBYzA/gFySm1rkcAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.pirate1
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 9b4fdb26-f0d5-48e7-9218-beb126b82bb3
+categoryId: 7466005f-ae69-465c-8cce-8b37214a22a1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&cSteve le Pirate'
+  timeframe: 0
+  questId: 9b4fdb26-f0d5-48e7-9218-beb126b82bb3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 612.0
+    y: 64.0
+    z: 906.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2bc0ad50-e3ea-432b-a9d5-5484d2fc873c
+  entity: PLAYER
+  custom_int: 122
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dPièce d'or
+      enchants:
+        LOOT_BONUS_MOBS: 1
+  amount: 64
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: '&cSteve le Pirate'
+  timeframe: 0
+  questId: 9b4fdb26-f0d5-48e7-9218-beb126b82bb3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 612.0
+    y: 64.0
+    z: 906.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bae57cd9-853e-45d8-94a1-ccec449e0670
+  entity: PLAYER
+  custom_int: 122
+  exclude-spawners: false

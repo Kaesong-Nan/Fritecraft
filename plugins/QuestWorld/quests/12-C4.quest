@@ -1,0 +1,133 @@
+id: 12
+category: 4
+cooldown: 79200000
+name: '&7&lLes Chevaliers de l''Apocalypse'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §7§lLes Chevaliers de l'Apocalypse
+    internal: H4sIAAAAAAAAAEWPy47aMABFPdVUYqJ+xmyRyGtgFrOgGPIQjpuQxMTqJrGN4mADIrzC14/VTbf3niPdawFggV+b/VWpP+fjTioxAj8iDt6563DBp/6Yz3b+2PPE53jmObsxc4Wom+kH91xmActIJ3G+SNG/gdFFPC7Xs+gtAMDLCPwsa3UVL3/FEE9qYivmZm2znUvcLW0E0QPB+R3lyEnytI8Ov4fGoacmKGO6iD6ibj4kwfKZOMhGQdwlMJ1gkrWYJDIh6Ilgu0dk1aGOuZG8SxbGN6pVTwu/bUghsYxDptWl0GXLgnL4xzjq0OjVhG9jZfIHJ2qgJJX4kA2cFGZDpkSY2UyXz6g7TSOVrDeFZ/peGqePuqOsw2zC4PG2dv+za22fGl12TK80X/hXuk1vPCg9HpYD3cxcHFCFYeQhWN0pWbUYMheb/ZWuHjQ3f/JMVo7p872H4dzw6F5pqiikHYWpj3Oqk+fSo7AaDOMiUg3Rwf7cpV9fAIzAa1JrAd4Wm8XxLNayAeAbM87u/dYBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skullOwner: CSCoreLib
+  custom-skull: eyJ0aW1lc3RhbXAiOjE1MDMxMDAwMTM2NTQsInByb2ZpbGVJZCI6IjAyNGEzN2M1MGJjNDQ0OWRhOWNiNWMzMDhkMWFjMjc3IiwicHJvZmlsZU5hbWUiOiJHcmltUmVhcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83OGZlODI4MDYwZWFhODc3ODhkYmYxZTNiNTRiY2I4MTk4ODA3OGMwYmZlZDZjZDQ5OTZmNzE4ZDYyMTk3MWYyIn19fQ==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 1c33f5a0-d56e-46e9-8a1b-16d2efe3f566
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&cPestilence'
+  timeframe: 0
+  questId: 1c33f5a0-d56e-46e9-8a1b-16d2efe3f566
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 58.0
+    y: 65.0
+    z: 1981.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7727bd8e-96e3-4366-a574-53756b2d325c
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 1
+  lore: ''
+  index: 1
+  type: KILL_NAMED_MOB
+  custom_string: '&cFamine'
+  timeframe: 0
+  questId: 1c33f5a0-d56e-46e9-8a1b-16d2efe3f566
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 58.0
+    y: 65.0
+    z: 1981.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a170c04f-8914-4790-94fe-e7bf145b0213
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 1
+  lore: ''
+  index: 2
+  type: KILL_NAMED_MOB
+  custom_string: '&cGuerre'
+  timeframe: 0
+  questId: 1c33f5a0-d56e-46e9-8a1b-16d2efe3f566
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 58.0
+    y: 65.0
+    z: 1981.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a2567ef5-4cc9-4e00-a0fe-5971bba0674f
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 1
+  lore: ''
+  index: 3
+  type: KILL_NAMED_MOB
+  custom_string: '&cMort'
+  timeframe: 0
+  questId: 1c33f5a0-d56e-46e9-8a1b-16d2efe3f566
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 58.0
+    y: 65.0
+    z: 1981.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: fa4f71e0-65fa-4dc5-a2c0-6cc681771e57
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false

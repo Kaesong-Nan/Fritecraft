@@ -1,0 +1,98 @@
+BossSerge:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lStalactite §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Solidité III
+          - §7Gel
+          - ''
+          - §6Exotique
+          - §7Particules :§d Glacial
+          enchants:
+            DAMAGE_ALL: 20
+            DURABILITY: 3
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy5ZK2SSm8N0fBELAydIyCc1sbjk57ZnjzlVtS6xMbA55uaX5pXsf2wMBhwMLME5+SUMHLmJmXkZiXkpHAy8cCv8EnNTGYTTU/NSizKT9RJLShKTs4MLUlNTmBk4/QtSixJLMvPzgLYzAk3BqZaBVKc5yDCAAWGniaBa55KYm5ieiuY2BpjbsCpmYAAAn/IC8VYBAAA=
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 10
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossSerge
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,22 @@
+voucher:
+  item:
+    item: PAPER
+    name: '&e&lContrat de claim'
+    lore:
+    - '&7Clic droit pour recevoir des blocs'
+    - '&7de claims supplémentaires !'
+    - ''
+    - '&6+50 &7blocs'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Message] &6&l(!) &7Vous venez de recevoir &6+50 &7blocs de parcelle !'
+        - '[ConsoleCommand] acb %player% 50'
+        chance: 100
+    limit: 999
+    permission: false
+    region: false
+    max-reward: 1
+    glow: true

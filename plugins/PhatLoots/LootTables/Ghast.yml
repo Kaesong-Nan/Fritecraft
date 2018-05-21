@@ -1,0 +1,33 @@
+Ghast:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+      amount: 2
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  Name: Ghast
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

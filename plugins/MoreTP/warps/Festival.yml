@@ -1,0 +1,27 @@
+name: Festival
+displayname: '&8&l[&b&m=---=&8&l> &6&lF&e&lE&6&lS&e&lT&6&lI&e&lV&6&lA&e&lL &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&f- Attractions'
+- '&f- Casino'
+- '&f- Chasse au trésors'
+- '&f- Marchands de nourriture'
+- '&f- Musique'
+- '&f- Parkour'
+- '&f- Donjon'
+- '&f- Armes uniques'
+- '&f- Skins'
+- '&f- Gadgets'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: true
+permission: moretp.warp.{warpname}
+item: GOLD_RECORD
+data: 0
+location: Bouquenia<>1489.7339473300208<>65.0<>1493.1508136666425<>2.6321483<>-2.5543518
+slot: 23

@@ -1,0 +1,57 @@
+Nuggetsgirl:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §6Thé au poulet §8(Elixir)
+        custom-effects:
+        - ==: PotionEffect
+          effect: 8
+          duration: 12000
+          amplifier: 1
+          ambient: true
+          has-particles: true
+        - ==: PotionEffect
+          effect: 22
+          duration: 12000
+          amplifier: 1
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 26
+          duration: 12000
+          amplifier: 1
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 10
+          duration: 600
+          amplifier: 2
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 23
+          duration: 300
+          amplifier: 0
+          ambient: true
+          has-particles: true
+    Probability: 100.0
+  Name: Nuggetsgirl
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

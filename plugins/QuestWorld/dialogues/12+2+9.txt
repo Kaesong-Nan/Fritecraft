@@ -1,0 +1,9 @@
+&a<Maire>&f : Alors ? C'est comment là bas ?
+&a<Maire>&f : Quoi ? Un seul survivant ? Mais c'est horrible !
+&a<Maire>&f : Comment est-ce qu'on va faire pour le chocolat ??!!
+&a<Maire>&f : Et oui, pauvres ouvriers aussi ...
+&a<Maire>&f : C'est quoi ça ?
+&a<Maire>&f : Oh, ce cookie est ... bizarre ... Ils sont pas comme ça normalement.
+&a<Maire>&f : On a un laboratoire ici, principalement pour contrôler la qualité de production.
+&a<Maire>&f : Allez voir les scientifiques avec ce cookie bizarre, ils l'analyseront.
+&a<Maire>&f : Leur labo se trouve juste devant la mairie.

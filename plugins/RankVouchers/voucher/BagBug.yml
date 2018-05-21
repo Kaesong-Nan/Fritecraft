@@ -1,0 +1,24 @@
+voucher:
+  item:
+    item: GOLD_NUGGET
+    name: '&6&lSac de Service &r'
+    lore:
+    - '&dDonné aux joueurs'
+    - '&dayant aidé le serveur.'
+    - ''
+    - '&7Contient:'
+    - '&7- Nourriture aléatoires'
+    - '&7- 3 Clés divines'
+    - '&7- 1 &cExtincteur'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Helper'
+        - '[ConsoleCommand] playsound minecraft:entity.llama.chest master %player% ~ ~ ~ 1 1 1'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

@@ -1,0 +1,18 @@
+voucher:
+  item:
+    item: CLAY_BRICK
+    name: '&6&lSac du Maitre du Sang &r'
+    lore:
+    - '&7Clic droit pour ouvrir'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% BossNicodemus'
+        - '[ConsoleCommand] playsound minecraft:entity.llama.chest master %player% ~ ~ ~ 1 1 1'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

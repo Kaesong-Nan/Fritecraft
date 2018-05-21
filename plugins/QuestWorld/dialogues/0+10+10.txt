@@ -1,0 +1,7 @@
+&c<Emissaire> &f: Admirez : la Grande Cathédrale du Salé et du Sucré !
+&c<Emissaire> &f: Lieu mystique des véritables Déèsses !
+&c<Emissaire> &f: A gauche, les Déèsses du salé, à droite, les Déèsses du sucré.
+&c<Emissaire> &f: Prouvez votre adoration et votre puissance, et les Emissaires vous récompenseront.
+&c<Emissaire> &f: Au bout de la Cathédrale, vous pouvez vous offrir des aides divines.
+&c<Emissaire> &f: Ces aides vous permettent de garder vos possessions lors de la mort.
+&c<Emissaire> &f: Grace au pouvoir des huit, la reincarnation est possible !

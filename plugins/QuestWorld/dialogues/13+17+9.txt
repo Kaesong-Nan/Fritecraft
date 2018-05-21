@@ -1,0 +1,10 @@
+&e<Chasseur de primes> &f: Je vois que vous êtes attirés par l'odeur de l'argent.
+&e<Chasseur de primes> &f: Vous avez bien raison.
+&e<Chasseur de primes> &f: L'argent...
+&e<Chasseur de primes> &f: ... c'est bien !
+&e<Chasseur de primes> &f: Et vous avez les oeufs.
+&e<Chasseur de primes> &f: Il est temps de faire pêter le Jackpot pour vous.
+&e<Chasseur de primes> &f: Mon client va être enchanté.
+&e<Chasseur de primes> &f: Et vous m'avez épargné la peine de chercher ces foutus oeufs...
+&e<Chasseur de primes> &f: Quand j'étais petit, j'ai été victimisé à Pâques par un grand gaillard.
+&e<Chasseur de primes> &f: Alors depuis, chercher des oeufs... ca se fait sans moi.

@@ -1,0 +1,9 @@
+§9<Greg> §f: Vous devez faire quelque chose ...
+§9<Greg> §f: J'en peux plus ...
+§9<Greg> §f: Richard, mon collocataire ...
+§9<Greg> §f: Vous voyez dans quel etat il met ce chalet ?
+§9<Greg> §f: Je vous en prie, faites quelque chose.
+§9<Greg> §f: Faites lui entendre raison.
+§9<Greg> §f: Il est a l'etage.
+§9<Greg> §f: Soyez prevenu, il est un peu ... special.
+&e&l>> &r&7Montez à l'étage et parlez à Richard à propos de son problème.

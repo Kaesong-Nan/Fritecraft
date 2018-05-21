@@ -1,0 +1,32 @@
+Item:
+  Id: DIAMOND_SWORD
+  Display: '&6Friture'
+  Lore:
+  - '&4&oDoes no damage but makes people cry'
+  - ''
+  - ''
+
+  Options:
+    Unbreakable: true
+    Repairable: true
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.10-0.15
+      # AttackSpeed:
+      # Armor:
+      # Damage:
+      # Health:
+      # Luck:
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  # - DAMAGE_ARTHROPODS:1
+  # - DAMAGE_UNDEAD:1
+  # - DURABILITY:10
+  # - LOOT_BONUS_MOBS:1
+  # - SWEEPING:3
+  # - MENDING:1
+  # - KNOCKBACK:20
+  Skills:
+  - effect:particles{p=magicCrit;a=30;speed=0;hs=1;vs=1} @Self ~onUse
+#  - skill{s=BanSomebody} @target ~onAttack

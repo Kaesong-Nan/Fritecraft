@@ -1,0 +1,22 @@
+voucher:
+  item:
+    item: NAME_TAG
+    name: '&7Titre: &6&lFêtard'
+    lore:
+    - '&7Clic droit pour déverouiller'
+    - '&7ce titre dans le menu'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Message] '
+        - '[Message] &e&l>> &7&oLe titre &6&o&lFêtard &7&oest maintenant disponnible
+          !'
+        - '[Message] '
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.fetard'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

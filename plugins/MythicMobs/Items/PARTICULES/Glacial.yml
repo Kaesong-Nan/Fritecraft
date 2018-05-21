@@ -1,0 +1,70 @@
+pLameSucre:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLame de Sucre §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pStalactite:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lStalactite §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pPeppermint:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lPeppermint §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pSpearmint:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lSpearmint §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pEpeeEtoile:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lEpée Etoilée §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pConifer:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lConifer §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+pArcEnCiel:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lArc-en-ciel §r
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self  

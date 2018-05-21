@@ -1,0 +1,214 @@
+id: 18
+category: 10
+cooldown: -60000
+name: '&eLa puissance de l''or'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §eLa puissance de l'or
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.crb.gold
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTMENT_TABLE
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 544.0
+    y: 95.0
+    z: 834.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 14fce3aa-d5d1-4f20-8306-259224c660c9
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 4
+  amount: 41
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a1c02351-530f-4ddc-a58a-b5c27d86fd07
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+  amount: 89
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 89dbb57f-461d-428a-b134-bd0c1acb6d21
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2aab3446-1571-4673-9bd2-72dbcf7e3c22
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  amount: 1
+  lore: ''
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 92623db7-af2f-4095-8290-8c3510e8599e
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+  amount: 1
+  lore: ''
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ef86243a-3924-46e2-833f-5fb47fe020ec
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STICK
+  amount: 1
+  lore: ''
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 68ab69c1-fb16-4b28-8648-a7cf9d5c9e3c
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
+  amount: 1
+  lore: ''
+  index: 7
+  type: CITIZENS_SUBMIT
+  custom_string: Lundquist
+  timeframe: 0
+  questId: 71f90686-9960-45cb-a6f2-b49c8cf81102
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 599.0
+    y: 72.0
+    z: 891.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 54e70451-3517-4bae-8470-c976e98bb5d5
+  entity: PLAYER
+  custom_int: 435
+  exclude-spawners: false

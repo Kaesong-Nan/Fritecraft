@@ -1,0 +1,8 @@
+&6<Tuteur> &f: Bouquenia est le nom du &dMonde RP&f, avec les quêtes, les donjons, etc ...
+&6<Tuteur> &f: Divers villages et installations sont présentes sur les iles de ce monde.
+&6<Tuteur> &f: Vous pourrez y trouver des quêtes, ou des services.
+&6<Tuteur> &f: Utilisez la commande /warp pour visiter un peu !
+&6<Tuteur> &f: Vous pouvez aussi accéder à ce système depuis le /menu, ou aux stations de metro.
+&6<Tuteur> &f: Et pensez à lire les descriptions des icones !
+&6<Tuteur> &f: Elles indiquent ce que vous pouvez trouver à chaque zone.
+&6<Tuteur> &f: Si vous êtes perdu, il y a une carte dynamique sur le site du serveur.

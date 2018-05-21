@@ -1,0 +1,3 @@
+on player drop of human head:
+    cancel event
+    send player title "&c&lGrrr !!" for 2 seconds

@@ -1,0 +1,12 @@
+&d<Morpheus> &f: La Frite est universelle.
+&d<Morpheus> &f: Elle est omniprésente.
+&d<Morpheus> &f: Elle est avec nous ici, en ce moment même.
+&d<Morpheus> &f: Tu la vois à chaque fois que tu regarde par la fenêtre
+&d<Morpheus> &f: ou lorsque tu ouvre ton inventaire.
+&d<Morpheus> &f: Tu ressens sa présence, quand tu pars miner
+&d<Morpheus> &f: Quand tu vas à la cathédrale, ou quand tu dépense tes émeraudes.
+&d<Morpheus> &f: Elle est le monde, qu'on superpose à ton regard pour t'empêcher de voir la vérité.
+&d<Morpheus> &f: Je n'ai pas dit que ce serait facile, <player>. J'ai dit que ce serait la vérité.
+&d<Morpheus> &f: Sinon, complètement hors sujet, mais voilà un steak délicieux.
+/title <player> subtitle {"text":"Félicitation !","italic":true,"color":"gray"}
+/title <player> title {"text":"Quête accomplie !","bold":true,"color":"green"}

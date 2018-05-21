@@ -1,0 +1,5 @@
+&9<Tedy> &f: Bonjour, cher visiteur ! Vous vous plaisez à Irvine ?
+&9<Tedy> &f: Je vous demande pardon ?
+&9<Tedy> &f: La pièce condamnée de... Pardonnez-moi, mais je ne vois pas de quoi vous parler...
+&9<Tedy> &f: Mais si vous cherchez les ennuis, essayez le Quartier Populaire.
+&9<Tedy> &f: Moi, je n'ai rien vu et je n'ai rien entendu !

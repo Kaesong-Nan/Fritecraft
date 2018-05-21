@@ -1,0 +1,6 @@
+§9<Lazarus> §f: Vous faites vraiment un partenaire extraordinaire !
+§9<Lazarus> §f: Je n'aurai jamais pu faire toutes ces recherches sans vous.
+§9<Lazarus> §f: Enfin, si, probablement, mais ça aurais prit beaucoup plus de temps.
+§9<Lazarus> §f: Je vais vous laisser l'honneur de déposer mon article à Elsevier.
+/give <player> paper 1 name:&dLes_Vegetaux
+§9<Lazarus> §f: Votre nom y figure, ne vous inquietez pas !

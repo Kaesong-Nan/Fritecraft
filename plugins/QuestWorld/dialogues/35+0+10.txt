@@ -1,0 +1,6 @@
+§9<Pyro> §f: Ok, je vais pouvoir te faire ton propre arc à fusées ...
+§9<Pyro> §f: Ca remplacera juste tes fleches par des fusées.
+§8L'arc à fusées a toujours besoin de flèches dans l'inventaire pour tirer.
+§8Il n'y a pas besoin de fusées.
+§8Aussi, l'arc peut très bien être enchanté et continuer à fonctionner.
+§8Le PNJ peut fabriquer d'autres arcs, avec quelques materiaux de plus.

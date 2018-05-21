@@ -1,0 +1,248 @@
+id: 28
+category: 13
+cooldown: -60000
+name: Le fantome d'Irvine II
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Le fantome d'Irvine II
+item_extra:
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Moine Chidori
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Déguisez-vous et parlez au Moine Chidori
+  location:
+    world: Bouquenia
+    x: -790.0
+    y: 70.0
+    z: 1803.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: cc891721-fa5e-4384-97ec-04ab8d8494fd
+  entity: PLAYER
+  custom_int: 161
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: Moine Uzul
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Allez voir ce que le Moine Uzul vous veut
+  location:
+    world: Bouquenia
+    x: -776.0
+    y: 90.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 92afd86c-6391-4e87-a02a-e45200639188
+  entity: PLAYER
+  custom_int: 160
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: Moine Yugi
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Allez vous occuper du Moine Yugi
+  location:
+    world: Bouquenia
+    x: -790.0
+    y: 89.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8c332ca8-2270-401a-9603-9bf98ee15849
+  entity: PLAYER
+  custom_int: 159
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '§7X: -808 Y: 82 Z: 1773'
+  amount: 1
+  lore: ''
+  index: 3
+  type: REACH_LOCATION
+  custom_string: tableau des oeufs
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Allez prier devant les "tableaux oeufs"
+  location:
+    world: Bouquenia
+    x: -808.0
+    y: 82.0
+    z: 1773.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bbdf465e-7ce5-4275-a7d2-fa0ba4adfc93
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 4
+  type: CITIZENS_INTERACT
+  custom_string: Moine Yugi
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Expliquez au Moine Yugi ce qu'il s'est passé
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a05fb464-da0b-408c-ae15-7e7369bfa694
+  entity: PLAYER
+  custom_int: 159
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_CHICKEN
+  amount: 10
+  lore: ''
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: Offrandes
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Offrez 10 poulets cru à la statue d'Irvine
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 15905b13-68b5-4af5-a89c-e27c770fd119
+  entity: PLAYER
+  custom_int: 534
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '§7X: -761 Y: 74 Z: 1799'
+  amount: 1
+  lore: ''
+  index: 6
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Priez un bon coup sur le tapis rouge
+  location:
+    world: Bouquenia
+    x: -761.0
+    y: 74.0
+    z: 1799.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bb719cae-4876-4405-8255-f8c2728374c6
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 7
+  type: CITIZENS_INTERACT
+  custom_string: Moine Yugi
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Racontez tout au Moine Yugi
+  location:
+    world: Bouquenia
+    x: -792.0
+    y: 89.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: aaa1587b-5beb-45e1-9ae0-2b644d32108f
+  entity: PLAYER
+  custom_int: 159
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  amount: 1
+  lore: ''
+  index: 8
+  type: CITIZENS_SUBMIT
+  custom_string: Moine Yugi
+  timeframe: 0
+  questId: b16d3c19-2217-4cbf-a370-0136e9d8ceb3
+  reset-on-death: false
+  display-name: Convainquez le Moine Yugi avec un diamant
+  location:
+    world: Bouquenia
+    x: -792.0
+    y: 89.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6614d178-739d-4f04-b4ce-3af924a0825e
+  entity: PLAYER
+  custom_int: 159
+  exclude-spawners: false

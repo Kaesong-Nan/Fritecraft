@@ -1,0 +1,21 @@
+name: Bouquenia
+displayname: '&8&l[&b&m=---=&8&l> &f&lBouquenia Centre &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dDonjon de Fritegirl'
+- '&dFête de Fritegirl'
+- '&dQuêtes Mystère de Bouquenia'
+- '&cBoss Herobrine'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: true
+permission: moretp.warp.{warpname}
+item: GOLD_BLOCK
+data: 0
+location: Bouquenia<>34.0471290754787<>66.0<>1681.1269840064037<>2.0800352<>-359.87732
+slot: 18

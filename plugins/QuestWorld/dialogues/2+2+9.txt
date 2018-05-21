@@ -1,0 +1,12 @@
+§9<Antoine> §f: Comme le proverbe dit :
+§9<Antoine> §f: "Donnez un poisson a un homme, et nourrissez le un jour.
+§9<Antoine> §f: Mais apprennez lui a pecher, et nourrissez le toute sa vie."
+§9<Antoine> §f: ...
+§9<Antoine> §f: J'ai pas de cane a peche.
+§9<Antoine> §f: J'ai faim.
+§9<Antoine> §f: Donc, il me faudrait du poisson.
+§9<Antoine> §f: Euh, s'il vous plait.
+§9<Antoine> §f: Et si possible, du saumon ?
+§9<Antoine> §f: Avec un peu de mayonnaise, ca serait genial.
+§9<Antoine> §f: Mais si vous en trouver pas c'est pas très grave, je ferai sans ...
+&e&l>> &r&7Pechez 3 saumons

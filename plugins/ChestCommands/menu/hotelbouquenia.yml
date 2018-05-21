@@ -1,0 +1,111 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # name - appears as the title - REQUIRED
+  name: '&1&lHotel Bouquenia'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'hotelbouquenia'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only righotels-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    righotels-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+room1:
+  COMMAND: 'ht rent hotelbouquenia 1'
+  NAME: '&eRoom 1'
+  LORE:
+   - 'Rent Room 1 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 1
+
+room2:
+  COMMAND: 'ht rent hotelbouquenia 2'
+  NAME: '&eRoom 2'
+  LORE:
+   - 'Rent Room 2 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 2
+  POSITION-Y: 1
+
+room3:
+  COMMAND: 'ht rent hotelbouquenia 3'
+  NAME: '&eRoom 3'
+  LORE:
+   - 'Rent Room 3 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 3
+  POSITION-Y: 1
+
+room4:
+  COMMAND: 'ht rent hotelbouquenia '
+  NAME: '&eRoom 4'
+  LORE:
+   - 'Rent Room 4 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 4
+  POSITION-Y: 1
+
+room5:
+  COMMAND: 'ht rent hotelbouquenia 5'
+  NAME: '&eRoom 5'
+  LORE:
+   - 'Rent Room 5 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 5
+  POSITION-Y: 1
+
+room6:
+  COMMAND: 'ht rent hotelbouquenia 6'
+  NAME: '&eRoom 6'
+  LORE:
+   - 'Rent Room 6 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 6
+  POSITION-Y: 1
+
+room7:
+  COMMAND: 'ht rent hotelbouquenia 7'
+  NAME: '&eRoom 7'
+  LORE:
+   - 'Rent Room 7 of the hotelbouquenia Hotel'
+  ID: bed
+  POSITION-X: 7
+  POSITION-Y: 1
+
+menu-close:
+  NAME: '&6Close the menu'
+  ID: redstone lamp
+  LORE:
+   - 'Close this menu'
+  POSITION-X: 9
+  POSITION-Y: 3

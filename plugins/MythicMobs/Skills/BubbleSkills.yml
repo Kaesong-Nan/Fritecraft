@@ -1,0 +1,35 @@
+Bubble:
+  Skills:
+    - projectile{onTick=BubbleTick;onHit=BubbleHit;v=20;i=1;hR=0.5;vR=0.5;MaxRange=20;HitPlayers=true;HitNonPLayers=true;StopAtBlock=true;gravity=0.2;syo=1.5}
+    # - sound{s=entity.evocation_illager.cast_spell} @origin
+    - sound{s=entity.llama.spit} @origin
+
+BubbleTick:
+  Skills:
+    - effect:particles{particle=mobSpell;color=#C3F7FF;amount=10;speed=0;hs=0;vs=0} @origin
+
+BubbleHit:
+  Skills:
+    - throw{v=3;vy=3} @EntitiesNearOrigin{r=1}
+    - effect:itemspray{item=dye;amount=10;duration=40;force=1} @origin
+    - sound{s=entity.generiic.splash} @origin
+    # - effect:lightning{l=true;r=10} @origin
+
+GunFire:
+  Skills:
+    - shoot{type=snowball;velocity=5;damage=10;ontickskill=BulletTick;onhitskill=BulletHit}
+    - delay 10
+
+Bullet:
+  Skills:
+    - projectile{onTick=BulletTick;onHit=BulletHit;v=60;i=1;hR=0.5;vR=0.5;MaxRange=60;HitPlayers=true;HitNonPLayers=true;StopAtBlock=true;gravity=0.0;syo=1.5}
+    # - sound{s=entity.evocation_illager.cast_spell} @origin
+    - sound{s=entity.llama.spit} @origin
+BulletTick:
+  Skills:
+    - effect:particles{particle=magicCrit;amount=5;speed=0;hs=0;vs=0} @origin
+BulletHit:
+  Skills:
+    - effect:itemspray{item=dye;amount=10;duration=40;force=1} @origin
+    - sound{s=entity.generiic.splash} @origin
+    # - effect:lightning{l=true;r=10} @origin

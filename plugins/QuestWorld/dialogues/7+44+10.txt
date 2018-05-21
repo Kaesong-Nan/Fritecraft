@@ -1,0 +1,15 @@
+§9<Elsevier> §f: Oh, vous voulez déposer un article scientifique ?
+§9<Elsevier> §f: Très bien.
+§9<Elsevier> §f: Voyons voir ça.
+§9<Elsevier> §f: Hmm ... "Les vegetaux" ... pas super original comme titre, hmm ?
+§9<Elsevier> §f: Peu importe.
+§9<Elsevier> §f: Alors ... Le formatisme a l'air correct.
+§9<Elsevier> §f: La méthodologie a l'air de correspondre aux standards ...
+§9<Elsevier> §f: Références bibliographiques dans les normes ...
+§9<Elsevier> §f: Ok, je peux l'accepter pour publication.
+§9<Elsevier> §f: Vous voulez en garder une copie ?
+§9<Elsevier> §f: Ok, une seconde ...
+§7*place l'article dans une photocopieuse imaginaire*
+§9<Elsevier> §f: Tenez, c'est pour vous en souvenir.
+/give <player> paper 1 name:&dLes_Vegetaux lore:par_Lazarus_et_<player>|Accepté_pour_publication
+§9<Elsevier> §f: Au revoir.

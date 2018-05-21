@@ -1,0 +1,19 @@
+voucher:
+  item:
+    item: DIAMOND
+    name: azeazeaze
+    lore:
+    - teazzest
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Broadcast] &6&l(!) &f&l%player% &7received &eKit Gold &7from a &bVoucher
+          kit&7!'
+        - '[ConsoleCommand] kit gold %player%'
+        chance: 20
+    limit: 5
+    region: false
+    permission: true
+    max-reward: 1

@@ -1,0 +1,186 @@
+id: 10
+category: 7
+cooldown: -60000
+name: Enchantements II
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Enchantment Table
+    lore:
+    - §8Decoration
+    - §8Vanilla, §8Book
+    internal: H4sIAAAAAAAAAE2OzWqDQBzE/y0UrPQxehXWXTXssTTBrGS1Mdavm9GVbLKbBqNN9Jn6kJWeOqcZfjMwJoAJL7vToNRH99VKJQx4ZA28Igc5tKbIaoigluNh26J11VroT1VVYbowwZxHF9H1UlyfwejFvR86cTUB4MGAp7RSg4AfMQaozA+oyQNVj8ybc7JDKmLHy4Kd03H/zjymZ75+8zYj/dd1+ypzVUGCQ3neDnudog2JlVjHdq0/v3lSY65X9zBjt3BZuLMfyySWHJeSTwXmODiFPiPRcjuFfnwskxXhUyAjP5U846RIlA4xv5U60KEuZJvbdH4Ov+6oHIUUAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.crb.echantements2
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        LUCK: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e9395b7e-a070-41c0-8401-c334045e211b
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        WATER_WORKER: 1
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 412288ec-b98c-4424-a01e-edc010aaa249
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        FIRE_ASPECT: 2
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 893.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e3dd6bf5-1890-4a3c-bbd0-0cc27f52ab23
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        LOOT_BONUS_MOBS: 3
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b262779b-a9b7-4fc8-a040-21fbdbb27eb4
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        ARROW_INFINITE: 1
+  amount: 1
+  lore: ''
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: Plutchick
+  timeframe: 0
+  questId: 72c9c750-b45d-480a-8867-30f7fce7c00e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 600.0
+    y: 72.0
+    z: 892.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8523cd6e-0df8-47f2-8414-f757e1ad587b
+  entity: PLAYER
+  custom_int: 31
+  exclude-spawners: false

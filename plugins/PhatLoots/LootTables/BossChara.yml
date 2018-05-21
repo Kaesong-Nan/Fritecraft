@@ -1,0 +1,101 @@
+BossChara:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lLame de Chara §r
+          lore:
+          - §7Tranchant XX
+          - §7Sweeping III
+          - §7Recul I
+          - §7Solidité V
+          - §7Raccommodage
+          - ''
+          - §6Exotique
+          - '§7Particules : §dMaudit'
+          enchants:
+            DAMAGE_ALL: 20
+            KNOCKBACK: 1
+            DURABILITY: 5
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy75o73/Q7GIWwALAydIyCc1sbikrGy3+vtFCxrZGNgcc/NL80r2PzYGAw4GluCc/BIGjtzEzLyMxLwUDgZeuBV+ibmpDMLpqXmpRZnJeoklJYnJ2cEFqakpzAyc/gWpRYklmfl5QNsZgabgVMtAqtMcZBjAgLDTRFCtc0nMTUxPRXMbA8xtWBUzMAAA4GZX9lYBAAA=
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 13
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHORUS_FRUIT
+      amount: 10
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossChara
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,12 @@
+&e<Moine Yugi> &f: Je lis dans votre journal de quete que la malédiction pèse toujours sur vous.
+&e<Moine Yugi> &f: C'est chaud.
+&e<Moine Yugi> &f: A la base, tout vient de cette bibliothèque dont on interdit l'accès.
+&e<Moine Yugi> &f: Mais n'y songez meme pas ! On a condamné l'accès, plus personne n'a le droit d'y rentrer.
+&e<Moine Yugi> &f: Il ne faudrait pas que la malédiction s'aggrave.
+&e<Moine Yugi> &f: Bon, il y a bien un moyen d'y rentrer tout de meme...
+&e<Moine Yugi> &f: Mais ce n'est pas la peine de chercher à me convaincre. Je ne dirai rien.
+&e<Moine Yugi> &f: Oh que nenni.
+&e<Moine Yugi> &f: Nada.
+&e<Moine Yugi> &f: Niet.
+&e<Moine Yugi> &f: Sayonara.
+&e<Moine Yugi> &f: Et bonjour chez vous !

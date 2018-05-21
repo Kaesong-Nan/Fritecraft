@@ -1,0 +1,435 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1&lTransports'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'transport; metro'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Mairie:
+  COMMAND: 'console: warp Mairie {player}'
+  NAME: '&a&lStation de la mairie'
+  LORE:
+    - ''
+    - '&eMairie'
+    - '&eCaserne'
+    - '&eBanque'
+    - '&dCrypte'
+    - '&cBoss Nécromant'
+    - '&dPlace à Event'
+    - '&5Anomalie de Fringirl'
+  ID: '395'
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Marché:
+  COMMAND: 'console: warp Marché {player}'
+  NAME: '&a&lStation du Marché'
+  LORE:
+    - ''
+    - '&aMarchand'
+    - '&aMediathèque'
+    - '&aVente rapide'
+    - '&aVente particulière'
+    - '&dPioches à Spawners'
+    - '&dDonjon de Fritegirl'
+    - '&eEnderchest'
+    - '&cBoss Herobrine'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 1
+
+Culturel:
+  COMMAND: 'console: warp Culturel {player}'
+  NAME: '&a&lStation du Centre Culturel'
+  LORE:
+    - ''
+    - '&dTuto quêtes'
+    - '&eDépot livres'
+  ID: 386
+  POSITION-X: 5
+  POSITION-Y: 1
+
+Oasis:
+  COMMAND: 'console: warp Oasis {player}'
+  NAME: '&a&lStation Oasis'
+  LORE:
+    - ''
+    - '&eAccès Nether'
+    - '&bMini-jeux'
+    - '&dCarrière du désert'
+    - '&cBoss Momie'
+  ID: '377'
+  POSITION-X: 7
+  POSITION-Y: 1
+
+
+Fill1:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+Fill2:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+Fill3:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+Fill4:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+Fill5:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+Fill6:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+Fill7:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+Fill8:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+Fill9:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+
+
+Ravin:
+  COMMAND: 'console: warp Ravin {player}'
+  NAME: '&7&lStation du Ravin'
+  LORE:
+    - ''
+    - 'Pas grand chose pour le moment'
+  ID: '351:8'
+  POSITION-X: 1
+  POSITION-Y: 3
+
+Neiges:
+  COMMAND: 'console: warp Neiges {player}'
+  NAME: '&a&lStation des Neiges'
+  LORE:
+    - ''
+    - '&dMines glacées'
+    - '&5Anomalie de Flurrygirl'
+    - '&dJim'
+  ID: 80
+  POSITION-X: 2
+  POSITION-Y: 3
+
+Temple:
+  COMMAND: 'console: warp Temple {player}'
+  NAME: '&a&lStation du Temple'
+  LORE:
+    - ''
+    - '&dIrvine'
+    - '&5Anomalie de Nuggetsgirl'
+  ID: 22
+  POSITION-X: 3
+  POSITION-Y: 3
+
+Volcan:
+  COMMAND: 'console: warp Volcan {player}'
+  NAME: '&a&lStation du Volcan'
+  LORE:
+    - ''
+    - '&dKrakatoa'
+    - '&5Anomalie de Soupegirl'
+    - '&cBoss Aldrich'
+  ID: 112
+  POSITION-X: 4
+  POSITION-Y: 3
+
+Savanne:
+  COMMAND: 'console: warp Savanna {player}'
+  NAME: '&a&lStation de la Savanne'
+  LORE:
+    - ''
+    - '&dQuêtes: 1'
+  ID: 12
+  POSITION-X: 3
+  POSITION-Y: 4
+
+Sylvestre:
+  COMMAND: 'console: warp Sylvestre {player}'
+  NAME: '&7&lStation du village Sylvestre'
+  LORE:
+    - ''
+    - 'Pas grand chose pour le moment'
+  ID: '351:8'
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Foret:
+  COMMAND: 'console: warp Foret {player}'
+  NAME: '&7&lStation de la Foret'
+  LORE:
+    - ''
+    - 'Pas grand chose pour le moment'
+  ID: '351:8'
+  POSITION-X: 6
+  POSITION-Y: 4
+
+Champi:
+  COMMAND: 'console: warp Champi {player}'
+  NAME: '&7&lStation du biome Champi'
+  LORE:
+    - ''
+    - 'Pas grand chose pour le moment'
+  ID: '351:8'
+  POSITION-X: 5
+  POSITION-Y: 4
+
+Jungle:
+  COMMAND: 'console: warp Jungle {player}'
+  NAME: '&a&lStation de la Jungle'
+  LORE:
+    - ''
+    - '&dChocotown'
+    - '&dCookieland'
+    - '&dUsine à cookies'
+    - '&cBoss Prototype V'
+    - '&5Anomalie de Chocogirl'
+  ID: '17:3'
+  POSITION-X: 4
+  POSITION-Y: 4
+
+Marais:
+  COMMAND: 'console: warp Marais {player}'
+  NAME: '&a&lStation du Marais'
+  LORE:
+    - ''
+    - '&dMarshmallow'
+    - '&cBoss Darkness'
+    - '&5Anomalie de Candygirl'
+  ID: '201'
+  POSITION-X: 1
+  POSITION-Y: 4
+
+Leviathan:
+  COMMAND: 'console: warp Leviathan {player}'
+  NAME: '&a&lStation du Leviathan'
+  LORE:
+    - ''
+    - '&eAccès End'
+    - '&5Anomalie Fritegirl'
+  ID: '162'
+  POSITION-X: 2
+  POSITION-Y: 4
+
+Nord:
+  COMMAND: 'console: warp Nord {player}'
+  NAME: '&7&lStation du Nord'
+  LORE:
+    - ''
+    - 'Pas grand chose pour le moment'
+  ID: '351:8'
+  POSITION-X: 5
+  POSITION-Y: 3
+
+RIG:
+  COMMAND: 'console: warp rig {player}'
+  NAME: '&a&lPlateforme Petrolière'
+  LORE:
+    - ''
+    - '&dPlateforme Petrolière'
+    - '&eMonument Marin'
+    - '&5Anomalie de Sodagirl'
+  ID: 168
+  POSITION-X: 9
+  POSITION-Y: 4
+
+CRB:
+  COMMAND: 'console: warp crb {player}'
+  NAME: '&a&lCentre de Recherches de Bouquenia'
+  LORE:
+    - ''
+    - '&dQuêtes CRB'
+    - '&ePré-requis pour Nether'
+  ID: '159:8'
+  POSITION-X: 9
+  POSITION-Y: 3
+
+
+
+Fill10:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+Fill11:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+Fill12:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+Fill13:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+Fill14:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+Fill15:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+Fill16:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5
+Fill17:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+Fill18:
+  NAME: ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+
+
+Divine:
+  COMMAND: 'console: warp divine {player}'
+  NAME: '&6&lVisiter ile divine'
+  LORE:
+    - 'Pour choisir une divinité'
+    - 'Pour acheter des elixirs'
+    - 'Ou pour faire une offrance en expérience'
+  ID: golden_apple
+  POSITION-X: 1
+  POSITION-Y: 6
+
+Cathedrale:
+  COMMAND: 'console: warp cathédrale {player}'
+  NAME: '&6&lVisiter la grande cathédrale'
+  LORE:
+    - 'Pour acheter des vies'
+    - 'Pour choisir une divinité'
+    - 'Ou pour autre chose...'
+  ID: quartz
+  POSITION-X: 2
+  POSITION-Y: 6
+
+
+Nether:
+  COMMAND: 'console: warp nether {player}'
+  NAME: '&d&lNether'
+  LORE:
+    - ''
+    - 'Accès rapide au Nether'
+  ID: 87
+  POSITION-X: 8
+  POSITION-Y: 6
+  PERMISSION: multiverse.access.Bouquenia_nether
+End:
+  COMMAND: 'console: warp end {player}'
+  NAME: '&d&lEnd'
+  LORE:
+    - ''
+    - 'Accès rapide à l''End'
+  ID: 201
+  POSITION-X: 9
+  POSITION-Y: 6
+  PERMISSION: multiverse.access.Bouquenia_the_end
+
+Ressources:
+  COMMAND: 'console: warp Pitman {player}'
+  NAME: '&d&lMonde Ressources'
+  LORE:
+    - ''
+    - '&eMaisons'
+    - 'Ressources'
+    - 'Biomes'
+    - 'Mobs'
+  ID: 278
+  POSITION-X: 5
+  POSITION-Y: 6
+
+Hotel:
+  COMMAND: 'console: warp Hotel {player}'
+  NAME: '&e&lHotel Bouquenia'
+  LORE:
+    - ''
+    - 'Hotel Bouquenia'
+  ID: bed
+  POSITION-X: 9
+  POSITION-Y: 1

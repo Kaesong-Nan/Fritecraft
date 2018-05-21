@@ -1,0 +1,14 @@
+&9<Aglioti> &f: Bonjour.
+&9<Aglioti> &f: Ne perdons pas plus de temps.
+&9<Aglioti> &f: Vous voyez ça ?
+&9<Aglioti> &f: Sur la table.
+&9<Aglioti> &f: Vous savez ce que c'est ?
+&9<Aglioti> &f: Non ?
+&9<Aglioti> &f: Bah moi non plus.
+&9<Aglioti> &f: On a trouvé ce matériau à coté de l'artefact.
+&9<Aglioti> &f: On a voulu en ramasser avec nos pelles, mais ça a eu un effet corrosif dessus.
+&9<Aglioti> &f: Il aurait fallu en envoyer quelques échantillons à la base.
+&9<Aglioti> &f: Mais sans pelle, ça risque d'être compliqué.
+&9<Aglioti> &f: Du moins, très dangereux.
+&9<Aglioti> &f: Evidemment, une simple pelle en fer ne suffira pas ...
+&9<Aglioti> &f: Il faudrait quelque chose de mieux à mon avis.

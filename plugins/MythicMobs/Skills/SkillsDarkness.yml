@@ -1,0 +1,192 @@
+Darkness:
+  Cooldown: 40
+  Skills:
+  - potion{type=JUMP;lvl=128;duration=200} @target
+  - potion{type=SLOW;lvl=127;duration=200} @target
+  - sendtitle{title="&0Pénombre !";subtitle="";d=40} @PlayersInRadius{r=10}
+  - delay 1
+  - potion{type=SLOW;lvl=127;duration=200} @Self
+  - summon{mob=MarkerStand;amount=1;noise=0} @target
+  - teleport{spreadh=5;spreadv=1} @NearestPlayer
+  - sound{s=mob.endermen.portal} @target
+  - effect:smokeswirl{duration=60;interval=1} @Self
+  - delay 20
+  - effect:particleline{particle=reddust;color=#000000;amount=10;ys=1.5} @target
+  - damage{amount=3;ignoreArmor=true} @target
+  - potion{type=BLINDNESS;lvl=1;duration=40} @PlayersInRadius{r=10}
+  - delay 20
+  - skill{s=DarkShot}
+  - delay 40
+  - skill{s=DarkShot}
+  - delay 40
+  - skill{s=DarkShot}
+  - delay 40
+  - skill{s=DarkShot}
+  - delay 40
+DarkShot:
+  Skills:
+  - teleport{spreadh=5;spreadv=1} @target
+  - sound{s=mob.endermen.portal} @target
+  - effect:smokeswirl{duration=60;interval=1} @Self
+  - delay 30
+  - effect:particleline{particle=reddust;color=#000000;amount=10;ys=1.5} @target
+  - damage{amount=3;ignoreArmor=true} @target
+  - potion{type=BLINDNESS;lvl=1;duration=40} @target
+
+DarkHeal1:
+  Cooldown: 200
+  Skills:
+  - sound{s=mob.endermen.portal} @Self
+  - teleportto{location=1401,78,1031} @Self
+  - sound{s=mob.endermen.portal} @Self
+  - potion{type=INVISIBILITY;lvl=1;duration=80} @Self
+  - potion{type=SLOW;lvl=120;duration=80} @Self
+  - effect:smokeswirl{duration=60;interval=1} @Self
+  - delay 30
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - sound{s=entity.zombie.infect} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+
+DarkHeal2:
+  Cooldown: 10000
+  Skills:
+  - sound{s=mob.endermen.portal} @Self
+  - teleportto{location=1401,78,1031} @Self
+  - sound{s=mob.endermen.portal} @Self
+  - potion{type=INVISIBILITY;lvl=1;duration=80} @Self
+  - potion{type=SLOW;lvl=120;duration=80} @Self
+  - effect:smokeswirl{duration=60;interval=1} @Self
+  - delay 30
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - sound{s=entity.zombie.infect} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+
+DarkHeal3:
+  Cooldown: 10000
+  Skills:
+  - sound{s=mob.endermen.portal} @Self
+  - teleportto{location=1401,78,1031} @Self
+  - sound{s=mob.endermen.portal} @Self
+  - potion{type=INVISIBILITY;lvl=1;duration=80} @Self
+  - potion{type=SLOW;lvl=120;duration=80} @Self
+  - effect:smokeswirl{duration=60;interval=1} @Self
+  - delay 30
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - sound{s=entity.zombie.infect} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+  - delay 5
+  - consume{d=0.5;h=10;pk=true;pi=true} @PlayersInRadius{r=25}
+  - effect:particles{particle=dragonbreath;a=200;hs=6;vs=2;s=0} @Self
+
+DarkDamaged:
+  Skills:
+  - effect:particles{particle=portal;amount=30;hS=0.5;vS=0.5;speed=0} @self
+  - effect:particles{particle=witchMagic;amount=20;hS=0.5;vS=0.4;speed=0} @self
+  - effect:particles{particle=smoke;amount=40;hS=0.6;vS=0.5;speed=0.1} @self
+  # - effect:itemspray{item=coal;amount=3;velocity=2;d=40;} @self
+  - potion{type=SLOW;lvl=1;duration=60} @PlayersInRadius{r=4}
+  # - potion{type=BLINDNESS;lvl=0;duration=120} @PlayersInRadius{r=4}
+  - potion{type=WEAKNESS;lvl=0;duration=120} @PlayersInRadius{r=4}
+  - potion{type=SLOW_DIGGING;lvl=2;duration=120} @PlayersInRadius{r=4}
+  - sound{s=mob.endermen.hit;p=0.2} @self
+
+DarkSpawn:
+  Skills:
+  - potion{type=INVISIBILITY;duration=100;level=4} @self
+  - potion{type=SLOW;duration=110;level=8} @self
+  - delay 10
+  - effect:particles{p=portal;amount=130;speed=0.03;hR=2;vR=2} @self
+  - delay 20
+  - effect:particles{p=portal;amount=130;speed=0.03;hR=2;vR=2} @self
+  - delay 20
+  - effect:particles{p=portal;amount=130;speed=0.03;hR=2;vR=2} @self
+  - delay 50
+  - effect:particles{p=portal;amount=130;speed=0.03;hR=2;vR=2} @self
+  - throw{velocity=6;velocityY=2} @PlayersInRadius{r=8}
+
+DarkEnd:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=120;hS=0.6;vS=1.1;speed=0.2} @self
+  - delay 3
+  - effect:lightning @self
+  - delay 10
+  - sound{s=mob.wither.death;p=0.2} @self
+  - delay 2
+  - effect:firework{t=2;d=0.5;f=true;tr=true} @self
+  - delay 6
+  - remove @Self
+
+DarkScream:
+  Cooldown: 15
+  Skills:
+   - actionmessage{m="<mob.name>&f pousse un cri strident"} @PlayersInRadius{r=30}
+   - effect:sound{s=mob.enderdragon.hurt;volume=1.0;pitch=1} @Self
+   - delay 5
+   - pull{v=6;to=true} @PIR{r=20} 1
+   - delay 20
+   - throw{velocity=5;velocityY=1} @PlayersInRadius{r=15}
+   - effect:particles{particle=dragonbreath;amount=1000;vSpread=0.2;hSpread=0.2;Speed=5} @Self
+   - effect:particles{particle=witchMagic;amount=1000;spread=0.2;hSpread=0.2;Speed=5} @Self
+   - damage{a=10;ignoreArmor=true} @pir{r=16}
+   - potion{type=CONFUSION;lvl=2;duration=120} @PlayersInRadius{r=16}
+   - effect:particlering{particle=dragonbreath;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=15} @Self >0 1

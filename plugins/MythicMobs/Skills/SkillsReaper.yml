@@ -1,0 +1,262 @@
+CheckSpawnWater:
+  Conditions:
+  - inblock STILL_WATER,WATER
+  Skills:
+  - remove
+
+CheckMorning:
+  Conditions:
+  - worldtime 0-13800
+  Skills:
+  - remove
+
+
+CalculatedSlash:
+  Skills:
+  - message{m="<mob.name>&6&l> &c&4$player&c! Face the precision of my wicked sycthe, for you have avoided death too long foolish mortal!"} @PIR{r=10}
+  - delay 40
+  - teleport{sh=0.5;sv=0}
+  - effect:particles{p=sweepAttack;a=10;vS=0.25;hS=1.0;yOffset=0.5}
+  - skill{s=AttackSound} @target
+  - message{m=" "} @PIR{r=10}
+  - message{m="&c*&4$player&c suffered a calculated slash of the <mob.name>'s &csycthe, and soon begins to bleed over time from the fatally deep cut.*"} @PIR{r=10}
+  - e:p{p=blockcrack_152_0;a=50;vS=1.0;hS=0.25;repeat=4;repeatInterval=20}
+  - damage{a=2;i=true;repeat=4;repeatInterval=20}
+
+EpicCalculatedSlash:
+  Skills:
+  - throw{v=6;vy=10}
+  - effect:particles{p=sweepAttack;a=10;vS=1.0;hS=0.5;yOffset=0.5}
+  - skill{s=AttackSound}
+  - message{m=" "} @PIR{r=10}
+  - message{m="&c*&4$player&c suffered a swipe of the <mob.name>'s &csycthe, fatally wounding them with a deep lethal cut!*"} @PIR{r=10}
+  - e:p{p=blockcrack_152_0;a=50;vS=1.0;hS=0.25;repeat=4;repeatInterval=20}
+  - damage{a=2;i=true;repeat=4;repeatInterval=20}
+
+InsaneSpeed:
+  Skills:
+  - message{m="<mob.name>&6&l> &cNone shall kill the reaper when I am at my peak! "} @PIR{r=10}
+  - message{m=" "} @PIR{r=10}
+  - message{m="&c*<mob.name>&c has enabled Hyper Shadow Form, the spirit's speed has dramtically increased*"} @PIR{r=10}
+  - delay 40
+  - potion{t=INVISIBILITY;d=100;lvl=0} @self
+  - e:p{p=largesmoke;a=10;vS=1.0;hS=0.25;repeat=9;repeatInterval=10} @self
+  - e:p{p=hugeexplosion;a=1} @self
+  - effect:sound{s=entity.generic.explode;v=2} @self
+  - effect:sound{s=entity.ghast.hurt;v=2;repeat=9;repeatInterval=10} @self
+  - e:p{p=damageIndicator;a=10;vS=1.0;hS=0.25;repeat=9;repeatInterval=10} @self
+  - teleport{sh=1;sv=0;repeat=9;repeatInterval=10} @RandomThreatTarget
+  - potion{t=BLINDNESS;d=40;lvl=0;repeat=9;repeatInterval=10} @PIR{r=2}
+
+DamnedRoar:
+  Skills:
+  - potion{t=SLOW;d=80;lvl=255} @self
+  - message{m="&c*<mob.name>&c is about to cast a catastrophic spell!&c*"} @PIR{r=10}
+  - message{m=" "} @PIR{r=10}
+  - message{m="&cSpell Countdown&6&l> 3"} @PIR{r=10}
+  - delay 20
+  - message{m="&cSpell Countdown&6&l> 2"} @PIR{r=10}
+  - delay 20
+  - message{m="&cSpell Countdown&6&l> 1"} @PIR{r=10}
+  - delay 20
+  - message{m="&c*<mob.name>&c emits a deathly roar. Its very power rips up the land around its path!"} @PIR{r=30}
+  - delay 5
+  - projectile{onTick=DamnedRoarTick;onEnd=DamnedRoarEnd;v=6;i=1;hR=2.0;vR=2.0;mr=10;StopAtEntity=false;StopAtBlock=false}
+
+DamnedRoarTick:
+  Skills:
+  - effect:particles{p=largeexplode;hS=2.0;vS=2.0;a=20} @origin
+  - effect:sound{s=entity.enderdragon.growl;v=4} @origin
+  - explosion{yield=3;bd=true;fire=false} @origin
+
+DamnedRoarEnd:
+  Skills:
+  - damage{a=18} @PlayersNearOrigin{r=4}
+  - effect:sound{s=random.explode;v=1} @origin
+  - explosion{yield=0;blockdamage=true;fire=false} @origin
+  - potion{t=CONFUSION;d=100;lvl=0} @PlayersNearOrigin{r=4}
+
+TauntingWithTheDead:
+  Skills:
+  - message{m="<mob.name>&6&l>&c Meet the dead you foolish mortals. Look at all the souls I've taken to the depths of hell! &4&lCAN YOU FEEL THEIR PAIN?!"}
+  - delay 20
+  - summon{t=SpookySkeleton;a=1;r=0;os=true} @RLNTE{amount=20;radius=10;spacing=4;minradius=5}
+  - delay 100
+  - signal{s=DIE} @MobsInRadius{r=50;t=SpookySkeleton}
+
+DramaticDeath:
+  Skills:
+  - effect:sound{s=entity.ghast.hurt;repeat=1;repeatInterval=5;v=2}
+  - effect:sound{s=entity.enderman.scream;repeat=3;repeatInterval=5;v=2}
+  - delay 5
+  - lightning
+  - effect:itemspray{i=bone;a=20;v=2;repeat=2;repeatInterval=5}
+  - effect:particles{p=blockcrack_152_0;a=75;vS=0.1;hS=1.0;repeat=2;repeatInterval=5}
+  - damage{a=8} @PIR{r=4}
+  - remove
+
+EnragedCircleSlice:
+  Skills:
+  - message{m="&c*<mob.name>&c moves his sycthe swiftly causing a deep cut within all foes around his premise.*"} @PIR{r=10}
+  - delay 10
+  - effect:spin{duration=20;velocity=40} @self
+  - effect:sound{s=entity.endermen.scream;v=3} @self
+  - effect:particles{p=sweepAttack;a=1;hS=0.5;vS=0.5;yOffset=0.5} @Ring{radius=1;points=75}
+  - delay 5
+  - effect:particles{p=sweepAttack;a=1;hS=0.5;vS=0.5;yOffset=0.5} @Ring{radius=2;points=75}
+  - delay 5
+  - effect:particles{p=sweepAttack;a=1;hS=0.5;vS=0.5;yOffset=0.5} @Ring{radius=3;points=75}
+  - delay 5
+  - effect:particles{p=sweepAttack;a=1;hS=0.5;vS=0.5;yOffset=0.5} @Ring{radius=4;points=75}
+  - delay 5
+  - effect:particles{p=sweepAttack;a=1;hS=0.5;vS=0.5;yOffset=0.5} @Ring{radius=5;points=75}
+  - delay 5
+  - damage{a=15} @PlayersInRing{min=1;max=5}
+  - skill{s=AttackSound} @PlayersInRing{min=1;max=5}
+  - delay 10
+  - e:p{p=blockcrack_152_0;a=50;vS=1.0;hS=0.25;repeat=4;repeatInterval=20} @PlayersInRing{min=1;max=5}
+  - damage{a=2;i=true;repeat=4;repeatInterval=20} @PlayersInRing{min=1;max=5}
+
+EpicReaperSpawnEffects:
+  Skills:
+  - potion{t=INVISIBILITY;d=99999999;lvl=0}
+  - message{m="<mob.name>&6&l>&c THE REAPER SHALL NOT BE ELIMINATED SO EASILY! BEHOLD MY &4&lNIGHTMARE FORM&c!"} @PIR{r=30}
+  - delay 10
+  - message{m=" "} @PIR{r=30}
+  - message{m="&c*<mob.name>&c begins to reform into a ghastly monsterous form. Prepare to fight his true form!"} @PIR{r=30}
+  - delay 20
+  - effect:sound{s=entity.lightning.thunder;v=4}
+  - effect:particles{p=hugeexplosion;a=1}
+  - effect:particles{p=reddust;color=#d21c1c;a=10;hS=0.1;vS=0.1} @Ring{r=5;points=100}
+  - equip{i=BlackBoots:1}
+  - delay 20
+  - effect:sound{s=entity.lightning.thunder;v=4}
+  - effect:particles{p=hugeexplosion;a=1;yOffset=5}
+  - effect:particles{p=reddust;color=#d21c1c;a=10;hS=0.1;vS=0.1;yOffset=5} @Ring{r=5;points=100}
+  - equip{i=BlackLeggings:2}
+  - delay 20
+  - effect:sound{s=entity.lightning.thunder;v=4}
+  - effect:particles{p=hugeexplosion;a=1;yOffset=8}
+  - effect:particles{p=reddust;color=#d21c1c;a=10;hS=0.1;vS=0.1;yOffset=8} @Ring{r=5;points=100}
+  - equip{i=BlackCloak:3}
+  - delay 20
+  - effect:sound{s=entity.lightning.thunder;v=4}
+  - effect:particles{p=hugeexplosion;a=1;yOffset=10}
+  - effect:particles{p=reddust;color=#d21c1c;a=10;hS=0.1;vS=0.1;yOffset=10} @Ring{r=5;points=100}
+  - equip{i=BlackHood:4}
+  - delay 20
+  - effect:sound{s=entity.lightning.thunder;v=4}
+  - equip{i=GrimReaperScythe:0}
+  - setstance{s=battle}
+  - skill{s=FloorBlackEffect}
+
+
+FloorBlackEffect:
+  Conditions:
+  - stance battle
+  Skills:
+  - effect:blockmask{m=coal_block;r=20}
+  - lightning @Ring{radius=20;points=100}
+
+PointOfNoReturn:
+  Conditions:
+  - stance battle
+  Skills:
+  - skill{s=PullBackIfEscape}
+
+PullBackIfEscape:
+  Conditions:
+  - playernotwithin 16
+  - stance battle
+  Skills:
+  - forcepull
+
+
+SwarmOfConsumption:
+  Conditions:
+  - stance battle
+  Skills:
+  - message{m="<mob.name>&6&l>&c Behold! I have transformed the dead remains of &4$player&c into this hungry swarm of the void! *cackles*"} @PIR{r=30}
+  - summon{t=VoidSwarm;a=8;r=3;os=true} @self
+
+NightOfReckoning:
+  Conditions:
+  - stance battle
+  Skills:
+  - message{m="&c*<mob.name>&c casts a spell... the sky turns dark, into the night...*"} @PIR{r=30}
+  - delay 20
+  - command{c="time night <mob.l.w>"}
+  - potion{t=NIGHT_VISION;d=40;lvl=0} @PIR{r=20}
+  - effect:particles{p=reddust;color=#000000;a=20;hS=1;vS=0;repeat=4;repeatInterval=5;yOffset=15} @Ring{radius=3;points=50}
+  - effect:particles{p=reddust;color=#d21c1c;a=20;hS=1;vS=0;repeat=4;repeatInterval=5;yOffset=15} @Ring{radius=6;points=100}
+  - effect:particles{p=reddust;color=#000000;a20;hS=1;vS=0;repeat=4;repeatInterval=5;yOffset=15} @Ring{radius=9;points=150}
+  - effect:particles{p=reddust;color=#d21c1c;a20;hS=1;vS=0;repeat=4;repeatInterval=5;yOffset=15} @Ring{radius=12;points=200}
+  - lightning{damage=2;repeat=4;repeatInterval=5} @PIR{r=20}
+  - potion{t=WITHER;d=100;lvl=0} @PIR{r=20}
+
+DeathSpiritFrenzy:
+  Conditions:
+  - stance battle
+  Skills:
+  - message{m="&c*<mob.name>&c conjures an army of souls, hungry for living flesh!"} @PIR{r=20}
+  - summon{t=DeathSpirit;a=1;r=0;onSurface=false;yRadiusUpOnly=true;yRadius=10;ctt=true}
+
+DeathSpiritInitiate:
+  Skills:
+  - delay 20
+  - missile{onTick=DeathSpiritFrenzyTick;onHit=DeathSpiritFrenzyHit;v=10;i=1;hR=1.0;vR=1.0;mr=40;hp=true;repeat=4;repeatInterval=10}
+
+DeathSpiritFrenzyTick:
+  Skills:
+  - effect:particles{p=witchMagic;hS=0.25;vS=0.25;a=50} @origin
+  - effect:sound{s=entity.endermen.scream;v=1} @origin
+
+DeathSpiritFrenzyHit:
+  Skills:
+  - damage{a=4} @PlayersNearOrigin{r=2}
+  - e:p{p=blockcrack_152_0;a=10;repeat=4;repeatInterval=5} @PlayersNearOrigin{r=2}
+  - signal{s=HEAL} @MobsInRadius{r=40;t=GrimReaper2}
+
+WitheringAtmosphere:
+  Conditions:
+  - stance battle
+  Skills:
+  - message{m="<mob.name>&6&l>&c Can your mortal bodies cope with a harsh blanket of withering breath?! *cackles*"} @PIR{r=30}
+  - delay 20
+  - projectile{type=METEOR;g=0.3;onTick=WitheringAtmosphereTick;onEnd=WitheringAtmosphereEnd;v=15;i=1;g=0.3;mr=40;hfs=15;hnp=true;hR=1.0;vR=1.0} @RLNTE{amount=20;radius=10;spacing=3;minradius=4}
+WitheringAtmosphereTick:
+  Skills:
+  - effect:particlesphere{p=reddust;color=#000000;a=40;radius=1} @origin
+WitheringAtmosphereEnd:
+  Skills:
+  - effect:particles{p=largesmoke;a=10;hS=4.0;vS=0.1} @origin
+  - potion{t=POISON;d=160;lvl=1} @PlayersNearOrigin{r=4}
+
+# StareOfFear:
+#   Skills:
+#   - effect:particles{p=reddust;speed=0;color=#d21c1c;a=1;sOffset="-0.5";fOffset=0;uel=true}
+
+ReaperSound:
+  Skills:
+  - effect:sound{s=entity.skeleton.step;v=2}
+
+RevivalReaper:
+  Skills:
+  - delay 100
+  - summon{t=GrimReaper2;a=1;r=0;os=true}
+
+AttackSound:
+  Cooldown: 2
+  Skills:
+  - effect:sound{s=entity.wither.break_block;v=2}
+
+SpookySound:
+  Skills:
+  - effect:sound{s=entity.enderdragon.hurt}
+
+ParticleHead:
+  Conditions:
+  - stance battle
+  Skills:
+  - effect:particles{particle=reddust;color=#909090;amount=2000;hS=1.5;vS=1.5;yOffset=11}
+  - effect:particles{p=reddust;color=#d21c1c;amount=100;hS=0.25;vS=0.25;uel=true;fo=1.75;so=0.6;speed=1;yOffset=-0.25}

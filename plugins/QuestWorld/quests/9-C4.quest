@@ -1,0 +1,61 @@
+id: 9
+category: 4
+cooldown: 79200000
+name: '&6&lAldrich, prêtre des flammes'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6§lAldrich, prêtre des flammes
+    internal: H4sIAAAAAAAAAE2LT2+CMBxAf1u2BMk+xq4kBSzMg4fF+acE6gCl0htgnXStGoQpfq59wHnc8eW9ZwKY8JJ+d0p9NsddrYQBj2QLr55vV9hHroVcX1hD5DhWiRC2sFvY2xK9YeFVJpj36SSathbnARituLZdI84mADwY8JwVqhPwK/oA8c0ebTeBqnri3XmVIrUk8uSTQ9aXE+IRffeLdy/sR/9a3BYMq9wN9vwQd6XOUOgmSiwSu9Lrn1xWQ87ynq8SyWUg6cdsH+n4SueB5vM1zp2Z5nJ6ieQUc5nVEQs0ZeRG2RQtWVbT1UxSGTv09jWMNK0pyy/kYI928XgMYMATLbSAwSSdHBsR1iXAH8edNsIuAQAA
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 41
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 95246246-c448-4066-b838-ff695a1a8f00
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 61
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&dAldrich'
+  timeframe: 0
+  questId: 95246246-c448-4066-b838-ff695a1a8f00
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -388.0
+    y: 58.0
+    z: 2645.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a5f00cf2-a5dd-4e4b-b4a3-d68ae5d669a4
+  entity: ZOMBIE_VILLAGER
+  custom_int: 0
+  exclude-spawners: false

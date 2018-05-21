@@ -1,0 +1,245 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # name - appears as the title - REQUIRED
+  name: '&6&lBanque de Bouquenia'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'banque'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only righotels-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    righotels-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# compte:
+#   COMMAND: 'mail send Ventouz Ouvrir un compte pour {player}'
+#   NAME: '&dOuvrir un compte'
+#   LORE:
+#     - 'Cliquez ici pour envoyer un courier'
+#     - 'notifiant la banque que vous'
+#     - 'souhaitez ouvrir un compte.'
+#   ID: '386'
+#   POSITION-X: 5
+#   POSITION-Y: 1
+
+
+
+Rapport:
+  COMMAND: 'money'
+  NAME: '&dRapport de compte'
+  LORE:
+    - 'Cliquez ici pour recevoir un rapport'
+    - 'de l''état de votre compte.'
+  ID: 'paper'
+  POSITION-X: 5
+  POSITION-Y: 6
+
+depot1:
+  COMMAND: 'money deposit 25'
+  NAME: '&2Déposer 25e'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+depot2:
+  COMMAND: 'money deposit 50'
+  NAME: '&2Déposer 50e'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+depot3:
+  COMMAND: 'money deposit 100'
+  NAME: '&2Déposer 100e'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+depot4:
+  COMMAND: 'money deposit 200'
+  NAME: '&2Déposer 200e'
+  ID: emerald
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+
+tirer1:
+  COMMAND: 'money withdraw 25'
+  NAME: '&2Retirer 25e'
+  ID: emerald
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+tirer2:
+  COMMAND: 'money withdraw 50'
+  NAME: '&2Retirer 50e'
+  ID: emerald
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+tirer3:
+  COMMAND: 'money withdraw 100'
+  NAME: '&2Retirer 100e'
+  ID: emerald
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+tirer4:
+  COMMAND: 'money withdraw 200'
+  NAME: '&2Retirer 200e'
+  ID: emerald
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+
+Blanc1:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc2:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc3:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc4:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc5:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc6:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc7:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc8:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc9:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc11:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc12:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc13:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc14:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc16:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc17:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc18:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+Blanc19:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 6
+  KEEP-OPEN: true

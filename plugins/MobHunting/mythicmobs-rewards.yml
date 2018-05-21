@@ -1,0 +1,1133 @@
+# This a extra MobHunting config data for the MythicMobs on your server.
+Emissaire:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SilverfishElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SlimeElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.1
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SpiderElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+EndermanElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+CaveSpiderElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SkeletonElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ZombieElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+CreeperElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Incendiaire:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.1
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Fantome:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.1
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BlazeElite:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.3
+  message: monstre a laché une tête !
+  commands: []
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Dummy:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SilverfishCrypte:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Necromant:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Dead:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BossAnomalieTemple:
+  plugin: MythicMobs
+  mobName: §cOmbre de Yvan
+  rewardPrize: '1'
+  consoleRunCommand: mobhunt head give {player} WitherSkeleton
+  rewardDescription: monstre a laché une tête !
+  chance: 0.0
+  mcmmo_chance: 0.02
+  mcmmo_xp: 1
+  achievement_level1: 50
+ZombieWorker:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Poisson:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+GrosPoisson:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '5'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ZombieWorkerDead:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+DeadP:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Imhotep:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Aldrich1:
+  plugin: MythicMobs
+  mobName: §dAldrich
+  rewardPrize: '1'
+  consoleRunCommand: minecraft:give {player} iron_sword 1
+  rewardDescription: monstre a laché une tête !
+  chance: 0.0
+  mcmmo_chance: 0.02
+  mcmmo_xp: 1
+  achievement_level1: 50
+Aldrich2:
+  plugin: MythicMobs
+  mobName: §5Aldrich
+  rewardPrize: '1'
+  consoleRunCommand: minecraft:give {player} iron_sword 1
+  rewardDescription: monstre a laché une tête !
+  chance: 0.0
+  mcmmo_chance: 0.02
+  mcmmo_xp: 1
+  achievement_level1: 50
+MeteorPointer:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Griefer:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+TNTgrief:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: monstre a laché une tête !
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Johnny:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleOrange:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleMagenta:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleBleue:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleArgent:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleJaune:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleRouge:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+belsnickel:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleVerte:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+BouleCyan:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Prototype:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+0LordVarsonDeathDoll0:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+Atrophie:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+Herobrine:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HerobrineEnd:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Horreur:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+MythicBulletEffect:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+MythicBullet2:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+MythicBullet1:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+MythicBullet3:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+Potoroo:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+PotorooPNJ:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.0
+    xp: 1
+  achievement_level1: 50
+ArenaZombie:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaSuperCreeper:
+  plugin: MythicMobs
+  mobName: §eFantome
+  rewardPrize: '1'
+  consoleRunCommand: minecraft:give {player} iron_sword 1
+  rewardDescription: You got an Iron sword.
+  chance: 0.0
+  mcmmo_chance: 0.02
+  mcmmo_xp: 1
+  achievement_level1: 50
+bat_invisible:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaSkeleton:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaPigman:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaSpider:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaCreeper:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaSlime:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaEnderman:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+ArenaBlaze:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Chara:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Serge:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+FrostPool:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Nicodemus:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+KarazschCloud:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 0
+  achievement_level1: 50
+0PMissileMob0:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HerobrineLightning:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HerobrineCopy:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Aldrich:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Phantom:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SKULL:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+PUMPKIN:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HZombie:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HSkeleton:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Beacon:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+SPOOK_BAT:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '0'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HWitch:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+HSpider:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '1'
+    chance: 0.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '0.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50
+Spectre:
+  plugin: MythicMobs
+  enabled: true
+  money:
+    amount: '10'
+    chance: 1.0
+  message: You got an Iron sword.
+  commands:
+  - chance: '1.0'
+    cmd: minecraft:give {player} iron_sword 1
+    message: ''
+  mcmmo:
+    chance: 0.02
+    xp: 1
+  achievement_level1: 50

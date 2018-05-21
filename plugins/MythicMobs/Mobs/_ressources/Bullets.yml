@@ -1,0 +1,47 @@
+BulletMonkey:
+  Health: 1000
+  Type: villager
+  AIGoalSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=ShootRandomBullets} @trigger ~onDamaged
+
+MythicBulletEffect:
+  Type: armor_stand
+  Options:
+    Marker: true
+    Invisible: true
+    Invincible: true
+
+MythicBullet1:
+  Type: armor_stand
+  Options:
+    Marker: true
+    Small: true
+    ItemHead: bullet1
+    Invisible: true
+    Invincible: true
+  Skills:
+  - customparticles{particle=happyVillager;amount=2;hs=0.2;vs=0.2} @self ~onTimer:5
+
+MythicBullet2:
+  Type: armor_stand
+  Options:
+    Marker: true
+    Small: true
+    ItemHead: bullet2
+    Invisible: true
+    Invincible: true
+  Skills:
+  - customparticles{particle=note;amount=10;hs=0.2;vs=0.2} @self ~onTimer:5
+
+MythicBullet3:
+  Type: armor_stand
+  Options:
+    Marker: true
+    Small: true
+    ItemHead: bullet3
+    Invisible: true
+    Invincible: true
+  Skills:
+  - customparticles{particle=slime;amount=5;hs=0.2;vs=0.2} @self ~onTimer:5

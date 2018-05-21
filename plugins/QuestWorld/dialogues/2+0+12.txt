@@ -1,0 +1,4 @@
+/playsound entity.endermen.idle master <player> 240 72 1412 1
+&7*Foin ...*
+/playsound entity.endermen.idle master <player> 240 72 1412 1
+&7*Vive le foin*

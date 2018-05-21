@@ -1,0 +1,250 @@
+uniqueId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 9
+category: 5
+cooldown: -1
+name: '&d&lPrisme de l''infini'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §d§lPrisme de l'Infini §r
+    lore:
+    - §7Utilisé pour les armes légendaires.
+    enchants:
+      ARROW_INFINITE: 10
+    ItemFlags:
+    - HIDE_ENCHANTS
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §d§lPrisme de l'Infini §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LAPIS_BLOCK
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b627ee7c-0b81-4a54-93fb-4dc7f1b4dbf1
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c1f8c6d9-9bc5-4113-86d8-5764daaaee91
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE_BLOCK
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b3607386-cf05-4f17-b591-cc9c0309e2ea
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2a02e97d-3ffc-4cb3-9e7f-f532138920ae
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SEA_LANTERN
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dd2ae4eb-50d3-4ada-8166-27bacac71b8d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COAL_BLOCK
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a3cab3d5-22a8-425e-bb74-71c191b5ba34
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 42d06df6-5507-45e8-aaca-a7209733fc79
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GLOWSTONE
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 32033e30-79a2-4e0d-8a04-bc0c991487f2
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_WART_BLOCK
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 8
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5a5946eb-6973-4cf1-8c24-d5b1b1486a6b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bf04db37-cc08-4d66-bfad-7fba864b10be
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

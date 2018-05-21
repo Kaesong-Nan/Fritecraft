@@ -1,0 +1,113 @@
+id: 2
+category: 12
+cooldown: -60000
+name: Rapport de situation
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Cookie
+    lore:
+    - §8Food § Drinks
+    - §8Pastries
+    internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmGDmBmaUTtkA5Yym3YURjCZaY2FLTwVD6iJG48u5PvfMnRAXR4OPSTlB/DZ91KocEtreARWcgiJUFGhQUxLGdjGqQsagP9pSgKjHXQV+kshrEVl3vQRnEdp0FcdAC40eAuKeQk4EfMHsqzBlWZJ8uZOmuPDkgGtDs/0VMyH1+oQ9XKt8/Obib/tvZYpLbk2Gvy0346qgTtcCjFNjRLFX/xLraZ8lWQcsTUq8mjpgui3gwibvluv+Qq7FlKryyNv3nHbZ6+9X63x2yTK9+Nl8ANG65iM3inOFcM86Vs68wk63v4BcrG+VIYAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.choco.usine3
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: fd44d102-e09a-4d78-9e89-9af556c05aac
+categoryId: 4cc988b3-c359-42e3-b557-5c2a3507b1fb
+parentId: 43cb6c17-f1c3-4e1b-9d76-265411ff2561
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&aMaire de Chocotown'
+  timeframe: 0
+  questId: fd44d102-e09a-4d78-9e89-9af556c05aac
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 565.0
+    y: 135.0
+    z: 2005.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 715b240a-ea09-4635-b2af-842e9de6ebd2
+  entity: PLAYER
+  custom_int: 319
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: Rolando
+  timeframe: 0
+  questId: fd44d102-e09a-4d78-9e89-9af556c05aac
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 569.0
+    y: 125.0
+    z: 2007.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: af21394f-1a60-4589-ba14-f578969522f2
+  entity: PLAYER
+  custom_int: 311
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCookie Radioactif
+      lore:
+      - Biscuit croustillant au cacao
+      - émettant d'étrange rayonnements alpha
+      enchants:
+        PROTECTION_FIRE: 1
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy5xzz8fcOiH9w8WBk6QkE9qYnHJ0j4j1d9HDh5gY2BzzM0vzSs5wAABHAwswTn5JQwcuYmZeRmJeSkcDLxwK/wSc1MZBNNT81KLMpP1chMrPFITc0oymBk4/QtSixJLMvPzoGaAVXIBVcRngJUwILnHWH2RdugGvwBk90z7sun1s7fCZnD37D85EwRmEXaPKNw9+WWpual5JcEFqakpaG5igrmJD6YqvhikDNldu0TmhSi9cj6K7K4p+0Ruf1v3+THcXfaXjcGAsLukYe7KzstPzk5KTM4OSi3OLC5JzEtOxeU6Ebja+CK4YmQ3Ptq5R7LZ1yUE2Y2LJdoO9RYe24aISw5i45IH5sac0uRsXNHIApJkYAAAUkFZAW8CAAA=
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: '&eSequeira'
+  timeframe: 0
+  questId: fd44d102-e09a-4d78-9e89-9af556c05aac
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 562.0
+    y: 119.0
+    z: 2019.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6a0b0319-9b5a-4a14-b104-97ff20a62a89
+  entity: PLAYER
+  custom_int: 308
+  exclude-spawners: false

@@ -1,0 +1,31 @@
+uniqueId: bac131dc-737d-4185-a612-17027b574296
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+id: 24
+category: 16
+cooldown: -1
+name: '&6&lMagma'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Magma
+    lore:
+    - §8Blocks
+    - §8Vanilla, §8Nether
+    internal: H4sIAAAAAAAAAE2PvW6DMBzE/61UiaI+RlckEwcqhgz9iBKjmBRCIWYjYATGphGBKPi5+oClW2+7u98NZwKY8HRoRyk/+++qkdyAe1LCM1qipVd4yCox96ylu7Atr8grC/0pz3OMMDLBnEdn3g8NvzyCMfDbMPb8YgLAnQEPSS5HDj988lF2rFF59GUxEXf28QHJPRHnF9Il0+mduETN/fbV3U3eP9YZ8tSRDPt11oXjSSVohyPJt5FdqK8rU8SmH7UIdOFkgt6oiupMMU112dKY4jlD2SbUgUhqumAO02tNld/uY18y8SaCdKZTgplOmmCztoOU2qSzvSpcreYH8AtXPTG9HAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

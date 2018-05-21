@@ -1,0 +1,11 @@
+every 60 ticks:
+    loop all players in "Bouquenia":
+        loop blocks in radius 2 around loop-player:
+            loop-block is bedrock:
+                add loop-player to {_bedrock::*}
+                apply potion of slowness to {_bedrock::*} for 70 ticks
+                apply potion of hunger tier 10 to {_bedrock::*} for 70 ticks
+                apply potion of weakness to {_bedrock::*} for 70 ticks
+                apply potion of mining fatigue to {_bedrock::*} for 70 ticks
+                show smoke on loop-player
+                stop trigger

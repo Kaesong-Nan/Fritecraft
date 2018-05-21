@@ -1,0 +1,19 @@
+&9<Bertrand> &f: Oh là !
+&9<Bertrand> &f: Faites attention !
+&9<Bertrand> &f: Si vous tombez, ça sera de votre faute !
+&9<Bertrand> &f: Un quoi ?
+&9<Bertrand> &f: Un José ?
+&9<Bertrand> &f: Ah !
+&9<Bertrand> &f: Oui, José !
+&9<Bertrand> &f: Je connais oui.
+&9<Bertrand> &f: Pourquoi ?
+&9<Bertrand> &f: Mort ? Quoi-quoi-quoi ?
+&9<Bertrand> &f: Oh mince ...
+&9<Bertrand> &f: Je l'ai pas vu depuis longtemps ...
+&9<Bertrand> &f: On a travaillé à la même mine pendant un moment.
+&9<Bertrand> &f: La mine de Clovis.
+&9<Bertrand> &f: Je l'ai rencontré là bas ...
+&9<Bertrand> &f: Ah tout le charbon qu'on a miné ensemble ...
+&9<Bertrand> &f: Si tu veux trouver cette mine, il faut que tu aille dans les montagnes.
+&9<Bertrand> &f: Par contre je te conseille de prendre un manteau, il fait froid là bas !
+&e&l>> &r&7Allez à la mine des montagnes enneigées (Station "Neiges")

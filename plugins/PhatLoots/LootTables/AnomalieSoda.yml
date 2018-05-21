@@ -1,0 +1,39 @@
+AnomalieSoda:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §dSoda
+        lore:
+        - §7Utilisé pour les armes légendaires.
+        internal: H4sIAAAAAAAAAE2PvW6DMBhFv1aqRFEfoyuSA4HAkKEtQ4yCKYSf4A2IkQFDIwJt8HP1AcvYu12de4arAqjwcupmIT7Hr7oRTIFHfIFXu7Qre+tYmm3XSNs6aKeVZV1p5tY0Ct1Yo1sqqKt0ZePUsNszKBO7T/PIbioAPCjwlBZiZvDLFg/RM0eXsyeqBVtrj09IBLi97vCQLuUHtnC/8sObdVycf1tzKjJT5IbH6RDOZZ+ioxEJdog2VZ985y3nvoy6wKWc6F7jx6QjbsppH7Ukfu98PWppnAqahSbJknvghoj2Xkez5CfXCScykbmknS99RPpE+lIIPGycOtzv1wfwB9BXixQcAQAA
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Fringirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: AnomalieSoda
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

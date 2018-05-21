@@ -1,0 +1,104 @@
+id: 22
+category: 42
+cooldown: -60000
+name: '&bExploration : VIP'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: INK_SACK
+  damage: 13
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '§bExploration : VIP'
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dDisque du Soleil §r
+      lore:
+      - §7Jeton de la fête de l'été.
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_NUGGET
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a§lJeton de jeu
+      lore:
+      - §7Un jeton pour le §ecasino
+      enchants:
+        LUCK: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 6
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBrochette de pastèque
+  - ==: org.bukkit.inventory.ItemStack
+    type: NETHER_BRICK_ITEM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lBourse du Festival §r
+      lore:
+      - §7Clic droit pour ouvrir pour
+      - '§7obtenir un loot aléatoire :'
+      - ''
+      - §f- Oeuf de Perroquet
+      - §f- Potion de Resistance au feu
+      - §f- Fusées de feu d'artifice x10
+      - §b- Flacons d'expérience x10
+      - §b- Disque de musique
+      - §b- Paquet de Glaces
+      - §e- Cape de Lune
+      - §e- Cape d'Eclipse
+      - §a- Elytres de Lune
+      - §a- Elytres d'Eclipse
+      - §a- Sac de Skins
+      - §a- Jetons de jeu
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 56b661e9-8c1e-4333-84c0-e2a3c5aeed96
+categoryId: f26971cf-a3cd-45b2-90ba-1f4268a9adde
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&bBasile VIP'
+  timeframe: 0
+  questId: 56b661e9-8c1e-4333-84c0-e2a3c5aeed96
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1515.0
+    y: 87.0
+    z: 1569.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0e64ee12-5990-493c-9119-5c122ad5e64d
+  entity: PLAYER
+  custom_int: 541
+  exclude-spawners: false

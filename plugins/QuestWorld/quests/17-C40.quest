@@ -1,0 +1,127 @@
+id: 17
+category: 40
+cooldown: -60000
+name: '&c&lImposteur'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §c§lImposteur
+    lore:
+    - §8Humans
+    - §8Male, §8Christmas, §8Headgear
+    internal: H4sIAAAAAAAAAE2L0W6CMBhG/y1bgmSPsVuSgsD00sASa6QOULDctbREsFWDsAhPtUccu9vFufhyvmMCmPCWnnulvtprVStpwDMW8M4FcyWvmFWWrrDcsvItXjnCWnjOgi8YYrbrmWBO0U22XS3vMzA6+ej6Vt5NAHgy4DVjqpfwI4cNKo4nJI4bVQ7Yn/Y+RWqHm9sHvmQDD7CP9eTXK387LP99vY7lnqLzzam4xD3XGdrOEyXXiV3qw3cRxihqSkRCoWme6SLPFGkKRfMDonlyInmhyRjbUYO9XXiekz/2Qkf604n2sRuNB4dqOpIRP6gzNeOqro72EsCAF8K0hFmQBtdWbmsO8Aujfc7DKgEAAA==
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ0Mjc0NDdmYWVmZWVlNjZlYWU0YWRhNWZmNzQ1MjI5ODk3NDk3NTdmMmE2MTQ4MzU2YmYzNzIxY2U0YzAifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: NETHER_BRICK_ITEM
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b§lChaussette de Noel §r
+      lore:
+      - §7Clic droit pour ouvrir pour
+      - §7obtenir une surprise !
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dCouronne §r
+      lore:
+      - §7Echangez ces couronnes contre
+      - §7des récompenses au marché !
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 0cdf8e03-6b79-46c7-9d96-94ec1e15c336
+categoryId: 032ccd89-1e72-4cd0-b76d-d26bc04f471e
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 0cdf8e03-6b79-46c7-9d96-94ec1e15c336
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0d25f2ff-fd71-4212-a607-d02b9e88e743
+  entity: PLAYER
+  custom_int: 730
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: KILL_NAMED_MOB
+  custom_string: '&c&lBelsnickel'
+  timeframe: 0
+  questId: 0cdf8e03-6b79-46c7-9d96-94ec1e15c336
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 06deacd8-5395-4ec9-9bf6-212fb6440f34
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBonnet de noel §r
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 0cdf8e03-6b79-46c7-9d96-94ec1e15c336
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2854bf2c-c280-4b26-969c-d6774cd962fe
+  entity: PLAYER
+  custom_int: 730
+  exclude-spawners: false

@@ -1,0 +1,126 @@
+GrimReaper:
+  Mobtype: pig_zombie
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&4Grim Reaper'
+    Range: 20
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: false
+    DarkenSky: true
+    PlayMusic: true
+  Display: '&4Grim Reaper'
+  Health: 1000
+  Damage: 6
+  DamageModifiers:
+  - FALL 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  AIGoalSelectors:
+  - 0 meleeattack
+  Disguise:
+    Type: player
+    Player: '&4Grim Reaper'
+    Skin: AEnasan
+  Options:
+    Despawn: false
+    MaxCombatDistance: 20
+  Equipment:
+  - GrimReaperScythe:0
+  Skills:
+  - potion{t=SPEED;d=999999;lvl=0} @self ~onSpawn
+  - effect:sound{s=entity.wither.spawn;v=4} @self ~onSpawn
+  - threat{a=1} @NearestPlayer ~onSpawn
+  - skill{s=ReaperSound} @self ~onTimer:20
+  - randomskill{skills=CalculatedSlash,InsaneSpeed,DamnedRoar,TauntingWithTheDead,EnragedCircleSlice} @target ~onTimer:200
+  - skill{s=RevivalReaper} @self ~onDeath
+
+SpookySkeleton:
+  Mobtype: skeleton
+  Modules:
+    ThreatTable: true
+  Display: '&4Damned Soul'
+  AITargetSelectors:
+  - 0 players
+  AIGoalSelectors:
+  - 0 meleeattack
+  Health: 100
+  Damage: 2
+  Equipment:
+  - NONE:0
+  Options:
+    Despawn: true
+  Skills:
+  - threat{a=1} @NearestPlayer ~onSpawn
+  - potion{t=WITHER;d=100;lvl=2} @target ~onAttack
+  - skill{s=DramaticDeath} @self ~onSignal:DIE
+
+GrimReaper2:
+  Mobtype: giant
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&4Grim Reaper'
+    Range: 30
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: false
+    DarkenSky: true
+    PlayMusic: true
+  Display: '&4Grim Reaper'
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 meleeattack
+  Health: 3000
+  Damage: 10
+  Options:
+    Despawn: false
+    KnockbackResistance: 1.0
+    MaxCombatDistance: 20
+    MovementSpeed: 0.1
+  Skills:
+  - heal{a=10} @self ~onSignal:HEAL
+  # - skill{s=ParticleHead} @self ~onTimer:5
+  - effect:sound{s=entity.enderdragon.hurt;v=3} @self ~onTimer:20
+  - effect:sound{s=entity.irongolem.hurt;v=3} @self ~onDamaged
+  - skill{s=EpicReaperSpawnEffects} @self ~onSpawn
+  - skill{s=EpicCalculatedSlash} @target ~onAttack
+  #- randomskill{skills=NightOfReckoning,DeathSpiritFrenzy,WitheringAtmosphere} @target ~onTimer:300 0.8 #stareoffear
+  - randomskill{skills=NightOfReckoning,WitheringAtmosphere} @target ~onTimer:300 0.8 #stareoffear
+  - skill{s=PointOfNoReturn} @PlayersInRing{min=16;max=30} ~onTimer:5
+  - skill{s=SwarmOfConsumption} @target ~onPlayerKill
+  - skill{s=FloorBlackEffect} @Self ~onTimer:300
+
+VoidSwarm:
+  Mobtype: endermite
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 players
+  AIGoalSelectors:
+  - 0 float
+  Display: '&bVoid Swarm'
+  Skills:
+  - skill{s=CheckSpawnWater;sync=true} @self ~onSpawn
+  - summon{type=VoidSwarm;amount=1;radius=4} @PIR{r=20} mobsinchunk <10 0.2 ~onAttack
+  - skill{s=CheckMorning} @self ~onTimer:100
+  Options:
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    Despawn: true
+  Drops:
+  - rotten_flesh 0-2 0.2
+  - skillapi-exp 2-3
+  - exp 5-10
+  - ender_pearl 1-3
+  - oddflesh 0-2

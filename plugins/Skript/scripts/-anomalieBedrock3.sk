@@ -1,0 +1,7 @@
+every 4 ticks:
+    loop all players in "Bouquenia":
+        loop blocks in radius 2 around loop-player:
+            loop-block is bedrock:
+                set {sound.%player%} to location of loop-player
+                execute the console command "/playsound mob.zombie.hurt master %loop-player% %{sound.%player%}%"
+                stop trigger

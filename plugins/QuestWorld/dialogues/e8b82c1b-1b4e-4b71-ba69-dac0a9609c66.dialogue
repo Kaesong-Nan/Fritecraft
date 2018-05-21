@@ -1,0 +1,12 @@
+&a <Jack> &f: ...
+&a <Jack> &f: Jack aime ça !
+&a <Jack> &f: Mais toi pas encore faire... PEUR !
+&a <Jack> &f: Maintenant toi devoir faire... PEUR !
+&a <Jack> &f: Toi rendre service à Jack.
+/mm i give -s <player> CadeauJack 5
+&a <Jack> &f: Voici cadeaux de Jack.
+&a <Jack> &f: Toi regarder journal quêtes et toi donner...
+&a <Jack> &f: Ouais en fait nan, c'est ultra chiant de parler comme ça pour des phrases longues.
+&a <Jack> &f: En gros, matte la liste ! Trouve les marshmallowiens qui sont sur la liste ! Et donnes leur mes petits cadeaux !
+&a <Jack> &f: Toi comprendre ? Parfait ! Toi aller !
+&a <Jack> &f: Voles, enfant de la terreur !

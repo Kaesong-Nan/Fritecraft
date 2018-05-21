@@ -1,0 +1,11 @@
+&e<Moine Yugi> &f: Vous etes franchement convaincant vous !
+&e<Moine Yugi> &f: D'accord, je vais tout vous dire.
+&e<Moine Yugi> &f: Il y a quelques semaines, le vieux bonze du temple vivait dans la bibliothèque.
+&e<Moine Yugi> &f: Il disait avoir découvert la vérité.
+&e<Moine Yugi> &f: Puis un jour, prout.
+&e<Moine Yugi> &f: Enfin ça a pas fait prout, mais tout a sauté dans la bibli. Un gros trou dans la façade !
+&e<Moine Yugi> &f: Et zou ! Plus de vieux bonze ! Et c'est là qu'on a commencé à entendre les voix.
+&e<Moine Yugi> &f: On a barricadé l'entrée. Mais le trou est toujours là.
+&e<Moine Yugi> &f: Il y a surement moyen de le rejoindre en passant par les toits du temple de Poulard.
+&e<Moine Yugi> &f: Mais ne dites à personne que je vous ai dit ça... Sinon on va encore me priver de déssert.
+&e<Moine Yugi> &f: Et il parait que ce soit, ça sera glace à la pistache !

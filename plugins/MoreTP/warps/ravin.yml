@@ -1,0 +1,18 @@
+name: ravin
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation du Ravin &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&5Boss Wither'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: INK_SACK
+data: 8
+location: Bouquenia<>799.8658531820383<>101.0<>732.9892734836629<>-0.25952715<>-87.61334
+slot: 32

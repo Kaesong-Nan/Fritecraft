@@ -1,0 +1,3 @@
+command /resethp <player>:
+    trigger:
+        set rf max hp of argument to 20

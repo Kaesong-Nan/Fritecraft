@@ -1,0 +1,6 @@
+&9<Caius> &f: Voici le Centre Culturel de Bouquenia !
+&9<Caius> &f: Ici, vous avez accès à toutes les écritures des joueurs !
+&9<Caius> &f: Si vous meme aimez écrire, n'hesitez pas a offrir vos oeuvres au Centre Culturel
+&9<Caius> &f: Ainsi, tout le monde a Bouquenia pourra protifer de votre plume.
+&9<Caius> &f: Aussi, c'est ici que vous pouvez apprendre a utiliser notre systeme de quete.
+&9<Caius> &f: Demandez moi, et je vous expliquerai comment ca fonctionne.

@@ -1,0 +1,192 @@
+id: 13
+category: 11
+cooldown: -60000
+name: '&aLe Lit de Marco'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §aLe Lit de Marco
+    internal: H4sIAAAAAAAAAE2LT0+DMBxAfxpNGPFjeCVpBwV38KAjuhIoMro/5QasOFi7LQxU9rn8gHL0+PLeMwFMeEgPvVIf7amqlTTglu7g0UXEcUiFrQJNK8vxnnIrxxWxSL6rXORJgktpgjlOZ9l2tbxMwOjkT9e38mICwI0B9+tc9RJ+5RCgbLtHu22gyoG6I/MUqZg2Z48e10Mxpy7Vo1+8uOEw+9eSLt8QJexgnx2TvtBrFNpLJRdLXOrVV+YLm/nlt+CvTcT3mjWfONqsSMSTK+ORHXGl2PWAY7+0M58S0UQD44Fm09VU6AQJ/lbHvsDsKvDINnvPlKiDWbVFzwAG3LFcS5jM0/mplWFdAPwBPYPkxy4BAAA=
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3NDcwYTBjMThmNjg1MWU5MTQzNTM3MTllNzk1ODc3ZDI5YjMyNTJmN2U2YmQ0YTFiODY1NzY1YmQ3NGZlYiJ9fX0=
+  custom-skullOwner: CSCoreLib
+uniqueId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+categoryId: a459e4e2-189c-439d-a548-6e53b73dd5a9
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e04e0f71-ba50-435c-a2d8-5b7d090d3e89
+  entity: PLAYER
+  custom_int: 88
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8ec126c0-bb9f-4f7b-ab2e-f342d0c67f10
+  entity: PLAYER
+  custom_int: 89
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a69c0a43-fd33-465c-bb0c-6b363336a57e
+  entity: PLAYER
+  custom_int: 88
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2875b01f-1833-4488-adb8-44967d91f4ae
+  entity: PLAYER
+  custom_int: 89
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 070cfbda-c84c-433c-aa63-fccfbf27ef50
+  entity: PLAYER
+  custom_int: 88
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e81a05f4-b1de-424c-8ca4-f9c2eee30d9b
+  entity: PLAYER
+  custom_int: 144
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 8ed45786-a54f-479e-941f-6b77c0fc974b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3eae6293-d1c5-4e13-8068-5f78ffe6a286
+  entity: PLAYER
+  custom_int: 88
+  exclude-spawners: false

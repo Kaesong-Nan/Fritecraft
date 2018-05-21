@@ -1,0 +1,40 @@
+Hereticae:
+  Id: DIAMOND_AXE
+  Display: '&4&lHereticae &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Sweeping III'
+  - '&7Recul I'
+  - '&7Solidité V'
+  - '&7Resistance I'
+  - '&cFaim I'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dMaudit'
+  - '&7Passif : &eHérétique'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - SWEEPING:3
+  - DURABILITY:5
+  - KNOCKBACK:1
+
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=EnchantResistance} ~onAttack 1
+  - skill{s=EnchantHereticae} ~onDamaged @self <8 1

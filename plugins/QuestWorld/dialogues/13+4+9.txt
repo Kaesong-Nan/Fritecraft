@@ -1,0 +1,10 @@
+&7*Gromelle des paroles incompréhenssibles en agitant un encensoir*
+&7*Une odeur forte d'encens flotte dans l'air, vous faisant tourner la tête*
+&7*Bruquement, le vieil homme se calme et plante son regard dans le votre*
+&9<Moine Yugi> &7: Oh... bonjour... Je peux savoir ce que vous faites là ?
+&9<Moine Yugi> &7: L'accès à cet étage est interdit au public.
+&9<Moine Yugi> &7: Je suis justement en train de le purifier, c'est dangereux.
+&9<Moine Yugi> &7: De toute facon, une bonne partie de l'étage est condamnée.
+&9<Moine Yugi> &7: Et la raison ne regarde que les moines de Irvine.
+&9<Moine Yugi> &7: Je vous pries donc de redescendre. Bonne journée...
+&7*Gromelle des paroles étranges, le regard dans le vide*

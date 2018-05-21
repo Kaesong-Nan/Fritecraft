@@ -1,0 +1,50 @@
+PigZombie:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_NUGGET
+    Probability: 50.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_INGOT
+    Probability: 2.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fBacon zombie §r
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fEpée du nether §r
+    Probability: 3.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STALK
+    Probability: 10.0
+  Name: PigZombie
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

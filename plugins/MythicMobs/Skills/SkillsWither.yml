@@ -1,0 +1,99 @@
+EffectWither:
+  Skills:
+    - sendtitle{fi=2;fo=50;d=30;title="&4Dépérissement !"} @Target
+    - sound{s=entity.wither.spawn} @Target
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - potion{type=WITHER;duration=20;level=1} @Target
+    - potion{type=SLOW;duration=20;level=1} @Target
+    - potion{type=SLOW_DIGGING;duration=20;level=1} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - potion{type=SLOW;duration=20;level=2} @Target
+    - potion{type=SLOW_DIGGING;duration=20;level=2} @Target
+    - potion{type=WITHER;duration=20;level=2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - potion{type=SLOW;duration=20;level=3} @Target
+    - potion{type=SLOW_DIGGING;duration=20;level=3} @Target
+    - potion{type=WITHER;duration=20;level=3} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - potion{type=SLOW;duration=100;level=4} @Target
+    - potion{type=SLOW_DIGGING;duration=100;level=4} @Target
+    - potion{type=WITHER;duration=100;level=4} @Target
+
+HyperWither:
+  Skills:
+    - sendtitle{fi=2;fo=10;d=20;title="&4Dégénéréscence !"} @Target
+    - potion{type=WITHER;duration=100;level=3} @Target
+    - potion{type=HUNGER;duration=100;level=50} @Target
+    - potion{type=BLINDESS;duration=100;level=4} @Target
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+    - effect:particules{p=smoke;a=10;hs=0.5;vs=0.5;y=1.2} @Target
+    - delay 5
+
+DeathMark:
+  skills:
+    - sendtitle{fi=2;fo=50;d=30;title="&4Marque de mort !"} @Target
+    - delay 20
+    - sound{s=entity.wither_skeleton.death} @Target
+    - sendtitle{fi=2;fo=50;d=30;title="&43"} @Target
+    - delay 20
+    - sound{s=entity.wither_skeleton.death} @Target
+    - sendtitle{fi=2;fo=50;d=30;title="&42"} @Target
+    - delay 20
+    - sound{s=entity.wither_skeleton.death} @Target
+    - sendtitle{fi=2;fo=50;d=30;title="&41"} @Target
+    - delay 20
+    - percentDamage{percent=0.5}
+    - sound{s=entity.zombie_villager.cure} @Target

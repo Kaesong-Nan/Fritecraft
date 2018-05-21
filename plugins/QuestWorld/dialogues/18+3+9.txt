@@ -1,0 +1,8 @@
+&9<Val> &f: C'est pas moi qui supervise ce campement, c'est Galien !
+&9<Val> &f: Est-ce que j'ai une tête de superviseur ?
+&9<Val> &f: Pas ma faute si le livre de quête vous dit de me parler pour le rapport ...
+&9<Val> &f: Mais en même temps c'est pas la votre non plus ...
+&9<Val> &f: Admin à la con.
+&c&l*Hé ho*
+&9<Val> &f: Vive l'admin.
+&c&l*Ouais c'est mieux*

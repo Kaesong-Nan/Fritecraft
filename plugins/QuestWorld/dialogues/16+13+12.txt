@@ -1,0 +1,13 @@
+&f&e<Employé> &f: Glou glou glou...
+&f&e<Employé> &f: Mon premier vrai repas depuis une semaine.
+&f&e<Employé> &f: Avant j'avais essayé de manger un bloc d'or mais c'est résistant ce truc...
+&f&e<Employé> &f: Bon là vous êtes dans le coffre VIP
+&f&e<Employé> &f: Il appartient à un riche, un certain Ventouz je crois.
+&f&e<Employé> &f: Il se fait appeller "Grand administrateur suprême"... Rien que ça
+&f&e<Employé> &f: Mais il paye bien donc on dit rien
+&f&e<Employé> &f: Mon patron m'envoie souvant pour nettoyer le coffre. Mais cette fois j'ai oublié de garder la porte ouverte.
+&f&e<Employé> &f: Du coup je suis coincé ici.
+&f&e<Employé> &f: En plus l'équipe de modération ne m'a pas donné accès au /warp et au /home
+&f&e<Employé> &f: Donc je suis obligé d'attendre comme un clochard que quelqu'un daigne venir ouvrir le coffre...
+&f&e<Employé> &f: Mais ça va changer. Je vais m'installer ici.
+&f&e<Employé> &f: Et vous allez m'aider.

@@ -1,0 +1,5 @@
+on rightclick on sign:
+    line 1 of the clicked block is "&b** &8Troisième &b**":
+        set {_trois} to line 2
+        change citizen 286 skin to {_trois}
+        set citizen 286 nametag invisible

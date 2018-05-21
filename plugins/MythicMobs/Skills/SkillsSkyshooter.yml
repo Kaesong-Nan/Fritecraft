@@ -1,0 +1,266 @@
+ArrowStorm:
+  Cooldown: 10
+  Skills:
+  - actionmessage{m="<mob.name>&f is casting &nArrow Storm"} @PlayersInRadius{r=30}
+  - delay 50
+  - shoot{type=ARROW;velocity=5;damage=3}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - shoot{type=ARROW;velocity=5;damage=3}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+  - delay 5
+  - shoot{type=ARROW;velocity=5;damage=1}
+LavaBeam:
+  Cooldown: 20
+  Skills:
+  - actionmessage{m="<mob.name>&f is casting &nLavaBolt"} @PlayersInRadius{r=30}
+  - delay 50
+  - projectile{onTick=LavaBeam-Tick;onHit=LavaBeam-Hit;v=10;i=1;hR=1;vR=1}
+LavaBeam-Tick:
+  Skills:
+   - effect:particles{particle=flame;amount=9;vSpread=0.2;hSpread=0.2;Speed=0} @Origin >0 1
+   - effect:particles{particle=largesmoke;amount=2;vSpread=0.2;hSpread=0.2;Speed=0} @Origin >0 1
+   - effect:sound{s=fire.fire;volume=1.0;pitch=1} @origin
+LavaBeam-Hit:
+    Skills:
+    - damage{a=10}
+    - ignite{ticks=100} @trigger
+HellsQuake:
+  Cooldown: 20
+  Skills:
+  - actionmessage{m="<mob.name>&f is casting &nHells Quake"} @PlayersInRadius{r=30}
+  - delay 50
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=flame;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=1} @Self >0 1
+  - damage{a=10} @pir{r=1}
+  - ignite{ticks=100} @trigger @pir{r=1}
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=lava;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=3} @Self >0 1
+  - damage{a=10} @pir{r=3}
+  - ignite{ticks=100} @trigger @pir{r=3}
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=flame;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=5} @Self >0 1
+  - damage{a=10} @pir{r=5}
+  - ignite{ticks=100} @trigger @pir{r=5
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=lava;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=7} @Self >0 1
+  - damage{a=10} @pir{r=7}
+  - ignite{ticks=100} @trigger @pir{r=7
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=flame;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=9} @Self >0 1
+  - damage{a=10} @pir{r=9}
+  - ignite{ticks=100} @trigger @pir{r=9}
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=lava;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=11} @Self >0 1
+  - damage{a=10} @pir{r=11}
+  - ignite{ticks=100} @trigger @pir{r=11}
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=flame;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=13} @Self >0 1
+  - damage{a=10} @pir{r=13}
+  - ignite{ticks=100} @trigger @pir{r=13}
+  - delay 2
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=lava;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=15} @Self >0 1
+  - damage{a=10} @pir{r=15}
+  - ignite{ticks=100} @trigger @pir{r=15}
+FlameScream:
+  Cooldown: 15
+  Skills:
+   - actionmessage{m="<mob.name>&f exhales a Scream"} @PlayersInRadius{r=30}
+   - delay 50
+   - effect:sound{s=mob.enderdragon.growl;volume=1.0;pitch=1} @Self
+   - effect:particles{particle=flame;amount=1000;vSpread=0.2;hSpread=0.2;Speed=5} @Self
+   - effect:particles{particle=largesmoke;amount=1000;spread=0.2;hSpread=0.2;Speed=5} @Self
+   - damage{a=10} @pir{r=15}
+   - ignite{ticks=100} @trigger @pir{r=15}
+   - effect:particlering{particle=lava;amount=40;vspread=0.5;hspread=0.5;speed=0;yoffset=0.3;points=20;radius=15} @Self >0 1
+FireballBarrage:
+  Cooldown: 25
+  Skills:
+  - actionmessage{m="<mob.name>&f shoots Fireballs!"} @PlayersInRadius{r=30}
+  - delay 50
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+WebShot:
+  Cooldown: 10
+  Skills:
+  - actionmessage{m="<mob.name>&f is cast &nWebShot"} @PlayersInRadius{r=30}
+  - delay 50
+  - projectile{onTick=WebShot-Tick;onHit=WebShot-Hit;v=100;i=1;hR=1;vR=1} @PlayersInRadius{r=30}
+Webshot-Tick:
+  Skills:
+  - effect:itemspray{item=WEB;amount=20;velocity=5} @origin
+WebShot-Hit:
+    Skills:
+    - damage{a=10}
+    - prison{material=WEB;duration=200;breakable=true} @PlayersInRadius{r=30}
+Acid:
+  Cooldown: 20
+  Skills:
+  - actionmessage{m="<mob.name>&f makes Acid Rain From the Skies!"} @PlayersInRadius{r=30}
+  - delay 50
+  - effect:itemspray{item=slime_ball;amount=100;hSpread=8;ySpread=1;speed=0;yOFfset=6} @self
+  - effect:sound{s=mob.silverfish.say;volume=1.0;pitch=1} @Self
+  - potion{type=POISON;lvl=2;duration=50} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:itemspray{item=slime_ball;amount=100;hSpread=8ySpread=1;speed=0;yOFfset=6} @self
+  - effect:sound{s=mob.silverfish.say;volume=1.0;pitch=1} @Self
+  - potion{type=POISON;lvl=2;duration=50} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:itemspray{item=slime_ball;amount=100;hSpread=8ySpread=1;speed=0;yOFfset=6} @self
+  - effect:sound{s=mob.silverfish.say;volume=1.0;pitch=1} @Self
+  - potion{type=POISON;lvl=2;duration=50} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:itemspray{item=slime_ball;amount=100;hSpread=8ySpread=1;speed=0;yOFfset=6} @self
+  - effect:sound{s=mob.silverfish.say;volume=1.0;pitch=1} @Self
+  - potion{type=POISON;lvl=2;duration=50} @PlayersInRadius{r=8}
+Oil:
+  Cooldown: 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> &rOIL BEING EXTRACTED...IGNITING"} @PlayersInRadius{r=40}
+  - effect:particles{p=mobSpell;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - effect:particles{p=mobSpell;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - delay 50
+  - effect:sound{s=liquid.lava;volume=1.0;pitch=1} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - effect:particles{p=flame;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - effect:sound{s=fire.fire;volume=1.0;pitch=1} @Self
+  - damage{a=10} @pir{r=15}
+  - ignite{ticks=100} @trigger @pir{r=15}
+GravityCrush:
+  Cooldown: 15
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> &rGRAVITY CRUSH&k3u2j22882&rSYSTEMS ONLINE"} @PlayersInRadius{r=40}
+  - summon{mob=Crusher;amount=1;radius=0} @Self
+GCMob:
+  Cooldown: 10
+  Skills:
+  - jump{v=4}
+  - delay 90
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=lava;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - effect:particles{p=witchMagic;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - damage{a=10} @pir{r=15}
+  - throw{velocity=0;velocityY=5} @PlayersInRadius{r=15}
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=lava;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - effect:particles{p=witchMagic;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - delay 5
+  - throw{velocity=0;velocityY=5} @PlayersInRadius{r=15}
+  - delay 5
+  - throw{velocity=0;velocityY=5} @PlayersInRadius{r=15}
+  - remove{m=Crusher} @Self
+Missile:
+  Cooldown: 30
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> &rMISSILE&k3u2j22882&rSYSTEMS ONLINE"} @PlayersInRadius{r=40}
+  - summon{m=MPointer;a=5;r=10}
+MPointerSpawn:
+  Skills:
+  - potion{type=INVISIBILITY;d=2000;l=1} @self
+  - delay 200
+  - skill{s=MPointerFinish}
+MPointerFinish:
+  Cooldown: 100
+  Skills:
+  - projectile{onTick=MTick;onEnd=MEnd;v=50;i=1;hR=2;vR=2;syo=75;sfo=20;mr=1000;d=500;sE=false} @Self
+  - delay 500
+  - remove{m=MPointer} @Self
+MTick:
+  Skills:
+  - effect:particles{p=cloud;a=30;vS=1.5;hS=1.5} @Origin
+  - effect:particles{p=explode;a=15;vS=1;hS=1} @Origin
+  - effect:particles{p=magicCrit;a=3;vS=0.75;hS=0.75} @Origin
+MEnd:
+  Skills:
+  - explosion{blockdamage=false;fire=falseyield=5} @Origin
+  - damage{a=10} @pir{r=5}
+  - effect:particles{p=witchMagic;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5} @origin
+  - remove{m=MPointer} @Self
+GolemDeath:
+  Skills:
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 15
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 15
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 15
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 15
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 15
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=10;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=fireworksSpark;amount=1000;vS=10;hS=2} @Self
+  - effect:particles{p=fireworksSpark;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - delay 25
+  - effect:sound{sound=random.explode;volume=2;p=1} @pir{r=15}
+  - effect:particles{p=largeexplode;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self
+  - effect:particles{p=lava;amount=1000;hSpread=5;ySpread=1;speed=0;yOFfset=0.5;vS=3} @Self

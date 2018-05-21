@@ -1,0 +1,17 @@
+DesertHead:
+  Id: 397
+  Data: 3
+  Options:
+    Player: Mummy
+DesertChestplate:
+  Id: leather_chestplate
+  Options:
+    Color: 235,220,160
+DesertLeggings:
+  Id: leather_leggings
+  Options:
+    Color: 230,240,190
+DesertBoots:
+  Id: leather_boots
+  Options:
+    Color: 180,145,12

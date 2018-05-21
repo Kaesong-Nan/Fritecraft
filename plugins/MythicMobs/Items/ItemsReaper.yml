@@ -1,0 +1,22 @@
+GrimReaperScythe:
+  Id: 292
+
+BlackHood:
+  Id: 298
+  Options:
+    Color: 0,0,0
+
+BlackCloak:
+  Id: 299
+  Options:
+    Color: 0,0,0
+
+BlackLeggings:
+  Id: 300
+  Options:
+    Color: 0,0,0
+
+BlackBoots:
+  Id: 301
+  Options:
+    Color: 0,0,0

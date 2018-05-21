@@ -1,0 +1,81 @@
+id: 0
+category: 12
+cooldown: -60000
+name: Arrivée à Chocotown
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Arrivée à Chocotown
+    internal: H4sIAAAAAAAAAE3Ly26CQBiG4b9NmyDpZXRLMpxx2ajRIRzKUZkdMGOgzqhBMMA19SLLsssv7/PJADJ8JJeB8+/udm45k+AVU/hUqe1Qw1kruuaoimE6tVIyjSrU0m2bokqvEZJBXk531vUte6xA6tnYDx17yADwIsF7XvKBwS+bXERODaInl9cTtpadJoiH+Odu42s+VRtsYbH0w5flTet/1uzLo8kL3W3INRoqkSNPjzk7xGotsme4xRPZNjyYs7GYG+ELcgn2vhGm0VTMESpE3PqiUAtthxbXkHSxaa2SYzSTI54XO4b7nRGIzPQ13J5P6hpAgregFAxWm2Rz65jXVgB/IsTjVyYBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.choco.usine1
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 496ae83c-2846-449c-b314-8a7d55dc41c5
+categoryId: 4cc988b3-c359-42e3-b557-5c2a3507b1fb
+parentId: 6e67d0a1-2a75-4f55-bf12-cdbcbf5d9bf4
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&aAdock'
+  timeframe: 0
+  questId: 496ae83c-2846-449c-b314-8a7d55dc41c5
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 654.0
+    y: 114.0
+    z: 1950.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 214d7fbb-25b2-4c04-9b18-b21ed81b7c79
+  entity: PLAYER
+  custom_int: 318
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: '&aMaire de Chocotown'
+  timeframe: 0
+  questId: 496ae83c-2846-449c-b314-8a7d55dc41c5
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 565.0
+    y: 152.0
+    z: 2025.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2a0d931b-d284-4207-b3c9-215c89eb3324
+  entity: PLAYER
+  custom_int: 319
+  exclude-spawners: false

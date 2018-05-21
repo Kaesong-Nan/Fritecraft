@@ -1,0 +1,11 @@
+&9<Philippe> &f: Bonjour à vous, jeune âme égarée. Aimez-vous les cadeaux ?
+&9<Philippe> &f: Les cadeaux font toujours plaisir.
+&9<Philippe> &f: Surtout à nos belles déesses !
+&9<Philippe> &f: Mon offrande à moi, c'est un collier ! Du moins, lorsqu'il sera fait...
+&9<Philippe> &f: Et comme vous me semblez sympathique, vous allez pouvoir m'aider.
+&9<Philippe> &f: Voici une liste d'ingrédients. Un forgeron pourra l'utiliser.
+&9<Philippe> &f: Je crois qu'il y en a un à Irvine ...
+&9<Philippe> &f: Que voulez vous dire par "et vous alors ?" ?
+&9<Philippe> &f: Moi j'ai fait voeu d'immobilité, je me dois de respecter mes principes.
+&9<Philippe> &f: A tout à l'heure, j'espère !
+&e&l>> &r&7Trouvez le forgeron d'Irvine pour qu'il fabrique un collier.

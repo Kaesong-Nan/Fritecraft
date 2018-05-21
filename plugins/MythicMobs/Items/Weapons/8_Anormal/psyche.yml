@@ -1,0 +1,42 @@
+Psyche:
+  Id: DIAMOND_SWORD
+  Display: '&4&lPsyche &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Vampirisme I'
+  - '&7Armure I'
+  - '&7Chance II'
+  - '&7Egide'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dObscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      Armor: 4
+      Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - DURABILITY:5
+  - LOOT_BONUS_MOBS:2
+
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantVampirisme} ~onAttack 1

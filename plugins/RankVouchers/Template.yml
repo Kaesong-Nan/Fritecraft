@@ -1,0 +1,19 @@
+voucher:
+  item:
+    item: GOLD_NUGGET
+    name: '&b&lSac de skin &r'
+    lore:
+    - '&7Clic droit pour ouvrir pour'
+    - '&7obtenir un skin aléatoires.'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Skin'
+        - '[ConsoleCommand] playsound minecraft:entity.llama.chest master %player% ~ ~ ~ 1 1 1'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

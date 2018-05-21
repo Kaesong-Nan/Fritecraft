@@ -1,0 +1,4 @@
+&9<Samson> &f: Pas le temps de causer, on manque de main d'oeuvre ici !
+&9<Samson> &f: Alors prenez une pelle et une pioche et allez donner un coup de main dans la mine !
+&9<Samson> &f: Je racheterai grassement la redstone que vous m'apporterez...
+&9<Samson> &f: Vous êtes encore la ? Bougez-vous !

@@ -1,0 +1,271 @@
+fraicheur:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet café
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet chocolat au lait
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet arc-en-ciel
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet barbe à papa
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet chocolat noir
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet atrophie
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet mangue
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet pistache
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet noix de coco
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet fraise
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet fruits rouges
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet caramel
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet napolitain
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet vanille
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet menthe
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet gateau
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCornet mûres
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau raisin
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau mangue
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau framboise
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau coco
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau pastèque
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau fusée
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau spatial
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau arc-en-ciel
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau chocolat
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau orange
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEsquimau citron vert
+      Probability: 100.0
+    LowerNumberOfLoots: 6
+    Name: food
+    Probability: 100.0
+    UpperNumberOfLoots: 6
+  Name: fraicheur
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

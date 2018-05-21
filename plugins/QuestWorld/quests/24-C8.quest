@@ -1,0 +1,62 @@
+id: 24
+category: 8
+cooldown: 43200000
+name: '&fPotions de Force'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: §fPotions de Force
+    potion-type: minecraft:long_strength
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 2a4088e5-17c2-4579-b7b2-73eab11b801c
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_strength
+  amount: 12
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 2a4088e5-17c2-4579-b7b2-73eab11b801c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 282.0
+    y: 65.0
+    z: 1048.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 420bb2db-dfcc-46db-9866-8460101e92c0
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

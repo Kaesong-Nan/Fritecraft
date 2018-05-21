@@ -1,0 +1,11 @@
+&9<Yvan> &f: Vous avez le livre ? Parfait ! Ne vous en faites pas pour le vieil Uzul... ça va aller !
+&7*Il consulte fébrilement le livre et vous jette quelques regards curieux*
+&9<Yvan> &f: J’imagine que vous avez essayé de le lire, sans succès ?
+&9<Yvan> &f: C’est normal. Le M’imdesa Nallada est rédigé dans la vieille langue d’Irvine.
+&9<Yvan> &f: Mais les prières qu’il y a dedans me permettront de vous protéger de la malédiction.
+&7*Il referme le livre d’un claquement sec*
+&9<Yvan> &f: Pour entrer dans la zone condamnée, c’est plus simple qu’il n’y paraît.
+&9<Yvan> &f: Passez par le temple. De là, montez jusqu’au premier étage et passez par le toit.
+&9<Yvan> &f: A partir de là, vous allez pouvoir sauter sur le toit de la maison des Moines.
+&9<Yvan> &f: Par contre, j’ignore totalement ce que vous allez trouver...
+&9<Yvan> &f: Bon courage ! J'espère...

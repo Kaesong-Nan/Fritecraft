@@ -1,0 +1,11 @@
+&e<Contre-maitre>&f: Désolé, nous ne recrutons plus de mineurs pour le moment.
+&e<Contre-maitre>&f: Comment dire ...
+&e<Contre-maitre>&f: Nous avons quelques problèmes de sécurité ...
+&e<Contre-maitre>&f: Oh, vous connaissiez José ?
+&e<Contre-maitre>&f: Lui aussi, un accident tragique.
+&e<Contre-maitre>&f: C'était un bon mineur.
+&e<Contre-maitre>&f: Quoi ? Vous voulez récuperer sa pioche ?
+&e<Contre-maitre>&f: Hum, désolé, mais ce n'était pas vraiment "sa" pioche ...
+&e<Contre-maitre>&f: Je ne peux malheureusement pas vous la donner.
+&e<Contre-maitre>&f: Elle appartient à la mine, et sera utilisée par un autre mineur quand nous pourrons reprendre nos activités.
+&7&l>> &eParler au mineur à propos du contre-maitre.

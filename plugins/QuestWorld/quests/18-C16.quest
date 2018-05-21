@@ -1,0 +1,193 @@
+uniqueId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+id: 18
+category: 16
+cooldown: -1
+name: '&6&lMatériel de camping'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Crate
+    lore:
+    - §8Decoration
+    - §8Wood
+    internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJLsdgHDsRG1Swpoy9fujcIiLEttWmigT+UjukfnMpnMb5IxAUx42veTUp/nn6ZTwoB7WsMzspHtVR6yaiI8y3ZX2PKqsrGQVlmW2CbYNcHUo5M4j524PIIxinmczuJiAsCdAQ9ZqSYBv2IJEC9aVBeBqhbq6pzskYqpPL3QY7YcXqlLB91v1u528f6xzljmjmIkaPnxazoMGdqSnRKbHa6G9MolW0I/neOckshPb9EQzlx+YyZrGa1SzJO3mWlntzWO83DhAyNRoiSTbc8lxdEH1xxzNENi/70PZd81Bfb0e/gD7/cZiBgBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Parler au responsable du camp dans les carvene Nether
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 45a0d6fa-ee74-4a72-8a5b-a133c1dfda3f
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+  amount: 8
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter de la crême de magma à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0614f2fd-6ae5-4715-9643-37f1e96d1072
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter du papier à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2b80c2bc-5ba0-4002-8c08-c12e2a3a3336
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BED
+    damage: 1
+  amount: 4
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter des lits à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5ae839c3-947a-4a1c-9a26-4c479436d366
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATER_BUCKET
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter de l'eau à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: fa3b8006-8283-4a21-a792-8dbc6a43e4a9
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_PICKAXE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter une pioche en fer à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b0f8e398-6ddc-4571-86e4-fc91944a91cc
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TRIPWIRE_HOOK
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+  reset-on-death: false
+  display-name: Apporter un crochet à Val
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 757e91bc-ef07-441b-b21e-c7f5db06fcaf
+  entity: PLAYER
+  custom_int: 110
+  exclude-spawners: false

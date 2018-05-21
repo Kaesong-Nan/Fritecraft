@@ -1,0 +1,62 @@
+id: 22
+category: 3
+cooldown: -60000
+name: Slime Elite
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Slime Elite
+    enchants:
+      ARROW_DAMAGE: 2
+    id: slime
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.guilde.slimeelite
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 21b10e17-7b9a-4a7c-b1b6-e3bf18d53ba0
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 55
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&6Gélatine Elite'
+  timeframe: 0
+  questId: 21b10e17-7b9a-4a7c-b1b6-e3bf18d53ba0
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5df41a6b-17d7-4988-b59b-05dc75c97cc2
+  entity: SLIME
+  custom_int: 0
+  exclude-spawners: false

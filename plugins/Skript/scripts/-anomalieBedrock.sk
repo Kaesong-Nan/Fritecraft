@@ -1,0 +1,5 @@
+on right click on bedrock:
+    player isn't in world "Bouquenia_the_end"
+    player isn't in world "skyworld"
+    cancel the event
+    apply confusion to the player for 5 seconds

@@ -1,0 +1,57 @@
+id: 36
+category: 8
+cooldown: 43200000
+name: '&fMorues'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: RAW_FISH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fMorues
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 5d02b747-90ad-4be5-b7cd-ee16b1359f09
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH
+  amount: 16
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5d02b747-90ad-4be5-b7cd-ee16b1359f09
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 517.0
+    y: 79.0
+    z: 722.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2616773d-e3a1-4dfe-bb76-3a4e5bb6360b
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

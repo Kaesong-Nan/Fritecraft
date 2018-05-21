@@ -1,0 +1,212 @@
+bonbon:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon au magma
+          potion-type: minecraft:fire_resistance
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon au caramel salé
+          potion-type: minecraft:weakness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon secret
+          potion-type: minecraft:invisibility
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon rebonbondissant
+          potion-type: minecraft:leaping
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon aux ronces
+          potion-type: minecraft:harming
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon à la menthe
+          potion-type: minecraft:healing
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon aux yeux
+          potion-type: minecraft:night_vision
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon oxygéné
+          potion-type: minecraft:water_breathing
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon aux fruits
+          potion-type: minecraft:regeneration
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon au plomb
+          potion-type: minecraft:slowness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon toxique
+          potion-type: minecraft:long_poison
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon aux frites
+          potion-type: minecraft:strength
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §4bonbon très sucré
+          potion-type: minecraft:swiftness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4pomme d'amour
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4pomme au caramel
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4chauve-souris chocolat
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4chauve-souris chocolat blanc
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MILK_BUCKET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4lait épicé
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4tarte aux pommes
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4tarte à l'éctoplasme
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: bonbon
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: bonbon
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

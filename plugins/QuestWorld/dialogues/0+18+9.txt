@@ -1,0 +1,10 @@
+&a<Banquier> &r: Vous connaissez le principe de l'économie physique ?
+&a<Banque> &f: Pour pouvoir recevoir des émeraudes, il va vous falloir un coffre fort.
+&a<Banque> &f: Les émeraudes apparaitront directement dedans.
+&a<Banque> &f: Et ils se transformeront automatiquement en blocs d'émeraudes.
+&a<Banque> &f: Pour créer un coffre fort, il faut placer une pancarte contre un coffre.
+&a<Banque> &f: Et y inscrire [vault] sur la première ligne.
+&a<Banque> &f: L'inscription passera en gras, et votre nom devrait apparaitre.
+&a<Banque> &f: Par contre, votre coffre est vulnérable !
+&a<Banque> &f: N'oubliez pas de le sécuriser !
+&a<Banque> &f: Visitez la caserne pour apprendre à créer une parcelle si ce n'est pas encore fait.

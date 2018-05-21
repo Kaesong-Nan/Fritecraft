@@ -1,0 +1,38 @@
+Spook:
+  Cooldown: 5
+  Skills:
+  - summon{type=SPOOK_BAT;amount=5;radius=1} @trigger
+  - randomskill{skills=Scare1,Scare2,Scare3,Scare4,Scare5} @trigger
+  - effect:particles{p=reddust;color=#FF00FF;a=20;hs=0.3;vs=0.3;y=1;s=0.4} @trigger
+
+
+
+Scare1:
+  Skills:
+  - sound{s=entity.elder_guardian.death} @Trigger
+Scare2:
+  Skills:
+  - sound{s=entity.elder_guardian.ambient} @Trigger
+Scare3:
+  Skills:
+  - sound{s=entity.elder_guardian.death_land} @Trigger
+Scare4:
+  Skills:
+  - sound{s=entity.endermen.death} @Trigger
+Scare5:
+  Skills:
+  - sound{s=entity.endermen.stare} @Trigger
+
+Scan:
+  Skills:
+  - actionmessage{m="&fSignal<&co> &e**********"} @a[rm=1,r=20,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e*********&7*"} @a[rm=21,r=30,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e********&7**"} @a[rm=31,r=40,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e*******&7***"} @a[rm=41,r=50,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e******&7****"} @a[rm=51,r=60,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e*****&7*****"} @a[rm=61,r=70,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e****&7******"} @a[rm=71,r=80,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e***&7*******"} @a[rm=81,r=90,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e**&7********"} @a[rm=91,r=100,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &e*&7*********"} @a[rm=101,r=110,score_Scan_min=1]
+  - actionmessage{m="&fSignal<&co> &7**********"} @a[rm=111,r=120,score_Scan_min=1]

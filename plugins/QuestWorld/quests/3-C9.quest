@@ -1,0 +1,33 @@
+id: 3
+category: 9
+cooldown: -1
+name: '&6&lLe Bastion Congelé'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6§lLe Bastion Congelé
+    internal: H4sIAAAAAAAAAE1PXU+DMACsRpNJ/Bm+LgGEjT3qhgwyWp18tW+UdqFd68wYMvj11jcfLnfJ3SV3FgAWePw89kq9n08HofgM3MYMPB2WlK7cBZs7br2aewFv5kFN/TlnjAV24C+5v7SAZUrf/HwRvHsAswu/Xvoz7ywAwM0M3Be16vmNzcfErktHNc/7llYvAsnQTqfcQ5vjiDbNNZ3CLv56HalLvmlUJGQdL2KZD3A6elgmLXQ/rlgaZHsB9ZvCk+EyH1CZyDRrrrEYRLNNfohWHcn9lpa5QCJ5o1v4TCo1/vksKjy2LUZSpQJ9dSK3L0km4oXZ5jR6+Muf2HY/IBH8/Mv2tFQ9KeGIS2LvtK/YemWTqrVZlajd1Phm45RKIkm0l+aTA2XRkij0oMY+dFMPTkoR2ThYp26qiUZZPGAZuigKR7gxXvZiOtjo0MNZKA6VswJgBu5grTl4WH+uT2e+ExSAX/fgK42qAQAA
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 9-C2
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0MzU4ODkyODcxMzEsInByb2ZpbGVJZCI6IjUwNzk4YjJhN2QxYjQxYTRiNmFlYzRiNWUwOWJjMTcxIiwicHJvZmlsZU5hbWUiOiJFbHN3ZXlyIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc5NzkzMjZjZGRjMzU1NjVhZGE4NmY5N2M4NzllZjc1YmM2MmZmOTIwYjE2OGEyNDllZTA1NjYyNDE4YTEifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: 4aecafb2-9760-41fc-8b71-7452ba139be1
+categoryId: c9e76496-61ba-4ee6-969c-0805a143e6b1
+parentId: 44882e7e-bdce-4385-a826-b00dc57786b5
+missions: []

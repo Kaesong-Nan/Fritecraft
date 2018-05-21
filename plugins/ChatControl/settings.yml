@@ -1,0 +1,231 @@
+# !---------------------------------------------------------!
+# ! File automatically updated at 14.05.2017 11:21:41
+# ! to plugin version v5.4.8
+# !---------------------------------------------------------!
+# ! Unfortunatelly due to how Bukkit handles YAML
+# ! configurations, all comments (#) were wiped.
+# ! For reference values and comments visit
+# ! https://github.com/kangarko/chatcontrol
+# !---------------------------------------------------------!
+
+Anti_Bot:
+  Rejoin_Delay_Seconds: 4
+  Block_Actions_Until_Moved:
+    Chat: false
+Anti_Caps:
+  Enabled: true
+  Warn_Player: true
+  Ignore_Usernames: false
+  Min_Message_Length: 5
+  Min_Caps_Percentage: 50
+  Min_Caps_In_A_Row: 5
+  Whitelist:
+  - OMG
+  - LOL
+  - WTF
+  - WOW
+  - ROFL
+Anti_Spam:
+  Similarity_Check:
+    Ignore_Special_Characters: true
+    Ignore_Duplicate_Characters: false
+    Ignore_First_Arguments_In_Commands: true
+  Commands:
+    Delay_Between_Commands: 0
+    Similar_Percentage_Block: 0
+    Whitelist_Similarity:
+    - tell
+    - pm
+    - t
+    - w
+    - r
+    Whitelist_Delay:
+    - spawn
+    - home
+  Chat:
+    Delay_Between_Messages: 1
+    Similar_Percentage_Block: 0
+    Regex_In_Whitelist: false
+    Whitelist_Similarity:
+    - hello
+    - hey
+    Whitelist_Delay:
+    - true
+Chat:
+  Formatter:
+    Enabled: true
+    Message_Format: '%vault_prefix% %player&r {deluxetags_tag} &7[{jobs}&7]  &f: %message '
+    Global_Message_Format: '%player &7[{jobs}&7] &8(global)&f: %message'
+    Spy_Message_Format: '&8SPY: [%world&8]&f %pl_prefix%player:%pl_suffix %message'
+    Ranged_Mode: false
+    Range: 100.0
+  Grammar:
+    Insert_Dot:
+      Enabled: false
+      Min_Message_Length: 5
+    Capitalize:
+      Enabled: false
+      Min_Message_Length: 5
+Clear:
+  Broadcast: true
+  Do_Not_Clear_For_Staff: true
+  Console_Lines_To_Clear: 300
+Messages:
+  # Join: '&8[&a+&8]&7 %player'
+  # Quit: '&8[&c-&8]&7 %player'
+  # Kick: default
+  Join: default
+  Quit: default
+  Kick: default
+  Show_Quit_Only_When_Logged: true
+  Timed:
+    Enabled: true
+    Random_Order: true
+    Random_No_Repeat: true
+    Prefix: ''
+    Suffix: ''
+    Delay_Seconds: 180
+    Message_List:
+      global:
+      - '&7[&e&lAstuce&7]&f : Montez vos compétences et montez en rang !'
+      - '&7[&e&lAstuce&7]&f : Il est possible d''obtenir des cosmétiques avec les événements du serveur !'
+      - '&7[&e&lAstuce&7]&f : Le portail du Nether se trouve pas loin de la station "Oasis"'
+      - '&7[&e&lAstuce&7]&f : Le portail de l''End se trouve dans le tunnel corrompu à coté de la station "Leviathan"'
+      - '&7[&e&lAstuce&7]&f : Pour visiter le Nether ou l''End, il faut d''abord terminer une série de quête dans le monde RP !'
+      # - '&7[&e&lAstuce&7]&f : Jetez un oeil aux mini-jeux du serveur ! &f(icone de redstone dans le menu)'
+      - '&7[&e&lAstuce&7]&f : Ayez toujours une montre sur vous pour accéder rapidement au menu ! &7(sinon /menu)'
+      # - '&7[&e&lAstuce&7]&f : Vous voulez faire une collection de disques ? Visitez la médiathèque au marché !'
+      - '&7[&e&lAstuce&7]&f : Vous ne perdez pas votre inventaire après la mort ! &7(mais de la faveur)'
+      # - '&7[&e&lAstuce&7]&f : Deux golems se sont installés dans la caserne, et proposent quelques affaires intéressantes !'
+      - '&7[&e&lAstuce&7]&f : N''explorez pas les anomalies sans un bon équiment !'
+      - '&7[&e&lAstuce&7]&f : Les boss sont très difficiles à vaincre, allez-y bien équipé !'
+      - '&7[&e&lAstuce&7]&f : En réalisant certaines quêtes, vous pouvez augmenter votre santé maximale !'
+      - '&7[&e&lAstuce&7]&f : N''oubliez pas de visiter le site de temps en temps : www.fritecraft.fr'
+      - '&7[&e&lAstuce&7]&f : Les boosts d''Isaac vous permettent de progresser plus rapidement dans les talents.'
+      - '&7[&e&lAstuce&7]&f : Utilisez une pelle en or pour définir votre parcelle sécurisée !'
+      # - '&7[&e&lAstuce&7]&f : 9 Arènes différentes de Dé à Coudre et CubeRunner sont  disponnibles sur le serveur !'
+      # - '&7[&e&lAstuce&7]&f : Les forgerons à coté de la banque proposent des skins alternatifs pour vos armes !'
+      # - '&7[&e&lAstuce&7]&f : Un talent de pêcheur élevé peut être très rentable...'
+      - '&7[&e&lAstuce&7]&f : Vous pouvez stocker votre faveur dans des bouteilles (clic gauche avec une bouteille sur une table d''enchantements)'
+      - '&7[&e&lAstuce&7]&f : Dormir dans un lit définira votre point de spawn.'
+      - '&7[&d&lLien&7]&f : Rejoignez le Discord ! https://discord.gg/tJVrHz2'
+      - '&7[&e&lAstuce&7]&f : Besoin d''émeraudes rapidement ? Vendez votre loot à Lionel ! &7(au marché)'
+      - '&7[&e&lAstuce&7]&f : Monter votre adoration vous fera gagner des coeurs supplémentaires et des bonus pour les talents !'
+      - '&7[&e&lAstuce&7]&f : Envie de monter les talents plus rapidement ? Allez parler à Issac sur l''Ile Divine !'
+      - '&7[&e&lAstuce&7]&f : Besoin de carapaces de Shulker, ou de Chorus ou même de perles ? Visitez Dwight &7(au marché)'
+      - '&7[&e&lAstuce&7]&f : L''infusion d''Ichor vous donne un gros boost de santé pendant 20 minutes, et peut affecter plusieurs joueurs !'
+      - '&7[&e&lAstuce&7]&f : A chaque niveau d''adoration, vous gagnez un nouveau bonus de talents !'
+      - '&7[&e&lAstuce&7]&f : Le monument marin en face de la plateforme pétrolière regorge de Gardiens !'
+      - '&7[&e&lAstuce&7]&f : Pex, le golem à la caserne, propose différents gadgets pour vous faciliter la vie &7(mais tout a un prix...)'
+      - '&7[&e&lAstuce&7]&f : Un ichor équivaut à 22 niveaux de faveur.'
+      - '&7[&e&lAstuce&7]&f : Pour réparer un item, faites un clic droit accroupi avec l''objet sur une enclume ! &7(n''utilisez pas l''interface de l''enclume)'
+      - '&7[&e&lAstuce&7]&f : Vous pouvez créer ou rejoindre un groupe pour partager l''expérience de talent avec d''autres joueurs !'
+      - '&7[&e&lAstuce&7]&f : Les mobs ont 10% de chance de lacher une tête, que vous pouvez revendre à Lionel !'
+      - '&7[&e&lAstuce&7]&f : Les mobs provenant d''un spawner ne comptent pas dans le total de kills, et ne lachent pas d''émeraudes.'
+      - '&7[&e&lAstuce&7]&f : Lisez les descriptions des warps pour savoir ce que vous pouvez y trouver !'
+      - '&7[&e&lAstuce&7]&f : Votre coffre [vault] n''est pas automatiquement sécurisé, il faut une claim !'
+      - '&7[&e&lAstuce&7]&f : Vous pouvez mettre en vente des objets pour les joueurs avec /ah sell'
+      - '&7[&e&lAstuce&7]&f : Vous ne pouvez placer de claims que dans le monde survie &7(avec la pelle en or)'
+      - '&7[&e&lAstuce&7]&f : Utilisez le baton pour voir le perimètre de votre claim.'
+      - '&7[&e&lAstuce&7]&f : Quitter une adoration vous fera perdre vos niveaux.'
+      - '&7[&e&lAstuce&7]&f : Vous pouvez réparer les Elytres avec du cuir.'
+      - '&7[&e&lAstuce&7]&f : La majorité des armes spéciales se réparent avec du diamant.'
+      - '&7[&e&lAstuce&7]&f : Il n''est pas possible d''enchanter les armes spéciales &7(mais les skins sans enchantements oui)'
+      - '&7[&e&lAstuce&7]&f : Des idées de quêtes ? Channel suggestions !'
+      - '&7[&e&lAstuce&7]&f : Une question ou un problème ? Utilisez le channel soucis du discord !'
+      - '&7[&e&lAstuce&7]&f : Vous pouvez monter de rang avec la somme des niveaux de vos talents.'
+      - '&7[&e&lAstuce&7]&f : Les jetons servent à fabriquer des lingots spéciaux pour les divinités.'
+      - '&7[&e&lAstuce&7]&f : Les cristaux des quêtes quotidiennes servent à obtenir des loots et armes spéciales.'
+      - '&7[&e&lAstuce&7]&f : Il est possible d''obtenir des pommes de Notch à l''Ile Divine.'
+      - '&7[&d&lLien&7]&f : Pour voir les prochains ajouts et changements sur le serveur, ainsi que les bugs connus : https://trello.com/b/4vcwIkpY/fritecraft'
+Mute:
+  Broadcast: true
+  Silence:
+    Join_Messages: true
+    Quit_Messages: true
+    Kick_Messages: true
+    Death_Messages: true
+  Disabled_Commands_During_Mute:
+  - me
+  - tell
+  - msg
+  - r
+  - w
+Packets:
+  Enabled: true
+  Tab_Complete:
+    Disable: true
+    Disable_Only_In_Commands: true
+    Allow_When_Message_Has_Space: true
+    Allow_When_Length_Above: 0
+Rules:
+  Check_Chat: true
+  Check_Commands: true
+  Check_Signs: false
+  Check_Packets: true
+  Packets:
+    Deserialize_Json: true
+Console:
+  Filter:
+    Enabled: true
+    Filter_Console_Messages:
+    - '[Slimefun] Saving Blocks for World'
+    - '[BuycraftX] Fetched due players (0 found).'
+    - '[BuycraftX] Fetching all due players...'
+    - UltraCosmetics -> initial SQLLoader to reduce lag when table is large
+Signs:
+  Duplication:
+    Deny_Signs_With_Same_Text: false
+    Alert_Staff: true
+    Block_When_Violates_A_Rule: true
+    Drop_Sign: true
+Sound_Notify:
+  Enabled: true
+  Notify_Only_When_Afk: true
+  Notify_Only_If_Prefixed_With: '@'
+  Sound: ENTITY_CHICKEN_EGG, 1F, 1.5F
+  Enabled_In_Commands:
+  - msg
+  - tell
+  - t
+  - w
+  - r
+Groups:
+  Enabled: false
+  Always_Check_Updates: false
+  Group_List:
+    trusted:
+      Message_Delay: 0
+    guest:
+      Message_Delay: 0
+      Command_Delay: 0
+    vip:
+      Join_Message: '&6[VIP] &e%player has joined the game'
+      Leave_Message: '&6[VIP] &e%player has left the game'
+      Kick_Message: none
+Updater:
+  Enabled: true
+  Notify: true
+  Download: true
+  Check_Notes: true
+Writer:
+  Write_Chat_Communication: true
+  Strip_Colors: true
+  Ignore_Players:
+  - ignoredAdmin
+  Write_Commands:
+  - tell
+Minimum_Players_To_Enable_Checks: 0
+Op_Has_Permissions: true
+Regex_Timeout_Milis: 100
+Locale: fr
+Log_Lag_Over_Milis: 100
+Verbose_Rules: true
+Silent_Startup: true
+Reset_Cache_On_Quit: false
+Debug: false
+Version: 4
+Enforce_New_Line: false
+Listener_Priority:
+  Formatter: NORMAL
+  Checker: NORMAL

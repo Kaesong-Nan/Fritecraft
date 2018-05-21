@@ -1,0 +1,488 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5&lDivinités'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'divine; divinité; adoration; adorations; divinités; déesse; déesses'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+# Jobs:
+#   COMMAND: 'jobs stats'
+#   NAME: '&cNiveau d''adoration'
+#   ID: 348
+#   POSITION-X: 9
+#   POSITION-Y: 1
+#   LORE:
+#     - 'Pour voir votre niveau d''adoration'
+Divi:
+  NAME: '&c&lLes Divinités'
+  LORE:
+    - ''
+    - '&fCe panneau vous introduit brièvement'
+    - '&faux huit déesses de Bouquenia.'
+    - '&f'
+    - '&fChaque déesse a sa personnalité,'
+    - '&fqui représente un certain style.'
+    - ''
+    - '&fMais les déesses ne se font pas la guerre !'
+    - '&fVotre ennemi commun : Fringirl.'
+  ID: sign
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Adoration:
+  NAME: '&6&l[*] Adoration [*]'
+  LORE:
+    - '&fEn réalisant &bcertaines actions &fen lien'
+    - '&favec votre divinité, vous gagnez de &al''expérience&f,'
+    - '&fet vous grimperez en rang d''adorations.'
+    - '&f '
+    - '&fA chaque niveau, vous débloquez un &ebonus&f pour les &6talents&f.'
+    - '&f'
+    - '&fRang 1: &6+10% xp&f pour les talents favoris'
+    - '&fRang 2: &6+50% xp&f pour les talents favoris'
+    - '&fRang 3: &d+10% xp&f pour les autres talents'
+    - '&fRang 4: &6+100% xp&f pour les talents favoris'
+    - '&fRang 5: &2+33% de chance&f pour les talents favoris'
+    - '&fRang 6: &6+150% xp&f pour les talents favoris'
+    - '&fRang 7: &d+50% xp&f pour les autres talents'
+    - '&fRang 8: &6+200% xp&f pour les talents favoris'
+    - '&fRang 9: &9-50% rechargement&f compétences actives'
+    - '&fRang 10: &2+33% de chance&f pour les autres talents'
+    - '&f'
+    - '&f&cQuitter une adoration vous fera perdre une partie'
+    - '&f&cde votre progrès.'
+  ID: 399
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+Faveur:
+  NAME: '&a&l[*] Faveur Divine [*]'
+  LORE:
+    - '&fLa &afaveur divine &f est représenée par'
+    - '&fvotre barre d''expérience.'
+    - '&f'
+    - '&fLes actions en rapport avec votre divinité vous'
+    - '&frapportent une quantité de &afaveur divine&f,'
+    - '&fqui fera donc monter votre barre d''expérience'
+    - '&fbeaucoup plus vite normal !'
+    - '&f'
+    - '&fLa faveur divine peut être utilisée'
+    - '&fpour obtenir des &eobjets spéciaux&f.'
+  ID: 384
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+Elixirs:
+  NAME: '&9&l[*] Les Elixirs [*]'
+  LORE:
+    - '&fLes elixirs coûtent &a25 &fflacons de faveur'
+    - '&fdivine chacun, et durent tous &210 minutes&f.'
+    - '&f '
+    - '&fChaque déesse a son elixir, avec un &2effet principal&f,'
+    - '&fet quelques effets secondaires communs.'
+  ID: 374
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+ElixirsBuy:
+  NAME: '&a&l[*] Obtenir Elixirs [*]'
+  LORE:
+    - '&fACHETER UN ELIXIR'
+  ID: 374
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  COMMAND: 'open: elixir.yml'
+
+Donjon:
+  NAME: '&d&l[*] Coffre Divin [*]'
+  LORE:
+    - '&fSur l''Ile Divine se trouve'
+    - '&fles coffres divins'
+    - '&f '
+    - '&fPour l''ouvrir, il vous faudra'
+    - '&fune clé divine, que vous pouvez'
+    - '&fobtenir contre des &aflacons d''xp&f,'
+    - '&fen &evotant&f, ou en &drécompenses de quêtes&f.'
+    - '&f '
+    - '&fCertains loots du coffre peuvent être utilisés'
+    - '&fpour des crafts spéciaux...'
+  ID: quartz
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+
+Nuggets:
+  NAME: '&6&lNuggetsgirl'
+  LORE:
+    - '&fIncarnation de la volaille, Nuggetsgirl ne peut'
+    - '&fêtre attrapée. Il en est de même pour ses fidèles,'
+    - '&fqui, de nature pacifiste, font preuve d''une vitesse'
+    - '&fextraordinaire et d''une agilité hors du commun'
+    - '&f '
+    - '&fStyle pacifiste'
+    - '&fPouvoir : &aSauts'
+    - '&f'
+    - '&fTalents:'
+    - '-&oBûcheronnage'
+    - '-&oHerboristerie'
+    - '-&oAcrobaties'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:4
+  POSITION-X: 1
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.nuggets
+  COMMAND: 'jobs leaveall; jobs join Nuggetsgirl'
+
+Frite:
+  NAME: '&6&lFritegirl'
+  LORE:
+    - '&fGrâce à ses deux frites aiguisée'
+    - '&fcomme des rasoirs et à son regard'
+    - '&fpétrifiant, Fritegirl confère une'
+    - '&fpuissance incroyable à ses fidèles.'
+    - '&f '
+    - '&fStyle offensif'
+    - '&fPouvoir : &aForce'
+    - '&f'
+    - '&fTalents:'
+    - '-&oEpées'
+    - '-&oHerboristerie'
+    - '-&oAlchimie'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:11
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.frite
+  COMMAND: 'jobs leaveall; jobs join Fritegirl'
+
+Hamburger:
+  NAME: '&6&lHamburgirl'
+  LORE:
+    - '&fAvec la consistance relativement'
+    - '&fimposante de ses sandwich, Hamburgirl'
+    - '&fconfère à ses fidèles une consitution'
+    - '&fdu même calibre. Ils deviennent alors très'
+    - '&fendurant et ne tombent jamais au combat.'
+    - '&f '
+    - '&fStyle défensif'
+    - '&fPouvoir: &aResistance'
+    - '&f'
+    - '&fTalents:'
+    - '-&oHaches'
+    - '-&oExcavation'
+    - '-&oRéparations'
+    - '-&oFonderie'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:1
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.burger
+  COMMAND: 'jobs leaveall; jobs join Hamburgirl'
+
+Soupe:
+  NAME: '&6&lSoupegirl'
+  LORE:
+    - '&fSi les soupes sont souvent brûlantes,'
+    - '&fles hautes températures n''ont plus d''effets'
+    - '&fpour les fidèles de Soupegirl.'
+    - '&fLa lave est seulement tiède, le feu ne fait'
+    - '&fque chatouiller. '
+    - '&f '
+    - '&fStyle hybride'
+    - '&fPouvoir: &aResistance à la lave'
+    - '&f'
+    - '&fTalents:'
+    - '-&oHaches'
+    - '-&oMinage'
+    - '-&oRéparations'
+    - '-&oFonderie'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:7
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.soupe
+  COMMAND: 'jobs leaveall; jobs join Soupegirl'
+
+Soda:
+  NAME: '&6&lSodagirl'
+  LORE:
+    - '&fLorsque les pouvoirs liquéfiants de'
+    - '&fSodagirl s''emparent de ses fidèles, leur'
+    - '&fétat change. L''eau devient leur élément naturel.'
+    - '&f '
+    - '&fStyle défensif'
+    - '&fPouvoir: &aAmphibie'
+    - '&f'
+    - '&fTalents:'
+    - '-&oArcherie'
+    - '-&oPêche'
+    - '-&oAlchimie'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:10
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.soda
+  COMMAND: 'jobs leaveall; jobs join Sodagirl'
+
+Candy:
+  NAME: '&6&lCandygirl'
+  LORE:
+    - '&fLa poudre pétillante des sucreries'
+    - '&fde Candygirl relève du paranormal,'
+    - '&ftypique de son esprit rusé.'
+    - '&fLa promenade éthérée que peuvent faire'
+    - '&fses fidèle a souvent tendance à les'
+    - '&frendre particulèrement vicieux,'
+    - '&fparfois même fous ...'
+    - '&f '
+    - '&fStyle pacifiste'
+    - '&fPouvoir: &aInvisibilité'
+    - '&f'
+    - '&fTalents:'
+    - '-&oAcrobaties'
+    - '-&oHerboristerie'
+    - '-&oEpées'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:0
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.candy
+  COMMAND: 'jobs leaveall; jobs join Candygirl'
+
+Flurry:
+  NAME: '&6&lFlurrygirl'
+  LORE:
+    - '&fLe pouvoir divin de la cuillère'
+    - '&fde Flurrygirl s''empare de ses fidèles,'
+    - '&fils ont la capacité de creuser dans'
+    - '&fn''importe quoi et avec le désir'
+    - '&fde toujours aller plus loin.'
+    - '&f '
+    - '&fStyle utilitaire'
+    - '&fPouvoir: &aCélérité'
+    - '&f'
+    - '&fTalents:'
+    - '-&oMinage'
+    - '-&oExcavation'
+    - '-&oMains nues'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:12
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.flurry
+  COMMAND: 'jobs leaveall; jobs join Flurrygirl'
+
+Choco:
+  NAME: '&6&lChocogirl'
+  LORE:
+    - '&fLa gourmandise de Chocogirl se'
+    - '&fretrouve chez ses fidèles, qui,'
+    - '&fmême avec un estomac en crampe,'
+    - '&fne s''arrêtent jamais. Guidés par la'
+    - '&flumière spirituelle, ils trouvent'
+    - '&ftoujours ce qu''ils cherchent.'
+    - '&f '
+    - '&fStyle utilitaire'
+    - '&fPouvoir: &aVision Nocturne'
+    - '&f'
+    - '&fTalents:'
+    - '-&oArcherie'
+    - '-&oBûcheronnage'
+    - '-&oAcrobaties'
+    - ''
+    - '&7>> &6Cliquer pour suivre cette Déesse &7(et quitter l''ancienne)'
+  ID: dye:3
+  POSITION-X: 9
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: -adoration.choco
+  COMMAND: 'jobs leaveall; jobs join Chocogirl'
+
+Actions:
+  NAME: '&e&lVoir les actions récompensées'
+  LORE:
+    - ''
+    - '&7Cliquez pour voir les actions'
+    - '&7récompensées pour chaque adoration.'
+  ID: 421
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  COMMAND: 'jobs browse'
+
+# Faim:
+#   NAME: '&4&l[*] Fringirl [*]'
+#   LORE:
+#     - '&fLes Déèsses ont un ennemi en commun,'
+#     - '&fqui est en fait une autre entité divine : &4Fringirl&f.'
+#     - '&f '
+#     - '&fElle dispose de divers lieutenants'
+#     - '&fcomme les émissaires atrophiés, ou le Wither.'
+#   ID: '397:1'
+#   POSITION-X: 5
+#   POSITION-Y: 2
+#   KEEP-OPEN: true
+
+
+
+Blanc12:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc13:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc14:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Blanc16:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc17:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc18:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+  KEEP-OPEN: true
+Blanc19:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+
+Blanc51:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 1
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc52:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc53:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc54:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc55:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc56:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc57:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc58:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 5
+  KEEP-OPEN: true
+Blanc59:
+  NAME: ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 5
+  KEEP-OPEN: true

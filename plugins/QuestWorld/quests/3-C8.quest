@@ -1,0 +1,57 @@
+id: 3
+category: 8
+cooldown: 43200000
+name: '&fCharbon'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fCharbon
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 27
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 02c436ef-8466-44f2-a51c-76e31073f4a9
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COAL
+  amount: 64
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 02c436ef-8466-44f2-a51c-76e31073f4a9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 472e1989-6306-43f2-b3e3-75a310131de6
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

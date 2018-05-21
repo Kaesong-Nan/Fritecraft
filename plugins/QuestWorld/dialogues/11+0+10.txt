@@ -1,0 +1,9 @@
+&9<Frank> &f: &7*Soupir*
+&9<Frank> &f: Qui êtes vous ? Qui vous a donné notre position ?
+&9<Frank> &f: Ah, d'accord, oui, le CRB, je vois.
+&9<Frank> &f: Ca va dans ce cas, vous pouvez rester.
+&9<Frank> &f: Mais méfiez vous ! On vous à a l'oeil !
+&9<Frank> &f: Si vous voulez vous rendre utile, vous pouvez parler aux différents membre d'équipage.
+&9<Frank> &f: Mais essayez de ne pas les déranger dans leur travail, d'accord ?
+&9<Frank> &f: Le travail que nous effectuons ici est très sérieux. Et parfois dangereux.
+&9<Frank> &f: Alors tachez d'utiliser votre bon sens, et évitez de toucher à tout.

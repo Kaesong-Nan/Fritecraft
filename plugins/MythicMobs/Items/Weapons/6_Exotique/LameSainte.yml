@@ -1,0 +1,41 @@
+LameSainte:
+  Id: DIAMOND_SWORD
+  Display: '&6&lLame Sanctifiée &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Fléau I'
+  - '&7Châtiment I'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Chance I'
+  - '&7Egide'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dIllustre'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      Luck: 2
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DAMAGE_ARTHROPODS:1
+  - DAMAGE_UNDEAD:1
+  - SWEEPING:3
+  - DURABILITY:5
+  - LOOT_BONUS_MOBS:1
+
+  Skills:
+  - skill{s=Illustre} ~onTimer:5 @self
+  - skill{s=EnchantEgide} ~onTimer:400 1

@@ -1,0 +1,25 @@
+id: 1
+category: 36
+cooldown: -1
+name: '&e&lINDISPONIBLE'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: BOOK_AND_QUILL
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK
+    display-name: §e☆
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 044e4463-3294-41f5-b4ea-88b27ce55ed8
+categoryId: c4c26d10-eb9f-4502-9548-8ac3bee219d5
+missions: []

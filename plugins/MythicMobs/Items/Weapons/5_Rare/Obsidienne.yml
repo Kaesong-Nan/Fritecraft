@@ -1,0 +1,42 @@
+Obsidienne:
+  Id: DIAMOND_SWORD
+  Display: '&e&lEpée en Obsidienne &r'
+  Lore:
+  # - '&b&oPrécurseur'
+  # - '&b&oLégendaire'
+  # - ' '
+  # - '&7Stats :'
+  - '&7Tranchant XV'
+  - '&7Solidité X'
+  - ''
+  - '&eRare'
+  - '&7Particules : &dVolcanique'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+  #   - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      AttackSpeed: -0.6
+      # Armor:
+      Damage: 7
+      # Luck:
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  # - DAMAGE_ARTHROPODS:1
+  # - DAMAGE_UNDEAD:1
+  - DURABILITY:5
+  # - LOOT_BONUS_MOBS:1
+  # - SWEEPING:3
+  # - MENDING:1
+
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self

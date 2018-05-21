@@ -1,0 +1,6 @@
+&e&lAssurez vous d'avoir une place libre dans votre inventaire !
+&e&lSinon vous ne pourrez pas recevoir l'item nécessaire pour la suite.
+&e3
+&e2
+&e1
+/give <player> minecraft:emerald 1 {display:{Name:Emeraude avec bave}}

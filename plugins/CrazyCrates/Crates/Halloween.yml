@@ -1,0 +1,130 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&6&lHalloween'
+  StartingKeys: 1
+  InGUI: false
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&6&lHalloween'
+  Lore:
+  - '&7This crate contains classic items.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&6&lClé Halloween'
+    Lore:
+    - '&7Une clé pour le'
+    - '&7coffret Halloween.'
+    Item: '288'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&6Pomme d''amour'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:1, Name:&6Pomme d'amour
+      Messages:
+      - ''
+    '2':
+      DisplayName: '&6Bonbon de maïs'
+      DisplayItem: '391'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+      - Item:391, Amount:5, Name:&6Bonbon de maïs
+      Messages:
+      - ''
+    '3':
+      DisplayName: '&6Pomme au caramel'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:1, Name:&6Pomme au caramel
+      Messages:
+      - ''
+    '4':
+      DisplayName: '&6Chauve-souris chocolat'
+      DisplayItem: '357'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:357, Amount:5, Name:&6Chauve-souris chocolat
+      Messages:
+      - ''
+    '5':
+      DisplayName: '&6Chauve-souris chocolat blanc'
+      DisplayItem: '357'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Items:
+      - Item:357, Amount:5, Name:&6Chauve-souris chocolat blanc
+      Messages:
+      - ''
+    '6':
+      DisplayName: '&6Lait épicé'
+      DisplayItem: '335'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:335, Amount:1, Name:&6Lait épicé
+      Messages:
+      - ''
+    '7':
+      DisplayName: '&6Tarte aux pommes'
+      DisplayItem: '400'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:400, Amount:1, Name:&6Tarte aux pommes
+      Messages:
+      - ''
+    '8':
+      DisplayName: '&6Tarte à l''éctoplasme'
+      DisplayItem: '400'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:400, Amount:1, Name:&6Tarte à l'éctoplasme
+      Messages:
+      - ''
+    '9':
+      DisplayName: '&6sceau à friandises'
+      DisplayItem: '268'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - loot give %Player% bonbon
+      Messages:
+      - ''

@@ -1,0 +1,97 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5&lParcelles'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'parcelles; parcelle'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Help:
+  NAME: '&c&l[*] Parcelles [*]'
+  LORE:
+    - '&fVous pouvez acheter une ou plusieurs'
+    - '&fparcelles dans un monde créatif pour y'
+    - '&ffaire ce que vous voulez !'
+    - ''
+    - '&fLes parcelles sont de 64 par 64, et si vous'
+    - '&fachetez une parcelle adjacente à une que vous'
+    - '&fpossédez déjà, elles fusionneront.'
+  ID: 85
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Monde:
+  COMMAND: 'console: mv tp {player} plots'
+  NAME: 'Teleportation de visite'
+  LORE:
+    - 'Juste pour voir à quoi'
+    - 'ça ressemble...'
+  ID: compass
+  POSITION-X: 9
+  POSITION-Y: 1
+
+Autoclaim:
+  COMMAND: 'plot auto'
+  NAME: 'Acheter une parcelle automatiquement'
+  LORE:
+    - 'Cette commande achètera la parcelle'
+    - 'la plus proche de vous.'
+    - 'Fonctionne même en dehors du monde.'
+    - ''
+  ID: emerald
+  POSITION-X: 1
+  POSITION-Y: 3
+
+Buy:
+  COMMAND: 'plot buy'
+  NAME: 'Acheter la parcelle actuelle'
+  LORE:
+    - 'Cette commande achètera la parcelle'
+    - 'sur laquelle vous vous trouvez'
+    - ''
+  ID: emerald
+  POSITION-X: 2
+  POSITION-Y: 3

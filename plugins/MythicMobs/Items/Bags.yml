@@ -1,0 +1,55 @@
+BagAldrich:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Prêtre des Flammes &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagChara:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac de la Fille Perdue &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagHerobrine:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Mineur Fantome &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagHierophante:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Hierophante &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagHorreur:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Cauchemar &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagImhotep:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac de la Momie Maudite &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagSerge:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Fanatique Congelé &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagNecro:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Tyrant &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagNicodemus:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Maitre du Sang &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagPotoroo:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Prêtre de Fritegirl &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'
+BagPrototype:
+  Id: 'CLAY_BRICK'
+  Display: '&6&lSac du Seigneur Mécanique &r'
+  Lore:
+  - '&7Clic droit pour ouvrir'

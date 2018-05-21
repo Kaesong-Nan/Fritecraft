@@ -1,0 +1,5 @@
+on rightclick on sign:
+    line 1 of the clicked block is "&b** &8Second &b**":
+        set {_second} to line 2
+        change citizen 285 skin to {_second}
+        set citizen 285 nametag invisible

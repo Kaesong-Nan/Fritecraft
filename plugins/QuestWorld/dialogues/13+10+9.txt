@@ -1,0 +1,13 @@
+&e<Yvan> &f: Bonjour. Voulez-vous jouer ?
+&e<Yvan> &f: Moi je veux jouer.
+&e<Yvan> &f: J'ai très envie de jouer.
+&e<Yvan> &f: Mon jeu préféré, c'est le jeu des devinettes.
+&e<Yvan> &f: En gros, je vous sors une devinette.
+&e<Yvan> &f: Et vous, vous me rapportez l'objet associé à cette devinette.
+&e<Yvan> &f: Simple, non ? On commence ?
+&e<Yvan> &f: C'est plus grand que les déesses.
+&e<Yvan> &f: C'est plus fourbe que Fringirl
+&e<Yvan> &f: Les pauvres en ont.
+&e<Yvan> &f: Les riches en ont besoin.
+&e<Yvan> &f: Quand on en mange, on meurt de faim.
+&e<Yvan> &f: Qu'est-ce que c'est ?

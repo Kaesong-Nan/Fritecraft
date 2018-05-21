@@ -1,0 +1,18 @@
+&d<Kenny> &f: Ok, vous pouvez utiliser le portail à volonté maintenant.
+&d<Kenny> &f: Vous allez pouvoir nous aider du coup !
+&d<Kenny> &f: Woohoo !
+&d<Kenny> &f: Alors, en gros ...
+&d<Kenny> &f: Dans l'End, y'a un dragon.
+&d<Kenny> &f: Et il est vraiment pas cool, m'voyez.
+&d<Kenny> &f: Genre c'est un gros vilain et tout, on l'aime pas.
+&d<Kenny> &f: Du coup, faut le zigouiller. S'il vous plait.
+&d<Kenny> &f: C'est possible de l'invoquer et le rendre vulnérable aux attaques.
+&d<Kenny> &f: En gros, pour faire ça, il faut des cristaux particuliers.
+&d<Kenny> &f: Je les appelle "&dCristal de l'End&f", parce que j'ai pas trouvé plus original.
+&d<Kenny> &f: Faut les fabriquer, avec du verre, un oeil de l'End, et une larme de ghast.
+&d<Kenny> &f: Ensuite, faut les placer autour du portail.
+&d<Kenny> &f: Celui dans l'End, bien sûr ...
+&d<Kenny> &f: Il en faut un sur le bloc central de chaque coté du portail, donc 4 cristaux en tout.
+&d<Kenny> &f: Ensuite .... bah .... vous verrez ...
+&e&l>> &r&7Vous pouvez invoquer le dragon à nouveau en plaçant les cristaux sur le portail de sortie.
+&e&l>> &r&7Il faut les placer sur le centre de chaque coté du portail.

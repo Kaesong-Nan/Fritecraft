@@ -1,0 +1,36 @@
+id: 29
+category: 10
+cooldown: -1
+name: '&eArène: Araignées'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§eArène: Araignées'
+    lore:
+    - Hidden:Araignée
+    - Hidden:0.0
+    - Hidden:2351844f-f400-4fa4-9642-35169c5b048a
+    - 'Hidden:'
+    internal: H4sIAAAAAAAAAE2QTW+jMBiE3VVXStH+jF4jEYLT5LCHJrQFK+ANAYOtvWBwhI1NUT6awK8v2dNe33lGM+9YAFjg1765aP3n+HmQWkzAj6ACz7AqXqplNZ8uIYdT1+HudLU8wGkJZ3zpivLAC2EBazR14niW4vQEJmdxO1+O4mQBAB4m4Ccp9EU8/BU9sotspst5XPP8VWL1ZkeqHMIkvGFvB0PVnIJ23XOHdfyDILYJFoEJrsyLZahqSYf3Jhp2LvZ0zdRaY486YRZpljQOzd5lIK+y9NEXM/rEUljzLJVYIsRbpnkbd5UhPr3n98GYE3XMgXXlk54RpMucdKUhTaA6u2yJ3m6QzfLarnJ05xdj92RvazzqL0FLev6v26j7r4ttv/qPhecig5rOUc3a3YUbYm/nsRZ+PCtN+kWHyIz/aJwwEyrq4mR3w8la0QQp/JH2YZJesYcMS95gaEYmqSQ1wbjTbggHZCKHKDre6VDX9L6dRKtDbv8GYAIeo8II8LTZbz6PYis5AN8GcIzJ1gEAAA==
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0NjczMTMxODQ5MjksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmZDRlOTZmMjY4OTQxOTBjYTJjOGUyMTUwODJmZTE5MmZmMTdiYmI0NjQzMzJmN2VjYmZmYzhhYjczMiJ9fX0=
+  custom-skullOwner: CSCoreLib
+uniqueId: 24ef4627-95b5-4bb0-822c-a6de384fa20d
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

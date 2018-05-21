@@ -1,0 +1,213 @@
+Spectre:
+  Mobtype: SKELETON
+  Health: 500
+  Damage: 100
+  Armor: 0
+  Display: '&6Spectre Vengeur'
+  Skills:
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onSpawn
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onTimer:20
+  - potion{type=BLINDNESS;lvl=1;duration=80} @PlayersInRadius{r=6} ~onTimer:5
+  - potion{type=SLOW;lvl=2;duration=80} @PlayersInRadius{r=6} ~onTimer:5
+  - effect:particles{particle=mobSpell;amount=5;hs=0.2;vs=0.2;y=1.2} ~onTimer:5 @self
+  - randomskill{skills=Scare1,Scare2,Scare3,Scare4,Scare5} @Target ~onTimer:60
+  DamageModifiers:
+  - DROWNING 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE 0
+  - POISON 0
+  - MAGIC 100
+  - LIGHTNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - ENTITY_ATTACK 0
+  Equipment:
+  - HeadSpectre:4
+  - chainmail_chestplate:3
+  - chainmail_leggings:2
+  - 0:1
+  - 0:0
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 5.0
+    MaxCombatDistance: 20
+    MovementSpeed: 0.1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+# Citrouille
+PUMPKIN:
+  Mobtype: babyzombie
+  # Disguise:
+  #   Type: zombie
+  Health: 5
+  Damage: 5
+  Skills:
+  - effect:particles{particle=smoke;amount=10;hs=0.2;vs=0.4;y=1} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - JACK_O_LANTERN:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - CandyCorn 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+# Crane volant
+SKULL:
+  Mobtype: SKELETON
+  Health: 5
+  Damage: 5
+  Mount: bat_invisible
+  Skills:
+  - effect:particles{particle=smoke;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - SKULL:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+Phantom:
+  Mobtype: CREEPER
+  Health: 50
+  Damage: 8
+  Mount: bat_invisible
+  Skills:
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onTimer:20
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onSpawn
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 5.0
+    MaxCombatDistance: 20
+    MovementSpeed: 0.1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventSuicide: true
+    SuperCharged: true
+bat_invisible:
+  Mobtype: VEX
+  Health: 50
+  Skills:
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onSpawn
+  - potion{type=INVISIBILITY;lvl=1;duration=9999} @Self ~onTimer:20
+  Options:
+    AlwaysShowName: false
+    KnockbackResistance: 5.0
+    MovementSpeed: 0.2
+    PreventItemPickup: true
+    PreventOtherDrops: true
+SPOOK_BAT:
+  Mobtype: BAT
+  Health: 1000
+  Armor: 30
+  Skills:
+  - remove{delay=100} @self ~onSpawn
+  - effect:particles{particle=smoke;amount=3;hs=0.1;vs=0.1} ~onTimer:5 @self
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: false
+    KnockbackResistance: 5.0
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventSuicide: true
+
+Beacon:
+  Mobtype: ARMOR_STAND
+  Health: 2000
+  Skills:
+  - skill{s=Scan} ~onTimer:20 @Trigger 1
+  - effect:particles{particle=witchMagic;amount=5;hs=0.5;vs=0.5} ~onTimer:5 @self
+  Options:
+    # PreventRandomEquipment: true
+    Despawn: false
+    # AlwaysShowName: false
+    # FollowRange: 32
+    # MaxCombatDistance: 130
+    HasGravity: false
+    Invisible: true
+    Marker: true
+
+HWitch:
+  Mobtype: WITCH
+  Health: 40
+  Skills:
+  - skill{s=Spook} ~onDeath 1
+  KillMessages:
+  - '&7<target.name> a été tué par une sorcière'
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 2.0
+HSkeleton:
+  Mobtype: SKELETON
+  Health: 25
+  Skills:
+  - skill{s=Spook} ~onDeath 1
+  KillMessages:
+  - '&7<target.name> a été tué par un squelette'
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 2.0
+  Equipment:
+    - wood_sword:0
+HZombie:
+  Mobtype: ZOMBIE
+  Health: 30
+  Damage: 5
+  Skills:
+  - skill{s=Spook} ~onDeath 1
+  KillMessages:
+  - '&7<target.name> a été tué par un zombie'
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 2.0
+  Equipment:
+    - wood_sword:0
+HSpider:
+  Mobtype: SPIDER
+  Health: 25
+  Damage: 3
+  Skills:
+  - skill{s=Spook} ~onDeath 1
+  KillMessages:
+  - '&7<target.name> a été tué par une araignée'
+  Skills:
+  - potion{type=POISON;lvl=0;duration=100} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=0;duration=100} @Target ~onAttack
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 2.0

@@ -1,0 +1,62 @@
+Nhat:
+  Id: 298
+  Data: 0
+  Display: '&4Hood of the Necromacer'
+  Lore:
+  - '&6The Hood of the Necromacer'
+  Enchantments:
+  - PROTECTION_PROJECTILE:10
+  - OXYGEN:5
+  Options:
+    Color: 0,0,0
+    Health: 5
+    Unbreakable: true
+Nchest:
+  Id: 299
+  Data: 0
+  Display: '&4Tunic of the Necromacer'
+  Lore:
+  - '&6The Tunic of the Necromacer'
+  Enchantments:
+  - PROTECTION_FIRE:10
+  - THORNS:5
+  Options:
+    Color: 0,0,0
+    Health: 15
+    Unbreakable: true
+Npants:
+  Id: 300
+  Data: 0
+  Display: '&4Leggings of the Necromacer'
+  Lore:
+  - '&6The Leggings of the Necromacer'
+  Enchantments:
+  - PROTECTION_EXPLOSIONS:10
+  - THORNS:5
+  Options:
+    Color: 0,0,0
+    Health: 5
+    Unbreakable: true
+Nboots:
+  Id: 301
+  Data: 0
+  Display: '&4Feet of the Necromacer'
+  Lore:
+  - '&6The Feet of the Necromacer'
+  Enchantments:
+  - PROTECTION_FALL:10
+  - DEPTH_STRIDER:5
+  Options:
+    Color: 0,0,0
+    Health: 5
+    Unbreakable: true
+Nwand:
+  Id: 294
+  Data: 0
+  Display: '&4Staff of the Necromacer'
+  Lore:
+  - '&6The Staff of the Necromacer'
+  Enchantments:
+  - KNOCKBACK:2
+  Options:
+    Unbreakable: true

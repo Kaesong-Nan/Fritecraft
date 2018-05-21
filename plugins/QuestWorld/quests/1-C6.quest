@@ -1,0 +1,54 @@
+id: 1
+category: 6
+cooldown: -1
+name: Secret 2
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Secret 2
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJ8i8HD0abukSWguvP7k1gEXBBg1ALz9UHrMceJzOjAqjwtjn3Un61l7yUQoFnnMH7NDcSS3dTzUkTR7My19KmyDM1y8tdXU9N5JiJCupjuoq2K8VtAkonfrq+FTcVAJ4UeN0dZS/gVww+4ocCZQdfpgN2Hkw3SIa4urq42Q3JAju4fvjV3FkP3r/W7o57WzLTL3gT9Um9Q2szlmIV62m9/SYjkcyIy3AZmZx+3AN6QuGejcG4RWT0CzbOB/6J73x5skJ6NhhldkALyfdbm9DUJnVc8epkMAMjYrAhoJnEje7l0WwGoMALOdYCJovN4tKKdZkA/AEypJoFLgEAAA==
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNlY2RiODQ3ZTEwMTg0OWYzMzU0NzJhYzAyZGIwZDg4OTk2YTY5MThlZWU5NTc5NmRjZjg2Y2I0N2YyMTdlIn19fQ==
+  custom-skullOwner: CSCoreLib
+uniqueId: 92e75fe5-6f7a-43ce-8469-a82a197a62d4
+categoryId: b448b78f-9f8d-40c2-9f64-2a957626c342
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: 92e75fe5-6f7a-43ce-8469-a82a197a62d4
+  reset-on-death: false
+  display-name: Trouver le secret de la guilde
+  location:
+    world: Bouquenia
+    x: 304.0
+    y: 65.0
+    z: 1059.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8c9c79ea-e458-445d-8fba-7dc9b8e639e9
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false

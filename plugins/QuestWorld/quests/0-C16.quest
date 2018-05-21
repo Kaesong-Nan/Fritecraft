@@ -1,0 +1,134 @@
+id: 0
+category: 16
+cooldown: -60000
+name: '&6&lRecherche Volcanique'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Lava Bucket
+    lore:
+    - §8Decoration
+    - §8Bucket, §8Nether, §8Vanilla
+    internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJLslg+zhx4aUbukLEIX2uVGYRHogk0LWnguH1DiybnN/GYOowPo8LA9Dkq9nz/LWkkNbmkBj8hCFskJMgpTEsNyFtggeVYa6E9Zli0Q0UGfRyd57mt5uQetl9d+OMuLDgA3GtwlmRok/MjRQ+m+QsXeU/lIndnzLVIBbU5PtEvGwzN1aDvz9crZjORf1+6zna2E6VVpFw6HNkEbM1JyHeG8jb+CtxAzl5qCf0yMh9+CryzBWSu4p1gTYzFRmzVR5bv5yFwf+zzEgRtVbHpVYvJx6qZ1sIuvc3ZMW0/504tFO0zKcLmcH8AvJ8/bYRwBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: MAGMA
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: fc00773c-5acd-4d2f-b334-6858958badcd
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&eMaurice'
+  timeframe: 0
+  questId: fc00773c-5acd-4d2f-b334-6858958badcd
+  reset-on-death: false
+  display-name: '&fParler à Maurice [Station de contrôle]'
+  location:
+    world: Bouquenia
+    x: -442.0
+    y: 48.0
+    z: 2638.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a306aee2-7303-4bfc-abd1-8bff26703f06
+  entity: PLAYER
+  custom_int: 563
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: '&eYuubi'
+  timeframe: 0
+  questId: fc00773c-5acd-4d2f-b334-6858958badcd
+  reset-on-death: false
+  display-name: '&fParler à Yuubi dans le coeur du volcan'
+  location:
+    world: Bouquenia
+    x: -442.0
+    y: 48.0
+    z: 2638.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 37578034-28c6-4158-849a-301cb0e9e628
+  entity: PLAYER
+  custom_int: 526
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: '&eAlbert Instinct'
+  timeframe: 0
+  questId: fc00773c-5acd-4d2f-b334-6858958badcd
+  reset-on-death: false
+  display-name: '&fParler à Albert dans le laboratoire caché'
+  location:
+    world: Bouquenia
+    x: -287.0
+    y: 22.0
+    z: 2642.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dee3a1f2-24f4-4832-949a-5d8d2c6649e0
+  entity: PLAYER
+  custom_int: 524
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: '&eMaurice'
+  timeframe: 0
+  questId: fc00773c-5acd-4d2f-b334-6858958badcd
+  reset-on-death: false
+  display-name: '&fParler à Maurice'
+  location:
+    world: Bouquenia
+    x: -440.0
+    y: 49.0
+    z: 2642.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 19bf2b77-9e14-42c5-b7a1-e5e833a18107
+  entity: PLAYER
+  custom_int: 563
+  exclude-spawners: false

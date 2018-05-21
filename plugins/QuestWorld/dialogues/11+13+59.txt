@@ -1,0 +1,6 @@
+§9<Marco> §f: Sans déconner, vous avez un problème mental ou quoi ?
+§9<Marco> §f: EST-CE QUE J'AI L'AIR D'UN VENDEUR DE MATELAS ?!
+§9<Marco> §f: WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/minecraft:tp <player> 647 108 1337
+§7*Vous avez été jeté apparemment très haut, si vous ne l'aviez pas remarqué*
+&7*Truc pas cool quoi*

@@ -1,0 +1,8 @@
+&9<Vulcain> &f: Bonjour, je peux vous aider ?
+&9<Vulcain> &f: La pièce condamnée ? Vous parlez du quartier riche ?
+&9<Vulcain> &f: Nous autres du quartier populaire n'avons pas le droit de nous y rendre.
+&9<Vulcain> &f: J'ai entendu des rumeurs. Il y a eu une explosion un jour.
+&9<Vulcain> &f: Elle a provoqué l'incendie d'une maison de notre quartier.
+&9<Vulcain> &f: Après je n'en sais pas plus... Allez voir Yvan.
+&9<Vulcain> &f: C'est lui le proprio de la maison qu'a brulé.
+&7*Il crache dans les flammes de sa forge et retourne à son travail*

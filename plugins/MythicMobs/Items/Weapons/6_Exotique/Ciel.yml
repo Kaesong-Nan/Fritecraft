@@ -1,0 +1,46 @@
+ArcEnCiel:
+  Id: BOW
+  Display: '&6&lArc-en-ciel &r'
+  Lore:
+  - '&7Puissance V'
+  - '&7Infinité'
+  - '&7Solidité III'
+  - '&7Racommodage'
+  - '&7Esquive'
+  - '&f'
+  - '&6Exotique'
+  - '&7Particules :&d Glacial'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      # AttackSpeed:
+      # Armor:
+      # Damage:
+      # Health: 4
+      # Luck:
+
+  Enchantments:
+  - ARROW_DAMAGE:5
+  - ARROW_INFINITE:1
+  - MENDING:1
+  - DURABILITY:3
+  # - DAMAGE_ARTHROPODS:1
+  # - DAMAGE_UNDEAD:1
+  # - DURABILITY:10
+  # - LOOT_BONUS_MOBS:1
+  # - SWEEPING:3
+  # - MENDING:1
+  # - KNOCKBACK:20
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+  - skill{s=EnchantDodge} ~onDamaged @Self 0.2

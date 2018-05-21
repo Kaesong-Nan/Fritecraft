@@ -1,0 +1,82 @@
+id: 40
+category: 7
+cooldown: -60000
+name: Cueillette V
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Empty Potion Bottle
+    lore:
+    - §8Food § Drinks
+    - §8Potion
+    internal: H4sIAAAAAAAAAE2PvW6DMBzE/61UiaI+Rlckm6+KIUNUhhjFuBACgY2AER+GRglUwc+VB6y79ZbT6X43nA6gw9thWIT4un43neAaPJMa3pGNbK/ykFFb3DNs18SGV5WNgf5UlqVpY0sHXY0u/Dp3/PYK2szv83LlNx0AnjR4SUuxcHjwNUDFqUX1KRDVSlyVkwMSjPSXDzKl6/mTuGRU/W7r7lfvH+vMZeaI3AraYoqW85iivRULvotxNR5/mH+0qJ+bzK+cUFZ24Q84T4I2lANmGcVFv13zhEqWFYL5sWCJ8iQyaU8lNcM+lNE9VHyeEIdKlbOiIxP2mmizUQ/gFytGZZgcAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: ece43738-71db-459b-a026-0248b7f6b91c
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: 2a26ee2e-e8d6-44b4-b8fa-da30a03d0d77
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Penfield
+  timeframe: 0
+  questId: ece43738-71db-459b-a026-0248b7f6b91c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 611.0
+    y: 64.0
+    z: 905.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 60bcc041-d9a3-46c8-bd38-26a5e7d7ce22
+  entity: PLAYER
+  custom_int: 33
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GLASS_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dFlacon de catalyse cyclique de phase
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: ece43738-71db-459b-a026-0248b7f6b91c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 611.0
+    y: 64.0
+    z: 905.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8be986d6-39e0-4da1-b563-ce31cb57a2c6
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false

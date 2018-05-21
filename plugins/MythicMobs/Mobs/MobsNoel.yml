@@ -1,0 +1,247 @@
+BouleRouge:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Rouge'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleRouge:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleRouge 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleVerte:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Verte'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleVerte:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleVerte 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleBleue:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Bleue'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleBleue:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleBleue 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleJaune:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Jaune'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleJaune:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleJaune 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleMagenta:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Magenta'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleMagenta:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleMagenta 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleCyan:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Cyan'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleCyan:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleCyan 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleArgent:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Argent'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleArgent:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleArgent 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear
+
+BouleOrange:
+  Mobtype: OCELOT
+  Disguise:
+    Type: skeleton
+  Display: 'Boule Orange'
+  Health: 5
+  Damage: 0
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - potion{t=INVISIBILITY;d=999999999;l=2} @Self ~onSpawn 1
+  Equipment:
+  - BouleOrange:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - 0:0
+  Drops:
+  - BouleOrange 1 1
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 10
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  AITargetSelectors:
+  - 0 clear

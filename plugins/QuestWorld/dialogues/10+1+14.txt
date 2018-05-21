@@ -1,0 +1,6 @@
+§6<Zac> §f: Il faudrait trouver une substance qui puisse avoir un haut potentiel réactif.
+§6<Zac> §f: Le fer semble supérieur au diamand en terme d'interaction avec la poussière.
+§6<Zac> §f: Il y a probablement un matériau qui devrait être supérieur au fer...
+§6<Zac> §f: Avez vous une idée de la marche à suivre ?
+§e§l>> §r§7Rendez visite à Squire au Centre de Recherche de Bouquenia, il travaille sur les enchantements.
+§e§l>> §r§7*Votre collaboration avec lui pourrait peut être vous apporter une solution*

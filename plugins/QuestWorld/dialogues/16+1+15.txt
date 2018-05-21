@@ -1,0 +1,7 @@
+&f&5<Gontrand> &f: Ah vous revoilà. Alors vous avez trouvé la ville?
+&f&5<Gontrand> &f: Vous m'avez même rammené un objet !
+&f&5<Gontrand> &f: Mais... Ce n'est pas la douzième statuette de gladeul'feurha...
+&f&5<Gontrand> &f: Ah non pardon, ça c'est la quête que j'ai confiée à cette bande d'incompétents...
+&f&5<Gontrand> &f: Interressant ce journal, si on lit entre les lignes, il est dit :
+&f&5<Gontrand> &f: L'entrée de la caverne sous le volcan se situe dans les montagnes
+&f&5<Gontrand> &f: Il doit s'agir des montagnes au nord-ouest. Vous devriez aller jeter un coup d'oeil.

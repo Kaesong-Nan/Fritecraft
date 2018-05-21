@@ -1,0 +1,44 @@
+'&6Emissaire_Atrophié':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 1
+    Probability: 4.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fEpée en bedrock §r
+        enchants:
+          DURABILITY: 5
+    Probability: 1.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fOs atrophié §r
+    Probability: 100.0
+  Name: '&6Emissaire_Atrophié'
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

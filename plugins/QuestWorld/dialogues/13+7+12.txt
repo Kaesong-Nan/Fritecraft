@@ -1,0 +1,14 @@
+&7*La peau de poulet très légèrement grillée semble le perturber*
+&7*Il trépigne au parfum de ce délicat arôme épicé*
+&9<Yvan> &f: Par pitié, donnez-moi ce poulet ! Je n’en peux plus !
+&9<Yvan> &f: Je vous dirais tout ! Il existe une Anomalie sous Irvine !
+&9<Yvan> &f: C’est de cette Anomalie que ma déesse tire ses pouvoirs à Irvine !
+&9<Yvan> &f: J’ai pu la renforcer grâce au M’imdesa Nallada !
+&9<Yvan> &f: Je me suis aussi débrouillé pour faire taire ceux qui ont appris son existence !
+&9<Yvan> &f: Le seul moyen de s’y rendre est par les égoûts condamnées !
+&9<Yvan> &f: Mais il existe une entrée, derrière une des statues d’Irvine !
+&9<Yvan> &f: La vraie source du mal d’Irvine se trouve au cœur de l’Anomalie !
+&9<Yvan> &f: Mais ça ne change rien, elle est devenue trop puissante ...
+&9<Yvan> &f: La ville sera bientôt engloutie par la faim ...
+&7*Il vous prend le poulet des mains*
+&9<Yvan> &f: Ma déesse va me punir ... Mais ce poulet sent beaucoup trop bon !

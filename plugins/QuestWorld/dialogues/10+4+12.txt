@@ -1,0 +1,14 @@
+§6<Fritegirl> §c: Si un autre aventurier arrive à prouver sa valeur ...
+§6<Fritegirl> §c: Ma bénédiction pourra lui sourire.
+§6<Fritegirl> §c: Il faudra absorber l'énergie présente dans ce donjon ...
+§6<Fritegirl> §c: C'est mon esprit.
+§6<Fritegirl> §c: Il faudra romancer dans la musique des donjons.
+§6<Fritegirl> §c: C'est mon âme.
+§6<Fritegirl> §c: Il faudra façonner une dague de frite.
+§6<Fritegirl> §c: C'est mon corps.
+§6<Fritegirl> §c: Voilà ma trinité.
+§6<Fritegirl> §c: Tu vas maintenant retourner dans ton monde.
+§6<Fritegirl> §c: Sur Bouquenia, qui a été nommée par cet aventurier.
+§6<Fritegirl> §c: Bon courage ...
+/tp <player> -35 65 1739
+&e&l>> &r&7Vous pouvez maintenant forger l'amulette de Fritegirl !

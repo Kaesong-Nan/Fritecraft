@@ -1,0 +1,49 @@
+cfg_version: 1.0
+Enabled: true
+SellButton:
+  Material: 'STAINED_GLASS_PANE:5:1'
+  Display: '&a[Sell Confirm]'
+  Lore:
+  - '&7Put items in the GUI for sell'
+  - '&7and close the inventory or click'
+  - '&7me to sell your items.'
+  - ''
+  - '&7Current price: &a%s$'
+Pricing:
+  Tiers:
+  - common:50
+  - rare:100
+  - unqiue:500
+  - heroic:1000
+  Gems:
+     flawed_emerald:
+      Price: 2.4
+      ForEach: 1.0
+  Runes:
+    DAMAGE:
+      Price: 2.4
+      ForEach: 1.0
+  Enchants:
+    MINIGUN:
+      Price: 2.4
+      ForEach: 1.0
+  Abilities:
+    VOLLEY:
+      Price: 2.4
+      ForEach: 1.0
+  Scrolls:
+    DAMAGE:
+      Price: 2.4
+      ForEach: 1.0
+  MagicDust:
+    gemdust:
+      Price: 1.0
+      ForEach: 1
+  AbyssDust:
+    gem:
+      Price: 99
+      ForEach: -1
+  Attributes:
+    DAMAGE:
+      Price: 2.4
+      ForEach: 1.0

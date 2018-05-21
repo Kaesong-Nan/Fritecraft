@@ -1,0 +1,60 @@
+id: 20
+category: 4
+cooldown: -1
+name: '&4&lChara, l''Egarée'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §4§lChara, l'Egarée
+    internal: H4sIAAAAAAAAAE2PS4+bMBSFPVUrZVB/RreRDIQkLNM8iBE2TcLTO2ycYrAzKI9J4NePu+v2fudcnc8CwAI/T91DqT/Xj7NUYgK+oRr8gpC5jn/mUzFjfDpjXjX1l54/XThLzpZssRS1ZwHLlHpxvUtxeweTu3jdH1dxswAAbxPwI6vUQ7xFYghhlduKu8eGFSsZt1sbb5CDx25GktQlY3dDl98Dc2jPgiykazRHbTnGyWqkyWGG8/JJNscOj7uG5Ac3Nrc4wAMOTLdFEMmn5Pvwk2p1o6nXsDyVsQw3VbAbyhMyv0lPHa+p99lAs1DxIuu5zjrU9pBfMhWtQ0iLBtaFYQOam73JCarY8AW6ZAP7t0cbvl/No8H/L+vdq9xTpRs29HJ4MJ3ByD0qsT/aXKefxmskI4alxgNJShuP3DivXlSHkoxbh2jakeDwIgE2HluXJukzTmqJnazF+gDjDW2o3pkMepLkrzwXtg/ABHwnlRbgfX1af1xFJBkAX0EZIULGAQAA
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE1MDI2Mzk4NTU3NzksInByb2ZpbGVJZCI6IjYzOTAzZTQ4MWYwNDRkMzFhNWQ3OTQ4OGMyMGU3NjI0IiwicHJvZmlsZU5hbWUiOiJDaGFyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzkzNzM0YmMyNTY1Mzc2MzAxZmJiNzE2NmZkNGQxNGM3NjE3ZTUwOTdiM2VjMmQ0ODZhZmFkNGIwNTgifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 0995cb3b-8a47-48c2-bdd7-b32544633733
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&4&lChara'
+  timeframe: 0
+  questId: 0995cb3b-8a47-48c2-bdd7-b32544633733
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 42e278dc-9855-4589-b59d-e453285a2cb1
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false

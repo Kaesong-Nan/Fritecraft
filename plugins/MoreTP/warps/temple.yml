@@ -1,0 +1,19 @@
+name: temple
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation d''Irvine &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dIrvine'
+- '&5Anomalie de Nuggetsgirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: LAPIS_BLOCK
+data: 0
+location: Bouquenia<>-647.1350710509806<>65.0<>1837.047258709267<>-1.1369387<>-90.70108
+slot: 21

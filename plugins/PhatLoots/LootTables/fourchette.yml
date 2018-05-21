@@ -1,0 +1,40 @@
+fourchette:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fcuillère
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fcouteau
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §ffourchette
+    Probability: 100.0
+  Name: fourchette
+  Reset:
+    Hours: 1
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

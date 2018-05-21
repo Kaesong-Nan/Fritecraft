@@ -1,0 +1,12 @@
+#
+# these triggers fix some drops.
+#
+
+on piston extend:
+    loop blocks in radius 2 of event-block:
+        if loop-block is melon or pumpkin or sugar cane or cocoa plant:
+            cancel event
+on block flowing:
+    loop blocks in radius 1 of event-block:
+        if loop-block is crops or potato plant or carrot plant:
+            cancel event

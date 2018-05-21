@@ -1,0 +1,10 @@
+&a<Vulcain> &f: Epée, bouclier, armure en papier maché ou en diamant !
+&a<Vulcain> &f: Ah un client ! C'est pour une commande ? Je vends même des épées en bois !
+&a<Vulcain> &f: Un collier ?
+&a<Vulcain> &f: Vous voulez un collier.
+&a<Vulcain> &f: Un ... collier ...
+&a<Vulcain> &f: J'ai étudié le forgeage pendant dix huit ans.
+&a<Vulcain> &f: Et la seule chose que me réclament les péquenauds du coin, ce sont des colliers ?
+&a<Vulcain> &f: Faites voir vot' liste ? Pouah ! On peut rien faire avec ces matériaux...
+&a<Vulcain> &f: Allez hop, petit collier pour petit personnage, ne me remerciez pas !
+&e&l>> &r&7Apportez ce collier tout pourri à Philippe (il n'apparait pas dans l'inventaire tellement il est moche)

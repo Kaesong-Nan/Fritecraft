@@ -1,0 +1,12 @@
+&b<Tuteur> &f: Aux différents mondes du serveur s'appliquent différentes règles.
+&b<Tuteur> &f: Sur Bouquenia, vous ne pouvez rien construire ni détruire.
+&b<Tuteur> &f: C'est ici que se trouvent les quêtes, les boss, les donjons.
+&b<Tuteur> &f: Dans le Monde Survie, vous pouvez construire et détruire, en suivant le règlement bien sûr.
+&b<Tuteur> &f: Il est possible d'y créer des parcelles sécurisées pour protéger vos affaire.
+&b<Tuteur> &f: Ce monde n'est pas remis à zéro.
+&b<Tuteur> &f: C'est donc dans ce monde que vous vous installerez.
+&b<Tuteur> &f: Le Monde Ressources, le Nether, et l'End sont là pour être pillés à volonté.
+&b<Tuteur> &f: Ces mondes sont remis à zéro quand nécessaire.
+&b<Tuteur> &f: Par contre, l'accès au Nether et à l'End est restreint par deux séries de quêtes !
+&b<Tuteur> &f: Et une précision : vous ne perderez jamais votre inventaire dans aucun des mondes.
+&b<Tuteur> &f: Mais vous perdrez 10 niveaux de faveur divine !

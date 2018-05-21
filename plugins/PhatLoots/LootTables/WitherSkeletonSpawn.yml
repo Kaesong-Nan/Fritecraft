@@ -1,0 +1,74 @@
+WitherSkeletonSpawn:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: épée en bedrock
+          enchants:
+            DURABILITY: 1
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Hand
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Head
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Body
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Legs
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Feet
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: WitherSkeletonSpawn
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

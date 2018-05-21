@@ -1,0 +1,6 @@
+&e<Commis de Cuisine> &f : Vous voulez m'acheter de la liqueur de licorne ?
+&e<Commis de Cuisine> &f : Vous savez que c'est ce qu'on utilise pour cirer le sol ?
+&e<Commis de Cuisine> &f : Non ? Vous êtes sûr ?
+&e<Commis de Cuisine> &f : C'est vous qui voyez... Tant que ça vous fait plaisir.
+/give <player> minecraft:splash_potion 1 0 {Potion:"minecraft:water",CustomPotionEffects:[{Id:25,Duration:3600,Ambient:1b}],display:{Name:"Liqueur de Licorne",Lore:["Une seule goutte ferait fondre de l'obsidienne"]}}
+&e<Commis de Cuisine> &f : Les gens sont vraiment bizarres n'empeche...

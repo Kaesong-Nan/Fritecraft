@@ -1,0 +1,33 @@
+WaterGun:
+  Id: 268
+  Display: '&9&lFusil à eau &r'
+  Lore:
+  - '&9Unique'
+  - '&7Particules :&d Humide'
+  - '&7Compétence : &dRafraichissement'
+
+
+  Options:
+    Unbreakable: true
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  # Attributes:
+  #   MainHand:
+  #     AttackSpeed: -0.5
+  #     Damage: 7
+  #     MovementSpeed: 0.10
+      # Armor: 4
+      # Health: 4
+      # Luck: 4
+
+  # Enchantments:
+  # - DAMAGE_ALL:10
+  # - DAMAGE_ARTHROPODS:3
+  # - DURABILITY:5
+  Skills:
+  - skill{s=Electrique} ~onTimer:5 @self
+  - skill{s=Bubble} ~onUse @TargetLocation

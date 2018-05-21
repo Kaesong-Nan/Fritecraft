@@ -1,0 +1,71 @@
+Witch:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLASS_BOTTLE
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPIDER_EYE
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPECKLED_MELON
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+      amount: 2
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fPouce
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fFiole de glowstone
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fFiole de redstone
+    Probability: 20.0
+  Name: Witch
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

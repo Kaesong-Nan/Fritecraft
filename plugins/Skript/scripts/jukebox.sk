@@ -1,0 +1,3 @@
+on hologram click:
+    message "text in line 1 of holo"
+    make player execute command "cc open disc.yml"

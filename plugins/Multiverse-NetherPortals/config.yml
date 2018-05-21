@@ -1,0 +1,5 @@
+bounceback: false
+worlds:
+  cleanroom:
+    portalgoesto:
+      END: Bouquenia

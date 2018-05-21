@@ -1,0 +1,24 @@
+LabyrintheFestival:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dPierre de Lune §r
+        lore:
+        - §7Artefact du Labyrinthe du Festival.
+    Probability: 100.0
+  Name: LabyrintheFestival
+  Reset:
+    Hours: 0
+    Days: 10
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

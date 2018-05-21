@@ -1,0 +1,9 @@
+§9<Zajonc> §f: Ouh là !
+§9<Zajonc> §f: Elle semble carrément perdre les pédales !
+§9<Zajonc> §f: On va arrêter ça tout de suite !
+/setblock 611 72 909 minecraft:air
+/setblock 612 72 909 minecraft:air
+/setblock 612 72 908 minecraft:air
+/setblock 610 72 905 minecraft:air
+§9<Zajonc> §f: Voilà qui est mieux.
+§9<Zajonc> §f: Pauvre champimeuh ...

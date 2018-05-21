@@ -1,0 +1,50 @@
+id: 17
+category: 3
+cooldown: -60000
+name: Sorcières
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Sorcières
+    id: witch
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: f4df9285-ff43-49f5-8858-58c14b953ce5
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 66
+  amount: 25
+  lore: ''
+  index: 0
+  type: KILL
+  custom_string: ''
+  timeframe: 0
+  questId: f4df9285-ff43-49f5-8858-58c14b953ce5
+  reset-on-death: true
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4e698029-8b8b-451c-a317-1e8a0e37bfba
+  entity: WITCH
+  custom_int: 0
+  exclude-spawners: false

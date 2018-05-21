@@ -1,0 +1,26 @@
+AnomaliePomme:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aPomme Sans OGM
+        lore:
+        - §r§0AnomaliePomme
+        enchants:
+          ARROW_INFINITE: 10
+    Probability: 100.0
+  Name: AnomaliePomme
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

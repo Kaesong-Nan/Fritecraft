@@ -1,0 +1,35 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §6§lEclipse §r
+    lore:
+    - §8§l§m------§f§l Stats §8§l§m-------
+    - §f6.08 §7Dégâts
+    - §f0.69 §7Vitesse d'attaque
+    - §f21§7% Chance de coup critique
+    - §f214.4§7% Puissance de coup critique
+    - §8§l§m-------§b§l Effets §8§l§m--------
+    - '§7Passif: §fRégéneration III§7.'
+    - §8§l§m------§e§l Gemmes §8§l§m------
+    - §a◆ NETHER STALK
+    - §a◆ Emplacement de Gemme vide
+    - §a◆ Emplacement de Gemme vide
+    - §8§l§m-------§c§l Abilities §8§l§m--------
+    - '§2Clic droit: Missile Sacré'
+    - ''
+    - '§7Qualité: §8§6Exotique'
+    - §cEpée
+    - ''
+    - §7Une lore de test.
+    enchants:
+      DAMAGE_ALL: 5
+      DAMAGE_UNDEAD: 5
+      KNOCKBACK: 2
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAIWRu28TQRDGR8SxLuYhFBxEgcJDlDiy5QcOUoSXu7W9+F7srhVZirRa5zbOQewL9lpC6an5H2joItFRImqoKahoaOiokNJw58DhKInYYqXZ+Wa+38zmAAxYcRyPcOww4WPqCNxsYpMzuEJxC7uYIk4892E5C9dTHeIcmR1hIQe1cOPG0x+vVt9TAy6nAk4whYsf39bwy0iHL6bKgJv/qh8Tm/CeoKTV5sK0idmBS23P7gmHMEZsnIVbqdikhBMT2YJxSjpYmG3kmrhRhdkx4GqqTG5BLMhwzHh2bqo/tMzH2Hr0PX/wrXWYz8LquRa+t4lp49mn5Hw2YDkVtmIDxj0Xg+23e2xWc7yDjepa8X4T2X9jQbHVNZPFbdSKcSp+I+bpXKmYJOctZkPwno9hkW161FqCZaT1OOxPtXKiINwJ1XiSiye/sABGt0ssJ5po8vXdzwVYSkJbyYm2934dLEIWDaPpSDfevN4yIMP2Ig3GUIajXTkK4r9K27pyqCA/UCM1DrfXpNZy+7klh3Kg4p7evhpLHUaj421nZuI7Z4ktghzPtcQMG+bongyIP093dPfwKKX7wL7k/k937aQh21cqOA/u9hnak2yn9p2gwb2iVDslFZQLtVK9WqiUK+sF2a/UC7VAldV6RdZr/QfwG6pKp2AxAwAA

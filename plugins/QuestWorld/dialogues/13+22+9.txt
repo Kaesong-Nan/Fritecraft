@@ -1,0 +1,18 @@
+&e<Shen> &f: Hmmmm.......
+&e<Shen> &f: Hmmmm mmmmméditationnnnn ......
+&e<Shen> &f: Hmmmm zen ....
+&e<Shen> &f: Oh !
+&e<Shen> &f: Vous m'avez surpris !
+&e<Shen> &f: Euh, je veux dire, je savais que vous alliez arriver.
+&e<Shen> &f: Je vous attendez même.
+&e<Shen> &f: Et euh ... C'est au sujet de quoi-t-est-ce ?
+&e<Shen> &f: Ah mince non, attendez.
+&e<Shen> &f: Hmmm je vois que vous venez à moi pour apprendre l'art du grapin...
+&e<Shen> &f: Héhé, et oui, je suis un expert du grapin.
+&e<Shen> &f: Je canalise les pouvoirs de Nuggetsgirl et ... et voilà quoi.
+&e<Shen> &f: C'est pas si dur. On lance et voilà...
+&e<Shen> &f: Je peux en frabriquer aussi.
+&e<Shen> &f: Mais il va falloir m'apporter les matériaux, y'a pas écrit "boniche".
+&e<Shen> &f: Un véritable ninja ne prête jamais son équipement.
+&e<Shen> &f: Vous allez devenir ... mon apprenti ninja.
+&e&l>> &r&7Shen peut maintenant vous fabriquer un &eGrapin &7contre des matériaux.

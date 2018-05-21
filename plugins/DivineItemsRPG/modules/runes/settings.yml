@@ -1,0 +1,34 @@
+cfg_version: 1.0
+Item:
+  Display: '&b&l[Rune] %s'
+  Lore:
+  - '&7Rune de niveau &f%level%'
+  - '&7Réussite: &a&l%s%%'
+  - '%desc%'
+  - ''
+  - '&7&[Glissez sur un item pour l''améliorer]'
+  ItemFlags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  SetUnbreakable: false
+
+Enchant:
+  MinSuccessChance: 10
+  MaxSuccessChance: 75
+  DestroyType: CLEAR
+  StackLevels: true
+
+Effects:
+  Enabled: true
+  Failure: VILLAGER_ANGRY
+  Success: VILLAGER_HAPPY
+
+Sounds:
+  Enabled: true
+  Failure: BLOCK_ANVIL_DESTROY
+  Success: ENTITY_EXPERIENCE_ORB_PICKUP
+
+Design:
+  Header: '&8&l&m------&c&l Runes &8&l&m------'
+  EmptySlot: '&b◇ (Vide)'
+  FilledSlot: '&b◈ Rune: &f'

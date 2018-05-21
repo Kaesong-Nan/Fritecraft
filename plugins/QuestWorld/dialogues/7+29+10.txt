@@ -1,0 +1,4 @@
+§7*La vache semble toute excitée*
+/summon Item 611 74 906 {Item:{id:40,Count:1}}
+§7*Et fait apparaitre plus de champignons*
+/summon Item 611 74 906 {Item:{id:40,Count:2}}

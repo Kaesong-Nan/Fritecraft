@@ -1,0 +1,22 @@
+name: divine
+displayname: '&8&l[&b&m=---=&8&l> &f&lIle Divine de Bouquenia &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&eRécompenses de Faveur'
+- '&eCoffre Divin'
+- '&eStatues des Déesses'
+- '&eClassements des adorations'
+- '&5Tomes des Déesses'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: true
+permission: moretp.warp.{warpname}
+item: GOLDEN_APPLE
+data: 0
+location: Bouquenia<>1468.9660128555238<>67.9375<>2333.348884512702<>4.5659366<>-178.27606
+slot: 1

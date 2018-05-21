@@ -1,0 +1,19 @@
+name: Spider
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners à Araignées'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: STRING
+data: 0
+location: HUB<>982.5726342187374<>126.38938057635376<>-231.3359421880505<>18.493666<>-133.26083
+slot: 47

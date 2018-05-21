@@ -1,0 +1,20 @@
+id: 7
+name: '&7&lCentre de Recherches de Bouquenia'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §7§lCentre de Recherches de Bouquenia
+    internal: H4sIAAAAAAAAAE2L0W6CMBhG/y1bgmSPsVuSWi3q5aZOa6BM7RjtHWBNYa0ahA18qj3iuNzFufhyvuMCuPC0/2qMea/Ox8IoB+7pAZ7xNB9PcpR5BBPljRXG3lRl2MuGh5wg4ucj/+iC20cXVdWFug7AqVVbN5W6ugBw58BjnJpGwa/qNkgmGh2Sjck76veb75GJaHmZ0FPcZXPqU9v79YsfdLN/X1Knn8SI0UbL07bJbIyC0c6o9W6Y24/vaPVmGO8d12XEtRa3JZF2+8Nu4sbwErHSWGmXHeNSi/K1CDFtw1VcSi46tgjbaCF6dCF4OJYr0TK+LY7JcAbgwANLrYLBfD8/VyooMoA/gyomUSoBAAA=
+    skull-owner: CSCoreLib
+permission: ''
+hidden: false
+world-blacklist: []
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlNTJhZThjOThhYzE5ZmQwNzYzN2E0NjlmZmEyNTZhYjBiM2IxMGVjZTYyNDMxODYxODhiYTM4ZGYxNTQifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: 6e67d0a1-2a75-4f55-bf12-cdbcbf5d9bf4

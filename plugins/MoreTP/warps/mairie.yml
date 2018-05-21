@@ -1,0 +1,27 @@
+name: mairie
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation de la Mairie &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&eMairie'
+- '&eCaserne'
+- '&eGuilde des Chasseurs'
+- '&aVente rapide'
+- '&aMarchands'
+- '&aPioches à Spawners'
+- '&aMini-blocs Déco'
+- '&dCrypte'
+- '&cBoss Necromant'
+- '&5Anomalie de Fringirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: true
+permission: moretp.warp.{warpname}
+item: PAPER
+data: 0
+location: Bouquenia<>229.36944588202866<>65.18692915716233<>990.2222400917544<>-0.55197376<>-93.13695
+slot: 0

@@ -1,0 +1,54 @@
+id: 36
+category: 2
+cooldown: -60000
+name: '&5Elytres'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Dragon Fireball
+    lore:
+    - §8Decoration
+    - §8Dragon, §8Vanilla, §8Explosive
+    internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmGy6AsVWI7pMxIO1x3UxhS6ExtWtDSp/IRxZ1nd/KdLzkmgAkPm/2o1Mfps+2UNOCWNPCIPOQFdYCsxpWB5fmObQW1aC30FyHEs4tdE8xZOsrT0MnzPRiDvAzjSZ5NALgx4C4TapTwI6cIVcUONUWk6on4c+cbpBjpj0/kkE3bN+ITPfPli7+agn9bPIgcq9KNdtUhGbc6Qyt3reRybdc6/aJhpFhYf7NQacbjieXEposYlzzFtE+duE+vlCeXOGx66pSYanKNwxRV/fu+ykuvdDJV8qhj/LWveKXZIunawg7m9/AL4VpyrxgBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 2458dbd1-8f13-45c1-ad7f-24b0c1b71b02
+categoryId: 7466005f-ae69-465c-8cce-8b37214a22a1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&dJim'
+  timeframe: 0
+  questId: 2458dbd1-8f13-45c1-ad7f-24b0c1b71b02
+  reset-on-death: false
+  display-name: '&fTrouver Jim à l''Endervillage'
+  location:
+    world: Bouquenia
+    x: 1069.0
+    y: 86.0
+    z: 801.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e9576183-c0b7-4fa2-b524-eb04d080eabb
+  entity: PLAYER
+  custom_int: 229
+  exclude-spawners: false

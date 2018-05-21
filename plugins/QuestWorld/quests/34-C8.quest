@@ -1,0 +1,59 @@
+id: 34
+category: 8
+cooldown: 43200000
+name: '&fCharbon de bois'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: COAL
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fCharbon de bois
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 152842df-25a1-44be-955a-6df73a577673
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    damage: 1
+  amount: 64
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 152842df-25a1-44be-955a-6df73a577673
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 517.0
+    y: 79.0
+    z: 722.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2090257e-7cd5-4336-850f-8c80f3d730e1
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

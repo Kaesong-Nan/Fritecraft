@@ -1,0 +1,239 @@
+ArenaZombie:
+  Mobtype: ZOMBIE
+  Health: 30
+  Damage: 8
+  Display: '&eZombie Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: false
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: false
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - ROTTEN_FLESH 1 1
+  - IRON_NUGGET 1 1
+  DropsPerLevel:
+  - ROTTEN_FLESH 1 0.5
+  - IRON_NUGGET 1 1
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+
+ArenaSkeleton:
+  Mobtype: SKELETON
+  Health: 30
+  Damage: 8
+  Display: '&eSquelette Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: false
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - BONE 1-2 1
+  - ARROW 1-2 1
+  DropsPerLevel:
+  - BONE 1-2 0.5
+  - ARROW 1-2 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+
+ArenaSpider:
+  Mobtype: SPIDER
+  Health: 30
+  Damage: 8
+  Display: '&eAraignée Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - STRING 1-2 1
+  - SPIDER_EYE 1 0.3
+  DropsPerLevel:
+  - STRING 1 0.5
+  - SPIDER_EYE 1 0.3
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+  - potion{type=POISON;lvl=1;duration=120} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=1;duration=200} @Target ~onAttack
+
+
+ArenaCreeper:
+  Mobtype: CREEPER
+  Health: 30
+  Damage: 8
+  Display: '&eCreeper Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 1.0
+    MaxCombatDistance: 20
+    MovementSpeed: 0.4
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventSuicide: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - GUNPOWDER 1-2 1
+  DropsPerLevel:
+  - GUNPOWDER 1-2 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+
+ArenaSlime:
+  Mobtype: SLIME
+  Health: 30
+  Damage: 8
+  Display: '&eSlime Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.4
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Size: 2
+    PreventSlimeSplit: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - SLIME_BALL 1-2 1
+  DropsPerLevel:
+  - SLIME_BALL 1-2 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+  - potion{type=POISON;lvl=2;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+  - potion{type=SLOW;lvl=1;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+
+ArenaEnderman:
+  Mobtype: ENDERMAN
+  Health: 50
+  Damage: 10
+  Display: '&eEnderman Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - ENDERPEARL 1 1
+  DropsPerLevel:
+  - ENDERPEARL 1 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+  - potion{type=BLINDNESS;lvl=1;duration=200} @Target ~onAttack
+
+ArenaBlaze:
+  Mobtype: BLAZE
+  Health: 50
+  Damage: 12
+  Display: '&eBlaze Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Drops:
+  - BLAZE_ROD 1-2 1
+  DropsPerLevel:
+  - BLAZE_ROD 1-2 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+  - ignite{ticks=80} @Target ~onAttack
+  - ignite{ticks=80} @Trigger ~onDamaged
+
+ArenaPigman:
+  Mobtype: PIG_ZOMBIE
+  Health: 60
+  Damage: 12
+  Display: '&ePigman Lvl <mob.level>'
+  Options:
+    PreventRandomEquipment: true
+    Despawn: true
+    AlwaysShowName: true
+    FollowRange: 32
+    KnockbackResistance: 0.8
+    MaxCombatDistance: 20
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+  LevelModifiers:
+    Health: 10
+    Damage: 2
+    KnockbackResistance: 0.1
+    Armor: 1
+  Equipment:
+  - Nether:0
+  Drops:
+  - ROTTEN_FLESH 1-2 1
+  - GOLD_NUGGET 1 1
+  DropsPerLevel:
+  - ROTTEN_FLESH 1-2 0.5
+  - GOLD_NUGGET 1 0.5
+  Skills:
+  - randomskill{skills=level1,level2,level3,level4,level5} ~onSpawn
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=200} @Target ~onAttack

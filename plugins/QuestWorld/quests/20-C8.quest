@@ -1,0 +1,62 @@
+id: 20
+category: 8
+cooldown: 43200000
+name: '&fPotions de Résistance au feu'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: §fPotions de Résistance au feu
+    potion-type: minecraft:long_fire_resistance
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 5774c6b6-f6cd-4a43-ba0a-5373816f75f6
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_fire_resistance
+  amount: 12
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 5774c6b6-f6cd-4a43-ba0a-5373816f75f6
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 282.0
+    y: 65.0
+    z: 1048.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7ca14cd1-6eb9-4fce-b698-3b578bd34d0e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

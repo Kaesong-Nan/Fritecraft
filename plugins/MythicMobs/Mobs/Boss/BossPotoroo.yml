@@ -1,0 +1,114 @@
+PotorooPNJ:
+  Type: Villager
+  Display: '&6&lPotoroo'
+  Health: 5
+  Armor: 10
+  Disguise:
+    Type: player
+    Player: '&6&lPotoroo'
+    Skin: Ventouz
+  DamageModifiers:
+  - DROWNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - ENTITY_ATTACK 10
+  - PROJECTILE 0
+  - POISON 4
+  - MAGIC 6
+  Skills:
+  - summon{type=Potoroo;amount=1;radius=0} @Self ~onDeath 1
+  Equipment:
+  - Friture:0
+  - Friture:5
+  Options:
+    Silent: true
+    Despawn: false
+    FollowRange: 0
+    AlwaysShowName: true
+    MovementSpeed: 0.0
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+    PreventMobKillDrops: false
+    Persistent: true
+    PreventRenaming: true
+
+Potoroo:
+  Type: VINDICATOR
+  Display: '&6&lPotoroo'
+  Health: 2000
+  Armor: 4
+  BossBar:
+    Enabled: true
+    Title: '&6&lPotoroo'
+    Range: 30
+    Color: YELLOW
+    Style: SOLID
+  Faction: Boss
+  Disguise:
+    Type: player
+    Player: '&6&lPotoroo'
+    Skin: Ventouz
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  KillMessages:
+  - '<target.name> a été tué par Potoroo'
+  DamageModifiers:
+  - DROWNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE .25
+  - POISON 5
+  - MAGIC 10
+  Drops:
+  - BagPotoroo
+  Skills:
+  # - effect:particles{particle=dragonbreath;amount=10;hs=1;vs=1} @self ~onTimer:5
+  # - effect:sound{s=entity.zombie.ambient;v=5.0;p=0.1} @Self ~onSpawn
+  # - effect:sound{s=entity.zombie.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  # - effect:sound{s=entity.enderdragon.growl;v=4;p=0.1} @Self ~onDeath
+  - healpercent{m=0.3} @self ~onKillPlayer
+  - effect:itemspray{item=gold_ingot;amount=4;velocity=1;d=20;} @self ~onDamaged
+  - effect:itemspray{item=gold_nugget;amount=3;velocity=1;d=20;} @self ~onDamaged
+  - effect:itemspray{item=gold_block;amount=2;velocity=1;d=20;} @self ~onDamaged
+  - potion{type=WEAKNESS;lvl=2;duration=80} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=80} @Target ~onAttack
+  - skill{s=PotorooSmite} ~onDamaged =80% 1
+  - skill{s=PotorooSmite} ~onDamaged =60% 1
+  - skill{s=PotorooSmite} ~onDamaged =40% 1
+  - skill{s=PotorooSmite} ~onDamaged =20% 1
+  # - skill{s=ND2} @Self ~onDeath
+  Damage: 20
+  Equipment:
+  - LameSainte:0
+  - LameSainte:5
+  Drops:
+  - BagPotoroo 1 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  - 2 Attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 LookAtPlayers
+  - 3 Float
+  Options:
+    Silent: true
+    Despawn: false
+    FollowRange: 30
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 1.0
+    PreventMobKillDrops: false
+    Persistent: true
+    PreventRenaming: true
+    NoDamageTicks: 10

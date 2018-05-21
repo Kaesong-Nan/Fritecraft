@@ -1,0 +1,1160 @@
+Quest:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBanane
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fpoire
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFraise
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCitron
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fOrange
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCarambolier
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPitaya Jaune
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPitaya rouge
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPitaya
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fRaisin rouge
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFigue de Barbarie
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCerises
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fLitchi
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMûre
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBleuet
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPomme verte
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fAnanas
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFramboise Bleue
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCorossol
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFramboise
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fRamboutan
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fpèche
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fmangue
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fnoix de coco
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fRaisin
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fRaisin vert
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTomate
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fKiwano
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fJacquier
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTofu
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 32
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPizza
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 19
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+        amount: 26
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFrites
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 19
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+        amount: 26
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFrites au piment
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 19
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+        amount: 26
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFrites douces
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 19
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+        amount: 26
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFrites au fromage
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChips au pickle
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChips au ketchup
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChips barbecue
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChips nature
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron à la pistache
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron à la fraise
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron à la vanille
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron à la lavende
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron au café
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron au citron
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron aux mûres
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMacaron au chocolat
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNachos au fromage
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNachos au guacamole
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNachos simples
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNachos violets
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNachos au piment
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNigiri thon
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: RAW_FISH
+        damage: 1
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNigiri saumon
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNigiri anguille
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSashimi saumon
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSashimi thon rouge
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNigiri crevette
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSashimi thon blanc
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSashimi coquillages
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBhut Jolokia
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fHabanero
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPiment
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 21
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fJalapeno
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCantaloup
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMelon honeydew
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBrochette de pastèque
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée bleue
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée rouge
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée jaune
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée orange
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée verte
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGelée violette
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGaufrette vanille
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGaufrette fraise
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGaufrette chocolat
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDonut poudré
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDonut au sucre
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDonut à la vanille
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDonut au chocolat
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCookie aux fruits
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCookie aux cacahuètes
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCookie double choco
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCookie à l'avoine
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 48
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCookie au chocolat
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte à la rhubarbe
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte à la banane
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte au caramel
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte au kiwi
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte au citron
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte au chocolat
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte aux mûres
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte aux framboises
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 16
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 25
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte à la patate douce
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Food
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §e§lContrat de claim
+        lore:
+        - §7Clic droit pour recevoir des blocs
+        - §7de claims supplémentaires !
+        - ''
+        - §6+50 §7blocs
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bCristal §r
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSac Enchanté §r
+        lore:
+        - §7Clic droit pour ouvrir pour
+        - §7obtenir 1 Livre d'enchantement
+        - §7de rang maximum aléatoire.
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LINGERING_POTION
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §6Infusion d'Ichor
+        lore:
+        - §bElixir persistant
+        - §7(durée réelle 20 minutes)
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvj//z8DAKoaMrMcAAAA
+        custom-color:
+          ==: Color
+          RED: 255
+          BLUE: 255
+          GREEN: 255
+        custom-effects:
+        - ==: PotionEffect
+          effect: 10
+          duration: 24000
+          amplifier: 2
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 21
+          duration: 24000
+          amplifier: 2
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 22
+          duration: 24000
+          amplifier: 2
+          ambient: true
+          has-particles: false
+        - ==: PotionEffect
+          effect: 26
+          duration: 24000
+          amplifier: 1
+          ambient: true
+          has-particles: false
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §a§lLingot Illustre §r
+    Probability: 100.0
+  Name: Quest
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

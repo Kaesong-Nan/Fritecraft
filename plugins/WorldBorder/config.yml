@@ -1,0 +1,67 @@
+cfg-version: 11
+message: '&cVous ne pouvez pas aller plus loin.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  Mega:
+    x: -636.0
+    z: 886.0
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false
+  Bouquenia_nether:
+    x: -31.0
+    z: 99.0
+    radiusX: 1200
+    radiusZ: 1200
+    wrapping: false
+  Bouquenia_Nether:
+    x: -30.914775444439215
+    z: 100.6972766031998
+    radiusX: 1300
+    radiusZ: 1300
+    wrapping: false
+  Bouquenia_the_end:
+    x: 0.824769901604265
+    z: 0.6479610526325437
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false
+  bbundle:
+    x: 910.0
+    z: -39.0
+    radiusX: 5000
+    radiusZ: 5000
+    wrapping: false
+  Pitman:
+    x: 442.0
+    z: 378.0
+    radiusX: 10000
+    radiusZ: 10000
+    wrapping: false
+  Long:
+    x: 0.0
+    z: 0.0
+    radiusX: 50
+    radiusZ: 20000
+    wrapping: false
+  Biomes:
+    x: 0.0
+    z: 0.0
+    radiusX: 5000
+    radiusZ: 5000
+    wrapping: false

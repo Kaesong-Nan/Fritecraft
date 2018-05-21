@@ -1,0 +1,37 @@
+PigRocketer:
+  MobType: zombie
+  Display: 'Pig summoner'
+  Health: 100
+  Damage: 0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 1
+  - ENTITY_ATTACK 1
+  Skills:
+  - potion{t=FIRE_RESISTANCE;d=9999999;l=1} @Self ~onSpawn 1
+  - skill{s=MissilePigLaunch} @Self ~onTimer:200
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 0
+    Despawn: true
+
+MissileCochon:
+  MobType: pig
+  Display: 'Cochon explosif'
+  Health: 1000
+  Damage: 0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=MissileCochonDead} ~onSpawn
+  - skill{s=tournerLesServiettes} ~onSpawn
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 0
+    Despawn: true
+    MovementSpeed: 0

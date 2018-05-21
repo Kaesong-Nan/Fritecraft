@@ -1,0 +1,269 @@
+SkeletonElite:
+  Mobtype: SKELETON
+  Health: 60
+  Damage: 8
+  Display: '&6Squelette Elite'
+  Options:
+    PreventRandomEquipment: true
+  # Skills:
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Squelette Elite
+    Range: 10
+    Color: WHITE
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+
+CreeperElite:
+  Mobtype: CREEPER
+  Health: 60
+  Damage: 10
+  Drops:
+  # - CaneEnSucre 10 1
+  Display: '&6Creeper Elite'
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.3
+  # Skills:
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Creeper Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+SpiderElite:
+  Mobtype: SPIDER
+  Health: 60
+  Damage: 8
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Options:
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.4
+  Display: '&6Araignée Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par une araignée élite'
+  Skills:
+  - potion{type=POISON;lvl=1;duration=120} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=1;duration=200} @Target ~onAttack
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Araignée Elite
+    Range: 10
+    Color: PINK
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+ZombieElite:
+  Mobtype: ZOMBIE
+  Health: 80
+  Damage: 8
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Options:
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.4
+    PreventRandomEquipment: true
+  Display: '&6Cadavre Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un zombie élite'
+  # Skills:
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Cadavre Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+SlimeElite:
+  Mobtype: SLIME
+  Display: '&6Gélatine Elite'
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  KillMessages:
+  - '&7<target.name> a été tué par un slime élite'
+  Options:
+    KnockbackResistance: 3.0
+    MovementSpeed: 0.3
+  Skills:
+  - potion{type=POISON;lvl=2;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+  - potion{type=SLOW;lvl=1;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+  - potion{t=DAMAGE_RESISTANCE;d=999999999;l=2} @Self ~onSpawn 1
+  # - effect:particles{particle=mobSpell;amount=100;hs=3;vs=3;c=#4e9331} ~onTimer:20 @self
+  BossBar:
+    Enabled: true
+    Title: Gélatine Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+CaveSpiderElite:
+  Mobtype: CAVE_SPIDER
+  Health: 30
+  Damage: 6
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Display: '&6Araignée Venimeuse Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par une araignée venimeuse élite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=1;duration=1000} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=1;duration=1000} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=2;duration=100} @Target ~onAttack
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Araignée Venimeuse Elite
+    Range: 10
+    Color: BLUE
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+
+SilverfishElite:
+  Mobtype: SILVERFISH
+  Health: 25
+  Damage: 4
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Display: '&6Silverfish Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un silverfish élite'
+  Skills:
+  - potion{type=BLINDNESS;lvl=1;duration=400} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=400} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=0;duration=400} @Target ~onAttack
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Silverfish Elite
+    Range: 10
+    Color: WHITE
+    Style: SEGMENTED_12
+    CreateFog: true
+    DarkenSky: true
+
+EndermanElite:
+  Mobtype: ENDERMAN
+  Health: 100
+  Damage: 10
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Display: '&6Enderman Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un enderman élite'
+  Skills:
+  - potion{type=BLINDNESS;lvl=1;duration=200} @Target ~onAttack
+  - teleport{spreadh=5;spreadv=1} @target ~onDamaged 0.5
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Enderman Elite
+    Range: 10
+    Color: PURPLE
+    Style: SEGMENTED_12
+    CreateFog: true
+    DarkenSky: true
+
+BlazeElite:
+  Mobtype: BLAZE
+  Health: 60
+  Damage: 8
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 1 1
+  Display: '&6Incendiaire Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un incendiaire élite'
+  Skills:
+  - ignite{ticks=60} @Target ~onAttack
+  - ignite{ticks=60} @Trigger ~onDamaged
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Incendiaire Elite
+    Range: 20
+    Color: RED
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+ZombiePigElite:
+  Mobtype: PIG_ZOMBIE
+  Health: 60
+  Damage: 15
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Display: '&6Zombie Cochon Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un zombie cochon élite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=200} @Target ~onAttack
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Zombie Cochon Elite
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+WitherSkeletonElite:
+  Mobtype: WITHER_SKELETON
+  Health: 120
+  Damage: 20
+  Drops:
+  # - CandyCorn 10 1
+  # - CaneEnSucre 10 1
+  Display: '&6Emissaire Atrophié Elite'
+  KillMessages:
+  - '&7<target.name> a été tué par un émissaire atrophié élite'
+  Options:
+    KnockbackResistance: 1.0
+    PreventRandomEquipment: true
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> Vous osez me défier !"} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> Hahaha ! Mourez, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
+  - potion{type=WITHER;duration=60;lvl=4} @Target ~onAttack
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=CONFUSION;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=SLOW;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=20;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=50;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Emissaire Atrophié Elite
+    Range: 10
+    Color: YELLOW
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true

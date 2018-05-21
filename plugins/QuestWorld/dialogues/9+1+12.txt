@@ -1,0 +1,13 @@
+&9<Clovis> &f: Désolé, nous ne recrutons plus de mineurs pour l'instant.
+&9<Clovis> &f: Oh, vous connaissiez José ?
+&9<Clovis> &f: Un tragique accident.
+&9<Clovis> &f: Son armure ?
+&9<Clovis> &f: Non, vous voyez bien que je ne l'ai pas.
+&9<Clovis> &f: Si je ne l'ai pas, c'est qu'on ne l'a pas retrouvé.
+&9<Clovis> &f: Et si on ne l'a pas retrouvé, c'est qu'elle est probablement encore là dedans.
+&9<Clovis> &f: Si vous tenez vraiment à la récuperer, il faudra y aller vous même.
+&9<Clovis> &f: Je peux vous dire où on a retrouvé son corps.
+&9<Clovis> &f: Vous devez descendre, jusqu'à atteindre un long couloir.
+&9<Clovis> &f: Il y a une étape là bas, pour les mineurs se reposer.
+&9<Clovis> &f: Ensuite, trouvez le couloir inondé.
+&e&l>> &r&7Trouvez le couloir inondé dans les mines pour retrouver l'armure.

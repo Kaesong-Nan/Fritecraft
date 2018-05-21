@@ -1,0 +1,206 @@
+#Stage 1, this stage is from 100% to 50% of Omega's health!
+
+Ignite:
+  Cooldown: 10
+  Skills:
+  # - message{m="<mob.name> utilise Vollée"} @PlayersInRadius{r=50}
+  - effect:particles{p=flame;amount=300;hSpread=2;ySpread=1;speed=0;yOFfset=1} @Self
+  - ignite{t=60} @PlayersInRadius{r=4}
+  - delay 20
+  - effect:particles{p=flame;amount=600;hSpread=4;ySpread=1;speed=0;yOFfset=1} @Self
+  - ignite{t=60} @PlayersInRadius{r=8}
+  - delay 20
+  - effect:particles{p=flame;amount=900;hSpread=6;ySpread=1;speed=0;yOFfset=1} @Self
+  - ignite{t=60} @PlayersInRadius{r=12}
+
+OmegaLightning:
+  Cooldown: 10
+  Skills:
+  - message{m="<mob.name> utilise Eclairs"} @PlayersInRadius{r=50}
+  - effect:particles{p=flame;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - lightning @Ring{radius=30;points=16}
+  - delay 20
+  - lightning @Ring{radius=25;points=16}
+  - delay 20
+  - lightning @Ring{radius=20;points=16}
+  - delay 20
+  - lightning @Ring{radius=15;points=16}
+  - delay 20
+  - lightning @Ring{radius=10;points=16}
+  - delay 20
+  - lightning @Ring{radius=5;points=16}
+
+# OmegaMissile:
+#   Cooldown: 15
+#   Skills:
+#   - message{m="<mob.name> utilise Missiles"} @PlayersInRadius{r=50}
+#   # - effect:particles{p=flame;amount=300;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2;} @RTT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - delay 20
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - delay 20
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+#   - missile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1;in=2} @RRT
+
+OmegaMissile:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name> utilise Missiles"} @PlayersInRadius{r=50}
+  - delay 20
+  # - effect:particles{p=flame;amount=300;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - projectile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1} @RTT
+  - delay 20
+  - projectile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1} @RRT
+  - delay 20
+  - projectile{ot=MissileTick;oh=MissileHit;v=3;i=2;hR=1;vR=1} @RRT
+
+MissileTick:
+  Skills:
+  - effect:particles{p=largeexplode;a=1} @origin
+
+MissileHit:
+  Skills:
+  - effect:particles{p=lava;a=100;hS=1;vS=1}
+  - effect:sound{s=random.explode;v=1;p=0}
+  - damage{a=10}
+
+OmegaTeleport:
+  Cooldown: 10
+  Skills:
+  # - message{m="<mob.name> utilise Teleportation"} @PlayersInRadius{r=50}
+  - effect:particles{p=witchMagic;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - teleport{spreadh=1;spreadv=0} @target
+  - delay 1
+  - effect:particles{p=witchMagic;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+
+OmegaSlam:
+  Cooldown: 10
+  Skills:
+  # - message{m="<mob.name> utilise Frappe de force"} @PlayersInRadius{r=50}
+  - effect:explosion @Self
+  - damage{amount=10} @PlayersInRadius{r=5}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=5}
+
+OmegaSummon:
+  Skills:
+  # - message{m="<mob.name> utilise Invocation"} @PlayersInRadius{r=50}
+  - summon{type=Emissaire;amount=2;radius=5} @Self
+
+#This is where he transforms from Stage 1 to Stage 2!
+
+OmegaDisguise:
+  Cooldown: 120
+  Skills:
+  - message{m="<mob.name> révèle sa véritable forme !"} @PlayersInRadius{r=30}
+  - effect:particles{p=largeexplode;amount=10;hSpread=2;ySpread=1;speed=0;yOFfset=0.5} @Self
+  - sound{s=entity.generic.explode;v=3} @self
+  - disguise{d=BLAZE}
+
+
+FireBlast:
+    Skills:
+    - projectile{onTick=FireBlast-Tick;onHit=FireBlast-Hit;v=8;i=1;hR=1;vR=1}
+
+FireBlast-Tick:
+    Skills:
+    - effect:particles{p=flame;amount=20;speed=0;hR=0.2;vR=0.2} @origin
+
+FireBlast-Hit:
+    Skills:
+    - damage{a=20}
+    - ignite{ticks=100} @target
+
+Imprison:
+  Skills:
+  - prison{material=COAL_BLOCK;duration=100;breakable=false} @target
+  # - message{m="<mob.name> utilise Prison de cendres!"} @PlayersInRadius{r=50}
+  - effect:particles{p=flame;amount=1000;hSpread=2;ySpread=1;speed=0;yOFfset=0.5} @self
+  - threat{amount=10000} @NearestPlayer
+
+GroundSlam:
+  Skills:
+  - effect:explosion @Self
+  - damage{amount=15;ignoreArmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=5}
+  # - message{m="<mob.name> utilise Frappe Brutale!"} @PlayersInRadius{r=50}
+
+#The meteor skill is from Roboboy64, not from me!
+MeteorShower:
+  Cooldown: 10
+  Skills:
+#  - message{m="<mob.name> utilise Pluie de météores!"} @PlayersInRadius{r=50}
+  - summon{m=MeteorPointer;a=20;r=9}
+  - effect:spin{duration=40;velocity=20} @self
+
+MiniMeteorShower:
+  Cooldown: 10
+  Skills:
+#  - message{m="<mob.name> utilise Pluie de météores!"} @PlayersInRadius{r=50}
+  - summon{m=MiniMeteorPointer;a=10;r=9}
+  - effect:spin{duration=40;velocity=20} @self
+
+
+MeteorPointerSpawn:
+  Skills:
+  - potion{type=INVISIBILITY;d=2000;l=1} @self
+  - delay 200
+  - skill{s=MeteorPointerFinish}
+
+MiniMeteorPointerSpawn:
+  Skills:
+  - potion{type=INVISIBILITY;d=2000;l=1} @self
+  - delay 200
+  - skill{s=MeteorPointerFinish}
+
+MeteorPointerFinish:
+  Cooldown: 100
+  Skills:
+  - projectile{onTick=MeteorTick;onEnd=MeteorEnd;v=30;i=1;hR=2;vR=2;syo=20;sfo=10;mr=1000;d=500;sE=false} @Self
+  - delay 500
+  - remove{m=MeteorPointer} @Self
+
+MiniMeteorPointerFinish:
+  Cooldown: 100
+  Skills:
+  - projectile{onTick=MeteorTick;onEnd=MeteorEnd;v=30;i=1;hR=2;vR=2;syo=75;sfo=15;mr=1000;d=500;sE=false} @Self
+  - delay 500
+  - remove{m=MeteorPointer} @Self
+
+MeteorTick:
+  Skills:
+  - effect:particles{p=flame;a=15;vS=1.5;hS=1.5} @Origin
+  - effect:particles{p=largesmoke;a=5;vS=1;hS=1} @Origin
+  - effect:particles{p=largeexplosion;a=3;vS=0.75;hS=0.75} @Origin
+
+MeteorEnd:
+  Skills:
+  - explosion{blockdamage=false;fire=true;yield=1} @Origin
+  - damage{a=20} @PlayersInRadius{r=2}
+  - remove{m=MeteorPointer} @Self
+
+WitheredRain:
+  Skills:
+  # - message{m="<mob.name> utilise Cranes atrophiés!"} @PlayersInRadius{r=50}
+  - effect:particles{p=flame;amount=1000;hSpread=2;ySpread=1;speed=0;yOFfset=0.5} @self
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT
+  - delay 5
+  - shootskull{y=3;v=4} @RTT

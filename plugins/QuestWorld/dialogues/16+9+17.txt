@@ -1,0 +1,7 @@
+&e<Loukas> &f: Vous allez dire que je suis relou...
+&e<Loukas> &f: Mais j'ai bien reflechit.
+&e<Loukas> &f: La vérité, c'est que je n'ai plus très envie de mourir.
+&e<Loukas> &f: C'est trop facile de s'appitoyer sur son propre sort sans chercher à lutter.
+&e<Loukas> &f: Mais comment faire ? J'ai perdu le gout d'apprécier la vie...
+&e<Loukas> &f: Tristitude, tristitude, tout n'est que tristitude.
+ext()

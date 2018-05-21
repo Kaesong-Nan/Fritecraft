@@ -1,0 +1,36 @@
+id: 33
+category: 10
+cooldown: -1
+name: '&eArène: Blazes'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§eArène: Blazes'
+    lore:
+    - Hidden:Incendiaire
+    - Hidden:0.0
+    - Hidden:2351844f-f400-4fa4-9642-35169c5b048a
+    - 'Hidden:'
+    internal: H4sIAAAAAAAAAE2Py46bMABFPVUrZVA/o9tI5pUZlmmwElBsZgjB2DvsOOFhMyhv+Pqhu67PvVfnWgBY4PeuvWn9cf461lrNwI/oAP649rt8h0rMvbK0595bUM5LCcXcCWBw9GAgvENgAWsq9ep8rdXlFcyu6nm9ndXFAgC8zMCvvNQ39fKhhhiW1NbSTStRLOukQTAJ0ROHpxFnrUcadIm6v4NweC/WecxX0SJqSJNQ5OGmHfCaV2RMNXGwR0I0YhM3rEF2krGJL2FUP2q5ie/c6Avf+5Wg+zqp451wyF2sg04M0bRPeu741WGTDzyPtSzyXpq8jZoeyi7X21UMeVHBQzGxIVpMztkO6mTib1GXD+Kfk5n4ZrnYDsF/Wf9aUl8zN65493kTJodbN9Vqk9rS7O943DskOzlJqFtsPh1MkcsyabMmNYRiOP0feHbyE5o3jOInMeiRrLmZfjo8bH1Cmc1G9GCjdBlF9bGwAwBm4CcpjQKvq93q66y2tQDgG2Xh7grKAQAA
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0ODExMDgzMTk4NjEsInByb2ZpbGVJZCI6IjNjOWE4MjkyMGZhNzRlN2M4NDEzMmJjYjE1OTY4MjA0IiwicHJvZmlsZU5hbWUiOiJSb2NvbG9nbyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU2NTg2ODlkMmQ2MWE3YTc1YjRmNWM0MTkyZTg5OWVjYWMxNmEwOGZmNDE2ZDk5NWY1YzEwYzc3YWEifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: 6c6a2673-f302-49ef-9e5b-838495f51f69
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

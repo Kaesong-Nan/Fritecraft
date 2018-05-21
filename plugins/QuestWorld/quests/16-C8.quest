@@ -1,0 +1,59 @@
+id: 16
+category: 8
+cooldown: 43200000
+name: '&fCacao'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: INK_SACK
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fCacao
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: be78701f-66db-497d-bf1f-b8282708e3f0
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 3
+  amount: 48
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: be78701f-66db-497d-bf1f-b8282708e3f0
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: cae66a8d-4f23-44b3-8eb1-8f4c69c1f2b5
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

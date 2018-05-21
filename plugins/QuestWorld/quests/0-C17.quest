@@ -1,0 +1,33 @@
+id: 0
+category: 17
+cooldown: -1
+name: '&d&lInitiation'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §d§lInitiation
+    lore:
+    - §8Decoration
+    internal: H4sIAAAAAAAAAE2MwW6CQBiE/zZtgqSP0SvJAsLGgwdjW10CWNCCyw3WpbLuqkGQwnP1Acuxp8lkvm90AB1etqdWys/6UlaSa/BIDvBq5gdWYqs0SrMsjCli2Ji5GBvYsRFiLnawaeqgj9KV103FbxPQGv7TtDW/6QDwoMFzksuWwy/vPZTtj+iw9yTriTv23RbJDRFXTM5JXyyJS9S4rxeu38/+sU6Tp46ktnfMzlFbqAT5diz5OjaZ+rrTgaFgxzo6UIsqOgS7qMsEGcIVGQIxOqvIDkQswjRWoTihTfruBGLhZOK7C62kGtPK3mK1SYMpHT7k+DUlZ3NWRvM5gAZPYa44TJbb5aXmflUA/AFhvQC6LgEAAA==
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MTcwYzY2YmYzMTQwZjIzNGIzMjJhZGQ3MjRjNWRmNjk0OWE5MjA5ZjgwN2ViZjg2ZDRmOWM4YzFlMTc4In19fQ==
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 6d010e1b-2e09-494a-8034-040da799497b
+categoryId: 666a1ce7-200b-4529-a080-dbc7ec479ba0
+missions: []

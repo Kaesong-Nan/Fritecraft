@@ -1,0 +1,99 @@
+BouleRouge:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Rouge'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg0ZTkyNDg3YzY3NDk5OTViNzk3MzdiOGE5ZWI0YzQzOTU0Nzk3YTZkZDZjZDliNGVmY2UxN2NmNDc1ODQ2In19fQ
+BouleVerte:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Verte'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ODYxNWRmNmI3ZGRmM2FkNDk1MDQxODc2ZDkxNjliZGM5ODNhM2ZhNjlhMmFjYTEwN2U4ZjI1MWY3Njg3In19fQ
+BouleBleue:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Bleue'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlMTFkYjhmMzkyNzI3YTFjNDU5ZWI1OTFkZDhhMGFhMzg2MWMyNzQ4N2UxMzg0YmIyMmY5MTU3M2JlNyJ9fX0
+BouleJaune:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Jaune'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExYWIzYTExMzJjOWQxZWY4MzVlYTgxZDk3MmVkOWI1Y2Q4ZGRmZjBhMDdjNTVhNzQ5YmNmY2Y4ZGY1In19fQ
+BouleMagenta:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Magenta'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2NjJiYTA3MDhlOGQ2MGQ1NjM2NWVjMmJjMDBmZjE3OTJmMTY2MzRmYzg0NWE4NDNhODRkZTA4MWVhNGYifX19
+BouleCyan:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Cyan'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZTM0NjI4N2EyMWRiZmNhNWI1OGMxNDJkOGQ1NzEyYmRjODRmNWI3NWQ0MzE0ZWQyYTgzYjIyMmVmZmEifX19
+BouleArgent:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Argent'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ
+BouleOrange:
+  Id: 397
+  Data: 3
+  Display: '&eBoule Orange'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVhMTc3ZjFiNzRjYTU3YTFjY2U5MzhlOGQ5OTRiYzFmNjM3ZTVmNjljODJlZmYyOTYxMmExM2JhOGIyZGQ3In19fQ
+
+Bonnet:
+  Id: '306'
+  Display: '&6Chapeau de Noel'
+
+ItemBonnet:
+  Id: '318'
+  Display: '&fBonnet de noel &r'
+
+CaneEnSucre:
+  Id: '357'
+  Display: '&fCane en sucre &r'
+CaneEnSucreCaramel:
+  Id: '357'
+  Display: '&fCane en sucre au caramel &r'
+Trifle:
+  Id: '400'
+  Display: '&fTrifle &r'
+DindeRotie:
+  Id: '366'
+  Display: '&fDinde rotie &r'
+JambonRoti:
+  Id: '320'
+  Display: '&fJambon roti &r'
+TarteNoix:
+  Id: '400'
+  Display: '&fTarte aux noix &r'
+Puree:
+  Id: '393'
+  Display: '&fPurée &r'
+PainSteve:
+  Id: '297'
+  Display: '&fPain d''épice Steve &r'
+PainCreeper:
+  Id: '297'
+  Display: '&fPain d''épice Creeper &r'
+PainAlex:
+  Id: '297'
+  Display: '&fPain d''épice Alex &r'
+GateauFruits:
+  Id: '297'
+  Display: '&fGateau aux fruits &r'
+SauceCanneberge:
+  Id: '260'
+  Display: '&fSauce canneberge &r'
+Pudding:
+  Id: '297'
+  Display: '&fPudding de noel &r'
+CaneEnSucreMenthe:
+  Id: '260'
+  Display: '&fCane en sucre à la menthe poivrée &r'

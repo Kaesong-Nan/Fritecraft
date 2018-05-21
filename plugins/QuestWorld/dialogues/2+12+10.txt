@@ -1,0 +1,2 @@
+/give <player> baked_potato 5 name:&fFrites
+/minecraft:tp <player> ~ ~1 ~

@@ -1,0 +1,381 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&6&lHappy Meal'
+  StartingKeys: 3
+  InGUI: true
+  Slot: 1
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&6&lHappy Meal'
+  Lore:
+  - '&7Ce coffret contient des items de nourriture.'
+  - '&7Vous avez &6%Keys% clés &7pour ce coffret.'
+  - '&7&l(&e&l!&7&l) Clic droit pour voir les récompenses.'
+  PhysicalKey:
+    Name: '&6&lClé Happy Meal'
+    Lore:
+    - '&7Clé pour le coffret &6Happy Meal'
+    Item: '280'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&b&lPain'
+      DisplayItem: '297'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:297, Amount:10
+      Messages:
+      - ''
+    '2':
+      DisplayName: '&b&lChorus'
+      DisplayItem: '432'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:432, Amount:10
+      Messages:
+      - ''
+    '3':
+      DisplayName: '&b&lPomme'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10
+      Messages:
+      - ''
+    '4':
+      DisplayName: '&b&lSuper Pomme'
+      DisplayItem: '322'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+      - Item:322, Amount:3
+      Messages:
+      - ''
+    '5':
+      DisplayName: '&b&lSteak Haché'
+      DisplayItem: '320'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:320, Amount:10
+      Messages:
+      - ''
+    '6':
+      DisplayName: '&b&lPoisson'
+      DisplayItem: '350'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:350, Amount:10
+      Messages:
+      - ''
+    '7':
+      DisplayName: '&b&lGateau'
+      DisplayItem: '354'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 8
+      Firework: false
+      Items:
+      - Item:354, Amount:1
+      Messages:
+      - ''
+    '8':
+      DisplayName: '&b&lCookie'
+      DisplayItem: '357'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:357, Amount:10
+      Messages:
+      - ''
+    '9':
+      DisplayName: '&b&lSteak'
+      DisplayItem: '364'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:364, Amount:10
+      Messages:
+      - ''
+    '10':
+      DisplayName: '&b&lPoulet'
+      DisplayItem: '366'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:366, Amount:10
+      Messages:
+      - ''
+    '11':
+      DisplayName: '&b&Patate'
+      DisplayItem: '393'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:393, Amount:10
+      Messages:
+      - ''
+    '12':
+      DisplayName: '&b&lTarte'
+      DisplayItem: '400'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:400, Amount:4
+      Messages:
+      - ''
+    '13':
+      DisplayName: '&b&lBetterave'
+      DisplayItem: '434'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:434, Amount:10
+      Messages:
+      - ''
+    '14':
+      DisplayName: '&b&lOrange'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fOrange
+      Messages:
+      - ''
+    '15':
+      DisplayName: '&b&lAnanas'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fAnanas
+      Messages:
+      - ''
+    '16':
+      DisplayName: '&b&lPapaye'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fPapaye
+      Messages:
+      - ''
+    '17':
+      DisplayName: '&b&lPêche'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fPêche
+      Messages:
+      - ''
+    '18':
+      DisplayName: '&b&lCarambolier'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fCarambolier
+      Messages:
+      - ''
+    '19':
+      DisplayName: '&b&lPoire'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fPoire
+      Messages:
+      - ''
+    '20':
+      DisplayName: '&b&lRaisin'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fRaisin
+      Messages:
+      - ''
+    '21':
+      DisplayName: '&b&lLitchi'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fLitchi
+      Messages:
+      - ''
+    '22':
+      DisplayName: '&b&lMangue'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fMangue
+      Messages:
+      - ''
+    '23':
+      DisplayName: '&b&lCitron'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fCitron
+      Messages:
+      - ''
+    '24':
+      DisplayName: '&b&lBanane'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fBanane
+      Messages:
+      - ''
+    '25':
+      DisplayName: '&b&lPitaya'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fPitaya
+      Messages:
+      - ''
+    '26':
+      DisplayName: '&b&lAbricot'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fAbricot
+      Messages:
+      - ''
+    '27':
+      DisplayName: '&b&lNoix de coco'
+      DisplayItem: '260'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:260, Amount:10, Name:&fNoix de coco
+      Messages:
+      - ''
+    '28':
+      DisplayName: '&b&lPizza'
+      DisplayItem: '297'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:297, Amount:10, Name:&fPizza
+      Messages:
+      - ''
+    '29':
+      DisplayName: '&b&lDonut'
+      DisplayItem: '392'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:392, Amount:10, Name:&fDonut
+      Messages:
+      - ''
+    '30':
+      DisplayName: '&b&lTofu'
+      DisplayItem: '297'
+      Lore:
+      - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:297, Amount:10, Name:&fTofu
+      Messages:
+      - ''

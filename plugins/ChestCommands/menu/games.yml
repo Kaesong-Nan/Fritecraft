@@ -1,0 +1,246 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&d&lJeux'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'games; minigames; jeux'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Help:
+  NAME: '&c&l[*] Mini-jeux [*]'
+  LORE:
+    - '&fPlusieurs Mini-jeux sont disponnibles,'
+    - '&fet ils offrent tous des récompenses'
+    - '&fen émeraudes, mais aussi en renomée'
+    - '&favec des statistiques personnelles !'
+    - '&f '
+    - '&fIl est possible de rejoindre tous les mini-jeux'
+    - '&fdepuis ce panneau, il n''est pas obligatoire de se rendre'
+    - '&fdirectement devant les arènes.'
+  ID: 374
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+# Spleef:
+#   NAME: '&6&l[**] Spleef [**]'
+#   LORE:
+#     - '&fLe but du jeu est de détruire les blocs'
+#     - '&fde l''arène afin de faire tomber les autres'
+#     - '&fjoeuurs. Le dernier en vie gagne.'
+#     - ''
+#     - 'Joueurs min = 2'
+#     - 'Joueurs max = 4'
+#   ID: 256
+#   POSITION-X: 3
+#   POSITION-Y: 3
+#   COMMAND: 'sp join bones'
+#   KEEP-OPEN: false
+#
+# SpleefStats:
+#   COMMAND: 'sp lb; sp stats'
+#   NAME: '&dStatistiques'
+#   LORE:
+#     - 'Voir le classement et'
+#     - 'vos statistiques'
+#   ID: 439
+#   POSITION-X: 3
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+# OITC:
+#   NAME: '&6&l[**] Une flèche [**]'
+#   LORE:
+#     - '&fJeu PvP dans une arène où chaque'
+#     - '&fjoueur est équipé d''arc mortel, mais'
+#     - '&favec une seule flèche. Le premier joueur'
+#     - '&fà 20 points gagne.'
+#     - ''
+#     - 'Joueurs min = 2'
+#     - 'Joueurs max = 6'
+#   ID: 261
+#   POSITION-X: 4
+#   POSITION-Y: 3
+#   COMMAND: 'oitc join hell'
+#   KEEP-OPEN: false
+#
+# OITCStats:
+#   COMMAND: 'oitc lb; oitc stats'
+#   NAME: '&dStatistiques'
+#   LORE:
+#     - 'Voir le classement et'
+#     - 'vos statistiques'
+#   ID: 439
+#   POSITION-X: 4
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+Cube:
+  COMMAND: 'cr join'
+  NAME: '&6&l[**] Cube Runner [**]'
+  LORE:
+    - 'Listes des arènes de'
+    - 'Cube Runner.'
+    - ''
+    - '&fDans le Cube Runner, le but est de'
+    - '&fcourir dans l''arène en essayant'
+    - '&fd''éviter les blocs qui tombent du ciel.'
+    - '&Les joueurs sont éliminés si un bloc les touche.'
+    - '&fEssayez de tenir le plus longtemps possible !'
+    - ''
+    - 'Joueurs min = 1'
+    - 'Joueurs max = 4 à 8 (selon les arènes)'
+  ID: sand
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+Cubestats:
+  COMMAND: 'cr stats'
+  NAME: '&dStatistiques'
+  LORE:
+    - 'Voir vos statistiques,'
+    - 'classements, défis ...'
+  ID: 439
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+DAC:
+  COMMAND: 'dac list'
+  NAME: '&6&l[**] Dé à coudre [**]'
+  LORE:
+    - 'Listes des arènes de'
+    - 'dé à coudre.'
+    - ''
+    - '&fDans le dé à coudre, le but est de'
+    - '&fsauter depuis un plongeoir dans une piscine.'
+    - '&fLes joueurs sautent chacun leur tour, et à chaque'
+    - '&fplongeon réussi, un bloc va apparaitre.'
+    - '&fLe bassin devient donc de plus en plus petit.'
+    - '&fLes joueurs sont éliminés si ils n''arrivent pas'
+    - '&fà toucher l''eau.'
+    - ''
+    - 'Joueurs min = 2'
+    - 'Joueurs max = 3 à 8 (selon les arènes)'
+  ID: 138
+  POSITION-X: 1
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+DACSTATS:
+  COMMAND: 'dac stats'
+  NAME: '&dStatistiques'
+  LORE:
+    - 'Voir vos statistiques,'
+    - 'classements, défis ...'
+  ID: 439
+  POSITION-X: 1
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+
+# Island:
+#   COMMAND: 'is'
+#   NAME: '&6&l[**] Skyblock [**]'
+#   LORE:
+#     - '&fOuvrir le menu du mini jeu Skyblock'
+#     - '&f'
+#     - '&fDans ce jeu solo, vous commencez sur'
+#     - '&fune ile dans le vide, avec quelques ressources.'
+#     - '&fAvec vos connaissances de Minecraft, vous'
+#     - '&fdevez développer votre ile et monter les niveaux.'
+#     - '&fAttention à ne pas perdre vos précieuses ressources !'
+#     - ''
+#     - 'Jeu solo'
+#     - 'Mais coop disponnible'
+#   ID: 2
+#   POSITION-X: 2
+#   POSITION-Y: 3
+#   KEEP-OPEN: true
+
+# bed:
+#   NAME: '&6&l[**] Guerre des lits [**]'
+#   LORE:
+#     - '&fDans ce jeu, des équipes essaient'
+#     - '&fd''envahir les bases des autres dans'
+#     - '&fde le but de détruire leur lit. Quand un lit est'
+#     - '&fdétruit, les joueurs de cette équipe ne'
+#     - '&fpeuvent plus réapparaitre. La dernière équipe'
+#     - '&fen jeu gagne.'
+#     - '&f'
+#     - '&fLes équipes commencent sur une ile, et doivent'
+#     - '&fconstruire des ponts pour atteindre les autres iles.'
+#     - '&fIl y a aussi des générateurs de ressources qui'
+#     - '&fpermettent d''acheter de l''équipement à un marchand.'
+#     - ''
+#     - 'Joueurs min = 2'
+#     - 'Joueurs max = 16'
+#   ID: 355
+#   POSITION-X: 6
+#   POSITION-Y: 3
+#   COMMAND: 'bw join kingdoms'
+#   KEEP-OPEN: true
+#
+# BedStats:
+#   COMMAND: 'bw stats'
+#   NAME: '&dStatistiques'
+#   LORE:
+#     - 'Voir vos statistiques'
+#   ID: 439
+#   POSITION-X: 6
+#   POSITION-Y: 4
+#   KEEP-OPEN: true
+
+
+# Mob:
+#   NAME: '&6&l[**] Course du Dragon [**]'
+#   LORE:
+#     - ''
+#   ID: 381
+#   POSITION-X: 7
+#   POSITION-Y: 3
+#   COMMAND: 'etm join'
+#   KEEP-OPEN: true

@@ -1,0 +1,11 @@
+&e<Canigouter> &f : Yo.
+&e<Canigouter> &f : Euh... je veux dire... WOUF !
+&e<Canigouter> &f : D'accord, j'ai compris. Ma couverture est grillée.
+&e<Canigouter> &f : Tu cherches l'un des ingrédients de la vieille Michelle ?
+&e<Canigouter> &f : Il se trouve que je l'ai.
+&e<Canigouter> &f : C'est un oeuf sacré. Et il est trop précieux pour être utilisé dans une soupe de grand-mère.
+&e<Canigouter> &f : Je sais que je peux te faire confiance.
+&e<Canigouter> &f : Trouve un oeuf. Et fais lui croire qu'il s'agit de l'oeuf sacré.
+&e<Canigouter> &f : La vieille Michelle est bigleuse, ça devrait le faire.
+&e<Canigouter> &f : Hein ? Comment je sais que je peux te faire confiance ?
+&e<Canigouter> &f : Ben c'est marqué dans le script !

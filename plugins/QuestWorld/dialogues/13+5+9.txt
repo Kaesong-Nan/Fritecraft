@@ -1,0 +1,22 @@
+&9<Yvan> &f: Les nuggets d’Irvine sont vraiment les meilleures du monde...
+&9<Yvan> &f: Et si nourrissants... Je vous remercies beaucoup.
+&9<Yvan> &f: Les voyageurs détestent Irvine en général.
+&9<Yvan> &f: Vous devez vraiment être très intéressé par cette histoire.
+&9<Yvan> &f: Il y un peu moins de un an, il s’est passé quelque chose.
+&9<Yvan> &f: Quelque chose de suffisamment terrible pour que les moines refusent d’en parler.
+&9<Yvan> &f: Nous autres à Irvine vénérons Nuggestgirl. En ce sens, nous vénérons la Poule.
+&9<Yvan> &f: Mais quelqu’un n’était pas d’accord avec cette adoration...
+&9<Yvan> &f: Un vieux Bonze, au dernier étage du bâtiment des moines.
+&9<Yvan> &f: Il avait ses propres théories sur les divinités. Il a fini par s’enfermer.
+&9<Yvan> &f: Beaucoup racontent qu’il faisait des expériences. Un travail sordide...
+&9<Yvan> &f: Un jour, le haut du bâtiment a explosé. Irvine a connu un terrible incendie.
+&9<Yvan> &f: Ma maison y est passée ce jour là... Mais ce n’est pas le pire.
+&9<Yvan> &f: Des événements étranges se passent depuis.
+&9<Yvan> &f: Les gens entendent des voix. Certains se suicident.
+&9<Yvan> &f: Irvine est hantée. C’est évident.
+&9<Yvan> &f: Ecoutez, vous voulez tenter de résoudre l’affaire ?
+&9<Yvan> &f: Grand bien vous fasse ! Je sais comment accéder aux quartiers du Bonze.
+&9<Yvan> &f: Mais vous ne pourrez pas y aller comme une fleur. C’est trop risqué.
+&9<Yvan> &f: Il existe un livre. Le M’imdesa Nallada.
+&9<Yvan> &f: Le Moine Uzul le garde dans la chambre des Moines.
+&9<Yvan> &f: Allez-y, subtilisez-le, et ramenez-le moi !

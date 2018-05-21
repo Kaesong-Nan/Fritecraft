@@ -1,0 +1,19 @@
+name: Blazes
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Blazes'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: BLAZE_ROD
+data: 0
+location: HUB<>1184.8480981704324<>197.24375407567013<>-507.62715199353636<>6.649105<>-92.60897
+slot: 52

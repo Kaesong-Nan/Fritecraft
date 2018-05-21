@@ -1,0 +1,299 @@
+Settings:
+  Prefix: '&7[&2&lBourse&7]: ' #Prefix of when you get Crazy Auctions Messages.
+  GUIName: '&aMarché&8' #Name of the Main GUI.
+  Players-Current-Items: '&8Vos offres en cours' #The Name of the Player Current Items GUI.
+  Cancelled/Expired-Items: '&8Offres annulées' #Name of the Cancelled/Expired GUI.
+  Buying-Item: '&8Confirmer l''achat ?' #Name of the Buying GUI.
+  Bidding-On-Item: '&8Vous avez placé une enchère sur cet item.' #Name of the Budding GUI.
+  Categories: '&8Catégories' #Name of the Category GUI.
+  Sell-Time: 60d #The time that each item will sell for.
+  Bid-Time: 5m #Time for each item that is biddable.
+  Full-Expire-Time: 60d #The full time the item is in the crazy auctions.
+  Bid-Winner-Time: 20d #The time the winner of a bid has to claim there prize.
+  Minimum-Sell-Price: 1 #Minimum amount you can sell a item for.
+  Max-Beginning-Sell-Price: 10000 #Max amount you can sell a item for.
+  Minimum-Bid-Price: 1 #Minimum starting bid.
+  Max-Beginning-Bid-Price: 10000 #Maximum starting bid.
+  Allow-Damaged-Items: False #Allow items that have been damaged.
+  Category-Page-Opens-First: False #If set to true the categories page will open when they do /CA.
+  Sounds:
+    Toggle: False #Disable the clicking sound.
+    Sound: 'CLICK' #Make sure if you use 1.8 or lower you use the 1.8 sound and 1.9 and up use 1.9 sounds. The default sound is 1.8.
+    #1.8 sounds are found here: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+    #1.9 sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  GUISettings: #Settings for things in the gui.
+    SellingItemLore: #The lore on items that are being sold.
+      - '&7-------------------------'
+      - '&aClic pour acheter.'
+      - ''
+      - '&9Prix: &e$%Price%'
+      - '&9Vendeur: &e%Seller%'
+      - '&7-------------------------'
+    CurrentLore: #Lore on items that are in your current items GUI.
+      - '&7-------------------------'
+      - '&aClic pour annuler.'
+      - ''
+      - '&9Prix: &e$%Price%'
+      - '&9Expire: &e%Time%'
+      - '&7-------------------------'
+    Cancelled/ExpiredLore: #Lore on items that are in your cancelled/expired GUI.
+      - '&7-------------------------'
+      - '&aClic pour récupérer.'
+      - ''
+      - '&9Expire: &e%Time%'
+      - '&7-------------------------'
+    Bidding: #Lore on Bidding Items.
+      - '&7-------------------------'
+      - '&aClic pour enchérir.'
+      - ''
+      - '&9Vendeur: &e%Seller%'
+      - '&9Enchère actuelle: &e$%TopBid%'
+      - '&9Meilleur: &e%TopBidder%'
+      - '&9Temps restant: &e%Time%'
+      - '&7-------------------------'
+    Category-Settings:
+      Armor:
+        Item: '315'
+        Toggle: true
+        Slot: 11
+        Name: '&6&lArmure'
+        Lore:
+          - '&7Cette catégorie contient toutes les'
+          - '&7armures actuellement en vente.'
+      Weapons:
+        Item: '283'
+        Toggle: true
+        Slot: 12
+        Name: '&6&lArmes'
+        Lore:
+          - '&7Cette catégorie contient toutes les'
+          - '&7armes actuellement en vente.'
+      Tools:
+        Item: '285'
+        Toggle: true
+        Slot: 13
+        Name: '&6&lOutils'
+        Lore:
+          - '&7Cette catégorie contient tous les'
+          - '&7outils actuellement en vente.'
+      Food:
+        Item: '322'
+        Toggle: true
+        Slot: 14
+        Name: '&6&lNourriture'
+        Lore:
+          - '&7Cette catégorie contient toutes les'
+          - '&7nourritures actuellement en vente.'
+      Potions:
+        Item: '373:8227'
+        Toggle: true
+        Slot: 15
+        Name: '&6&lPotions'
+        Lore:
+          - '&7Cette catégorie contient toutes les'
+          - '&7potions actuellement en vente.'
+      Blocks:
+        Item: '2'
+        Toggle: true
+        Slot: 16
+        Name: '&6&lBlocs'
+        Lore:
+          - '&7Cette catégorie contient tous les'
+          - '&7blocs actuellement en vente.'
+      Other:
+        Item: '371'
+        Toggle: true
+        Slot: 17
+        Name: '&6&lAutres'
+        Lore:
+          - '&7Cette catégorie contient toutes les'
+          - '&7autres trucs actuellement en vente.'
+      None:
+        Item: '166'
+        Toggle: true
+        Slot: 23
+        Name: '&6&lAucunes'
+        Lore:
+          - '&7Cette catégorie contient tous les'
+          - '&7objets en vente sur le serveur.'
+    OtherSettings: #Other Settings for the GUIs.
+      SellingItems: #The button for your current items.
+        Item: '264' #The item that this button is.
+        Toggle: true #If the item is in the gui or not.
+        Slot: 46 #The slot it is in. I recommend not changing these. If you do make sure they are still in the bottom row.
+        Name: '&6Items que vous vendez' #Name of the item.
+        Lore: #Lore of the item.
+          - '&aClic ici pour voir tous les items que vous'
+          - '&aavez actuellement en vente sur le marché.'
+      Cancelled/ExpiredItems: #The button for Cancelled/Expired Items.
+        Item: '394'
+        Toggle: true
+        Slot: 47
+        Name: '&6Récupérer les ventes annulées / expirées'
+        Lore:
+          - '&aClic ici pour voir et récuperer tous les'
+          - '&aitems que vous avez annulés ou qui ont expirés.'
+      PreviousPage: #The button for Previous Page.
+        Item: '339'
+        Toggle: true
+        Slot: 49
+        Name: '&6Page précédente'
+        Lore: {}
+      Refesh: #The button for Refresh Page.
+        Item: '175'
+        Toggle: true
+        Slot: 50
+        Name: '&6Rafraichir'
+        Lore: {}
+      NextPage: #The button for Next Page.
+        Item: '339'
+        Toggle: true
+        Slot: 51
+        Name: '&6Page suivante'
+        Lore: {}
+      Category1: #The button for Next Page.
+        Item: '54'
+        Toggle: true
+        Slot: 52
+        Name: '&6Categories'
+        Lore:
+          - '&bCatégorie actuelle: &6%Category%'
+          - '&aVous voulez voir une catégorie spécifique ?'
+          - '&aClic ici pour voir toutes les catégories'
+      Category2: #The button for Next Page.
+        Item: '54'
+        Toggle: true
+        Slot: 48
+        Name: '&6Categories'
+        Lore:
+          - '&bCatégorie actuelle : &6%Category%'
+          - '&aVous voulez voir une catégorie spécifique ?'
+          - '&aClic ici pour voir toutes les catégories'
+      Bidding/Selling: #Switch between Bidding and Selling.
+        Selling:
+          Item: '341'
+          Toggle: true
+          Slot: 53
+          Name: '&6Type actuel : ventes.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Clic ici pour voir les items'
+            - '&7en enchères.'
+        Bidding:
+          Item: '378'
+          Toggle: true
+          Slot: 53
+          Name: '&6Type actuel : enchères.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Clic ici pour voir les items'
+            - '&7en ventes.'
+      WhatIsThis: #The info on all the Books buttons.
+        SellingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Hein ?'
+          Lore:
+            - '&fVoici la &2Bourse de Bouquenia&f.'
+            - '&fIci vous pouvez mettre des items en vente,'
+            - '&fou bien acheter les items des autres joueurs.'
+            - ''
+            - '&fCet endroit est pratique pour se faire quelques'
+            - '&fémeraudes en vendant des items convoités par'
+            - '&fles autres joueurs.'
+            - ''
+            - '&fIl n''y a aucuns frais de mise en vente.'
+        BiddingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Hein ?'
+          Lore:
+            - '&fVoici la &2Bourse de Bouquenia&f.'
+            - '&fIci vous pouvez mettre des items en enchères,'
+            - '&fou bien acheter les items des autres joueurs.'
+            - ''
+            - '&fCet endroit est pratique pour se faire quelques'
+            - 'afémeraudes en vendant des items convoités par'
+            - '&fles autres joueurs.'
+            - ''
+            - '&fIl n''y a aucuns frais de mise en vente.'
+        CurrentItems: #The Book in the Current items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Hein ?'
+          Lore:
+            - '&fCette page affiche tous vos listings en cours.'
+            - '&fTous vos items en vente apparaissent ici.'
+            - ''
+            - '&fVous pouvez aussi annuler vos listings ici.'
+        Cancelled/ExpiredItems: #The Book in the Cancelled/Expired Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Hein ?'
+          Lore:
+            - '&fCette page affiche tous vos items annulés'
+            - '&fou expirés pour pouvoir les récuperer.'
+            - ''
+            - '&fIl suffit de cliquer sur un item pour le récuperer.'
+        Viewing: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 50
+          Name: '&6Hein ?'
+          Lore:
+            - '&fCette page affiche tous les listings'
+            - '&fd''un joueur en particulier.'
+        Categories: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Hein ?'
+          Lore:
+            - '&fCette page vous montre les différentes catégories'
+            - '&fque vous pouvez choisir pour filtrer les listings.'
+      Back: #The Back Buttons.
+        Item: '339'
+        Slot: 46
+        Name: '&6Retour'
+      Return: #The Return Buttons.
+        Item: '390'
+        Slot: 50
+        Name: '&6Tout récupérer'
+        Lore:
+          - '&fClic ici pour transférer tous les items'
+          - '&fannulés ou expirés directement vers votre inventaire.'
+      Confirm: #The Confirm Buttons.
+        Item: '160:5'
+        Name: '&aConfirmer'
+      Cancel: #The Cancel Buttons.
+        Item: '160:14'
+        Name: '&cAnnuler'
+      Your-Item: #The item that shows when you try to buy/bid on your item.
+        Item: '166'
+        Name: '&cVous ne pouvez pas acheter votre propre item.'
+      Cant-Afford: #The item that shows when you cant afford this item.
+        Item: '166'
+        Name: '&cVous n''aves pas assez pour cet item.'
+      Top-Bidder: #The item for when a player is already the top bidder.
+        Item: '166'
+        Name: '&cVous êtes le meilleur enchérisseur.'
+      Bidding: #The item in the middle when bidding on an item.
+        Item: '160:15'
+        Name: '&7Enchère'
+        Lore:
+          - '&7<--&aAjouter &cRetirer&7-->'
+          - '&9Votre enchère actuelle: &e$%Bid%'
+          - '&9Meilleure enchère actuelle: &e$%TopBid%'
+      Bid: #The button for when you want to confirm your bid.
+        Item: '160:3'
+        Name: '&bEnchérir maintenant'
+        Lore:
+          - '&7Clic ici pour enchérir maintenant.'
+  BlackList:
+    - '7'
+    - '52'
+    - '120'
+    - '383'
+    - '384'

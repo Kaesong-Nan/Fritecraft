@@ -1,0 +1,9 @@
+&6<Tuteur> &f: Dans le monde RP, c'est à dire Bouquenia, se trouvent de nombreuses quêtes.
+&6<Tuteur> &f: Tu peux les voir dans ton journal de quêtes, ou avec la commande &d/quests&f.
+&6<Tuteur> &f: Les quêtes sont classées dans des catégories.
+&6<Tuteur> &f: Elles regroupent les quêtes par lieu, ou par thème général.
+&6<Tuteur> &f: Par exemple, ici se trouvent des quêtes de la catégorie "&aTutoriel&f".
+&6<Tuteur> &f: Le journal de quête montre les objectifs à suivre pour les quêtes.
+&6<Tuteur> &f: Il montre aussi les récompenses lorsque toutes les étapes sont complétées.
+&6<Tuteur> &f: Certaines quêtes peuvent être répétées.
+&6<Tuteur> &f: Notamment les quêtes quotidiennes, principale source d'émeraudes de Fritecraft.

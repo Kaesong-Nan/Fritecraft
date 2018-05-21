@@ -1,0 +1,61 @@
+id: 15
+category: 4
+cooldown: -60000
+name: '&5&lMichael, le Hiérophante'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §5§lMichael, le Hiérophante
+    internal: H4sIAAAAAAAAAE2Ly26CQBRAb5s2QdLP6JZkeKqLLlpLFSJM1REcdgxeymNQg6ClX9VPrMsuT845KoAKT5u6l/KzPealRAXuvT08m2KSZ9OxoRlIhGZlGWoTRF2zzL2wMcXcsYUK6m06YduVeB6B0uF317d4VgHgToHHKJU9wi8OPkl2BdnvfJkNnnNjtiGSetVp7B2iQcw8x2tufvHqLIfpv9bu0tiW3PSL5LDqRRORpbmWuFjrWbO9hIar09gvg7lrchYMlHGdV2FN2VtN51GRNK5FmawD9vUTxpwE1UoP3qXk8boO51uDV9mVxh81Z9srr2SVlP4035EXAAUewrRBGM02s2OLy1IA/AFGcYh3KgEAAA==
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 8cfc7752-dff6-4344-ab2d-69117f8fb844
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 58
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&5&lHiérophante'
+  timeframe: 0
+  questId: 8cfc7752-dff6-4344-ab2d-69117f8fb844
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 60.0
+    y: 65.0
+    z: 1980.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 05b2bbc1-aa48-49df-b45f-d2d4ddcd7450
+  entity: ENDERMAN
+  custom_int: 0
+  exclude-spawners: false

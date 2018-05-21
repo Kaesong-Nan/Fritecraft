@@ -1,0 +1,10 @@
+&9<Chef> &f: Bon. J'ai de quoi faire survivre l'équipage de la plateforme. C'est un début.
+&9<Chef> &f: Mais je crains que ça ne soit pas suffisant.
+&9<Chef> &f: On a très faim.
+&9<Chef> &f: Il nous faudrait des protéines.
+&9<Chef> &f: De la viande en gros.
+&9<Chef> &f: Et, ça va peut-être t'étonner, puisqu'on est en pleine mer, mais ...
+&9<Chef> &f: On aime bien le poisson, sauf qu'on ne sait pas pêcher.
+&9<Chef> &f: Ironique n'est-ce pas ?
+&9<Chef> &f: Et puis, le hangar, qui est notre seul acces à l'eau, est ... "occupé" ...
+&9<Chef> &f: Aller, va chercher. Nous vouloir lardons.

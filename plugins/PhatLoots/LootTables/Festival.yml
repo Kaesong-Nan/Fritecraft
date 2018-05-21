@@ -1,0 +1,394 @@
+Festival:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aElytres de Lune §r
+          enchants:
+            PROTECTION_PROJECTILE: 3
+            DURABILITY: 2
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aElytres d'Eclipse §r
+          enchants:
+            DURABILITY: 2
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: TOTEM
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lSac de skin §r
+          lore:
+          - §7Clic droit pour ouvrir pour
+          - §7obtenir un skin aléatoires.
+      Probability: 3.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCape d'Eclipse §r
+          enchants:
+            PROTECTION_PROJECTILE: 3
+            DURABILITY: 2
+      Probability: 4.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCape de Lune §r
+          enchants:
+            PROTECTION_PROJECTILE: 3
+            DURABILITY: 2
+      Probability: 4.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lBoost XP §d(Serveur)
+          lore:
+          - §7Clic droit pour activer un boost pour le server!
+          - ''
+          - §6+50% XP §7(Talents) pendant §b20 minutes
+          - §7Durée cumulable
+      Probability: 6.0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_12
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_3
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_4
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_6
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_7
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_8
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_9
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: RECORD_11
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: Disque
+      Probability: 7.0
+      UpperNumberOfLoots: 1
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: EXP_BOTTLE
+        amount: 10
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_fire_resistance
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT_POPPED
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lPaquet de glaces
+          lore:
+          - §7Clic droit pour ouvrir pour
+          - §7obtenir 6 glaces aléatoires.
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          id: parrot
+      Probability: 15.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FIREWORK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: FIREWORK
+          firework-effects:
+          - ==: Firework
+            flicker: false
+            trail: true
+            colors:
+            - ==: Color
+              RED: 222
+              BLUE: 42
+              GREEN: 207
+            - ==: Color
+              RED: 235
+              BLUE: 68
+              GREEN: 136
+            fade-colors:
+            - ==: Color
+              RED: 240
+              BLUE: 240
+              GREEN: 240
+            - ==: Color
+              RED: 235
+              BLUE: 68
+              GREEN: 136
+            type: BALL_LARGE
+          power: 2
+      Probability: 30.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard bleue §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard verte §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard rouge §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard jaune §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard rose §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard violette §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §eBodyboard noire §r
+          enchants:
+            DURABILITY: 3
+          blockMaterial: SHIELD
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba bleu §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba vert §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba rouge §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba jaune §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba orange §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTuba violet §r
+          enchants:
+            OXYGEN: 3
+            WATER_WORKER: 1
+      Probability: 1.0
+    LowerNumberOfLoots: 1
+    Name: Loot
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_NUGGET
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §a§lJeton de jeu
+        lore:
+        - §7Un jeton pour le §ecasino
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: Festival
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

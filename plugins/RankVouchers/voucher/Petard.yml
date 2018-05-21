@@ -1,0 +1,22 @@
+voucher:
+  item:
+    item: ENCHANTED_BOOK
+    name: '&b&lPetard Coloré'
+    lore:
+    - '&7Clic droit pour déverouiller'
+    - '&7ce cosmétique dans le menu !'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Message] '
+        - '[Message] &e&l>> &7&oLe cosmétiques &e&oConfettis &7&oest maintenant disponnible
+          !'
+        - '[Message] '
+        - '[ConsoleCommand] pex user %player% add ultracosmetics.gadgets.colorbomb'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

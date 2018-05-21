@@ -1,0 +1,80 @@
+CRecipes:
+  '0':
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fCane en sucre §r
+    Recipe:
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE
+      8:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+  '1':
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fCane en sucre à la menthe poivrée §r
+    Recipe:
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+      8:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+  '2':
+    Type: Shaped
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fCane en sucre au caramel §r
+    Recipe:
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+      5:
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE_DUST
+      8:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+  '3':
+    Type: Shapeless
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fGuirlande §r
+    Recipe:
+      1:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_SHARD
+      2:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_SHARD
+      3:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_SHARD
+      4:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_SHARD

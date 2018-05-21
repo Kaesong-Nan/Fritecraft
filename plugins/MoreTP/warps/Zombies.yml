@@ -1,0 +1,19 @@
+name: Zombies
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Zombie'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: IRON_NUGGET
+data: 0
+location: HUB<>875.5970050566222<>116.0<>-237.49465628708728<>6.3568325<>-184.58661
+slot: 45

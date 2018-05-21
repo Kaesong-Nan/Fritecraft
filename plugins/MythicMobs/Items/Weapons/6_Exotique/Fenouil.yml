@@ -1,0 +1,38 @@
+Fenouil:
+  Id: DIAMOND_AXE
+  Display: '&6&lFenouil &r'
+  Lore:
+  - '&7Redondance X'
+  - '&7Solidité II'
+  - '&7Recul I'
+  - '&7Vigueur II'
+  - '&7Armure I'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dSurnaturel'
+  - '&bLa partie tigeuse, qui présente une prospérité,'
+  - '&bpeut être considérée comme redondante.'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      AttackSpeed: -0.8
+      Armor: 2
+      Damage: 7
+      Health: 4
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - KNOCKBACK:1
+  - DURABILITY:2
+  Skills:
+  - skill{s=Surnaturel} ~onTimer:5 @self

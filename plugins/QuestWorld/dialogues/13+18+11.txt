@@ -1,0 +1,10 @@
+&d<Philippe> &f: Ah Fabienne, vous revenez avec les burgers ? Je ne vous attendais plus !
+&d<Philippe> &f: Ah tiens non, ce n'est que vous. Vous avez mon collier ?
+&d<Philippe> &f: Qu'est ce que c'est que ce truc ? Ca ressemble à... On dirait une...
+&d<Philippe> &f: Oh ...
+&d<Philippe> &f: Qoi
+&d<Philippe> &f: Mais vous êtes malade ! C'est ignoble ! Et en plus c'est fragile...
+&d<Philippe> &f: Et voilà, je l'ai cassé ! Merci ! M.E.R.C.I ! Et je fais comment maintenant ?
+&d<Philippe> &f: Débrouillez-vous, retournez voir le forgeron, faites quelque chose quoi !
+&d<Philippe> &f: Et ne vous attendez pas à ce que je vous payes pour ce travail baclé !
+&e&l>> &r&7Retournez voir Vulcain le forgeron pour qu'il fasse mieux que ça

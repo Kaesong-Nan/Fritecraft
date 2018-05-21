@@ -1,0 +1,7 @@
+&e<Prêtre de Irvine> &f: Vous allez rire.
+&e<Prêtre de Irvine> &f: Je me suis encore planté.
+&e<Prêtre de Irvine> &f: J'ai oublié de lier le sujet au verbe.
+&e<Prêtre de Irvine> &f: Cette fois, c'est la bonne .
+&e<Prêtre de Irvine> &f: Poulard, dans sa grande bonté, a décidé d'offrir une compensation financière a un clochard d'Irvine.
+&e<Prêtre de Irvine> &f: Mais les caisses sont vides... Vous voyez où je veux en venir ? Hum ?
+&e<Prêtre de Irvine> &f: Mais à coup sûr, notre bienfaiteur à plumes vous récompensera pour votre générosité !

@@ -1,0 +1,57 @@
+id: 1
+category: 8
+cooldown: 43200000
+name: '&fFer'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fFer
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 37
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 9de4b880-a59d-4e29-befd-7dd76ff93594
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+  amount: 32
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 9de4b880-a59d-4e29-befd-7dd76ff93594
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3e7df55c-1217-4654-b4fe-e99b5dd6f751
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

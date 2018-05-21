@@ -1,0 +1,70 @@
+Volcanique:
+  Skills:
+  - effect:particles{particle=flame;amount=3;hs=0.5;vs=1} @self
+Divin:
+  Skills:
+  - effect:particles{particle=totem;amount=3;hs=0.5;vs=1} @self
+Electrique:
+  Skills:
+  - effect:particles{particle=wake;amount=3;hs=0.5;vs=1} @self
+Chargé:
+  Skills:
+  - effect:particles{particle=reddust;amount=3;hs=0.5;vs=1} @self
+Illustre:
+  Skills:
+  - effect:particles{particle=fireworksSpark;amount=3;hs=0.5;vs=1;y=1.2} @self
+  # - effect:particles{particle=mobSpell;color=#32BEF4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  # - effect:particles{particle=mobSpell;color=#C3F7FF;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  # - effect:particles{particle=mobSpellAmbient;color=#32BEF4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  # - effect:particles{particle=mobSpellAmbient;color=#C3F7FF;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+Etrange:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=3;hs=0.5;vs=1} @self
+Paradoxal:
+  Skills:
+  - effect:particles{particle=portal;amount=3;hs=0.5;vs=1} @self
+Maudit:
+  Skills:
+  - effect:particles{particle=witchMagic;amount=3;hs=0.5;vs=1} @self
+Obscur:
+  Skills:
+  - effect:particles{particle=smoke;amount=3;hs=0.5;vs=1} @self
+  - effect:particles{p=depthsuspend;a=10;hS=0.5;vS=0.5;speed=1;y=1.2} @self
+Surnaturel:
+  Skills:
+  - effect:particles{particle=happyVillager;amount=3;hs=0.5;vs=1} @self
+Glacial:
+  Skills:
+  - effect:particles{particle=endRod;amount=3;hs=0.5;vs=1} @self
+
+Haunted:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#21262D;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpell;color=#2C003A;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#21262D;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#2C003A;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+
+Solaire:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#FFCC33;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpell;color=#FF6633;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#FFCC33;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#FF6633;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+Vortex:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#66FDC4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpell;color=#CCFFDE;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#66FDC4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#CCFFDE;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+Etoile:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#32BEF4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpell;color=#C3F7FF;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#32BEF4;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#C3F7FF;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+Nebula:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#FF96EA;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpell;color=#EDE7F5;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#FF96EA;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self
+  - effect:particles{particle=mobSpellAmbient;color=#EDE7F5;amount=1;hs=0.5;vs=1;y=1.2;s=0.9} @self

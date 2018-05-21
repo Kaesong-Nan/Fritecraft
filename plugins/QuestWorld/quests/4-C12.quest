@@ -1,0 +1,123 @@
+id: 4
+category: 12
+cooldown: -60000
+name: Le réacteur
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Diamond Block
+    lore:
+    - §8Blocks
+    - §8Gem, §8Vanilla
+    internal: H4sIAAAAAAAAAE2PzU6DQBhFP01MkPgYbkmGn9LMoosq2g4pU6EDlNlRGEJxBhsKtfS5fEBJ3Hh3J/fcxdUBdHjafQ5SfnRf1VEKDe5JCc/IQQ4uMDJKW2DDcS3TwEVeGegveZ7juQ76NDqJrj+K8yNovbj2QyfOOgDcafCQ5HIQ8CNGH/F9jcq9L4uRuBOzHZJb0pzmpE3GwytxiZr69dLdjPifO+vzdCYz2695Gw4HlaCNHUmxjsxCxZcty24Bi2fUihrOIkm9pRmkscO9pKYsvNEmvE6OlaXEpCt+5A0xM/YiuZd9U69UAXuXtHlDwSp0titfUa9WpDVxFS4W0wP4BTo1EEYcAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.choco.usine5
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 12-C3
+uniqueId: 6d56470a-ae66-4b17-8a91-29a97d3f3933
+categoryId: 4cc988b3-c359-42e3-b557-5c2a3507b1fb
+parentId: 4cd506a5-fd16-4e08-a6f3-d9a7bccdcd5a
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&aGabriel Logan'
+  timeframe: 0
+  questId: 6d56470a-ae66-4b17-8a91-29a97d3f3933
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 562.0
+    y: 119.0
+    z: 2019.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2f4b7d41-273e-4e77-9ffd-da02dd45a36e
+  entity: PLAYER
+  custom_int: 320
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFragment Nucléaire
+      lore:
+      - Eclat du minerai servant à
+      - faire tourner la centrale.
+      enchants:
+        THORNS: 3
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy45d5DzdWSzSzALAydIyCc1sbhkRuvuH4466d/YGNgcc/NL80ocBBjAgIOBJTgnv4SBPT8tLSMxL4WDgRdug19ibiqDYHpqXmpRZrJebmKFR2piTkkGMwOnf0FqUWJJZn4e1AiwSi6givgMsBIGJOf4Vtnu3bTafy6ycxZHR2a48V+5BnfOAWKdwwtzTmJRbn4RLqewgmWRXcH2sYn5SoGLILIr9rptXheU8ZYR7gr7nTNBYBZBV4jCAyW/LDU3Na8kuCA1NQXNNUww1/DBVMUXg5QhO2tF2Oy2i95ujMjOWhsgxZWt8cwHETgKRAYOD8xZOaXJ2bjChgUkycAAAC0YRchOAgAA
+  amount: 1
+  lore: ''
+  index: 1
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: 6d56470a-ae66-4b17-8a91-29a97d3f3933
+  reset-on-death: false
+  display-name: Récuperer un fragment du réacteur
+  location:
+    world: Bouquenia
+    x: 466.0
+    y: 71.0
+    z: 2091.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4c4f1676-10c3-4570-803e-8af2780e869e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aFragment Nucléaire
+      lore:
+      - Eclat du minerai servant à
+      - faire tourner la centrale.
+      enchants:
+        THORNS: 3
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy45d5DzdWSzSzALAydIyCc1sbhkRuvuH4466d/YGNgcc/NL80ocBBjAgIOBJTgnv4SBPT8tLSMxL4WDgRdug19ibiqDYHpqXmpRZrJebmKFR2piTkkGMwOnf0FqUWJJZn4e1AiwSi6givgMsBIGJOf4Vtnu3bTafy6ycxZHR2a48V+5BnfOAWKdwwtzTmJRbn4RLqewgmWRXcH2sYn5SoGLILIr9rptXheU8ZYR7gr7nTNBYBZBV4jCAyW/LDU3Na8kuCA1NQXNNUww1/DBVMUXg5QhO2tF2Oy2i95ujMjOWhsgxZWt8cwHETgKRAYOD8xZOaXJ2bjChgUkycAAAC0YRchOAgAA
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: '&eSequeira'
+  timeframe: 0
+  questId: 6d56470a-ae66-4b17-8a91-29a97d3f3933
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 564.0
+    y: 119.0
+    z: 2017.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0bcbc81d-b633-4f3d-8d55-591f6fba2597
+  entity: PLAYER
+  custom_int: 308
+  exclude-spawners: false

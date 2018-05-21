@@ -1,0 +1,57 @@
+id: 27
+category: 8
+cooldown: 43200000
+name: '&fChêne'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fChêne
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: a139faab-999d-440e-bc8c-1fa7b3801011
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LOG
+  amount: 48
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: a139faab-999d-440e-bc8c-1fa7b3801011
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 517.0
+    y: 79.0
+    z: 722.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3e07d315-913d-4490-866b-cfca7a1c648a
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

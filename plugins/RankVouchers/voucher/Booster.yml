@@ -1,0 +1,20 @@
+voucher:
+  item:
+    item: PAPER
+    name: '&e&lBoost XP'
+    lore:
+    - '&7Clic droit pour activer un boost personnel!'
+    - ''
+    - '&6+100% XP &7(Talents) pendant &b1 heure'
+    - '&7Durée cumulable'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] pbooster exp %player% 2 60'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

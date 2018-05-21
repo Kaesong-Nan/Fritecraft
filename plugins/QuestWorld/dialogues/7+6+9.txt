@@ -1,0 +1,10 @@
+§9<Zajonc> §f: Nous avons capturé un specimen très étrange de vache.
+§9<Zajonc> §f: Comme vous pouvez le voir dans l'enclos, c'est un modèle très particulier.
+§9<Zajonc> §f: J'ai également remarqué la présence de fungi sur son épiderme.
+§9<Zajonc> §f: Mon étude aborde donc deux sujets.
+§9<Zajonc> §f: Premièrement, le rapport entre les champignons et la vache.
+§9<Zajonc> §f: Et deuxièmement, le rapport entre l'animal et différents types d'environnements.
+§9<Zajonc> §f: Mon hypothèse est que cette vache puisse produire un type particulier
+§9<Zajonc> §f: de champignons, par rapport aux champignons classiques.
+§9<Zajonc> §f: Aussi, je me demande si l'environnement ne peut pas avoir un effet sur la
+§9<Zajonc> §f: production cutanée de fungi.

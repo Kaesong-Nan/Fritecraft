@@ -1,0 +1,251 @@
+uniqueId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 17
+category: 5
+cooldown: -1
+name: '&d&lBezoar &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: §d§lBezoar §r
+    lore:
+    - §7Utilisé pour les armes légendaires.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lBezoar §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 4
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9296b23b-ea5a-439b-9e22-1fcdf650205a
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 11
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 124c8fa9-29e9-4003-be5e-ccaf63bfaf5e
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 1
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 40122666-4933-4c10-aa47-e6141e6afff8
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 14
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a9b5a5d0-e412-405b-ae46-632cd7a9f79d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 10
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 92b3b7a7-5e54-4969-9f9d-39300cbafc27
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 5
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b6f94788-abe6-4c8f-a21b-5271f03dfe75
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 12
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 754a317e-cbc9-4b5f-b9ad-7193ca5bc228
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 3
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 81303529-ad3e-4060-a542-2ed50990a3d9
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 8
+  amount: 128
+  lore: Hey there! Do this Quest.
+  index: 8
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3053e0cc-a3d5-4230-bcc7-51e7ea7346e0
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

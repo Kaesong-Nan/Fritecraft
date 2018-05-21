@@ -1,0 +1,30 @@
+tournerLesServiettes:
+  Cooldown: 1
+  Skills:
+  - effect:spin{duration=100000;velocity=50} @self
+
+
+MissileCochonDead:
+  Cooldown: 10
+  Skills:
+  - delay 35
+  - effect:explosion @Self
+  - effect:explosion @Self
+  - effect:explosion @Self
+  - effect:explosion @Self
+  - effect:explosion @Self
+  - damage{amount=5} @PlayersInRadius{r=5}
+  - delay 10
+  - suicide @Self
+  - effect:particles{particle=flame;amount=20;speed=1} @self
+  - effect:particles{p=lava;a=50;hS=1;vS=1}
+  - effect:particles{p=lava;a=50;hS=1;vS=1}
+
+
+MissilePigLaunch:
+  Condition:
+  - cochonTp
+  Skills:
+  - summon{type=MissileCochon;amount=15;radius=1} @self
+  - delay 10
+  - throw{velocity=25;velocityY=7} @EntitiesNearOrigin{r=5} 

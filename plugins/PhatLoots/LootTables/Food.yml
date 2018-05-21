@@ -1,0 +1,19 @@
+Food:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList: []
+    LowerNumberOfLoots: 1
+    Name: Food
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: Food
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

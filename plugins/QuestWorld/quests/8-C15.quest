@@ -1,0 +1,22 @@
+uniqueId: d3725e90-7150-43f4-847a-9489bbe9c3dd
+categoryId: 77860246-f4f8-4383-895f-c51db047253c
+id: 8
+category: 15
+cooldown: -1
+name: '&d&lLe Dragon'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: BOOK_AND_QUILL
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

@@ -1,0 +1,5 @@
+cfg_version: 1.0
+ForAllItems: true
+Glow: false
+FormatOne: '%name%'
+FormatMany: '%name% &7x%amount%'

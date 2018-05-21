@@ -1,0 +1,7 @@
+&e<Chasseur de primes> &f: Je vous observe depuis un moment.
+&e<Chasseur de primes> &f: Vous êtes partis à la chasse aux oeufs sacrés de Poulard ?
+&e<Chasseur de primes> &f: Il se trouve que moi aussi...
+&e<Chasseur de primes> &f: Je suis engagé par un type qui est prêt à poser un sacré paquet de pognon sur la table.
+&e<Chasseur de primes> &f: Continuez de chercher les oeufs... Mais plutôt que de les apporter au temple...
+&e<Chasseur de primes> &f: Apportez-les moi.
+&e<Chasseur de primes> &f: Je vous les acheterai à très bon prix !

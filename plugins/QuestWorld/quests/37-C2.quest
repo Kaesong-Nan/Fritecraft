@@ -1,0 +1,74 @@
+id: 37
+category: 2
+cooldown: -60000
+name: '&5Les Coffres du néant'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENDER_CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: §5Les Coffres du néant
+    blockMaterial: ENDER_CHEST
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.bouquenia.vincent
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 3233eb17-5159-444e-8b44-486e2a19141c
+categoryId: 7466005f-ae69-465c-8cce-8b37214a22a1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&dVincent'
+  timeframe: 0
+  questId: 3233eb17-5159-444e-8b44-486e2a19141c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 222.0
+    y: 72.0
+    z: 1486.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 06ecf564-421c-48aa-9557-0b5da2005f94
+  entity: PLAYER
+  custom_int: 218
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+  amount: 64
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: '&dVincent'
+  timeframe: 0
+  questId: 3233eb17-5159-444e-8b44-486e2a19141c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 222.0
+    y: 72.0
+    z: 1486.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3c6875d4-d2fd-4c85-9347-28ae07c0d10d
+  entity: PLAYER
+  custom_int: 218
+  exclude-spawners: false

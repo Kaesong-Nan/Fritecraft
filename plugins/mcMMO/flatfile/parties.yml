@@ -1,0 +1,212 @@
+LaDarky:
+  Leader: b04056b0-46fc-402e-88ae-2b7bb7285595|Darkmaxoumax
+  Password: coco
+  Locked: true
+  Level: 10
+  Xp: 374
+  Ally: ''
+  ExpShareMode: EQUAL
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - b04056b0-46fc-402e-88ae-2b7bb7285595|Darkmaxoumax
+  - 718c4bd1-d8d2-4d72-abaf-9d74988adf51|Cocodino
+  - a5d03f65-eed9-43fa-8612-14616377d9f1|Papa_Gamer
+Kaotik_Harmony:
+  Leader: d302da44-cba3-45a8-b295-85998207189a|ItsVelta
+  Password: wtf1337
+  Locked: true
+  Level: 10
+  Xp: 135
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - d302da44-cba3-45a8-b295-85998207189a|ItsVelta
+  - 3d86d3d1-a84d-4de0-8e39-85088ff0dc89|Erisium_Aeska
+TP:
+  Leader: e293e96c-9b6d-40e3-9cda-85aaf1aadac9|RedyLondon
+  Password: TeamPanda
+  Locked: true
+  Level: 10
+  Xp: 493
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - e293e96c-9b6d-40e3-9cda-85aaf1aadac9|RedyLondon
+  - d607697a-32be-4a8d-8b66-e2471263e20d|tob380
+LesSauveurs:
+  Leader: 64fb7c21-e7d2-49c2-9eb5-f22353a39185|Rilsae
+  Locked: true
+  Level: 10
+  Xp: 325
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 64fb7c21-e7d2-49c2-9eb5-f22353a39185|Rilsae
+Metamorph:
+  Leader: a86054ca-3ae1-4a71-96e4-9ae235d4bad8|ShiroNo
+  Password: '666'
+  Locked: true
+  Level: 10
+  Xp: 395
+  Ally: ''
+  ExpShareMode: EQUAL
+  ItemShareMode: EQUAL
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - a86054ca-3ae1-4a71-96e4-9ae235d4bad8|Lapichou_
+  - c4d93544-cd59-458f-a1c5-1b7848fbacb6|Ventouz
+  - dbb36617-2e4c-40e6-8769-6fbb87171418|grimvan
+  - 21984b80-4847-47b9-a603-8cdae3f4ab63|ReVesTa
+orgidumal:
+  Leader: 9953a22c-bddc-481a-b6ad-19a054d877e3|Craftermonster
+  Locked: true
+  Level: 10
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 9953a22c-bddc-481a-b6ad-19a054d877e3|Craftermonster
+  - a4be0859-299a-4025-89b4-d6e1e2df37d5|gutidu13
+lol:
+  Leader: 61f0e9dc-08b4-4a5e-af61-3891cc914c90|NoHackJustSkill
+  Password: leo81000
+  Locked: true
+  Level: 10
+  Xp: 226
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 61f0e9dc-08b4-4a5e-af61-3891cc914c90|NoHackJustSkill
+LaGuildeZ:
+  Leader: 5c5f982e-e01c-493b-8254-b2ffa4eb6b35|Leo81000
+  Password: unmotdepasse
+  Locked: true
+  Level: 10
+  Xp: 453
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 5c5f982e-e01c-493b-8254-b2ffa4eb6b35|Leo81000
+  - 8bf53407-c690-4917-abeb-416c5735eecd|Fragwalker
+MacDo:
+  Leader: bfd1db5f-dfc5-4315-ae84-7d1eb3901171|Hakuryu42
+  Locked: true
+  Level: 10
+  Xp: 618
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - bfd1db5f-dfc5-4315-ae84-7d1eb3901171|Hakuryu42
+  - 3a3bd897-90ba-4d7c-b3e0-cca33cb05baa|DiamantRuisseau
+les:
+  Leader: 8998b656-6e7e-4c7b-bd01-f6600ffdb6c9|Kiyokuni
+  Password: ex
+  Locked: true
+  Level: 10
+  Xp: 713
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 8998b656-6e7e-4c7b-bd01-f6600ffdb6c9|Kiyokuni
+  - 00e7932b-cc81-49a2-bc46-f12524be1768|Priscillouu
+TvTeam:
+  Leader: 2b9eda4b-ba6b-49f7-9e67-41e67451aa7f|Flamingo_Tv
+  Locked: true
+  Level: 10
+  Xp: 58
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: EQUAL
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 2b9eda4b-ba6b-49f7-9e67-41e67451aa7f|Flamingo_Tv
+  - 8a3d0299-857e-4f22-aba6-80d84083302e|jeedbelg
+'1':
+  Leader: b6ff5174-4f44-41c4-b0a0-ae03b18a574b|creepertomics55
+  Locked: true
+  Level: 10
+  Xp: 423
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - b6ff5174-4f44-41c4-b0a0-ae03b18a574b|creepertomics55
+  - ae45327a-ae65-40d0-afce-5048fe1c1341|babychicken16

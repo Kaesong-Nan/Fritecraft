@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  Mairie1:
+    BlockFace: WEST
+    Location:
+      world: Bouquenia
+      x: 277.0
+      y: 66.0
+      z: 962.0
+  Mairie2:
+    BlockFace: EAST
+    Location:
+      world: Bouquenia
+      x: 268.0
+      y: 66.0
+      z: 962.0

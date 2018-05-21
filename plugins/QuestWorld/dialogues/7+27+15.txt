@@ -1,0 +1,4 @@
+§7*Miam miam la vache se régale*
+§7*Vous pouvez même la caresser pendant qu'elle mange*
+§7*Et attraper un champignon sur son dos*
+/give <player> redmushroom 1 name:&dChampignon_de_Champimeuh

@@ -1,0 +1,6 @@
+&a<Penfield> &f: Ah, c'est vous encore !
+&a<Penfield> &f: Alors, vous avez fait un peu le tour de l'équipe ?
+&a<Penfield> &f: Oh, vous avez besoin d'équipement ?
+&a<Penfield> &f: Hmm, oui, je pense qu'on peut vous preter un sécateur.
+&a<Penfield> &f: Le voilà !
+/give <player> shears 1 name:&dSécateur_du_CRB

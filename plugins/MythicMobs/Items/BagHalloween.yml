@@ -1,0 +1,11 @@
+BagHalloween:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: RABBIT_HIDE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b§lSac à friandises §r
+      lore:
+      - §7Clic droit pour ouvrir pour
+      - §7obtenir des objets d'halloween aléatoires.

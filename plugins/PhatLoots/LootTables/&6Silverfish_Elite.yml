@@ -1,0 +1,46 @@
+'&6Silverfish_Elite':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    BonusAmount: 8
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SMOOTH_BRICK
+      amount: 2
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 8
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SMOOTH_BRICK
+      damage: 1
+      amount: 2
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 8
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SMOOTH_BRICK
+      damage: 2
+      amount: 2
+    Probability: 100.0
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  Name: '&6Silverfish_Elite'
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

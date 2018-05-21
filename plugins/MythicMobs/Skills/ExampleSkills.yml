@@ -1,0 +1,93 @@
+#
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+ZWorker:
+  Skills:
+  - effect:sound{sound=block.portal.trigger;volume=1} @PlayersInRadius{r=20} ~onDeath
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=3;hs=0;vs=1} @Self
+  - delay 10
+  - effect:particles{particle=largeexplode;a=15;hs=0;vs=1} @Self
+  - effect:itemspray{item=cookie;amount=15;d=100} @Self
+  - remove @Self
+
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> Hahahah! I will crush you, fool!"} @PlayersInRadius{r=40}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SummonSkeletons:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+ArrowBarrage:
+  Skills:
+  - shoot{type=ARROW;velocity=1;damage=2}
+  - delay 40
+  - shoot{type=ARROW;velocity=1;damage=2}
+  - delay 40
+  - shoot{type=ARROW;velocity=1;damage=2}
+  - delay 40
+  - shoot{type=ARROW;velocity=1;damage=2}
+  - delay 40
+  - shoot{type=ARROW;velocity=1;damage=2}
+ArrowBarrage2:
+  Skills:
+  - shoot{type=ARROW;velocity=2;damage=3}
+  - delay 20
+  - shoot{type=ARROW;velocity=2;damage=3}
+  - delay 20
+  - shoot{type=ARROW;velocity=2;damage=3}
+  - delay 20
+  - shoot{type=ARROW;velocity=2;damage=3}
+  - delay 20
+  - shoot{type=ARROW;velocity=2;damage=3}
+
+
+
+Firebolt:
+  Skills:
+  - projectile{onTick=FireBolt-Tick;onHit=FireBolt-Hit;v=8;syo=2;tyo=0.5;i=1;hR=1;vR=1}
+FireBolt-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=25;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{particle=dripLava;amount=10;vSpread=.1;hSpread=.25;Speed=25;y=0;s=2} @origin
+  - effect:particles{p=lava;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+FireBolt-Hit:
+  Skills:
+  - ignite{t=10}
+  - damage{a=3}
+  - potion{type=WEAKNESS;duration=100;lvl=2}
+  - effect:particles{p=flame;a=100;hs=0.3;vs=0.3;s=0.4;y=0.9}
+  - effect:particles{p=dripLava;a=100;hs=0.2;vs=0.2;s=0.5;y=0.9}
+  - effect:particles{p=lava;a=35;hs=0.2;vs=0.2;s=0.5;y=0.9}

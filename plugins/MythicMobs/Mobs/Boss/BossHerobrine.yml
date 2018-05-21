@@ -1,0 +1,155 @@
+###############
+# +---------+ #
+# |Herobrine| #
+# +---------+ #
+###############
+Herobrine:
+  Type: WITHER_SKELETON
+  Display: '&f&lHerobrine'
+  Health: 2000
+  Damage: 10
+  Drops:
+  - BagHerobrine
+  Equipment:
+  - flint_and_steel:0
+  Disguise:
+    Type: player
+    Skin: 'Herobrine'
+    Player: Herobrine
+    Blocking: true
+    Invisible: false
+    ShowName: false
+    Sneaking: true
+    ModifyBoundingBox: false
+  DamageModifiers:
+  - DROWNING 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE 1
+  - POISON 2
+  - MAGIC 6
+  BossBar:
+    Enabled: true
+    Title: '&f&lHerobrine'
+    Range: 40
+    Color: WHITE
+    Style: SOLID
+  Skills:
+  - sound{s=mob.endermen.hit;p=0.2} @self ~onDamaged
+  - sound{s=music.game.end;v=8;p=0.8} @self ~onSpawn
+  - skill{s=HerobrineSpawn} @Self ~onSpawn
+  - skill{s=HerobrineSkill1} @Target ~onDamaged 0.7
+  - skill{s=HerobrineSkill2} @Self ~onTimer:280 0.8
+  - skill{s=HerobrineSkill3} @Self ~onDamaged =80% 1
+  - skill{s=HerobrineSkill3} @Self ~onDamaged =60% 1
+  - skill{s=HerobrineSkill3} @Self ~onDamaged =40% 1
+  - skill{s=HerobrineSkill3} @Self ~onDamaged =20% 1
+  - skill{s=HerobrineDamaged} @Self ~onDamaged
+  - effect:particles{particle=portal;amount=30;hS=0.5;vS=0.5;speed=0} @self ~onTimer:20 1
+  - effect:particles{particle=portal;amount=20;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  - effect:particles{particle=lava;amount=1;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  # - skill{s=healthbarA} ~onDamaged 1
+  # - skill{s=healthbarB} ~onDeath 1
+  - skill{s=HS1} ~onDamaged 1
+  - healpercent{m=0.3} @self ~onKillPlayer
+  - summon{mob=HerobrineEnd;amount=1;noise=5} @Self ~onDeath 1
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    FollowRange: 25
+    Angry: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 opendoors
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 3 attacker
+#
+#
+#
+HerobrineCopy:
+  Type: WITHER_SKELETON
+  Display: '&c&lHerobrine'
+  Health: 10
+  Equipment:
+  - bow:0
+  Skills:
+  - sound{s=mob.endermen.hit;p=0.2} @self ~onDamaged
+  - potion{t=SLOW;d=999999;l=8} @self ~onSpawn
+  - effect:particles{particle=largesmoke;amount=120;hS=0.6;vS=1.2;speed=0.2} @self ~onSpawn
+  - effect:particles{particle=largesmoke;amount=120;hS=0.6;vS=1.2;speed=0.2} @self ~onDeath
+  - effect:particles{particle=portal;amount=30;hS=0.5;vS=0.5;speed=0} @self ~onTimer:20 1
+  - effect:particles{particle=portal;amount=20;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  - effect:particles{particle=enchantmenttable;amount=10;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  Disguise:
+    Type: player
+    Skin: 'Herobrine'
+    Player: Herobrine
+    Blocking: true
+    Invisible: false
+    ShowName: false
+    Sneaking: true
+    ModifyBoundingBox: false
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 players
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    FollowRange: 200
+    Angry: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+#
+#
+#
+HerobrineSpawner:
+  Type: ARMOR_STAND
+  Skills:
+  - skill{s=HSpawner} @Self ~onTimer:30
+  - effect:particles{particle=portal;amount=30;hS=0.5;vS=0.5;speed=0} @self ~onTimer:20 1
+  - effect:particles{particle=portal;amount=20;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  Options:
+    Invisible: true
+    Marker: true
+    Small: true
+    HasGravity: false
+#
+#
+#
+HerobrineEnd:
+  Type: ARMOR_STAND
+  Skills:
+  - skill{s=HerobrineEnd} @Self ~onSpawn
+  Options:
+    Invisible: true
+    Marker: true
+    Small: true
+    HasGravity: false
+#
+#
+#
+HerobrineLightning:
+  Type: ARMOR_STAND
+  Skills:
+  - remove{delay=250} @Self ~onSpawn
+  - effect:particles{particle=enchantmenttable;amount=120;hS=1;vS=1.2;speed=0} @self ~onTimer:20 0.7
+  - effect:particles{particle=witchMagic;amount=90;hS=1;vS=1.2;speed=0} @self ~onTimer:16 0.7
+  - effect:particles{particle=magicCrit;amount=75;hS=1;vS=2.4;speed=0.1} @self ~onTimer:22 0.7
+  - sound{s=liquid.lava} @self ~onTimer:70
+  - damage{a=15} @PIR{r=2} ~onTimer:15 1
+  Options:
+    Invisible: true
+    Marker: true
+    Small: true
+    HasGravity: false

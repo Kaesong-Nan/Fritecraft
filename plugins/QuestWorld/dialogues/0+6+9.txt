@@ -1,0 +1,10 @@
+&9<Servius> &f: Les quêtes de Bouquenia peuvent exiger de toi différentes taches.
+&9<Servius> &f: Parler a un personnage.
+&9<Servius> &f: Aller quelque part : des blocs de laine rouge avec une pancarte
+&9<Servius> &f: Fabriquer quelque chose.
+&9<Servius> &f: Pecher, tuer, ou meme simplement jouer sur le serveur.
+&9<Servius> &f: Et souvent, apporter des objets a un personnage.
+&9<Servius> &f: Ou même "soumettre" un objet dans le vent ... ouais.
+&9<Servius> &f: Certaines quêtes peuvent demander une grande quantité d'objet.
+&9<Servius> &f: Ou des objets difficiles a obtenir.
+&9<Servius> &f: C'est ce qui fait la difficulté de certaines quêtes.

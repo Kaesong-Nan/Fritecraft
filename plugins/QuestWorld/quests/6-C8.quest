@@ -1,0 +1,57 @@
+id: 6
+category: 8
+cooldown: 43200000
+name: '&fQuartz'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: QUARTZ
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fQuartz
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 2382568c-0b33-4a9a-94dc-9403b9e44080
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ
+  amount: 64
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 2382568c-0b33-4a9a-94dc-9403b9e44080
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bbaf4700-35cf-4612-aaa0-96ded6dc5dfc
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

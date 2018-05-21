@@ -1,0 +1,17 @@
+&9<José> &f: Oh !
+&9<José> &f: Mon armure !
+&9<José> &f: Elle a été transmise dans ma famille de père en fils depuis des générations !
+&9<José> &f: Non je plaisante.
+&9<José> &f: Mais je l'aimais bien.
+&9<José> &f: Ah, ça fait du bien d'avoir les mains dessus ...
+&9<José> &f: Ca n'a pas été trop difficile à trouver ?
+&9<José> &f: Ah bon ? Au fond du tunnel ?
+&9<José> &f: Je l'avais retiré parce qu'elle me faisait couler.
+&9<José> &f: Mais apparemment ils n'ont pas prit la peine de la récuperer.
+&9<José> &f: Peut être qu'ils ne sont pas allé jusqu'au bout ?
+&9<José> &f: Et tu n'aurais pas trouvé ma pioche par hasard ?
+&9<José> &f: Hmm ...
+&9<José> &f: A mon avis ils ont du la garder.
+&9<José> &f: Elle appartenait à la compagnie, mais il n'y a que moi qui l'utilisais.
+&9<José> &f: Tu penses que tu arriverais à la récupérer pour moi ?
+&e&l>> &r&7Retournez à la mine pour retrouver la pioche

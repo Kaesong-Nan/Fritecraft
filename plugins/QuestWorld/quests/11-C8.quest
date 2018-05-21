@@ -1,0 +1,57 @@
+id: 11
+category: 8
+cooldown: 43200000
+name: '&fPatates'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTATO_ITEM
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fPatates
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 86a38b47-17ba-4732-a7ae-02e37e2ad15c
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTATO_ITEM
+  amount: 128
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 86a38b47-17ba-4732-a7ae-02e37e2ad15c
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 85732c36-45f1-4aa7-b555-d8a5fbec06bb
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

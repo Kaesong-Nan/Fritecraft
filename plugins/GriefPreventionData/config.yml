@@ -1,0 +1,160 @@
+# Default values are perfect for most servers.  If you want to customize and have a question, look for the answer here first: http://dev.bukkit.org/bukkit-plugins/grief-prevention/pages/setup-and-configuration/
+GriefPrevention:
+  SeaLevelOverrides:
+    Bouquenia: -1
+    Bouquenia_the_end: -1
+    Biomes: -1
+    Orion: -1
+    plots: -1
+    cleanroom: -1
+    Hunger: -1
+    Bouquenia_nether: -1
+    HUB: -1
+    Pitman: -1
+  Claims:
+    Mode:
+      Bouquenia: SurvivalRequiringClaims
+      Biomes: Survival
+      Bouquenia_the_end: Survival
+      plots: Disabled
+      Hunger: Disabled
+      Pitman: Survival
+      HUB: SurvivalRequiringClaims
+      Orion: Survival
+      cleanroom: Disabled
+      Bouquenia_nether: Disabled
+    PreventGlobalMonsterEggs: true
+    PreventTheft: true
+    ProtectCreatures: true
+    PreventButtonsSwitches: true
+    LockWoodenDoors: true
+    LockTrapDoors: true
+    LockFenceGates: true
+    EnderPearlsRequireAccessTrust: true
+    ProtectHorses: true
+    InitialBlocks: 150
+    Claim Blocks Accrued Per Hour:
+      Default: 0
+    Max Accrued Claim Blocks:
+      Default: 10000
+    Accrued Idle Threshold: 0
+    AccruedIdlePercent: 0
+    AbandonReturnRatio: 1.0
+    AutomaticNewPlayerClaimsRadius: 0
+    ExtendIntoGroundDistance: 40
+    MinimumWidth: 5
+    MinimumArea: 30
+    MaximumDepth: 0
+    InvestigationTool: STICK
+    ModificationTool: GOLD_SPADE
+    Expiration:
+      ChestClaimDays: 3500
+      UnusedClaimDays: 5000
+      AllClaims:
+        DaysInactive: 1500
+        ExceptWhenOwnerHasTotalClaimBlocks: 10000
+        ExceptWhenOwnerHasBonusClaimBlocks: 5000
+      AutomaticNatureRestoration:
+        SurvivalWorlds: false
+    AllowTrappedInAdminClaims: false
+    MaximumNumberOfClaimsPerPlayer: 0
+    CreationRequiresWorldGuardBuildPermission: false
+    PortalGenerationRequiresPermission: true
+    VillagerTradingRequiresPermission: false
+    CommandsRequiringAccessTrust: /sethome
+    DeliverManuals: true
+    ManualDeliveryDelaySeconds: 30
+  Spam:
+    Enabled: false
+    LoginCooldownSeconds: 60
+    LoginLogoutNotificationsPerMinute: 5
+    ChatSlashCommands: /me;/global;/local
+    WhisperSlashCommands: /tell;/pm;/r;/whisper;/msg
+    WarningMessage: Please reduce your noise level.  Spammers will be banned.
+    BanOffenders: true
+    BanMessage: Banned for spam.
+    AllowedIpAddresses: 1.2.3.4; 5.6.7.8
+    DeathMessageCooldownSeconds: 60
+    Logout Message Delay In Seconds: 10
+  PvP:
+    RulesEnabledInWorld:
+      Bouquenia: false
+      Bouquenia_the_end: false
+      Biomes: true
+      Orion: true
+      plots: true
+      cleanroom: true
+      Hunger: true
+      Bouquenia_nether: true
+      HUB: true
+      Pitman: true
+    ProtectFreshSpawns: true
+    PunishLogout: true
+    CombatTimeoutSeconds: 15
+    AllowCombatItemDrop: false
+    BlockedSlashCommands: /home;/vanish;/spawn;/tpa
+    ProtectPlayersInLandClaims:
+      PlayerOwnedClaims: true
+      AdministrativeClaims: true
+      AdministrativeSubdivisions: true
+    AllowLavaDumpingNearOtherPlayers: true
+    AllowFlintAndSteelNearOtherPlayers: true
+    ProtectPetsOutsideLandClaims: false
+  Economy:
+    ClaimBlocksPurchaseCost: 3.0
+    ClaimBlocksSellValue: 3.0
+  ProtectItemsDroppedOnDeath:
+    PvPWorlds: false
+    NonPvPWorlds: true
+  BlockLandClaimExplosions: true
+  BlockSurfaceCreeperExplosions: false
+  BlockSurfaceOtherExplosions: false
+  LimitSkyTrees: true
+  LimitTreeGrowth: false
+  LimitPistonsToLandClaims: false
+  FireSpreads: false
+  FireDestroys: false
+  AdminsGetWhispers: true
+  AdminsGetSignNotifications: true
+  SmartBan: true
+  Mute New Players Using Banned Words: true
+  MaxPlayersPerIpAddress: 5
+  Siege:
+    Worlds: []
+    BreakableBlocks:
+    - DIRT
+    - GRASS
+    - LONG_GRASS
+    - COBBLESTONE
+    - GRAVEL
+    - SAND
+    - GLASS
+    - THIN_GLASS
+    - WOOD
+    - WOOL
+    - SNOW
+  EndermenMoveBlocks: false
+  SilverfishBreakBlocks: false
+  CreaturesTrampleCrops: false
+  RabbitsEatCrops: true
+  HardModeZombiesBreakDoors: false
+  Database:
+    URL: ''
+    UserName: ''
+    Password: ''
+  UseBanCommand: false
+  BanCommandPattern: ban %name% %reason%
+  Mods:
+    BlockIdsRequiringAccessTrust: []
+    BlockIdsRequiringContainerTrust:
+    - 99999:*:Example - ID 99999, all data values.
+    BlockIdsExplodable: []
+    PlayersIgnoringAllClaims: []
+  Abridged Logs:
+    Days To Keep: 7
+    Included Entry Types:
+      Social Activity: true
+      Suspicious Activity: true
+      Administrative Activity: false
+      Debug: true
+      Muted Chat Messages: false

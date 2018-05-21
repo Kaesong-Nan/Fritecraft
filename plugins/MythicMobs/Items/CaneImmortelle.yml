@@ -1,0 +1,39 @@
+CaneImmortelle:
+  Id: FISHING_ROD
+  Display: '&6&lCanne Immortelle &r'
+  Lore:
+  - '&7Appat V'
+  - '&7Chance de la mer V'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur IV'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dMaudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DURABILITY:5
+  - MENDING:1
+  - LURE:5
+  - LUCK:5
+
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self

@@ -1,0 +1,39 @@
+AnomalieComposte:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §dComposte
+        lore:
+        - §7Utilisé pour les armes légendaires.
+        internal: H4sIAAAAAAAAAE2QS0+EMACEq4nJSvwZXjfhLRzV1d02tri4UNrbQtG2FDXLIo9fL948TOYwM8mXsQCwwM1b0xvzevp6V6ZegUsowO0xDOIqKqN1WYdi7cdevI7syF0fgzhw3TAWtrizgLWMvuvTWdXdNVid6/Hcn+rOAgBcrMBVfjR9feHXE7KP1DGVl8qyuFeJfrLx3Dh4wxyiP8Zkc9/Bz4epdPl3uc0Rf4Qh1NlA5sZnGkni7kemFx1SRdpnw+bFaTYkFGl8qEaoBlXt0A9vTcezQJY0U4lCz+WOeLww018utrkvdvnEC6ySz05l9hkdFAwXNqdqh7/+l9ilQ6Kin3/dvqSm55RMjHL7pQ2MeIxtXkhbFMi8zHLheZoSmkuipcRb7GIKR05Tidu9z2iusZtNWMOAzNDDM5yZFg1uU0nahX2TajY/aL5BDadsyfYePkD1Xjjx8iD4BX2GCkOcAQAA
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Fringirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: AnomalieComposte
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

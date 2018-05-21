@@ -1,0 +1,16 @@
+&9<Dimitri> &f: Bonjour, <player>.
+&9<Dimitri> &f: Tu as déjà entendu parler de l'Anomalie ?
+&9<Dimitri> &f: C'est un endroit tout à fait particulier.
+&9<Dimitri> &f: Juste là, derrière moi.
+&9<Dimitri> &f: Et qu'est-ce que c'est exactement ? Je n'en sais rien.
+&9<Dimitri> &f: D'ailleurs, c'est mon métier de trouver une réponse à cette question.
+&9<Dimitri> &f: Et comme je compte pas vraiment entrer là dedans ...
+&9<Dimitri> &f: Je me suis dit, que tu pourrais le faire non ?
+&9<Dimitri> &f: Tu as l'air du style à aimer l'aventure !
+&9<Dimitri> &f: J'aurai besoin d'un truc à étudier ...
+&9<Dimitri> &f: Ramène moi n'importe quoi que tu peux trouver là dedans.
+&9<Dimitri> &f: Pourquoi pas un os de --
+&9<Dimitri> &f: Euh ...
+&9<Dimitri> &f: Oui bon ok, y'a peut être des monstres bizarres là dedans ...
+&9<Dimitri> &f: Si tu te sens assez brave pour ce qui se trouve là dedans, je serais là.
+&9<Dimitri> &f: Juste ... ne vous faites pas tuer pour ma science, ok ?

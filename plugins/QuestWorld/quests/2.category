@@ -1,0 +1,25 @@
+id: 2
+name: '&e&lBouquenia'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §e§lBouquenia
+    lore:
+    - Hidden:Villageois
+    - Hidden:0.0
+    - Hidden:2351844f-f400-4fa4-9642-35169c5b048a
+    - 'Hidden:'
+    internal: H4sIAAAAAAAAAE2QQXObMBCFlU464zD9Gbl6Rjhgx4ceGmhtNJYItgxob4CUWELEGWNC4NeH3Hp4p33v293nIOSgX4e6s/b5cn7RVs3Qj0ii+9LFfuW7/tz3ZDH3lCzna2+1mBdL9Vh61WpVFYWDnCn0ri5Xrdo7NLuqz2t3Ua2DELqZoZ9pYTt186wGgovMtdXD/lTmf3Rs/mJmqpFyOtJQjDGv2ujtaSgX8F5uUgJBtIyMwNQkHuPWMF5jFiY9G6UGbi0diab8ey4N5VEf6V5XW/IBjW3h6J/K7KhjHQ00rPUuIGORyU7ke7dq0gPk/9wiJ/Z7h9wSFw69lpvUk9t0gJzq+K3VR3wlXEfL6e4p008scpbbfR/rx4//vF2Z2Q4yNogM8K7xrQzWGPITlhN/t4gehHn1hUlrCF8H2CQu8KcajPgUxtY0TA3LEldwdoLs6ENDezDJSBuxoA2ZfiZ2koYNqacONAtJwzRZv+T4N0IzdMuKRqG74BCcL2qnS4S+ALrG8wvKAQAA
+    skull-owner: CSCoreLib
+permission: ''
+hidden: false
+world-blacklist: []
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0NjczMTMzMDYzOTcsInByb2ZpbGVJZCI6IjY0MjQ4NTljNTk0NDQwNzdiZTllMzJiMTY0MjdjMTIwIiwicHJvZmlsZU5hbWUiOiIyMDkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3Yjg5YjVkZDgyZGQ1ZTBkZjYxYjlkMDVjNWQ1YTNhZWU5ZmMwZjQzMmY2MmJjNTJlNTJiZGJkNTliNDJmNiJ9fX0=
+  custom-skullOwner: CSCoreLib
+uniqueId: 7466005f-ae69-465c-8cce-8b37214a22a1
+parentId: df766d93-c3b3-4231-a242-8aae3ed1ab6f

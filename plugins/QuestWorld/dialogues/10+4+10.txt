@@ -1,0 +1,12 @@
+§6<Fritegirl> §c: Il y a longtemps, un aventurier solitaire est arrivé sur une ile.
+§6<Fritegirl> §c: Il n'y avait personne à part lui.
+/tp <player> 216 72 1874
+§6<Fritegirl> §c: Il est arrivé par la plage, par un naufrage.
+§6<Fritegirl> §c: Avec les ressources qu'il a trouvé, il s'est installé sur l'ile.
+/tp <player> 127 88 1716
+§6<Fritegirl> §c: Il s'est installé sous terre, pour s'abriter du danger.
+/tp <player> -34 88 1734
+§6<Fritegirl> §c: Puis, cet aventurier a commencé à ressentir quelque chose.
+§6<Fritegirl> §c: Une énergie ...
+§6<Fritegirl> §c: Une force ...
+§6<Fritegirl> §c: Il n'était plus seul sur l'ile.

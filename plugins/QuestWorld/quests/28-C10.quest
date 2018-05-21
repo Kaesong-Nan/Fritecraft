@@ -1,0 +1,32 @@
+id: 28
+category: 10
+cooldown: -1
+name: '&eArène: Squelettes'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§eArène: Squelettes'
+    lore:
+    - Hidden:Squelette
+    - Hidden:0.0
+    - Hidden:2351844f-f400-4fa4-9642-35169c5b048a
+    - 'Hidden:'
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skullOwner: CSCoreLib
+uniqueId: a8b9d743-77db-4a19-a739-6daf42b1dabc
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

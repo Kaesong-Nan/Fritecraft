@@ -1,0 +1,11 @@
+&6<Tuteur> &f: Les rangs sont basés sur une hiérarchie religieuse.
+&6<Tuteur> &f: Les nouveaux joueurs sont au rang de &lLaïc&r.
+&6<Tuteur> &f: Une fois certains pré-requis remplis, vous serez &a&lMoine&r.
+&6<Tuteur> &f: Pour voir les prérequis, utilisez la commande &a/rankinfo&r.
+&6<Tuteur> &f: Quand tout est bon, vous pourrez faire &a/rankup&f.
+&6<Tuteur> &f: Chaque rang augmentera votre santé maximale.
+&6<Tuteur> &f: Très utile pour combattre les émissaires atrophiés ou les boss.
+&6<Tuteur> &f: Le rang de &dPrêtre &rest donné aux joueurs ayant contribué au serveur.
+&6<Tuteur> &f: Le rang de &9Vicaire &fdésigne les architectes.
+&6<Tuteur> &f: Enfin, le &dclergé est composé des &eDiacres&f, &6Archévêques&f, et du &4Cardinal&f.
+&6<Tuteur> &f: N'oubliez pas ces commandes : &a/rankinfo &fet &a/rankup&f !

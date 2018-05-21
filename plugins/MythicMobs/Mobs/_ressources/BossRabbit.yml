@@ -1,0 +1,47 @@
+#
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+Caerbannog:
+  Mobtype: RABBIT
+  Display: '&4&lLapin de Caerbannog'
+  Health: 1000
+  Damage: 0
+  DamageModifiers:
+  - FALL 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - MAGIC 5
+  Skills:
+  - effect:particles{particle=reddust;amount=7;hs=0.5;vs=0.5} ~onTimer:5 @self
+  # - skill{s=RabbitLeap} ~onTimer:100 @Target
+  - skill{s=RabbitThrow} ~onDamaged 0.05
+  - skill{s=RabbitHit} ~onAttack 1
+  Drops:
+  - Gunpowder 1 1
+  KillMessages:
+  - '<target.name> a été tué par le Lapin de Caerbannog'
+  Options:
+    AlwaysShowName: false
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    MovementSpeed: 0.4
+    RabbitType: THE_KILLER_BUNNY
+    Despawn: false
+    KnockbackResistance: 1
+  Armor: 2
+  BossBar:
+    Enabled: true
+    Title: '&4&lLapin de Caerbannog'
+    Range: 30
+    Color: WHITE
+    Style: SOLID
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  - 2 Attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack

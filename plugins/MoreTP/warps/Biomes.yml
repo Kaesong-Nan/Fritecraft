@@ -1,0 +1,20 @@
+name: Biomes
+displayname: '&8&l[&b&m=---=&8&l> &6&lMonde Ressources &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&eMonde Ressources'
+- '&cPas de claims'
+- '&cCe monde est &4reset&c !'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: STAINED_CLAY
+data: 4
+location: Orion<>-26.695042657174<>78.0<>-580.6347471675415<>0.3162446<>30.34407
+slot: 4

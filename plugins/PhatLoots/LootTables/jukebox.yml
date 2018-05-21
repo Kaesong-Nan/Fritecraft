@@ -1,0 +1,18 @@
+jukebox:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Command
+    Command: chestcommands open disc.yml <player>
+    FromConsole: true
+    Probability: 100.0
+    TempOP: false
+  Name: jukebox
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

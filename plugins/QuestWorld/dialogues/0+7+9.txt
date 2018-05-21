@@ -1,0 +1,9 @@
+&9<Mishkin> &f: Bonjour !
+&9<Mishkin> &f: Le monde Bouquenia regorge de mystères.
+&9<Mishkin> &f: Nous, scientifiques, essayont de comprendre ce monde.
+&9<Mishkin> &f: La plupart des scientifiques de Bouquenia auront besoin de ton aide.
+&9<Mishkin> &f: Tu auras ainsi la possibilité de participer à la recherche.
+&9<Mishkin> &f: Pour commencer, je te suggère de visiter le CRB.
+&9<Mishkin> &f: CRB pour "Centre de Recherche de Bouquenia".
+&9<Mishkin> &f: Il se trouve juste de l'autre coté de la grande montagne.
+&9<Mishkin> &f: Il y a même des pancartes qui indiquent le chemin qui y mène.

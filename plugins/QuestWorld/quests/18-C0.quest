@@ -1,0 +1,64 @@
+id: 18
+category: 0
+cooldown: -60000
+name: '&c&lCoffre Fort'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §c§lCoffre Fort
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJy1/l2IjRJbK2CCh742epu+6qQTDgU/URy7HHyczoADq87U69lF/tpeGSafCMa3gv5kXRuI1tMN9DhuNXvlHWc9tAc4Rs25o0cnTQp+nK2o6z2wy0jg1d37KbDgBPGrxmhewZ/LIxNOnhaNaHUFYj9iZOdqbcYnH9wOdsLBfYw2ry609vM/r/Wrcr9q7M7fBIz999qTJzY8eSrWNUqfROg0wQFYtIhZyKdMgfkZVbVJBHNZAgdch+aeVJam0DIqkIeZTEJxLUp+2KKvJYmkSkZp78uNOF6GppRQLz5oB8AA1eSKEYzBa7xaVlG14C/AGyWTulKgEAAA==
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+  - ==: org.bukkit.inventory.ItemStack
+    type: SIGN
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+parent: 0-C0
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVjNmRjMmJiZjUxYzM2Y2ZjNzcxNDU4NWE2YTU2ODNlZjJiMTRkNDdkOGZmNzE0NjU0YTg5M2Y1ZGE2MjIifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: 44c521cf-cc10-462e-aae7-f0553084de69
+categoryId: 90fe56fe-23a0-4074-8543-a811345179ad
+parentId: 9f924525-75d1-4ba9-ac2b-7dfe60349605
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: '&aTutoriel de Banque'
+  timeframe: 0
+  questId: 44c521cf-cc10-462e-aae7-f0553084de69
+  reset-on-death: false
+  display-name: Parler au Banquier (à droite après le métro)
+  location:
+    world: Bouquenia
+    x: 198.0
+    y: 70.0
+    z: 994.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9211aceb-cbe9-496a-884b-b6f20615efa5
+  entity: PLAYER
+  custom_int: 417
+  exclude-spawners: false

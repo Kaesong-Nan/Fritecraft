@@ -1,0 +1,105 @@
+uniqueId: 6a2f6f19-f56a-43e4-82db-57f34543c813
+categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 15
+category: 5
+cooldown: -1
+name: '&d&lNazar &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: §d§lNazar §r
+    lore:
+    - §7Utilisé pour les armes légendaires.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lNazar §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOKSHELF
+  amount: 254
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6a2f6f19-f56a-43e4-82db-57f34543c813
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4986dd40-99f2-4686-8b07-6fc61d54418d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTMENT_TABLE
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6a2f6f19-f56a-43e4-82db-57f34543c813
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: ea296af3-a460-4b30-80a1-7e367ee0604f
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 4
+  amount: 512
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6a2f6f19-f56a-43e4-82db-57f34543c813
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e7decbf8-976a-46a3-8774-54eb15214f5a
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

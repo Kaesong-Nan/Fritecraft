@@ -1,0 +1,30 @@
+Usine2:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aFève de cacao quantique
+        lore:
+        - Mais qu'est-ce qui est arrivé
+        - à cette fève ?
+        - Elle a une odeur d'oeuf pourri !
+        enchants:
+          PROTECTION_FIRE: 1
+        internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy6JymZ58DHU35aFgRMk5JOaWFzSn/uQ9bn1rAI2BjbH3PzSvJIDDBDAwcASnJNfwsCRm5iZl5GYl8LBwAu3wi8xN5WBJz01L7UoM1kvpzQ5m5mB078gtSixJDM/D6odrIgFJMmA5AglHue//MfcopEd0XXu8ln33X7dcEfsf5YGBoQdIQpzRG5+WWpual5JcEFqagqaa5hgruGDqYovBiljYAAAR8VRwzsBAAA=
+    Probability: 100.0
+  Name: Usine2
+  Reset:
+    Hours: 4
+    Days: 1
+    Seconds: 5
+    Minutes: 9
+  RoundDownTime: false

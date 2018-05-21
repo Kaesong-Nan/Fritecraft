@@ -1,0 +1,83 @@
+X:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&6&lLame Cristaline &r'
+  Lore:
+  - '&7Tranchant V'
+  - '&7Tranchant X'
+  - '&7Tranchant XV'
+  - '&7Tranchant XX'
+  - '&7Tranchant XXV'
+  - '&7Fléau IV'
+  - '&7Châtiment III'
+  - '&7Sweeping III'
+  - '&7Aura de feu III'
+  - '&7Solidité III'
+  - '&7Solidité V'
+  - '&7Vigueur IV'
+  - '&7Vampirisme I'
+  - '&7Poison II'
+  - '&7Armure I'
+  - '&7Chance II'
+  - '&7Faveur I'
+  - '&7Egide'
+  - '&cLenteur I'
+  - '&cFaim'
+  - '&7Sapeur'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dDivin'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DAMAGE_ALL:10
+  - DAMAGE_ALL:15
+  - DAMAGE_ALL:20
+  - DAMAGE_ALL:25
+  - DAMAGE_ARTHROPODS:1
+  - DAMAGE_ARTHROPODS:5
+  - DAMAGE_UNDEAD:1
+  - DAMAGE_UNDEAD:5
+  - SWEEPING:3
+  - DURABILITY:3
+  - DURABILITY:5
+  - MENDING:1
+  - KNOCKBACK:1
+  - KNOCKBACK:2
+  - LOOT_BONUS_MOBS:1
+  - LOOT_BONUS_MOBS:2
+  - FIRE_ASPECT:3
+
+  Skills:
+  - skill{s=Divin} ~onTimer:5 @self
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=Glacial} ~onTimer:5 @self
+  - skill{s=Electrique} ~onTimer:5 @self
+  - skill{s=Etrange} ~onTimer:5 @self
+  - skill{s=Surnaturel} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantFaveur} ~onTimer:20
+  - skill{s=EnchantVampirisme} ~onAttack 1
+  - skill{s=EnchantAtrophie} ~onAttack 1
+  - skill{s=EnchantSapeur} ~onAttack 1
+  - skill{s=EnchantPoison} ~onAttack @Target 1

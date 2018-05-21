@@ -1,0 +1,100 @@
+BossAldrich:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lOnyx §r
+          lore:
+          - §7Tranchant X
+          - §7Aura de feu III
+          - §7Vigueur III
+          - §7Solidité V
+          - §7Pyro I
+          - ''
+          - §6Exotique
+          - '§7Particules : §dVolcanique'
+          enchants:
+            DAMAGE_ALL: 10
+            FIRE_ASPECT: 3
+            DURABILITY: 5
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy5Zqa8i8bvKQYOFgRMk5JOaWFxS+X+hUH32EQ42BjbH3PzSvBIHCQYw4GBgCc7JL2HgyE3MzMtIzEvhYOCFW+GXmJvKIJiempdalJmsl5tY4ZGamFOSwczA6V+QWpRYkpmfBzUDh0oGUp21/7ExGBB2ljDMssSSksTk7OCC1NQUNIcxwhyGTS3JTnOQITbERFCtc0nMTUxPxRVoWBUzMAAAh1yOnu0BAAA=
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 7
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BLAZE_ROD
+      amount: 3
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossAldrich
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

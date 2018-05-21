@@ -1,0 +1,36 @@
+id: 2
+category: 9
+cooldown: -1
+name: '&6&lArrêt des Activités'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6§lArrêt des Activités
+    lore:
+    - §8Conquest Collection
+    - ''
+    - §3~ Elsweyr
+    internal: H4sIAAAAAAAAAE1PS2+jMBh0V62Uov6MvUYyhETluM0TK3y0KcTYt/iRxY5pqhBK4NeX3noYjTQPacZDyENP76fGudfL+WicHqE/sUJ/sTiGkRZ6LFQUjkMh/fGgqHH0rPAMSxyq4OAhbyh96svV6PoRja76dm0uuvYQQncj9LA/uEbfYd0RfKC+k5NdKYp/JrVLDHbpw+I/TrJ4Ahmr44+XTgT8U6z3hM/jWWzzFvpTyCwpIXi7MTsg2xmoVo71A9O8TSmxSSZvsWmN3JAvXrma59NS0NykhqzEBia8cN2Pr9b7UG32HS8Sk37UJsdXkpl4NmzzZdX+5M9qs2tT8/z1K9sI6hpOoWOU4201dWoeYV6UWBXEbftdBTYZ9ssJWGK5VRYCXibVsoOFDFh/mrJgVfLshPka7IBy+GCBJlPWyx7WSZ9mLEwWYJmFKqVv5lj4EUIjdA+HSqPH+fv8fNFbIxD6BgY2WC2qAQAA
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0NjE1NDg0MTI3NTYsInByb2ZpbGVJZCI6IjUwNzk4YjJhN2QxYjQxYTRiNmFlYzRiNWUwOWJjMTcxIiwicHJvZmlsZU5hbWUiOiJFbHN3ZXlyIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmNjM3NTc3NjJjZjdjN2ZhMmEyNDc2Yzk5Y2FhZTk0ZGNjZGNhYTRjNWM5YzczNGMzOTY4MDNjYjNmOWQifX19
+  custom-skullOwner: CSCoreLib
+uniqueId: 44882e7e-bdce-4385-a826-b00dc57786b5
+categoryId: c9e76496-61ba-4ee6-969c-0805a143e6b1
+parentId: 1fba4225-4efd-4a08-8ff6-cbb63da8720a
+missions: []

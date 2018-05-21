@@ -1,0 +1,19 @@
+voucher:
+  item:
+    item: RABBIT_HIDE
+    name: '&b&lSac à friandises &r'
+    lore:
+    - '&7Clic droit pour ouvrir pour'
+    - '&7obtenir des objets d''halloween aléatoires.'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Halloween'
+        - '[ConsoleCommand] playsound minecraft:entity.llama.chest master %player% ~ ~ ~ 1 1 1'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

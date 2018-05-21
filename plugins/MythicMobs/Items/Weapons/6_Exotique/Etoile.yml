@@ -1,0 +1,38 @@
+Etoile:
+  Id: DIAMOND_SWORD
+  Display: '&6&lEpée Etoilée &r'
+  Lore:
+  - '&7Tranchant V'
+  - '&7Châtiment III'
+  - '&7Sweeping III'
+  - '&7Solidité XX'
+  - '&7Chance II'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Glacial'
+
+
+  Options:
+    Unbreakable: true
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      # Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:5
+  - DAMAGE_UNDEAD:3
+  - LOOT_BONUS_MOBS:2
+  - SWEEPING:3
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self

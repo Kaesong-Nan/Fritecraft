@@ -1,0 +1,28 @@
+id: 35
+category: 0
+cooldown: -1
+name: '&dDivinité : Fringirl'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§dDivinité : Fringirl'
+item_extra:
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 4de07e4d-8a60-4857-aca6-1d71c31766fa
+categoryId: 90fe56fe-23a0-4074-8543-a811345179ad
+missions: []

@@ -1,0 +1,314 @@
+Ruin:
+  Mobtype: HORSE
+  Display: '&cRuine'
+  Health: 500
+  Damage: 3.0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    HorseType: SKELETON_HORSE
+    Age: 1
+    AgeLock: true
+    HorseSaddled: false
+    MovementSpeed: 0.3
+    HorseTamed: false
+    PreventOtherDrops: true
+Despair:
+  Mobtype: HORSE
+  Display: '&cDesespoir'
+  Health: 500
+  Damage: 3.0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  AITargetSelectors:
+  - 0 Clear
+  - 1 Players
+  Options:
+    HorseType: SKELETON_HORSE
+    Age: 1
+    AgeLock: true
+    HorseSaddled: false
+    HorseTamed: false
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+Plague:
+  Type: HORSE
+  Display: '&cEpidémie'
+  Health: 500
+  Damage: 1.0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    HorseType: SKELETON_HORSE
+    Age: 1
+    AgeLock: true
+    HorseSaddled: false
+    MovementSpeed: 0.3
+    HorseTamed: false
+    PreventOtherDrops: true
+Misery:
+  Mobtype: HORSE
+  Display: '&cMisère'
+  Health: 500
+  Damage: 3.0
+  DamageModifiers:
+  - PROJECTILE 0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  AITargetSelectors:
+  - 0 Clear
+  - 1 Players
+  Options:
+    HorseType: SKELETON_HORSE
+    Age: 1
+    AgeLock: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    HorseTamed: false
+    PreventOtherDrops: true
+War:
+  Mobtype: ZOMBIE
+  Display: '&cGuerre'
+  Health: 2000
+  Armor: 0
+  Damage: 20.0
+  Disguise:
+    Type: player
+    Player: '&5Guerre'
+    Skin: shadowdragon14
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: 'Guerre'
+    Range: 20
+    Color: RED
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 AvoidArrows
+  - 3 Float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 OtherFaction
+  DamageModifiers:
+  - LIGHTNING 0
+  - LAVA 0
+  Equipment:
+  # - WarBlade:0
+  Drops:
+  # - WarBlade 1 0.2
+  # - exp 200 1
+  Skills:
+  - mount{t=Ruin} ~onSpawn
+  - skill{s=SmashAttack} @trigger ~onDamaged 0.05
+  - skill{s=Cripple} @Target ~onAttack 0.5
+  - skill{s=Harm} @trigger ~onDamaged 0.03
+  - skill{s=Shackle} @trigger ~onDamaged 0.05
+  - effect:sound{s=entity.skelton.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  - effect:particles{p=smoke;a=15;hs=.6;vs=.6;s=0.3;y=0} =1%-100% @Self ~onDamaged
+  - effect:sound{s=entity.enderdragon.growl;v=16 * 20;p=0.1} @Self ~onDeath
+  - skill{s=NecroDeath} @Self ~onDeath
+  Options:
+    FollowRange: 50
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    PreventOtherDrops: true
+Pestilence:
+  Mobtype: SKELETON
+  Display: '&cPestilence'
+  Health: 2000
+  Armor: 0
+  Damage: 20.0
+  Disguise:
+    Type: player
+    Player: '&5Pestilence'
+    Skin: Kronos
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: 'Conquête'
+    Range: 80
+    Color: BLUE
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 AvoidArrows
+  - 3 Float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 OtherFaction
+  DamageModifiers:
+  - LIGHTNING 0
+  - LAVA 0
+  Equipment:
+  # - PestBow:0
+  Drops:
+  # - PestBow 1 0.2
+  # - exp 200 1
+  Skills:
+  - mount{t=Mysery} ~onSpawn
+  - skill{s=SmashAttack} @trigger ~onDamaged 0.05
+  - skill{s=Toxic} @trigger ~onDamaged 0.01
+  - skill{s=Haze} @trigger ~onDamaged 0.3
+  - skill{s=Blind} @trigger ~onDamaged 0.03
+  - skill{s=ArrowBarrage} @target ~onTimer:200 =51%-100%
+  - skill{s=HellBarrage} @ttarget ~onTimer:200 =1%-50%
+  - arrowvolley{a=10;s=200;v=10;removeDelay=20} @Target ~onTimer:100
+  - effect:sound{s=entity.skelton.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  - effect:particles{p=smoke;a=15;hs=.6;vs=.6;s=0.3;y=0} =1%-100% @Self ~onDamaged
+  - effect:sound{s=entity.enderdragon.growl;v=16 * 20;p=0.1} @Self ~onDeath
+  - skill{s=NecroDeath} @Self ~onDeath
+  Options:
+    FollowRange: 50
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+Famine:
+  Mobtype: ZOMBIE
+  Display: '&cFamine'
+  Health: 2000
+  Armor: 0
+  Damage: 20.0
+  Disguise:
+    Type: player
+    Player: '&5Famine'
+    Skin: 'bikerkid5'
+  # Riding: Plague
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: 'Famine'
+    Range: 80
+    Color: PINK
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 AvoidArrows
+  - 3 Float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 OtherFaction
+  DamageModifiers:
+  - LIGHTNING 0
+  - LAVA 0
+  Equipment:
+  # - FamineAxe:0
+  Drops:
+  # - FamineAxe 1 0.2
+  # - exp 200 1
+  Skills:
+  - mount{t=Plague} ~onSpawn
+  - skill{s=SmashAttack} @trigger ~onDamaged 0.05
+  - skill{s=Cripple} @trigger ~onDamaged 0.05
+  - skill{s=Starve} @Target ~onAttack 0.5
+  - skill{s=Haze} @trigger ~onDamaged 0.05
+  - skill{s=Consume} ~onTimer:400 =1%-80%
+  - effect:sound{s=entity.skelton.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  - effect:particles{p=smoke;a=15;hs=.6;vs=.6;s=0.3;y=0} =1%-100% @Self ~onDamaged
+  - effect:sound{s=entity.enderdragon.growl;v=16 * 20;p=0.1} @Self ~onDeath
+  - skill{s=NecroDeath} @Self ~onDeath
+  Options:
+    FollowRange: 50
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    PreventOtherDrops: true
+Death:
+  Mobtype: ZOMBIE
+  Display: '&cMort'
+  Health: 2000
+  Armor: 0
+  Damage: 20.0
+  Disguise:
+    Type: player
+    Player: '&5Mort'
+    Skin: 'GrimReaper'
+  # Riding: Despair
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: 'Mort'
+    Range: 80
+    Color: WHITE
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 AvoidArrows
+  - 3 Float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 OtherFaction
+  DamageModifiers:
+  - LIGHTNING 0
+  - LAVA 0
+  Equipment:
+  # - Scythe:0
+  Drops:
+  # - Scythe 1 0.2
+  # - exp 200 1
+  Skills:
+  - mount{t=Despair} ~onSpawn
+  - skill{s=SmashAttack} @trigger ~onDamaged 0.05
+  - skill{s=Wither} @trigger ~onDamaged 0.01
+  - skill{s=Shackle} @Target ~onAttack 0.5
+  - skill{s=Blind} @trigger ~onDamaged 0.03
+  - effect:sound{s=entity.skelton.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  - effect:particles{p=smoke;a=15;hs=.6;vs=.6;s=0.3;y=0} =1%-100% @Self ~onDamaged
+  - effect:sound{s=entity.enderdragon.growl;v=16 * 20;p=0.1} @Self ~onDeath
+  - skill{s=NecroDeath} @Self ~onDeath
+  Options:
+    FollowRange: 50
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+Victim:
+  Mobtype: HORSE
+  Display: '&aVictime Sans Défenses'
+  Health: 20
+  Armor: 3.0
+  Damage: 3.0
+  Disguise:
+    Type: player
+    Player: '&aVictime Sans Défenses'
+    Skin: 'GhostViperxD'
+  Skills:
+  - message{cooldown=200;m="<mob.name><&co> &aAAAAH NOOON ! AU SECOURS !!!"} @PlayersInRadius{r=40} ~onCombat >0 1
+  - skill{s=Horsemen} ~onDeath 1
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true

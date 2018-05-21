@@ -1,0 +1,5 @@
+&9<Lexell> &f: OH YEAH !
+&9<Lexell> &f: EH !
+&9<Lexell> &f: BILOUTE ! euh .... APOLLYON !
+&9<Lexell> &f: ECOUTE CA MON POTE !
+/playsound records.strad master @a[r=30] 683 65 1337 3

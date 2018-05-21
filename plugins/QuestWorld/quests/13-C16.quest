@@ -1,0 +1,257 @@
+id: 13
+category: 16
+cooldown: -60000
+name: '&eUn patron en or'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Bag of Gold
+    lore:
+    - §8Decoration
+    - §8Treasure
+    internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIsH0U5GkUK6YJtgbJ7o7AElt3aUGi6PJWPKN6cy2Tym0lGB9Dhad9PQnwN300nmAb3YQ3PyEGOV3nIqG3mGY5rmYZXlY2B/lSWpeWgVx30ZXRmw9ixyyNoI7uN08AuOgDcafCQl2Ji8MNUhGjRorqIRKVCd8npHokk5OeX8JSr43vohnLh6zd3o7x/3dVYHlaC2FFLT9vpKHO0sXeCrXdmJbMrnnuLWNkNW1TG3DfjA+0pxwrPeZ8EW4W5b8cBNmmQISKJGae+ovyzpUHek3Rx6c9UYpV8+A4OyEx51TWF6S3v4Rc/wat2GAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -408.0
+    y: 49.0
+    z: 2668.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 75097ca1-7300-4831-a238-b2366888567d
+  entity: PLAYER
+  custom_int: 662
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -378.0
+    y: 32.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 3245542c-e0aa-47cd-a255-b0a9ab957e60
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: RABBIT_STEW
+  amount: 10
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -378.0
+    y: 32.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f3b73c7a-58af-4388-acdd-b0eaa7a40b38
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  amount: 6
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -378.0
+    y: 32.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e165acc7-0bf2-4f1b-8bdb-c017448bd5e4
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BED
+    damage: 1
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -378.0
+    y: 32.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f7898948-ea9f-426b-9563-aed696783d3a
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WORKBENCH
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -379.0
+    y: 33.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 046a908d-1f34-4e77-950b-55b125f738ad
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FURNACE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -379.0
+    y: 33.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 66f77939-caf4-4e42-95b7-e28ac4df0d8b
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREWING_STAND_ITEM
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -379.0
+    y: 33.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d4be2bc1-0e59-49e8-8516-077d40a622c9
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: ENDER_CHEST
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 8
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 6da36d33-0ca1-473f-a6e2-96d06acf07ee
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -379.0
+    y: 33.0
+    z: 2666.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c17edd0c-55e8-44f0-99ce-6c446288ad40
+  entity: PLAYER
+  custom_int: 663
+  exclude-spawners: false

@@ -1,0 +1,174 @@
+id: 41
+category: 7
+cooldown: -60000
+name: Cueillette VI
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Log with Leaves
+    lore:
+    - §8Plants
+    - §8Wood
+    internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIsy4fZQw+NNHRJWaQf0OVGYUmBBZsWLPBcPqDoyblN5jeTjAqgwsuu7qX8uH4WpRQKPNIcXpGJTJIRpOWGIJppY10jWVpo6FdpmtoGMVVQ59JFXLtS3J5B6cTQ9VdxUwHgQYGnKJW9gG8xeig5nlF+9GQ2Unv2+x2SAa0ub7SNxtM7tWkz5+ulvRnJP9bq0tiS3PDOSRv2pyZCG2MrxXqrZ83hK9kfBlblDXOWiOEVDtxw5JgPgcsHPtWm72R3Pw4xq2qUuEkZuCuLY2oyh9+TxmuY608cR5U/+dbfTswkbXVShIvF/AB+ADBgFcgcAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: b52b98dd-063f-4387-9c6f-3042a3532a72
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: ece43738-71db-459b-a026-0248b7f6b91c
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+  amount: 16
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 611.0
+    y: 64.0
+    z: 905.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 4c7f925a-9d40-4e8b-badf-df907c504f65
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+    damage: 1
+  amount: 16
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a5f3dbdb-c25f-4053-b93c-50454e51eb0c
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+    damage: 2
+  amount: 16
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0d4d36e6-441e-464a-b6ba-392f728b01ef
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+    damage: 3
+  amount: 16
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 89ff4c7f-4485-459b-9220-396ae05362ca
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+    damage: 4
+  amount: 16
+  lore: ''
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 2522480d-82e6-4b96-8fb4-69dbf47973bd
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SAPLING
+    damage: 5
+  amount: 16
+  lore: ''
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: b52b98dd-063f-4387-9c6f-3042a3532a72
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: df234088-791e-422f-813e-8b520e3ad2d6
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false

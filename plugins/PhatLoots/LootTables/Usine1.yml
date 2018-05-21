@@ -1,0 +1,28 @@
+Usine1:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aBlé Riche en Uranium
+        lore:
+        - Epi riche en fibre,
+        - mais pas que.
+        enchants:
+          PROTECTION_FIRE: 1
+        internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy7pK70dtDfE5Q0LAydIyCc1sbik22Xe9o1M2zTZGNgcc/NL80oOyDCAAQcDS3BOfgkDR25iZl5GYl4KBwMv3Aq/xNxUBp701LzUosxkvZzS5GxmBk7/gtSixJLM/DyodrAiFpAkA5IjKpemdaVO9X+B7IjtKsvP3Xt3awXCEQLEOkIQ5ojcxAqP1MSckgxcLuECqojPACthYAAAYzoBSzMBAAA=
+    Probability: 100.0
+  Name: Usine1
+  Reset:
+    Hours: 4
+    Days: 1
+    Seconds: 5
+    Minutes: 9
+  RoundDownTime: false

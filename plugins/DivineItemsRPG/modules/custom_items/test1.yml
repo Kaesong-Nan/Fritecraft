@@ -1,0 +1,51 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  damage: 11
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §6Holy Mighty Sword of Glory of the Wise Sunset
+    lore:
+    - §7ᚐᚑᚒᚓᚔᚍᚎᚏ§r §6§lDescription §7ᚏᚎᚍᚔᚓᚒᚑᚐ
+    - '§7Type: §fSword'
+    - §7Tier:§6 Heroic
+    - '§6⚔ Physique: §f84.27%'
+    - '§b⚡ Magique: §f15.73%'
+    - §cRequire Soulbound to use!
+    - '§cNiveau requis: 99 '
+    - §7ᚐᚑᚒᚓᚔᚍᚎᚏ§r §6§lAttributes §7ᚏᚎᚍᚔᚓᚒᚑᚐ
+    - '§a▸ AD: §f12.69 §7- §f18.02'
+    - '§a▸ Chance Coup Critique: §f+13.62%'
+    - '§a▸ Férocité: §f3.78x'
+    - '§6▸ Précision: §f+25.83%'
+    - '§b▸ PvE Damage: §f+24.06%'
+    - ''
+    - '§a▸ Durabilité: §f§lUnbreakable'
+    - '§6⏏§f Réduction: §f§a+5.74%'
+    - '§6⏏§f PvP Damage: §f§a+11.27%'
+    - §8§l§m------§a§l Gemmes §8§l§m------
+    - '§a▣ Gemme: §f§r§b§lFlawless Diamond'
+    - §8§l§m------§b§l Enchantements §8§l§m------
+    - §c○ (Vide)
+    - §c○ (Vide)
+    - §c○ (Vide)
+    - §8§l§m------§c§l Runes §8§l§m------
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §8§l§m------§d§l Pouvoirs §8§l§m------
+    - '§d⚡ Pouvoir: §fHellFire I §7[§cShift§7] §7[§5Gauche§7] §7[§d10 sec.§7]'
+    - §d♯ (Vide)
+    - §d♯ (Vide)
+    enchants:
+      PROTECTION_FIRE: 7
+      OXYGEN: 28
+      DURABILITY: 29
+      ARROW_KNOCKBACK: 19
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAONiYOBgEHN39Y03iE/LSSzPSS0ujk/JTMzNz0thkA8IC4h3cfR1dHd1MNIzUq0JCHOF8U2BfA4GlhBP1yAGtozUovzMZA4GTkcnTx/PkMh4AwbxjNScnLTMolQrQytDAysfV7cQq5Ki0lQGAHJJJ9hyAAAA

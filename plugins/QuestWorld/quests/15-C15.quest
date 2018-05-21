@@ -1,0 +1,239 @@
+uniqueId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+categoryId: 77860246-f4f8-4383-895f-c51db047253c
+id: 15
+category: 15
+cooldown: -1
+name: '&d&lLe Téléportationneur ?'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Command Block
+    lore:
+    - §8Blocks
+    - §8Technical Device, §8Vanilla
+    internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIs3+HQg7HGLuku0sJSuFFYWmAXGwpN4bl8QIkn5zbzmzmMCqDCy74dhfjqv6tacAUecQmvyEKWV3hIK03uaZZj6JpX5JWG/pTnuWu7KqjL6ML7oebXZ1AGfh/Gnl9VAHhQ4InlYuTwwycfZYczKg++KCbsLD7aIxHg5uLijk3Hd+xgufDNm7OdvH9de8gTW6Smf866cDxKhrbmTvDNTi9kfAvW8Z1+hhNpWE2adMrWJ0QNYmZRrFMDIzqHM2nKNjWYpHNspbPf0OhkERkjkjBBZbhkTAQJbYnhN0H0gXCne1W4Wi0P4BdoKiUGHAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+  - ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 8
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dJeton de Candygirl §r
+      enchants:
+        LOOT_BONUS_BLOCKS: 2
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d83437a6-1244-4625-968a-b0d78e172514
+  entity: PLAYER
+  custom_int: 599
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1325.0
+    y: 64.0
+    z: 1066.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5430abe1-a4ce-40ef-a79e-1a0acbf1dcd4
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7954ac46-2ac5-4571-a380-5d74afb2d3c5
+  entity: PLAYER
+  custom_int: 599
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1325.0
+    y: 64.0
+    z: 1066.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5b0a2a64-69f8-46fa-9087-10629822f5d7
+  entity: PLAYER
+  custom_int: 2
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9422bfa9-13bc-4dfd-b6e2-d1292aa1a93a
+  entity: PLAYER
+  custom_int: 599
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEETROOT
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1222220e-4eba-4dc7-89f1-1586bd516651
+  entity: PLAYER
+  custom_int: 599
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: REACH_LOCATION
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1324.0
+    y: 71.0
+    z: 1021.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6b9b44f1-4fd8-4dcf-8ba5-29a93ac9b514
+  entity: PLAYER
+  custom_int: 3
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 4a941639-e25f-4c2c-8ae3-369e22d8c65e
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f85ca6c3-cfb6-4fb6-a48f-7eb58be0ddac
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

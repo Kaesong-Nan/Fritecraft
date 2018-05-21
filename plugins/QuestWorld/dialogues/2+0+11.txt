@@ -1,0 +1,5 @@
+/playsound entity.endermen.scream master <player> 240 72 1412 1
+&7*Apparemment c'est pas assez*
+/playsound entity.endermen.portal master <player> 240 72 1412 1
+&7*Vous sentez l'appel du foin*
+&7*BEAUCOUP de foin*

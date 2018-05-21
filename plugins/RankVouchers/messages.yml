@@ -1,0 +1,33 @@
+# RankVouchers - Messages #
+
+# Message Prefix
+# Use %PREFIX% in Messages to Apply
+prefix: '&3[&bRankVouchers&3]&7'
+
+message:
+  reload: '%PREFIX% &aConfiguration Reloaded.'
+  give: '%PREFIX% &7Given %player% (%amount%x) %tier% voucher.'
+  give-all: '%PREFIX% &7Given %online% online player(s), (%amount%x) %tier% voucher.'
+  receive: '%PREFIX% &7Received (%amount%x) %tier% voucher.'
+  create: '%PREFIX% &7Created %tier% voucher.'
+  remove: '%PREFIX% &7Removed %tier% voucher.'
+  exists: '%PREFIX% &7That voucher already exists.'
+  permission: '%PREFIX% &7That requires &b%permission% &7to use.'
+  invalid: '%PREFIX% &7Sorry, &b%tier% &7is an invalid voucher.'
+  redeem: ''
+  limit: '%PREFIX% &7You''ve reached a limit of &b%limit% &7for this voucher.'
+
+  # prefix: '&3[&bRankVouchers&3]&7'
+  #
+  # message:
+  #   reload: '%PREFIX% &aConfiguration Reloaded.'
+  #   give: '%PREFIX% &7Given %player% (%amount%x) %tier% voucher.'
+  #   give-all: '%PREFIX% &7Given %online% online player(s), (%amount%x) %tier% voucher.'
+  #   receive: '%PREFIX% &7Received (%amount%x) %tier% voucher.'
+  #   create: '%PREFIX% &7Created %tier% voucher.'
+  #   remove: '%PREFIX% &7Removed %tier% voucher.'
+  #   exists: '%PREFIX% &7That voucher already exists.'
+  #   permission: '%PREFIX% &7That requires &b%permission% &7to use.'
+  #   invalid: '%PREFIX% &7Sorry, &b%tier% &7is an invalid voucher.'
+  #   redeem: '%PREFIX% &7You''ve redeemed a &b%tier% &7voucher.'
+  #   limit: '%PREFIX% &7You''ve reached a limit of &b%limit% &7for this voucher.'

@@ -1,0 +1,295 @@
+id: 11
+category: 40
+cooldown: -1
+name: '&b&lLes boules'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §b§lLes boules
+    lore:
+    - §8Decoration
+    - §8Christmas
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJgoJ68NCiqUsAi1JwuQF+lJ9dNAgN8FR9xHLscTIzMoAML6eq4/yzuWYFRwke6QVeY7LUdAM1hehoKIskTZUVWSUKqmsdCWZGlmUyyNN0w6Yt8D4DqcW+7Rq8ywDwIMFzEPMO4RcHi0TnnFzOFk8Hakzsnwg/0PK2pHUwJCY1qJj8/s2wh/W/Vm/jUOdsbuVR7XWJCIg9P3LcH9VUfP045a5nIR2Zv+ud0SoPoddHIVs4Y8CZ/91H22ruiKA6hFRlmreIPo4iKt9zZ3spXT/I3dHTmXAF09jkmEprdZ15mw2ABE9uLBBm5sm8NmgXCcAf88PSACoBAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExYWIzYTExMzJjOWQxZWY4MzVlYTgxZDk3MmVkOWI1Y2Q4ZGRmZjBhMDdjNTVhNzQ5YmNmY2Y4ZGY1In19fQ==
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: NETHER_BRICK_ITEM
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b§lChaussette de Noel §r
+      lore:
+      - §7Clic droit pour ouvrir pour
+      - §7obtenir une surprise !
+  - ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dCouronne §r
+      lore:
+      - §7Echangez ces couronnes contre
+      - §7des récompenses au marché !
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+categoryId: 032ccd89-1e72-4cd0-b76d-d26bc04f471e
+parentId: 044e4463-3294-41f5-b4ea-88b27ce55ed8
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Verte
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJLj9rODZSdY0sBQVkb6Br+dlVg2DhtfqE5djjZGZ0AB3edk0v5Vd7PVdSaPBMT/Cez13kEsc20Lwgho1IbhQ5IobABXItF9uYnHXQp+km2q4S9xlonRi6vhV3HQCeNHhNctkL+BXjBvFDiU6HjTyOlEy83yEZ0Po2p5dkLBaUUDX59QfZju6/1uny1JGZtSn5JewLlaCtFUmxjvBRxQ+WxijwsoGlkWKKWnwVKd9cNsxrsO+FQ+AdTe41A6tlxVe+E3is9E1eTlz6alln+88fZsY2ryn208xi9bdFL9g9hwAavLBcCZgtdotrK7ZVAfAHMPLn+SwBAAA=
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b4387edc-f202-4085-8e47-1fbc62e12b43
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Magenta
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJLD/GowWDEHepSEG4Lewi4K4ahKb4VH3EcuxxMjMqgApvh/MoxGd/rVvBFXgOGLyjmlZLVlWaY1aOZlm1pdGlSTW0Yowiuyx1xlRQ5+nG+6Hl9wUoA/8Zxp7fVQB4UuA1pWLk8MunUC+Ojc6OoaimwJk5OegiCrrbMrikU+kGTiBnv107u2n1r7UHmtkiN8OmuOzHUqb6zowF38ZGJb++I++ESBe2ebI2sdeIyN8j7O8N0mFEsrTDMuyw9yGLbmNGSShxkiP8iGX+OOkk21jEI03kxeciWVs4Sxvi5219NFYACrwQKjks3IN77fmuLQH+AHTwUm4qAQAA
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b27f8d7c-7dff-4bee-9cca-424cf590cf32
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Cyan
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJLn/isVGiS2QpSEG4IX5WcFcNQuP6VH3EcuxxMjM6gA5vm9MgxGd3OTQCNXhme3ivK7d2zL1nIFLPsG2KhkerqVHVU4d6JrFMs9ZBH6crdn2DtwloPd77ocObDgBPGrxmlRgQflEFpNweyX4biFoxd+R0Q0TE2uuUnTO1mzOXydGvPty1mv1rnb7KHVFYwbE8x8NOZmRtJQJXCa3l10+YMrNMQ8JbZnPTV2GeNKXkR54zGi3DO18Ep2gZU/7wVSGTNlokcnQWz2MSPnxS5rEq0u9H0TIVykyW0m8OWzoD0OCFVxJhMt/MLx2umx3AH5rLmTkqAQAA
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5361e5f2-5a8c-4cda-bb53-60e4c7dcad67
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Bleue
+      internal: H4sIAAAAAAAAAE2Ly26CQBRAb5s2QdLP6JYEhpcsG411CINVeQg7kGt5zKhBaBx/qr9Yll2enHNUABXe9t3I+Vd/OTUcFXimFbxXjumVSDytcueFZtmOoc1d29TQ81wXieUQclRBnaYr9kODtxkoA96HscebCgBPCrwmBR8RflH6en6o9erg86OkzsTRXucb2l5dek5kuaAOFZNffziB9P619lCkNs9Mv87P27EUiR6YO47rnXEU8U/YVpxFqy5ra8EenQwf1MyiVRsuYztPqbGZXL6sa/a5qtnjm7CUTc3WCkl8n1jPBJVMZDaLYpMRn4fS904HHUCBl7AQCLPFfnHpMWhKgD8DVTuMKQEAAA==
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f652fa35-910f-4b42-a561-64c3b045a247
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Rouge
+      internal: H4sIAAAAAAAAAE2L326CMBxGf1u2BMkeY7ckLYUuXC500RpXhiJK7/hTFClqEBbhsfaEY3e7/M45nwlgwsum7rX+ai9lpZUBj7yAV0oyDzmZa2GHOpZT2qmVEqosXGDiYYoU8agJ5nS6qrar1G0GRqfuXd+qmwkADwY8x6nuFfyoYYnk/oiK/VLnA6fTjjZIB/x0fePneMh8Tnkz+cU7XQ3ev9bt0p2rE7I8ynPYZ02MVmSt1WKN82b7HbADklE9CHYgyZgQwWo3iOJKjDX5HIsqmH+4csdRMoZjEG3RH08iWUsmT5LpSszjJrG3d2GLRrAcByy0+Rl7ZQhgwJNIGwUzf+NfWrWqMoBfz5hMeCwBAAA=
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7985073a-6a56-4825-9e0a-74d10a5465a4
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Orange
+      internal: H4sIAAAAAAAAAE2LzU6DQBhFP40mlPgYbkkoI7QsTRU6pIDAFDvs+JkJ4EzbUGiAx/IJZenq5uScqwKo8JL8DEJ8dRfeCKbAI67gldu83PJtqRmbdaW9GRXTcp0zDZUotw3byrlZqKAupyvr+obdVqD0bOyHjt1UAHhQ4DnNxcDgl02enp1qvTp5opywtTBJdBHi9rrB53QqdtjCcvH7d+sw2f9as8+/TUGRV2fnaChkqh9QLNg+XpfyeA9kWvukRFnrNMEct5QcESVOS42j6c+1CN3IDEnc0NmRQeujjKTLijb88EQm6RQSOvryc/QNrw5dPGVuhPB5bfMIQIGnIJcMVrtkd+nYoSkA/gDyaCEBLAEAAA==
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 58d0ba01-e846-4fed-9d70-acb3079041e5
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Jaune
+      internal: H4sIAAAAAAAAAE2Ly06DQBRAr0YTSvwMtyRQHoWlto0dUkAeQocdlIs8ZtqGggE+ym+UpcuTc44IIMJL2A6MfXbXsmYowCMp4NVU5Sw7a6VUFqYpaSaqkpnna0kxSkSrMPRNYYggLtMNu77G+wqEHsd+6PAuAsCDAM9xxgaEX5xsOT1VcnGy2XkixsJRKDOPNLcNucRTviUG4Ys/vBnHyfrX6n2W6IyqdpVe/CHnsXxUA4aHQDnzrx+n2Y80ITON9qMz242X+GOaUM2ZY0aj7zHdtarD49ZLiELXvpZ+BDxt3itnVzRuFFfu7OuUu5yu6eKoQi6KVfoAAjy5GUdYbcPttcNjnQP8AY6m4x8oAQAA
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 662f8a4e-f1d3-44c9-9d95-8b45ef1f7069
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eBoule Argent
+      internal: H4sIAAAAAAAAAE2LW2+CMBhAvy1bgmQ/Y68krbYqj4sYrLFl3lB441LHpUWD4AY/a79wPO7x5JxjApjwti9bpT7r6yVX0oBnlsI7QfMZnRFizVOKLTLBqRUhTKwEjW2bzCm1Y2KCOUw3WTe5vI/AaORP09bybgLAkwGvfqRaCb+yW6PwnKH0vFZJx6YDH/ZIeay4zVjld/GCTZke/Opjuunsfy1tohNVwWSdhdW2jbWPNpOdkqsdTvTxERQMcSf5DnqViyLA3skveeHnXIuMH9jYOyxxWOxKz/nquBtmoRZKOLwTrl96pyUZXO65S8ydoBfOsedOqlmF7csWwIAXEWkJo8V+ca3lJo8B/gC7BGQvLAEAAA==
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: Hey there! Do this Quest.
+  index: 7
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3b3119c3-09ee-46ba-bd49-395f46d237e9
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 1182.0
+    y: 71.0
+    z: 533.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 5f9e1b56-b0ec-471f-b5ee-b2a95c704d5a
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

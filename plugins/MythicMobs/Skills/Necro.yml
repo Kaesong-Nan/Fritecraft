@@ -1,0 +1,81 @@
+Rapiddamage:
+  Cooldown: 2
+  Skills:
+  - skill{s=RD}
+  - potion{type=WITHER;lvl=0;duration=100} @Target
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+  - skill{s=RD}
+  - delay 2
+RD:
+  Skills:
+  - effect:particles{p=instantSpell;a=15;hs=0.2;vs=0.2;s=0;y=1.0} @target
+  - damage{amount=1;ignoreArmor=true}
+SummonDead:
+  Skills:
+  - effect:sound{s=entity.zombie.break_door_wood;v=2.0;p=0.1} @Target
+  - delay 30
+  - effect:sound{s=entity.skeleton.death;v=2.0;p=0.1} @Target
+  - summon{mob=Dead;amount=1;r=5}
+Convert:
+  Skills:
+  - effect:sound{s=entity.zombie.infect;v=2;p=1} @Self ~onKillPlayer
+  - delay 20
+  - summon{mob=DeadP;amount=1;} @Self ~onKillPlayer
+NecroDeath:
+  Skills:
+  - effect:sound{s=entity.endermen.scream;v=.5;p=0.8} @Self ~onDeath
+  - delay 10
+  - effect:sound{s=entity.endermen.scream;v=.5;p=1.5} @Self ~onDeath
+  - delay 7
+  - effect:sound{s=entity.endermen.scream;v=.5;p=1.1} @Self ~onDeath
+  - delay 8
+  - effect:sound{s=entity.endermen.scream;v=.5;p=1.4} @Self ~onDeath
+  - delay 11
+  - effect:sound{s=entity.endermen.scream;v=.5;p=1.2} @Self ~onDeath
+  - delay 10
+  - effect:sound{s=entity.endermen.scream;v=.5;p=1.1} @Self ~onDeath
+SkullShot:
+  Skills:
+  - effect:sound{s=entity.endermen.scream;v=2;p=0.1} @Target
+  - delay 40
+  - shootskull{y=1;v=1} @target
+  - delay 20
+  - shootskull{y=3;v=1} @target
+  - delay 20
+  - shootskull{y=5;v=2} @target
+  - delay 20
+  - shootskull{y=7;v=2} @target
+  - delay 20
+  - shootskull{y=9;v=3} @target
+ND2:
+  Cooldown: 10
+  Skills:
+  - summon{m=MeteorPointer;a=1;r=0}

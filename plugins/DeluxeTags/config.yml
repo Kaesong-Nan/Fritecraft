@@ -1,0 +1,551 @@
+# DeluxeTags version: 1.7.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: false
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} '
+gui:
+  name: '&6Titres disponibles&f: &6{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Titre&f: &6{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - '{deluxetags_description}'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&eCurrent tag&f: &6{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - Click to remove your current tag
+  no_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&7Click a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+deluxetags:
+  Youtube:
+    order: 801
+    tag: '&7[&cYou&ftube&7]'
+    description: ''
+  Lag:
+    order: 802
+    tag: '&7[&dLag&7]&f'
+    description: '&f'
+  Legend:
+    order: 803
+    tag: '&7[&dLégende&7]&f'
+    description: '&f'
+  Abomination:
+    order: 804
+    tag: '&7[&4Abomination&7]&f'
+    description: '&f'
+  Agent:
+    order: 805
+    tag: '&7[&dAgent&7]&f'
+    description: '&f'
+  Infected:
+    order: 806
+    tag: '&7[&dInfecté&7]&f'
+    description: '&f'
+  Invincible:
+    order: 807
+    tag: '&7[&eInvincible&7]&f'
+    description: '&f'
+  Fou:
+    order: 808
+    tag: '&7[&3Fou&7]&f'
+    description: '&f'
+  Stupide:
+    order: 809
+    tag: '&7[&3Stupide&7]&f'
+    description: '&f'
+  Mastodonte:
+    order: 810
+    tag: '&7[&dMastodonte&7]&f'
+    description: '&f'
+  Pyro:
+    order: 811
+    tag: '&7[&ePyro&7]&f'
+    description: '&f'
+  Bandit:
+    order: 812
+    tag: '&7[&eBandit&7]&f'
+    description: '&f'
+  MeilleurTitre:
+    order: 813
+    tag: '&7[&aLe meilleur titre&7]&f'
+    description: '&f'
+  Super:
+    order: 814
+    tag: '&7[&aSuper&7]&f'
+    description: '&f'
+  Swag:
+    order: 815
+    tag: '&7[&dSwag&7]&f'
+    description: '&f'
+  Yolo:
+    order: 816
+    tag: '&7[&eYolo&7]&f'
+    description: '&f'
+  Hashtag:
+    order: 817
+    tag: '&7[&9Hashtag&7]&f'
+    description: '&f'
+  LOL:
+    order: 818
+    tag: '&7[&9LOL&7]&f'
+    description: '&f'
+  Hardcore:
+    order: 819
+    tag: '&7[&eHardcore&7]&f'
+    description: '&f'
+  Topkek:
+    order: 820
+    tag: '&7[&dTopkek&7]&f'
+    description: '&f'
+  Salsifis:
+    order: 821
+    tag: '&7[&aSalsifis&7]&f'
+    description: '&f'
+  Fenouil:
+    order: 822
+    tag: '&7[&aFenouil&7]&f'
+    description: '&f'
+  Quiche:
+    order: 823
+    tag: '&7[&eQuiche&7]&f'
+    description: '&f'
+  Artichaut:
+    order: 824
+    tag: '&7[&aArtichaut&7]&f'
+    description: '&f'
+  Camembert:
+    order: 825
+    tag: '&7[&dCamembert&7]&f'
+    description: '&f'
+  Moules:
+    order: 826
+    tag: '&7[&dPince à moules&7]&f'
+    description: '&f'
+  Crame:
+    order: 838
+    tag: '&7[&eCramé&7]&f'
+    description: '&f'
+  Ragequit:
+    order: 839
+    tag: '&7[&eRagequit&7]&f'
+    description: '&f'
+  Rekt:
+    order: 840
+    tag: '&7[&eRekt&7]&f'
+    description: '&f'
+  Sel:
+    order: 841
+    tag: '&7[&eSel&7]&f'
+    description: '&f'
+  OP:
+    order: 842
+    tag: '&7[&dOP&7]&f'
+    description: '&f'
+  Savant:
+    order: 843
+    tag: '&7[&d☣ Chercheur ☣&7]&f'
+    description: '&f'
+  Radioactif:
+    order: 844
+    tag: '&7[&d☢ Radioactif ☢&7]&f'
+    description: '&f'
+  Juste:
+    order: 845
+    tag: '&7[&a⚖ Juste ⚖&7]&f'
+    description: '&f'
+  Electrique:
+    order: 846
+    tag: '&7[&b⚡ Electrique ⚡&7]&f'
+    description: '&f'
+  Docteur:
+    order: 847
+    tag: '&7[&a⚕ Docteur ⚕&7]&f'
+    description: '&f'
+  Herboriste:
+    order: 850
+    tag: '&7[&a❀ Herboriste ❀&7]&f'
+    description: '&f'
+  Immortel:
+    order: 851
+    tag: '&7[&9☥ Immortel ☥&7]&f'
+    description: '&f'
+  Ingenieur:
+    order: 852
+    tag: '&7[&4☼ Ingénieur ☼&7]&f'
+    description: '&f'
+  Love:
+    order: 853
+    tag: '&7[&e❤ Love ❤&7]&f'
+    description: '&f'
+  Sheriff:
+    order: 854
+    tag: '&7[&e✪ Sheriff ✪&7]&f'
+    description: '&f'
+  Survivant:
+    order: 855
+    tag: '&7[&e❇ Survivant ❇&7]&f'
+    description: '&f'
+  Marin:
+    order: 311
+    tag: '&7[&aOmicron&7]&f'
+    description: '&7Récompense de quête de talents'
+  Rockeur:
+    order: 857
+    tag: '&7[&d♫ Rockeur ♫&7]&f'
+    description: '&f'
+  Ninja:
+    order: 858
+    tag: '&7[&d✫ Ninja ✫&7]&f'
+    description: '&f'
+  Toxique:
+    order: 859
+    tag: '&7[&c☠ Toxique ☠&7]&f'
+    description: '&f'
+  Danger:
+    order: 860
+    tag: '&7[&d☠ Danger ☠&7]&f'
+    description: '&f'
+  Converti:
+    order: 100
+    tag: '&7[&fConverti&7]&f'
+    description: '&fVous avez une adoration !'
+  Disciple:
+    order: 101
+    tag: '&7[&fDisciple&7]&f'
+    description: '&fNiveau 10 adoration'
+  Admirateur:
+    order: 102
+    tag: '&7[&fAdmirateur&7]&f'
+    description: '&fNiveau 20 adoration'
+  Partisant:
+    order: 103
+    tag: '&7[&aPartisan&7]&f'
+    description: '&fNiveau 30 adoration'
+  Fidele:
+    order: 104
+    tag: '&7[&aFidèle&7]&f'
+    description: '&fNiveau 40 adoration'
+  Zelote:
+    order: 105
+    tag: '&7[&cZélote&7]&f'
+    description: '&fNiveau 50 adoration'
+  Gardien:
+    order: 106
+    tag: '&7[&cGardien&7]&f'
+    description: '&fNiveau 60 adoration'
+  Champion:
+    order: 107
+    tag: '&7[&4Champion&7]&f'
+    description: '&fNiveau 70 adoration'
+  Exalte:
+    order: 109
+    tag: '&7[&6Exalté&7]&f'
+    description: '&fNiveau 90 adoration'
+  Illumine:
+    order: 110
+    tag: '&7[&5Illuminé&7]&f'
+    description: '&fNiveau 100 adoration'
+  Frite:
+    order: 111
+    tag: '&7[&6✪ Fanatique de la Frite ✪&7]&f'
+    description: '&f'
+  Poulet:
+    order: 112
+    tag: '&7[&9✪ Pieux Poulet ✪&7]&f'
+    description: '&f'
+  Bigmac:
+    order: 113
+    tag: '&7[&c✪ Baptisé du Bigmac ✪&7]&f'
+    description: '&f'
+  Soupe:
+    order: 114
+    tag: '&7[&6✪ Support de la Soupe ✪&7]&f'
+    description: '&f'
+  Soda:
+    order: 115
+    tag: '&7[&a✪ Serviteur du Soda ✪&7]&f'
+    description: '&f'
+  Reglisse:
+    order: 116
+    tag: '&7[&d✪ Réligieux de la Réglisse ✪&7]&f'
+    description: '&f'
+  Flurry:
+    order: 117
+    tag: '&7[&b✪ Furieux du Flurry ✪&7]&f'
+    description: '&f'
+  Choco:
+    order: 118
+    tag: '&7[&d✪ Champion du Chocolat ✪&7]&f'
+    description: '&f'
+  Glacial:
+    order: 200
+    tag: '&7[&bGlacial&7]&f'
+    description: '&fNoel 2016 !'
+  Festif:
+    order: 201
+    tag: '&7[&eFestif&7]&f'
+    description: '&fNoel 2016 !'
+  Boules:
+    order: 202
+    tag: '&7[&eBoulet&7]&f'
+    description: '&fNoel 2016 !'
+  Fetard:
+    order: 203
+    tag: '&7[&6Fêtard&7]&f'
+    description: '&7Anniversaire du serveur 2017'
+  Joueur:
+    order: 204
+    tag: '&7[&aJoueur&7]&f'
+    description: '&7Festival 2017'
+  CirclePit:
+    order: 205
+    tag: '&7[&9Circle Pit&7]&f'
+    description: '&7Festival 2017'
+  MoshPit:
+    order: 206
+    tag: '&7[&2MoshPit&7]&f'
+    description: '&7Festival 2017'
+  Slammer:
+    order: 207
+    tag: '&7[&cSlammer&7]&f'
+    description: '&7Festival 2017'
+  Bronze:
+    order: 208
+    tag: '&7[&e☀ Bronzé ☀&7]&f'
+    description: '&7Festival 2017'
+  Kammthaar:
+    order: 209
+    tag: '&7[&9Kammthaar&7]&f'
+    description: '&7Festival 2017'
+  EvierMetal:
+    order: 210
+    tag: '&7[&fEvier Metal&7]&f'
+    description: '&7Festival 2017'
+  Surfer:
+    order: 210
+    tag: '&7[&bSurfer&7]&f'
+    description: '&7Festival 2017'
+  Keke:
+    order: 211
+    tag: '&7[&e☀ Kéké ☀&7]&f'
+    description: '&7Festival 2017'
+  Apero:
+    order: 212
+    tag: '&7[&e☀ Apéro ☀&7]&f'
+    description: '&7Festival 2017'
+  Barbecue:
+    order: 213
+    tag: '&7[&6Barbecue&7]&f'
+    description: '&7Festival 2017'
+  Alpha:
+    order: 1
+    tag: '&7[&9Alpha&7]&f'
+    description: '&fNiveau de puissance 300'
+  Beta:
+    order: 2
+    tag: '&7[&9Beta&7]&f'
+    description: '&fNiveau de puissance 500'
+  Gamma:
+    order: 3
+    tag: '&7[&9Gamma&7]&f'
+    description: '&fNiveau de puissance 1000'
+  Delta:
+    order: 4
+    tag: '&7[&9Delta&7]&f'
+    description: '&fNiveau de puissance 2000'
+  Epsilon:
+    order: 5
+    tag: '&7[&9Epsilon&7]&f'
+    description: '&fNiveau de puissance 3000'
+  Lambda:
+    order: 6
+    tag: '&7[&9Lambda&7]&f'
+    description: '&fNiveau de puissance 4000'
+  Omega:
+    order: 7
+    tag: '&7[&9Omega&7]&f'
+    description: '&fNiveau de puissance 5000'
+  Sigma:
+    order: 8
+    tag: '&7[&9Sigma&7]&f'
+    description: '&fNiveau de puissance 6000'
+  Psi:
+    order: 9
+    tag: '&7[&9Psi&7]&f'
+    description: '&fNiveau de puissance 7000'
+  Tau:
+    order: 10
+    tag: '&7[&9Tau&7]&f'
+    description: '&fNiveau de puissance 8000'
+  Omicron:
+    order: 11
+    tag: '&7[&9Omicron&7]&f'
+    description: '&fNiveau de puissance 9000'
+  Zeta:
+    order: 12
+    tag: '&7[&9Zeta&7]&f'
+    description: '&fNiveau de puissance 10000'
+  Vicaire:
+    order: 20
+    tag: '&7[&9Vicaire&7]&f'
+    description: '&fRang Vicaire / Builder'
+  Builder:
+    order: 21
+    tag: '&7[&9Builder&7]&f'
+    description: '&fRang Builder / Vicaire'
+  Diacre:
+    order: 22
+    tag: '&7[&eDiacre&7]&f'
+    description: '&fRang Diacre'
+  Modo:
+    order: 23
+    tag: '&7[&eModérateur&7]&f'
+    description: '&fRang Modérateur'
+  Pretre:
+    order: 24
+    tag: '&7[&dPrêtre&7]&f'
+    description: '&fRang de contributeur'
+  Archeveque:
+    order: 25
+    tag: '&7[&6Archévêque&7]&f'
+    description: '&fRang admin'
+  Admin:
+    order: 26
+    tag: '&7[&6Admin&7]&f'
+    description: '&fRang admin'
+  Cardinal:
+    order: 27
+    tag: '&7[&4Cardinal&7]&f'
+    description: '&fRang fondateur'
+  Charbonnier:
+    order: 301
+    tag: '&7[&eCharbonnier&7]&f'
+    description: '&7Récompense de quête de talents'
+  Ferailleur:
+    order: 302
+    tag: '&7[&aFerailleur&7]&f'
+    description: '&7Récompense de quête de talents'
+  Joaillier:
+    order: 303
+    tag: '&7[&6Joaillier&7]&f'
+    description: '&7Récompense de quête de talents'
+  Forestier:
+    order: 304
+    tag: '&7[&eForestier&7]&f'
+    description: '&7Récompense de quête de talents'
+  Abatteur:
+    order: 305
+    tag: '&7[&aAbatteur&7]&f'
+    description: '&7Récompense de quête de talents'
+  Charpentier:
+    order: 30
+    tag: '&7[&6Charpentier&7]&f'
+    description: '&7Récompense de quête de talents'
+  Laboureur:
+    order: 307
+    tag: '&7[&eLaboureur&7]&f'
+    description: '&7Récompense de quête de talents'
+  Planteur:
+    order: 308
+    tag: '&7[&aPlanteur&7]&f'
+    description: '&7Récompense de quête de talents'
+  Psychologue:
+    order: 309
+    tag: '&7[&6Psychologue&7]&f'
+    description: '&7Récompense de quête de talents'
+  Sardinier:
+    order: 310
+    tag: '&7[&eTau&7]&f'
+    description: '&7Récompense de quête de talents'
+  Loupdemer:
+    order: 312
+    tag: '&7[&6Loup de Mer&7]&f'
+    description: '&7Récompense de quête de talents'
+  Alchimiste:
+    order: 310
+    tag: '&7[&eAlchimiste&7]&f'
+    description: '&7Récompense de quête de talents'
+  Philosophe:
+    order: 311
+    tag: '&7[&aPhilosophe&7]&f'
+    description: '&7Récompense de quête de talents'
+  Occultiste:
+    order: 312
+    tag: '&7[&6Occultiste&7]&f'
+    description: '&7Récompense de quête de talents'
+  Demigod:
+    order: 1000
+    tag: '&7[&5Demi Dieu&7]&f'
+    description: '&f'
+  Vizir:
+    order: 1001
+    tag: '&7[&dVizir&7]&f'
+    description: '&f'
+  Psychopathe:
+    order: 1002
+    tag: '&7[&cPsychopathe&7]&f'
+    description: '&ftag spécial pour Ehiian'
+  Seraphique:
+    order: 1003
+    tag: '&7[&fSéraphique&7]&f'
+    description: '&ftag spécial pour Milobellus2'
+  Hellfest2017:
+    order: 1004
+    tag: '&7[&e♫ Hell ♫&7]&f'
+    description: '&ftag spécial METAL'
+  Metamorphe:
+    order: 1005
+    tag: '&7[&bMétamorphe&7]&f'
+    description: '&ftag spécial pour ShiroNo'
+  Slayer:
+    order: 1006
+    tag: '&7[&cS&6l&ea&ay&be&3r&7]&f'
+    description: '&ftag spécial pour Leo81000'
+  Aumonier:
+    order: 1007
+    tag: '&7[&4A&cu&6m&eo&an&2i&be&3r&7]&f'
+    description: '&ftag spécial pour Ekute'

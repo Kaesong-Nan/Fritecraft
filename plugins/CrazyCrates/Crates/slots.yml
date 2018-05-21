@@ -1,0 +1,153 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&a&lMachine à émeraudes'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 9
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&a&lMachine à émeraudes'
+  Lore:
+  - '&7La base pour tous les casinos.'
+  PhysicalKey:
+    Name: '&a&lJeton de jeu'
+    Lore:
+    - '&7Un jeton pour le &ecasino'
+    Item: '452'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&cPERDU'
+      DisplayItem: 'dirt'
+      Lore:
+      - '&7fail'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Items:
+      - Item:3, Amount:1
+      Messages:
+      - '&7&l>> &c&lPERDU.'
+    '2':
+      DisplayName: '&a25 émeraudes'
+      DisplayItem: '388'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:388, Amount:25
+      Messages:
+      - '&7&l>> &a&l25 Emeraudes !'
+    '3':
+      DisplayName: '&a225 émeraudes'
+      DisplayItem: '133'
+      Lore:
+      - '&aAW YIS'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Items:
+      - Item:133, Amount:25
+      Messages:
+      - '&7&l>> &6&l225 Emeraudes !'
+      Commands:
+      - broadcast &6&l%Player% &7a gagné le jackpot au casino !
+    '4':
+      DisplayName: '&a5 Diamants'
+      DisplayItem: '264'
+      Lore:
+      - '&aGG'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:264, Amount:5
+      Messages:
+      - '&7&l>> &b&l5 Diamants !'
+    '5':
+      DisplayName: '&a5 lingots de fer'
+      DisplayItem: '265'
+      Lore:
+      - '&aGG !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:265, Amount:5
+      Messages:
+      - '&7&l>> &9&l5 Lingots de fer !'
+    '6':
+      DisplayName: '&a5 Lingots d''or'
+      DisplayItem: '266'
+      Lore:
+      - '&aGG !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:266, Amount:5
+      Messages:
+      - '&7&l>> &e&l5 Lingots d''or !'
+    '7':
+      DisplayName: '&a10 Redstone'
+      DisplayItem: '331'
+      Lore:
+      - '&7Bof bof'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:331, Amount:10
+      Messages:
+      - '&7&l>> &7&l10 Poussières de redstone ...'
+    '8':
+      DisplayName: '&a10 Charbon'
+      DisplayItem: '263'
+      Lore:
+      - '&7Bof bof'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:263, Amount:10
+      Messages:
+      - '&7&l>> &7&l10 Charbons ...'
+    '9':
+      DisplayName: '&a10 Lapis'
+      DisplayItem: '351:4'
+      Lore:
+      - '&7Bof bof'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:351:4, Amount:10
+      Messages:
+      - '&7&l>> &9&l10 Lapis ...'
+    '10':
+      DisplayName: '&a5 Quartz'
+      DisplayItem: '406'
+      Lore:
+      - '&7Bof bof'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:406, Amount:5
+      Messages:
+      - '&7&l>> &7&l5 Quartz ... !'
+    # '11':
+    #   DisplayName: '&e&lBourse du Festival &r'
+    #   DisplayItem: '405'
+    #   Lore:
+    #   - '&7Bof bof'
+    #   MaxRange: 100
+    #   Chance: 4
+    #   Firework: true
+    #   Commands:
+    #   - rv give %Player% Festival 1
+    #   Messages:
+    #   - '&7&l>> &e&l1x Bourse du Festival !'

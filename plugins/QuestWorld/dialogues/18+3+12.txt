@@ -1,0 +1,19 @@
+&9<Whitman> &f: Hé ! J'ai trouvé ce livre avant vous !
+&9<Whitman> &f: Premier arrivé, premier servi !
+&9<Whitman> &f: Ce &dLivre intéressant sur la magma &fest pour moi, désolé.
+&9<Whitman> &f: J'aime le magma, et je fais des recherches dessus pour savoir pourquoi ça brûle !
+&9<Whitman> &f: On le veut tous les deux pour la recherche alors ?
+&9<Whitman> &f: Dommage que je sois arrivé en premier !
+&9<Whitman> &f: Bon, aller, c'est votre jour de chance.
+&9<Whitman> &f: Je veux bien vous le laisser.
+&9<Whitman> &f: Je suis gentil hein ?
+&9<Whitman> &f: Je me suis bien reveillé ce matin, c'est tout.
+&9<Whitman> &f: Et j'ai bien mangé à midi.
+&9<Whitman> &f: Bonne pastèque bien juteuse.
+&9<Whitman> &f: Miam miam.
+&9<Whitman> &f: Vous aimez la pastèque ?
+&9<Whitman> &f: C'est trop bon.
+&9<Whitman> &f: Contre une émeraude, je vous laisse le livre.
+&9<Whitman> &f: Ah, bah oui, faut bien que je m'achète mes pastèque ...
+&9<Whitman> &f: Et non, je ne veux pas que vous m'apportiez de pastèque à la place.
+&9<Whitman> &f: Vous pourriez avoir craché dessus, j'ai pas confiance.

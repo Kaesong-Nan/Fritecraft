@@ -1,0 +1,62 @@
+id: 23
+category: 8
+cooldown: 43200000
+name: '&fPotions d''Amphibie'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: §fPotions d'Amphibie
+    potion-type: minecraft:long_water_breathing
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: fb64ec68-9a88-4b4a-9cb5-3e65eec6c7fc
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_water_breathing
+  amount: 9
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: fb64ec68-9a88-4b4a-9cb5-3e65eec6c7fc
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 282.0
+    y: 65.0
+    z: 1048.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9f4db6d4-8681-4445-9ca4-7da14ff73b80
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

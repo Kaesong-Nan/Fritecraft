@@ -1,0 +1,238 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5&lCompétences'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'comp; compétences; '
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Intro:
+  NAME: '&c&l[*] Les Compétences [*]'
+  COMMAND: 'mcstats'
+  LORE:
+    - ''
+  ID: 403
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Mining:
+  NAME: '&6&lMinage'
+  LORE:
+    - ''
+  ID: stone_pickaxe
+  POSITION-X: 1
+  POSITION-Y: 3
+  COMMAND: 'minage'
+  KEEP-OPEN: false
+
+Exca:
+  NAME: '&6&lExcavation'
+  LORE:
+    - ''
+  ID: stone_spade
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'excavation'
+  KEEP-OPEN: false
+
+Buche:
+  NAME: '&6&lBûcheronnage'
+  LORE:
+    - ''
+  ID: stone_axe
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'bûcheronnage'
+  KEEP-OPEN: false
+
+Herb:
+  NAME: '&6&lHerboristerie'
+  LORE:
+    - ''
+  ID: stone_hoe
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'herboristerie'
+  KEEP-OPEN: false
+
+Chimie:
+  NAME: '&6&lAlchimie'
+  LORE:
+    - ''
+  ID: brewing_stand
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'alchimie'
+  KEEP-OPEN: false
+
+Sword:
+  NAME: '&6&lEpées'
+  LORE:
+    - ''
+  ID: iron_sword
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'épées'
+  KEEP-OPEN: false
+
+Arc:
+  NAME: '&6&lArcherie'
+  LORE:
+    - ''
+  ID: bow
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'archerie'
+  KEEP-OPEN: false
+
+Hache:
+  NAME: '&6&lHaches'
+  LORE:
+    - ''
+  ID: iron_axe
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'haches'
+  KEEP-OPEN: false
+
+Peche:
+  NAME: '&6&lPêche'
+  LORE:
+    - ''
+  ID: fishing_rod
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'pêche'
+  KEEP-OPEN: false
+
+Poings:
+  NAME: '&6&lPoings'
+  LORE:
+    - ''
+  ID: 298
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'poings'
+  KEEP-OPEN: false
+
+Apprivoisement:
+  NAME: '&6&lApprivoisement'
+  LORE:
+    - ''
+  ID: bone
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'apprivoisement'
+  KEEP-OPEN: false
+
+Acrobaties:
+  NAME: '&6&lAcrobaties'
+  LORE:
+    - ''
+  ID: 301
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'acrobatie'
+  KEEP-OPEN: false
+
+repair:
+  NAME: '&6&lRéparation'
+  LORE:
+    - ''
+  ID: 301
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'réparation'
+  KEEP-OPEN: false
+
+# Boost:
+#   NAME: '&6&l[*] Boost ! [*]'
+#   LORE:
+#     - 'Choisir un boost d''expérience'
+#   ID: nether_star
+#   POSITION-X: 5
+#   POSITION-Y: 6
+#   COMMAND: 'xpboost gui'
+#   KEEP-OPEN: true
+#
+# InfoBoost:
+#   NAME: '&6Boost Actif'
+#   LORE:
+#     - 'Voir le statut de boost'
+#   ID: 381
+#   POSITION-X: 9
+#   POSITION-Y: 6
+#   COMMAND: 'xpboost info'
+
+mcstatson:
+  NAME: '&6Tableau de stats'
+  LORE:
+    - 'Activer le tableau des stats'
+  ID: 421
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'mcstats; mcscoreboard keep'
+mcstatsoff:
+  NAME: '&6Tableau de stats'
+  LORE:
+    - 'Masque le tableau des stats'
+  ID: barrier
+  POSITION-X: 9
+  POSITION-Y: 1
+  COMMAND: 'mcscoreboard clear'
+
+#Boost:
+#  NAME: '&6&l[*] Boost ! [*]'
+#  LORE:
+#    - 'Activer un boost de 50% d''expérience'
+#    - 'pour tout le serveur pendant 30 minutes'
+#    - 'Cout : 50 émeraudes'
+#  ID: nether_star
+#  POSITION-X: 5
+#  POSITION-Y: 6
+#  PRICE: 50
+#  COMMAND: 'console: pex group user timed add mcmmo.perks.xp.50percentboost.all 1800; broadcast: &e{player} a activé un boost pour toutes les compétences pour une durée de 30 minutes !'
+#  KEEP-OPEN: false

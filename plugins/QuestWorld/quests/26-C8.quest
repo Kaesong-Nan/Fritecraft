@@ -1,0 +1,62 @@
+id: 26
+category: 8
+cooldown: 43200000
+name: '&fPotions de Nyctalopie'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: §fPotions de Nyctalopie
+    potion-type: minecraft:long_night_vision
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: dde244f4-2034-4afd-a8d5-c93b3f11aa8b
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_night_vision
+  amount: 12
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: dde244f4-2034-4afd-a8d5-c93b3f11aa8b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 282.0
+    y: 65.0
+    z: 1048.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dda6264a-fde1-4c1c-b8bd-3a08fc80ccca
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

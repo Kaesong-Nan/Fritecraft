@@ -1,0 +1,22 @@
+PotorooSmite:
+  Skills:
+  - message{m="&6&l<mob.name>&f&l<&co> &7Invoque le pouvoir de Fritegirl !"} @PlayersInRadius{r=30}
+  - potion{type=SLOW;lvl=1;duration=60} @Self
+  - delay 60
+  - potion{type=SLOW;lvl=2;duration=60} @Self
+  - delay 60
+  - potion{type=SLOW;lvl=20;duration=100} @Self
+  - delay 40
+  - throw{velocity=15;velocityY=1} @PlayersInRadius{r=6}
+  - delay 10
+  - effect:lightning{repeat=10;repeatInterval=2;l=true;lr=50} @Self
+  - delay 20
+  - equip{item=Excalibur:0}
+  - equip{item=Excalibur:5}
+  - potion{type=INCREASE_DAMAGE;lvl=5;duration=300} @Self
+  - potion{type=SPEED;lvl=1;duration=300} @Self
+  - effect:particles{particle=mobSpell;color=#FF2222;amount=3;hs=0.5;vs=1;y=1.2;s=0.9;repeat=150;repeatinterval=2} @self
+  - delay 300
+  - equip{item=Friture:0}
+  - equip{item=Friture:5}
+  - message{m="&6&l<mob.name>&f&l<&co> &7est calmé !"} @PlayersInRadius{r=30}

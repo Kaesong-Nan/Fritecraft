@@ -1,0 +1,11 @@
+cfg_version: 1.0
+Usage:
+  Bar:
+    Symbol: '-'
+    FirstColor: '&8'
+    SecondColor: '&b'
+  Cancel:
+    OnMove: true
+    OnInteract: true
+    OnDrop: true
+    OnInventory: true

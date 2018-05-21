@@ -1,0 +1,24 @@
+on death of player:
+    execute console command "/minecraft:xp -10L %player%"
+    execute console command "/jobs exp %player% Nuggetsgirl take 100"
+    execute console command "/jobs exp %player% Fritegirl take 100"
+    execute console command "/jobs exp %player% Hamburgirl take 100"
+    execute console command "/jobs exp %player% Soupegirl take 100"
+    execute console command "/jobs exp %player% Sodagirl take 100"
+    execute console command "/jobs exp %player% Candygirl take 100"
+    execute console command "/jobs exp %player% Flurrygirl take 100"
+    execute console command "/jobs exp %player% Chocogirl take 100"
+    wait 60 ticks
+    send "&7&l>> &d&oVous avez perdu 10 niveaux de faveur et 100xp d'adoration pour être réssuscité" to player
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    wait 60 ticks
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    wait 60 ticks
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    wait 60 ticks
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    wait 60 ticks
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    wait 60 ticks
+    apply potion of hunger of tier 10 to the player for 5 seconds
+    stop

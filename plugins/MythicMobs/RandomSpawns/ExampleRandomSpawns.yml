@@ -1,0 +1,95 @@
+#
+# These example files show you how to inject Mythic Mobs
+# you've created into your world. The name of each block
+# can be whatever you'd like but must be unique.
+SkeletonElite:
+  MobType: SkeletonElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+CreeperElite:
+  MobType: CreeperElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+SpiderElite:
+  MobType: SpiderElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+ZombieElite:
+  MobType: ZombieElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+SlimeElite:
+  MobType: SlimeElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+CaveSpiderElite:
+  MobType: CaveSpiderElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+SilverfishElite:
+  MobType: SilverfishElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+EndermanElite:
+  MobType: EndermanElite
+  Worlds: Pitman
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+WitherSkeletonElite:
+  MobType: WitherSkeletonElite
+  Worlds: Bouquenia_nether
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+ZombiePigZombie:
+  MobType: ZombiePigZombie
+  Worlds: Bouquenia_nether
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+BlazeElite:
+  MobType: BlazeElite
+  Worlds: Bouquenia_nether
+  Chance: 0.01
+  Priority: 1
+  Action: ADD
+  Conditions:
+  - onblock NETHER_BRICK
+Fantome:
+  MobType: Fantome
+  Worlds: Bouquenia_nether
+  Chance: 0.01
+  Priority: 1
+  Action: ADD
+  Conditions:
+  - onblock SOUL_SAND
+Incendiaire:
+  MobType: Incendiaire
+  Worlds: Bouquenia_nether
+  Chance: 1.0
+  Priority: 1
+  Action: replace
+  Conditions:
+  - onblock NETHER_BRICK
+
+WitherSkeletonElite:
+  MobType: WitherSkeleton
+  Worlds: Bouquenia
+  Action: add
+  Conditions:
+  - onblock bedrock

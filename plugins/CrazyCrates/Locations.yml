@@ -1,0 +1,115 @@
+Locations:
+  food1:
+    Crate: Food
+    World: Bouquenia
+    X: 275
+    Y: 68
+    Z: 910
+  Anniv:
+    Crate: Anniv
+    World: Bouquenia
+    X: -18
+    Y: 65
+    Z: 1764
+  anniv2:
+    Crate: Anniv
+    World: Bouquenia
+    X: -18
+    Y: 65
+    Z: 1766
+  anniv3:
+    Crate: Anniv
+    World: Bouquenia
+    X: -18
+    Y: 65
+    Z: 1762
+  slots1:
+    Crate: slots
+    World: Bouquenia
+    X: 1510
+    Y: 66
+    Z: 1560
+  slots2:
+    Crate: slots
+    World: Bouquenia
+    X: 1512
+    Y: 66
+    Z: 1560
+  slots3:
+    Crate: slots
+    World: Bouquenia
+    X: 1514
+    Y: 66
+    Z: 1560
+  '1':
+    Crate: slots
+    World: Bouquenia
+    X: 1502
+    Y: 66
+    Z: 1560
+  '2':
+    Crate: slots
+    World: Bouquenia
+    X: 1501
+    Y: 66
+    Z: 1560
+  '3':
+    Crate: slots
+    World: Bouquenia
+    X: 1498
+    Y: 66
+    Z: 1560
+  '4':
+    Crate: slots
+    World: Bouquenia
+    X: 1498
+    Y: 66
+    Z: 1558
+  '5':
+    Crate: slots
+    World: Bouquenia
+    X: 1500
+    Y: 66
+    Z: 1558
+  '6':
+    Crate: slots
+    World: Bouquenia
+    X: 1501
+    Y: 66
+    Z: 1558
+  '7':
+    Crate: slots
+    World: Bouquenia
+    X: 1513
+    Y: 66
+    Z: 1558
+  '8':
+    Crate: slots
+    World: Bouquenia
+    X: 1512
+    Y: 66
+    Z: 1558
+  '9':
+    Crate: slots
+    World: Bouquenia
+    X: 1510
+    Y: 66
+    Z: 1558
+  '10':
+    Crate: Divin
+    World: Bouquenia
+    X: 1464
+    Y: 66
+    Z: 2311
+  '11':
+    Crate: Divin
+    World: Bouquenia
+    X: 1464
+    Y: 66
+    Z: 2308
+  '12':
+    Crate: Divin
+    World: Bouquenia
+    X: 1464
+    Y: 66
+    Z: 2305

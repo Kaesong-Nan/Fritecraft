@@ -1,0 +1,8 @@
+§9<Lundquist> §f: Ok, c'est parti pour notre premier test !
+§9<Lundquist> §f: Alors, ça, ça va là ...
+§9<Lundquist> §f: Et ... euh ... ouais voilà.
+§7*Bricole des trucs avec la table à enchantements*
+/give <player> ironingot 1 efficiency:3
+§9<Lundquist> §f: Ok, c'est pas trop mal quand même.
+§9<Lundquist> §f: Je note ça ...
+§9<Lundquist> §f: Ensuite, on va tester sur un diamant.

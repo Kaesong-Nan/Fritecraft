@@ -1,0 +1,112 @@
+id: 23
+category: 13
+cooldown: 60000
+name: L'art du Grapin
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEASH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: L'art du Grapin
+    lore:
+    - ''
+    - §7§eRight Click§7 to use
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: LEASH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Grappling Hook
+      lore:
+      - ''
+      - §7§eRight Click§7 to use
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+parent: 13-C22
+uniqueId: 3b4588e2-0064-48f1-a043-542e1c1bf887
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+parentId: d4fc7d79-f175-422c-8e2a-ddf438db8186
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:leaping
+  amount: 50
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: '&eShen'
+  timeframe: 0
+  questId: 3b4588e2-0064-48f1-a043-542e1c1bf887
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -762.0
+    y: 82.0
+    z: 1737.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 37062744-8fd8-482f-ab81-27a2c1d0e6d9
+  entity: PLAYER
+  custom_int: 143
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STRING
+  amount: 50
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: '&eShen'
+  timeframe: 0
+  questId: 3b4588e2-0064-48f1-a043-542e1c1bf887
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -762.0
+    y: 82.0
+    z: 1737.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a24492ca-b857-499c-b4f4-3b21726659a4
+  entity: PLAYER
+  custom_int: 143
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEASH
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: '&eShen'
+  timeframe: 0
+  questId: 3b4588e2-0064-48f1-a043-542e1c1bf887
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -762.0
+    y: 82.0
+    z: 1737.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 826fe107-5752-48ed-955f-e23322a21500
+  entity: PLAYER
+  custom_int: 143
+  exclude-spawners: false

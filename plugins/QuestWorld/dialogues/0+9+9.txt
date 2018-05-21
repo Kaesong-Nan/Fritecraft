@@ -1,0 +1,11 @@
+&b<Tuteur> &f: Fritecraft dispose de son propre serveur Discord !
+&b<Tuteur> &f: Le tchat de Fritecraft est relié au serveur Discord.
+&b<Tuteur> &f: Il est donc possible de parler avec les joueurs connectés sans être soi-même sur le serveur !
+&b<Tuteur> &f: Il est aussi possible de voir quand un joueur se connecte par exemple.
+&b<Tuteur> &f: Des salons vocaux sont aussi disponibles pour les joueurs.
+&b<Tuteur> &f: Le channel discussion permet de parler de tout et de rien.
+&b<Tuteur> &f: Le channel news sert à avertir les joueurs des nouveautés du serveur.
+&b<Tuteur> &f: Le channel suggestions permet aux joueurs d'apporter leurs idées pour le serveur.
+&b<Tuteur> &f: Le channel soucis permet aux joueurs de signaler un problème.
+&b<Tuteur> &f: C'est le meilleur moyen pour signaler un bug ou un défaut de permissions !
+&b<Tuteur> &f: Pour obtenir le lien d'invitation du Discord, tapez simplement &b/Discord &f!

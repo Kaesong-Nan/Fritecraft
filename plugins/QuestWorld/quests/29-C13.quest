@@ -1,0 +1,188 @@
+id: 29
+category: 13
+cooldown: -60000
+name: Le fantome d'Irvine III
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: Le fantome d'Irvine III
+item_extra:
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Spectre de Bonze
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Percez le mystère de la bibliothèque hantée
+  location:
+    world: Bouquenia
+    x: -809.0
+    y: 96.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: bbb0ec93-18ab-44fe-b081-e72cab1df77e
+  entity: PLAYER
+  custom_int: 450
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_CHICKEN
+  amount: 10
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Spectre de Bonze
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Donnez 10 poulets bien cuits au spectre de Bonze
+  location:
+    world: Bouquenia
+    x: -811.0
+    y: 96.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6d2acff3-bb6f-446a-aab0-ab9fec1b86a9
+  entity: PLAYER
+  custom_int: 450
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Spectre de Bonze
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Apportez une fiole d'eau au spectre de Bonze
+  location:
+    world: Bouquenia
+    x: -811.0
+    y: 96.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1b47a39a-4258-41e5-b42c-a01248108cce
+  entity: PLAYER
+  custom_int: 450
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: CAKE
+  amount: 1
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Spectre de Bonze
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Offrez un gateau au Spectre de Bonze
+  location:
+    world: Bouquenia
+    x: -811.0
+    y: 96.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 090e9ea2-8830-4fa4-b002-bfc411223931
+  entity: PLAYER
+  custom_int: 450
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 1
+  lore: ''
+  index: 4
+  type: KILL_NAMED_MOB
+  custom_string: '&cHorreur Décharnée'
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Trouvez l'Anomalie et Détruisez le Mal !
+  location:
+    world: Bouquenia
+    x: -811.0
+    y: 96.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c6313f0e-d964-48c2-8c04-bdcef5811c1e
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 5
+  type: CITIZENS_INTERACT
+  custom_string: Spectre de Bonze
+  timeframe: 0
+  questId: b8c44e6b-57b0-4840-bf33-c78eae272f94
+  reset-on-death: false
+  display-name: Soulagez le Spectre de Bonze de sa malédiction
+  location:
+    world: Bouquenia
+    x: -811.0
+    y: 96.0
+    z: 1782.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 867f6a36-92ce-43cb-908b-2d5a382b3557
+  entity: PLAYER
+  custom_int: 450
+  exclude-spawners: false

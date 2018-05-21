@@ -1,0 +1,30 @@
+FireImp:
+  Mobtype: BABY_ZOMBIE_VILLAGER
+  Display: '&fFire Imp'
+  Health: 20
+  Damage: 0
+  DamageModifiers:
+  - FALL 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0.2
+  - PROJECTILE 0.5
+  Skills:
+  - randomskill{skills=ImpFireball1,ImpFireball2,ImpFireball3} @Target ~onTimer:40
+  Equipment:
+  Drops:
+  Options:
+    AlwaysShowName: true
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 3 movetowardstarget
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker

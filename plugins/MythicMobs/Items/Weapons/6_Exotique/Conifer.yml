@@ -1,0 +1,43 @@
+Conifer:
+  Id: DIAMOND_AXE
+  Display: '&9&lConifer &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Châtiment III'
+  - '&7Sweeping III'
+  - '&7Solidité XX'
+  - '&7Chance II'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dGlacial'
+  - '&7Compétence : Invulnérabilité'
+
+  Options:
+    Unbreakable: true
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      # Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DAMAGE_ARTHROPODS:3
+  - DAMAGE_UNDEAD:3
+  - DURABILITY:10
+  # - LOOT_BONUS_MOBS:1
+  # - SWEEPING:3
+  # - MENDING:1
+  # - KNOCKBACK:20
+  Skills:
+  - skill{s=Glacial} ~onTimer:5 @self
+  - skill{s=EnchantInvincible} ~onUse @self

@@ -1,0 +1,331 @@
+						#╔═══════════════════════════════════════════════════════════════════════════════════════╗
+						#                                     ✖ WELCOME ✖
+						#   Thanks for your download. If you have any ideas, tell me on skype adimarco@live.it
+						#╚═══════════════════════════════════════════════════════════════════════════════════════╝
+						
+
+# Author: Andrea Di Marco
+# Version: 3.0.0
+
+# Enchanted Notch Apples (This script) allow you to edit enchanted golden apples effect.
+# If you want to edit Normal Golden Apples -> https://www.spigotmc.org/resources/notch-apples.7499/
+
+# Features:
+#	- Disable Enchanted Golden Apple (Deny the craft or eating with a message)
+#   - If you don't want to disable Enchanted Golden Apple:
+#		- Change regeneration power and regeneration time
+#		- Change Absorption time
+#       - Change Fire Resistance time
+#       - Change Resistance time and resistance
+#       - Add speed effect
+#       - Add strength effect
+#       - Cure from poison
+#       - Cure from weakness
+#       - Apply slowness effect
+#       - Apply Nausea effect
+#       - Permission support
+#       - Play flames effect around a player that eat an Enchanted Golden Apple
+#       - Play lightning around a player that eat an Enchanted Golden Apple
+
+
+# Permissions:
+#     EnchantedNotchApples.craft = Allow a player to craft Enchanted Golden Apples
+#     EnchantedNotchApples.eat = Allow a player to use Enchanted Golden Apples
+
+
+# Read Section 1 : Configuration
+# 	Follow instructions and edit what you have to edit
+# 	Save the file
+# 	Reload with /sk reload scripts
+
+
+#╔═════════════════════════════════════════════════════════════╗
+#               ✖ Section 1: Configuration ✖
+#                  Config your script here.
+#╚═════════════════════════════════════════════════════════════╝
+options:
+
+
+#═════
+
+
+# Deny craft message
+#    Insert the message that the player will receive when try to craft an Enchanted Golden Apple
+	
+	DenyMessageCraft: Insert text here
+
+	
+	
+# Deny eat message
+#	 Insert the message that the player will receive when try to eat an Enchanted Golden Apple
+
+	DenyMessageEat: Insert text here
+	
+
+#═════
+	
+
+# Regeneration level	
+#	 Set the regeneration level (Insert a number between 0 and 10. 0 means no regeneration effect, 5 means default)
+			
+	RegenerationLevel: 3
+	
+	
+	
+# Regeneration Duration
+# 	Set the regeneration duration in seconds (Insert a number between 0 and 600. 0 means no regeneration effect, 600 means 10 minutes)
+
+	RegenerationTime: 30
+
+
+#═════	
+	
+	
+# Absorption Duration
+# 	Set the Absorption effect (2 golden hearts) duration in seconds. (Default 120 seconds, set 0 if you want to disable it)
+
+	AbsorptionTime: 45
+	
+	
+	
+# Fire Resistance Duration
+# 	Set the Fire Resistance effect duration in seconds. (Default 300 seconds, set 0 if you want to disable it)
+
+	FireResistanceTime: 300
+	
+	
+#═════
+	
+	
+# Resistance Level
+#	 Set the Resistance level. (Insert a number between 1 and 3. Default is 1. Be carefull, 2 means 50% damage reduction, 3 means almost invincible!)
+#    If you want to disable the resistance effect just insert 0
+
+	ResistanceLevel: 1
+
+	
+# Resistance Duration	
+# 	Set the Resistance Time effect duration in seconds. (Default 300 seconds)
+#   If you want to disable the resistance effect just insert 0 here or in the resistance level option above here.
+	
+	ResistanceTime: 300	
+
+	
+#═════
+
+
+# Speed effect
+#  Do you want to add the speed effect to enchanted golden apples?
+#  0 means no
+#  1 means yes
+
+	SpeedEffect: 0
+	
+# Speed Level
+#  What level of speed do you want to add to enchanted golden apples?
+#  Numbet between 1 and 5
+
+	SpeedLevel: 1
+	
+# Speed Duration
+#   Set the duration of speed effect in second
+
+	SpeedDuration: 120
+	
+	
+#═════
+
+
+# Strength effect
+#	Do you want to add the strength effect to enchanted golden apples?
+#	0 means no
+#	1 means yes
+
+	StrengthEffect: 0
+
+	
+# Strength Level
+#	What level of strength do you want to add to enchanted golden apples?
+#	Numbet between 1 and 5
+
+	StrengthLevel: 1
+
+	
+# Strength Duration
+#   Set the duration of strength effect in second
+
+	StrengthDuration: 120
+	
+	
+#═════
+	
+	
+# Cure poison
+#	If the player is poisoned, do you want to cure him after eat a enchanted golden apple?
+#	0 means: No, don't cure the player
+#	1 means: Yes, cure the player
+
+	CurePoison: 0
+
+	
+# Cure Weakness
+#	If the player is affected by weakness potion, do you want to cure him after eat a enchanted golden apple?
+#	0 means: No, don't cure the player
+# 	1 means: Yes, cure the player
+
+	CureWeakness: 0
+
+	
+#═════
+
+
+# Apply Slowness effect
+#	Insert 0 if you don't want to use this feature
+#   Insert 1 if you want to apply slowness effect when a player eat an enchanted golden apple
+
+	ApplySlowness: 0
+	
+
+# Apply Slowness effect level
+#	What level of slowness do you want to add to enchanted golden apples?
+
+	ApplySlownessLevel: 1
+	
+	
+# Apply Slowness effect duration
+#   If you want to apply the slowness effect, how many seconds does it last?
+
+	ApplySlownessTime: 30
+
+	
+#═════
+
+
+# Apply Nausea effect
+#	Insert 0 if you don't want to use this feature
+#   Insert 1 if you want to apply Nausea effect when a player eat an enchanted golden apple
+
+	ApplyNausea: 0
+	
+
+# Apply Nausea effect level
+#	What level of Nausea do you want to add to enchanted golden apples?
+
+	ApplyNauseaLevel: 1
+	
+	
+# Apply Nausea effect duration
+#   If you want to apply the Nausea effect, how many seconds does it last?
+
+	ApplyNauseaTime: 30
+
+	
+#═════
+
+
+	
+# Alert near players	
+#	If a player eat an Enchanted Golden Apple, all near players will be alerted.
+#	Set 0 to disable this option
+#	Set 1 to enable this option
+
+	AlertNear: 1
+
+	
+# 	If you set 1, change the message that players will receive
+# 	Use %player% to print the player name (who eat the Enchanted Golden Apple)
+#	Example: AlertMessage: &4[Enchanted Notch Apple] &6%player% &eis superman now!
+
+	AlertMessage: &e %player% is superman now!
+
+	
+#═════
+
+
+# Flames	
+#	Do you want to player flames around player that eat an Enchanted Golden Apple?
+#	0 Means No, don't play effects
+#	1 Means Yes, play flames around the player
+
+	Flames: 0
+
+	
+	
+# Lightning	
+#	Do you want to play a lightning effect at player's location when eat an Enchanted Golden Apple?
+#	It's just an visual effects, no fire, no damage
+#	0 Means No
+#	1 Means Yes
+
+	Lightning: 1
+	
+
+	
+	
+ # Well done. Your work is over here. The configuration ends here, you can't edit the code.
+ #  Use /sk reload scripts to reload the script
+	
+	
+	
+
+#╔═════════════════════════════════════════════════════════════╗
+#               ✖ Section 2: Script code ✖
+#                    Do not edit this!
+#╚═════════════════════════════════════════════════════════════╝
+
+
+	
+on crafting of enchanted golden apple:
+	if player has permission "EnchantedNotchApples.craft":
+		stop
+	else:
+		cancel the event
+		message "{@DenyMessageCraft}"
+		stop
+
+on eating of enchanted golden apple:
+	if player has permission "EnchantedNotchApples.eat":
+		wait 1 tick
+		remove regeneration from the player
+		remove Absorption from the player
+		remove Fire Resistance from the player
+		remove resistance from the player
+		remove regeneration from the player
+		wait 1 tick
+		if {@Flames} is 1:
+			show mob spawner flames at the player's location
+		wait 6 ticks
+		if {@SpeedEffect} is 1:
+			apply speed {@SpeedLevel} to the player for {@SpeedDuration} seconds
+		if {@StrengthEffect} is 1:
+			apply speed {@StrengthLevel} to the player for {@StrengthDuration} seconds
+		apply regeneration {@RegenerationLevel} to the player for {@RegenerationTime} seconds
+		apply Absorption to the player for {@AbsorptionTime} seconds
+		apply Fire Resistance to the player for {@FireResistanceTime} seconds
+		apply resistance {@ResistanceLevel} to the player for {@ResistanceTime} seconds
+		wait 3 ticks
+		if {@ApplySlowness} is 1:
+			remove slowness from the player
+			wait 1 tick
+			apply slowness {@ApplySlownessLevel} to the player for {@ApplySlownessTime} seconds
+		if {@ApplyNausea} is 1:
+			remove Nausea from the player
+			wait 1 tick
+			apply Nausea {@ApplyNauseaLevel} to the player for {@ApplyNauseaTime} seconds
+		if {@Lightning} is 1:
+			strike lightning effect at the player's location
+		if {@CurePoison} is 1:
+			remove poison from the player
+		if {@CureWeakness} is 1:
+			remove weakness from the player
+		if {@AlertNear} is 1:
+			message "{@AlertMessage}"
+			loop players in radius 35 around the player:
+				send "{@AlertMessage}" to loop-player
+		stop
+	else:
+		cancel the event
+		message "{@DenyMessageEat}"
+		stop
+		
+		

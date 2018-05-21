@@ -1,0 +1,17 @@
+id: 17
+name: '&7&lFringirl'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §7§lFringirl
+permission: ''
+hidden: false
+item_extra:
+  custom-skullOwner: CSCoreLib
+world-blacklist: []
+uniqueId: 666a1ce7-200b-4529-a080-dbc7ec479ba0
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e

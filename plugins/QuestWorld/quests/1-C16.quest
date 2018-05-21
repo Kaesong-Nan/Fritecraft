@@ -1,0 +1,283 @@
+id: 1
+category: 16
+cooldown: -60000
+name: '&6&lCivilisation Disparue'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6§lCivilisation Disparue
+    internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SvJIr8eerBilA0/LSjI3lhYKrqrBsEAz9SHLMceJzMjA8jwFp87zr+aa1VzJsGzW8I7MvUK5aaqUE03FV0rLYWiylYorYrC1o3SsisZ5Gm6saat2X0GUsv6tmvYXQaAJwlek5x3DH7ZgBE5HFF5wLwYXHPiXYx46J5ulntJBrpyTVdMfrs0vWHxrzXaPDV4puEjuXx3VCTI0yLOtpFaiP2DOD9jsCt6IjI1dLjw07Uaprj2HVyHzlL3nU+RjcUYnNZ9IPZDMPdHsglEmCaCpJiTzV7P5tn0R2cS40V1QB8AErwEuWAwW8Wra8O8mgL8AZYutdkmAQAA
+    skull-owner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 22
+  - ==: org.bukkit.inventory.ItemStack
+    type: RED_MUSHROOM
+  - ==: org.bukkit.inventory.ItemStack
+    type: BROWN_MUSHROOM
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOWL
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzNTcxZmY1ODlmMWE1OWJiMDJiODA4MDBmYzczNjExNmUyN2MzZGNmOWVmZWJlZGU4Y2YxZmRkZSJ9fX0=
+  custom-skullOwner: CSCoreLib
+uniqueId: b224c636-e6be-4152-96f9-2391afc51777
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+parentId: fc00773c-5acd-4d2f-b334-6858958badcd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -396.0
+    y: 48.0
+    z: 2623.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8fb44f58-2297-4db5-889c-c695206ee716
+  entity: PLAYER
+  custom_int: 656
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: REACH_LOCATION
+  custom_string: Entrée de la ville oubliée
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -428.0
+    y: 45.0
+    z: 2604.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dfd8cc8d-98da-4999-984f-8f267c8b46c8
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: REACH_LOCATION
+  custom_string: Salle du trône
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -525.0
+    y: 5.0
+    z: 2538.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6021667b-419d-41e9-9f00-d8944aa3a6d9
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: REACH_LOCATION
+  custom_string: Appartements du roi
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -434.0
+    y: 32.0
+    z: 2508.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a285db9e-d039-4c0a-a9ee-bc71996dc0af
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: REACH_LOCATION
+  custom_string: Bibliothèque
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -374.0
+    y: 6.0
+    z: 2526.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 8b1b5b61-6631-456d-90c1-10e6745f7920
+  entity: PLAYER
+  custom_int: 5
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: §dRecherches
+      title: Recherches
+      author: Gildas
+      pages:
+      - |-
+        Recherches, jour 1§0
+        §0
+        §0Nous sommes aujourd'hui le premier jour de la septième décade de Soupegirl.§0
+        §0
+        §0Certains habitants ont ressenti des tremblements qui semblaient provenir du volcan.
+      - |-
+        Recherches, jour 2§0
+        §0
+        §0Nous avons dépéché une équipe de chercheurs dans le cratère. Trois sur les six sont morts dans la lave. Les autres ont installé un avant poste de recherche afin d'effectuer des prélèvements de lave.
+      - |-
+        Recherches, jour 7§0
+        §0
+        §0Je n'ai pas tenu ce livre à jour depuis un moment. Nous avons été débordés. Des vagues d'énergie montent depuis la lave mais nous ne pouvons pas les expliquer. Jacques est mort hier, écrasé par une pierre.
+      - |-
+        Recherches, jour 44§0
+        §0
+        §0Trop de soucis... La chaleur... Les monstres qui... du mal à écrire...§0
+        §0
+        §0Il y a un passage sous...§0
+        §0
+        §0L'entrée... dans les montagnes...§0
+        §0IL ARRIVE......................
+      - |-
+        Note de l'équipe de recherche :§0
+        §0
+        §0Nous avons retrouvé ce livre dans une caverne sous le volcan. Il y avait deux petits tas de cendres à côté.§0
+        §0Nous le rapportons pour archivage.
+      generation: 0
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 5
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -376.0
+    y: 22.0
+    z: 2524.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1f34a269-abd1-4196-a442-d14077e157c1
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: §dRecherches
+      title: Recherches
+      author: Gildas
+      pages:
+      - |-
+        Recherches, jour 1§0
+        §0
+        §0Nous sommes aujourd'hui le premier jour de la septième décade de Soupegirl.§0
+        §0
+        §0Certains habitants ont ressenti des tremblements qui semblaient provenir du volcan.
+      - |-
+        Recherches, jour 2§0
+        §0
+        §0Nous avons dépéché une équipe de chercheurs dans le cratère. Trois sur les six sont morts dans la lave. Les autres ont installé un avant poste de recherche afin d'effectuer des prélèvements de lave.
+      - |-
+        Recherches, jour 7§0
+        §0
+        §0Je n'ai pas tenu ce livre à jour depuis un moment. Nous avons été débordés. Des vagues d'énergie montent depuis la lave mais nous ne pouvons pas les expliquer. Jacques est mort hier, écrasé par une pierre.
+      - |-
+        Recherches, jour 44§0
+        §0
+        §0Trop de soucis... La chaleur... Les monstres qui... du mal à écrire...§0
+        §0
+        §0Il y a un passage sous...§0
+        §0
+        §0L'entrée... dans les montagnes...§0
+        §0IL ARRIVE......................
+      - |-
+        Note de l'équipe de recherche :§0
+        §0
+        §0Nous avons retrouvé ce livre dans une caverne sous le volcan. Il y avait deux petits tas de cendres à côté.§0
+        §0Nous le rapportons pour archivage.
+      generation: 0
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: b224c636-e6be-4152-96f9-2391afc51777
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -376.0
+    y: 22.0
+    z: 2531.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7e4f43aa-2514-4188-a3ce-3ed2f3a4a5c4
+  entity: PLAYER
+  custom_int: 656
+  exclude-spawners: false

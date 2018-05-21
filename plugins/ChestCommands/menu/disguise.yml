@@ -1,0 +1,316 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5&lDéguisements'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menudis'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Intro:
+  NAME: '&c&l[*] Les Déguisements [*]'
+  COMMAND: 'mcstats'
+  LORE:
+    - ''
+  ID: 403
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Creeper:
+  NAME: '&6&lCreeper'
+  LORE:
+    - ''
+  ID: '383:50'
+  POSITION-X: 1
+  POSITION-Y: 3
+  COMMAND: 'minage'
+  KEEP-OPEN: false
+
+Zombie:
+  NAME: '&6&lZombie'
+  LORE:
+    - ''
+  ID: '383:54'
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'excavation'
+  KEEP-OPEN: false
+
+Spider:
+  NAME: '&6&lAraignée'
+  LORE:
+    - ''
+  ID: '383:52'
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'bûcheronnage'
+  KEEP-OPEN: false
+
+Skeleton:
+  NAME: '&6&lSquelette'
+  LORE:
+    - ''
+  ID: '383:51'
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'herboristerie'
+  KEEP-OPEN: false
+
+Slime:
+  NAME: '&6&lSlime'
+  LORE:
+    - ''
+  ID: '383:55'
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'alchimie'
+  KEEP-OPEN: false
+
+Enderman:
+  NAME: '&6&lEnderman'
+  LORE:
+    - ''
+  ID: '383:58'
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'épées'
+  KEEP-OPEN: false
+
+Cavespider:
+  NAME: '&6&lAraignée bleue'
+  LORE:
+    - ''
+  ID: '383:59'
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'archerie'
+  KEEP-OPEN: false
+
+Silverfish:
+  NAME: '&6&lSilverfish'
+  LORE:
+    - ''
+  ID: '383:60'
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'haches'
+  KEEP-OPEN: false
+
+Pigman:
+  NAME: '&6&lCochon-zombie'
+  LORE:
+    - ''
+  ID: '383:57'
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'pêche'
+  KEEP-OPEN: false
+
+Guardian:
+  NAME: '&6&lGardien'
+  LORE:
+    - ''
+  ID: '383:68'
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'poings'
+  KEEP-OPEN: false
+
+Blaze:
+  NAME: '&6&lIncendiaire'
+  LORE:
+    - ''
+  ID: '383:61'
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'apprivoisement'
+  KEEP-OPEN: false
+
+Cube:
+  NAME: '&6&lMagma Cube'
+  LORE:
+    - ''
+  ID: '383:62'
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'acrobatie'
+  KEEP-OPEN: false
+
+Bat:
+  NAME: '&6&lRChauve-souris'
+  LORE:
+    - ''
+  ID: '383:65'
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'réparation'
+  KEEP-OPEN: false
+
+Witch:
+  NAME: '&6&lSorcière'
+  LORE:
+    - ''
+  ID: '383:66'
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'xpboost gui'
+  KEEP-OPEN: true
+
+Endermite:
+  NAME: '&6&lEndermite'
+  LORE:
+    - ''
+  ID: '383:67'
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'xpboost info'
+
+Cow:
+  NAME: '&6&lVache'
+  LORE:
+    - ''
+  ID: '383:92'
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'xpboost info'
+
+Chicken:
+  NAME: '&6&lPoulet'
+  LORE:
+    - ''
+  ID: '383:93'
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'xpboost info'
+
+Pig:
+  NAME: '&6&lCochon'
+  LORE:
+    - 'Voir le statut de boost'
+  ID: '383:90'
+  POSITION-X: 9
+  POSITION-Y: 4
+  COMMAND: 'xpboost info'
+
+Sheep:
+  NAME: '&6&lMouton'
+  LORE:
+    - ''
+  ID: '383:91'
+  POSITION-X: 1
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Villageois:
+  NAME: '&6&lVillageois'
+  LORE:
+    - ''
+  ID: '383:120'
+  POSITION-X: 2
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Squid:
+  NAME: '&6&lPouple'
+  LORE:
+    - ''
+  ID: '383:94'
+  POSITION-X: 3
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Moo:
+  NAME: '&6&lChampimeuh'
+  LORE:
+    - ''
+  ID: '383:96'
+  POSITION-X: 4
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Horse:
+  NAME: '&6&lCheval'
+  LORE:
+    - ''
+  ID: '383:100'
+  POSITION-X: 5
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Rabbit:
+  NAME: '&6&lLapin'
+  LORE:
+    - ''
+  ID: '383:101'
+  POSITION-X: 6
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Ocelot:
+  NAME: '&6&lOcelot'
+  LORE:
+    - ''
+  ID: '383:98'
+  POSITION-X: 7
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Wolf:
+  NAME: '&6Loup'
+  LORE:
+    - ''
+  ID: '383:95'
+  POSITION-X: 8
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'
+
+Polar:
+  NAME: '&6&lOurs Polaire'
+  LORE:
+    - ''
+  ID: '383:102'
+  POSITION-X: 9
+  POSITION-Y: 5
+  COMMAND: 'xpboost info'

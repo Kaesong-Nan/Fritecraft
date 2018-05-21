@@ -1,0 +1,34 @@
+Jade:
+  Id: DIAMOND_SWORD
+  Display: '&6&lLame de Jade &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Sweeping III'
+  - '&7Solidité IV'
+  - '&7Poison II'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dSurnaturel'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      # Armor: 4
+      Damage: 7
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - SWEEPING:3
+  - DURABILITY:4
+  Skills:
+  - skill{s=Surnaturel} ~onTimer:5 @self
+  - skill{s=EnchantPoison} ~onAttack @Target 1

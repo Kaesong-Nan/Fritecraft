@@ -1,0 +1,287 @@
+Prototype:
+  MobType: Iron_Golem
+  Display: '&ePrototype V'
+  Health: 2000
+  Damage: 15
+  Armor: 4
+  Faction: MA
+  Drops:
+  - BagPrototype
+  BossBar:
+    Enabled: true
+    Title: '&ePrototype V'
+    Range: 40
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  DamageModifiers:
+  - WITHER 0
+  - LAVA 0
+  - FIRE 0
+  - MAGIC 7
+  - THORNS 1
+  - PROJECTILE 0.5
+  KillMessages:
+  - '<target.name> est mort contre &cPrototype V'
+  - '<target.name> s''est fait écrasé la tête par &cPrototype V'
+  Skills:
+  - setstance{stance=Spawn} @Self ~onSpawn >0 1
+  - message{msg="<mob.name> &3a été battu par <trigger.name>!"} @PlayersOnServer ~onDeath
+  - skill{skill=VarsonSpawn} @Self ~onSpawn
+  - skill{skill=VarsonHealthBroadcast} @Self ~onDamaged 1
+  - skill{skill=VarsonFlamethrower} @SelfLocation ~onDamaged 0.3 =33-66%
+  - skill{skill=VarsonMissile} @Target ~onDamaged 0.3 <66%
+  - skill{skill=VarsonMissileRain} @Self ~onDamaged 0.3 <66%
+  - skill{skill=VarsonMassTeleport} @Self ~onDamaged 0.3 <66%
+  - skill{skill=VarsonFireBlast} @SelfLocation ~onDamaged 0.3 >66%
+  - skill{skill=VarsonFirePulse} @Self ~onDamaged 0.3 >66%
+  - skill{skill=VarsonFireyArmor} @Self ~onDamaged 0.3 >66%
+  - skill{skill=VarsonTripleWarp} @Self ~onDamaged 0.3 >66%
+  - skill{skill=VarsonUnhinged} @Target ~onTimer:20 <10%
+  - skill{skill=VarsonInitiatePhaseTwo} @Self ~onDamaged =66%
+  - skill{skill=VarsonInitiatePhaseThree} @Self ~onDamaged =10%
+  - skill{skill=VolcanicWeather} @Self ~onTimer:10 <66%
+  - effect:particles{particle=lava;amount=8;vSpread=0.5;hSpread=0.5;Speed=0.01;yOffset=1} @Self ~onTimer:10 1
+  - summon{type=0LordVarsonDeathDoll0;amount=1;radius=1} @Self ~onDeath
+  - healpercent{m=0.1} @self ~onKillPlayer
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 35
+    MaxCombatDistance: 25
+    Despawn: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 5.0
+0LordVarsonDeathDoll0:
+  MobType: Iron_Golem
+  Display: '&cPrototype V'
+  Health: 100
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  DamageModifiers:
+  - PROJECTILE 0
+  - ENTITY_ATTACK 0
+  - MAGIC 0
+  Skills:
+  - potion{t=FIRE_RESISTANCE;d=9999999;l=1} @Self ~onSpawn 1
+  - ignite{ticks=50} @Self ~onTimer:20
+  - skill{skill=VarsonDeath} @Self ~onSpawn
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 0
+    Despawn: true
+    MovementSpeed: 0.005
+    KnockbackResistance: 1
+GodSkeleton:
+  MobType: WITHER_SKELETON
+  Display: '&6Archer Atrophié Mécanique'
+  Health: 20
+  Damage: 2
+  Faction: MA
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 SpecificFaction Renegade
+  Skills:
+  - sendactionmessage{msg=“&bArcher<&sp>&6(<mob.hp><&sp>&6/<&sp><mob.mhp>)”} @Trigger ~onDamaged 1
+  Equipment:
+  - GodBow:0
+  Options:
+    PreventItemPickup: true
+    Despawn: true
+GodZombie:
+  MobType: WITHER_SKELETON
+  Display: '&6Guerrier Atrophié Mécanique'
+  Health: 20
+  Damage: 2
+  Faction: MA
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 SpecificFaction Renegade
+  Skills:
+  - sendactionmessage{msg=“&6Guerrier<&sp>&6(<mob.hp><&sp>&6/<&sp><mob.mhp>)”} @Trigger ~onDamaged 1
+  Equipment:
+  - GodSword:0
+  Options:
+    PreventItemPickup: true
+    Despawn: true
+MAEliteMarksman:
+  Mobtype: WITHER_SKELETON
+  Display: '&6Tourelle de feu'
+  Health: 70
+  Damage: 3
+  Faction: MA
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  - 7 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 SpecificFaction Renegade
+  DamageModifiers:
+  - FIRE_TICK 6
+  Skills:
+  - skill{skill=MAExplosiveArrow} @Target ~onTimer:300 1
+  - sendactionmessage{msg=“&Tourelle<&sp>&6(<mob.hp><&sp>&6/<&sp><mob.mhp>)”} @Trigger ~onDamaged 1
+  Equipment:
+  - DroneB:0
+  Options:
+    PreventItemPickup: true
+    Despawn: true
+    PreventMobKillDrops: true
+    MovementSpeed: 0.1
+MAElite:
+  Mobtype: WITHER_SKELETON
+  Display: '&6Guerrier Atrophié Elite'
+  Health: 100
+  Damage: 3
+  Faction: MA
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  - 7 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 SpecificFaction Renegade
+  DamageModifiers:
+  - FIRE_TICK 6
+  Skills:
+  - sendactionmessage{msg=“&6Guerrier<&sp>&cElite<&sp>Soldier<&sp>&6(<mob.hp><&sp>&6/<&sp><mob.mhp>)”} @Trigger ~onDamaged 1
+  Equipment:
+  - MASword:0
+  Options:
+    PreventItemPickup: true
+    Despawn: true
+    MovementSpeed: 0.3
+    PreventMobKillDrops: true
+DSent:
+  MobType: WITHER_SKELETON
+  Display: '&6Sentinelle'
+  Health: 80
+  Damage: 5
+  Faction: MA
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 SpecificFaction Renegade
+  DamageModifiers:
+  - PROJECTILE 1.25
+  - LIGHTNING 5
+  - WITHER 3
+  Skills:
+  - potion{t=FIRE_RESISTANCE;d=9999999;l=1} @Self ~onSpawn 1
+  - sendactionmessage{msg=“&6Sentinelle<&sp>&6(<mob.hp><&sp>&6/<&sp><mob.mhp>)”} @Trigger ~onDamaged 1
+  - skill{skill=DroneSmoke} @Self ~onDamaged =50% 1
+  - effect:sound{sound=random.explode;volume=1;p=1} @Self ~onDeath 1
+  - effect:itemspray{item=DroneRedstone;duration=60;amount=5;force=0.5} @Self ~onDeath 1
+  - effect:itemspray{item=DroneDiamond;duration=60;amount=5;force=0.5} @Self ~onDeath 1
+  - effect:sound{sound=mob.blaze.hit;volume=1;p=1} @Self ~onDamaged
+  Equipment:
+  - DSentSword:0
+  Options:
+    ReinforcementsChance: 0
+    Silent: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    Despawn: true
+0PMissileMob0:
+  MobType: creeper
+  Display: '&6Precision Missile'
+  Health: 20
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - MAGIC 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  KillMessages:
+  - '<target.name> was skewered by a &6Missile'
+  - '<target.name> failed to avoid the &6Missile'
+  Skills:
+  - potion{t=INVISIBILITY;d=99999999;l=1} @Self ~onSpawn 1
+  - skill{skill=PrecisionMissile} @Self ~onSpawn 1
+  Options:
+    FuseTicks: 10000
+    MovementSpeed: 0.005
+    KnockbackResistance: 1
+    Silent: true

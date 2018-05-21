@@ -1,0 +1,14 @@
+&e<Maurice> &f: Ah, vous êtes là ?
+&e<Maurice> &f: Je pensais que vous étiez mort brûlé.
+&e<Maurice> &f: Bon, ben j'avais tord. Cool, tout ça ...
+&e<Maurice> &f: Bon alors, il se passe quoi ?
+&e<Maurice> &f: Une énergie sous le volcan ?
+&e<Maurice> &f: ON VA TOUS MOURIIIIIR !!!
+&7&o*respire profondément*
+&e<Maurice> &f: Bon, pas de panique.
+&e<Maurice> &f: Il me semble qu'un passage mène sous le volcan, depuis quelque part dans le village...
+&e<Maurice> &f: Mais euh ...
+&e<Maurice> &f: Je l'ai jamais trouvé.
+&e<Maurice> &f: Vous devriez chercher, vous avez l'air fort pour ça.
+&e<Maurice> &f: Vous allez nous sauver hein ?
+&7&o*sanglote*

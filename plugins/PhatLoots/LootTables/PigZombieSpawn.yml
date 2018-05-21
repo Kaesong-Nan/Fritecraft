@@ -1,0 +1,72 @@
+PigZombieSpawn:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '&fEpée du Nether &r'
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Hand
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Head
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Body
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Legs
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Feet
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: PigZombieSpawn
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,6 @@
+§9<Marco> §f: Qu'est-ce que veut dire que ceci !
+§9<Marco> §f: Vous vous permettez d'entrer comme ça, sans frapper ?!
+§9<Marco> §f: C'est pour quoi, d'abord ?
+§9<Marco> §f: Quoi ?
+§9<Marco> §f: DES LITS ?!
+/tp <player> 647 88 1337

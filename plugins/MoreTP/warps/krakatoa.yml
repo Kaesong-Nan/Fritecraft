@@ -1,0 +1,20 @@
+name: krakatoa
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation du Volcan &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dKrakatoa'
+- '&5Anomalie de Soupegirl'
+- '&cBoss Aldrich'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: MAGMA
+data: 0
+location: Bouquenia<>-459.09118885975005<>50.0<>2672.059862309139<>-0.4058561<>-86.88306
+slot: 29

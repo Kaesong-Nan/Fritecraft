@@ -1,0 +1,30 @@
+pAube:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lAube §r
+  Skills:
+  - skill{s=Illustre} ~onTimer:5 @self
+pLameSanctifiee:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLame Sanctifiée §r
+  Skills:
+  - skill{s=Illustre} ~onTimer:5 @self
+pFrite:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLa Frite §r
+  Skills:
+  - skill{s=Illustre} ~onTimer:5 @self

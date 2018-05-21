@@ -1,0 +1,69 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&6&lNoel'
+  StartingKeys: 3
+  InGUI: true
+  Slot: 1
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&f&lCadeau de Noel'
+  Lore:
+    - '&7Un cadeau rempli de surprises !'
+    - '&7Vous avez &6%Keys% clés &7pour ce coffret.'
+    - '&7&l(&e&l!&7&l) Clic droit pour voir les récompenses.'
+  PhysicalKey:
+    Name: '&6&lClé Hivernale'
+    Lore:
+      - '&7Clé pour le coffret &fHivernal'
+    Item: '263'
+    Glowing: True
+  Prizes:
+    1:
+      DisplayName: '&b&lCadeau &r'
+      DisplayItem: '318'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 100
+      Firework: true
+      Commands:
+        - 'loot give %Player% Cadeau'
+      Messages:
+        - ''
+    2:
+      DisplayName: '&f&lCane en sucre à la menthe poivrée &r'
+      DisplayItem: '260'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+        - 'Item:260, Amount:10, Name:&fCane en sucre à la menthe poivrée &r'
+      Messages:
+        - ''
+    3:
+      DisplayName: '&f&lBiscuit sapin &r'
+      DisplayItem: '297'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+        - 'Item:297, Amount:10, Name:&fBiscuit sapin &r'
+      Messages:
+        - ''
+    4:
+      DisplayName: '&f&lPain d''épice &r'
+      DisplayItem: '297'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+        - 'Item:297, Amount:10, Name:&fPain d''épice &r'
+      Messages:
+        - ''

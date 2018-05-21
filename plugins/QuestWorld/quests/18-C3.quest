@@ -1,0 +1,62 @@
+id: 18
+category: 3
+cooldown: -60000
+name: Zombie Elite
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MONSTER_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: Zombie Elite
+    enchants:
+      ARROW_DAMAGE: 2
+    id: zombie
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.guilde.zombieelite
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 09b28a26-b081-4ae0-ab7d-e6450f67261d
+categoryId: 5ae48d86-ad66-448d-b53d-c58e78f9a65f
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&6Cadavre Elite'
+  timeframe: 0
+  questId: 09b28a26-b081-4ae0-ab7d-e6450f67261d
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 516.0
+    y: 84.0
+    z: 717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6a43319a-c6a2-4129-969f-5c8b6f393353
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false

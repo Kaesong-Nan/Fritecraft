@@ -1,0 +1,38 @@
+§9<Penfield> §f: Excusez moi, vous n'auriez pas un chronometre sur vous par hasard ?
+§9<Penfield> §f: Ou peut etre de la verrerie ?
+§9<Penfield> §f: Je suis en train de regarder ce qu'on a dans la reserve, et ...
+§9<Penfield> §f: Bah c'est pas très beau a voir.
+§9<Penfield> §f: Alors donc, on a : ces coffres.
+§9<Penfield> §f: Cette torche sur la table.
+§9<Penfield> §f: Et ...
+§9<Penfield> §f: Non voila c'est tout.
+§9<Penfield> §f: Y'a cette plante aussi, mais bon, chronometrer quelque chose avec ca, pas facile...
+§9<Penfield> §f: J'avais une liste des choses qu'il fallait que je verifie dans notre inventaire,
+§9<Penfield> §f: C'est devenu une liste de courses maintenant ! Haha ...
+§9<Penfield> §f: Si tu pourrais nous apporter quelques unes de ces choses, ca me serait très utile !
+§9<Penfield> §f: Et si tu peux tout m'apporter, c'est encore mieux.
+§9<Penfield> §f: Ca meriterai même un poste dans l'equipe je pense !
+§7*BIIIIP*
+§9<Penfield> §f: Oh, excuse moi une minute, l'interphone qui sonne.
+§9<Penfield> §f: §7*dans l'interphone* §fOui, allo ?
+§9<Penfield> §f: §7*dans l'interphone* §fEuh, oui.
+§9<Penfield> §f: §7*dans l'interphone* §fAh bon ?
+§9<Penfield> §f: §7*dans l'interphone* §fD'accord, je vois.
+§9<Penfield> §f: §7*dans l'interphone* §fJe fais comment du coup ?
+§9<Penfield> §f: §7*dans l'interphone* §fOn va pas lui faire faire tout ça gratuitement quand même ?
+§9<Penfield> §f: §7*dans l'interphone* §fHmm.
+§9<Penfield> §f: §7*dans l'interphone* §fJe sais pas ...
+§9<Penfield> §f: §7*dans l'interphone* §fBon, d'accord.
+§7*clic*
+§9<Penfield> §f: Excuses moi.
+§9<Penfield> §f: Oui, donc, euh ... pour le poste dans le labo, ca va pas être possible.
+§9<Penfield> §f: Mon patron n'est pas d'accord.
+§9<Penfield> §f: Il dit que tu mérite mieux que ca !
+§9<Penfield> §f: Tu pourra etre notre stagiaire !
+§9<Penfield> §f: N'est-ce pas genial ?
+§9<Penfield> §f: Bon ... je pourrai personnellement te passer quelques emeraudes ... mais chut.
+§9<Penfield> §f: Et ... peut etre une §creserve de coeur§f, que j'ai du mettre quelque part ...
+§9<Penfield> §f: Tiens, voici la liste.
+§9<Penfield> §f: Il y a peut etre quelques objets qui vont être plus durs a trouver ...
+&e&l>> &r&7Finissez les 4 quêtes de courses pour devenir stagiaire du laboratoire
+&e&l>> &r&7Cela débloquera les autres quêtes et vous permettera d'accéder à la plateforme pétrolière et au Nether

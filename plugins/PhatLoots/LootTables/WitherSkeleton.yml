@@ -1,0 +1,49 @@
+WitherSkeleton:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 1
+    Probability: 10.0
+  - ==: Experience
+    Lower: 15
+    Probability: 100.0
+    Upper: 15
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: épée en bedrock
+        enchants:
+          DURABILITY: 5
+        internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy7Z2O7MGyjlJ8vCwAkS8klNLC7Zv++1eV/Qg8dsDGyOufmleSUHBBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qA096al5qUWayXk5pcjYzA6d/QWpRYklmfh5UO1gRC0iSAckRLP//P/jq5SaI7Ijlj0q8pzzZM4UMRwjCHJGbWOGRmphTkoHLJVxAFfEZYCXI7tEUqn7577mvJbJ72lgV4uZtav4Cd4+DCLHuEYG5J7GkJDE52yUxNzE9FZeT2FLA0gwMAD26AATCAQAA
+    Probability: 2.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fOs atrophié §r
+    Probability: 100.0
+  Name: WitherSkeleton
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,26 @@
+loottest:
+  Type: silverfish
+  Display: '&6-=[&5Boss Loot&6]=-'
+  Health: 50
+  DamageModifiers:
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  Faction: Guard
+  Options:
+    NoAI: true
+    Despawn: false
+    Silent: true
+    AlwaysShowName: true
+    Disguise: ender_crystal
+    MovementSpeed: 0.002
+    PreventOtherDrops: true
+  Skills:
+  - suicide ~onInteract
+  - effect:particlesphere{p=witchMagic;a=40;radius=1;y=0.5} @Self ~onTimer:5
+  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged
+  - effect:particlesphere{particle=flame;amount=999;radius=2} @self ~onSpawn
+  - effect:particlesphere{particle=flame;amount=999;radius=5} @self ~onSpawn
+  - effect:particletornado{p=flame;color=#FF00FF;a=10;mr=2;rs=2;sh=3;cs=0;h=2;d=20;md=10;i=1} @Origin ~onSpawn
+  Drops:
+  - emerald 1 1

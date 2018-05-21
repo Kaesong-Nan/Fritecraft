@@ -1,0 +1,34 @@
+JasonVoorhees:
+  Type: Zombie
+  Display: '&lJason Voorhees'
+  Health: 150
+  Damage: 7
+  BossBar:
+    Enabled: true
+    Title: '&eJason'
+    Range: 40
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  Disguise:
+    Type: player
+    Skin: 'JasonVorhees'
+    Player: '&lJason Voorhees'
+  Equipment:
+  - iron_sword:0
+  - leather_helmet:4
+  Skills:
+  - skill{s=JasonCombo} ~onTimer:250
+  - effect:lightning{repeat=20;repeatInterval=3;l=true;lr=80} @self ~onSpawn
+  - skill{s=JasonScaryGrowl} ~onSpawn
+  - skill{s=JasonHealthRegeneration} @self ~onTimer:500
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.2

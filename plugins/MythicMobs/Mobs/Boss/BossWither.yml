@@ -1,0 +1,50 @@
+Atrophie:
+  Mobtype: WITHER
+  Health: 2000
+  Skills:
+  # - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=30} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=20} @PlayersInRadius{r=30} ~onTimer:20
+  - effect:particles{particle=smoke;amount=16;hs=10;vs=10} ~onTimer:5 @self
+  - randomskill{skills=HyperWither,DeathMark,EffectWither} ~onTimer:200
+  - healpercent{m=0.5} @self ~onKillPlayer
+  BossBar:
+    Enabled: true
+    Title: '&f&lWither'
+    Range: 30
+    Color: White
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  KillMessages:
+  - '<target.name> a été tué par le Wither'
+  DamageModifiers:
+  - DROWNING 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE 1
+  - POISON 0
+  - MAGIC 5
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  - 2 Attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 LookAtPlayers
+  - 3 Float
+  Options:
+    Silent: false
+    Despawn: false
+    FollowRange: 100
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 1.0
+    PreventMobKillDrops: false
+    Persistent: true
+    PreventRenaming: true

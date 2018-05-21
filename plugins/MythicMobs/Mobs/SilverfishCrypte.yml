@@ -1,0 +1,15 @@
+SilverfishCrypte:
+  Mobtype: SILVERFISH
+  Health: 20
+  Damage: 4
+  Drops:
+  # - CandyCorn 2 1
+  - CaneEnSucre 2 1
+  Display: '&6Silverfish des tombes'
+  KillMessages:
+  - '&7<target.name> a été tué par un silverfish des tombes'
+  Skills:
+  - potion{type=BLINDNESS;lvl=1;duration=400} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=400} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=0;duration=400} @Target ~onAttack
+  # - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self

@@ -1,0 +1,40 @@
+Spectrale:
+  Id: DIAMOND_SWORD
+  Display: '&6&lLame Spectrale &r'
+  Lore:
+  # - '&b&oPrécurseur'
+  # - '&b&oLégendaire'
+  # - ' '
+  # - '&7Stats :'
+  - '&7Tranchant X'
+  - '&7Solidité III'
+  - '&7Vitesse III'
+  - '&cFragilité V'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dParadoxal'
+  - '&7Compétence : &9Linceul'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.15
+      AttackSpeed: -0.6
+      Damage: 7
+      Health: -10
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - SWEEPING:3
+  - DURABILITY:3
+  Skills:
+  - skill{s=Paradoxal} ~onTimer:5 @self
+  - skill{s=EnchantLinceul} ~onUse

@@ -1,0 +1,33 @@
+id: 30
+category: 10
+cooldown: -1
+name: '&eArène: Creepers'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 4
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§eArène: Creepers'
+    lore:
+    - Hidden:Creeper
+    - Hidden:0.0
+    - Hidden:2351844f-f400-4fa4-9642-35169c5b048a
+    - 'Hidden:'
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skullOwner: CSCoreLib
+uniqueId: 56c12289-0c36-41ae-b664-64c2377e5b8a
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

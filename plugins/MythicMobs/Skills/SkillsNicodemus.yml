@@ -1,0 +1,67 @@
+KarazschArcaneBolt:
+  Cooldown: 1
+  Skills:
+  - missile{ot=KAP_TICK;oh=KAP_HIT;v=4;i=1;hR=1;vR=1;in=0.75}
+KAP_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#5e11d8;a=10;hS=0.1;vS=0.1} @origin
+KAP_HIT:
+  Skills:
+  - effect:particles{p=reddust;c=#5e11d8;a=50;hS=1;vS=1}
+  - effect:sound{s=entity.wither.shoot;v=0.1;p=0.01}
+  - damage{a=20;i=false}
+
+KarazschLaser:
+  Cooldown: 0.25
+  Conditions:
+  - targetinlineofsight false
+  Skills:
+  - missile{ot=KL_TICK;oh=KL_HIT;v=5;i=1;hR=1;vR=1;in=0.75}
+KL_TICK:
+  Skills:
+  - effect:particles{p=reddust;c=#f182ff;a=5;hS=0.1;vS=0.1} @origin
+KL_HIT:
+  Skills:
+  - heal{amount=50}
+  - effect:particles{p=reddust;c=#f182ff;a=30;hS=0.3;vS=0.8;y=1.0}
+  - effect:sound{s=entity.guardian.attack;v=0.2;p=2.0}
+
+MagicCloudEffect:
+  Cooldown: 0
+  Skills:
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+  - delay 2
+  - skill{s=MCEffect}
+MCEffect:
+  Cooldown: 0.01
+  Skills:
+  - effect:particles{p=reddust;c=#8ad9ff;a=10;hs=1.0;vs=0.5;s=0;y=1.0}
+  - effect:particles{p=reddust;c=#8ad9ff;a=10;hs=0.5;vs=1.0;s=0;y=1.0}
+  - damage{amount=0.5;ignoreArmor=true} @a[r=3]
+
+KarazschCloudDeath:
+  Skills:
+  - delay 600
+  - remove{m=KarazschCloud} @Self
+
+KarazschLaserDeath:
+  Cooldown: 0.01
+  Skills:
+  - DELAY 600
+  - remove{m=KarazschLaserMob} @Self

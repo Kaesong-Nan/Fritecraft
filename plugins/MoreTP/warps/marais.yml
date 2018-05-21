@@ -1,0 +1,20 @@
+name: marais
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation du Marais &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dMarshmallow'
+- '&cBoss Enderman'
+- '&5Anomalie de Candygirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: PURPUR_BLOCK
+data: 0
+location: Bouquenia<>1347.9299839084583<>64.0<>1153.2865538064827<>-1.4293687<>-179.73853
+slot: 19

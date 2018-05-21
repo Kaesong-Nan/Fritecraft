@@ -1,0 +1,21 @@
+name: Endervillage
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dLe Chalet'
+- '&dEnderchest'
+- '&dElytres'
+- '&aBoites Shulker'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: END_BRICKS
+data: 0
+location: Bouquenia<>216.41993304528674<>68.0<>1430.9968199827615<>-1.6775937<>-89.204346
+slot: 31

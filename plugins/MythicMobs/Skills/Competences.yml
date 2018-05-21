@@ -1,0 +1,568 @@
+# Passifs
+
+#   - skill{s=EnchantCheat} ~onTimer:5 @Self 1
+EnchantCheat:
+  Skills:
+  - command{c="playsound minecraft:entity.llama.spit master <target.name> "} @trigger
+  - potion{type=SLOW;duration=10000;level=4;force=true} @self
+  - potion{type=BLINDNESS;duration=10000;level=4;force=true} @self
+  - potion{type=POISON;duration=10000;level=4;force=true} @self
+  - potion{type=HUNGER;duration=10000;level=4;force=true} @self
+  - potion{type=WEAKNESS;duration=10000;level=4;force=true} @self
+  - potion{type=SLOW_DIGGING;duration=10000;level=4;force=true} @self
+  - potion{type=CONFUSION;duration=10000;level=4;force=true} @self
+
+#   - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+EnchantFaim:
+  Skills:
+  - potion{type=HUNGER;duration=100;level=4;force=true} @self
+
+#   - skill{s=EnchantLinceul} ~onUse
+EnchantLinceul:
+  Cooldown: 20
+  Skills:
+  - potion{type=INVISIBILITY;duration=100;level=0} @self
+  - potion{type=SPEED;duration=100;level=1} @self
+  - potion{type=DAMAGE_RESISTANCE;duration=100;level=5} @self
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - sound{s=entity.endermen.teleport;v=0.5} @self
+  - sendactionmessage{msg="&a*****"} @self
+  - delay 20
+  - sendactionmessage{msg="&a****&c*"} @self
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - delay 20
+  - sendactionmessage{msg="&a***&c**"} @self
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - delay 20
+  - sendactionmessage{msg="&a**&c***"} @self
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - delay 20
+  - sendactionmessage{msg="&a*&c****"} @self
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - delay 20
+  - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+  - sound{s=entity.endermen.teleport;v=0.5} @self
+  - potion{type=INCREASE_DAMAGE;duration=30;level=4} @self
+  - sendactionmessage{msg="&c*****"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 30%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 35%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 40%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 45%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 50%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 55%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 60%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 65%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 70%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 75%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 80%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 85%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 90%"} @self
+  - delay 20
+  - sendactionmessage{msg="&7Rechargement 95%"} @self
+  - delay 20
+  - sendactionmessage{msg="&aInvisibilité prête !"} @self
+
+EffetRandom:
+  Skills:
+  - randomskill{skills=EnchantVitesse,EnchantJumps,EnchantHaste,EnchantEgide,EnchantRegen,EnchantForce,EnchantCamouflage,EnchantLava,EnchantFaim}
+
+#   - skill{s=EnchantVitesse} ~onTimer:80 1
+EnchantVitesse:
+  Skills:
+  - potion{type=SPEED;duration=100;level=0;force=true} @self
+
+#   - skill{s=EnchantJumps} ~onTimer:80 1
+EnchantJumps:
+  Skills:
+  - potion{type=JUMP;duration=100;level=1;force=true} @self
+
+#   - skill{s=EnchantHaste} ~onTimer:80 1
+EnchantHaste:
+  Skills:
+  - potion{type=FAST_DIGGING;duration=100;level=0;force=true} @self
+
+#   - skill{s=EnchantEgide} ~onTimer:400 1
+EnchantEgide:
+  Skills:
+  - potion{type=ABSORPTION;duration=400;level=0;force=true} @self
+
+#   - skill{s=EnchantAmphibie} ~onTimer:40 1
+EnchantAmphibie:
+  Skills:
+  - potion{type=WATER_BREATHING;duration=100;level=0} @self
+
+#   - skill{s=EnchantSaturation} ~onAttack 1
+EnchantSaturation:
+  Cooldown: 1
+  Skills:
+  - potion{type=SATURATION;duration=5;level=0} @self
+
+#   - skill{s=EnchantRegen} ~onTimer:40
+EnchantRegen:
+  Cooldown: 1
+  Skills:
+  - potion{type=REGENERATION;duration=100;level=0;force=true} @self
+
+#   - skill{s=EnchantForce} ~onTimer:40
+EnchantForce:
+  Cooldown: 1
+  Skills:
+  - potion{type=INCREASE_DAMAGE;duration=100;level=1;force=true} @self
+
+
+#   - skill{s=EnchantVision} ~onTimer:40
+EnchantVision:
+  Cooldown: 1
+  Skills:
+  - potion{type=NIGHT_VISION;duration=100;level=0;force=true} @self
+
+#   - skill{s=EnchantCamouflage} ~onTimer:40
+EnchantCamouflage:
+  Cooldown: 1
+  Skills:
+  - potion{type=INVISIBILITY;duration=100;level=0;force=true} @self
+
+#   - skill{s=EnchantResistance} ~onAttack 1
+EnchantResistance:
+  Cooldown: 3
+  Skills:
+  - potion{type=DAMAGE_RESISTANCE;duration=100;level=0} @self
+
+#   - skill{s=EnchantVampirisme} ~onAttack 1
+EnchantVampirisme:
+  Cooldown: 1
+  Skills:
+  - heal{a=2} @Self
+  - effect:particles{p=reddust;a=30;hS=0.5;vS=0.5;speed=1;y=1.2} @Self
+
+#   - skill{s=EnchantCritique} ~onAttack @Target 0.1
+EnchantCritique:
+  Cooldown: 1
+  Skills:
+    - damage{amount=6;ia=true} @Target
+    - sendactionmessage{msg="&7»» &4Coup critique !&r &7««"} @self
+    - effect:particles{p=reddust;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @Target
+    - sound{s=entity.player.attack.crit;v=0.5} @self
+
+#   - skill{s=EnchantDodge} ~onDamaged @Self 0.1
+EnchantDodge:
+  Cooldown: 4
+  Skills:
+    - CancelEvent
+    - effect:particles{p=cloud;a=30;hS=1;vS=1;speed=1} @Target
+    - sound{s=entity.endermen.teleport;v=0.5} @Target
+    - sendactionmessage{msg="&7»» &7Esquive !&r &7««"} @Self
+
+#   - skill{s=EnchantAntigrav} ~onAttack @Target 1
+# EnchantAntigrav:
+#   Cooldown: 2
+#   Skills:
+#     - potion{type=LEVITATION;duration=40;level=3}
+#     - effect:particles{p=suspend;a=30;hS=1;vS=1;speed=1} @Target
+#     - sound{s=entity.shulker.shoot;v=0.5} @Target
+
+
+#   - skill{s=EnchantSaut} ~onUse
+EnchantSaut:
+  Cooldown: 4
+  Skills:
+    - leap{velocity=200} @target
+
+#   - skill{s=EnchantFureur} ~onUse
+EnchantFureur:
+  Cooldown: 20
+  Skills:
+    - potion{type=SPEED;duration=100;level=1} @self
+    - potion{type=INCREASE_DAMAGE;duration=100;level=1} @self
+    - potion{type=REGENERATION;duration=100;level=1} @self
+    - potion{type=FAST_DIGGING;duration=100;level=1} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - sendactionmessage{msg="&a*****"} @self
+    - delay 20
+    - sendactionmessage{msg="&a****&c*"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a***&c**"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a**&c***"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a*&c****"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - potion{type=WEAKNESS;duration=60;level=2} @self
+    - potion{type=SLOW;duration=60;level=2} @self
+    - potion{type=SLOW_DIGGING;duration=60;level=2} @self
+    - sendactionmessage{msg="&c*****"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 30%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 35%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 40%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 45%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 50%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 55%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 60%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 65%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 70%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 75%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 80%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 85%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 90%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 95%"} @self
+    - delay 20
+    - sendactionmessage{msg="&aFureur prête !"} @self
+
+
+#   - skill{s=SkillCamouflage} ~onUse
+SkillCamouflage:
+  Cooldown: 20
+  Skills:
+    - potion{type=SPEED;duration=300;level=1} @self
+    - potion{type=INVISIBILITY;duration=300;level=1} @self
+    - potion{type=REGENERATION;duration=300;level=1} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - sendactionmessage{msg="&a*****"} @self
+    - delay 60
+    - sendactionmessage{msg="&a****&c*"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 60
+    - sendactionmessage{msg="&a***&c**"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 60
+    - sendactionmessage{msg="&a**&c***"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 60
+    - sendactionmessage{msg="&a*&c****"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 60
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - sendactionmessage{msg="&c*****"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 30%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 35%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 40%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 45%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 50%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 55%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 60%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 65%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 70%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 75%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 80%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 85%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 90%"} @self
+    - delay 60
+    - sendactionmessage{msg="&7Rechargement 95%"} @self
+    - delay 60
+    - sendactionmessage{msg="&aCamouflage prêt !"} @self
+
+#   - skill{s=EnchantInvincible} ~onUse
+EnchantInvincible:
+  Cooldown: 25
+  Skills:
+    - potion{type=DAMAGE_RESISTANCE;duration=60;level=3} @self
+    - potion{type=ABSORPTION;duration=60;level=3} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=item.totem.use;v=0.5} @self
+    - sendactionmessage{msg="&7Compétence activée !"} @self
+    - delay 500
+    - sendactionmessage{msg="&aCompétence rechargée !"} @self
+
+#   - skill{s=EnchantVivace} ~onUse
+EnchantVivace:
+  Cooldown: 20
+  Skills:
+    - potion{type=SPEED;duration=100;level=3} @self
+    - potion{type=INCREASE_DAMAGE;duration=100;level=0} @self
+    - potion{type=FAST_DIGGING;duration=100;level=1} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - sendactionmessage{msg="&a*****"} @self
+    - delay 20
+    - sendactionmessage{msg="&a****&c*"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a***&c**"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a**&c***"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - sendactionmessage{msg="&a*&c****"} @self
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - delay 20
+    - effect:particles{p=enchantmenttable;a=30;hS=0.1;vS=0.1;speed=1;y=1.2} @self
+    - sound{s=entity.endermen.teleport;v=0.5} @self
+    - sendactionmessage{msg="&c*****"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 30%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 35%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 40%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 45%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 50%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 55%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 60%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 65%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 70%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 75%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 80%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 85%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 90%"} @self
+    - delay 20
+    - sendactionmessage{msg="&7Rechargement 95%"} @self
+    - delay 20
+    - sendactionmessage{msg="&aVivacité prête !"} @self
+
+
+#   - skill{s=FeralLove} ~onAttack @Self 1 >30%
+FeralLove:
+  Cooldown: 1
+  Conditions:
+    - night required
+    - outside required
+    - crouching required
+  Skills:
+    - potion{type=REGENERATION;duration=200;level=1;force=true} @self
+    - potion{type=HEALTH_BOOST;duration=200;level=4;force=true} @self
+    - potion{type=INCREASE_DAMAGE;duration=200;level=1;force=true} @self
+
+#   - skill{s=EnchantGel} ~onAttack @Target 1
+EnchantGel:
+  Cooldown: 1
+  Skills:
+    - potion{type=SLOW;duration=40;level=5}
+    - effect:particles{p=snowshovel;a=30;hS=1;vS=1;speed=1} @Target
+
+#   - skill{s=EnchantPoison} ~onAttack @Target 1
+EnchantPoison:
+  Cooldown: 4
+  Skills:
+    - potion{type=POISON;duration=200;level=2}
+    - effect:particles{p=witchMagic;a=30;hS=1;vS=1;speed=1} @Target
+
+#   - skill{s=EnchantBéni} ~onDamaged @self <8 1
+EnchantBéni:
+  Cooldown: 120
+  Condition:
+    - day required
+  Skills:
+    - potion{type=REGENERATION;duration=200;level=2}
+    - potion{type=ABSORPTION;duration=60;level=2}
+    - potion{type=POISON;duration=0;level=0;force=true}
+    - potion{type=SLOW;duration=0;level=0;force=true}
+    - potion{type=SLOW_DIGGING;duration=0;level=0;force=true}
+    - potion{type=BLINDNESS;duration=0;level=0;force=true}
+    - potion{type=WITHER;duration=0;level=0;force=true}
+    - potion{type=HUNGER;duration=0;level=0;force=true}
+    - effect:particles{p=totem;a=30;hS=1;vS=1;speed=1} @Target
+    - sound{s=item.totem.use;v=0.5} @Target
+
+#   - skill{s=EnchantHereticae} ~onDamaged @self <8 1
+EnchantHereticae:
+  Cooldown: 120
+  Condition:
+    - night required
+  Skills:
+    - potion{type=REGENERATION;duration=200;level=2}
+    - potion{type=INCREASE_DAMAGE;duration=400;level=1}
+    - potion{type=POISON;duration=0;level=0;force=true}
+    - potion{type=SLOW;duration=0;level=0;force=true}
+    - potion{type=SLOW_DIGGING;duration=0;level=0;force=true}
+    - potion{type=BLINDNESS;duration=0;level=0;force=true}
+    - effect:particles{p=totem;a=30;hS=1;vS=1;speed=1} @Target
+    - sound{s=item.totem.use;v=0.5} @Target
+
+#   - skill{s=EnchantFoudre} ~onAttack @Target 0.05
+EnchantFoudre:
+  Cooldown: 120
+  Skills:
+    - Lightning{d=40} @EntitiesInRadius{r=3;ignore=players,animals}
+
+#   - skill{s=EnchantSapeur} ~onAttack 1
+EnchantSapeur:
+  Cooldown: 1
+  Skills:
+    - potion{type=SPEED;duration=30;level=2} @self
+    - potion{type=SLOW;duration=30;level=2} @Target
+    - effect:particles{p=endRod;a=30;hS=1;vS=1;speed=1} @Target
+
+#   - skill{s=Apokalypsis} ~onDamaged 1
+Apokalypsis:
+  Cooldown: 1
+  Skills:
+    - potion{type=WITHER;duration=100;level=1} @self
+    - potion{type=SLOW_DIGGING;duration=100;level=0} @self
+    - potion{type=SLOW;duration=100;level=0;force=true}
+    - effect:particles{p=depthsuspend;a=30;hS=0.5;vS=0.5;speed=1;y=1.2;repeatInterval=10;repeat=10} @Target
+    - potion{type=INCREASE_DAMAGE;duration=100;level=3}
+    - damage{amount=10;ignoreArmor=true} @MIR{r=5}
+    - potion{type=SLOW;duration=100;level=1;force=true} @MIR{r=5}
+
+#   - skill{s=FirstStrike} ~onAttack 1
+FirstStrike:
+  Cooldown: 400
+  Skills:
+    - damage{amount=10;ignoreArmor=true} @Target
+
+#   - skill{s=Wolfe} ~onTimer:20 1
+Wolfe:
+  Skills:
+    - damage{amount=2;ignoreArmor=true} @MIR{r=5}
+    - potion{type=SLOW;duration=100;level=1;force=true} @MIR{r=5}
+
+#   - skill{s=EnchantAtrophie} ~onAttack 1
+EnchantAtrophie:
+  Cooldown: 1
+  Skills:
+    - potion{type=WITHER;duration=100;level=1} @Target
+    - potion{type=WEAKNESS;duration=100;level=0} @Target
+    - effect:particles{p=depthsuspend;a=30;hS=0.5;vS=0.5;speed=1;y=1.2;repeatInterval=10;repeat=10} @Target
+
+#   - skill{s=EnchantFaveur} ~onTimer:20
+EnchantFaveur:
+  Cooldown: 5
+  Skills:
+    # - sendactionmessage{msg="&a<target.l.x> <target.l.y> <target.l.z>"} @self
+    # - summon{mob=ORB;amount=1;noise=1} @Origin
+    # - command{c="minecraft:xp 10 <target.name>"} @self
+    # - command{c="minecraft:summon XP_orb <target.l.x> <target.l.y> <target.l.z> {Value:1}"} @self
+    - command{c="minecraft:execute <target.uuid> ~ ~ ~ minecraft:summon XP_orb <target.l.x> <target.l.y> <target.l.z> {Value:1}"} @self
+
+
+#   - skill{s=EnchantPyro} ~onTimer:80 1
+EnchantPyro:
+  Cooldown: 2
+  Skills:
+    - potion{type=FIRE_RESISTANCE;duration=100;level=0} @self
+    - effect:particlering{particle=flame;radius=2;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=0.5;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=1;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=1.5;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=2;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=2.5;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - effect:particlering{particle=flame;radius=3;points=32;amount=1;hS=0;vS=0;y=0.5} @self
+    - delay 5
+    - ignite{t=40} @EntitiesInRadius{r=3;ignore=players,animals}
+
+#   - skill{s=EnchantLava} ~onTimer:60 1
+EnchantLava:
+  Cooldown: 2
+  Skills:
+   - potion{type=FIRE_RESISTANCE;duration=100;level=0;force=true} @self
+
+ChargeReload:
+  Skills:
+    - ReloadAmmo
+
+
+  # - skill{s=WarpStrike} @target ~onUse
+WarpStrike:
+  Cooldown: 6.0
+  Skills:
+  - effect:particles{p=witchMagic;a=50;hS=1.0;vS=1.0} @origin
+  - teleport{spreadh=1;spreadv=0}
+  - delay 1
+  - effect:particles{p=witchMagic;a=150;hS=2.0;vS=1.0} @target
+  - effect:particles{p=witchMagic;a=150;hS=1.0;vS=2.0} @target
+  - effect:particles{p=sweepAttack;a=50;hS=1.0;vS=1.0} @target
+  - damage{a=15} @EIR{r=5}
+  - effect:sound{s=entity.endermen.teleport;v=2.0;p=0.1}
+
+#   - skill{s=EnchantSolaire} ~onUse
+EnchantSolaire:
+  Cooldown: 300
+  Skills:
+    - potion{type=FIRE_RESISTANCE;duration=1200;level=1} @self
+    - potion{type=ABSORPTION;duration=1200;level=2} @self
+    - sound{s=entity.illusion_illager.cast_spell;v=0.5} @self
+    - delay 1200
+    - sendactionmessage{msg="&aCompétence prête !"} @self
+#   - skill{s=EnchantVortex} ~onUse
+EnchantVortex:
+  Cooldown: 300
+  Skills:
+    - potion{type=INVISIBILITY;duration=1200;level=2} @self
+    - potion{type=ABSORPTION;duration=1200;level=2} @self
+    - sound{s=entity.illusion_illager.cast_spell;v=0.5} @self
+    - delay 1200
+    - sendactionmessage{msg="&aCompétence prête !"} @self
+#   - skill{s=EnchantNebula} ~onUse
+EnchantNebula:
+  Cooldown: 300
+  Skills:
+    - potion{type=REGENERATION;duration=1200;level=1} @self
+    - potion{type=ABSORPTION;duration=1200;level=2} @self
+    - sound{s=entity.illusion_illager.cast_spell;v=0.5} @self
+    - delay 1200
+    - sendactionmessage{msg="&aCompétence prête !"} @self
+#   - skill{s=EnchantEtoile} ~onUse
+EnchantEtoile:
+  Cooldown: 300
+  Skills:
+    - potion{type=NIGHT_VISION;duration=1200;level=1} @self
+    - potion{type=ABSORPTION;duration=1200;level=2} @self
+    - sound{s=entity.illusion_illager.cast_spell;v=0.5} @self
+    - delay 1200
+    - sendactionmessage{msg="&aCompétence prête !"} @self

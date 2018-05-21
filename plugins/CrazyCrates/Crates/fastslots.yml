@@ -1,0 +1,115 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&a&lMachine à émeraudes'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 9
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&a&lMachine à émeraudes'
+  Lore:
+  - '&7La base pour tous les casinos.'
+  PhysicalKey:
+    Name: '&a&lJeton de jeu'
+    Lore:
+    - '&7Un jeton pour le &ecasino'
+    Item: '452'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&cPERDU'
+      DisplayItem: '3'
+      Lore:
+      - '&7fail'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Items:
+      - Item:3, Amount:1
+      Messages:
+      - ''
+    '2':
+      DisplayName: '&a25 émeraudes'
+      DisplayItem: '388'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+      - Item:388, Amount:25
+      Messages:
+      - ''
+    '3':
+      DisplayName: '&a225 émeraudes'
+      DisplayItem: '133'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Items:
+      - Item:388, Amount:225
+      Messages:
+      - ''
+    '4':
+      DisplayName: '&a5 Diamants'
+      DisplayItem: '388'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:388, Amount:5
+      Messages:
+      - ''
+    '5':
+      DisplayName: '&a5 lingots de fer'
+      DisplayItem: '265'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:265, Amount:5
+      Messages:
+      - ''
+    '6':
+      DisplayName: '&a5 Lingots d''or'
+      DisplayItem: '266'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:266, Amount:4
+      Messages:
+      - ''
+    '7':
+      DisplayName: '&a20 Redstone'
+      DisplayItem: '388'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:388, Amount:5
+      Messages:
+      - ''
+    '8':
+      DisplayName: '&a10 Charbon'
+      DisplayItem: '263'
+      Lore:
+      - '&aWoohoo !'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      - Item:263, Amount:10
+      Messages:
+      - ''

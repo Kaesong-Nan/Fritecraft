@@ -1,0 +1,127 @@
+Endermite:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pomme ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée citrouille ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée gâteau ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée chorus ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée cookie ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pastèque ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pomme ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée citrouille ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée gâteau ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée chorus ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée cookie ...?
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pastèque ...?
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: '1'
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: Endermite
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

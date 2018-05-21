@@ -1,0 +1,250 @@
+SucetteCiel:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette arc-en-ciel &r'
+  Lore:
+  - '&7Tranchant XXX'
+  - '&7Raccommodage'
+  - '&7Armure III'
+  - '&7Vigueur III'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.76
+      Damage: 9
+      # MovementSpeed: 0.10-0.15
+      Armor: 6
+      Health: 6
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ALL:30
+  - MENDING:1
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+  - skill{s=EnchantVampirisme} ~onAttack 1
+  - skill{s=Spook} ~onUse
+SucetteCitrouille:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Citrouille &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Raccommodage'
+  - '&7Vigueur V'
+  - '&7Vampirisme I'
+  - '&7Vitesse II'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 8
+      MovementSpeed: 0.10
+      # Armor: 4
+      Health: 10
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - MENDING:1
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+  - skill{s=EnchantVampirisme} ~onAttack 1
+SucetteChorus:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Chorus &r'
+  Lore:
+  - '&7Fléau V'
+  - '&7Chatiment V'
+  - '&7Sweeping III'
+  - '&7Raccommodage'
+  - '&7Vigueur IV'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.76
+      Damage: 9
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ARTHROPODS:5
+  - DAMAGE_UNDEAD:5
+  - SWEEPING:3
+  - MENDING:1
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+SucetteFaim:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Atrophiée &r'
+  Lore:
+  - '&7Tranchant XXX'
+  - '&7Sweeping III'
+  - '&7Raccommodage'
+  - '&cLenteur'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.8
+      Damage: 9
+      MovementSpeed: -0.10
+      # Armor: 4
+      # Health: 8
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ALL:30
+  - SWEEPING:3
+  - MENDING:1
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+SucetteZombie:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Zombie &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Raccommodage'
+  - '&7Vigueur V'
+  - '&7Régénération'
+  - '&cLenteur'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.8
+      Damage: 8
+      MovementSpeed: -0.10
+      # Armor: 4
+      Health: 10
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ALL:20
+  - MENDING:1
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+SucetteGold:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Dorée &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Raccommodage'
+  - '&7Chance III'
+  - '&7Vitesse II'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 9
+      MovementSpeed: 0.10
+      # Armor: 4
+      Health: 4
+      Luck: 6
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - MENDING:1
+  - LOOT_BONUS_MOBS:3
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+SucetteObsidian:
+  Id: DIAMOND_AXE
+  Display: '&9&lSucette Obsidienne &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Efficacité V'
+  - '&7Fortune III'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur IV'
+  - ''
+  - '&9Unique'
+  - '&7Particules : &dHanté'
+  - '&7Compétence : Spook'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.8
+      Damage: 8
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DURABILITY:5
+  - MENDING:1
+  - DIG_SPEED:5
+  - LOOT_BONUS_BLOCKS:3
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self

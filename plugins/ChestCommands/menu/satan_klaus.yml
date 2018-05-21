@@ -1,0 +1,175 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&c&lCosmétiques de Noel'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'satanklaus'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Snowball:
+  NAME: '&c&lGadget: &fBoule de neige'
+  LORE:
+    - 'Lancez des boules de neige à gogo !'
+    - '&7Prix: 200e'
+  ID: 332
+  POSITION-X: 1
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.gadgets.snowball; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 200
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.gadgets.snowball
+  VIEW-PERMISSION: -ultracosmetics.gadgets.snowball
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Sapin:
+  NAME: '&c&lGadget: &fInvocation de Sapin'
+  LORE:
+    - 'Faites apparaitre un sapin magique !'
+    - '&7Prix: 300e'
+  ID: '6:1'
+  POSITION-X: 2
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.gadgets.christmastree; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 300
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.gadgets.christmastree
+  VIEW-PERMISSION: -ultracosmetics.gadgets.christmastree
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Glace:
+  NAME: '&c&lGadget: &fCanon à Glace'
+  LORE:
+    - 'Répandez l''esprit de Flurrygirl !'
+    - '&7Prix: 400e'
+  ID: ice
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.gadgets.freezecannon; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 400
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.gadgets.freezecannon
+  VIEW-PERMISSION: -ultracosmetics.gadgets.freezecannon
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Lutin:
+  NAME: '&c&lMinipet: &fLutin'
+  LORE:
+    - 'Un lutin de noel qui vous accompagne !'
+    - '&7Prix: 300e'
+  ID: egg
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.pets.christmaself; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 300
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.pets.christmaself
+  VIEW-PERMISSION: -ultracosmetics.pets.christmaself
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Masque:
+  NAME: '&c&lMasque: &fPère Noel'
+  LORE:
+    - 'Un masque pour ceux qui ont l''esprit généreux'
+    - '&7Prix: 100e'
+  ID: 'wool:14'
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.hats.santa; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 100
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.hats.santa
+  VIEW-PERMISSION: -ultracosmetics.hats.santa
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Snowman:
+  NAME: '&c&lTransformation: &fBonhomme de Neige'
+  LORE:
+    - 'DEVENEZ un bonhomme de neige !'
+    - '&7Prix: 500e'
+  ID: '86'
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.morphs.snowman; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 500
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.morphs.snowman
+  VIEW-PERMISSION: -ultracosmetics.morphs.snowman
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Glacial:
+  NAME: '&c&lMonture: &fCheval Glacé'
+  LORE:
+    - 'Filez à toute allure !'
+    - '&7Prix: 200e'
+  ID: ice
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add ultracosmetics.mounts.glacialsteed; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 200
+  KEEP-OPEN: false
+  PERMISSION: -ultracosmetics.mounts.glacialsteed
+  VIEW-PERMISSION: -ultracosmetics.mounts.glacialsteed
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Tag1:
+  NAME: '&c&lTag: &7[&b❅ Glacial ❅&7]'
+  LORE:
+    - 'Titre pour le Chat'
+    - '&7Prix: 100e'
+  ID: name_tag
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add deluxetags.tag.Glacial; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 100
+  KEEP-OPEN: false
+  PERMISSION: -deluxetags.tag.Glacial
+  VIEW-PERMISSION: -deluxetags.tag.Glacial
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'
+
+Tag2:
+  NAME: '&c&lTag: &7[&e☃ Festif ☃&7]'
+  LORE:
+    - 'Titre pour le Chat'
+    - '&7Prix: 100e'
+  ID: name_tag
+  POSITION-X: 9
+  POSITION-Y: 1
+  COMMAND: 'console: pex user {player} add deluxetags.tag.Festif; tell: &a&lMerci pour votre achat !; sound: entity experience_orb pickup, 1, 1'
+  PRICE: 100
+  KEEP-OPEN: false
+  PERMISSION: -deluxetags.tag.Festif
+  VIEW-PERMISSION: -deluxetags.tag.Festif
+  PERMISSION-MESSAGE: '&c&lVous avez déjà cet objet !'

@@ -1,0 +1,27 @@
+id: 11
+category: 10
+cooldown: -1
+name: '&4&lPioche Occulte &r'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §4§lPioche Occulte §r
+    enchants:
+      SILK_TOUCH: 3
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: d55e6d19-85a6-49b4-a798-fca4645bf57b
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

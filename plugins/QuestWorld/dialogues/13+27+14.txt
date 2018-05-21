@@ -1,0 +1,5 @@
+&a Ygami &f: Ah ! Pendant votre absence, j'ai pas mal reflechit...
+&a Ygami &f: ... Et je penses que mon pantalon sera trop grand pour vous.
+&a Ygami &f: Vas falloir retirer quelques centimètres.
+&a Ygami &f: Mais à part de vieilles bouteilles ici, je n'ai pas de quoi découper le tissu.
+&a Ygami &f: Allez me chercher des cisailles, qu'on puisse vous ajuster tout ça !

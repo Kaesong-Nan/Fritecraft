@@ -1,0 +1,9 @@
+&a<Penfield> &f: Oh, vous en avez trouvé un ?
+&a<Penfield> &f: Excellent !
+&a<Penfield> &f: Bon aller, j'efface tout !
+&a<Penfield> &f: ...
+/playsound bot1 master @a 612 72 906 1
+/playsound bot2 master @a 612 72 906 1
+&a<Penfield> &f: Et voilà !
+/give <player> record_chirp 1 name:&dDisque_formaté
+&a<Penfield> &f: En principe ça sera utilisable pour votre étude !

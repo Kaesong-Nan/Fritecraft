@@ -1,0 +1,8 @@
+Beer:
+  Id: 397
+  Data: 3
+  Display: '&fBière'
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE0OTkyMDUyMzkzNjEsInByb2ZpbGVJZCI6IjY5YmNjMTg2ZmU4MDQ2MzVhMDg1OWNlYzMxMWQ4ZDlmIiwicHJvZmlsZU5hbWUiOiJUaGFuYXVzZXIiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1M2UyNjg2N2JiNTc1MzhlOTc4OTEzN2RiYmI1Mzc3NGUxOGVkYTZmZWY1MWNiMmVkZjQyNmIzNzI2NCJ9fX0
+  Skills:
+  - skill{s=EnchantAmphibie} ~onUse 1

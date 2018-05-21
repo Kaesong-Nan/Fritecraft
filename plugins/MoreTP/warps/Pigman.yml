@@ -1,0 +1,19 @@
+name: Pigman
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Zombie Pigmen'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: GOLD_NUGGET
+data: 0
+location: HUB<>948.6048331033608<>185.58890289627743<>-620.917556739439<>-5.4880733<>174.69783
+slot: 51

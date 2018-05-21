@@ -1,0 +1,486 @@
+Nord:
+  Location:
+    X: 148.25539952596418
+    Pitch: -0.84449476
+    Y: 64.0
+    Z: 431.8015352468239
+    World: Bouquenia
+    Yaw: -270.10413
+  ReqPerm: false
+Oasis:
+  Location:
+    X: -45.95460951024877
+    Pitch: 2.7011218
+    Y: 69.0
+    Z: 778.6571267626373
+    World: Bouquenia
+    Yaw: 1.1645436
+  ReqPerm: false
+arene:
+  Location:
+    X: -158.50367653023534
+    Pitch: 19.200043
+    Y: 68.0
+    Z: 1127.006494758963
+    World: Bouquenia
+    Yaw: -180.30038
+  ReqPerm: false
+Marché:
+  Location:
+    X: 206.1375318329668
+    Pitch: -2.0145802
+    Y: 70.0
+    Z: 1659.9183516886933
+    World: Bouquenia
+    Yaw: 179.2752
+  ReqPerm: false
+divine:
+  Location:
+    X: 1472.6331813966428
+    Pitch: 33.6995
+    Y: 70.0
+    Z: 2374.2450266766796
+    World: Bouquenia
+    Yaw: -179.57129
+  ReqPerm: false
+rig:
+  Location:
+    X: 693.8463435904683
+    Pitch: 13.229654
+    Y: 90.0
+    Z: 1349.1969896339203
+    World: Bouquenia
+    Yaw: -239.86143
+  ReqPerm: false
+Mairie:
+  Location:
+    X: 229.04893071150107
+    Pitch: -0.55182546
+    Y: 65.0
+    Z: 990.0884210228053
+    World: Bouquenia
+    Yaw: 267.88724
+  ReqPerm: false
+theend:
+  Location:
+    X: 100.09377314428137
+    Pitch: -17.693764
+    Y: 49.0
+    Z: 0.22531316654271513
+    World: Bouquenia_the_end
+    Yaw: -359.5957
+  ReqPerm: false
+Savanna:
+  Location:
+    X: -232.5
+    Pitch: 1.0564675
+    Y: 63.0
+    Z: 233.5
+    World: Bouquenia
+    Yaw: -88.04861
+  ReqPerm: false
+Leviathan:
+  Location:
+    X: -172.70123027772848
+    Pitch: 1.2025046
+    Y: 65.0
+    Z: 1189.3662011413207
+    World: Bouquenia
+    Yaw: 271.09116
+  ReqPerm: false
+coffredivin:
+  Location:
+    X: 1462.8888990977346
+    Pitch: 5.0386014
+    Y: 50.0
+    Z: 2288.673418722144
+    World: Bouquenia
+    Yaw: -269.5026
+  ReqPerm: false
+anomaliecarotte:
+  Location:
+    X: 1429.5704205424968
+    Pitch: -0.22469424
+    Y: 63.0
+    Z: 1109.5186297699408
+    World: Bouquenia
+    Yaw: 88.871
+  ReqPerm: false
+Marais:
+  Location:
+    X: 1347.8440103706596
+    Pitch: 1.0913882
+    Y: 64.0
+    Z: 1151.9563718984339
+    World: Bouquenia
+    Yaw: 182.01904
+  ReqPerm: false
+Nether:
+  Location:
+    X: -30.801853776274882
+    Pitch: -4.0255237
+    Y: 17.0
+    Z: 99.61312912863868
+    World: Bouquenia_nether
+    Yaw: 8.699451
+  ReqPerm: false
+Sylvestre:
+  Location:
+    X: -1028.495309714509
+    Pitch: 0.6177139
+    Y: 60.0
+    Z: 468.3146652506165
+    World: Bouquenia
+    Yaw: 269.7745
+  ReqPerm: false
+anomaliepomme:
+  Location:
+    X: 410.70797710669575
+    Pitch: -0.5519776
+    Y: 76.0
+    Z: 968.451834198168
+    World: Bouquenia
+    Yaw: 347.14352
+  ReqPerm: false
+anomaliepatate:
+  Location:
+    X: 1265.3834972503646
+    Pitch: 7.5267305
+    Y: 72.0
+    Z: 523.3273800827403
+    World: Bouquenia
+    Yaw: -64.97747
+  ReqPerm: false
+snow:
+  Location:
+    X: 268.77288217376383
+    Pitch: 8.335008
+    Y: 96.0
+    Z: -729.9880675528096
+    World: test
+    Yaw: -98.851074
+  ReqPerm: false
+Volcan:
+  Location:
+    X: -459.2162582983606
+    Pitch: 0.632216
+    Y: 50.0
+    Z: 2671.9097678554417
+    World: Bouquenia
+    Yaw: -91.27925
+  ReqPerm: false
+jungle:
+  Location:
+    X: 565.809972460413
+    Pitch: -1.9010386
+    Y: 66.0
+    Z: 2019.0283393493864
+    World: Bouquenia
+    Yaw: 271.41583
+  ReqPerm: false
+items:
+  Location:
+    X: 177.34229527985855
+    Pitch: 4.0162516
+    Y: 63.0
+    Z: 1834.5451210565575
+    World: Bouquenia
+    Yaw: 107.39314
+  ReqPerm: false
+shop:
+  Location:
+    X: -74.01678286875244
+    Pitch: 6.6210346
+    Y: 190.0
+    Z: 131.46172946559815
+    World: HUB
+    Yaw: 1.9724731
+  ReqPerm: false
+Pitman:
+  Location:
+    X: -740.2841041519429
+    Pitch: -1.9782166
+    Y: 56.0
+    Z: 447.6126739822979
+    World: Pitman
+    Yaw: -268.08832
+  ReqPerm: false
+reactor:
+  Location:
+    X: 441.30969618398075
+    Pitch: 1.2024422
+    Y: 81.0
+    Z: 2130.7122684054157
+    World: Bouquenia
+    Yaw: -155.8822
+  ReqPerm: false
+admin:
+  Location:
+    X: 519.3906916320775
+    Pitch: 11.731731
+    Y: 84.0
+    Z: 733.0418997900816
+    World: Bouquenia
+    Yaw: -222.74614
+  ReqPerm: false
+Culturel:
+  Location:
+    X: 425.4113991177532
+    Pitch: 2.0806155
+    Y: 70.0
+    Z: 802.0824023453893
+    World: Bouquenia
+    Yaw: -89.23871
+  ReqPerm: false
+CRB:
+  Location:
+    X: 608.3000000119209
+    Pitch: 9.988805
+    Y: 70.0
+    Z: 985.4206376847948
+    World: Bouquenia
+    Yaw: 227.03911
+  ReqPerm: false
+campement:
+  Location:
+    X: -270.36589423945793
+    Pitch: 13.228913
+    Y: 41.0
+    Z: 802.9252937223584
+    World: Bouquenia
+    Yaw: -168.69556
+  ReqPerm: false
+Momie:
+  Location:
+    X: -5.340047122328712
+    Pitch: 0.4386649
+    Y: 16.0
+    Z: 849.2822772186134
+    World: Bouquenia
+    Yaw: 0.731142
+  ReqPerm: false
+anomaliebiscuit:
+  Location:
+    X: -22.938567176792287
+    Pitch: 19.04267
+    Y: 65.0
+    Z: 328.8305318176187
+    World: Bouquenia
+    Yaw: 49.699463
+  ReqPerm: false
+Hotel:
+  Location:
+    X: -51.15694094536978
+    Pitch: 1.7874265
+    Y: 68.0
+    Z: 1539.025098893881
+    World: Bouquenia
+    Yaw: 91.375656
+  ReqPerm: false
+end:
+  Location:
+    X: 100.45589334710853
+    Pitch: -4.3868523
+    Y: 49.0
+    Z: -1.2734621356135325
+    World: Bouquenia_the_end
+    Yaw: -4.8279765E-7
+  ReqPerm: false
+Event:
+  Location:
+    X: -5.035457037728607
+    Pitch: -0.4060697
+    Y: 64.0
+    Z: 1744.959674952903
+    World: Bouquenia
+    Yaw: 1.7529097
+  ReqPerm: false
+Champi:
+  Location:
+    X: -854.2780915073123
+    Pitch: -0.25973555
+    Y: 76.0
+    Z: 1125.9132855588196
+    World: Bouquenia
+    Yaw: 91.09909
+  ReqPerm: false
+tutoriel:
+  Location:
+    X: 479.4707132767971
+    Pitch: 13.884345
+    Y: 46.0
+    Z: 81.16503596288348
+    World: HUB
+    Yaw: 179.79234
+  ReqPerm: false
+boules:
+  Location:
+    X: 700.3948851484766
+    Pitch: 7.125903
+    Y: 104.0
+    Z: -280.5256196532871
+    World: HUB
+    Yaw: -255.97168
+  ReqPerm: false
+cathédrale:
+  Location:
+    X: 547.6898615407548
+    Pitch: -12.176336
+    Y: 32.0
+    Z: 32.61337267388262
+    World: HUB
+    Yaw: -90.528564
+  ReqPerm: false
+homekerion38:
+  Location:
+    X: 1394.303196324134
+    Pitch: 16.731186
+    Y: 64.65857066611338
+    Z: 1380.9068069495445
+    World: Pitman
+    Yaw: 176.97775
+  ReqPerm: false
+Foret:
+  Location:
+    X: -545.627812898018
+    Pitch: 0.9102063
+    Y: 65.0
+    Z: 182.98318917968086
+    World: Bouquenia
+    Yaw: 92.25206
+  ReqPerm: false
+anomalietarte:
+  Location:
+    X: 728.2766835354308
+    Pitch: -19.41569
+    Y: 54.0
+    Z: 786.4377938745527
+    World: Bouquenia
+    Yaw: 85.848694
+  ReqPerm: false
+Clean:
+  Location:
+    X: 0.09535722233380044
+    Pitch: 25.44387
+    Y: 221.0
+    Z: 0.17543600669626574
+    World: cleanroom
+    Yaw: -87.15258
+  ReqPerm: false
+Bouquenia:
+  Location:
+    X: 272.78173913339197
+    Pitch: 7.052077
+    Y: 68.0
+    Z: 919.9253641348356
+    World: Bouquenia
+    Yaw: -1.3208756
+  ReqPerm: false
+Grille2:
+  Location:
+    X: -165.31353875614454
+    Pitch: 0.50695753
+    Y: 66.0
+    Z: 867.0405015088153
+    World: Bouquenia
+    Yaw: 175.21841
+  ReqPerm: false
+spawn:
+  Location:
+    X: 479.41847730530657
+    Pitch: 12.372758
+    Y: 46.0
+    Z: 81.4075239993274
+    World: HUB
+    Yaw: -180.12782
+  ReqPerm: false
+HomeSilencio:
+  Location:
+    X: -45.24368105049606
+    Pitch: -15.285102
+    Y: 75.0
+    Z: 773.1597483258039
+    World: Pitman
+    Yaw: -102.41238
+  ReqPerm: false
+HomeEhiian:
+  Location:
+    X: 488.9843493914683
+    Pitch: 19.66368
+    Y: 97.0
+    Z: 591.6548847566099
+    World: Pitman
+    Yaw: -133.57394
+  ReqPerm: false
+hub:
+  Location:
+    X: -30.76382450553959
+    Pitch: 1.2593153
+    Y: 59.8125
+    Z: -3.552736386061067
+    World: HUB
+    Yaw: -89.9043
+  ReqPerm: false
+PF:
+  Location:
+    X: 695.7290269358539
+    Pitch: 19.663485
+    Y: 92.0
+    Z: 1352.5836083594581
+    World: Bouquenia
+    Yaw: 142.86322
+  ReqPerm: false
+Neiges:
+  Location:
+    X: 1166.856116950637
+    Pitch: -1.1369166
+    Y: 73.0
+    Z: 410.296329594205
+    World: Bouquenia
+    Yaw: -90.275085
+  ReqPerm: false
+Ravin:
+  Location:
+    X: 799.5458938584005
+    Pitch: 2.8117037
+    Y: 101.0
+    Z: 733.1066554169224
+    World: Bouquenia
+    Yaw: -90.70203
+  ReqPerm: false
+Temple:
+  Location:
+    X: -647.5956628254602
+    Pitch: 0.47137213
+    Y: 65.0
+    Z: 1837.1528406323596
+    World: Bouquenia
+    Yaw: 271.23724
+  ReqPerm: false
+heads:
+  Location:
+    X: 251.83835490058487
+    Pitch: 3.39637
+    Y: 54.0
+    Z: 991.6999999880791
+    World: Bouquenia
+    Yaw: 178.99658
+  ReqPerm: false
+anomaliesaumon:
+  Location:
+    X: -836.914359023673
+    Pitch: 14.363161
+    Y: 91.0
+    Z: 1122.350048662
+    World: Bouquenia
+    Yaw: 140.96317
+  ReqPerm: false
+Grille:
+  Location:
+    X: -165.20747880688006
+    Pitch: 1.0918684
+    Y: 66.0
+    Z: 874.2422469510411
+    World: Bouquenia
+    Yaw: 26.649464
+  ReqPerm: false

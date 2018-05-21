@@ -1,0 +1,32 @@
+gui:
+  title: '&e&lLivre de quêtes'
+  party: '&eMenu Groupe'
+button:
+  open: '&7> Clic pour ouvrir'
+  back:
+    party: '&7> Clic pour revenir en arrière'
+    quests: '&7> Clic pour revenir en arrière'
+    general: '&c< Retour'
+quests:
+  locked: '&4&l???'
+  tasks_completed: ' Tâche terminée'
+  state:
+    cooldown: '&e&lINDISPONNIBLE'
+    completed: '&2&lFINI'
+    reward_claimable: '&5&lRECOMPENSE'
+    reward_claim: '&5&lPRENDRE RECOMPENSE'
+  display:
+    cooldown: '&7Rechargement'
+    monetary: '&7f'
+    exp: '&7XP'
+    rewards: '&rRécompense'
+  locked-in-world: '&cThis Questline is not available in your World'
+category:
+  desc:
+    total: ' Quêtes au total'
+    completed: ' Quêtes terminées'
+    available: ' Quêtes disponnibles'
+    cooldown: ' Quêtes en rechargment'
+    claimable_reward: ' Récompenses à récupérer'
+task:
+  locked: '&4&l???'

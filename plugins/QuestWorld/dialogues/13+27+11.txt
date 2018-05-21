@@ -1,0 +1,12 @@
+&2 <Moine Chidori> &f: Bien le bonjour, mon enfant.
+&2 <Moine Chidori> &f: Admirez donc ce Jardin Zen !
+&2 <Moine Chidori> &f: Il a été parfaitement modélisé, bloc par bloc, par les admins.
+&2 <Moine Chidori> &f: Un travail de longue haleine...
+&2 <Moine Chidori> &f: Eh oui, nous les moines défions la réalité. Briser le 4ème mur est une de nos nombreuses aptitudes.
+&2 <Moine Chidori> &f: Mais trève de discutaille... Que puis-je pour vous, mon enfant ?
+&2 <Moine Chidori> &f: Vous voulez découvrir les secrets de notre temple ?
+&2 <Moine Chidori> &f: Ah désolé, mais la plupart des ailes de ces lieux sont désormais interdites au public.
+&2 <Moine Chidori> &f: Disons qu'il y a eu... euh... Nous sommes en travaux.
+&2 <Moine Chidori> &f: Voilà !
+&2 <Moine Chidori> &f: Allez ouste ! Du balais !
+&2 <Moine Chidori> &f: Vous êtes beaucoup trop curieux à mon gout !

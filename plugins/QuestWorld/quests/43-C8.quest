@@ -1,0 +1,57 @@
+id: 43
+category: 8
+cooldown: 43200000
+name: '&fSylex'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: FLINT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fSylex
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 3059ce6f-2237-46df-9510-daeb4ef4035f
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+  amount: 32
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 3059ce6f-2237-46df-9510-daeb4ef4035f
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 517.0
+    y: 79.0
+    z: 722.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 44eadf8c-fea0-469e-9588-b8cc3e4ce657
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

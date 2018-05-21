@@ -1,0 +1,35 @@
+Emeraude:
+  Id: DIAMOND_SWORD
+  Display: '&a&lEpée en émeraude &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité III'
+  - '&7Chance III'
+  - ''
+  - '&aExquis'
+  - '&7Particules : &dSurnaturel'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      AttackSpeed: -0.7
+      # Armor: 4
+      Damage: 7
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - LOOT_BONUS_MOBS:3
+  - SWEEPING:3
+  - DURABILITY:3
+  Skills:
+  - skill{s=Surnaturel} ~onTimer:5 @self

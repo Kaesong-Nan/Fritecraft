@@ -1,0 +1,7 @@
+&e<Client Sobre> &f: Ah ben vous voilà !
+&e<Client Sobre> &f: Ca fait des plombes que j'attends mon verre !
+&e<Client Sobre> &f: J'espère au moins que ça vaut le coup !
+&e<Client Sobre> &f: Hum...
+&e<Client Sobre> &f: ...
+&e<Client Sobre> &f: Ouais, pas mal.
+&e<Client Sobre> &f: Ca a un petit goût de pêche.

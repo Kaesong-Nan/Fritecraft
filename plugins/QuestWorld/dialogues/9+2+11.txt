@@ -1,0 +1,9 @@
+&9<Denis> &f: Hey !
+&9<Denis> &f: Par ici, approches toi.
+&9<Denis> &f: Tu veux cette pioche en diamant ?
+&9<Denis> &f: Clovis est dur en affaire.
+&9<Denis> &f: Mais je connais son secret, son point faible ...
+&9<Denis> &f: Non, pas le cou ...
+&9<Denis> &f: Les émeraudes !
+&9<Denis> &f: Contre le bon prix, je suis sur qu'il te laissera cette pioche !
+&e&l>> &r&7Clovis accepetera de vous vendre la pioche pour 100 émeraudes.

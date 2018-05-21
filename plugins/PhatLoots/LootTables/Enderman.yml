@@ -1,0 +1,39 @@
+Enderman:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR
+      amount: 0
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 1
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+    Probability: 100.0
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FIREWORK_CHARGE
+      meta:
+        ==: ItemMeta
+        meta-type: FIREWORK_EFFECT
+        display-name: §fPerle Stabilisée §r
+    Probability: 10.0
+  Name: Enderman
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

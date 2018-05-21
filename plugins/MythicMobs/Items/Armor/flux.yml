@@ -1,0 +1,104 @@
+FluxBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&9&lBottes de Flux &r'
+  Lore:
+  - '&7Protection IV'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur II'
+  - ''
+  - '&9Unique'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    Feet:
+      Health: 4
+      Armor: 3
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+  - DURABILITY:5
+  - MENDING:1
+FluxLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&9&lJambières de Flux &r'
+  Lore:
+  - '&7Protection IV'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur II'
+  - ''
+  - '&9Unique'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    Legs:
+      Health: 4
+      Armor: 6
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+  - DURABILITY:5
+  - MENDING:1
+FluxChestplate:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&9&lPlastron de Flux &r'
+  Lore:
+  - '&7Protection IV'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur IV'
+  - ''
+  - '&9Unique'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    Chest:
+      Health: 8
+      Armor: 8
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+  - DURABILITY:5
+  - MENDING:1
+FluxHelmet:
+  Id: DIAMOND_HELMET
+  Display: '&9&lCasque de Flux &r'
+  Lore:
+  - '&7Protection IV'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur II'
+  - ''
+  - '&9Unique'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    Head:
+      Health: 4
+      Armor: 3
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+  - DURABILITY:5
+  - MENDING:1

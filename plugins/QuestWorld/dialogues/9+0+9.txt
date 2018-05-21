@@ -1,0 +1,23 @@
+/playsound entity.skeleton.death master @a ~ ~ ~ 1
+&9<José> &f: J'ai ...
+&9<José> &f: ...
+&9<José> &f: Que fais-tu ici ?
+&9<José> &f: Es-tu perdu ?
+&9<José> &f: Ce que je vais te dire vas sûrement te choquer mais ...
+&9<José> &f: Je suis un peu mort.
+&9<José> &f: C'est pas d'bol, hein ?
+&9<José> &f: Un petit accident stupide.
+&9<José> &f: Je minais tranquillement, et j'ai percé un lac sous-terrain.
+&9<José> &f: Alors que j'étais dans un tunnel assez étroit ...
+&9<José> &f: Tu l'as deviné, je me suis noyé.
+&9<José> &f: Je m'en sors pas si mal quand même, ça aurait pu être de la lave !
+&9<José> &f: Et là j'aurais tout perdu. Tout aurait fondu ...
+&9<José> &f: Mais j'ai quand même perdu mes affaires.
+&9<José> &f: Je n'ai plus rien ici, à part ... cette pioche en bois ridicule !
+/playsound entity.skeleton.death master @a ~ ~ ~ 1
+&9<José> &f: Quelle bande de vautours ...
+&9<José> &f: Au lieu de m'enterrer avec mes affaires, ils ont tout gardé pour eux !
+&9<José> &f: Nan mais sérieux quoi, c'est pas sympa !
+/playsound entity.skeleton.death master @a ~ ~ ~ 1
+&9<José> &f: Je ne trouverais jamais le repos de cette façon ...
+&e&l>> &r&7Allez à la carrière du desert

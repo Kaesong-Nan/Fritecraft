@@ -1,0 +1,4789 @@
+groups:
+  laic:
+    permissions:
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.mysteryboxes.open.*
+    - cmi.command.home
+    - cmi.bedhome
+    - cmi.command.sethome
+    - cmi.command.sethome.2
+    - chestcommands.open.banque.yml
+    - moretp.warp.endervillage
+    - essentials.sethome.multiple.laic
+    - crazyauctions.sell.3
+    - moretp.accept.Biomes
+    - cmi.defaultrank.Laic
+    - cmi.openshulker
+    - cmi.command.rankinfo
+    - cmi.command.ranklist
+    - cmi.command.rankup
+    - quicksell.shop.blocs
+    - moretp.warp.bouquenia
+    - mcmmo.skills.*
+    - parkour.leaderboard
+    - parkour.leave
+    - essentials.msg
+    - essentials.help
+    - essentials.helpop
+    - essentials.msg.*
+    - moretp.warp.creative
+    - multiverse.access.Biomes
+    - moretp.warp.biomes
+    - moretp.warp.temple
+    - moretp.warp.Biomes
+    - moretp.warp.Festival
+    - moretp.radius.*
+    - towny.wild.item_use.*
+    - towny.wild.switch.*
+    - multiverse.access.plots
+    - moretp.warp.ravin
+    - moretp.warp.sylvestre
+    - moretp.warp.forêt
+    - moretp.warp.nord
+    - moretp.warp.champi
+    - moretp.warp.savanne
+    - crazyauctions.bid
+    - crazyauctions.sell
+    - crazyauctions.view
+    - crazyauctions.access
+    - morevault.name.*
+    - morevault.icon.*
+    - pm.general.*
+    - pmp.general.*
+    - essentials.spawn
+    - usb.party.create
+    - bottledexp.interact
+    - bottledexp.command.stats
+    - essentials.delhome
+    - chatcontrol.bypass.swear
+    - multiverse.portal.access.*
+    - deluxetags.gui
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - chestcommands.open.games.yml
+    - quicksell.shop.redstone
+    - chestcommands.open.pexmenu.yml
+    - essentials.build.*
+    - essentials.pickup.*
+    - essentials.signs.use.*
+    - essentials.signs.use.warp
+    - essentials.tpaccept
+    - essentials.tpa
+    - chestcommands.open.cosmetiques.yml
+    - chestcommands.open.reglement.yml
+    - chestcommands.open.elixir.yml
+    - chestcommands.open.grief.yml
+    - chestcommands.open.boussole.yml
+    - chestcommands.open.divine.yml
+    - chestcommands.open.menu.yml
+    - chestcommands.open.mmo.yml
+    - chestcommands.open.warps.yml
+    - chestcommands.open.plots.yml
+    - ultracosmetics.openmenu
+    - ultracosmetics.command.menu
+    - ultracosmetics.command.menu.gadgets
+    - -ultracosmetics.command.treasure
+    - multiverse.access.HUB
+    - multiverse.access.Bouquenia
+    - multiverse.access.Pitman
+    - multiverse.access.Normal
+    - multiverse.access.skyworld
+    - multiverse.access.skyworld_nether
+    - -griefprevention.claims
+    - -griefprevention.createclaims
+    - -griefprevention.buysellclaimblocks
+    - ElytraPlus.use
+    - dac.player.*
+    - globalmarket.use
+    - -customenderchest.commands
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple.laic
+    - reports.report
+    - xpbar.enable
+    - xpbar.disable
+    - xpbar.toggle
+    - xpbar.timeout
+    - xpbar.use
+    - xpbar.color
+    - -automaticinventory.sortinventory
+    - -automaticinventory.depositall
+    - -automaticinventory.refillstacks
+    - -automaticinventory.quickdeposit
+    - automaticinventory.sortchests
+    - moretp.commandrtp.Pitman
+    - moretp.open.gui
+    - moretp.quickrtp.Pitman
+    - moretp.signrtp.Pitman
+    - moretp.accept.Bouquenia
+    - moretp.accept.Pitman
+    - moretp.accept.HUB
+    - moretp.tpa
+    - moretp.tpahere
+    - moretp.warp.gui
+    - moretp.chat.comehere
+    - moretp.chat.takeme
+    - moretp.warp.CRB
+    - moretp.warp.culturel
+    - moretp.warp.divine
+    - moretp.warp.hotel
+    - moretp.warp.jungle
+    - moretp.warp.krakatoa
+    - moretp.warp.leviathan
+    - moretp.warp.mairie
+    - moretp.warp.marais
+    - moretp.warp.marché
+    - moretp.warp.neiges
+    - moretp.warp.oasis
+    - moretp.warp.plateforme
+    - moretp.warp.ressources
+    - moretp.warp.cathédrale
+    - moretp.warp.nether
+    - moretp.warp.end
+    - rank.default
+    options:
+      rank: 3000
+      default: true
+      prefix: '&f&l'
+    worlds:
+      Pitman:
+        permissions:
+        - essentials.build.*
+        - griefprevention.claims
+        - griefprevention.createclaims
+        - griefprevention.buysellclaimblocks
+      Normal:
+        permissions:
+        - essentials.build.*
+        - -essentials.build.interact.120:*
+        - -essentials.build.interact.381:*
+        - -essentials.build.craft.381:*
+      Long:
+        permissions:
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.sethome
+        - -essentials.back
+        - -essentials.back.ondeath
+      skyworld:
+        permissions:
+        - essentials.build.*
+        - -essentials.build.interact.120:*
+        - -essentials.build.interact.381:*
+        - -essentials.build.craft.381:*
+        - -globalmarket.use
+        - -customenderchest.commands
+        - usb.island.home
+        - usb.island.spawn
+        - usb.island.sethome
+        - usb.island.challenges
+        - usb.island.restart
+        - usb.island.level
+        - usb.island.info
+        - usb.island.limit
+        - usb.island.log
+        - usb.island.top
+        - usb.island.ban
+        - usb.island.lock
+        - usb.island.warp
+        - usb.island.setwarp
+        - usb.island.trust
+        - usb.party.join
+        - usb.party.leave
+        - usb.party.kick
+        - usb.party.talk
+        - usb.party.create
+        - usb.island.talk
+        - usb.party.invite
+      skyworld_nether:
+        permissions:
+        - essentials.build.*
+        - -essentials.build.interact.120:*
+        - -essentials.build.interact.381:*
+        - -essentials.build.craft.381:*
+        - -customenderchest.commands
+        - usb.island.home
+        - usb.island.spawn
+        - usb.island.sethome
+        - usb.island.challenges
+        - usb.island.restart
+        - usb.island.level
+        - usb.island.info
+        - usb.island.limit
+        - usb.island.log
+        - usb.island.top
+        - usb.island.ban
+        - usb.island.lock
+        - usb.island.warp
+        - usb.island.setwarp
+        - usb.island.trust
+        - usb.party.join
+        - usb.party.leave
+        - usb.party.kick
+        - usb.party.talk
+        - usb.party.create
+        - usb.island.talk
+        - usb.party.invite
+      plots:
+        permissions:
+        - -customenderchest.*
+        - -gringotts.transfer
+        - -gringotts.deposit
+        - -gringotts.withdraw
+        - -customenderchest.commands
+        - essentials.gamemode
+  moine:
+    permissions:
+    - headdb.category.online_players
+    - headdb.category.plants
+    - headdb.category.miscellaneous
+    - headdb.category.food_drinks
+    - headdb.category.decoration
+    - headdb.category.blocks
+    - headdb.open
+    - headdb.allow.buy
+    - gadgetsmenu.animations.normal
+    - parkour.reset
+    - parkour.leave
+    - parkour.checkpoint
+    - parkour.resume
+    - gadgetsmenu.mysteryboxes.open.*
+    - cmi.command.sethome.moine
+    - cmi.command.home
+    - cmi.bedhome
+    - cmi.command.sethome
+    - chestcommands.open.banque.yml
+    - moretp.warp.endervillage
+    - essentials.sethome.multiple.moine
+    - crazyauctions.sell.10
+    - moretp.accept.Biomes
+    - cmi.openshulker
+    - cmi.command.ranklist
+    - cmi.command.rankinfo
+    - cmi.command.rankup
+    - moretp.warp.Pigman
+    - moretp.warp.Endervillage
+    - moretp.warp.Enderman
+    - moretp.warp.Slime
+    - moretp.warp.Creeper
+    - moretp.warp.Spider
+    - moretp.warp.Squelettes
+    - moretp.warp.Zombies
+    - moretp.warp.Blazes
+    - quicksell.shop.blocs
+    - moretp.warp.bouquenia
+    - parkour.leaderboard
+    - moretp.warp.creative
+    - multiverse.access.Biomes
+    - moretp.warp.biomes
+    - moretp.warp.temple
+    - moretp.warp.Biomes
+    - moretp.warp.Festival
+    - moretp.radius.*
+    - towny.wild.item_use.*
+    - towny.wild.switch.*
+    - moretp.warp.vacances
+    - multiverse.access.plots
+    - moretp.warp.ravin
+    - moretp.warp.champi
+    - moretp.warp.nord
+    - moretp.warp.forêt
+    - moretp.warp.sylvestre
+    - moretp.warp.savanne
+    - crazyauctions.bid
+    - crazyauctions.sell
+    - crazyauctions.view
+    - crazyauctions.access
+    - morevault.name.*
+    - morevault.icon.*
+    - essentials.spawn
+    - usb.party.create
+    - bottledexp.interact
+    - bottledexp.command.stats
+    - essentials.delhome
+    - chatcontrol.bypass.swear
+    - multiverse.portal.access.*
+    - deluxetags.gui
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - silkspawners.changetypewithegg.skeleton
+    - silkspawners.changetypewithegg.zombie
+    - essentials.sethome.multiple.user
+    - chestcommands.open.games.yml
+    - quicksell.shop.redstone
+    - chestcommands.open.pexmenu.yml
+    - chestcommands.open.plots.yml
+    - multiverse.access.Mega
+    - multiverse.access.Pitman
+    - essentials.afk
+    - essentials.msg.*
+    - essentials.msg
+    - essentials.helpop
+    - essentials.help
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.home
+    - essentials.sethome
+    - essentials.balance
+    - essentials.protect
+    - essentials.signs.use.*
+    - essentials.signs.use.warp
+    - essentials.warp
+    - essentials.mail
+    - essentials.me
+    - essentials.ping
+    - reporter.report
+    - essentials.build.*
+    - reporter.report
+    - multiverse.access.HUB
+    - multiverse.access.Bouquenia
+    - multiverse.access.Normal
+    - multiverse.access.skyworld
+    - multiverse.access.skyworld_nether
+    - -worldedit.navigation
+    - chestcommands.open.cosmetiques.yml
+    - chestcommands.open.reglement.yml
+    - chestcommands.open.elixir.yml
+    - chestcommands.open.grief.yml
+    - chestcommands.open.boussole.yml
+    - chestcommands.open.divine.yml
+    - chestcommands.open.menu.yml
+    - chestcommands.open.mmo.yml
+    - chestcommands.open.warps.yml
+    - ultracosmetics.openmenu
+    - ultracosmetics.command.menu
+    - ultracosmetics.command.menu.gadgets
+    - -ultracosmetics.command.treasure
+    - griefprevention.claims
+    - griefprevention.createclaims
+    - griefprevention.buysellclaimblocks
+    - ElytraPlus.use
+    - dac.player.*
+    - mcmmo.skills.*
+    - -automaticinventory.sortinventory
+    - -automaticinventory.depositall
+    - -automaticinventory.refillstacks
+    - -automaticinventory.quickdeposit
+    - automaticinventory.sortchests
+    - moretp.commandrtp.Pitman
+    - moretp.open.gui
+    - moretp.quickrtp.Pitman
+    - moretp.signrtp.Pitman
+    - moretp.accept.Bouquenia
+    - moretp.accept.Pitman
+    - moretp.accept.HUB
+    - moretp.tpa
+    - moretp.tpahere
+    - moretp.warp.gui
+    - moretp.chat.comehere
+    - moretp.chat.takeme
+    - moretp.warp.CRB
+    - moretp.warp.culturel
+    - moretp.warp.divine
+    - moretp.warp.hotel
+    - moretp.warp.jungle
+    - moretp.warp.krakatoa
+    - moretp.warp.leviathan
+    - moretp.warp.mairie
+    - moretp.warp.marais
+    - moretp.warp.marché
+    - moretp.warp.neiges
+    - moretp.warp.oasis
+    - moretp.warp.plateforme
+    - moretp.warp.ressources
+    - moretp.warp.cathédrale
+    - moretp.warp.nether
+    - moretp.warp.end
+    - rank.user
+    worlds:
+      skyworld:
+        permissions:
+        - -globalmarket.use
+        - -customenderchest.commands
+        - usb.island.home
+        - usb.island.spawn
+        - usb.island.sethome
+        - usb.island.challenges
+        - usb.island.restart
+        - usb.island.level
+        - usb.island.info
+        - usb.island.limit
+        - usb.island.log
+        - usb.island.top
+        - usb.island.ban
+        - usb.island.lock
+        - usb.island.warp
+        - usb.island.setwarp
+        - usb.island.trust
+        - usb.party.join
+        - usb.party.create
+        - usb.party.leave
+        - usb.party.kick
+        - usb.party.talk
+        - usb.island.talk
+        - usb.party.invite
+      skyworld_nether:
+        permissions:
+        - -globalmarket.use
+        - -customenderchest.commands
+        - usb.island.home
+        - usb.island.spawn
+        - usb.island.sethome
+        - usb.island.challenges
+        - usb.island.restart
+        - usb.island.level
+        - usb.island.info
+        - usb.island.limit
+        - usb.island.log
+        - usb.island.top
+        - usb.island.ban
+        - usb.island.lock
+        - usb.island.warp
+        - usb.island.setwarp
+        - usb.island.trust
+        - usb.party.create
+        - usb.party.join
+        - usb.party.leave
+        - usb.party.kick
+        - usb.party.talk
+        - usb.island.talk
+        - usb.party.invite
+      plots:
+        permissions:
+        - essentials.gamemode.creative
+        - essentials.gamemode.survival
+        - essentials.gamemode
+        - -customenderchest.*
+        - worldedit.wand.*
+        - worldedit.selection.*
+        - worldedit.history.*
+        - worldedit.brush.*
+        - worldedit.tool.*
+        - -gringotts.transfer
+        - -gringotts.deposit
+        - -gringotts.withdraw
+        - -customenderchest.commands
+      Long:
+        permissions:
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.sethome
+        - -essentials.back
+        - -essentials.back.ondeath
+      Bouquenia:
+        permissions:
+        - quickshop.create.*
+      Pitman:
+        permissions:
+        - cmi.command.se
+        - cmi.command.sethome
+      Bouquenia_the_end:
+        permissions:
+        - cmi.command.sethome
+        - cmi.command.se
+      ventouz:
+        permissions: []
+    options:
+      rank: '2000'
+      prefix: '&a&l'
+  Alpha:
+    permissions:
+    - cmi.command.alpha
+    - essentials.sethome.multiple.alpha
+    - crazyauctions.sell.20
+    - silkspawners.changetypewithegg.skeleton
+    - deluxetags.tag.Alpha
+    - silkspawners.changetypewithegg.creeper
+    - silkspawners.changetypewithegg.spider
+    - silkspawners.changetypewithegg.pig
+    - silkspawners.changetypewithegg.sheep
+    - silkspawners.changetypewithegg.cow
+    - silkspawners.changetypewithegg.chicken
+    - silkspawners.changetypewithegg.squid
+    - rank.Novice
+    options:
+      rank: '1000'
+  Beta:
+    permissions:
+    - cmi.command.beta
+    - essentials.sethome.multiple.gamma
+    - essentials.sethome.multiple.beta
+    - crazyauctions.sell.30
+    - deluxetags.tag.Beta
+    - silkspawners.changetypewithegg.mooshroom
+    - silkspawners.changetypewithegg.zombiepigman
+    - silkspawners.changetypewithegg.cavespider
+    - silkspawners.changetypewithegg.silverfish
+    - silkspawners.changetypewithegg.slime
+    - silkspawners.changetypewithegg.enderman
+    - silkspawners.changetypewithegg.rabbit
+    - rank.Apprenti
+    options:
+      rank: '900'
+  Gamma:
+    permissions:
+    - cmi.command.gamma
+    - essentials.sethome.multiple.gamma
+    - crazyauctions.sell.40
+    - deluxetags.tag.Gamma
+    - silkspawners.changetypewithegg.blaze
+    - silkspawners.changetypewithegg.witch
+    - silkspawners.changetypewithegg.magmacube
+    - rank.Initie
+    options:
+      rank: '800'
+  Delta:
+    permissions:
+    - deluxetags.tag.Delta
+    - rank.Pionnier
+    options:
+      rank: '700'
+  Epsilon:
+    permissions:
+    - deluxetags.tag.Epsilon
+    - rank.Compagnon
+    options:
+      rank: '600'
+  Lambda:
+    permissions:
+    - deluxetags.tag.Lambda
+    - rank.Adepte
+    options:
+      rank: '500'
+  Omega:
+    permissions:
+    - deluxetags.tag.Omega
+    - rank.Pro
+    options:
+      rank: '400'
+  Sigma:
+    permissions:
+    - deluxetags.tag.Sigma
+    - rank.Savant
+    options:
+      rank: '300'
+  Psi:
+    permissions:
+    - deluxetags.tag.Psi
+    - rank.Expert
+    options:
+      rank: '200'
+  Tau:
+    permissions:
+    - deluxetags.tag.Tau
+    - rank.Maitre
+    options:
+      rank: '100'
+  Omicron:
+    permissions:
+    - deluxetags.tag.Omicron
+    - rank.GMaitre
+    options:
+      rank: '50'
+  Zeta:
+    permissions:
+    - deluxetags.tag.Zeta
+    - rank.Legende
+    options:
+      rank: '49'
+  vicaire:
+    worlds:
+      Bouquenia:
+        permissions:
+        - essentials.gamemode.survival
+        - essentials.gamemode
+        - essentials.gamemode.creative
+      Bouquenia_nether:
+        permissions:
+        - essentials.gamemode.survival
+        - essentials.gamemode
+        - essentials.gamemode.creative
+      Bouquenia_the_end:
+        permissions:
+        - essentials.gamemode.survival
+        - essentials.gamemode
+        - essentials.gamemode.creative
+      plots:
+        permissions:
+        - worldedit.removeabove
+        - worldedit.removebelow
+        - worldedit.removenear
+        - worldedit.replacenear
+        - worldedit.fixlava
+        - worldedit.fixwater
+        - worldedit.drain
+        - worldedit.brush.*
+        - worldedit.tool.*
+        - worldedit.wand
+        - worldedit.selection.*
+        - worldedit.region.*
+        - worldedit.navigation.*
+        - worldedit.history.*
+        - worldedit.generation.*
+        - worldedit.clipboard.*
+        - worldedit.biome.*
+    inheritance:
+    - user
+    options:
+      rank: '10'
+      prefix: '&9&l'
+    permissions:
+    - towny.wild.destroy.*
+    - towny.wild.build.*
+  diacre:
+    permissions:
+    - cmi.invedit
+    - cmi.command.inv
+    - ab.help
+    - ab.history
+    - ab.banlist
+    - ab.changereason
+    - ab.check.ip
+    - ab.check
+    - ab.warns.other
+    - ab.warns.own
+    - ab.tempwarn.notify
+    - ab.warn.undo
+    - ab.warn.notify
+    - ab.warn.temp
+    - ab.warn.perma
+    - ab.tempmute.notify
+    - ab.tempmute.exempt
+    - ab.mute.undo
+    - ab.mute.notify
+    - ab.mute.temp
+    - ab.mute.perma
+    - ab.ipban.notify
+    - ab.ipban.temp
+    - ab.ipban.perma
+    - ab.tempban.notify
+    - ab.ban.undo
+    - ab.ban.notify
+    - ab.ban.temp
+    - ab.ban.perma
+    - ab.kick.notify
+    - ab.kick.use
+    - deluxetags.tag.Modo
+    - deluxetags.tag.Diacre
+    - chatcontrol.notify.ad
+    - chatcontrol.notify.swear
+    - essentials.fly
+    - moretp.tphere
+    - moretp.tp
+    - essentials.gamemode.survival
+    - essentials.gamemode
+    - essentials.gamemode.spectator
+    - nocheatplus.notify
+    - worldguard.notify
+    - coreprotect.lookup
+    - essentials.unban
+    - essentials.gc
+    - essentials.tempban.notify
+    - essentials.tempban
+    - essentials.ban.notify
+    - essentials.ban
+    - essentials.mute.notify
+    - essentials.mute
+    - worldedit.navigation.*
+    - worldedit.navigation
+    - worldedit.jumpto
+    - coreprotect.help
+    - coreprotect.inspect
+    - essentials.tphere
+    - essentials.time.set
+    - essentials.time.night
+    - essentials.time.day
+    - essentials.jails
+    - essentials.togglejail.offline
+    - essentials.togglejail
+    - essentials.jail
+    - permissions.banip
+    - permissions.heal
+    - essentials.vanish
+    - essentials.kick
+    - essentials.kill
+    - essentials.weather
+    - essentials.banip
+    - essentials.tp
+    - essentials.joinfullserver
+    - essentials.balancetop
+    - essentials.realname
+    - essentials.whois
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.helpop.recieve
+    - essentials.world
+    - essentials.warp
+    - essentials.warp.otherplayers
+    - essentials.mail
+    - essentials.mail.*
+    - essentials.ban.notify
+    - essentials.tempban.offline
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - esssentials.gc
+    - worldedit.butcher
+    - worldedit.extinguish
+    - essentials.compass
+    - worldguard.fire-toggle.*
+    - worldguard.halt-activity.*
+    - permissions.kick
+    - permissions.ban
+    - permissions.time
+    - permissions.weather
+    - permissions.heal
+    - multiverse.access.HUB
+    - multiverse.access.Bouquenia
+    - griefprevention.claimlistother
+    - griefprevention.softmute
+    - griefprevention.claimbook
+    - griefprevention.eavesdropsigns
+    - griefprevention.notignorable
+    - griefprevention.seeinactivity
+    - usb.mod.*
+    inheritance:
+    - moine
+    options:
+      rank: '5'
+      prefix: '&e&l'
+  archeveque:
+    permissions:
+    - essentials.back
+    - essentials.back.ondeath
+    - worldedit.*
+    - worldguard.*
+    - usb.admin.*
+    inheritance:
+    - diacre
+    options:
+      rank: '2'
+      prefix: '&6&l'
+  cardinal:
+    permissions:
+    - essentials.tempban.exempt
+    - essentials.back
+    - essentials.back.ondeath
+    - spawneradjuster.*
+    - disguisecraft.*
+    - permissions.*
+    - modifyworld.*
+    - worldedit.*
+    - worldguard.*
+    - color.nick.0 color.nick.1
+    - color.nick.2
+    - color.nick.3
+    - color.nick.4
+    - color.nick.5
+    - color.nick.6
+    - color.nick.7
+    - color.nick.8
+    - color.nick.9
+    - color.nick.a
+    - color.nick.b
+    - color.nick.c
+    - color.nick.d
+    - color.nick.e
+    - color.nick.f
+    - RankPrefixPlus.admin
+    - ElytraPlus.use
+    - ElytraPlus.changeParticle
+    - ehc.open
+    - usb.admin.*
+    inheritance:
+    - archeveque
+    options:
+      rank: '1'
+      prefix: '&4&l'
+  Youtube:
+    permissions:
+    - deluxetags.tag.Youtube
+    inheritance:
+    - moine
+    options:
+      prefix: '&7[&fSt&7]'
+      rank: 41
+  pretre:
+    permissions:
+    - parkour.checkpoint
+    - cmi.command.petre
+    - gadgetsmenu.morphs.*
+    - cmi.inventoryhat
+    - cmi.defaultrank.Laic
+    - ultracosmetics.emotes.*
+    - ultracosmetics.hats.*
+    - ultracosmetics.morphs.*
+    - ultracosmetics.mounts.*
+    - ultracosmetics.pets.*
+    - echopet.pet.*
+    - ElytraPlus.changeParticle
+    - emotes.*
+    - essentials.sethome.multiple.premium
+    - ultracosmetics.command.gadgets
+    - ultracosmetics.command.selfview
+    - ultracosmetics.command.menu
+    - ultracosmetics.command.clear
+    - ultracosmetics.command.toggle
+    - ElytraPlus.use
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.nick.color
+    - essentials.tpa
+    - essentials.ptime
+    - essentials.nick
+    - essentials.nick.color
+    - deluxetags.tag.Lag
+    - deluxetags.tag.Legend
+    - deluxetags.tag.Abomination
+    - deluxetags.tag.Agent
+    - deluxetags.tag.Infected
+    - deluxetags.tag.Invincible
+    - deluxetags.tag.Fou
+    - deluxetags.tag.Stupide
+    - deluxetags.tag.Mastodonte
+    - deluxetags.tag.Pyro
+    - deluxetags.tag.Bandit
+    - deluxetags.tag.MeilleurTitre
+    - deluxetags.tag.Super
+    - deluxetags.tag.Swag
+    - deluxetags.tag.Yolo
+    - deluxetags.tag.Hahstag
+    - deluxetags.tag.LOL
+    - deluxetags.tag.Hardcore
+    - deluxetags.tag.Topkek
+    - deluxetags.tag.Salsifis
+    - deluxetags.tag.Fenouil
+    - deluxetags.tag.Quiche
+    - deluxetags.tag.Artichaut
+    - deluxetags.tag.Camembert
+    - deluxetags.tag.Moules
+    - deluxetags.tag.Crame
+    - deluxetags.tag.Ragequit
+    - deluxetags.tag.Rekt
+    - deluxetags.tag.Sel
+    - deluxetags.tag.OP
+    - deluxetags.tag.Savant
+    - deluxetags.tag.Radioactif
+    - deluxetags.tag.Juste
+    - deluxetags.tag.Electrique
+    - deluxetags.tag.Docteur
+    - deluxetags.tag.Herboriste
+    - deluxetags.tag.Immortel
+    - deluxetags.tag.Ingenieur
+    - deluxetags.tag.Love
+    - deluxetags.tag.Sheriff
+    - deluxetags.tag.Survivant
+    - deluxetags.tag.Marin
+    - deluxetags.tag.Rockeur
+    - deluxetags.tag.Ninja
+    - deluxetags.tag.Toxique
+    - deluxetags.tag.Danger
+    - deluxetags.gui
+    worlds:
+      skyworld:
+        permissions:
+        - essentials.fly
+    options:
+      prefix: '&d&l'
+      rank: 40
+  moines:
+    permissions:
+    - parkour.leaderboard
+    - parkour.resume
+    - parkour.leave
+    - parkour.checkpoint
+  pretres:
+    permissions:
+    - parkour.checkpoint
+  remove:
+    worlds:
+      ventouz:
+        permissions:
+        - headdb.allow.buydeop
+    permissions:
+    - headdb.open
+users:
+  wmontpellier:
+    group:
+    - moine
+  legeno06:
+    group:
+    - moine
+  _saliar_:
+    group:
+    - moine
+  8bf247ad-b215-49ef-9d36-828e88f11dad:
+    group:
+    - vicaire
+    - Premium
+    - Novice
+    options:
+      name: cinnoi
+    permissions:
+    - deluxetags.tag.Boules
+    - permission.tuto
+    - deluxetags.tag.Vizir
+  881c2b60-5f8b-4684-a7bd-026d0e64f95e:
+    group:
+    - diacre
+    options:
+      name: Fat_Flat
+    permissions:
+    - essentials.warp.Grille
+  a17dbd77-a9eb-42e2-b429-955cf7a41a76:
+    group:
+    - moine
+    options:
+      name: Yumedelweiss
+  e7f8ec57-48b3-46fa-9c7b-269f0428df24:
+    options:
+      name: Redhayu
+    group:
+    - moine
+  b43259be-9919-4710-bfaa-0928adfada6d:
+    group:
+    - moine
+    - diacre
+    options:
+      name: xNathz
+  47ddcb52-68e7-4498-80be-c63fde953ad7:
+    group:
+    - moine
+    options:
+      name: Ikoponey
+  <player>:
+    permissions:
+    - group.stagiaire
+  c4d93544-cd59-458f-a1c5-1b7848fbacb6:
+    options:
+      name: Ventouz
+    permissions:
+    - gadgetsmenu.emotes.rage
+    - gadgetsmenu.suits.warrior.boots
+    - gadgetsmenu.gadgets.dracula
+    - permission.test
+    - mcmmo.perks.xp.triple
+    - mcmmo.perks.xp.double
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.freezecannon
+    - ultracosmetics.gadgets.tnt
+    - multiverse.access.Bouquenia_nether
+    - permission.end.tombeau
+    - morevault.vault.3
+    - morevault.vault.2
+    - automaticinventory.quickdeposit
+    - deluxetags.tag.fetard
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gagdets.partypopper
+    - automaticinventory.sortinventory
+    group:
+    - Gamma
+    - Beta
+    - cardinal
+    - moine
+  6d680b4c-77e2-423e-b0b5-aebec4b034c5:
+    options:
+      name: Adaewyn
+    permissions:
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - group.tunnel
+    - ultracosmetics.mounts.glacialsteed
+    - multiverse.access.Bouquenia_nether
+    - permission.tuto
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  6b3e2ae8-08ec-446d-943a-bac5b7e36429:
+    permissions:
+    - group.tunnel
+    - ultracosmetics.hats.santa
+    - ultracosmetics.pets.christmaself
+    - deluxetags.tag.Festif
+    - ultracosmetics.mounts.glacialsteed
+    - deluxetags.tag.Boules
+    - deluxetags.tag.Glacial
+    - multiverse.access.Bouquenia_nether
+    - permission.tuto
+    options:
+      name: Alvildia
+    group:
+    - Novice
+    - moine
+  17ae1e21-c00a-4b94-a19b-3ccb4f27d5ef:
+    permissions:
+    - deluxetags.tag.Boules
+    - permission.tuto
+    options:
+      name: Chilioa
+    group:
+    - moine
+  daa3a457-e13e-4e79-aa4d-acef1bd5e038:
+    permissions:
+    - permission.tuto
+    options:
+      name: Eroline_Sharan
+  c9d32742-1255-43cf-97f8-4be7634d499b:
+    permissions:
+    - permission.tuto
+    options:
+      name: Erza_Tittania
+  891d2684-5d53-46b0-b6b4-1469b0d4e633:
+    permissions:
+    - permission.tuto
+    options:
+      name: Ertinoxx77
+  8a554146-c51e-496c-b503-056153fa16a3:
+    permissions:
+    - permission.tuto
+    options:
+      name: TheDarkSky
+  9e32bd51-cedc-46d6-87a2-cba5c99aa12c:
+    permissions:
+    - permission.end.dragon
+    - ultracosmetics.gadgets.melonthrower
+    - permission.saumonantoine
+    - ultracosmetics.gadgets.tnt
+    - permission.end.elytres
+    - permission.choco.usine1
+    - permission.end.invocation
+    - ultracosmetics.gadgets.tsunami
+    - ultracosmetics.gadgets.portalgun
+    - CustomEnderChest.commands
+    - automaticinventory.quickdeposit
+    - multiverse.access.Bouquenia_nether
+    - funitems.use.crit
+    - funitems.use.portal
+    - funitems.use.green
+    - funitems.use.snow
+    - funitems.use.feu
+    - funitems.use.purple
+    - funitems.use.void
+    - CustomEnderChest.level.1
+    - libsdisguises.disguise.llama
+    - libsdisguise.disguise.llama
+    - CustomEnderChest.level.0
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - essentials.build.interact.120:*
+    - deluxetags.tag.Boules
+    - libsdisguises.disguise.evoker
+    - libsdisguises.disguise.vindicator
+    - libsdisguises.disguise.vex
+    - funitems.use.magic
+    - funitems.use.spell
+    - funitems.use.coeur5000
+    - funitems.use.notes
+    - funitems.use.couleurs
+    - funitems.use.water
+    - funitems.use.glyphes
+    - funitems.use.boom
+    - funitems.use.dragon
+    - funitems.use.angry
+    - libsdisguises.disguise.stray
+    - libsdisguises.disguise.husk
+    - libsdisguises.disguise.skeleton
+    - libsdisguises.disguise.zombie
+    - libsdisguises.disguise.spider
+    - libsdisguises.disguise.creeper
+    - libsdisguises.disguise.donkey
+    - libsdisguises.disguise.horse
+    - libsdisguises.disguise.iron_golem
+    - libsdisguises.disguise.villager
+    - libsdisguises.disguise.rabbit
+    - libsdisguises.disguise.sheep
+    - libsdisguises.disguise.pig
+    - libsdisguises.disguise.cow
+    - libsdisguises.disguise.chicken
+    - deluxetags.tag.psychopathe
+    - libsdisguises.disguise.skeleton_horse
+    - libsdisguises.disguise.undead_horse
+    - libsdisguises.disguise.guardian
+    - libsdisguises.disguise.snowman
+    - libsdisguises.disguise.cave_spider
+    - libsdisguises.disguise.silverfish
+    - libsdisguises.disguise.witch
+    - libsdisguises.disguise.slime
+    - libsdisguises.disguise.polar_bear
+    - libsdisguises.disguise.squid
+    - libsdisguises.disguise.ocelot
+    - libsdisguises.disguise.mushroom_cow
+    - libsdisguises.disguise.wolf
+    - libsdisguises.disguise.bat
+    - libsdisguises.disguise.endermite
+    - libsdisguises.disguise.enderman
+    - libsdisguises.disguise.wither_skeleton
+    - libsdisguises.disguise.magma_cube
+    - libsdisguises.disguise.pig_zombie
+    - libsdisguises.disguise.blaze
+    - echopet.pet.*
+    - permission.tuto
+    options:
+      name: Ehiian
+    group:
+    - diacre
+    - pretre
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+    - laic
+    - Premium
+  528d355e-43bd-434c-85fc-ae52dde9ad09:
+    permissions:
+    - automaticinventory.quickdeposit
+    - automaticinventory.sortinventory
+    - essentials.workbench
+    - quicksell.sell
+    - automaticinventory.refillstacks
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.commands
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - CustomEnderChest.level.2
+    - essentials.build.interact.120:*
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - essentials.back
+    - multiverse.access.Bouquenia_nether
+    - permission.tuto
+    options:
+      name: Kerion38
+    group:
+    - Pionnier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  b853b4aa-e8be-455c-a322-9b62d8bb3278:
+    permissions:
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - CustomEnderChest.commands
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - multiverse.access.Bouquenia_nether
+    - essentials.build.interact.120:*
+    - permission.tuto
+    options:
+      name: Yonyon38
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  0b18b885-b388-4fd4-bcad-43630b0454f0:
+    permissions:
+    - permission.tuto
+    group:
+    - Novice
+    - moine
+    options:
+      name: StrikerSilencio
+  ccc6f9c5-af6b-45d3-8a37-f5dccfd25cf9:
+    permissions:
+    - permission.tuto
+    options:
+      name: Neicigam
+  6484b351-e51d-4c36-861e-42e670add309:
+    permissions:
+    - permission.tuto
+    options:
+      name: _CuteCandy_
+  1c1a4d07-0077-442d-98d6-41885af99b0a:
+    permissions:
+    - permission.tuto
+    options:
+      name: bibi51310
+  63a7fced-8a57-4e7f-b7d8-e4ef4f46292a:
+    permissions:
+    - permission.tuto
+    options:
+      name: MILOANNIV
+  c9d356e3-4399-4895-aa12-6e3e243060b8:
+    permissions:
+    - permission.tuto
+    options:
+      name: TheMitsuhiro
+  08eb7254-fabe-4af6-82fd-8dfffaf1affa:
+    permissions:
+    - permission.tuto
+    options:
+      name: Abnar21
+  61b8562c-f758-4fc9-b7fd-a3f19504ede1:
+    permissions:
+    - permission.tuto
+    options:
+      name: MrTomJah
+  910c07db-4060-492f-85c2-371272299ab6:
+    permissions:
+    - permission.choco.usine1
+    - permission.cimetiere.jose1
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.guilde.endermanelite
+    options:
+      name: Tifanos
+  803392f2-a507-4ab1-b559-b7490d6a0c50:
+    permissions:
+    - permission.guilde.silverfishelite
+    - permission.guilde.slimeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    options:
+      name: grobigot
+  a311a755-137d-49cf-8693-0d4967ebe74f:
+    permissions:
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: Louray
+  7d1ba967-63fa-4f7f-8e86-8dacda0aa709:
+    permissions:
+    - permission.rig.monstre
+    - permission.rig.sommeil
+    - permission.choco.usine1
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.end.elytres
+    - permission.bouquenia.vincent
+    - permission.rig.amphibie
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - deluxetags.tag.fetard
+    - permission.robpecheur
+    - permission.foin
+    - permission.dimitrianomalie
+    - permission.cimetiere.jose1
+    - permission.tuto
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    options:
+      name: xNakess
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  c0ed735e-726f-4bfa-a348-2780af0fcc9c:
+    permissions:
+    - permission.tuto
+    options:
+      name: Dylandu972
+  9825ed19-0d0f-4922-bb8a-726f85500d6c:
+    permissions:
+    - permission.tuto
+    options:
+      name: Jadinna
+  99947ff2-7c9d-4a23-b531-d019e4d76789:
+    permissions:
+    - ultracosmetics.gadgets.paintballgun
+    - ultracosmetics.gadgets.tsunami
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - permission.end.dragon
+    - permission.pirate2
+    - permission.rig.amphibie
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - permission.legende.legende5
+    - permission.legende.legende4
+    - permission.legende.legende3
+    - ultracosmetics.gadgets.discoball
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.tnt
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.pirate1
+    - deluxetags.tag.fetard
+    - funitems.use.dragon
+    - quicksell.sell
+    - permission.rig.labo3
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail1
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - permission.cimetiere.jose6
+    - permission.cimetiere.jose5
+    - permission.cimetiere.jose4
+    - permission.cimetiere.jose3
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.rig.cantine2
+    - permission.end.elytres
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.tombeau
+    - permission.crb.echantements2
+    - permission.rig.cantine4
+    - permission.rig.cantine3
+    - essentials.workbench
+    - CustomEnderChest.commands
+    - permission.choco.usine5
+    - permission.rig.cantine1
+    - permission.crb.cueillette9
+    - permission.crb.echantements1
+    - permission.cimetiere.jose2
+    - permission.soifsolitaire
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.foin
+    - permission.rig.labo1
+    - permission.cimetiere.jose1
+    - permission.boomboom
+    - permission.rig.monstre
+    - permission.rig.sommeil
+    - permission.crb.bovin1
+    - permission.saumonantoine
+    - permission.guilde.endermanelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.dimitrianomalie
+    - permission.robpecheur
+    - permission.tuto
+    options:
+      name: SiirhCrM
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  7dd2f549-3e1d-4ebf-b9b5-afe19adf405c:
+    permissions:
+    - permission.choco.usine3
+    - permission.cimetiere.jose3
+    - permission.cimetiere.jose2
+    - permission.nether.portail1
+    - permission.dimitrianomalie
+    - permission.crb.equipement1
+    - permission.foin
+    - permission.choco.usine2
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.guilde.araigneeelite
+    - permission.choco.usine1
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: CrowKowDile
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  690b02f6-3247-4fcf-9ea7-abdfdfd573de:
+    permissions:
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.guilde.endermanelite
+    - permission.crb.bovin2
+    - permission.crb.bovin3
+    - permission.bouquenia.vincent
+    - permission.foin
+    - permission.boomboom
+    - permission.rig.monstre
+    - permission.rig.labo1
+    - CustomEnderChest.commands
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.guilde.araigneeelite
+    - permission.crb.echantements2
+    - permission.crb.echantements1
+    - permission.guilde.slimeelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.choco.usine1
+    - permission.rig.sommeil
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.cimetiere.jose1
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Dkpsuleur
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  9e75ab0a-0087-4693-b6ac-18cc1ca0be3a:
+    permissions:
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: PAMFC
+    group:
+    - moine
+  62b8009f-4cef-4120-a3fc-780cdddbc867:
+    permissions:
+    - multiverse.access.SkyBlockSpawn
+    - multiverse.access.Ruins
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.nether.portail1
+    - permission.nether.portail2
+    - permission.nether.portail3
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - funitems.use.dragon
+    - permission.tuto
+    - quicksell.sell
+    options:
+      name: Ludokozo
+    group:
+    - Apprenti
+    - diacre
+    - moine
+    worlds:
+      SkyBlockSpawn:
+        permissions:
+        - shopkeeper.admin
+        - citizens.npc.*
+  1a172e95-2363-4406-8e64-b651406bb067:
+    permissions:
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.tombeau
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail2
+    - permission.nether.portail3
+    - permission.nether.portail1
+    - permission.cimetiere.jose1
+    - permission.pirate1
+    - permission.soifsolitaire
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - funitems.use.dragon
+    - funitems.use.angry
+    - permission.guilde.araigneecaverneelite
+    - permission.foin
+    - automaticinventory.sortinventory
+    - funitems.use.boom
+    - permission.guilde.slimeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.tuto
+    - permission.guilde.squeletteelite
+    options:
+      name: PsyKiiq
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  99c364c8-b1cc-4fc6-bb24-6f3b06bc0c5e:
+    permissions:
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.tombeau
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.nether.portail4
+    - permission.foin
+    - permission.pirate1
+    - permission.soifsolitaire
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - permission.guilde.araigneeelite
+    - permission.tuto
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    options:
+      name: Frydon
+    group:
+    - Novice
+    - moine
+  d8901acd-cec4-42c7-81b1-4df821b831d9:
+    permissions:
+    - permission.tuto
+    options:
+      name: Serwolv
+  53167610-216e-4bfe-a216-5797fc682ecc:
+    permissions:
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: Rayko__
+  c5154c30-84d6-43ab-83ad-7a35f39a7b65:
+    permissions:
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: Nayshys
+  ca1cfd08-f566-49e3-948d-6f703d9efee7:
+    permissions:
+    - permission.tuto
+    options:
+      name: MrFrozenkill
+  c413d484-12d4-4779-984c-5f2d921d3c0e:
+    permissions:
+    - permission.tuto
+    options:
+      name: minecraft701
+  85baf609-3a78-451b-83bd-f1a63a84bb03:
+    permissions:
+    - permission.tuto
+    options:
+      name: universcraft26
+  a3d068a2-d543-48ba-9722-f8e77afd1a7b:
+    permissions:
+    - permission.tuto
+    options:
+      name: Laura_2804
+  75463b33-f472-4a6b-9f83-fecce4fb5208:
+    permissions:
+    - permission.tuto
+    options:
+      name: Lycost
+  3916d671-9b5e-41e8-bf85-236ce5d94e34:
+    permissions:
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.tuto
+    options:
+      name: djm02
+  fbbfc026-a9cd-431e-88c5-ca1b4250d2a4:
+    permissions:
+    - permission.tuto
+    options:
+      name: Razorix07
+  f9148639-3d90-4061-9070-6841d1a61101:
+    permissions:
+    - permission.tuto
+    options:
+      name: Blocks_Spirit
+  b66decf2-7a35-4c3e-adc7-4952430bcd7c:
+    permissions:
+    - permission.tuto
+    options:
+      name: cmathiec
+  f0814c02-dccd-4156-bed4-b3ad25e31bf8:
+    permissions:
+    - permission.tuto
+    options:
+      name: thepanda74
+  acc92c7b-f1d8-42fc-a2ea-2dd09d8449c7:
+    permissions:
+    - ultracosmetics.gadgets.tsunami
+    - permission.pirate1
+    - permission.rig.monstre
+    - permission.rig.labo3
+    - permission.rig.labo2
+    - permission.crb.cueillette9
+    - permission.crb.gold
+    - permission.rig.amphibie
+    - permission.bouquenia.vincent
+    - permission.rig.cantine3
+    - permission.rig.cantine2
+    - permission.rig.labo1
+    - permission.rig.sommeil
+    - permission.rig.cantine1
+    - permission.cimetiere.jose4
+    - permission.cimetiere.jose3
+    - permission.cimetiere.jose2
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - automaticinventory.sortinventory
+    - automaticinventory.refillstacks
+    - permission.soifsolitaire
+    - permission.crb.bovin1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - essentials.workbench
+    - permission.crb.echantements1
+    - permission.crb.echantements2
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - CustomEnderChest.commands
+    - permission.choco.usine7
+    - permission.choco.usine5
+    - permission.choco.usine6
+    - automaticinventory.quickdeposit
+    - permission.choco.usine1
+    - permission.choco.usine3
+    - permission.choco.usine4
+    - permission.choco.usine2
+    - permission.foin
+    - permission.guilde.araigneecaverneelite
+    - quicksell.sell
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.boomboom
+    - permission.guilde.silverfishelite
+    - permission.guilde.creeperelite
+    - permission.dimitrianomalie
+    - permission.cimetiere.jose1
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.tuto
+    options:
+      name: kiro057
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  e31a4cdf-397c-4930-81f6-83c72b681db3:
+    permissions:
+    - permission.tuto
+    options:
+      name: NofoZ
+  30d69a63-91a7-4840-9f54-f13d4b82f1e0:
+    permissions:
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: ASslight
+  80fd05db-c326-4186-bf41-8399cd92aeb2:
+    permissions:
+    - permission.tuto
+    options:
+      name: sklia
+  ed7a8696-09b0-47e9-9a7e-03ebfafc24cc:
+    permissions:
+    - permission.tuto
+    options:
+      name: PandaGirl5695
+  8d858bb3-9991-4f15-a992-f0663e78dd8e:
+    permissions:
+    - permission.tuto
+    options:
+      name: Mitsuhykaru
+  b650e104-d8ca-449e-b787-3d041271f847:
+    permissions:
+    - permission.choco.usine1
+    - permission.cimetiere.jose1
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneecaverneelite
+    - permission.tuto
+    options:
+      name: deguirard_matteo
+    group:
+    - Novice
+    - moine
+  138b9c4b-941d-4469-a95a-b9603f439ce8:
+    permissions:
+    - permission.cimetiere.jose1
+    - permission.foin
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.silverfishelite
+    - permission.tuto
+    options:
+      name: Enzo_marchand
+    group:
+    - Novice
+    - moine
+  d5e9cb23-5060-463a-b8ca-df1a6eb2bc5d:
+    permissions:
+    - permission.tuto
+    options:
+      name: lucas_marchand
+  4163b479-8088-44e5-be79-e4b9418c4691:
+    permissions:
+    - permission.foin
+    - permission.crb.echantements2
+    - permission.crb.echantements1
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.crb.equipement3
+    - permission.crb.equipement4
+    - permission.cimetiere.jose1
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.dimitrianomalie
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.guilde.endermanelite
+    - permission.tuto
+    options:
+      name: Ryuja777
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  c558daf9-e028-4374-99ce-1518b5e12245:
+    permissions:
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.araigneeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.tuto
+    options:
+      name: Abreuzz
+  272d12a3-637d-416e-abd5-c33ccf66fa01:
+    permissions:
+    - permission.end.dragon
+    - permission.tuto
+    - multiverse.access.Bouquenia_nether
+    - permission.cimetiere.jose1
+    - permission.end.invocation
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.tombeau
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.dimitrianomalie
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    options:
+      name: RevivaH
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  e846093b-18fd-4246-9b9f-0309f93b730e:
+    permissions:
+    - permission.tuto
+    options:
+      name: Bazooh
+  01b645c6-2957-4f15-9076-05e4c9a1a8e6:
+    permissions:
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.tuto
+    options:
+      name: CocoNutsFR
+    group:
+    - moine
+  21634739-09fa-4bfe-8736-2731ef3b4a19:
+    permissions:
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.legende.legende2
+    - permission.crb.cueillette9
+    - permission.legende.legende1
+    - permission.dimitrianomalie
+    - permission.choco.usine1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.soifsolitaire
+    - permission.choco.usine2
+    - permission.rig.sommeil
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.boomboom
+    - permission.cimetiere.jose1
+    - permission.foin
+    - permission.guilde.endermanelite
+    - permission.crb.echantements2
+    - permission.crb.echantements1
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.guilde.araigneecaverneelite
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.guilde.zombieelite
+    - permission.guilde.silverfishelite
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.slimeelite
+    - permission.tuto
+    options:
+      name: marsu88
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  dbb36617-2e4c-40e6-8769-6fbb87171418:
+    options:
+      name: grimvan
+    permissions:
+    - gadgetsmenu.hats.wink
+    - permission.pirate1
+    - permission.tuto
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail1
+    - permission.crb.bovin2
+    - permission.crb.echantements1
+    - permission.legende.legende3
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.crb.bovin3
+    - permission.crb.gold
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.boomboom
+    - permission.soifsolitaire
+    - permission.dimitrianomalie
+    - permission.saumonantoine
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.robpecheur
+    - permission.foin
+    - permission.guilde.zombieelite
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.silverfishelite
+    group:
+    - vicaire
+    - Alpha
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  91848cf4-7936-442e-8a97-66d3c9ae5c18:
+    permissions:
+    - permission.tuto
+    options:
+      name: Nandai
+  4937d7dd-6bde-44ca-a289-9038df4afa7f:
+    permissions:
+    - permission.tuto
+    options:
+      name: caroline5551
+  909d88df-f77e-4b81-9dea-77b3cd67635e:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.tuto
+    options:
+      name: Leussio
+  ce0119d1-9578-498c-b776-e674c7fcf632:
+    permissions:
+    - permission.tuto
+    options:
+      name: joesisi
+  13dcfd4d-546b-4b12-80f9-1ad63d9e2dd9:
+    permissions:
+    - permission.tuto
+    options:
+      name: KikooDissident
+  d7908b7a-cdae-47d0-85d4-e4e6c877d8ff:
+    permissions:
+    - gadgetsmenu.gadgets.jukebox
+    - gadgetsmenu.emotes.smile
+    - gadgetsmenu.hats.squid
+    - gadgetsmenu.hats.candycane
+    - gadgetsmenu.hats.embarrassed
+    - gadgetsmenu.hats.number_4
+    - gadgetsmenu.hats.letter_p
+    - gadgetsmenu.particles.enchantment
+    - gadgetsmenu.hats.letter_x
+    - gadgetsmenu.gadgets.paintballgun
+    - gadgetsmenu.suits.plumber.helmet
+    - gadgetsmenu.hats.gorilla
+    - gadgetsmenu.hats.england
+    - gadgetsmenu.hats.chicken
+    - gadgetsmenu.hats.surprised
+    - gadgetsmenu.hats.letter_o
+    - gadgetsmenu.hats.computer
+    - gadgetsmenu.hats.number_7
+    - gadgetsmenu.hats.letter_u
+    - gadgetsmenu.hats.cool
+    - gadgetsmenu.hats.letter_r
+    - gadgetsmenu.hats.cow
+    - gadgetsmenu.hats.norway
+    - permission.end.elytres
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.dimitrianomalie
+    - permission.soifsolitaire
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gadgets.tsunami
+    - ultracosmetics.gadgets.tnt
+    - ultracosmetics.gadgets.colorbomb
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.melonthrower
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.slimeelite
+    - permission.foin
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.bouquenia.vincent
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.guilde.araigneeelite
+    - permission.end.tombeau
+    - permission.choco.usine7
+    - permission.choco.usine5
+    - permission.choco.usine6
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.creeperelite
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: SushiNotFound
+    group:
+    - Initié
+    - vicaire
+    - Novice
+    - moine
+  41c4c6fb-7ce7-4a76-8a51-77e3c2dfc9bd:
+    permissions:
+    - permission.saumonantoine
+    - permission.robpecheur
+    - mobarena.*
+    - permission.foin
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.cimetiere.jose1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.guilde.endermanelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail2
+    - permission.nether.portail3
+    - permission.nether.portail4
+    - permission.nether.portail1
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.end.tombeau
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Ridgil
+    group:
+    - vicaire
+    - Apprenti
+    - Novice
+    - moine
+  727d04df-7bfe-4d13-9d7d-3f30ca785077:
+    permissions:
+    - gadgetsmenu.hats.letter_p
+    - permission.end.dragon
+    - permission.rig.monstre
+    - permission.saumonantoine
+    - permission.pirate2
+    - multiverse.access.VillageNain
+    - questworld.*
+    - citizens.*
+    - multiverse.access.Cethanon
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - automaticinventory.quickdeposit
+    - automaticinventory.refillstacks
+    - essentials.workbench
+    - CustomEnderChest.commands
+    - permission.soifsolitaire
+    - permission.legende.legende4
+    - permission.legende.legende5
+    - permission.legende.legende3
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.rig.cantine4
+    - permission.rig.cantine3
+    - permission.rig.cantine2
+    - permission.rig.cantine1
+    - permission.rig.labo3
+    - permission.rig.labo2
+    - permission.rig.labo1
+    - permission.rig.sommeil
+    - permission.pirate1
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.boomboom
+    - permission.robpecheur
+    - worldedit.*
+    - permission.choco.usine3
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement3
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.crb.equipement4
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.cimetiere.jose6
+    - permission.cimetiere.jose5
+    - permission.cimetiere.jose4
+    - permission.cimetiere.jose3
+    - permission.cimetiere.jose2
+    - permission.foin
+    - permission.end.elytres
+    - permission.choco.usine4
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.end.invocation
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.cimetiere.jose1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.guilde.silverfishelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.end.tombeau
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.zombieelite
+    - permission.dimitrianomalie
+    - permission.tuto
+    group:
+    - Epsilon
+    - Delta
+    - Gamma
+    - Beta
+    - Alpha
+    - archeveque
+    - moine
+    options:
+      name: loamos
+    worlds:
+      plots:
+        permissions:
+        - essentials.gamemode.spectator
+        - essentials.gamemode.creative
+        - essentials.gamemode.survival
+        - essentials.gamemode
+  2a52e6ca-f2d9-4750-b1c9-b1d871a0814c:
+    permissions:
+    - permission.tuto
+    options:
+      name: jovandube
+  527d4244-1844-4f89-a6bf-042065b985e8:
+    permissions:
+    - permission.tuto
+    options:
+      name: xSeventiies
+  6367b9ec-0c7a-406f-a7ec-e45a9451bcf7:
+    permissions:
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: Sifri_z
+  e1274c3c-b69c-4a2f-9758-69b2d22799c7:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.silverfishelite
+    - permission.tuto
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    options:
+      name: thealexaya
+    group:
+    - moine
+  472ad53a-a245-4ac7-a196-fd265b1fc565:
+    permissions:
+    - gadgetsmenu.hats.unitedstates
+    - gadgetsmenu.hats.bird
+    - gadgetsmenu.gadgets.parachute
+    - gadgetsmenu.hats.monk
+    - gadgetsmenu.suits.thor.helmet
+    - gadgetsmenu.suits.vampire.boots
+    - gadgetsmenu.suits.frog.boots
+    - gadgetsmenu.hats.letter_m
+    - gadgetsmenu.hats.ocelot
+    - gadgetsmenu.hats.chile
+    - permission.end.dragon
+    - gadgetsmenu.hats.snowglobe
+    - gadgetsmenu.hats.pug
+    - gadgetsmenu.particles.enchantment
+    - gadgetsmenu.gadgets.partypopper
+    - gadgetsmenu.suits.warrior.leggings
+    - gadgetsmenu.hats.cry
+    - permission.crb.gold
+    - gadgetsmenu.hats.letter_l
+    - gadgetsmenu.hats.sweden
+    - libsdisguises.disguise.donkey
+    - libsdisguises.disguise.horse
+    - libsdisguises.disguise.iron_golem
+    - libsdisguises.disguise.villager
+    - libsdisguises.disguise.rabbit
+    - libsdisguises.disguise.sheep
+    - libsdisguises.disguise.pig
+    - libsdisguises.disguise.cow
+    - libsdisguises.disguise.chicken
+    - gadgetsmenu.gadgets.explodingsheep
+    - gadgetsmenu.hats.elephant
+    - gadgetsmenu.pets.babyredsheep
+    - gadgetsmenu.suits.mermaid.boots
+    - gadgetsmenu.hats.freddyfazbear
+    - gadgetsmenu.hats.ferret
+    - gadgetsmenu.pets.babypig
+    - gadgetsmenu.hats.number_2
+    - gadgetsmenu.suits.ghostly.boots
+    - gadgetsmenu.pets.babybluesheep
+    - gadgetsmenu.hats.scared
+    - gadgetsmenu.emotes.wink
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - gadgetsmenu.hats.dead
+    - gadgetsmenu.pets.babywhitesheep
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.crb.bovin1
+    - gadgetsmenu.pets.babydarkbrownhorse
+    - gadgetsmenu.pets.babyblackrabbit
+    - gadgetsmenu.hats.embarrassed
+    - gadgetsmenu.pets.babychicken
+    - gadgetsmenu.pets.babymushroomcow
+    - gadgetsmenu.suits.baker.leggings
+    - gadgetsmenu.hats.emeraldstevehead
+    - gadgetsmenu.hats.goldstevehead
+    - gadgetsmenu.hats.letter_w
+    - gadgetsmenu.suits.disco.chestplate
+    - gadgetsmenu.suits.ninja.boots
+    - gadgetsmenu.pets.babyredcat
+    - gadgetsmenu.particles.mobspell
+    - gadgetsmenu.hats.astronaut
+    - gadgetsmenu.hats.number_0
+    - gadgetsmenu.particles.townaura
+    - gadgetsmenu.hats.owl
+    - gadgetsmenu.hats.letter_u
+    - permission.rig.monstre
+    - permission.foin
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.rig.sommeil
+    - permission.rig.amphibie
+    - permission.end.elytres
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - quicksell.sell
+    - CustomEnderChest.level.3
+    - essentials.workbench
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.commands
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.invocation
+    - automaticinventory.refillstacks
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - deluxetags.tag.Seraphique
+    - permission.soifsolitaire
+    - permission.pirate1
+    - permission.legende.legende3
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.boomboom
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.saumonantoine
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.cimetiere.jose1
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.tuto
+    options:
+      name: Milobellus2
+    group:
+    - Lambda
+    - Epsilon
+    - Delta
+    - pretre
+    - Gamma
+    - Beta
+    - Alpha
+    - moine
+  96ce9779-00a7-4125-82bf-2b0e714d2da1:
+    permissions:
+    - permission.tuto
+    options:
+      name: SpontexSim
+  177427a2-9ecf-4155-a381-7477c379a4ec:
+    permissions:
+    - permission.guilde.squeletteelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.tuto
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.silverfishelite
+    options:
+      name: hugokemon
+    group:
+    - moine
+  2b71ca52-dbce-4d88-82ec-d4df84731680:
+    permissions:
+    - permission.cimetiere.jose1
+    - permission.tuto
+    - permission.guilde.zombieelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.slimeelite
+    options:
+      name: Maxlepok93
+    group:
+    - moine
+  5d04630b-2dd5-4dbd-86b5-1580c9645e54:
+    permissions:
+    - permission.tuto
+    options:
+      name: Mr_Marcrok
+  b657eb6b-7924-48f8-bb9d-2ec9a20211b4:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.choco.usine1
+    - permission.tuto
+    - essentials.workbench
+    options:
+      name: bettoli
+    group:
+    - moine
+  b86f0beb-11c2-4e9e-b984-71763ffd504e:
+    permissions:
+    - CustomEnderChest.commands
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.saumonantoine
+    - permission.robpecheur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.tombeau
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.nether.portail4
+    - permission.dimitrianomalie
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.silverfishelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    options:
+      name: PereFection
+  41c46a7f-8684-48df-940b-d6ee17d33d2b:
+    permissions:
+    - permission.end.dragon
+    - permission.end.elytres
+    - CustomEnderChest.level.5
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - permission.boomboom
+    - CustomEnderChest.level.2
+    - permission.rig.amphibie
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement1
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.robpecheur
+    - permission.guilde.araigneeelite
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.rig.monstre
+    - permission.rig.sommeil
+    - permission.dimitrianomalie
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.bouquenia.vincent
+    - permission.choco.usine5
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - ultracosmetics.gadgets.firework
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.tuto
+    options:
+      name: thegeek964
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - vicaire
+    - moine
+  dc685484-672d-49bb-aed3-afa79a1739b6:
+    permissions:
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - CustomEnderChest.level.5
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.tombeau
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.cimetiere.jose1
+    - permission.saumonantoine
+    - permission.robpecheur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    options:
+      name: Kobbor
+  1c0900e8-309a-4aa8-8f6e-ab7cafa13348:
+    permissions:
+    - permission.tuto
+    options:
+      name: missminimiss
+  4c601b8f-441f-4061-8868-c79a358cbeef:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.dimitrianomalie
+    - permission.choco.usine7
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneeelite
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement3
+    - permission.crb.equipement4
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.choco.usine6
+    - permission.soifsolitaire
+    - permission.guilde.zombieelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.silverfishelite
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    group:
+    - Novice
+    - moine
+    options:
+      name: LiTo_Noir
+  7c7019da-fc67-48d6-8387-d50465c3c40e:
+    permissions:
+    - permission.choco.usine2
+    - permission.choco.usine3
+    - permission.choco.usine1
+    - permission.guilde.silverfishelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.tuto
+    options:
+      name: gabigou
+    group:
+    - moine
+  539fd098-7fa0-4410-b02e-be85c235d2d0:
+    permissions:
+    - permission.tuto
+    options:
+      name: Fokaai
+  597d6b20-dac9-4ceb-9a46-df8129910b98:
+    permissions:
+    - permission.tuto
+    options:
+      name: Urtheik
+  ca7753a7-09f9-42cc-9330-83c3a96448c9:
+    permissions:
+    - permission.tuto
+    options:
+      name: Cicatrix34
+  7d67894a-2d98-4417-9498-f1f6d88e17a3:
+    permissions:
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneecaverneelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.guilde.silverfishelite
+    - permission.tuto
+    options:
+      name: _Majorking_
+  cddb32bd-89d3-46f2-a2b9-8da4f2467efb:
+    permissions:
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - automaticinventory.quickdeposit
+    - essentials.workbench
+    - permission.rig.sommeil
+    - permission.bouquenia.vincent
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail3
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.cimetiere.jose1
+    - permission.tuto
+    options:
+      name: Tryityx
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  98893986-4fba-4f4f-b487-e674845d5102:
+    permissions:
+    - permission.end.dragon
+    - automaticinventory.sortinventory
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - automaticinventory.refillstacks
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - essentials.workbench
+    - quicksell.sell
+    - permission.end.elytres
+    - permission.end.invocation
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.foin
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.guilde.endermanelite
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.choco.usine7
+    - permission.choco.usine2
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.legende.legende1
+    - permission.legende.legende2
+    - permission.choco.usine1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - ultracosmetics.gadgets.tsunami
+    - ultracosmetics.gadgets.blizzardblaster
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - ultracosmetics.gadgets.tnt
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gadgets.colorbomb
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.melonthrower
+    - scs.create.display
+    - CustomEnderChest.commands
+    - permission.guilde.squeletteelite
+    - permission.guilde.slimeelite
+    - permission.tuto
+    group:
+    - Pionier
+    - Initié
+    - vicaire
+    - Apprenti
+    - Novice
+    - moine
+    options:
+      name: Pikan
+  0838ab4b-ce76-446f-8d0e-264f7a02ac24:
+    permissions:
+    - permission.tuto
+    options:
+      name: Kokon0
+  d4c4edab-984b-4a45-85cc-68dab29fac7f:
+    permissions:
+    - permission.guilde.creeperelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.guilde.silverfishelite
+    - permission.tuto
+    options:
+      name: LufyZz
+    group:
+    - vicaire
+    - moine
+  599d0726-02ad-4246-bc4a-0d5a4afceb2d:
+    permissions:
+    - permission.tuto
+    options:
+      name: MrWhiteWalker
+  e063fe82-ccb4-4413-883f-ee6f445657c7:
+    permissions:
+    - permission.tuto
+    options:
+      name: MAMA_SHAZEN
+  1f80f4d9-adf8-44d3-a512-3ad92efe44df:
+    permissions:
+    - permission.tuto
+    options:
+      name: KiTo_YT
+  38044716-df2a-4bae-8849-26330b907a89:
+    permissions:
+    - quicksell.sell
+    - permission.rig.cantine4
+    - permission.crb.cueillette9
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gadgets.firework
+    - essentials.workbench
+    - scs.create.display
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.crb.equipement3
+    - ultracosmetics.gadgets.colorbomb
+    - ultracosmetics.gadgets.blizzardblaster
+    - ultracosmetics.gadgets.tsunami
+    - permission.pirate2
+    - automaticinventory.refillstacks
+    - permission.foin
+    - CustomEnderChest.level.5
+    - CustomEnderChest.commands
+    - permission.rig.monstre
+    - permission.rig.labo3
+    - permission.rig.cantine3
+    - permission.rig.cantine2
+    - permission.rig.sommeil
+    - permission.rig.labo2
+    - permission.rig.cantine1
+    - permission.rig.labo1
+    - permission.rig.amphibie
+    - permission.guilde.endermanelite
+    - permission.end.elytres
+    - CustomEnderChest.level.4
+    - permission.legende.legende4
+    - permission.legende.legende3
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.saumonantoine
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.squeletteelite
+    - ultracosmetics.gadgets.tnt
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.boomboom
+    - automaticinventory.quickdeposit
+    - permission.pirate1
+    - permission.robpecheur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.soifsolitaire
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.choco.usine3
+    - permission.choco.usine1
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine2
+    - ultracosmetics.gadgets.melonthrower
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.guilde.silverfishelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.dimitrianomalie
+    - permission.tuto
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+    options:
+      name: Noraj_Yuki
+  02054e12-2b67-470c-b858-164ef801316c:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Major_Light
+  fa62c1de-b645-4d1c-a97e-5842345126e2:
+    permissions:
+    - permission.tuto
+    options:
+      name: MorganLeZeub
+  e146d227-7080-4a88-8ccb-94d8701465f8:
+    permissions:
+    - permission.tuto
+    options:
+      name: RoRo_HD
+  21984b80-4847-47b9-a603-8cdae3f4ab63:
+    permissions:
+    - automaticinventory.sortinventory
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.crb.bovin1
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.choco.usine1
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.legende.legende5
+    - permission.legende.legende4
+    - permission.legende.legende3
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.saumonantoine
+    - permission.dimitrianomalie
+    - permission.guilde.endermanelite
+    - permission.foin
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.robpecheur
+    - permission.soifsolitaire
+    - permission.nether.portail1
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.tuto
+    options:
+      name: ReVesTa
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  e7d37bc4-9620-456e-9797-aa67290ade67:
+    permissions:
+    - permission.robpecheur
+    - permission.tuto
+    options:
+      name: Crackman57
+  a6a3b0df-aae0-486a-9bb9-1add62a06cc3:
+    permissions:
+    - permission.tuto
+    options:
+      name: vapouchino
+  ab7a87f5-230a-4931-8cdc-5d865e210743:
+    permissions:
+    - permission.guilde.creeperelite
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.guilde.zombieelite
+    - permission.choco.usine1
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.slimeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneeelite
+    - permission.tuto
+    group:
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+    options:
+      name: coco8586
+  f27f28cc-486e-4a9d-807b-a0345ecc7863:
+    permissions:
+    - permission.tuto
+    options:
+      name: Trolman12
+  d011d7a7-3feb-43da-8d75-f004212c2d4e:
+    permissions:
+    - permission.tuto
+    options:
+      name: Jupower_YT
+  b8269f9b-85ef-4d1a-8d3c-ff1eecdc8c77:
+    permissions:
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.tuto
+    options:
+      name: Alwette
+  487a9e20-0248-49c5-9b3b-3165c21218e2:
+    permissions:
+    - permission.crb.bovin1
+    - permission.guilde.slimeelite
+    - permission.end.elytres
+    - permission.foin
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.guilde.creeperelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.rig.sommeil
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement1
+    - permission.crb.equipement3
+    - permission.crb.equipement4
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.dimitrianomalie
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.robpecheur
+    - permission.crb.equipement2
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.squeletteelite
+    - permission.tuto
+    options:
+      name: CeaTreon
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  304b4b28-7a23-4df0-adc9-a4775a0ae46c:
+    permissions:
+    - permission.legende.legende1
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: delroam
+  add5c916-dc86-4876-bb40-1ff26000efde:
+    permissions:
+    - gadgetsmenu.hats.hamburger
+    - permission.choco.usine7
+    - permission.boomboom
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.choco.usine6
+    - permission.guilde.araigneeelite
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - automaticinventory.quickdeposit
+    - automaticinventory.sortinventory
+    - automaticinventory.refillstacks
+    - permission.saumonantoine
+    - permission.guilde.slimeelite
+    - permission.guilde.creeperelite
+    - permission.choco.usine3
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - quicksell.sell
+    - permission.choco.usine1
+    - permission.choco.usine2
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: lordgres
+    group:
+    - premium
+    - pretre
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  01fd011b-5335-44cf-9f1a-95a6821dbb0f:
+    permissions:
+    - permission.tuto
+    options:
+      name: '280417'
+  097675ba-8f1e-4ac4-8deb-d1adf03568f9:
+    permissions:
+    - permission.tuto
+    options:
+      name: thorax666
+  82310e8b-363c-4abf-9642-4e6654dde6e9:
+    permissions:
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.dimitrianomalie
+    - permission.choco.usine7
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine1
+    - permission.choco.usine2
+    - permission.guilde.araigneeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.tuto
+    - permission.guilde.slimeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    options:
+      name: Biboun
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  7d5c48c6-8506-4ee1-975b-01c998d9a144:
+    permissions:
+    - permission.saumonantoine
+    - permission.robpecheur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.tuto
+    options:
+      name: Zalcom69
+    group:
+    - moine
+  6cce8726-2b5a-42cc-82a4-7caec70b16fc:
+    permissions:
+    - essentials.workbench
+    - gadgetsmenu.suits.baker.boots
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.boomboom
+    - automaticinventory.sortinventory
+    - automaticinventory.quickdeposit
+    - CustomEnderChest.commands
+    - CustomEnderChest.level.5
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.crb.bovin1
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.guilde.creeperelite
+    - permission.choco.usine7
+    - permission.guilde.araigneeelite
+    - permission.choco.usine6
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement3
+    - permission.crb.equipement4
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.soifsolitaire
+    - permission.dimitrianomalie
+    - permission.guilde.silverfishelite
+    - permission.guilde.slimeelite
+    - permission.rig.sommeil
+    - permission.legende.legende1
+    - permission.legende.legende2
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine1
+    - permission.choco.usine2
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.guilde.endermanelite
+    - permission.tuto
+    options:
+      name: Nimphalix
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  4ea9ba30-a99a-44a0-ace0-8ebc7a66f246:
+    permissions:
+    - permission.nether.portail3
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.guilde.squeletteelite
+    - permission.tuto
+    options:
+      name: MrDiablo74
+  74d158a7-f8f1-4710-b129-308c50410db7:
+    permissions:
+    - permission.nether.portail3
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneeelite
+    - permission.tuto
+    options:
+      name: Mrwilliam79
+  da608207-6108-4452-bb39-c84e7745770b:
+    permissions:
+    - permission.tuto
+    options:
+      name: Gwendelh
+  1603333b-ada4-430c-81f9-91d945abacd1:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail1
+    - permission.nether.portail2
+    - permission.saumonantoine
+    - permission.robpecheur
+    options:
+      name: Allyoria
+  b7536d31-f20e-47b5-89dc-e579e97d0acf:
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+    options:
+      name: LeVraiHappy28
+    permissions:
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.nether.portail1
+    - permission.choco.usine3
+    - permission.choco.usine5
+    - permission.guilde.creeperelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.choco.usine4
+    - permission.tuto
+    - permission.choco.usine2
+    - permission.choco.usine1
+  8137392e-6f9f-4ebf-bd3b-55b931e30224:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.guilde.zombieelite
+    - permission.rig.sommeil
+    - permission.robpecheur
+    - permission.guilde.araigneecaverneelite
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Stymix
+    group:
+    - Pionier
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  63a43ef4-59c5-4238-adcc-1342cafbfe19:
+    permissions:
+    - permission.tuto
+    options:
+      name: Devsnow
+  07b9c029-5bad-457a-8a3a-3fcf45726ce0:
+    permissions:
+    - permission.robpecheur
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: TheMisterBrioche
+  4d277c60-603f-4629-963f-4090ce030643:
+    permissions:
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: caglisse
+  95d09092-40e0-414c-a172-54a0487ab4a3:
+    permissions:
+    - permission.tuto
+    options:
+      name: Eromixo
+  1183155b-96ec-47d9-8700-108f6a453b75:
+    permissions:
+    - permission.tuto
+    options:
+      name: electrass
+  00044c7d-51e7-46c7-b6c9-769b9f75198b:
+    permissions:
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: frorok
+  87c9d867-ff8a-43cf-8a36-28f83b80f26a:
+    permissions:
+    - permission.tuto
+    options:
+      name: RayleiGh15
+  fb01c5f3-f741-4ef3-a73d-674a347046ab:
+    permissions:
+    - permission.tuto
+    options:
+      name: cleminox123
+  71fc6e51-830b-4aea-8bad-b9a5f2608cd5:
+    permissions:
+    - permission.soifsolitaire
+    - permission.guilde.araigneeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.creeperelite
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Dedale10
+  e15c1891-e9fd-47ef-9872-dbcabbc9b66e:
+    permissions:
+    - permission.tuto
+    options:
+      name: vavaloulou6190
+  df2ab04b-9756-44c5-920c-b5b3d5ca1520:
+    permissions:
+    - permission.tuto
+    options:
+      name: tralrune
+  b1cf479b-395b-4fe7-8b4d-a9e1b5af40f7:
+    permissions:
+    - permission.dimitrianomalie
+    - automaticinventory.sortinventory
+    options:
+      name: paulcf
+  226fe3dc-08ec-40da-9cfd-7fd3a046f43e:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.guilde.zombieelite
+    - permission.guilde.slimeelite
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.nether.portail3
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.dimitrianomalie
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.tuto
+    options:
+      name: LVX_Galactik
+    group:
+    - Novice
+    - moine
+  7e1fb860-8203-4625-81d5-036331ac57bf:
+    permissions:
+    - permission.tuto
+    options:
+      name: Naranjay
+  933ab7cf-1c23-4614-86de-1276d91127b9:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Bamboulou
+  56a8da77-e791-47e5-b2fc-42aff955ce7f:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Ashytakas
+  3df000ed-c74c-41d2-9ef5-8feb90be8adc:
+    permissions:
+    - permission.tuto
+    options:
+      name: robert2211
+  308ff94c-9d77-4444-93a1-f637f4d8a335:
+    permissions:
+    - permission.tuto
+    options:
+      name: flavwsop
+  b4692d3b-a578-4f91-acc8-c12770cc9402:
+    permissions:
+    - permission.tuto
+    options:
+      name: SnipedGames
+  041bac9d-8394-4b98-beae-e109dd4c4ad1:
+    permissions:
+    - permission.boomboom
+    - permission.saumonantoine
+    - automaticinventory.sortinventory
+    - automaticinventory.refillstacks
+    - permission.crb.bovin3
+    - permission.crb.bovin2
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.rig.monstre
+    - permission.crb.equipement4
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - permission.end.elytres
+    - ultracosmetics.gadgets.tnt
+    - permission.rig.labo1
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.robpecheur
+    - permission.guilde.zombieelite
+    - permission.guilde.endermanelite
+    - permission.guilde.squeletteelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.choco.usine7
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.soifsolitaire
+    - permission.guilde.silverfishelite
+    - permission.rig.sommeil
+    - permission.dimitrianomalie
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: Saishiro
+    group:
+    - Apprenti
+    - Novice
+    - moine
+  208a7e8d-811c-4a77-9a11-c6e05ac7471c:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.slimeelite
+    - permission.tuto
+    options:
+      name: quenting81
+    group:
+    - moine
+  718c4bd1-d8d2-4d72-abaf-9d74988adf51:
+    permissions:
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail1
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.rig.sommeil
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - ultracosmetics.gadgets.tsunami
+    - permission.guilde.zombieelite
+    - permission.tuto
+    options:
+      name: Cocodino
+    group:
+    - Novice
+    - moine
+  976c1401-9dbb-46c1-a936-e3a0c33f779b:
+    permissions:
+    - permission.tuto
+    options:
+      name: QuentLeLynx
+  81706d3d-8dc0-4578-a098-cad8973f5838:
+    permissions:
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - permission.tuto
+    options:
+      name: Arrow71220
+  6c1b0650-8c44-47e2-918e-d157d2fecd79:
+    permissions:
+    - permission.tuto
+    options:
+      name: Arsenal71
+  8235ad2e-53b4-4a44-92eb-34cf5fff60a3:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.end.elytres
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.tuto
+    options:
+      name: Redkill13
+  f5a5fa1d-7faf-4a84-8279-5da80859e92c:
+    permissions:
+    - permission.tuto
+    options:
+      name: adrichefclan
+  fa65648d-c7cf-4a8f-b6b4-985ad639c941:
+    permissions:
+    - permission.tuto
+    options:
+      name: Yuuubi
+  5c5f982e-e01c-493b-8254-b2ffa4eb6b35:
+    permissions:
+    - gadgetsmenu.hats.letter_q
+    - gadgetsmenu.suits.bumblebee.helmet
+    - gadgetsmenu.hats.chocolatedonut
+    - gadgetsmenu.hats.symbol_exclamation
+    - gadgetsmenu.hats.letter_z
+    - permission.pirate1
+    - permission.boomboom
+    - permission.saumonantoine
+    - gadgetsmenu.hats.chile
+    - gadgetsmenu.gadgets.rocket
+    - gadgetsmenu.suits.vampire.chestplate
+    - gadgetsmenu.pets.babydarkbrownhorse
+    - gadgetsmenu.hats.earth
+    - gadgetsmenu.hats.ocelot
+    - permission.crb.echantements1
+    - gadgetsmenu.hats.number_5
+    - gadgetsmenu.hats.singapore
+    - gadgetsmenu.hats.sad
+    - permission.legende.legende3
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - gadgetsmenu.hats.toaster
+    - gadgetsmenu.hats.diamondstevehead
+    - gadgetsmenu.hats.pokeball
+    - gadgetsmenu.hats.clownfish
+    - permission.crb.cueillette9
+    - gadgetsmenu.suits.ghostly.boots
+    - deluxetags.tag.Slayer
+    - permission.end.dragon
+    - gadgetsmenu.hats.letter_k
+    - gadgetsmenu.hats.bigsmile
+    - gadgetsmenu.hats.mustache
+    - gadgetsmenu.hats.number_9
+    - permission.foin
+    - gadgetsmenu.suits.baker.boots
+    - gadgetsmenu.hats.angel
+    - gadgetsmenu.hats.dead
+    - gadgetsmenu.pets.babycyansheep
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - essentials.workbench
+    - quicksell.sell
+    - automaticinventory.refillstacks
+    - automaticinventory.sortinventory
+    - automaticinventory.quickdeposit
+    - CustomEnderChest.commands
+    - CustomEnderChest.level.5
+    - permission.dimitrianomalie
+    - CustomEnderChest.level.4
+    - CustomEnderChest.level.3
+    - permission.crb.bovin3
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - permission.crb.bovin2
+    - permission.crb.bovin1
+    - permission.robpecheur
+    - permission.soifsolitaire
+    - permission.end.invocation
+    - permission.guilde.creeperelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.choco.usine3
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.guilde.silverfishelite
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.choco.usine7
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: Leo81000
+    group:
+    - pretre
+    - Apprenti
+    - Novice
+    - moine
+  f40e9043-e684-41cc-99c0-bfaad01241aa:
+    permissions:
+    - permission.tuto
+    options:
+      name: Soaen
+  9166d2f0-8688-41aa-a33a-be27863b5068:
+    permissions:
+    - permission.tuto
+    options:
+      name: Antnick
+  9953a22c-bddc-481a-b6ad-19a054d877e3:
+    permissions:
+    - permission.end.elytres
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - CustomEnderChest.commands
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.rig.monstre
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneeelite
+    - permission.rig.sommeil
+    - permission.tuto
+    options:
+      name: Craftermonster
+    group:
+    - Gamma
+    - Beta
+    - Alpha
+    - Initié
+    - Apprenti
+    - Novice
+    - moine
+  7931a84c-a720-4fd2-81e4-d1f98e940307:
+    permissions:
+    - permission.tuto
+    options:
+      name: MathiCubes
+  9f6338ca-0143-47fc-ae13-550d8f092437:
+    permissions:
+    - permission.tuto
+    options:
+      name: Corvusio
+  da6ef080-1ba6-4d48-aa2e-33425d37fd10:
+    permissions:
+    - permission.tuto
+    options:
+      name: lexado
+  30e56f9b-befe-41a8-bf9d-6185a97a1495:
+    permissions:
+    - permission.tuto
+    options:
+      name: 3Dboy
+  d1b12bff-0ade-4ce9-a9ae-92abe9d7878b:
+    permissions:
+    - permission.tuto
+    options:
+      name: BlueFact
+  b04056b0-46fc-402e-88ae-2b7bb7285595:
+    permissions:
+    - CustomEnderChest.level.2
+    - permission.soifsolitaire
+    - permission.pirate1
+    - permission.boomboom
+    - permission.saumonantoine
+    - permission.end.elytres
+    - permission.rig.labo1
+    - permission.rig.monstre
+    - permission.robpecheur
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.rig.sommeil
+    - permission.nether.portail1
+    - permission.choco.usine6
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.dimitrianomalie
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.tuto
+    options:
+      name: Darkmaxoumax
+    group:
+    - Gamma
+    - Beta
+    - Alpha
+    - Novice
+    - moine
+  c5115b59-0968-4880-965d-5750391d2cdd:
+    permissions:
+    - permission.tuto
+    options:
+      name: popo05
+  7090c327-3ad7-40c9-89fa-eeffb5d64d54:
+    permissions:
+    - permission.tuto
+    options:
+      name: ArcHOzZ
+  5e383b3d-f501-4c13-b701-f57fe106ed57:
+    permissions:
+    - permission.tuto
+    options:
+      name: dodu12
+  d302da44-cba3-45a8-b295-85998207189a:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - permission.tuto
+    options:
+      name: ItsVelta
+    group:
+    - Novice
+    - moine
+  3d86d3d1-a84d-4de0-8e39-85088ff0dc89:
+    permissions:
+    - permission.nether.portail1
+    - multiverse.access.Bouquenia_nether
+    - permission.dimitrianomalie
+    - multiverse.access.Bouquenia_the_end
+    - CustomEnderChest.commands
+    - permission.tuto
+    options:
+      name: Erisium_Aeska
+  9f83b8e4-ebd2-497d-bdd1-99f22d5f67a3:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Atto4
+  e293e96c-9b6d-40e3-9cda-85aaf1aadac9:
+    permissions:
+    - permission.guilde.endermanelite
+    - permission.guilde.squeletteelite
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.dimitrianomalie
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.rig.sommeil
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.nether.portail1
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.soifsolitaire
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.tuto
+    options:
+      name: RedyLondon
+  6ccf13e3-1d1d-48f6-991a-573734f4f5be:
+    permissions:
+    - permission.tuto
+    options:
+      name: ItsYami
+  a5d03f65-eed9-43fa-8612-14616377d9f1:
+    permissions:
+    - permission.tuto
+    options:
+      name: Papa_Gamer
+  64fb7c21-e7d2-49c2-9eb5-f22353a39185:
+    permissions:
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.end.elytres
+    - permission.dimitrianomalie
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.tuto
+    options:
+      name: Rilsae
+    group:
+    - Beta
+    - Alpha
+    - moine
+  f7eb40ea-1fc4-40aa-a4dd-aa723e62be94:
+    permissions:
+    - permission.tuto
+    options:
+      name: _BlueGalaxy_
+  178c71b7-59ee-4be8-8fc4-176aae09f9a8:
+    permissions:
+    - permission.tuto
+    options:
+      name: iZaeryn
+  6e8e15ec-5af6-4d87-afc7-cca49718c3c9:
+    permissions:
+    - permission.tuto
+    options:
+      name: loic9000
+  91ec7604-ad18-4045-8840-ecc83b54334f:
+    permissions:
+    - permission.tuto
+    options:
+      name: Black_Panda33
+  caee6759-83bf-42fb-935a-dcb575ad88f3:
+    permissions:
+    - permission.tuto
+    options:
+      name: wiliwilliam
+  a09203e5-8028-4613-90f9-bf3574eadb45:
+    permissions:
+    - permission.tuto
+    options:
+      name: FrugyS5
+  b4ffc041-942e-4526-be8a-6f4e64a8ef75:
+    permissions:
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail1
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.dimitrianomalie
+    - permission.tuto
+    options:
+      name: Dr3eam
+  b708f4c3-1dc1-4175-939e-3e55dddd61a7:
+    permissions:
+    - permission.tuto
+    options:
+      name: vincinerateur
+  fbaa0066-9bf8-4469-9348-51c1ec88f8cd:
+    permissions:
+    - permission.tuto
+    options:
+      name: NG1Thibs
+  079ce012-019e-445f-8db4-ba8312d57ed0:
+    permissions:
+    - permission.tuto
+    options:
+      name: ClayNoxTV
+  1a98dfa6-0446-4e3f-9d2b-78d0e682e514:
+    permissions:
+    - permission.bouquenia.vincent
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.dimitrianomalie
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.tuto
+    options:
+      name: Vulcainos
+  a1d3b612-e01c-4d4b-979c-247752adea1f:
+    permissions:
+    - permission.tuto
+    options:
+      name: Joelicia
+  e9c3808d-cb0c-43d3-a669-e76248682c3b:
+    permissions:
+    - permission.tuto
+    options:
+      name: Uncachaloalo
+  a86054ca-3ae1-4a71-96e4-9ae235d4bad8:
+    permissions:
+    - permission.bouquenia.vincent
+    - deluxetags.tag.metamorphe
+    - permission.end.dragon
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.boomboom
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail2
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail1
+    - permission.saumonantoine
+    - permission.robpecheur
+    - permission.dimitrianomalie
+    - permission.soifsolitaire
+    - permission.foin
+    - permission.tuto
+    options:
+      name: Lapichou_
+    group:
+    - Beta
+    - pretre
+    - Alpha
+    - vicaire
+    - moine
+  513c7cbb-2a0e-47b7-9b7d-2f9ef48c30d6:
+    permissions:
+    - CustomEnderChest.commands
+    - permission.tuto
+    options:
+      name: bob_le_mec
+  9abaf480-d449-4e6e-a79d-52841114c937:
+    permissions:
+    - permission.dimitrianomalie
+    options:
+      name: MrLeCaribouQC
+  675fa202-c25c-4b64-8257-737374d0d494:
+    permissions:
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - multiverse.access.Bouquenia_nether
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement4
+    - permission.crb.equipement3
+    - permission.crb.equipement2
+    - permission.crb.equipement1
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    options:
+      name: SunAnt
+    group:
+    - Alpha
+    - moine
+  8d9b0885-0fef-4a89-a622-a7871128b861:
+    permissions:
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneecaverneelite
+    - permission.choco.usine1
+    - permission.guilde.silverfishelite
+    options:
+      name: Nyosy
+  671aa3e1-8153-4adf-b1f8-d73da9adac2a:
+    permissions:
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    - gadgetsmenu.suits.frog.leggings
+    - gadgetsmenu.morphs.spider
+    - gadgetsmenu.hats.letter_g
+    - gadgetsmenu.morphs.pig
+    - gadgetsmenu.emotes.sleepy
+    options:
+      name: medinzo
+  bfd1db5f-dfc5-4315-ae84-7d1eb3901171:
+    permissions:
+    - automaticinventory.quickdeposit
+    - moretp.delay.bypass
+    - moretp.cooldown.bypass
+    - permission.end.dragon
+    - gadgetsmenu.hats.letter_a
+    - gadgetsmenu.suits.necromancer.leggings
+    - gadgetsmenu.hats.letter_i
+    - gadgetsmenu.particles.happyvillager
+    - automaticinventory.refillstacks
+    - gadgetsmenu.suits.mermaid.chestplate
+    - gadgetsmenu.suits.bumblebee.chestplate
+    - gadgetsmenu.hats.letter_b
+    - gadgetsmenu.hats.england
+    - permission.soifsolitaire
+    - gadgetsmenu.hats.reindeer
+    - CustomEnderChest.level.5
+    - gadgetsmenu.hats.number_5
+    - CustomEnderChest.level.4
+    - automaticinventory.sortinventory
+    - CustomEnderChest.level.3
+    - gadgetsmenu.hats.embarrassed
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - quicksell.sell
+    - essentials.workbench
+    - CustomEnderChest.commands
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - gadgetsmenu.hats.cool
+    - gadgetsmenu.hats.letter_c
+    - permission.legende.legende3
+    - permission.guilde.squeletteelite
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - gadgetsmenu.particles.watersplash
+    - gadgetsmenu.hats.derp
+    - permission.guilde.slimeelite
+    - permission.crb.bovin1
+    - permission.crb.equipe
+    - permission.crb.stagiaire
+    - permission.crb.equipement3
+    - gadgetsmenu.hats.sandwich
+    - gadgetsmenu.hats.horse
+    - permission.crb.equipement4
+    - permission.crb.equipement1
+    - permission.crb.equipement2
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.choco.usine7
+    - permission.choco.usine4
+    - gadgetsmenu.pets.silverfish
+    - gadgetsmenu.suits.necromancer.boots
+    - deluxetags.tag.Barbecue
+    - deluxetags.tag.Keke
+    - deluxetags.tag.Surfer
+    - deluxetags.tag.EvierMetal
+    - deluxetags.tag.Kammthaar
+    - deluxetags.tag.Bronze
+    - deluxetags.tag.Apero
+    - deluxetags.tag.Slammer
+    - deluxetags.tag.MoshPit
+    - deluxetags.tag.CirclePit
+    - deluxetags.tag.Joueur
+    - permission.robpecheur
+    - permission.guilde.araigneecaverneelite
+    - gadgetsmenu.hats.jake
+    - gadgetsmenu.hats.chile
+    - permission.choco.usine6
+    - permission.choco.usine5
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.guilde.silverfishelite
+    - gadgetsmenu.particles.note
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - gadgetsmenu.hats.bigsmile
+    - gadgetsmenu.hats.fox
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.guilde.zombieelite
+    options:
+      name: Hakuryu42
+    group:
+    - Alpha
+    - moine
+  64233615-ec34-4d37-9eb9-cc29a0572e0f:
+    permissions:
+    - gadgetsmenu.particles.crit
+    options:
+      name: alexand33333
+  909e02c3-861d-44b3-a12f-18c8d1fb155e:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    options:
+      name: universcraft11
+  16325664-9977-4ca0-ab9a-86bfabaaedb7:
+    permissions:
+    - gadgetsmenu.hats.number_0
+    options:
+      name: reveur31
+  b8aec013-fc52-4e6e-8676-4848bf8c01f7:
+    permissions:
+    - permission.end.dragon
+    - gadgetsmenu.particles.driplava
+    - gadgetsmenu.hats.letter_x
+    - gadgetsmenu.pets.babywolf
+    - gadgetsmenu.hats.letter_r
+    - CustomEnderChest.level.2
+    - CustomEnderChest.level.1
+    - CustomEnderChest.level.0
+    - permission.bouquenia.vincent
+    - permission.dimitrianomalie
+    - permission.boomboom
+    - permission.robpecheur
+    - gadgetsmenu.hats.unitedstates
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine5
+    - gadgetsmenu.suits.warrior.boots
+    - gadgetsmenu.hats.chocolatedonut
+    - gadgetsmenu.particles.townaura
+    - gadgetsmenu.hats.scared
+    - gadgetsmenu.suits.plumber.boots
+    - gadgetsmenu.hats.mummy
+    - gadgetsmenu.hats.enderman
+    - gadgetsmenu.hats.letter_h
+    - gadgetsmenu.suits.frog.chestplate
+    - permission.end.elytres
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.araigneecaverneelite
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.endermanelite
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail1
+    - permission.nether.portail2
+    - permission.nether.portail3
+    - permission.guilde.silverfishelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.slimeelite
+    - gadgetsmenu.pets.babyyellowsheep
+    - permission.guilde.zombieelite
+    options:
+      name: Tacoj29
+    group:
+    - moine
+  a4be0859-299a-4025-89b4-d6e1e2df37d5:
+    permissions:
+    - gadgetsmenu.hats.shulker
+    options:
+      name: gutidu13
+  8998b656-6e7e-4c7b-bd01-f6600ffdb6c9:
+    permissions:
+    - permission.soifsolitaire
+    - permission.guilde.araigneecaverneelite
+    - permission.saumonantoine
+    - automaticinventory.sortinventory
+    - permission.robpecheur
+    - gadgetsmenu.hats.letter_b
+    - permission.dimitrianomalie
+    options:
+      name: Kiyokuni
+  8bf53407-c690-4917-abeb-416c5735eecd:
+    permissions:
+    - gadgetsmenu.suits.necromancer.boots
+    - permission.guilde.silverfishelite
+    - gadgetsmenu.hats.derp
+    - permission.legende.legende1
+    - permission.guilde.creeperelite
+    - permission.choco.usine1
+    - permission.choco.usine2
+    - permission.choco.usine3
+    - permission.choco.usine4
+    - permission.choco.usine5
+    - permission.choco.usine6
+    - permission.dimitrianomalie
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.zombieelite
+    - gadgetsmenu.emotes.sleepy
+    - gadgetsmenu.suits.thor.chestplate
+    - gadgetsmenu.hats.letter_q
+    - gadgetsmenu.hats.letter_s
+    - gadgetsmenu.emotes.surprised
+    - automaticinventory.sortinventory
+    - gadgetsmenu.suits.disco.chestplate
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - gadgetsmenu.hats.symbol_exclamation
+    - gadgetsmenu.suits.plumber.boots
+    - permission.bouquenia.vincent
+    - permission.nether.portail1
+    - gadgetsmenu.particles.instantspell
+    - gadgetsmenu.hats.letter_x
+    - gadgetsmenu.pets.babywolf
+    - gadgetsmenu.suits.icewalker.boots
+    - gadgetsmenu.hats.whitewizard
+    options:
+      name: Fragwalker
+  736657f4-f58c-43e6-b9e4-b066975640a1:
+    permissions:
+    - gadgetsmenu.emotes.surprised
+    options:
+      name: benji45800
+  994f1662-f07d-4bf2-b253-ab109118f64e:
+    permissions:
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.endermanelite
+    - permission.guilde.slimeelite
+    - permission.dimitrianomalie
+    - permission.guilde.zombieelite
+    - gadgetsmenu.pets.babylimesheep
+    options:
+      name: redquarry
+  3a3bd897-90ba-4d7c-b3e0-cca33cb05baa:
+    permissions:
+    - automaticinventory.refillstacks
+    - automaticinventory.quickdeposit
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.slimeelite
+    - gadgetsmenu.particles.crit
+    - essentials.workbench
+    - CustomEnderChest.commands
+    - permission.end.dragon
+    - gadgetsmenu.hats.diamondstevehead
+    - permission.end.invocation
+    - permission.end.portal
+    - multiverse.access.Bouquenia_the_end
+    - group.end
+    - permission.end.relique
+    - essentials.build.interact.120:*
+    - permission.choco.usine1
+    - gadgetsmenu.hats.netherlands
+    - permission.crb.gold
+    - permission.legende.legende2
+    - permission.legende.legende1
+    - permission.dimitrianomalie
+    - gadgetsmenu.pets.greenlittlehelper
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - gadgetsmenu.hats.number_3
+    - gadgetsmenu.hats.symbol_question
+    - gadgetsmenu.suits.speedster.chestplate
+    options:
+      name: DiamantRuisseau
+    group:
+    - Youtube
+    - moine
+  00e7932b-cc81-49a2-bc46-f12524be1768:
+    permissions:
+    - permission.dimitrianomalie
+    options:
+      name: Priscillouu
+  '[player]':
+    group:
+    - Sigma
+    - Delta
+    - Gamma
+    - Alpha
+    - moine
+    - Omega
+    - Beta
+  9d850a3d-7302-4121-8fb6-eba38de65012:
+    permissions:
+    - permission.dimitrianomalie
+    - permission.guilde.araigneeelite
+    - permission.guilde.zombieelite
+    - gadgetsmenu.particles.spell
+    - gadgetsmenu.particles.watersplash
+    options:
+      name: Maitre_Cube
+  af865f9c-03ac-4514-a046-de460e8e4ca8:
+    permissions:
+    - gadgetsmenu.hats.snowglobe
+    - gadgetsmenu.hats.jake
+    options:
+      name: Xilili
+  5425e773-03a3-4280-aaa2-384014f9f29b:
+    permissions:
+    - gadgetsmenu.hats.scarecrow
+    options:
+      name: Xoseur
+  2b9eda4b-ba6b-49f7-9e67-41e67451aa7f:
+    permissions:
+    - permission.guilde.araigneeelite
+    - permission.guilde.squeletteelite
+    - multiverse.access.Bouquenia_the_end
+    - scs.create.display
+    - permission.soifsolitaire
+    - permission.guilde.endermanelite
+    - permission.guilde.araigneecaverneelite
+    - ultracosmetics.gadgets.partypopper
+    - CustomEnderChest.commands
+    - permission.guilde.zombieelite
+    - permission.choco.usine1
+    - automaticinventory.sortinventory
+    - permission.guilde.slimeelite
+    - permission.guilde.silverfishelite
+    options:
+      name: Flamingo_Tv
+  ff4e260d-c2c9-459b-9ed3-743c65c555d8:
+    permissions:
+    - permission.guilde.creeperelite
+    - permission.dimitrianomalie
+    - multiverse.access.Bouquenia_nether
+    - permission.nether.portail5
+    - permission.nether.portail4
+    - deluxetags.tag.Aumonier
+    - permission.nether.portail3
+    - permission.nether.portail2
+    - permission.nether.portail1
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.zombieelite
+    - permission.guilde.squeletteelite
+    options:
+      name: Ekute
+    group:
+    - pretre
+    - moine
+    - moines
+  8a3d0299-857e-4f22-aba6-80d84083302e:
+    permissions:
+    - permission.guilde.araigneecaverneelite
+    - permission.guilde.silverfishelite
+    - permission.guilde.zombieelite
+    - permission.choco.usine1
+    - automaticinventory.sortinventory
+    options:
+      name: jeedbelg
+  a1446a4d-e7e7-4529-a475-a515989de9e5:
+    permissions:
+    - permission.choco.usine1
+    - permission.choco.usine2
+    options:
+      name: Medialo
+  ae45327a-ae65-40d0-afce-5048fe1c1341:
+    permissions:
+    - permission.guilde.zombieelite
+    - permission.guilde.araigneeelite
+    options:
+      name: babychicken16
+  5fccf88c-d44f-44a7-b6c2-0d1ad59d0923:
+    permissions:
+    - permission.nether.portail1
+    options:
+      name: getloidxy
+  44531ee3-9d04-4f5b-bace-5dd6b31aeb21:
+    permissions:
+    - permission.choco.usine5
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.guilde.squeletteelite
+    - permission.guilde.silverfishelite
+    - CustomEnderChest.commands
+    - permission.guilde.slimeelite
+    - permission.guilde.araigneeelite
+    - permission.guilde.creeperelite
+    - permission.guilde.zombieelite
+    options:
+      name: Natolu24
+  00f068c0-62b8-4d11-9d48-a36edf80bf26:
+    group:
+    - moine
+    - vicaire
+    options:
+      name: DaYZn
+  75b52ef3-5f04-4764-8b43-54c09269c9cd:
+    permissions:
+    - permission.guilde.slimeelite
+    - gadgetsmenu.hats.symbol_poundkey
+    - gadgetsmenu.gadgets.kookiefountain
+    - permission.guilde.silverfishelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.zombieelite
+    options:
+      name: ZanGuevara
+  1afdd128-0b4e-4d08-95ee-3e66af792a06:
+    permissions:
+    - libsdisguises.disguise.polar_bear
+    - libsdisguises.disguise.squid
+    - libsdisguises.disguise.ocelot
+    - libsdisguises.disguise.mushroom_cow
+    - libsdisguises.disguise.wolf
+    - libsdisguises.disguise.bat
+    options:
+      name: SravehOG
+schema-version: 1

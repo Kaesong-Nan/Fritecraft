@@ -1,0 +1,70 @@
+id: 20
+category: 13
+cooldown: -60000
+name: Le Collier III
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: INK_SACK
+  damage: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Le Collier III
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lPaquet doré §r
+      lore:
+      - '§7Contient:'
+      - §7- Nourriture aléatoires
+      - §7- 3 Infusions d'ichor
+      - §7- 1 Contrat de claim
+      - §7- 3 Clés divines
+      - §7- 5 Cristaux
+      - §7- 1 Sac Enchanté
+      - §7- 1 Lingot Illustre
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+parent: 13-C19
+uniqueId: cc556076-a578-47d7-80c3-0a32790c3fb1
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+parentId: cc9fcacb-6c07-4921-bb93-c207d776377b
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dCollier de diamant §r
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: '&dPhilippe'
+  timeframe: 0
+  questId: cc556076-a578-47d7-80c3-0a32790c3fb1
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 03544714-4f4f-4491-a197-140cb91a7636
+  entity: PLAYER
+  custom_int: 19
+  exclude-spawners: false

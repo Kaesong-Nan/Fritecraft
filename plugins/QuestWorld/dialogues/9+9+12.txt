@@ -1,0 +1,17 @@
+&a<José>&f: Oh !
+&a<José>&f: Mon armure !
+&a<José>&f: Elle a été transmise dans ma famille de père en fils depuis des générations !
+&a<José>&f: Non je plaisante, mais je l'aimais bien.
+&a<José>&f: Ah, ça fait du bien d'avoir les mains dessus ...
+&a<José>&f: Ca n'a pas été trop difficile à trouvers j'espère ?
+&a<José>&f: Ah bon ? Au fond du tunnel ?
+&a<José>&f: Je l'avais retiré, car elle me faisait couler.
+&a<José>&f: Mais apparemment ils n'ont pas prit la peine de la récuperer quand ils ont repéché mon corps ...
+&a<José>&f: Peut-être qu'ils ne sont pas allé jusqu'au bout ?
+&a<José>&f: Et tu n'aurais pas trouvé ma pioche par hasard ?
+&a<José>&f: Une jolie pioche en diamant, avec des super enchantements et tout ?
+&a<José>&f: Hmm ...
+&a<José>&f: A mon avis, ils ont dû la garder ...
+&a<José>&f: En vrai, elle appartenait un peu à la compagnie minière, mais comme il n'y a que moi qui l'utilisais, c'était un peu la mienne quand même ...
+&a<José>&f: Tu penses que tu arriverais à la retrouver pour moi ?
+&7&l>> &eConvaincre le contre-maitre de céder la pioche.

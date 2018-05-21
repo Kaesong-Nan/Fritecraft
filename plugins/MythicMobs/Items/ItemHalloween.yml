@@ -1,0 +1,8 @@
+CandyCorn:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CARROT_ITEM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eBonbon de maïs §r

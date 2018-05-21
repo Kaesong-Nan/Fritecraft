@@ -1,0 +1,23 @@
+SpawnTNT:
+  Skills:
+  - randommessage
+    {
+    m=
+    "&c<mob.name>&f<&co> &7Trololo !",
+    "&c<mob.name>&f<&co> &7Prout !",
+    "&c<mob.name>&f<&co> &7Tnt lol",
+    "&c<mob.name>&f<&co> &7Ce serveur est nul !",
+    "&c<mob.name>&f<&co> &7Yolo",
+    "&c<mob.name>&f<&co> &7Comen on devien op";
+    } @PIR{r=20}
+  - summon{mob=TNTgrief;amount=1;noise=1} @SelfLocation
+  - delay 30
+  - sound{s=entity.witch.ambient;v=2} @Self
+  - teleport{spreadh=16;spreadv=1} @self
+
+TNTSpawner:
+  Skills:
+  - summon{mob=PRIMED_TNT;amount=1;noise=1} @Origin
+  - delay 80
+  - explosion{yield=8} @Self
+  - remove @Self

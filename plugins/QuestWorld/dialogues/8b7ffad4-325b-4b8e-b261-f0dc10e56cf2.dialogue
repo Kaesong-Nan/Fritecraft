@@ -1,0 +1,12 @@
+&a<Zajonc> &f: Ha, je l'avais dit !
+&a<Zajonc> &f: Il y a bien un effet de l'environnement sur les champignons !
+&a<Zajonc> &f: Il y avait une production normale pour l'environnement neutre,
+&a<Zajonc> &f: Et cette production peut être améliorée avec un environnement enrichi,
+&a<Zajonc> &f: Ou apauvrie avec un environnement stressant.
+&a<Zajonc> &f: Très intéressant.
+&a<Zajonc> &f: Merci pour m'avoir apporté de quoi construire ces environnements d'ailleurs.
+&a<Zajonc> &f: Mais je pense que notre recherche peut aller plus loin que ça.
+&a<Zajonc> &f: J'aimerai notamment voir les effets de la redstone sur la vache.
+&a<Zajonc> &f: En attendant, je vais remettre l'environnement de base.
+&a<Zajonc> &f: On va être innondé de champignon sinon ...
+/fill 609 71 910 614 71 905 minecraft:dirt 2

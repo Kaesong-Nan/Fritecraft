@@ -1,0 +1,140 @@
+id: 9
+category: 15
+cooldown: -60000
+name: '&6Jack la Terreur'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Jack O'Lantern
+    lore:
+    - §8Plants
+    - §8Halloween, §8Illumination, §8Pumpkin
+    internal: H4sIAAAAAAAAAE2Oy2qDQBiF/xYKVvoY3QpzUYPLtAYyEk0042XcGR1RM6bBaKk+Ux+yLnt2h+98cHQAHd7O10mp0/BVt0pq8MwqeEcmMp3SQUZFpWOYNsGGUxa1gdYURYEJsTY66Kt0l8PYyscraKP8GadBPnQAeNLgJSnUJOFXzh7KswZVmafKmdlr52ekjqy7b9gtmS+fzGb9yvdb+zA7/7bWWKSWEtRr8ls4XfoEHWik5D7CZR9/C8LI0RU473dUcK/xeUkDfqXBEi6ij2d/2S65K0zRRyrnYgm6jyZPd/ORh1gsIfXT0PS7GAviqcAVbZ1hZ30Of/vnw0gUAQAA
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 94291053-90ea-4315-a937-55c53ce46010
+categoryId: 77860246-f4f8-4383-895f-c51db047253c
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Brigitte
+  timeframe: 0
+  questId: 94291053-90ea-4315-a937-55c53ce46010
+  reset-on-death: false
+  display-name: Parler à Jack
+  location:
+    world: Bouquenia
+    x: 1309.0
+    y: 72.0
+    z: 1072.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0189c48d-bf3a-4dee-995b-3d9bbf60398b
+  entity: PLAYER
+  custom_int: 638
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      color:
+        ==: Color
+        RED: 29
+        BLUE: 33
+        GREEN: 29
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: 94291053-90ea-4315-a937-55c53ce46010
+  reset-on-death: false
+  display-name: Porter des bottes noires
+  location:
+    world: Bouquenia
+    x: 1376.0
+    y: 64.0
+    z: 1028.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 12f770b1-2de5-4463-b989-6811ede30191
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      color:
+        ==: Color
+        RED: 29
+        BLUE: 33
+        GREEN: 29
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: DETECT
+  custom_string: ''
+  timeframe: 0
+  questId: 94291053-90ea-4315-a937-55c53ce46010
+  reset-on-death: false
+  display-name: Porter un pantalon noir
+  location:
+    world: Bouquenia
+    x: 1369.0
+    y: 64.0
+    z: 1027.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b269efcc-7998-465b-a652-6a6c8acfcab2
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: 94291053-90ea-4315-a937-55c53ce46010
+  reset-on-death: false
+  display-name: Parler à Jack
+  location:
+    world: Bouquenia
+    x: 1372.0
+    y: 55.0
+    z: 1022.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e8b82c1b-1b4e-4b71-ba69-dac0a9609c66
+  entity: PLAYER
+  custom_int: 638
+  exclude-spawners: false

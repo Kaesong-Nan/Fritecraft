@@ -1,0 +1,37 @@
+'&6Enderman_Elite':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    BonusAmount: 6
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 3
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      damage: 67
+      amount: 3
+    Probability: 100.0
+  - ==: Experience
+    Lower: 1
+    Probability: 100.0
+    Upper: 1
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 100.0
+  Name: '&6Enderman_Elite'
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

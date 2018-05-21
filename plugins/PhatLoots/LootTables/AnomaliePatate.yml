@@ -1,0 +1,24 @@
+AnomaliePatate:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTATO_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aPatate de 500g
+        enchants:
+          ARROW_INFINITE: 10
+    Probability: 100.0
+  Name: AnomaliePatate
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

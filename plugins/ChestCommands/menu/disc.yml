@@ -1,0 +1,152 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&b&lJUKEBOX'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'jukebox'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+13:
+  NAME: '&b&l13'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.13 record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Musique d''ambience dérangeante,'
+    - 'composée de bruits de cavernes et de vents.'
+  ID: 2256
+  POSITION-X: 2
+  POSITION-Y: 1
+
+cat:
+  NAME: '&b&lCat'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.cat record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Mélodie rythmée et synthétique'
+  ID: 2257
+  POSITION-X: 4
+  POSITION-Y: 1
+
+blocks:
+  NAME: '&b&lBlocks'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.blocks record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Morceau rythmé et entrainant'
+  ID: 2258
+  POSITION-X: 6
+  POSITION-Y: 1
+
+chirp:
+  NAME: '&b&lChirp'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.chirp record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Mélodie rythmé et retro'
+  ID: 2259
+  POSITION-X: 8
+  POSITION-Y: 1
+
+far:
+  NAME: '&b&lFar'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.far record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Musique calme et relaxante'
+  ID: 2260
+  POSITION-X: 2
+  POSITION-Y: 3
+
+mall:
+  NAME: '&b&lMall'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.mall record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Morceau de musique douce'
+  ID: 2261
+  POSITION-X: 4
+  POSITION-Y: 3
+
+mellohi:
+  NAME: '&b&lMellohi'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.mellohi record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Valse lente et mélancolique'
+  ID: 2262
+  POSITION-X: 6
+  POSITION-Y: 3
+
+strad:
+  NAME: '&b&lStrad'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.strad record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Une musique synthétique tropicale'
+  ID: 2264
+  POSITION-X: 8
+  POSITION-Y: 3
+
+stal:
+  NAME: '&b&lStal'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.stal record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Un morceau un peu jazz'
+  ID: 2263
+  POSITION-X: 2
+  POSITION-Y: 5
+
+wait:
+  NAME: '&b&lWait'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.wait record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Chanson optimiste et relaxante'
+  ID: 2267
+  POSITION-X: 4
+  POSITION-Y: 5
+
+ward:
+  NAME: '&b&lWard'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.ward record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Introduction funeste suivie d''un morceau'
+    - 'électronique rythmée d''exploration et d''aventure'
+    - 'avec une ambiance sombre, grave, et angoissée'
+  ID: 2265
+  POSITION-X: 6
+  POSITION-Y: 5
+
+11:
+  NAME: '&b&k11111'
+  COMMAND: 'op: stopsound @a[r=50] record; op: playsound record.11 record @a[r=30] ~ ~ ~ 1.0'
+  LORE:
+    - 'Une musique apaisante et sereine,'
+    - 'avec des notes paisibles et douces.'
+  ID: 2266
+  POSITION-X: 8
+  POSITION-Y: 5

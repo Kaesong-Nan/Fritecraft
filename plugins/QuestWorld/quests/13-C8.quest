@@ -1,0 +1,57 @@
+id: 13
+category: 8
+cooldown: 43200000
+name: '&fBetteraves'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: BEETROOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fBetteraves
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 7
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 165c0676-247c-429b-92b7-818a9eeae75b
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEETROOT
+  amount: 128
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 165c0676-247c-429b-92b7-818a9eeae75b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 54ab6dda-87bb-4dc8-805f-9b01081adf19
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

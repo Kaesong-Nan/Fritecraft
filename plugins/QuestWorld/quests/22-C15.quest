@@ -1,0 +1,32 @@
+uniqueId: c760635a-759d-4294-8324-8641541b170c
+categoryId: 77860246-f4f8-4383-895f-c51db047253c
+id: 22
+category: 15
+cooldown: -1
+name: '&5&lElytres'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Chorus Flower
+    lore:
+    - §8Plants
+    - §8Vanilla, §8End
+    - §8ID:§7 1942
+    internal: H4sIAAAAAAAAAE2PQU+DMBzF/5qYIPFjeCUpFDA9eFAzs5K1c6xjlBuDkgHtXBio8Ln8gLKb7/bL+73DswFseNi2g9Yf3WdVa2XBLS3hEfnIJwVBTokVcfzQcx1S5JWDrsnz3CW+Z4M9j86q62t1uQerVz/90KmLDQA3FtwluR4U/KoxQll6RGUa6WKk4cxii/SaNucnekrGwxsNqZn75Uu4Gsk/N+jzfaAljo7ZaTMcTIJWONZqGbuF2X2tRaRlw76leK0zwVvuMZyJhccMw9zsMDOLSU5xI6cNYg2duJCYCTlK0SImCpc1V+ddc8ObbE8DbpjP64hUKXqeH8Afp04YoBwBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

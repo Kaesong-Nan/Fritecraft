@@ -1,0 +1,78 @@
+id: 42
+category: 7
+cooldown: -60000
+name: Cueillette VII
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Flowerpot (Yellow)
+    lore:
+    - §8Decoration
+    - §8ID:§7 14678
+    internal: H4sIAAAAAAAAAE2PzW6CQBzE/23ShJI+Rq8kCyxYDh6aQnCJQEU+XG4Ii4gLNQrK+lx9wHLsnGbymzmMDCDD2/Y0cv59+amPnEnwTCp4Rxhhq7SQUunMUrCpqYpVFrWCZhVFoWJz8SGDPI/O7DIc2fUVpIFNw3hhVxkAniR4SQs+MvhlwkP5rkHVzuOlIOac4y3iIWnPC9KnYv9FTNLNfPVproX1r2sMRWZwqntN3m/GfZeitR5xtorUsktufka00Pan0D5gGlMcaA4O7ESlj8N99iKMk4m2ieHbpfC1qAnc/OQ/HJS3yT2weefbVASuM+Uu1fLMa4PWa0mvWvVmuZwfwB9i/w+CHAEAAA==
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: e6464ff5-6a47-47b2-b4cd-8a4f0d825120
+categoryId: 37b2dd98-2b91-42b9-8ee8-da8e3488a4eb
+parentId: b52b98dd-063f-4387-9c6f-3042a3532a72
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: e6464ff5-6a47-47b2-b4cd-8a4f0d825120
+  reset-on-death: false
+  display-name: Cueillette VII
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1bb91c0c-10df-45d4-b43d-06467c0f7e70
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: YELLOW_FLOWER
+  amount: 1
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Lazarus
+  timeframe: 0
+  questId: e6464ff5-6a47-47b2-b4cd-8a4f0d825120
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 601.0
+    y: 72.0
+    z: 882.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 29461b45-f2c6-45c6-96ae-c8d188f54621
+  entity: PLAYER
+  custom_int: 32
+  exclude-spawners: false

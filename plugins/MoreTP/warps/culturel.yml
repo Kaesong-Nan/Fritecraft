@@ -1,0 +1,19 @@
+name: culturel
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation du Centre Culturel &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dTutoriels Quêtes'
+- '&dQuêtes où il faut un livre'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: BOOK_AND_QUILL
+data: 0
+location: Bouquenia<>424.88058996917505<>70.0<>801.9521227841022<>0.32540464<>-89.51489
+slot: 24

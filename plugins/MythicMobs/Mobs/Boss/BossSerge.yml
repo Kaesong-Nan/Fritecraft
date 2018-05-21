@@ -1,0 +1,115 @@
+Serge:
+  Type: STRAY
+  Display: '&9&lSerge'
+  Health: 2000
+  Armor: 0
+  BossBar:
+    Enabled: true
+    Title: '&9&lSerge'
+    Range: 20
+    Color: BLUE
+    Style: SOLID
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  KillMessages:
+  - '<target.name> a été tué par Serge'
+  DamageModifiers:
+  - DROWNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE .25
+  - POISON 10
+  - MAGIC 6
+  Skills:
+  # - effect:particles{particle=dragonbreath;amount=10;hs=1;vs=1} @self ~onTimer:5
+  # - effect:sound{s=entity.zombie.ambient;v=5.0;p=0.1} @Self ~onSpawn
+  # - effect:sound{s=entity.zombie.hurt;v=2.0;p=0.1} =1%-100% @Self ~onDamaged
+  # - effect:sound{s=entity.enderdragon.growl;v=4;p=0.1} @Self ~onDeath
+  - effect:sound{s=entity.wither.spawn;volume=1;p=1} @PIR{r=50} ~onSpawn
+  - effect:sound{s=entity.player.hurt;v=2;p=0.5} @Self ~onDeath
+  - effect:sound{s=block.stone.break;volume=2;p=1} @Self ~onDeath
+  - effect:itemspray{item=redstone;duration=100;a=5;force=1} @Self ~onDeath
+  - effect:itemspray{item=pork;duration=100;a=5;force=1} @Self ~onDeath
+  - effect:itemspray{item=bone;duration=100;a=5;force=1} @Self ~onDeath
+  - effect:itemspray{item=red_rose;duration=100;a=5;force=1} @Self ~onDeath
+  - effect:itemspray{item=gold_nugget;duration=100;a=5;force=1} @Self ~onDeath
+  # - leap{velocity=75;noise=25} @Self ~onDamaged 0.25
+
+  - healpercent{m=0.2} @self ~onKillPlayer
+  - skill{s=PrisonGlace} @PIR{r=20} ~onTimer:400
+  # - skill{s=TotemGlace} @TargetLocation ~onTimer:200
+
+  - skill{s=ThealICESTATEEffect} @Self ~onTimer:10
+  - skill{s=ThealICESTATEAura} @self ~onTimer:10
+  - skill{s=ThealICESTATEShot} @target ~onTimer:60
+  - skill{s=ThealICESTATEFrostPoolSummon} @self ~onDamaged 0.3
+  - skill{s=SergeSliverfish} @Self ~onDamaged 0.1
+
+  - heal{a=3} @Self ~onAttack
+  - effect:sound{s=entity.villager.ambient;volume=1;p=0.5} @Self ~onTimer:200 1
+  - effect:sound{s=entity.villager.hurt;v=0.5;p=0.5} @Self ~onDamaged
+  Damage: 10
+  Equipment:
+  - Stalactite:0
+  Drops:
+  - BagSerge
+  AITargetSelectors:
+  - 0 clear
+  - 1 Players
+  - 2 Attacker
+  AIGoalSelectors:
+  - 0 clear
+  - 1 MeleeAttack
+  - 2 LookAtPlayers
+  - 3 Float
+  Options:
+    Silent: true
+    Despawn: false
+    FollowRange: 30
+    AlwaysShowName: true
+    MovementSpeed: 0.0
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+    PreventMobKillDrops: false
+    Persistent: true
+    PreventRenaming: true
+    NoDamageTicks: 10
+
+
+
+FrostPool:
+  MobType: creeper
+  Display: '&bPuit de Gel'
+  Health: 20
+  Damage: 0
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - MAGIC 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  KillMessages:
+  - '<target.name> a été transformé en glaçon par &bPuit de Gel'
+  - '<target.name> a été congelé par &bPuit de Gel'
+  Skills:
+  - skill{s=AntiKB} @Self ~onDamaged
+  - effect:particles{p=splash;a=20;vs=1;hs=0.5;Speed=1;yOffset=1} @Self ~onTimer:10 1
+  - effect:particles{p=snowballpoof;a=20;vs=1;hs=0.5;Speed=0;yOffset=1} @Self ~onTimer:10 1
+  - skill{s=MaxInvis} @self ~onSpawn
+  - skill{s=FrostAuraStart} @Self ~onSpawn
+  Options:
+    KnockbackResistance: 1
+    Silent: true
+    NoAI: true

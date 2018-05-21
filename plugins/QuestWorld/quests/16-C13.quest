@@ -1,0 +1,83 @@
+id: 16
+category: 13
+cooldown: -60000
+name: Le pouvoir du savoir
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: EGG
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Le pouvoir du savoir
+    lore:
+    - Un des cinq oeufs sacrés pondus par Poulard. Ils sont très fragiles.
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 64
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parent: 13-C8
+uniqueId: 71cca2d7-fa5a-42bd-8978-19177a0834cb
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+parentId: 165c0676-247c-429b-92b7-818a9eeae75b
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dOeuf Sacré de Poulard
+      lore:
+      - §fL'un des 5 oeufs sacrés de Poulard
+      - §fIl est très fragile.
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJv6scPDRC4hpZqgLrcoN1DdBFDULr8lx9wHLscTIzOoAOb4evQcrP7nqupdDgGZ/gvZw7JUL+2bDmnBsuR4XhW8I10IL79sL1rAW3ddCn6Sa6vhb3GWi9ePRDJ+46ADxp8JoVchDwK9TGzI+VeTpuJFcYTZwcTBnj5jbHl0yVK4xwO/n1B9oq/1/r9QX1JHM2VX7ZDWWbmVtnL8V6b/E2/SYJU3GQjhHNakLZz8ReTvdVnoQ2G6uKBESyBqucZk3enJooSVU0ZnUcRBaj6YMEoclGbMeUVHkQKmaHDr5Y/nm3XAJo8EKKVsBsdVhdO7GtS4A/oJkYci4BAAA=
+      skull-owner: CSCoreLib
+  amount: 5
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Moine Kami
+  timeframe: 0
+  questId: 71cca2d7-fa5a-42bd-8978-19177a0834cb
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -748.0
+    y: 76.0
+    z: 1717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 9b07e835-0620-49f6-bb53-d265213f9bf9
+  entity: PLAYER
+  custom_int: 156
+  exclude-spawners: false

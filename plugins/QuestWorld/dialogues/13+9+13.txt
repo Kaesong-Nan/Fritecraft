@@ -1,0 +1,3 @@
+*Vous sortez un feutre et changez le nom et la description de cet oeuf.*
+/give <player> egg 1 0 {display:{Name:"Euf sacré 2 Poulare",Lore:[1 d 5 euf sacré pondu par poulare. il son tré frajile.]}}
+*Cette contrefaçon est grotesque. Il n'y a plus qu'à espererer que la vieille Michelle soit bigleuse."

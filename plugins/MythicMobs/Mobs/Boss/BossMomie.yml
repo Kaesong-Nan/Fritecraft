@@ -1,0 +1,85 @@
+Imhotep:
+  Type: ZOMBIE
+  Equipment:
+  - 0:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - air:0
+  Damage: 10
+  Health: 2000
+  Display: '&e&lImhotep'
+  Disguise:
+    Type: player
+    Skin: 'Mummy'
+    Player: '&e&lImhotep'
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Options:
+    Collidable: false
+    PreventOtherDrops: true
+    KnockbackResistance: 5.0
+    Despawn: false
+    MovementSpeed: 0.03
+  BossBar:
+    Enabled: true
+    Title: '&e&lImhotep'
+    Range: 40
+    Color: YELLOW
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  Modules:
+    ThreatTable: true
+  KillMessages:
+  - '<target.name> est mort contre &eImhotep'
+  - '<target.name> a été vaincu par &eImhotep'
+  - '&eImhotep &fa tué <target.name>'
+  Drops:
+  - BagImhotep
+  DamageModifiers:
+  - DROWNING 0
+  - ENTITY_EXPLOSION 0
+  - LAVA 0
+  - FALL 0
+  - PROJECTILE .25
+  - POISON 2
+  - MAGIC 4
+  - LIGHTNING 0
+  Skills:
+  - effect:particles{p=reddust;color=#20262c;a=5;hs=0.5;vs=1} @Self ~onTimer:5
+  - potion{t=FIRE_RESISTANCE;d=9999999;l=1} @Self ~onSpawn 1
+  - skill{s=Sandstorm2} @Self ~onTimer:300
+  - skill{s=MobHealth2} ~onDamaged >0 1
+  # - heal{amount=1} @self ~onTimer:40
+  # - skill{s=Bat2} ~onDamaged .25
+  - skill{s=Egypt2} ~onDamaged .1
+  # - skill{s=SummonRat} ~onDamaged .1
+  # - skill{s=Wrath} ~onDamaged 1 =80%
+  # - skill{s=Wrath} ~onDamaged 1 =60%
+  # - skill{s=Wrath} ~onDamaged 1 =40%
+  # - skill{s=Wrath} ~onDamaged 1 =20%
+  - skill{s=FeedMomie} ~onTimer:10
+  - healpercent{m=0.3} @self ~onKillPlayer
+  - message{msg="<mob.name> &3a été battu par <trigger.name>!"} @PlayersOnServer ~onDeath
+
+MummyBat:
+  Type: BAT
+  Health: 500
+  Options:
+    Collidable: false
+    PreventOtherDrops: true
+  Skills:
+  - potion{t=FIRE_RESISTANCE;d=9999999;l=1} @Self ~onSpawn 1
+  - skill{s=ExplodeBat2} ~onSpawn 1
+
+Rat:
+  Type: SILVERFISH
+  Health: 1
+  Options:
+    Collidable: false
+    PreventOtherDrops: true
+  Skills:
+  - skill{s=ExplodeRat} ~onSpawn 1

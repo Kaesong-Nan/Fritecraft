@@ -1,0 +1,19 @@
+name: Creeper
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Creepers'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: SULPHUR
+data: 0
+location: HUB<>864.6967570733333<>136.5048375018824<>-419.736819321119<>1.238586<>-1.9469056
+slot: 48

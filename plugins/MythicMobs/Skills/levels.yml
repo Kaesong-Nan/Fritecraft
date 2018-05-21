@@ -1,0 +1,18 @@
+level1:
+  Skills:
+  - setlevel{a=set;l=1}
+level2:
+  Skills:
+  - setlevel{a=set;l=2}
+level3:
+  Skills:
+  - setlevel{a=set;l=3}
+leve4:
+  Skills:
+  - setlevel{a=set;l=4}
+level5:
+  Skills:
+  - setlevel{a=set;l=5}
+level6:
+  Skills:
+  - setlevel{a=set;l=6}

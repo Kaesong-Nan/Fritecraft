@@ -1,0 +1,60 @@
+id: 19
+category: 4
+cooldown: -1
+name: '&6&lPotoroo, Prêtre de Fritegirl'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §6§lPotoroo, Prêtre de Fritegirl
+    internal: H4sIAAAAAAAAAE1Py27iMAB0q12JRvsZe0Wy86Bw6IFCGhxhp6EmJr7F2CgmDlSEFJKvb3rrYTSHeWjGAcAB/z6q1tr3y/lgrB6BR6zA/+dnJaeB8sYzD+3HvgyKcQELOFbIPUjtK+1PZw5whtCnvlyNbp7A6Krv1/aiGwcA8DACf7PCtvrB110MC47s3tuUcjc3yTFEZDm/U7Z1KZvfEzZv8Om1k674lFEWiwWe4JpAsax6ylKYuylK2IBIlIQTRDj2kmXqizoucxe72NzMfhV/ido2YhuUkm9NYmIueACll01+dBVlvlplndgRk5was4XXmBk8GbahfX378Z/VanNLzPTrl7eV3LaC0y7nAq7rwKrFDIpdCdUutus+vFMeurTf2PyIfbIszfBpYGEExy49Vogc36q8z7u8Dm+EhVDUqSeijaX9m6WMWhKR4V9mCKuGHmvxCc0O6csLACPwhxa1Bk+Lj8X5otdGAvANxCp4vq4BAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE1MDAxNTU2NTAxOTAsInByb2ZpbGVJZCI6ImM0ZDkzNTQ0Y2Q1OTQ1OGZhMWM1MWI3ODQ4ZmJhY2I2IiwicHJvZmlsZU5hbWUiOiJWZW50b3V6IiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExNWE2NzRlYjI4MDhiNTU4MDZiZWI2Njk1MjFkYzYyYmEwMTE0ZmQ3ZGRlNzFlNTNlMGM0Y2ViMTk2NzllIn19fQ==
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 8449b53b-007b-4d80-8d66-b55b8ee7fcda
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 8449b53b-007b-4d80-8d66-b55b8ee7fcda
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 413.0
+    y: 73.0
+    z: 988.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 6cc1eeb7-c63f-4eb8-99e2-410fd199b26d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

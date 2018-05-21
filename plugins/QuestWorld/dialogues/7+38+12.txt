@@ -1,0 +1,6 @@
+§9<Penfield> §f: Est-ce que j'ai l'air d'avoir un ballon de valise tonique de case ?
+§9<Penfield> §f: Non.
+§9<Penfield> §f: Ca ne veut toujours rien dire ...
+§9<Penfield> §f: Si vous voulez, j'ai ça.
+/give <player> glass_bottle 1 name:&dFlacon_hyperbolique_métrique_de_gaze
+§9<Penfield> §f: C'est peut être ça qu'il vous faut ?

@@ -1,0 +1,32 @@
+uniqueId: 96781df8-d52a-4cdf-89a5-453169463db2
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+id: 26
+category: 16
+cooldown: -1
+name: '&6&lCompensateur Thermique'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Ice in a Glass
+    lore:
+    - §8Decoration
+    - §8Kitchen, §8Winter
+    - §8ID:§7 589
+    internal: H4sIAAAAAAAAAE2Oy26CQBiF/zZpQkkfo1uS4TK0s3BRq61jBCpycWY3whiEwRoFI/NUfcSSrnp2J9/5kmMCmPC0aXqlvs7f+4OSBtzTEp6RhzxSEGSVriSW5zu2RQqxt9BfhBD4lZhgjtJJnruDvDyC0clb15/lxQSAOwMeMqF6CT9yWCK+rVC5XapioP7Ykw1SEa1PL/SYDbt36tN25Is3fzWQf1vciRwr5i4rflz3uzZDKzdWchHbRZtemWaYJ9OKtXMd5msnmqWa56kdfgZeWBc4ypkbJnHFk7kT1qrhswCzZKqClmk+YzjUwY3XgQ7yj4bnsaJHm+zXk8n4Hn4BAHywUxgBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

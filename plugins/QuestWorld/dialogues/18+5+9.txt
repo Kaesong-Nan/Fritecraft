@@ -1,0 +1,19 @@
+&9<Galien> &f: C'est ça un compensateur thermique ?
+&9<Galien> &f: J'imaginais ça autrement ...
+&9<Galien> &f: On vous a fabriqué une petite tenue de protection pendant votre absence.
+&9<Galien> &f: J'espère qu'on va pouvoir mettre le compensateur dedans, sinon elle est inutile ...
+&9<Galien> &f: Alors attendez ...
+&9<Galien> &f: Gnnn
+&7*force un peu*
+&9<Galien> &f: ...
+&9<Galien> &f: Ok, ca a l'air bon.
+&9<Galien> &f: Je pense.
+&9<Galien> &f: Voilà, avec ça vous devriez être protégé.
+&9<Galien> &f: Foncez dans l'artefact. En principe ça devrait marcher.
+&9<Galien> &f: En principe.
+&9<Galien> &f: Et revenez avec plein de données !
+&9<Galien> &f: Ah, au fait, un admin m'a dit de vous dire :
+&9<Galien> &f: "Les monstres du nether sont très dangereux."
+&9<Galien> &f: Je serai vous, j'éviterai toutes confrontations.
+/pex user <player> add multiverse.access.Bouquenia_nether
+&e&l>> &a&lVous pouvez maintenant accéder au Nether !

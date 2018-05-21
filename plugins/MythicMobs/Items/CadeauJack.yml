@@ -1,0 +1,10 @@
+CadeauJack:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dCadeau de Jack
+      lore:
+      - §7Offrez cet os à quelqu'un pour le maudir.

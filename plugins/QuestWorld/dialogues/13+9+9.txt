@@ -1,0 +1,7 @@
+&e<Michelle> &f: Vous venez aussi prendre commande de potions ?
+&e<Michelle> &f: Eh bien désolée mon enfant, mais pour le moment je suis un peu occupée 
+&e<Michelle> &f: Je dois chercher mes petites bêtes. Ces canailles m'ont piqué mes ingrédients.
+&e<Michelle> &f: Des ingrédients rares ! Ils m'auraient permis de concocter la potion de guérison des verrues.
+&e<Michelle> &f: Dois-je vous dire pour qui elle était destinée ?
+&e<Michelle> &f: Mais si vous m'aidez, j'accepterai de partager cette potion avec vous. Car je vois que vous aussi vous en avez grand besoin.
+&e<Michelle> &f: Je sais que l'une de mes canailles aime bien se balader sur les toits d'Irvine.

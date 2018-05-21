@@ -1,0 +1,11 @@
+&9<Ben> &f: Hein ? Quoi ?
+&9<Ben> &f: José ?
+&9<Ben> &f: Y'a pas de José ici.
+&9<Ben> &f: Un mineur mort ?
+&9<Ben> &f: Euh ... Ca me dit rien.
+&9<Ben> &f: Vous êtes sûr qu'il était affecté à cette carrière ?
+&9<Ben> &f: Parce qu'il y en a une autre.
+&9<Ben> &f: Peut être que ça vaut le coup d'essayer là bas.
+&9<Ben> &f: Il y en a une au sud d'ici je crois, Station du Leviathan.
+&9<Ben> &f: Et une je sais pas trop où, sous la neige...
+&e&l>> &r&7Allez à la Station du Leviathan pour trouver la prochaine carrière

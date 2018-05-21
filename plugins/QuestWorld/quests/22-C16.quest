@@ -1,0 +1,150 @@
+uniqueId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+categoryId: 5614cd21-b1d2-4636-9b1c-06c0a2efa7e0
+id: 22
+category: 16
+cooldown: -1
+name: '&6&lRéplication de Portail'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Obsidian
+    lore:
+    - §8Blocks
+    - §8Vanilla, §8End
+    internal: H4sIAAAAAAAAAE2PwU6DQBiEf01MkPgYXkl2WUD30IMxhC4pW6EtlL1RWNrigk0Lrctz+YAST85lMvlmDmMCmPC0+hyU+jh/1UclDbhnFTwjBzm0pMiqiKSW49nYomVRW+hPRVFg99UEcxqd5Lk/yssjGL387oezvJgAcGfAQ1qoQcKP1CES2wOqtqEqNfOmvF4htWTN6YV1qd69M4+1E5+/eQtN/3XdvshclZPwILp42LUpWpBEyXmCy3Zz5eMeRQFzuB3jqGEkymKdr0vMs0SJIHKiZk+4vbmJLB5FkNvcTpp8jLXIfMRHpfJx8sYnvGW3qCnJMvMx6zCt49lsegC/BQ7IGRwBAAA=
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+parentId: 94b21e51-e10c-470d-b2d5-b4cfc94b3551
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: ''
+  timeframe: 0
+  questId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 1f63b2f3-396e-47dd-8b1a-e75450b2a275
+  entity: PLAYER
+  custom_int: 74
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+  amount: 64
+  lore: Hey there! Do this Quest.
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 825ce2dd-e58d-402d-8b54-18611e79886a
+  entity: PLAYER
+  custom_int: 74
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK_AND_QUILL
+  amount: 1
+  lore: Hey there! Do this Quest.
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 32450e5d-f8c9-48f3-8756-3591e2d25477
+  entity: PLAYER
+  custom_int: 74
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FEATHER
+  amount: 32
+  lore: Hey there! Do this Quest.
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0d363e68-cb98-4897-8c3a-142db1f761a7
+  entity: PLAYER
+  custom_int: 74
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPizza
+  amount: 16
+  lore: Hey there! Do this Quest.
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: ddc35b33-b533-4160-9e49-c11fc311e1ae
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 277.0
+    y: 68.0
+    z: 912.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a5ae1664-9cf8-4b5a-970f-c5a108b86402
+  entity: PLAYER
+  custom_int: 74
+  exclude-spawners: false

@@ -1,0 +1,46 @@
+BenSahar:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&6&lBen Sahar &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Châtiment I'
+  - '&7Sweeping III'
+  - '&7Recul I'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Esquive'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dObscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      MovementSpeed: 0.15
+      # Armor: 4:
+      # Health: 8
+      # Luck: 4
+
+  Enchantments:
+
+  - DAMAGE_ALL:15
+  - DAMAGE_UNDEAD:1
+  - SWEEPING:3
+  - DURABILITY:5
+  - MENDING:1
+  - KNOCKBACK:1
+
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantDodge} ~onDamaged @Self 0.1

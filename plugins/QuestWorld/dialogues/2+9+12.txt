@@ -1,0 +1,8 @@
+&9< Forgeron > &f: Tiens, revoilà le pequenaud ! Alors ? Monsieur est satisfait de son bijou ?
+&9< Forgeron > &f: Que voulez-vous... Pour une commande de caca, avec du matos de caca...
+&9< Forgeron > &f: JE FAIS DU BRIN ! Voilà, c'est dit et ça venait du fond du coeur !
+&9< Forgeron > &f: Allez, on va pas s'emballer. Je peux vous faire le plus beau des colliers.
+&9< Forgeron > &f: Pour sûr ! Mais il va falloir mettre la main à la pâte pour les ingrédients.
+&9< Forgeron > &f: Profitez-en pour trouver de quoi l'emballer.
+&9< Forgeron > &f: Les femmes aiment les surprises. Car c'est pour Madame, n'est-ce pas ?
+&7 *Il vous fait un clin d'oeil complice*

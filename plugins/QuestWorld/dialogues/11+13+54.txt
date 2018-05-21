@@ -1,0 +1,20 @@
+&9<Henri> &f: Je fais grêve, ça se voit pas ?
+&9<Henri> &f: Je refuse de travailler dans ces conditions.
+&9<Henri> &f: Non mais oh, regarde dans quoi on doit dormir ici !
+&9<Henri> &f: Des tapis !
+&9<Henri> &f: Y'a des lits dans ce jeu, et ils nous ont installé des tapis !
+&9<Henri> &f: C'est vraiment ce moquer du monde ça !
+&9<Henri> &f: Alors du coup, tant qu'on aura pas de vrais lits, je refuse de travailler.
+&9<Henri> &f: Je dois piloter la grue, alors c'est quand même important comme boulot.
+&9<Henri> &f: La plateforme ne pourra pas exporter de soda tant qu'ils ne regleront pas le problème !
+&9<Henri> &f: Cependant, j'ai un peu peur du gérant.
+&9<Henri> &f: Il est dans le batiment d'à coté.
+&9<Henri> &f: Et ... il est pas super sympa ...
+&9<Henri> &f: L'autre jour, il a balancé quelqu'un par dessus les barrières.
+&9<Henri> &f: J'ai un peu peur qu'il me fasse pareil si je vais me plaindre...
+&9<Henri> &f: Et je ne sais pas nager, donc c'est chaud quoi ...
+&9<Henri> &f: Alors que toi ...
+&9<Henri> &f: Non, je pense pas qu'il va te jeter par dessus les barrières ...
+&9<Henri> &f: Tu ne travailles pas ici, il n'y a pas de raison ...
+&9<Henri> &f: Le responsable, c'est Marco.
+&9<Henri> &f: Tu penses que tu pourrais le convaincre de nous obtenir de vrais lits ?

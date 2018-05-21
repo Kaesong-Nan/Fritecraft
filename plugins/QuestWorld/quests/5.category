@@ -1,0 +1,19 @@
+uniqueId: ec6e453c-8d60-4781-9eae-1130b904d71d
+id: 5
+name: '&f&lCathédrale'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §9Iron Skull
+    lore:
+    - §8Decoration
+    - §8Skull
+    internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIsn8qhByPRLilF2i1290ZhodBdbCgYd5/LB5TenNvMb+YwJoAJD9vTJMTH8FW3ghtwiyt4RB7ywjJEVuXy0PICx7bCsqgtdFVRFM9B4JhgzqMzH8aWX+7BGPnPOA38YgLAjQF3eSEmDr9cxYjtj6jax6JUOJg92SKR4u78hPtcHV5xgOXMly/BSoX/uv5YfPqCuvGR9dl0kDlauRvBlxu7lLvvNKKaycxNI6wSmdkpabw5aRl566gWkpKTw0hjJ13jJyRvaUf9tc6cdUQRi7BO36mfaCaovDKsqd4p3NthnS0W8wP4A0o7wnQcAQAA
+permission: ''
+hidden: false
+world-blacklist: []
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e

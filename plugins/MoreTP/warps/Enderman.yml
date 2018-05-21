@@ -1,0 +1,19 @@
+name: Enderman
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners d''Endermen'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: ENDER_PEARL
+data: 0
+location: HUB<>979.1717324164655<>157.7593298715523<>-497.0447969924096<>-8.266308<>2.2937236
+slot: 50

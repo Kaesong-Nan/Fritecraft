@@ -1,0 +1,8 @@
+# RankVouchers - Configuration #
+
+alias:
+- coupon
+- token
+
+setting:
+  debug: false

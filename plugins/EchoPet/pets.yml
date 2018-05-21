@@ -1,0 +1,7 @@
+autosave:
+  9e32bd51-cedc-46d6-87a2-cba5c99aa12c:
+    pet:
+      type: CREEPER
+      name: Creeper Pet
+      data:
+        power: true

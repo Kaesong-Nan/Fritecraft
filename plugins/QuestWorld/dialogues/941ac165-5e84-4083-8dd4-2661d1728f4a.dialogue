@@ -1,0 +1,6 @@
+playsound entity.cow.say master @a[r=10] ~ ~ ~ 1
+&7*La vache semble se sentir mieux*
+&7*Ses yeux ont l'air joyeux*
+playsound entity.cow.say master @a[r=10] ~ ~ ~ 1
+&7*Et ses champignons frétillent*
+playsound entity.cow.say master @a[r=10] ~ ~ ~ 1

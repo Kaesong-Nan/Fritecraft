@@ -1,0 +1,760 @@
+Cadeau:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBiscuit sapin §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre à la menthe poivrée §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGuirlande §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fArtefact de noel §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCouronne §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGrelots §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPudding de noel §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTrifle §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte aux noix §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSauce canneberge §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_CHICKEN
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDinde rotie §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBonnet de noel §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFragment de sapin §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice Alex §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice creeper §r
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPain d'épice Steve §r
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Noel
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre à la menthe poivrée §r
+      Probability: 2.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre §r
+      Probability: 5.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEcharpe arc-en-ciel §r
+      Probability: 5.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGuirlande §r
+      Probability: 5.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCane en sucre au caramel §r
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fGuirlande §r
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNez de Rudolph §r
+      Probability: 10.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBougie rouge §r
+      Probability: 15.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBougie verte §r
+      Probability: 17.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBougie blanche §r
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChaussettes festives §r
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_PICKAXE
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        damage: 1
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: RABBIT_FOOT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2OwU6DQBiEf01MkPgYXkm2uxS6Bw9Gql1SFkspZbktsBVwqQ0FIzyTDylHD3OY+WaSMQFMeNh/Dlq/d1+nWisDblkJj2UhMZVEWq5TEsumLrVWK4ktXEpE7JxSvMAmmPPoorq+Vtd7MHr10w+dupoAcGPAXSL1oOBXjT7K0gqVqa+LkTmzj/dIh6y5uOycjPkLc1g7882zsx3pv+6yl8elFsSvsvNuyNsEbUmk1SZaFO3hm7dcZ42uRLxGWfxhc68gAU4qMa0n/jZnx4MdxsUYeGLKmh3mbaR5U9jBJCaBBRHNaxXMCr2k5qNPTyl6mp/DH1oMzDEUAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2O0U6DMBhGf01MkPgY3pIUGFQuvDDOuJKtCOuA9o6VItvauWygg6fyEeXSyy/nnOSzAWx4WB96rT/OX81OKwtuSQ2PuFaNh13sKDyTzkxh5DxhJJ3IDQLpyqppZGWDPUUnde526nIPVqeuXX9WFxsAbiy4yyvdK/hVQ4xE2aK6jLUcSDhttkY6IfsTJsd82L6SkJiJL17C5RD9c4OuKgLN/bgVx7Tfmhwt/UyrReZKs/kWRRpQjyOxT5FgMqCG+0lBWzpf/SSsNrx48/k+M4IdrnxMES1WPjUbl4/E4yxvxXxq3rkrWOon7HOkQxw1JXqe3sMf1nvl3hgBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2OzWqDQBhFvxYKVvoY3Qoz/sZlqSEZiWNNjHHc6ThWzZiGRIP6TH3Iuuzycs6BqwKo8HY4D1J+3X6qRgoFnkkJ72XpWNjkucYxqjTTWLmay7GpOatSr0QuXFzYKqhLdBW3vhH3V1B6MfbDTdxVAHhS4CXJ5SDgV0w+ytIalakv+UTsZccHJEPSXh1ySabik9ikW/j2w95N7j/X6vOTJZnh19klGoouQTtjL8V2j3l3fLCWzywmYxBHYzBnTbhJJPXOE+1ozeLjSOdvTL01CrxAZ7Hf0DmTdMNG2jKT6cQMT5EVxnykXYCCdt1UKXaX5/AHGmMMkxQBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2Py06DQBhGf01MKvEx3JIMTEG66EJtbId0QFqgndlxGS7TAZsWTOG5fEBx5/LkO9/iaAAaPO1PvVKfl6+iVmIG9ySHZ5zZZlJYWM9wYerzvHB0J8tzPRVJ4TjpwkEYaaBNp7O4dLW4PsKsE7euv4irBgB3M3iIE9UL+BGDi/ixQvnRVdlA7InDPVI+kecX0sZD+k5s0kz75tXeDot/rtUlB0sx7Fa8Dfq0idEW75TY7Iysib69sTToyCtvxW6eLBFvKGYhG5mMEDWpwddsoGMwZ2ZgebKquYwMf0UNP/yo6cGt2Z8j305MliMNmcnXFJPWWBTBcjkVwC8gYZxLHAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmmDFC6NNK0QwoI5b7jMgg41IZCZXgqH9FZujznfF9yZAAZXs5fM2Mf43fTMSrBI6nhtdIahCtUKqipdUXTtqpS1LRUSmRibOoGNUsqgyykKx2njt6eQZroMs0jvckA8CDBU1ywmcIv5TbK0xbVqc0qTgyRwzNiHumvW3KJeflODDKI/fhmnPjuH6tPRaKzDNttfvHncojRCQeMHoNNNUR3JyGquzo/+SHCeRh3XugveZL37hBpmSqcPsJuGA+i506y584hYJ5VLe4a6W7/yTPV1zyr7bM1aD1rzz2LdE262Yn38Acq6FqzGAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCadeau
+          internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkm4yKVLY9EO6YBQCszsuAzCMNSGQoU+kw8pS5dfzjnJJwPI8HToJiE+h++6FUyCe1TBs2WzIq+NUnHyQldeHENVnNLKFcMsbWaVjs2qWgZ5jc5sGFt2eQRpZPM4DewiA8CdBA9JLiYGv2zxVJo1apV5olyQte74oIoA8bONTslSvCEL9SvfvVr7ZfPPNcc8NQUxvIaewqnoE3VvRILtIq3sj1fcuwu+0Y7GoY63Xod51GGdLCRN2uDDVTFHBt3iH8JdjaZeS+KvmfKm9XnESY+1IH0XpD/O/g3Nfhy2daZt1ufwB6FKANUUAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eAimant
+          internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkm4UxZdGNF2SBmEcumwg+k0XGawacEAz+UDytLlOd/5FkcGkOHl2I2cf92+Lw1nEjyiM7yWllWZVK8U23AMxdxQWyl111Vcx6SsohtH1QwZ5FW6stvQsPszSAObhvHG7jIAPEjwlJV8ZPDLZl8tTrV6Pvmczshec3JUeYjaq4P6bK7ekY3Eyvdv9mF2/22tocwtTgy/LvporESmHoyYs32sUZH+kNyvw13WkCVusfgwg4QugdepeImsMPcF1tOp8DKOFyyKPNLJ8tmQ1m8Db+2TTi+8QCtyNGERzdgjU7BLDdRr7iXabtcH8AcVeSHIHAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eVoiture
+          internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkkGKGAXXahEO6QMQhE6s+MyhMuADQUt81Q+oixdnpzzJZ8KoMLDsZuF+Bi/qkZwBW5xCY+ZZTxtnNLWnMzUtU2GKi03zFKr8txAZskdCxUqqOvozMep4Zd7UCZ+neaRX1QAuFHgLsnEzOGXLx5ipxqVJ08UC7ZXjo9IBLg9O3hIlvwV27hf/f7ZPizbf601ZaklqOnVbAjnvE/QwYwE30d60X9+szQRtCUdefclTcMrlVT6bmFR461hbvHjxy+CyKgjqyNx0vmy7onEkrmi8Q3WByk2g5TVNCUtcX2EB31bhbvd+h7+APnLT5UYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eCamion
+          internal: H4sIAAAAAAAAAE2Py26CQBiF/zZpQkkfo1uSAeS26MIIrTMRqIpcZocwBHCwBkGF5+oDdpZdnZx831kcGUCGt/1p5Py7/6kaziR4xiW827Zlm6VuK5rFkLJQy4WS25WmmKamVw5CTplbMshidGH90LDrK0gDewxjz64yADxJ8BLnfGTwyyaCaFqjMiW8mLAperRHPMTtxcLneDqusIk7wddLczM5/1xjyBODZzqp6Xk7HrsYbfQdZ+udWnSHG4282W9J58/44bukDd2DFiYxp5GPqPtZB+4S0WirBRFvaEJPWVToYeLdQ9czgpk3Imffze5ZRwQrefCFVX9FnCpFH+IB/AGaSJNmHAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eCadeau
+          internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIspSxyVEG7pIClCCw3Phb52K1NC7XsU/mIcjSTOUx+M8moACo87IeJ84/Td9NxpsAtqeGxqsymrvVCw6h50taoxlqJsaUVum0xw26MsmAqqMvoyE5jx873oIzsOk4ndlYB4EaBu6TgE4NfNnsoz1pUZx6vZoKXHO8RD0l/tMghmctXgolY+OYZb2f7X9cci9Tk1PDa/LCbSpGgrRFxton0Snxe8v6lzYWLcrHIcX9Ch8o8rlZUUjN8j1pf+CaVnAdyMKkIRJi+dYtbX9ZD6PhXv/9a+3ElA4fMQbqTdOV2Tabby3v4A1KAhDwYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eCadeau
+          internal: H4sIAAAAAAAAAE2PT2+CMByGf1uyxJF9jF1JisifHnZYdNM2tgysKL0h1Ci0zigswOfaBxzHHZ+8z3t4LAALXjZ1q/XX7ft41moCj6SEV4xRGQalY0+DvLRnBxfZISpmth9iF89cf1rk2AJrPF3VrTmr+zNMGtU17U3dLQB4mMBTmutWwa/qKZL7Eyr3VBc98UcWG6QjUl0Dckn7w5z4xIz76t1f9/if6zX5ztOZS0/yErcHk6K1m2i1SpzCbH+Y4JU01DBDa2liFC22HV9Sk5nPSoraYeJU8SGb8sVHx0wyeqzjA9fRkrnZLvaYIYMUmcMr0mVCa7mQms0pPu7R21gAf/dD0XIcAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eCadeau
+          internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkmYDmBZNlYspIBtuc6OyyAwM7VpoYF5Kh9Rli5PvvMlRwVQ4eXERs6/rj9Nx6kCj24Nr1ZtWI1ZIK1YY6wZyKi0stBrzV4bq6o0bYwsqoK6nC70OnT09gzKQKdhvNKbCgAPCjwlBR8p/NLZ00nW6nXm8Wp2rYWjk85Dt7+8uedkLt9dyxXLvttY+9n+55pDkZo8x15LzoexFIm+x0dOd0dUifhO+njlRx7LZd2FW8IC6bRE+JMfMezLzZTLD0TEwQwk52GayzCNcd47Itg6LPzMJ5J6jPTfix+jQBLui7hrMmQv9fAHh2XeUxgBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePuzzle
+          internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkm4X5aNtBbSGSzlvqMwCDhTGwqV4al8RFm6/HLOST4RQISX09dE6cfw3XSUCPDo1fBq2o1tlbouqZbRSHpp1JJjm6VkNrpS67JRWSoRQVyjKxnGjtyeQRjJPE4DuYkA8CDAU1LSicAv4b5cZK1cZz6tuGeuOzrJNPD6q+VdEn5+80yPrXy/MQ/c+ecaY5kaNNf8trgcpzNL5IMWUrIPlYrFd5wedcxiLWdHHryjGbsFw8tWQVHY4+WT5+quR26sBG7+U7g7hpaK533YBqlPkVpQ3Cd9weIZRRsZL2jJ2bZrMsVZ38Mfq+WHshgBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eObjet relativement culturel
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbklguA1LFaWQDghFLrMrMITLTG1a0NKn8hHFnbtz8n0nOTKADA+7ceb8/fTZ9pxJcOs38KgaFcMG0pQa60gx6hYrGDFTcSqMG6wZtmYzGeR1dGSnqWfne5AmdpnmEzvLAHAjwV225zODH7YEKi06tSkCXi++tfZ0p/LIH462f8iW6sW3fLHyzZO1XZx/rjntc5OXetDRQzxXIlO3esLZJtFq8fFF3fhK3aQP0dtAhqQjeYzC9HmkXqkTFIwkjb/pEJtUkAsR8RJeCfrLofdqUI8sYU5WHgoy8DFyMxF5Zd8WmrO+h18YWmnGGAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eBallon de basket
+          internal: H4sIAAAAAAAAAE2Oy2qDQBhG/xYKVvoY3Qoab5llqJCMRK1mqs7sRp3Ey5gGoyX6VH3Euuzy8J0Pjgqgwtupm6T8HL7PjRQKPOMK3hHfOsh1dI1bXGgW4qWGbLTVhGE6pXCtgrumCup6uolhbMT9FZRRPMZpEHcVAJ4UeEm5nAT8itnXWV7rVe7LcsbOyuSkywi3Nxdf07n4wA7u1/2wc44z+ufaI89sSU2/Ztd4KvpUP5qJFIfEKPuvH5YlfeTFZkDSOmyTji6xEZLLhrXVyjszyqjFSGxT0unhUrXBnsmIUCPyZBPuw5555YNu/DpY8BySpKbLpTnnBlrr4Q9V05jHGAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eBallon de plage
+          internal: H4sIAAAAAAAAAE2Oy26DMBQFbytVoqif0S0SmABiWZUoMQpu8+Bh7xxiCxw7jQg0ha/qJ5Zll6MzRxobwIaX/XnQ+rP7kq0WFjziE7xyFAq+iISDopg7CxEjh9cycKTn1aH0ZYhczwZ7Pl1F17fi9gxWL376oRM3GwAeLHgquB4E/IoxdVnVuKcq1fWIw5kPe1d/YHWN8KUYj+84xGbe12/hZoz/uUHPy0BTP23YZTscTeFu/J0W651Xm/yblEuPlvhOyqLJVO7SKRvZgSiSNCZD7EwRDZjZBiypfZYQRc3yTlY5oqrQdEo1UU2bIdKyFTG0zKbZbWXlxXM9/AHNSsJjGAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eWilson
+          internal: H4sIAAAAAAAAAE1O206DQBQ8mpgg8TN8JVkoy+VRbW2XFFRKKbtvXBaB7tamhQb4Kj/RfTSTTDKZS0YH0OFpdxyE+Lz81K3gGtyTCp6x55nILjzDrRE3bOxiwyuxaTiKcsuv7AI7OuiqdOaXvuXXR9B6PvbDhV91ALjT4CHNxcDhl08BYlmDqiwQ5UQcpZMdEh+kO7vklE7FG3GIVP7mxdlO/r8s7vMDFnQRNOz0NRQyRdtFLPgmNku5v7HkaLNlLFmyH6OZNaH13lErFlSSkc6RpN1rG3ZMIWrC5Htkkkk6r6xwnTZREjThktjUIig8qPQ6Ujurts5MX72HP3oKiCQYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§eBalle
+          internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIsn5Vj/ahdUkBaCiw3FpbAslsbClZ8Kh/RPXqYSSbzm2R0AB0eDsMsxMf42faCaXCLG3ikK4e5T6w2HMdDyqhvUFRXhlWZ1G9t23QtWwddjc5snHp2uQdtYt/TPLKLDgA3GtxllZgZ/LIlQGXRoaYIRL1gT+X0gESM+XmFT9lCX7CHpeq3a2+3+P9Yd6pyVxA76MpTMlOZoZ29F2y7N2t5/Irfj4ik9ZXwpicyGiLrzSE/4RLKxAw5VlqjON10IW8EScs+flUMfxbEIm7EN0MoMSrzUm2JW3JyjfKkbwvTV+/hD+yY11wYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (furret)
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbklmhovp0gilQwoIbbnthjK00KE2FLTTp/IRnaWLb3FuydEBdHjZnGYhPsevthNcg0fawCtzMCIWIQay2tawatYYzGLIQBghxBlxSN3qoKvRhY9Tx6/PoE38Ns0jv+oA8KDBU8bEzOGXywBVxRE1RSD2kjpKbzdIxLS/vNFzJusP6tBB5at3Zy0X/7r2xHJblGZwrM7JXA8ZWpup4KsU74fdd9iHpMrTISKpiPPlqSSeqbyf2PfsyE9u5T20FDj2l315P8h461nVsFNEonIprtzEjNyDDP0SlYSasZt0bYEX6j38AQ2ALkEYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (koala)
+          internal: H4sIAAAAAAAAAE2O0U6DMBhGf01MkPgY3pK0FDC98MLJ4kpGEYaUcrdBJ8wylw3muqfyEeXSyy/nnOSzAWx4WH2NWr8fv7edVhbcsgYeMcIIYUqdBpPA8ShqHIoJdQKlAs+rXUxraoM9RQd1HDp1ugdrUJdhPKqTDQA3FtwVaz0q+FUmQlXZoqaMdG1YMO18hXTCdocnti/M5pUFrJ/44iVYGvrP9Ye18LUkUVvt03HTF2hJMq0WGa77j7N051cuii7OZ12SZzoJPz0eMlL1zMRuTJIw/klC5vK83VWCebGQV+lKXIWzVorUcJGSKkwvMp/7/I0Z3kV0W6Ln6T38AVEZjCsYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (chat)
+          internal: H4sIAAAAAAAAAE2OTW6DMBhEv1aqRFGP0S2SiQ0oy6iJEqMYWkIAs+PHLrgmjQg0IafqEcuyuxm9edKYACa8HL5Grd/7b9lqYcAjreFVitIhnvQsggWyiKiIVRDsWRLVjlfatiSlNMGcpbPoh1ZcnsEYxG0Ye3ExAeDBgKek0KOAXzH5KM8aVGe+ribqzj0+IB1SdfboKZnKN+rSbua7lbuflv+2zlCkjubYb/LTx1h2CdrjSItdZFfd8SdQiQrjRLGUTzw+XrliOF/zG1N5F9xzHcw53G4QXzAcxhSH6Ybw+ycK1gwztbKDbaTYgk6sSxqWBpqpqpWZvZzfwx/zx9bVGAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (panda)
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG4SYLF1VMO6SAcivDjssgl5natNBAn8pHlKXLL+d8J0cGkOEpGibOP88/TceZBPekhmeEavSiYawYrMSKrpdMKe0CK5aN1cKuDb2xLRnkVTqx89ixyyNII5vH6cwuMgDcSfCQFnxi8MsWF+VZi+rM5dVCzJXjCPGA9CeLHNOlfCcmEWu+25j7xf7XNcbiYHCquW1+/JpKkaK9FnK2C9VKJNfc+dCDrWcEzltLD76g8YAopjfvttEDJ5k9QWbaD6oX1x2Nvxd/ZT8OB3/rt7nwFr9fdwXFQVxpVCQ6jVy7ydDr+h7+ADgPA0sYAQAA
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (tigre)
+          internal: H4sIAAAAAAAAAE2Oy26DMBQFbytVoqif0S0SNoaGZdWoiaOYFMLL3vEwioOdRglUId/UjyzLLkdnjjQ2gA0v+37U+uvy3SktLXikLbwS0hF3EQYOWbTIIbipnbqrA2ch26qRGBNUIxvs+XSWl0HJ6zNYg7wN40VebQB4sOApr/Qo4VdOG1eUB7ctN7qZaDBzunf1jh7Pb/SUT/UHDaiZ9/V7sJ3Cf64/VIWvubc5iFM81iZ3t16i5TpBjcl++FGoXSoUN4zwIva5+dRslU1RmvTsnhuxEooViYqWB71b0knMToQjExXcY3fdM5z5URojsYoxx5nqShTO5fAHEnuFqhQBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (morse)
+          internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbklmGIfaRRdGtB1SpkIRCjt+ZizDgE0LDfhUPqIsXd6cc5JrApjwsG8GrT/O37LWwoBbVsFjjp+plDi3JLGF9bQQyCqEgy2aO9iWmCBJiAnmHJ3Eua/F5R6MXoz9cBYXEwBuDLiLcz0I+BWTh7LDEVUHT5cTc+Yd7ZHeMXVasC6eilfmsHbmmxdnOy3/ubTPE6pT4h2zLhiKNkZbEmqxCXHZfl4zt6rTJG7SJKVpElAeBYSv49pPPM2jL+qrAHE3brLWJ9z26mztTzzyVPrzrnbum83dUGWqHHkUKu4GI+vwUgar1fwe/gA961O/GAEAAA==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (pingouin)
+          internal: H4sIAAAAAAAAAE2Pu26DMBiF/1aqRFEfoyuSE4dLhg5tQcQoMW0gXLwFbMTFpBGBJPBcfcAydjjD0Xe+4agAKrwEzSDlV/dTVFIo8Eg4vOo4R4vCNLV8lXFtpVtCswpuaSYqzCzDmHM9V0GdpbPo+kpcnkHpxb0fOnFRAeBBgafoKAcBv2L0EEtKxBNP5iMx5h4GSPqkPpvkFI3ZJzFIO/PNu7Ed1/+2en+MdZlir2Sn7yFrI7TFeyk2+0XeHq7MpjUNeZvGtEprWlJ3X9Ela2gYVTTe3Zi7w8x29HSasyQ333amdMqR79I6nRq8Cz9qOjmITgTT8HBndVT5gbcuEvQ2P4A/sK7yqBwBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (singe)
+          internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkm4DrA0mtIhBWzLbWbHZQgMQ21asE6fykeUpcsv55zkUwFUeDmOixCfl69uEEyBR9zCa925CLm2qdW2V2u2aTma11VM65DutY3tVy4yVFDX6Mwu88Cuz6DM7GdeLuyqAsCDAk95JRYGv0yGOi17vS1D0UiM1p0edZFgfnbxKZf1O0Z4Wvn2De2k/8915qpwBLHCnp72Sz3l+s46CLY9GM2UfUf3vUyKuE+KyCRpKJIgHKKUyPieWZRnemRuRsKJpAUxkoCYMc/HOMhuNKCcmJlBg80Up/0Y8X6iH2KkEx660vDX9/AHSPKf8BgBAAA=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §r§ePeluche (ours polaire)
+          internal: H4sIAAAAAAAAAE2Oy26DMBREbytVoqif0S2SwbyypKVRjGIoifPAu4QY8bDTiEAEfFU/sSy7m6M5I40OoMPbtuml/G5/ikoKDZ7JBd59D1u27dqG6SFk2K5fGD7G2BCe5y1E7ueWKXTQ59FNtF0l7q+gdWLo+lbcdQB40uBlf5K9gF8xRogfS3Q5RjIfiTsz2yKZkPrmket+PH8Sl6i5XwXuelz8c53udHBkhqOSX9P+rPZojTdSrDZmrnYPHqYWD8nE6wAlc6ZT5nD1NWaMYhpGNWUfKp52DmXBkB0ynCkuZ29IWGPFdTombDdRK26ScFlStmyoIlVxNBfze/gDe92xJBgBAAA=
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Cadeau
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule feignante §r
+          potion-type: minecraft:slowness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule tonique §r
+          potion-type: minecraft:swiftness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule chaud §r
+          potion-type: minecraft:fire_resistance
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule sportive §r
+          potion-type: minecraft:leaping
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule secret §r
+          potion-type: minecraft:invisibility
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule nocturne §r
+          potion-type: minecraft:night_vision
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule de guérison §r
+          potion-type: minecraft:healing
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule d'eau §r
+          potion-type: minecraft:water_breathing
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule empoisonné §r
+          potion-type: minecraft:poison
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule victime §r
+          potion-type: minecraft:weakness
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule soldat §r
+          potion-type: minecraft:strength
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule docteur §r
+          potion-type: minecraft:regeneration
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §fLait de poule du mal §r
+          potion-type: minecraft:harming
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Lait
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: Cadeau
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

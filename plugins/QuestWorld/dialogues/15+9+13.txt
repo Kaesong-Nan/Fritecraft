@@ -1,0 +1,17 @@
+&f&a Jack &f : ...
+&f&a Jack &f : Jack aime ça !
+&f&a Jack &f : Mais toi pas encore faire... PEUR !
+&f/give <player> skull 1 name:&dMasque_du_coursier_de_Jack lore:Il_complète_le_déguisement_réclamé_par_Jack_pour_faire…_PEUR ! color:0,200,10
+&f&a Jack &f : Maintenant toi faire... PEUR !
+&f&a Jack &f : Toi rendre service à Jack.
+&f&a Jack &f : Voici Liste.
+&f/give <player> bone 9 name:&dOs_de_Jack lore:Ceux_qui_reçoivent_cet_os_sont_hantés_par_Jack_pendant_un_an color:0,200,10
+&f&a Jack &f : Et voici cadeaux de Jack.
+&f/give <player> paper 1 name:&dListe_de_Jack lore:Violette,_Zazou,_Biloute,_Pilou,_Ron,_Agent_Cafard,_Badabig_Boum,_Toto,_Toi color:0,200,10
+&f&a Jack &f : Toi regarder liste et toi donner...
+&f&a Jack &f : Ouais en fait nan, c'est ultra chiant de parler comme ça pour des phrases longues.
+&f&a Jack &f : En gros, matte la liste ! Trouve les marshmallowiens qui sont sur la liste ! Et donnes leur mes petits cadeaux !
+&f&a Jack &f : Et surtout, sois habillé avec ta nouvelle tenue ! Que ces crétins comprennent bien ce que mes cadeaux signifient pour eux !
+&f&a Jack &f : Toi comprendre ? Parfait ! Toi aller !
+&f&a Jack &f : Et toi revenir les larmes de gens de liste de Jack comme preuve !
+&f&a Jack &f : Voles, enfant de la terreur !

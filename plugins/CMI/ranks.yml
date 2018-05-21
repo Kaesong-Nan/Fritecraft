@@ -1,0 +1,281 @@
+# Main server folder spigot.yml and check that stats saving prevention its set to false stats->disable-saving: false
+# Player will get default rank group depending on set permission node cmi.rank.[groupName]
+# Not enabled ranks will be ignored
+# DisplayName section is optional and it will be used to represent rank ingame. This is NOT defining required permission node and you still need to use node name to rankup to this rank
+# DefaultRank section defines if player can be assigned to this rank if he dont have any. There can be more than one default rank, and depending on permision node, first rank will be assigned to that player when needed
+# PermissionRequirement section defines list of permissions player should have to rankup to that rank. Optional - For each permission node you can add its name which will be shown in /cmi rankinfo with : In example cmi.command.fly:Fly
+# McMMORequirement section defines list of McMMO skills and levels player should have to rankup to that rank.
+# AutoRankup section defines if player will be auto ranked to this rank if posible. Keep in mind that if there is more than one legit rankup, player will have to confirm to which rank he wants to rankup
+# RankupConfirmation section defines if you want to add aditional confirmation for this rankup. Usefull to avoid unintentional rankups. Keep in mind that autorankup will request confirmation for rankup to this rank even if there is only one legit rankup option
+# NextRanks is list of posible next ranks from this rank. Can be one or can be dozens. Keep in mind that each rank requirements will be shown in chat and it can clutter quite allot if there is bunch of them at once
+# MoneyCost defines how much player will have to pay to rankup to this rank
+# ExpCost defines how much player will have to pay in exp to rankup to this rank
+# Commands is list which will be performed on rankup. Can be aditional actions, like message broadcast or anything alse
+# Main section is StatsRequirements and it can have allot of different values in it:
+#   In general format goes like this [mainStat](:optionalSubStat):amount
+#   In example MonsterKills:100 will require from player to have 100 monster kills while MonsterKills:Zombie:100 will require to have 100 zombie kills. Both of them can be used if needed.
+#     List of posible requirement and basic explanations:
+#       Distance in blocks:
+#         Travel - travel in total
+#         Walk - has to walk
+#         Sneak - has to sneak
+#         Sprint - has to sprint
+#         Swim - has to swim
+#         Fall - has to fall
+#         Climb - has to climb
+#         Fly - has to fly
+#         Dive - has to walk under water
+#         MinecartTravel - has to travel with minecart
+#         BoatTravel - has to travel with boat
+#         PigTravel - has to ride pig
+#         HorseTravel - has to ride horse
+#         ElytraTravel - has to fly with elytra
+#       Time in sec:
+#         PlayTime - total play time
+#         FromLastDeath - from last death
+#         SneakTime - sneak time
+#       Amounts:
+#         GameQuit - how many times player left game
+#         Jump - jump count
+#         DamageDealt - total damage made
+#         DamageTaken - total damage taken
+#         Deaths - count of deaths
+#         MobKills - total amount of mobs killed by player
+#         PlayerKills - total amount of players killed. Indirect kills dont count
+#         ItemEnchanted - amount of enchanted items
+#         AnimalsBred - animals bred
+#         FishCaught - fish caught
+#         TalkedToVillager - times talked to villager
+#         TradedWithWillager - traded with willager
+#         CakeSlicesEaten - cake slices eaten
+#         CauldronFilled - cauldron filled
+#         CouldronUsed - couldron used
+#         ArmorCleaned - times armor cleaned (leather armor)
+#         BannerCleaned - times banner cleaned
+#         BrewingstandInteractions - brewingstand interactions
+#         BeaconInteractions - beacon interactions
+#         CraftingTableInteractions - crafting table interactions
+#         FurnaceInteractions - furnace interactions
+#         DispenserInspected - dispenser inspected
+#         DropperInspected - dropper inspected
+#         HopperInspected - hopper inspected
+#         ChestOpen - chest open
+#         TrappedChestTriggered - trapped chest triggered
+#         EnderchestOpened - enderchest opened
+#         NoteblockPlayed - noteblock played
+#         NoteblockTuned - noteblock tuned
+#         FlowerPotted - flower potted
+#         RecordPlayed - record played
+#         SleeptInBed - sleept in bed
+#         ShulkerBoxOpened - shulker box opened
+#         ItemDropped - defines amount of dropped items. If specific item is not defined, then total amount is used
+#         ItemPickups - defines amount of picked up items. If specific item is not defined, then total amount is used
+#         BlocksMined - defines amount of blocks mined. If specific block is not defined, then total amount is used
+#         ItemBreaks - defines amount of broken items. If specific item is not defined, then total amount is used
+#         ItemCrafts - defines amount of crafted items. If specific item is not defined, then total amount is used
+#         ItemsUsed - defines amount of item usage. like mining with pickaxe. If specific item is not defined, then total amount is used
+#         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
+#         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
+
+
+Laic:
+  Enabled: true
+  DisplayName: "&7Laic"
+  DefaultRank: true
+  AutoRankup: false
+  NextRanks:
+  - Moine
+Moine:
+  Enabled: true
+  DisplayName: "&aMoine"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Alpha
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang de &aMoine&7!"
+  - "pex user [player] group add moine"
+  - "cmi maxhp set [player] 32"
+  ExpCost: 825
+  MoneyCost: 576
+  McMMORequirement:
+  - "power:150"
+  JobsRequirement:
+  - "totallevel:2"
+  StatsRequirements:
+  - "PlayTime:3600"
+  - "DamageDealt:500"
+  - "SleeptInBed:1"
+  - "MonsterKills:wither_skeleton:5"
+Alpha:
+  Enabled: true
+  DisplayName: "&9Moine Alpha"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Beta
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Alpha&7 !"
+  - "pex user [player] group add Alpha"
+  - "cmi maxhp set [player] 40"
+  ExpCost: 1895
+  MoneyCost: 1152
+  McMMORequirement:
+  - "power:300"
+  StatsRequirements:
+  - "FishCaught:10"
+  - "ItemEnchanted:5"
+  - "MonsterKills:wither_skeleton:10"
+Beta:
+  Enabled: true
+  DisplayName: "&9Moine Beta"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Gamma
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Beta&7 !"
+  - "pex user [player] group add Beta"
+  - "cmi maxhp set [player] 44"
+  ExpCost: 3965
+  MoneyCost: 1728
+  McMMORequirement:
+  - "power:500"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:20"
+Gamma:
+  Enabled: true
+  DisplayName: "&9Moine Gamma"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Delta
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Gamma&7 !"
+  - "pex user [player] group add Gamma"
+  - "cmi maxhp set [player] 48"
+  ExpCost: 5375
+  MoneyCost: 2304
+  McMMORequirement:
+  - "power:1000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:40"
+Delta:
+  Enabled: true
+  DisplayName: "&9Moine Delta"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Epsilon
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Delta&7 !"
+  - "pex user [player] group add Delta"
+  - "cmi maxhp set [player] 52"
+  ExpCost: 7035
+  MoneyCost: 2880
+  McMMORequirement:
+  - "power:2000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:80"
+Epsilon:
+  Enabled: true
+  DisplayName: "&9Moine Epsilon"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Lambda
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Epsilon&7 !"
+  - "pex user [player] group add Epsilon"
+  - "cmi maxhp set [player] 56"
+  ExpCost: 8945
+  MoneyCost: 3456
+  McMMORequirement:
+  - "power:3000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:100"
+Lambda:
+  Enabled: true
+  DisplayName: "&9Moine Lambda"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Omega
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Lambda&7 !"
+  - "pex user [player] group add Lambda"
+  - "cmi maxhp set [player] 60"
+  ExpCost: 11105
+  MoneyCost: 4032
+  McMMORequirement:
+  - "power:4000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:150"
+Omega:
+  Enabled: true
+  DisplayName: "&9Moine Omega"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Sigma
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Omega&7 !"
+  - "pex user [player] group add Omega"
+  - "cmi maxhp set [player] 64"
+  ExpCost: 13515
+  MoneyCost: 4608
+  McMMORequirement:
+  - "power:5000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:200"
+Sigma:
+  Enabled: true
+  DisplayName: "&9Moine Sigma"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Psi
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Sigma&7 !"
+  - "pex user [player] group add Sigma"
+  - "cmi maxhp set [player] 68"
+  ExpCost: 16175
+  MoneyCost: 5184
+  McMMORequirement:
+  - "power:6000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:250"
+Psi:
+  Enabled: true
+  DisplayName: "&9Moine Psi"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Tau
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Psi&7 !"
+  - "pex user [player] group add Psi"
+  - "cmi maxhp set [player] 72"
+  ExpCost: 19085
+  MoneyCost: 5760
+  McMMORequirement:
+  - "power:7000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:300"
+Tau:
+  Enabled: true
+  DisplayName: "&9Moine Tau"
+  AutoRankup: true
+  RankupConfirmation: true
+  NextRanks:
+  - Omicron
+  Commands:
+  - "broadcast! &6[playerDisplayName] &7est maintenant au rang &9Moine Tau&7 !"
+  - "pex user [player] group add Tau"
+  - "cmi maxhp set [player] 76"
+  ExpCost: 22245
+  MoneyCost: 6336
+  McMMORequirement:
+  - "power:8000"
+  StatsRequirements:
+  - "MonsterKills:wither_skeleton:400"

@@ -1,0 +1,40 @@
+Bedrock:
+  Id: DIAMOND_SWORD
+  Display: '&e&lEpée en Bedrock &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Sweeping III'
+  - '&7Solidité X'
+  - '&7Recul II'
+  - '&7Vigueur II'
+  - '&cFaim I'
+  - ''
+  - '&6Rare'
+  - '&7Particules : Obscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:10
+  - SWEEPING:3
+  - KNOCKBACK:2
+  - DURABILITY:10
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1

@@ -1,0 +1,284 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&6&lAnniversaire'
+  StartingKeys: 3
+  InGUI: true
+  Slot: 2
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lClassic Chest&7.'
+  Item: '54'
+  Name: '&f&lCadeau d''Anniversaire'
+  Lore:
+    - '&7Un cadeau rempli de surprises !'
+    - '&7Vous avez &6%Keys% clés &7pour ce coffret.'
+    - '&7&l(&e&l!&7&l) Clic droit pour voir les récompenses.'
+  PhysicalKey:
+    Name: '&6&lClé Festive'
+    Lore:
+      - '&7Clé pour le cadeau festif'
+    Item: '336'
+    Glowing: True
+  Prizes:
+
+## SHIT TIER
+    1:
+      DisplayName: '&eOreilles de chat &r'
+      DisplayItem: '298'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+        - 'Item:298, Amount:1, Name:&eOreilles de chat &r'
+    2:
+      DisplayName: '&eFedora &r'
+      DisplayItem: '298'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+        - 'Item:298, Amount:1, Name:&eFedora &r'
+    3:
+      DisplayName: '&eLunettes en plastique &r'
+      DisplayItem: '298'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+        - 'Item:298, Amount:1, Name:&eLunettes en plastique &r'
+    4:
+      DisplayName: '&eCouronne fleurie &r'
+      DisplayItem: '298'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+        - 'Item:298, Amount:1, Name:&eCouronne fleurie &r'
+    5:
+      DisplayName: '&fFrites'
+      DisplayItem: '400'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Items:
+        - 'Item:400, Amount:3, Name:&fFrites'
+    5:
+      DisplayName: '&fLingot d''or'
+      DisplayItem: '266'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Items:
+        - 'Item:266, Amount:3'
+    6:
+      DisplayName: '&fPoudre de Blaze'
+      DisplayItem: '377'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Items:
+        - 'Item:377, Amount:3'
+    6:
+      DisplayName: '&a10 émeraudes'
+      DisplayItem: '388'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 28
+      Firework: false
+      Items:
+        - 'Item:388, Amount:10'
+    7:
+      DisplayName: '&dJeton de Fritegirl &r'
+      DisplayItem: '351:8'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Items:
+      Commands:
+        - 'loot give %Player% Frite'
+
+
+## UNCOMMON TIER
+
+    10:
+      DisplayName: '&eOreilles Calico &r'
+      DisplayItem: '306'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Items:
+        - 'Item:306, Amount:1, Name:&eOreilles Calico &r'
+    11:
+      DisplayName: '&eOreilles Zombie &r'
+      DisplayItem: '302'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Items:
+        - 'Item:302, Amount:1, Name:&eOreilles Zombie &r'
+    6:
+      DisplayName: '&a50 émeraudes'
+      DisplayItem: '388'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Items:
+        - 'Item:388, Amount:50'
+
+
+## RARE TIER
+    20:
+      DisplayName: '&eOreilles en or &r'
+      DisplayItem: '314'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+        - 'Item:314, Amount:1, Name:&6Oreilles en or &r'
+    21:
+      DisplayName: '&eOreilles en diamant &r'
+      DisplayItem: '310'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+        - 'Item:310, Amount:1, Name:&6Oreilles en diamant &r'
+    22:
+      DisplayName: '&eCouronne arc-en-ciel &r'
+      DisplayItem: '310'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Items:
+        - 'Item:310, Amount:1, Name:&eCouronne arc-en-ciel &r'
+    23:
+      DisplayName: '&dIchor &r'
+      DisplayItem: '353'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Items:
+        - 'Item:353, Amount:1, Name:&dIchor &r'
+    24:
+      DisplayName: '&6&lClé Divine &r'
+      DisplayItem: '318'
+      Lore:
+        - '&7Une clé pour le coffret &6Divin'
+      MaxRange: 100
+      Chance: 7
+      Firework: true
+      Messages:
+        - '&f&l>> &r&7Vous obtenez 1 clés pour le &6Coffret Divin&f !'
+      Commands:
+        - 'cc give physical Divin 1 %Player%'
+    25:
+      DisplayName: '&e&lContrat de Claim &r'
+      DisplayItem: '339'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Messages:
+        - '&f&l>> &r&7Vous obtenez un &e&lContrat de Claims&r !'
+      Commands:
+        - 'rankvouchers give %Player% Claim 1'
+    26:
+      DisplayName: '&e&lBoost XP &r'
+      DisplayItem: '339'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Messages:
+        - '&f&l>> &r&7Vous obtenez un &e&lBoost XP&r !'
+      Commands:
+        - 'rankvouchers give %Player% Booster 1'
+    # 27:
+    #   DisplayName: '&a150 émeraudes'
+    #   DisplayItem: '388'
+    #   Lore:
+    #     - ''
+    #   MaxRange: 100
+    #   Chance: 10
+    #   Firework: true
+    #   Items:
+    #     - 'Item:388, Amount:150'
+    # 28:
+    #   DisplayName: '&e&lBoost de Valeur &r'
+    #   DisplayItem: '339'
+    #   MaxRange: 100
+    #   Chance: 10
+    #   Firework: true
+    #   Messages:
+    #     - '&f&l>> &r&7Vous obtenez un &e&lBoost de Valeur&r !'
+    #   Commands:
+    #     - 'rankvouchers give %Player% Eco 1'
+## EPIC TIER
+    30:
+      DisplayName: '&6Couronne de feu &r'
+      DisplayItem: '302'
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Items:
+        - 'Item:298, Amount:1, Name:&6Couronne de feu &r'
+    # 31:
+    #   DisplayName: '&a250 émeraudes'
+    #   DisplayItem: '388'
+    #   Lore:
+    #     - ''
+    #   MaxRange: 100
+    #   Chance: 1
+    #   Firework: true
+    #   Items:
+    #     - 'Item:388, Amount:250'
+    # 32:
+    #   DisplayName: '&c100 Lingot d''or'
+    #   DisplayItem: '266'
+    #   Lore:
+    #     - ''
+    #   MaxRange: 100
+    #   Chance: 1
+    #   Firework: true
+    #   Items:
+    #     - 'Item:266, Amount:100'
+    # 33:
+    #   DisplayName: '&c100 Poudre de Blaze'
+    #   DisplayItem: '377'
+    #   Lore:
+    #     - ''
+    #   MaxRange: 100
+    #   Chance: 1
+    #   Firework: true
+    #   Items:
+    #     - 'Item:377, Amount:100'

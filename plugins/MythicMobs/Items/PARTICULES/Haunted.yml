@@ -1,0 +1,70 @@
+pSucetteArcEnCiel:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Arc-en-ciel §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteCitrouille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Citrouille §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteChorus:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Chorus §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteAtrophie:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Atrophiée §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteZombie:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Zombie §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteGold:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Dorée §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self
+pSucetteObsidienne:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9§lSucette Obsidienne §r
+  Skills:
+  - skill{s=Haunted} ~onTimer:5 @self

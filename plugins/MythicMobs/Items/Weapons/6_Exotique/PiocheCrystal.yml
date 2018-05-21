@@ -1,0 +1,37 @@
+PiocheCrystal:
+  Id: DIAMOND_PICKAXE
+  Display: '&6&lPioche Cristaline &r'
+  Lore:
+  - '&7Efficacité V'
+  - '&7Fortune III'
+  - '&7Solidité V'
+  - '&7Racommodage'
+  - '&7Divin I'
+  - ''
+  - '&6Exotique'
+  - '&7Particules : &dDivin'
+
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      # AttackSpeed:
+      # Damage: 6
+
+  Enchantments:
+  - LOOT_BONUS_BLOCKS:3
+  - DIG_SPEED:5
+  - MENDING:1
+  - DURABILITY:5
+  Skills:
+  - skill{s=Divin} ~onTimer:5 @self
+  - skill{s=EnchantFaveur} ~onTimer:20

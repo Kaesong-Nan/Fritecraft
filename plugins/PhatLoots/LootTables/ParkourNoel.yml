@@ -1,0 +1,47 @@
+ParkourNoel:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dCouronne §r
+        lore:
+        - §7Echangez ces couronnes contre
+        - §7des récompenses au marché !
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lChaussette de Noel §r
+        lore:
+        - §7Clic droit pour ouvrir pour
+        - §7obtenir une surprise !
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dFragment de Sapin §r
+    Probability: 100.0
+  Name: ParkourNoel
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

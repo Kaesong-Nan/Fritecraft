@@ -1,0 +1,24 @@
+Hasard:
+  Id: 403
+  Display: '&d&lHasard &r'
+  Lore:
+    - '&7Utilisé pour les armes légendaires.'
+
+Tablier:
+  Id: 299
+  Display: '&bTablier de serveur'
+  Lore:
+    - '&7Attention à ne rien renverser !'
+  Options:
+    Unbreakable: true
+    Repairable: true
+    RepairCost: 999
+    Color: 255,255,255
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    Chest:
+      AttackSpeed: -0.8
+      MovementSpeed: -0.50

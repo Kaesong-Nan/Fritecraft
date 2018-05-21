@@ -1,0 +1,13 @@
+&o Vous versez le contenu du seau sur la tête de l'ivrogne.
+&o L'homme pousse un cri strident de surprise avant d'agiter les bras et de frotter son front ridé.
+&2 <Ygami> &f: Par Nuggetsgirl...
+&2 <Ygami> &f: J'ai un de ces mal de crâne !
+&2 <Ygami> &f: Ouais, je bois.
+&2 <Ygami> &f: Je bois beaucoup d'ailleurs...
+&2 <Ygami> &f: Je bois depuis que j'ai découvert la vérité sur ce qu'il se passe à Irvine.
+&2 <Ygami> &f: Cette ombre terrifiante qui plâne sur la ville.
+&2 <Ygami> &f: Il fut un temps où j'appartenais à l'Ordre des moines du temple.
+&2 <Ygami> &f: Mais je l'ai quitté depuis que j'y ait découvert une présence des plus... TERRIFIANTE !
+&2 <Ygami> &f: Je ne veux plus jamais retourner là-bas.
+&2 <Ygami> &f: Maintenant, si vous pouvez bien me laisser à mes boissons.
+&2 <Ygami> &f: J'ai besoin d'oublier mon traumatisme.

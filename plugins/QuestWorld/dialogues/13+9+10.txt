@@ -1,0 +1,2 @@
+*Ce poussin est en train de machouiller quelque chose."
+/give <player> fire_charge 1 0 {display:{Name:"Truc machouillé",Lore:[Ce truc a été machouillé pendant des heures.]}}

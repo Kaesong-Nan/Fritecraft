@@ -1,0 +1,61 @@
+id: 13
+category: 4
+cooldown: -60000
+name: '&f&lHerobrine, Mineur Fantome'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §f§lHerobrine, Mineur Fantome
+    internal: H4sIAAAAAAAAAE2Qy3KbMABFlU474zD9jGw9I2EgYZkYF6MxUo3FQ9rxUIpA2B5jTOHrS3bd33PunWsAYICfp3bQ+vft8qm0XIFvQQVeEJSW49r2epM7cm1tXl/XrnTQ2nERNM3CfCtc1wDGAl3l7a5k/wxWd/n3PtxkbwAAnlbgR5LrQT4xOWGYp0iXm6gusndFmx0kcwupV1rh/GekLOiD88dUmOJa+AkW28AJOm4RPzQ5K+3Q30HBjkiwd4vMWnHzCGmaKOFFDfHjKVCjKvf4ITrdi9iuizRWVOFAZPjBz/hadLE6bPGcp9XAswiVXXIS2S+UZ1h/dVV7jMRpVJWfWNU+mUQWKnruVQzvmKnAWfYvzPjlvFT7aKTq7fFfdihSPYiUTDwV8NDZutq6UGQ1rBb/wcSt8EjD57oWLLA5i1rRxYg0SSt80hJzZ5ImnKlXt9RPauFVHUlxQ/1IcZbUxGvnkB0t3gSQsHb55Kg+M+QCsALfSd5J8Lw9bS83eVAFAP8AvzegVM4BAAA=
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0aW1lc3RhbXAiOjE0Nzk0ODc4MzgwOTIsInByb2ZpbGVJZCI6ImY4NGM2YTc5MGE0ZTQ1ZTA4NzliY2Q0OWViZDRjNGUyIiwicHJvZmlsZU5hbWUiOiJIZXJvYnJpbmUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkZDNjYzhhZTI5YTRkZmU1NjVkZGNkN2E2NjMzODhkOGVhZDdmNWJjOGRiYTVhNDkzMTQ4YjI0NTk4NGQifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    amount: 16
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: ecc64f38-becf-4cd2-be3c-7298492eb4c5
+categoryId: c5ec5678-2e3f-40ba-aaac-c7b028aff784
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 51
+  amount: 1
+  lore: ''
+  index: 0
+  type: KILL_NAMED_MOB
+  custom_string: '&f&lHerobrine'
+  timeframe: 0
+  questId: ecc64f38-becf-4cd2-be3c-7298492eb4c5
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 417.0
+    y: 46.0
+    z: 2138.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 781cf715-f1ab-47d6-8bc9-9097e57193e1
+  entity: SKELETON
+  custom_int: 0
+  exclude-spawners: false

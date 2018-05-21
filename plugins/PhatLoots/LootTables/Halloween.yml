@@ -1,0 +1,752 @@
+Halloween:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMarshmallow fantome §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBiscuit au beurre §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBonbon au chocolat §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fCervelle piquante §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBonbon chorus §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBonbon de magma §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fVer qui pique §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fVer aux fruits §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fVer cola §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fFantome chocolat §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fMini-citrouille §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSucette arthropode §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSucette zombie §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fSucette ender §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNounours orange §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNounours vert §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fNounours rouge §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ROTTEN_FLESH
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pourrie §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée noire §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée marine §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée piquante §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée dorée §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pastèque §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée spore §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée champignon §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPIDER_EYE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée empoisonnée §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée citrouille §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée incendiaire §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée sanguinaire §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BONE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée squelettique §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée cactus §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée gateau §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_FRUIT
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée chorus §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée cookie §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée coton §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée explosive §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fEcto-tarte §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée pomme §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée glaciale §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée fossile §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fDragée atrophiée §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPomme d'amour §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fPomme au caramel §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fTarte aux pommes §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fChocobat §r
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 6
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §fBiscuit au chocolat blanc §r
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: Bonbon
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Toxiques
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Maudites
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Infernales
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Noires
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Balais
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCape de Vampire §r
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eSquelytres §r
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Oculaires §r
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAiles Fantomes §r
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 5
+            MENDING: 1
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lCanne Immortelle §r
+          lore:
+          - §7Appat V
+          - §7Chance de la mer V
+          - §7Solidité V
+          - §7Raccommodage
+          - §7Vigueur IV
+          - ''
+          - §6Exotique
+          - '§7Particules : §dMaudit'
+          enchants:
+            DURABILITY: 5
+            LUCK: 5
+            LURE: 5
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy75sOvC5CuT+Y1ZGDhBQj6picUlKnPWPJy8TSyMjYHNMTe/NK/EQYEBDDgYWIJz8ksYOHITM/MyEvNSOBh44Vb4JeamMgimp+alFmUm6+UmVnikJuaUZDAzcPoXpBYllmTm50HNwKGSgVRn7X9sDAaEnSUMsyyxpCQxOTu4IDU1Bc1hjDCHYVNLstMcZIgNMRFU61wScxPTU3EFGlbFDAwAgTXUXe0BAAA=
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lCanne en Bonbon §r
+          lore:
+          - §7Appat V
+          - §7Chance de la mer V
+          - §7Solidité V
+          - §7Raccommodage
+          - §7Vigueur IV
+          - ''
+          - §6Exotique
+          - '§7Particules : §dSurnaturel'
+          enchants:
+            DURABILITY: 5
+            LUCK: 5
+            LURE: 5
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy4pE7jQuyPo7lkWBk6QkE9qYnGJwJ/pH68UqnizMbA55uaX5pU4KDCAAQcDS3BOfgkDR25iZl5GYl4KBwMv3Aq/xNxUBsH01LzUosxkvdzECo/UxJySDGYGTv+C1KLEksz8PKgZOFQykOqs/Y+NwYCws4RhliWWlCQmZwcXpKamoDmMEeYwbGpJdpqDDLEhJoJqnUtibmJ6Kq5Aw6qYgQEA91lZGe0BAAA=
+      Probability: 1.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: RABBIT_HIDE
+      Probability: 5.0
+    - ==: Item
+      BonusAmount: 19
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        amount: 45
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBonbon de maïs §r
+      Probability: 50.0
+    - ==: Item
+      BonusAmount: 22
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        amount: 23
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBonbon de maïs §r
+      Probability: 99.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBonbon de maïs §r
+      Probability: 5.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §a§lLingot Illustre §r
+      Probability: 1.0
+    LowerNumberOfLoots: 1
+    Name: Loot
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: Halloween
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

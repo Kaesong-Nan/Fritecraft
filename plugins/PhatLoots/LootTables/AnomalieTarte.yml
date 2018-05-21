@@ -1,0 +1,24 @@
+AnomalieTarte:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PUMPKIN_PIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aTarte à la Citrouille (moins une part)
+        enchants:
+          ARROW_INFINITE: 10
+    Probability: 100.0
+  Name: AnomalieTarte
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

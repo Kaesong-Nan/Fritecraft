@@ -1,0 +1,37 @@
+# 
+#  - '&8&m-----------------------'
+cfg_version: 1.0
+Item:
+  Display: '&d&l[Etoile de Pouvoir] %s'
+  Lore:
+  - '&f&fEtoile de Pouvoir'
+  - '&f&7Touche: &f%key%'
+  - '&f&7Shift: &f%shift%'
+  - '&f&7Réussite: &a&l%s%%'
+  - '%desc%'
+  - ''
+  - '&7&[Glissez sur un item pour l''améliorer]'
+  ItemFlags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  SetUnbreakable: false
+Enchant:
+  MinSuccessChance: 10
+  MaxSuccessChance: 75
+  DestroyType: CLEAR
+Effects:
+  Enabled: true
+  Failure: VILLAGER_ANGRY
+  Success: VILLAGER_HAPPY
+Sounds:
+  Enabled: true
+  Failure: BLOCK_ANVIL_DESTROY
+  Success: ENTITY_EXPERIENCE_ORB_PICKUP
+Design:
+  Header: '&8&l&m------&d&l Pouvoirs &8&l&m------'
+  EmptySlot: '&d♯ (Vide)'
+  FilledSlot: '&d⚡ Pouvoir: &f'
+  RightClick: '&7[&5Droite&7]'
+  LeftClick: '&7[&5Gauche&7]'
+  Shift: '&7[&cShift&7]'
+  Cooldown: '&7[&d%s sec.&7]'

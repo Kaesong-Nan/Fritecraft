@@ -1,0 +1,4 @@
+/playsound entity.enderman.idle master @a[r=30] 240 72 1412 2
+&7*Foin ...*
+/playsound entity.enderman.idle master @a[r=30] 240 72 1412 2
+&7*Vive le foin ...*

@@ -1,0 +1,19 @@
+&e<Spectre de Bonze> &f: Héhéhé !
+&e<Spectre de Bonze> &f: On dirait bien que vous avez réussi !
+&e<Spectre de Bonze> &f: Je sens que le mal d'Irvine s'en est allé !
+&e<Spectre de Bonze> &f: Ce n'est pas aujourd'hui que Fringirl apportera la famine !
+&e<Spectre de Bonze> &f: Félicitation ! Vous avez sauvé beaucoup de gens !
+&e<Spectre de Bonze> &f: Et vous avez levé la malédiction qui pesait sur moi !
+&e<Spectre de Bonze> &f: Je vais pouvoir m'en aller et me reposer !
+&e<Spectre de Bonze> &f: Adieu !
+&e<Spectre de Bonze> &f: ...
+&e<Spectre de Bonze> &f: ...
+&e<Spectre de Bonze> &f: C'est bon ? J'suis au paradis ?
+&e<Spectre de Bonze> &f: ?
+&e<Spectre de Bonze> &f: Y'a un truc qui cloche...
+&e<Spectre de Bonze> &f: J'suis toujours maudit ?
+&e<Spectre de Bonze> &f: Mais ?
+&e<Spectre de Bonze> &f: Mais !
+&e<Spectre de Bonze> &f: Zut...
+&e<Spectre de Bonze> &f: COMMENT CA CRAINT A MORT LA !!!!!!!!
+exit(à

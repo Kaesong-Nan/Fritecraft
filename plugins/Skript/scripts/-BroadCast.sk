@@ -1,0 +1,31 @@
+options:
+	prefix : &7&L[&C&LBroadcast&7&L]
+	ErrorNoText: "&C&LPlease, Insert a Text!"
+	NoPermission: "&C&LYou don't have Permission!"
+	version: 1.0
+
+
+command /broadcasthelp:
+	trigger:
+		if arg 1 is "help":
+			wait 10 seconds
+			message "&7&L--------------------------------"
+			message "&C&LBroadcast &A&Lby Dennys"
+			message "&7&L--------------------------------"
+			message "&A&LUsage:"
+			message "&7&L/broadcast <text> &A&LSend a message to all Player on ther server."
+			message "&7&L--------------------------------" 			
+
+command /broadcast [<text>]:
+
+	executable by: players and console
+	aliases: /b
+	trigger:
+		if player has permission "dennys.broadcast":
+			if arg 1 is set:
+				broadcast "{@prefix}&A&L %arg 1%"
+				stop
+			else:
+				message "{@prefix}&C&LPlease, Insert a Text!" to player
+		else:
+			message "{@prefix}&C&LYou don't have Permission!" to player

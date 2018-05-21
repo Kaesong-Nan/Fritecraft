@@ -1,0 +1,103 @@
+BossNecro:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lCramoisi §r
+          lore:
+          - §7Puissance V
+          - §7Frappe I
+          - §7Infinité
+          - §7Solidité III
+          - §7Racommodage
+          - §7Vigueur II
+          - §f
+          - §6Exotique
+          - §7Particules :§d Maudit
+          enchants:
+            DURABILITY: 3
+            ARROW_DAMAGE: 6
+            ARROW_KNOCKBACK: 1
+            ARROW_INFINITE: 1
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy4RZj29Pb6mX5OFgRMk5JOaWFyi2/pXMuDVQzM2BjbH3PzSvBIHAQYw4GBgCc7JL2HgyE3MzMtIzEvhYOCFW+GXmJvKIJiempdalJmsl5tY4ZGamFOSwczA6V+QWpRYkpmfBzUDh0oGBgCCQRqBtQAAAA==
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 8
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      amount: 13
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossNecro
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

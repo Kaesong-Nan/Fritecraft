@@ -1,0 +1,24 @@
+Imhotep:
+  MobName: Imhotep
+  World: Bouquenia
+  X: -6
+  Y: 16
+  Z: 870
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 300
+  CooldownTimer: 0
+  Warmup: 30
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

@@ -1,0 +1,40 @@
+Anathema:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&4&lAnathema &r'
+  Lore:
+
+  - '&7Tranchant XXV'
+  - '&7Solidité III'
+  - '&7Vampirisme I'
+  - '&7Armure II'
+  - '&cLenteur I'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dMaudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+      Armor: 4
+      # Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:25
+  - DURABILITY:3
+
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=EnchantVampirisme} ~onAttack 1

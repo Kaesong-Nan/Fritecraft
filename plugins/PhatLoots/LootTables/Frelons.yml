@@ -1,0 +1,32 @@
+Frelons:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: Bière des frelons
+        lore:
+        - Les frelons bourdonnent encore dedans
+        potion-type: minecraft:water
+        custom-effects:
+        - ==: PotionEffect
+          effect: 25
+          duration: 3600
+          amplifier: 0
+          ambient: true
+          has-particles: false
+    Probability: 100.0
+  Name: Frelons
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

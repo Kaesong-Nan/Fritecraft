@@ -1,0 +1,7 @@
+&d<Vincent> &f: Aaaaah !
+&d<Vincent> &f: Un vrai régal !
+&d<Vincent> &f: Bon, tu veux apprendre à utiliser les coffres ?
+&d<Vincent> &f: Premièrement, il va falloir l'assembler.
+&d<Vincent> &f: Non, les coffres que j'ai ne sont pas à vendre.
+&d<Vincent> &f: Il faudra donc de l'obsidienne, des perles, et un enchantement particulier.
+&d<Vincent> &f: Oh, et ... euh ... quelques autre chorus ... pas pour moi, c'est pour le coffre.

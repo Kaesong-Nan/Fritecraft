@@ -1,0 +1,57 @@
+id: 12
+category: 8
+cooldown: 43200000
+name: '&fPastèques'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: MELON
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fPastèques
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 0cc3caed-4d30-40db-b1b9-7c6f01db2a59
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+  amount: 128
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 0cc3caed-4d30-40db-b1b9-7c6f01db2a59
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 510.0
+    y: 79.0
+    z: 718.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: b9da6ba5-6b96-4a07-a7aa-8964ad30b0b4
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

@@ -1,0 +1,30 @@
+pEclipse:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lEclipse §r
+  Skills:
+  - skill{s=Etrange} ~onTimer:5 @self
+pEclipse:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLame Prismarine §r
+  Skills:
+  - skill{s=Etrange} ~onTimer:5 @self
+pLunaire:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLame Lunaire §r
+  Skills:
+  - skill{s=Etrange} ~onTimer:5 @self

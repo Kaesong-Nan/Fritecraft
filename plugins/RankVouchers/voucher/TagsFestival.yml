@@ -1,0 +1,44 @@
+voucher:
+  item:
+    item: NAME_TAG
+    name: '&7Tags du &6&lFestival'
+    lore:
+    - '&7Clic droit pour déverouiller'
+    - '&7ces titres dans le menu :'
+    - ''
+    - '&7[&aJoueur&7]&f'
+    - '&7[&9Circle Pit&7]&f'
+    - '&7[&2MoshPit&7]&f'
+    - '&7[&cSlammer&7]&f'
+    - '&7[&e☀ Bronzé ☀&7]&f'
+    - '&7[&9Kammthaar&7]&f'
+    - '&7[&fEvier Metal&7]&f'
+    - '&7[&bSurfer&7]&f'
+    - '&7[&e☀ Kéké ☀&7]&f'
+    - '&7[&e☀ Apéro ☀&7]&f'
+    - '&7[&6Barbecue&7]&f'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Message] '
+        - '[Message] &e&l>> &7&oLes titres du &6&o&lFestival 2017 &7&osont maintenant disponnible
+          !'
+        - '[Message] '
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Joueur'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.CirclePit'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.MoshPit'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Slammer'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Apero'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Bronze'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Kammthaar'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.EvierMetal'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Surfer'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Keke'
+        - '[ConsoleCommand] pex user %player% add deluxetags.tag.Barbecue'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

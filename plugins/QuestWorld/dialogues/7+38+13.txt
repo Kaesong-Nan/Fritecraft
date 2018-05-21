@@ -1,0 +1,7 @@
+§9<Lazarus> §f: Mais ...
+§9<Lazarus> §f: C'est quoi ce truc !
+§9<Lazarus> §f: C'est pas ça du tout qu'il faut !
+§9<Lazarus> §f: Un flacon de catalyse cyclique de phase !
+§7*gribouille une note*
+/give <player> paper 1 name:&dNote lore:Flacon_de_catalyse_cyclique_de_phase
+§9<Lazarus> §f: Montrez lui ça.

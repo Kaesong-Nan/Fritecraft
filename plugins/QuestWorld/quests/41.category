@@ -1,0 +1,21 @@
+id: 41
+name: '&d&lE&a&lv&e&le&f&ln&d&lt &e&l: &a&lP&f&lâ&d&lq&e&lu&a&le&f&ls'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§d§lE§a§lv§e§le§f§ln§d§lt §e§l: §a§lP§f§lâ§d§lq§e§lu§a§le§f§ls'
+    lore:
+    - §8Decoration
+    internal: H4sIAAAAAAAAAE2LwW6CQBRFX5s2QdLP6JYEnQFl4aJRo2NkpgKisGNgEHBGDUIjfFc/sCy7ujk55+oAOnz4l1bK7/qWl1Jo8Eoy+JxNsTNDpmVgC2ED22NuJDjnhrAcnDs845Ms00EfTndRN6V4jEBrxLNpa/HQAeBFg/cwka2AX9FtzfhUmNlpK9OO2AMHvikZqe5Tcg07viA2UYPffNm7zvnXWk1ytGSEtkV83bdcheYOeVJsvHGqDj9sSSu3Cgs6WT3Z8vxkQVy6wRm5QdrRylOxOmC3z6oocE22por2KysOzt2wiB3DS9R7Je2LKlK0ZGsXxes9Jtexk+/ncwAN3miiBIwW/uJWi13JAf4AEt/cai4BAAA=
+    skull-owner: CSCoreLib
+permission: ''
+hidden: true
+world-blacklist: []
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjMjVhN2ExODgxOTZiMTg3MTcyNjRmZmU4MzdjYTM0OGNmNzE5ZTgyNzE3OWVkYzRiNzhjYmNiOGM3ZGQ4In19fQ==
+  custom-skullOwner: CSCoreLib
+uniqueId: ff3d8824-ae43-4705-a423-409bf4e01f6a

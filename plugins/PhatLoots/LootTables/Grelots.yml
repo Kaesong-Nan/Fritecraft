@@ -1,0 +1,142 @@
+Grelots:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dGrelots §r
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dCouronne §r
+        lore:
+        - §7Echangez ces couronnes contre
+        - §7des récompenses au marché !
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lChaussette de Noel §r
+        lore:
+        - §7Clic droit pour ouvrir pour
+        - §7obtenir une surprise !
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_INGOT
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 1
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bFaveur fossile §r
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FEATHER
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 4
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: QUARTZ
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_CARROT
+      amount: 4
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      amount: 4
+    Probability: 100.0
+  Name: Grelots
+  Reset:
+    Hours: 0
+    Days: 7
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

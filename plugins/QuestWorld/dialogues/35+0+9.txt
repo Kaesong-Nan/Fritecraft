@@ -1,0 +1,10 @@
+§9<Pyro> §f: Oh la belle bleue !
+§9<Pyro> §f: Qu'est-ce que tu penses des feux d'artifice, <player> ?
+§9<Pyro> §f: C'est genial n'est-ce pas ?
+§9<Pyro> §f: Mais créer un stand de tir peut etre un peu ennuyant ...
+§9<Pyro> §f: Du coup, j'ai pensé à autre chose ...
+§9<Pyro> §f: Comme dans ma jeunesse, j'étais très habile à l'arc,
+§9<Pyro> §f: je me suis dit, "tiens, et si je tirais une fusée avec mon arc ?".
+§9<Pyro> §f: Et oh que c'était drole !
+§9<Pyro> §f: Je peux te montrer comment faire si tu veux !
+§9<Pyro> §f: Faut juste que tu m'apportes quelques trucs.

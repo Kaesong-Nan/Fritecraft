@@ -1,0 +1,14 @@
+&f&e<Gérard> &f: Bonjour !
+&f&e<Gérard> &f: Voudriez-vous profiter de notre Menu Steak-Frites ?
+&f&e<Gérard> &f: Pour seulement 10 émeraudes ! C'est donné !
+&f&e<Gérard> &f: Et boisson incluse !
+&f&e<Gérard> &f: Hein ? Votre livre de quête vous indique que j'ai une quête à donner ?
+&f&e<Gérard> &f: C'est bizarre ça, faites voir deux secondes ?
+&f&e<Gérard> &f: Ah ouais ...
+&f&e<Gérard> &f: Maintenant que vous le dites ...
+&f&e<Gérard> &f: Depuis ce menu Steak-Frites, j'ai une tonne de services à faire ...
+&f&e<Gérard> &f: Vous pourriez peut-être me soulager de quelques commandes ...
+&f&e<Gérard> &f: Tenez, enfilez ce tablier, et aller servir ces pauvres gens !
+&f&e<Gérard> &f: Vous les faites attendres, les malheureux !
+/mm i give <player> Tablier
+/give <player> baked_potato 5 name:&fFrites

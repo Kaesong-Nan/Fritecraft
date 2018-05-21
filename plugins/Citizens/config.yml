@@ -1,0 +1,96 @@
+# Citizens Configuration
+
+npc:
+  chat:
+    options:
+      bystanders-hear-targeted-chat: false
+      max-number-of-targets-to-show: 0
+      multiple-targets-format: <target>|, <target>| & <target>| & others
+      range: 0
+      max-text-range: 0
+    format:
+      no-targets: '[<npc>]: <text>'
+      with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
+      to-target: '[<npc>] -> You: <text>'
+      with-targets-to-bystanders: '[<npc>] -> [<targets>]: <text>'
+  default:
+    look-close:
+      enabled: true
+      range: 3
+    pathfinding:
+      range: 0.0
+    random-talker: false
+    realistic-looking: false
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+    text:
+      '0': Hi, I'm <npc>!
+  limits:
+    default-limit: 10
+    max-permission-checks: 100
+    max-speed: 100
+    max-packet-entries: 15
+  chunks:
+    always-keep-loaded: false
+  pathfinding:
+    attack-range: 0.0
+    use-new-finder: false
+    new-finder-open-doors: false
+    update-path-rate: 0
+    default-distance-margin: 0
+  selection:
+    quick-select: false
+    item: '280'
+    message: <b>You selected <a><npc><b>!
+  player:
+    remove-from-list: true
+  server-ownership: false
+  text:
+    max-talk-cooldown: 5
+    min-talk-cooldown: 10
+    talk-item: '340'
+  controllable:
+    use-boat-controls: true
+  skins:
+    max-retries: 3
+    retry-delay: 120
+    rotation-update-degrees: 90.0
+    use-latest: false
+    view-distance: 100.0
+  packets:
+    update-delay: 200
+  tablist:
+    disable: true
+  player-scoreboard-teams:
+    enable: true
+  teleport-delay: -1
+advanced:
+  check-minecraft-version: true
+storage:
+  database:
+    driver: ''
+    password: ''
+    url: ''
+    username: ''
+  save-task:
+    delay: 72000
+  file: saves.yml
+  type: yaml
+general:
+  debug-mode: false
+  debug-pathfinding: true
+  color-scheme:
+    message-highlight: <e>
+    message: <a>
+  translation:
+    locale: ''
+  debug-file: ''
+  authlib:
+    profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+economy:
+  npc:
+    cost: 100.0
+subplugins:
+  folder: plugins

@@ -1,0 +1,19 @@
+voucher:
+  item:
+    item: LEATHER
+    name: '&4&lSac Anormal &r'
+    lore:
+    - '&7Clic droit pour ouvrir pour'
+    - '&7obtenir une arme de qualité'
+    - '&4anormale&7 aléatoire.'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Anormal'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

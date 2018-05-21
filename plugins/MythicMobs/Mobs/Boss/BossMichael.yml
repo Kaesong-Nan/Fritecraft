@@ -1,0 +1,69 @@
+Michael:
+  Type: WITHER_SKELETON
+  Display: '&5&lMichael'
+  Disguise:
+    Type: enderman
+    Player: '5&lMichael'
+  Health: 1000
+  Damage: 12
+  Drops:
+  - BagHierophante
+  BossBar:
+    Enabled: true
+    Title: '&5&lMichael'
+    Range: 40
+    Color: PURPLE
+    Style: SEGMENTED_10
+  Skills:
+  - sound{s=music.game.end;v=8;p=0.8} @self ~onSpawn
+  - skill{s=DarkSpawn} @Self ~onSpawn
+  - skill{s=DarkScream} @Target ~onTimer:200 0.8
+  - skill{s=Darkness} @Target ~onTimer:300 1
+  - skill{s=DarkDamaged} @Self ~onDamaged
+  - skill{s=DarkHeal1} @self ~onTimer:2000 <80%
+  # - skill{s=DarkHeal2} @self ~onDamaged 1 <40%
+  # - skill{s=DarkHeal3} @self ~onDamaged 1 <20%
+  - effect:particles{particle=witchMagic;amount=20;hS=0.5;vS=0.5;speed=0} @self ~onTimer:20 1
+  - effect:particles{particle=portal;amount=10;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  - effect:particles{particle=smoke;amount=1;hS=0.5;vS=0.4;speed=0} @self ~onTimer:30 1
+  - summon{mob=DarkEnd;amount=1;noise=5} @Self ~onDeath 1
+  DamageModifiers:
+  - WITHER 2
+  - LAVA 0
+  - FIRE 0
+  - MAGIC 5
+  - THORNS 0
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 10
+    FollowRange: 200
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 opendoors
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 3 attacker
+
+DarkEnd:
+  Type: ARMOR_STAND
+  Skills:
+  - skill{s=DarkEnd} @Self ~onSpawn
+  Options:
+    Invisible: true
+    Marker: true
+    Small: true
+    HasGravity: false
+
+MarkerStand:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Invisible: true
+    HasGravity: false #If you want players to be frozen whether they're in the air or not, keep this at false. However, if you have something that kicks players for flying, I'd suggest putting this to true.
+  Skills:
+  - forcepull @p[r=2,c=1] ~onTimer:1
+  # - Skill{s=dremove} ~onSpawn 1

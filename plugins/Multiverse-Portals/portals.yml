@@ -1,0 +1,45 @@
+portals:
+  Spawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Ventouz
+    location: 537.0,32.0,30.0:537.0,35.0,34.0
+    world: HUB
+    destination: e:Bouquenia:272.91800946511626,68.0,919.3411520200167:2.2265053:0.14129399
+  momie2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Ventouz
+    location: -7.0,16.0,846.0:-5.0,18.0,846.0
+    world: Bouquenia
+    destination: e:Bouquenia:-6.642890568655268,63.0,848.6469855323969:-2.6323538:-1.0237406
+  momie1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Ventouz
+    location: -8.0,63.0,843.0:-6.0,65.0,843.0
+    world: Bouquenia
+    destination: e:Bouquenia:-5.600778851744452,16.0,849.5051258920191:-1.4624577:-0.14638758
+  Pitman:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Ventouz
+    location: 252.0,65.0,928.0:252.0,68.0,931.0
+    world: Bouquenia
+    destination: e:Pitman:-740.2685610403544,56.0,447.509504362038:0.94636345:-269.6968

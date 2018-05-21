@@ -1,0 +1,76 @@
+# 
+# Name: Slimefun
+# Author: The Slimefun 4 Development Team
+# 
+# Do not modify the Config while the Server is running
+# otherwise bad things might happen!
+# 
+# This Plugin also requires CS-CoreLib to run!
+# If you don't have it installed already, its going to be
+# automatically installed for you
+# 
+# This Plugin utilises an Auto-Updater. If you want to turn that off,
+# simply set options -> auto-update to false
+options:
+  auto-update: false
+  armor-update-interval: 10
+  give-guide-on-first-join: false
+  print-out-loading: false
+  enable-armor-effects: false
+  prefix: '&a&lSlimefun &7>'
+  auto-save-delay-in-minutes: 30
+  show-vanilla-recipes-in-guide: true
+  allow-free-creative-research: true
+  emerald-enchantment-limit: 2
+  research-fireworks: true
+guide:
+  default-view-book: true
+URID:
+  info-delay: 3000
+  custom-ticker-delay: 12
+  enable-tickers: true
+items:
+  talismans: false
+  coolers: false
+  backpacks: false
+research-ranks:
+- Chicken
+- Cow
+- Spider
+- Villager
+- Beginner
+- Clumsy Student
+- Unskilled Student
+- Incompetent Student
+- Student
+- Clumsy Apprentice
+- Apprentice
+- Skilled Apprentice
+- Upcoming Mage
+- Excellent Mage
+- Young Magician
+- Incompetent Magician
+- Common Magician
+- Magician
+- Proficient Magician
+- Skilled Magician
+- Accustomed Magician
+- Great Magician
+- Clumsy Wizard
+- Wizard
+- Common Wizard
+- Skilled Wizard
+- Great Wizard
+- Impressive Wizard
+- Young Master
+- Clumsy Master
+- Upcoming Master
+- Competent Master
+- Master
+- Skilled Master
+- Excellent Master
+- Great Master
+- Proficient Master
+- The chosen One
+machines:
+  enhanced-furnaces: false

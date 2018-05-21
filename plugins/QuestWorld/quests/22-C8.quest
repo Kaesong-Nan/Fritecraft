@@ -1,0 +1,62 @@
+id: 22
+category: 8
+cooldown: 43200000
+name: '&fPotions d''Invisibilité'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: §fPotions d'Invisibilité
+    potion-type: minecraft:long_invisibility
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bCristal §r
+permission: ''
+disable-parties: true
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: 7d8a33c4-87a0-46e9-af08-7461cfb9309b
+categoryId: 50bdfae7-7e82-4925-87e0-6f75f48681af
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_invisibility
+  amount: 9
+  lore: ''
+  index: 0
+  type: SUBMIT
+  custom_string: ''
+  timeframe: 0
+  questId: 7d8a33c4-87a0-46e9-af08-7461cfb9309b
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 282.0
+    y: 65.0
+    z: 1048.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 7411c369-85c4-4ccc-b48f-e0b135018d8d
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false

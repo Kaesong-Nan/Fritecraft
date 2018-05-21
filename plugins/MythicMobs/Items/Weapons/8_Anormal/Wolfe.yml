@@ -1,0 +1,44 @@
+Wolfe:
+  Id: DIAMOND_SWORD
+  Display: '&4&lEpée de Wolfe &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Chance II'
+  - '&7Egide'
+  - '&cLenteur I'
+  - '&cFaim'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : Obscur'
+  - '&7&oPassifs secrets'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+      Armor: 2
+      Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - LOOT_BONUS_MOBS:2
+  - SWEEPING:3
+  - DURABILITY:5
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=FirstStrike} ~onAttack 1
+  - skill{s=Wolfe} ~onTimer:20 1

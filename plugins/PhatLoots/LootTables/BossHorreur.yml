@@ -1,0 +1,105 @@
+BossHorreur:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lBen Sahar §r
+          lore:
+          - §7Tranchant XV
+          - §7Châtiment I
+          - §7Sweeping III
+          - §7Recul I
+          - §7Solidité V
+          - §7Raccommodage
+          - §7Esquive
+          - ''
+          - §6Exotique
+          - '§7Particules : §dObscur'
+          enchants:
+            DAMAGE_ALL: 15
+            DAMAGE_UNDEAD: 1
+            KNOCKBACK: 1
+            DURABILITY: 5
+            MENDING: 1
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy7hZD8UePHriqUsDJwgIZ/UxOKSzEurNTYnpKSyMbA55uaX5pXYHzYGAw4GluCc/BIGjtzEzLyMxLwUDgZeuBV+ibmpDKLpqXmpRZnJern5Zam5qXklwQWpqSnMDJz+BalFiSWZ+XlA+xmB5uBRzUCq8/Y/JtZ5wjALE0tKEpOz8ToOm1qSneYgwwAGhJ0mgmqdS2JuYnoqmtsYYG7DqpiBAQDNhUgp9QEAAA==
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 32
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 4
+      amount: 32
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossHorreur
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

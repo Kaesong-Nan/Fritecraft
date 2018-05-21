@@ -1,0 +1,202 @@
+id: 12
+category: 13
+cooldown: -60000
+name: Retour sur investissement
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: EMERALD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Retour sur investissement
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §dOeuf Sacré de Poulard
+      lore:
+      - §fL'un des 5 oeufs sacrés de Poulard
+      - §fIl est très fragile.
+      internal: H4sIAAAAAAAAAE2LzW6CQBgAvzZtgqSP0SsJv6scPDRC4hpZqgLrcoN1DdBFDULr8lx9wHLscTIzOoAOb4evQcrP7nqupdDgGZ/gvZw7JUL+2bDmnBsuR4XhW8I10IL79sL1rAW3ddCn6Sa6vhb3GWi9ePRDJ+46ADxp8JoVchDwK9TGzI+VeTpuJFcYTZwcTBnj5jbHl0yVK4xwO/n1B9oq/1/r9QX1JHM2VX7ZDWWbmVtnL8V6b/E2/SYJU3GQjhHNakLZz8ReTvdVnoQ2G6uKBESyBqucZk3enJooSVU0ZnUcRBaj6YMEoclGbMeUVHkQKmaHDr5Y/nm3XAJo8EKKVsBsdVhdO7GtS4A/oJkYci4BAAA=
+      skull-owner: CSCoreLib
+  - null
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 100
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Allez parler au Sans-Abris
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 70.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dac80651-6066-455d-b5df-a16569e7680f
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+  amount: 100
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Apportez 100 emeraudes au clochard
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 70.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 0b89e040-eaad-4d65-b318-03d5563c6794
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+  amount: 200
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Apportez 200 emeraudes au clochard !
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 70.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: dba1cdef-09d6-4290-a08f-0b9032f7f13a
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+  amount: 500
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Apportez 500 emeraudes au clochard !!!
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 70.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 54059b7d-1a70-4875-a730-a8731ab5f45f
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  amount: 1
+  lore: ''
+  index: 4
+  type: KILL
+  custom_string: ''
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Aller zigouiller un zombie pour passer le temps
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 70.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 93459832-2845-42d0-9ea8-6bee0058786a
+  entity: ZOMBIE
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 5
+  type: CITIZENS_INTERACT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Retournez voir le clochard
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 71.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 187222f0-c29c-4781-99c2-02649f3d98f7
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+  amount: 1
+  lore: ''
+  index: 6
+  type: CITIZENS_SUBMIT
+  custom_string: Sans Abris
+  timeframe: 0
+  questId: 80b235cc-665a-45c3-97a3-5d90f7e27729
+  reset-on-death: false
+  display-name: Filez une emeraude au clochard...
+  location:
+    world: Bouquenia
+    x: -840.0
+    y: 71.0
+    z: 1789.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f32fd5de-d759-4714-99ce-b345faf95b28
+  entity: PLAYER
+  custom_int: 183
+  exclude-spawners: false

@@ -1,0 +1,19 @@
+voucher:
+  item:
+    item: FLINT
+    name: '&b&lSac Enchanté &r'
+    lore:
+    - '&7Clic droit pour ouvrir pour'
+    - '&7obtenir 1 Livre d''enchantement'
+    - '&7de rang maximum aléatoire.'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Enchantements'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

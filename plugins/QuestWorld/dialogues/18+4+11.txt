@@ -1,0 +1,17 @@
+&9<Galien> &f: Bon, je pense avoir appris quelques trucs.
+&9<Galien> &f: Si ce que Demany dit est vrai à propos d'une autre dimension ...
+&9<Galien> &f: Alors il se pourrait que ce monde ressemble à la corruption à coté de la structure.
+&9<Galien> &f: Et je pense que du coup, il se peut que ce monde soit ... comment dire ?
+&9<Galien> &f: Très chaud.
+&9<Galien> &f: Parce que la lave, pour rappel, dégage une forte chaleur.
+&9<Galien> &f: Je ne vais pas vous mentir, je compte vous envoyer visiter ce monde pour nous.
+&9<Galien> &f: Mais pas n'importe comment.
+&9<Galien> &f: On tient à ce que vous revenez en vie ... Pour votre rapport, bien sur.
+&9<Galien> &f: Du coup, il vous faudra une protection.
+&9<Galien> &f: Quelque chose pour vous proteger de cette chaleur probablement mortelle.
+&9<Galien> &f: Je pense que vous devriez voir un collègue à moi, Holmback.
+&9<Galien> &f: Il travaille sur la plate-forme pétrolière.
+&9<Galien> &f: Rendez-lui visite, et dites lui qu'il vous faut un &dCompensateur thermique?&.
+&9<Galien> &f: Que c'est littéralement une question de vie ou de mort.
+&9<Galien> &f: Surtout pour vous.
+&e&l>> &r&7Parlez à Holmback sur la plateforme pétrolière.

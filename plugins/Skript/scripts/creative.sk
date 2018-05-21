@@ -1,0 +1,181 @@
+on portal create:
+    cancel event
+
+on player droping:
+    player's gamemode is creative:
+        player is in world "Bouquenia":
+            message "Ou pas."
+            cancel event
+on command:
+    command is "money"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "ah"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "town"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "ce"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "customec"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "sell"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "quests"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on command:
+    command is "ec"
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on right click on chest:
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+
+on right click:
+    id of block is 130
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right clicking on ender chest:
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on place ender chest:
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+clicked block is ender chest:
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event  
+    
+#SHULKER    
+on right click:
+    id of block is 219
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event
+on right click:
+    id of block is 220
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event       
+on right click:
+    id of block is 221
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 222
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 223
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 224
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 225
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 226
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 227
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 228
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 229
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 230
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 231
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 232
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 233
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event    
+on right click:
+    id of block is 234
+    player's gamemode is creative
+    player does not have the permission "permission.creative"
+    message "Ou pas."
+    cancel event     

@@ -1,0 +1,22 @@
+sapin:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fFragment de sapin §r
+    Probability: 100.0
+  Name: sapin
+  Reset:
+    Hours: 1
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

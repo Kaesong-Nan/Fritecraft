@@ -1,0 +1,3 @@
+on projectile hit:
+    projectile is a snowball
+    create fake explosion

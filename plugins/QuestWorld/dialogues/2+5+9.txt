@@ -1,0 +1,16 @@
+&c<Steve Le Pirate> &f: Yarr !
+&c<Steve Le Pirate> &f: Tu es sur le navire de Steve le pirate !
+&c<Steve Le Pirate> &f: Celui qu'on surnome "barbe invisible", yarr !
+&c<Steve Le Pirate> &f: Oui bon, c'est pas hyper classe, j'avoue ... yarr.
+&c<Steve Le Pirate> &f: Je viens récuperer mon trésor, arrr !
+&c<Steve Le Pirate> &f: Maintenant que tu es sur mon bâtiment, tu es à mes ordres, jeune corsaire !
+&c<Steve Le Pirate> &f: Hahaha !
+&c<Steve Le Pirate> &f: Alors va récuperer mon butin !
+&c<Steve Le Pirate> &f: Si tu fais ton travail correctement ...
+&c<Steve Le Pirate> &f: Hmm ...
+&c<Steve Le Pirate> &f: Je te donnerai peut être ... une &créserve de coeur&f ...
+&c<Steve Le Pirate> &f: Pendant ce temps, je vais essayer de trouver une bouteille de jus de kiwi.
+&c<Steve Le Pirate> &f: J'aime pas particulièrement le rhum, ça arrive chez les pirates...
+&e&l>> &r&7Des coffres sont dissimulés un peu partout sur Bouquenia, environ 30.
+&e&l>> &r&7Chaque coffre peut être ouvert une fois par jour par joueur.
+&e&l>> &r&7Il est possible d'échanger les pièces avec d'autres joueurs si nécessaire.

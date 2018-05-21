@@ -1,0 +1,25 @@
+BouleVerte:
+  SpawnerGroup: Boules
+  MobName: BouleVerte
+  World: Bouquenia
+  X: 1207
+  Y: 70
+  Z: 549
+  Radius: 20
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 5
+  CooldownTimer: 0
+  Warmup: 5
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 50
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

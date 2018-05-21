@@ -1,0 +1,3 @@
+&a&lVous pouvez télécharger le pack de ressources du serveur depuis cette page :
+&d&l http://www.fritecraft.fr/index.php/pack-2/
+&a&lN'oubliez pas d'installer &d&lOptifine &a&lpour profiter de tout ce que ce pack propose !

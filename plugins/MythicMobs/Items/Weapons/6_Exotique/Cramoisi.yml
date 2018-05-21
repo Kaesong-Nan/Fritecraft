@@ -1,0 +1,47 @@
+Cramoisi:
+  Id: BOW
+  Display: '&6&lCramoisi &r'
+  Lore:
+  - '&7Puissance V'
+  - '&7Frappe I'
+  - '&7Infinité'
+  - '&7Solidité III'
+  - '&7Racommodage'
+  - '&7Vigueur II'
+  - '&f'
+  - '&6Exotique'
+  - '&7Particules :&d Maudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      # MovementSpeed: 0.10-0.15
+      # AttackSpeed:
+      # Armor:
+      # Damage:
+      Health: 4
+      # Luck:
+
+  Enchantments:
+  - ARROW_DAMAGE:6
+  - ARROW_KNOCKBACK:1
+  - ARROW_INFINITE:1
+  - MENDING:1
+  - DURABILITY:3
+  # - DAMAGE_ARTHROPODS:1
+  # - DAMAGE_UNDEAD:1
+  # - DURABILITY:10
+  # - LOOT_BONUS_MOBS:1
+  # - SWEEPING:3
+  # - MENDING:1
+  # - KNOCKBACK:20
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self

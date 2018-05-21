@@ -1,0 +1,39 @@
+AnomalieChoco:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §dChocolat
+        lore:
+        - §7Utilisé pour les armes légendaires.
+        internal: H4sIAAAAAAAAAE2PzW6CQBhFvzZpYkkfo1sSEBBYuGiL1TE6FOTHmR0MQ3WYsUahBZ+rD1iWXd6ccxZXA9Dgadd0Un5cvuqj5BO4RxU886Kw3dKsdFY6rm57zNOL2rJ0Vtt15Xvu1LJNDbQxOvNLe+TXR5i0vG+7C79qAHA3gYeskB2HXz6sDbo/GNV+LdmAZuNOdoYMkTi76JQN5RuaITXy1ctsM/j/XKctckcSa32gp6grVWZsrFjyVWwylX6HwcKhojHCZdTjG+vD5XtDcixxHjdYpT84eRU4+ZxuBXKwSG9UZQqLyKQB67cJPpCxpcHCIoLcwhwLHJApOpl+Hc3n4wP4A66zlIccAQAA
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dJeton de Fringirl §r
+        enchants:
+          LOOT_BONUS_BLOCKS: 2
+    Probability: 100.0
+  Name: AnomalieChoco
+  Reset:
+    Hours: 22
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,23 @@
+name: end
+displayname: '&8&l[&b&m=---=&8&l> &f&lEnd &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &6{cost}'
+- ''
+- '&eAccès rapie à l''End'
+- '&cDragon'
+- '&7Ressources'
+- '&7Reset périodique'
+- ''
+- '&7Requiert d''avoir accès à l''End'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 10.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: ENDER_STONE
+data: 0
+location: Bouquenia_the_end<>5.42013499205055<>62.0<>-77.003381657414138317<>-0.118022<>-0.14623022
+slot: 35

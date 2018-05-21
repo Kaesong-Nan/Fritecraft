@@ -1,0 +1,32 @@
+voucher:
+  item:
+    item: NETHER_BRICK_ITEM 
+    name: '&e&lBourse du Festival &r'
+    lore:
+    - '&7Clic droit pour ouvrir pour'
+    - '&7obtenir un loot aléatoire :'
+    - ''
+    - '&f- Oeuf de Perroquet'
+    - '&f- Potion de Resistance au feu'
+    - '&f- Fusées de feu d''artifice x10'
+    - '&b- Flacons d''expérience x10'
+    - '&b- Disque de musique'
+    - '&b- Paquet de Glaces'
+    - '&e- Cape de Lune'
+    - '&e- Cape d''Eclipse'
+    - '&a- Elytres de Lune'
+    - '&a- Elytres d''Eclipse'
+    - '&a- Sac de Skins'
+    - '&a- Jetons de jeu'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[ConsoleCommand] loot give %player% Festival'
+        - '[ConsoleCommand] playsound minecraft:entity.llama.chest master %player% ~ ~ ~ 1 1 1'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

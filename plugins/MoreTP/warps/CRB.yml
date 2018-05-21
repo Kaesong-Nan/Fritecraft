@@ -1,0 +1,19 @@
+name: CRB
+displayname: '&8&l[&b&m=---=&8&l> &f&lCentre de Recherches &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&dQuêtes CRB'
+- '&7Table à enchantements'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: STAINED_CLAY
+data: 8
+location: Bouquenia<>608.4023268140835<>70.0<>984.9309646084452<>18.896456<>-132.21375
+slot: 22

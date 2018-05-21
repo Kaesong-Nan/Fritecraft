@@ -1,0 +1,9 @@
+&f&e<Ron> &f : Bonjour. Combien de chambres ?
+&f&e<Ron> &f : Ok... A quel nom ?
+&f&e<Ron> &f : Jack ? C'est noté. Pour combien de temps ?
+&f&e<Ron> &f : Un an ? C'est long dis donc ! Mais bon, tant que vous payez...
+&f&e<Ron> &f : C'est amusant, il y a beaucoup de gens en ville qui reçoivent la visite d'un certain Jack qui...
+&f*Il commence à comprendre.*
+&f&e<Ron> &f : En fait... Je viens d'etre maudit... C'est ça ?
+&f&e<Ron> &f : ...
+&f&e<Ron> &f : PU**** DE BO**** DE ME*** !!! FOUTTEZ LE CAMP DE MON HOTEL !

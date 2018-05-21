@@ -1,0 +1,10 @@
+&b<Tuteur> &f: Le serveur dispose de 3 packs de ressources.
+&b<Tuteur> &f: Le premier fait réellement vivre le serveur, avec des items uniques.
+&b<Tuteur> &f: Il est obligatoire de l'avoir pour profiter du serveur.
+&b<Tuteur> &f: L'installation est simple, puisqu'il est proposé au téléchargement à la connexion.
+&b<Tuteur> &f: Cependant, il est nécessaire d'avoir le mod Optifine d'installé.
+&b<Tuteur> &f: Si vous ne savez pas comment faire, visitez la page "Pack" sur le site.
+&b<Tuteur> &f: Un tutoriel avec images vous guidera dans les étapes à suivre.
+&b<Tuteur> &f: C'est aussi là que vous trouverez les deux autres packs optionnels.
+&b<Tuteur> &f: L'un apporte des textures de blocs, et l'autres des sons d'ambiance sympa.
+&b<Tuteur> &f: Le pack des blocs peut être lourd, mais le pack de son n'exige pas de PC puissant.

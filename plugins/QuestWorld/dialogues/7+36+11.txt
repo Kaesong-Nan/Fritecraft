@@ -1,0 +1,8 @@
+§9<Penfield> §f: Ah, c'est vous encore !
+§9<Penfield> §f: Alors, vous avez fait un peu le tour de l'équipe ?
+§9<Penfield> §f: Oh, vous avez besoin d'équipement ?
+§9<Penfield> §f: Hmm, oui, je pense qu'on peut vous preter un sécateur.
+§9<Penfield> §f: Je vais en faire un avec le fer que vous m'avez apporté ...
+§7*fabrique sécateur vite fait*
+§9<Penfield> §f: Et voilà, tenez !
+/give <player> shears 1 name:&dSécateur_du_CRB

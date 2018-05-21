@@ -1,0 +1,13 @@
+#Colored name will automatically transfer if the item name is untouched
+
+#You can disable item renaming with the following options
+
+#Do you want players to be able to rename item with colored name
+disableRenamingColoredName: true
+
+#Disable item renaming if the lore contains one of the following line
+#Color codes are taken into account
+disableRenamingIfLoreContains:
+  - "&e&lRare"
+  - "&eRare"
+  - "Rare"

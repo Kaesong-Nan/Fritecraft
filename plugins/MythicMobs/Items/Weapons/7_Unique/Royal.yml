@@ -1,0 +1,50 @@
+Royal:
+  Id: DIAMOND_SWORD
+  Display: '&9&lRoyal &r'
+  Lore:
+  # - '&b&oPrécurseur'
+  # - '&b&oLégendaire'
+  # - ' '
+  # - '&7Stats :'
+  - '&7Tranchant XV'
+  - '&7Sweeping III'
+  - '&7Solidité X'
+  - '&7Chance II'
+  - '&7Recul I'
+  - '&7Vigueur IV'
+  - '&7Armure I'
+  - '&7Vitesse I'
+  - '&7Egide I'
+  - '&7Bénédiction I'
+  - ''
+  - '&9Unique'
+  - '&7Particules :&d Divin'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      MovementSpeed: 0.05
+      Armor: 2
+      Health: 8
+      Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - LOOT_BONUS_MOBS:2
+  - SWEEPING:3
+  - DURABILITY:10
+  - KNOCKBACK:1
+  Skills:
+  - skill{s=Divin} ~onTimer:5 @self
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantBéni} ~onDamaged @self <8 1

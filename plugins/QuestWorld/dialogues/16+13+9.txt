@@ -1,0 +1,10 @@
+&f&e<Guichetier> &f: Bienvenue à la banque de Krakatoa
+&f&e<Guichetier> &f: C'est pour ouvrir un compte?
+&f&e<Guichetier> &f: Non? Ben qu'est ce que vous faites là alors?
+&f&e<Guichetier> &f: On accepte pas les pauvres ici!
+&f&e<Guichetier> &f: Vous êtes aventurier... faut vraiment être débile pour choisir ce métier
+&f&e<Guichetier> &f: Pas de sécurité de l'emploi, pas de revenus fixes, du danger...
+&f&e<Guichetier> &f: M'enfin, ça vous regarde. Du coup je peux vous employer?
+&f&e<Guichetier> &f: Mon employé chargé d'entretenir les coffres à disparu il y a une semaine.
+&f&e<Guichetier> &f: Vous pourriez aller voir s'il va bien, que je ne continue pas de payer son salaire pour rien s'il est mort?
+&f&e<Guichetier> &f: Les coffres sont en bas.

@@ -1,0 +1,98 @@
+PrisonGlace:
+  Skills:
+  - prison{material=IRON_BLOCK;duration=200;breakable=true} @target
+
+# TotemGlace:
+#   Skills:
+#   - totem{charges=5;onTick=XXX;onHit=XXX;onEnd=XXX;onStart=XXX;Interval=1;hR=1.25;vR=1;HitPlayers=true}
+
+
+ThealICESTATEEffect:
+  Skills:
+  - effect:particles{p=blockcrack_174;a=5;vs=0.5;hs=0.5;Speed=0.01;yOffset=1} @Self
+ThealICESTATEAura:
+  Skills:
+  - skill{s=ThealICESTATEAuraSlow;delay=40} @self
+  - effect:particles{p=blockcrack_174;a=5;vs=0.5;hs=0.5;s=0.01;y=1} @Self
+  - effect:particles{p=splash;a=40;vs=0;hs=0.5;s=0;y=0} @Self
+  - effect:particles{p=snowballpoof;a=20;vs=0;hs=0.5;s=0;y=0} @Self
+  - effect:particles{p=splash;a=40;vs=0;hs=0.5;s=0;y=0} @PlayersInRadius{r=12}
+  - effect:particles{p=snowballpoof;a=20;vs=0;hs=0.5;s=0;y=0} @PlayersInRadius{r=12}
+ThealICESTATEAuraSlow:
+  Skills:
+  - potion{t=SLOW;d=200;l=1} @PlayersInRadius{r=12} 1
+  - potion{t=SLOW_DIGGING;d=200;l=0} @PlayersInRadius{r=12} 1
+
+ThealICESTATEShot:
+  Skills:
+  - GCD{ticks=40} @Self
+  - effect:sound{s=entity.item.break;v=2;p=0.5} @Self
+  - projectile{onTick=ThealICESTATEShotEffect;onHit=ThealICESTATEShotDamage;i=1;hR=0.75;mr=30;vR=0.75;syo=1.5;sfo=0;v=15;hnp=true;}
+ThealICESTATEShotEffect:
+  Skills:
+  - effect:particles{p=snowballpoof;a=20;s=0;hR=0.2;vR=0.2} @origin
+ThealICESTATEShotDamage:
+  Skills:
+  - damage{a=13;pkb=true}
+  - effect:particles{p=splash;a=25;vs=1;hs=1;s=0;y=1}
+  - effect:sound{s=block.fire.extinguish;v=2;p=0.5}
+  - potion{type=SLOW;duration=100;l=2}
+
+SergeSliverfish:
+  Cooldown: 20
+  Skills:
+  - GCD{ticks=200} @Self
+  - message{msg="<mob.name> &finvoque des Silverfish !"} @PIR{r=30}
+  - summon{type=SilverfishCrypte;a=3;radius=6} @Self
+
+ThealICESTATEFrostPoolSummon:
+  Cooldown: 20
+  Conditions:
+  - offgcd true
+  Skills:
+  - GCD{ticks=200} @Self
+  - message{msg="<mob.name> &finvoque des puits de gel !"} @PIR{r=30}
+  - summon{type=FrostPool;a=3;yradius=0;radius=15} @Self
+FrostAuraStart:
+  Cooldown: 1
+  Skills:
+  - skill{s=FrostAuraDamageEffect} @Self
+  - effect:blockmask{m=ice;n=0.3;r=8;d=440} @self
+  - effect:blockmask{m=packed_ice;n=0.3;r=8;d=440} @self
+  - delay 400
+  - remove @self
+FrostAuraDamageEffect:
+  Skills:
+  - damage{a=5;i=false} @PlayersInRadius{r=8}
+  - potion{t=SLOW;d=200;l=4} @PlayersInRadius{r=8}
+  - effect:sound{s=block.fire.extinguish;v=0.5;p=0.5} @Self
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=1}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=2}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=3}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=4}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=5}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=6}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=6}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=7}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=7}
+  - delay 3
+  - effect:particlering{p=splash;a=100;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=8}
+  - effect:particlering{p=snowballpoof;a=20;vs=0.5;hs=0.5;s=0;y=0;points=20;radius=8}
+  - skill{s=FrostAuraDamageEffect} @Self
+MaxInvis:
+  Skills:
+  - potion{t=INVISIBILITY;d=999999;l=0}
+AntiKB:
+  Skills:
+  - velocity{mode=set;x=0;y=0;z=0} @Self

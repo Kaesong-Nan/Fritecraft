@@ -1,0 +1,38 @@
+Apokalypsis:
+  Id: DIAMOND_SWORD
+  Display: '&4&lApokalypsis &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&cLenteur I'
+  - '&cFaim'
+  - ''
+  - '&4Exotique'
+  - '&7Particules :&d Obscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      MovementSpeed: -0.10
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - DURABILITY:5
+  - MENDING:1
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantFaim} ~onTimer:80 @Self 1
+  - skill{s=Apokalypsis} ~onDamaged 1

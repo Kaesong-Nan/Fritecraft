@@ -1,0 +1,1251 @@
+GeléeViolette:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée violette
+GeléeBleue:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée bleue
+GeléeRouge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée rouge
+GeléeJaune:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée jaune
+GeléeOrange:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée orange
+GeléeVerte:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGelée verte
+AgarCoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût coco
+AgarMangue:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût mangue
+AgarKiwi:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût kiwi
+AgarCitron:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût citron
+AgarChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût chocolat
+AgarPandan:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût pandan
+AgarFraise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût fraise
+AgarOrange:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût orange
+AgarPastèque:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût pastèque
+AgarRaisin:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAgar goût raisins
+BrochettePastèque:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBrochette de pastèque
+Ananas:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fAnanas
+Poire:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fpoire
+Mure:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMûre
+Litchi:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fLitchi
+Cerise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCerises
+Figue:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFigue de Barbarie
+Honeydew:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMelon honeydew
+Cantaloup:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCantaloup
+Cerise2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCerise
+Pitaya:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPitaya
+PitayaRouge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPitaya rouge
+PitayaJaune:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPitaya Jaune
+Carambolier:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCarambolier
+Orange:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fOrange
+Fraise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFraise
+Banane:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBanane
+RaisinRouge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRaisin rouge
+Citron:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCitron
+Kiwano:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fKiwano
+PommeVerte:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPomme verte
+Framboise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFramboise
+FramboiseBleue:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFramboise Bleue
+Corossol:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCorossol
+Tomate:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTomate
+Jacquier:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fJacquier
+RaisinVert:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRaisin vert
+Raisin:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRaisin
+Peche:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fpèche
+Ramboutan:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRamboutan
+Mangue:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fmangue
+NoixCoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fnoix de coco
+SorbetPastèque:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 62
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSorbet au melon
+GaufretteFraise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGaufrette fraise
+CookieCreeper:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 61
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie creeper
+Onigiri:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fOnigiri
+Pizza:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 60
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPizza
+Tofu:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTofu
+Brownie:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBrownie
+GaufretteVanille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGaufrette vanille
+GaufretteChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGaufrette chocolat
+Mais:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEETROOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMaïs
+Popcorn:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fpopcorn
+TarteMure:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTarte aux mûres
+TarteFramboise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTarte aux framboises
+TartePatate:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTarte à la patate douce
+DonutPoudre:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDonut poudré
+Jalapeno:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fJalapeno
+Piment:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPiment
+Habanero:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fHabanero
+BhutJolokia:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 62
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBhut Jolokia
+FriteFromage:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BAKED_POTATO
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFrites au fromage
+FriteDouce:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BAKED_POTATO
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFrites douces
+FritePiment:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BAKED_POTATO
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFrites au piment
+Frite:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BAKED_POTATO
+    amount: 29
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFrites
+CookieDoubleChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie double choco
+CookieCacahuete:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie aux cacahuètes
+CookiePickle:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fChips au pickle
+ChipsPickle:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fChips au pickle
+ChipsKetchup:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fChips au ketchup
+ChipsBBQ:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fChips barbecue
+Chips:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fChips nature
+DonutSucre:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDonut au sucre
+DonutVanille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDonut à la vanille
+DonutChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDonut au chocolat
+CookieChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie au chocolat
+CookieFruit:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie aux fruits
+CookieAvoine:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCookie à l'avoine
+MacaronVanille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron à la vanille
+MacaronCitron:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron au citron
+MacaronMure:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron aux mûres
+MacaronChoco:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron au chocolat
+MacaronFraise:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron à la fraise
+MacaronPistache:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron à la pistache
+MacaronLavende:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron à la lavende
+MacaronCafé:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fMacaron au café
+NachosFromage:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNachos au fromage
+NachosGuacamole:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNachos au guacamole
+Nachos:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNachos simples
+NachosPiment:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNachos au piment
+NachosViolet:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNachos violets
+RollAvocat:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRoll avocat
+CaviarJaune:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCaviar jaune
+SashimiThonRouge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSashimi thon rouge
+NigiriThon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNigiri thon
+RollKimbap:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRoll kimbap
+RollSaumon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRoll saumon
+RollThon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fRoll thon
+NigiriSaumon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH
+    damage: 1
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNigiri saumon
+SashimiThonBlanc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSashimi thon blanc
+SashimiSaumon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSashimi saumon
+SashimiCoquillage:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSashimi coquillages
+NigiriCrevette:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNigiri crevette
+NigiriAnguille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fNigiri anguille
+Cheeseburger:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCheeseburger §r
+BurgerPoulet:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBurger poulet §r
+BurgerPoisson:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fFilet o fish §r
+BurgerVegan:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBurger vegan §r
+DragéePrismarine:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_FISH
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée marine §r
+DragéeSanguine:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée sanguinaire §r
+DragéePoison:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SPIDER_EYE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée empoisonnée §r
+DragéeChampi:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée champignon §r
+DragéePastèque:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée pastèque §r
+DragéeBlaze:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée incendiaire §r
+DragéePomme:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée pomme §r
+DragéeCreeper:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée explosive §r
+DragéeGold:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée dorée §r
+DragéeCookie:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée cookie §r
+DragéePik:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée piquante §r
+DragéeNoire:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée noire §r
+DragéeGateau:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée gateau §r
+DragéeGlace:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée glaciale §r
+DragéeFossile:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée fossile §r
+DragéeCactus:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée cactus §r
+DragéeCoton:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée coton §r
+DragéeCitrouille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée citrouille §r
+DragéeWither:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée atrophiée §r
+DragéeChorus:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHORUS_FRUIT
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée chorus §r
+DragéeSpore:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: MELON
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée spore §r
+DragéeBone:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDragée squelettique §r
+CaneSucreRouge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCane en sucre §r
+CaneSucreVert:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fCane en sucre à la menthe poivrée §r
+PuddingNoel:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPudding de noel §r
+JambonRoti:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRILLED_PORK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fJambon roti §r
+Purée:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BAKED_POTATO
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPurée §r
+PainSteve:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPain d'épice Steve §r
+Trifle:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTrifle §r
+SauceCanneberge:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: APPLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fSauce canneberge §r
+CakeFruits:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fGateau aux fruits §r
+TarteNoix:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PUMPKIN_PIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fTarte aux noix §r
+DindeRotie:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_CHICKEN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fDinde rotie §r
+PainAlex:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPain d'épice Alex §r
+PainCreeper:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPain d'épice Creeper §r

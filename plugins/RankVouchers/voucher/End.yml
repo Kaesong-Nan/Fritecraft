@@ -1,0 +1,22 @@
+voucher:
+  item:
+    item: BOOK
+    name: '&d&lPasser les quêts de l''End'
+    lore:
+    - '&7Clic droit pour déverouiller'
+    - '&7l''accès à l''End sans avoir à'
+    - '&7faire la série de quêtes'
+    data: 0
+  setting:
+    reward:
+      '1':
+        reward:
+        - '[Message] '
+        - '[Message] &e&l>> &7&oVous pouvez maintenant passer par le portail !'
+        - '[Message] '
+        - '[ConsoleCommand] pex user %player% add multiverse.access.Bouquenia_the_end'
+        chance: 100
+    limit: 999
+    region: false
+    permission: false
+    max-reward: 1

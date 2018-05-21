@@ -1,0 +1,169 @@
+id: 19
+category: 13
+cooldown: -60000
+name: Le Collier II
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Le Collier II
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dCollier de diamant §r
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: true
+world-blacklist: []
+min-party-size: 1
+uniqueId: ac872890-7317-46a8-a079-bbe41475e8e3
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  amount: 10
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 35ae2420-5edc-4454-8e94-0f6f718c281d
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+  amount: 16
+  lore: ''
+  index: 1
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: f9a417c6-0b08-4b3e-b99a-78e98ec0a736
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+  amount: 16
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: fa26016d-b2aa-466c-bc68-e63a36a478aa
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
+  amount: 10
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c00b8f42-91f4-46d2-a7a5-55cf8931a8d1
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: STRING
+  amount: 64
+  lore: ''
+  index: 4
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: a5d42e64-dce8-4793-9ce0-70ea64a59924
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SULPHUR
+  amount: 64
+  lore: ''
+  index: 5
+  type: CITIZENS_SUBMIT
+  custom_string: '&aVulcain'
+  timeframe: 0
+  questId: ac872890-7317-46a8-a079-bbe41475e8e3
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: -805.0
+    y: 82.0
+    z: 1783.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: d1655eaf-2d22-41d7-84ac-7077c9bc6130
+  entity: PLAYER
+  custom_int: 166
+  exclude-spawners: false

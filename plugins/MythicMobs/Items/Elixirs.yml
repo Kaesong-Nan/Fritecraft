@@ -1,0 +1,80 @@
+ElixirFrite:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lNectar de frite &r&8(elixir)'
+  PotionEffects:
+    - INCREASE_DAMAGE 12000 2
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirNuggets:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lThé au poulet &r&8(elixir)'
+  PotionEffects:
+    - JUMP 12000 2
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirHamburger:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lCrême de sandwich &r&8(elixir)'
+  PotionEffects:
+    - DAMAGE_RESISTANCE 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirSoupe:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lShot de soupe secrète &r&8(elixir)'
+  PotionEffects:
+    - FIRE_RESISTANCE 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirSoda:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lLiqueur de bulle &r&8(elixir)'
+  PotionEffects:
+    - WATER_BREATHING 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirCandy:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lCaramel aqueux &r&8(elixir)'
+  PotionEffects:
+    - INVISIBILITY 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirFlurry:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lMilkshake frigide &r&8(elixir)'
+  PotionEffects:
+    - FAST_DIGGING 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1
+ElixirChoco:
+  Id: '441'
+  Data: '8195'
+  Display: '&6&lTonique chocolaté &r&8(elixir)'
+  PotionEffects:
+    - NIGHT_VISION 12000 1
+    - ABSORPTION 12000 2
+    - LUCK 12000 2
+    - REGENERATION 600 3
+    - SATURATION 300 1

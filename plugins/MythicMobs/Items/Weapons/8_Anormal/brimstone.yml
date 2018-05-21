@@ -1,0 +1,44 @@
+Brimstone:
+  Id: DIAMOND_SWORD
+  Display: '&4&lBrimstone &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Aura de feu III'
+  - '&7Recul I'
+  - '&7Solidité V'
+  - '&7Raccommodage'
+  - '&7Vigueur II'
+  - '&7Armure I'
+  - '&7Pyro'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dVolcanique'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.7
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      Armor: 2
+      Health: 4
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DURABILITY:5
+  - MENDING:1
+  - KNOCKBACK:1
+  - FIRE_ASPECT:3
+
+  Skills:
+  - skill{s=Volcanique} ~onTimer:5 @self
+  - skill{s=EnchantPyro} ~onTimer:80 1 @Self

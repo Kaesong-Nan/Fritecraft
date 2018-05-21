@@ -1,0 +1,21 @@
+&5<Kenny> &f: Haha !
+&5<Kenny> &f: C'était un test !
+&5<Kenny> &f: Ah, mince, nan, vous avez réussi ...
+&5<Kenny> &f: Flute.
+&5<Kenny> &f: Vous etiez sensé dire quelque chose comme :
+&e<<player>> &f: Hé c'est ma pomme ! Dégage ! ADMIN A L'AIDE !
+&5<Kenny> &f: Mais bon ... apparemment vous avez une âme de type XNR-78b ...
+&5<Kenny> &f: Ce n'était pas prévu.
+&5<Kenny> &f: Oui, enfin, je me comprend.
+&5<Kenny> &f: Bon, pour ce portail ...
+&5<Kenny> &f: Attendez, je me rappelle plus de la formule ...
+&5<Kenny> &f: Euh, ah, si, c'est bon.
+&5<Kenny> &f: Enfin, je crois.
+&5<Kenny> &f: Nan nan mais si c'est ça.
+&7*S'éclairci le canal psionique interdimensionnel*
+&5<Kenny> &f: Wingardium Portalus !
+&5<Kenny> &f: Voilà, en principe ça devrait avoir marché.
+&5<Kenny> &f: Par contre, il y aura un petit effet secondaire ...
+&5<Kenny> &f: Dans à peu près 5 secondes, vous allez avoir une mega nausée.
+&5<Kenny> &f: Nan mais je déconne même pas.
+/effect @p 9 30

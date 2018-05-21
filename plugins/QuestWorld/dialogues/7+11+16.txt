@@ -1,0 +1,9 @@
+§9<Lundquist> §f: J'ai parié avec Zajonc que ça allait être pire que le sylex.
+§9<Lundquist> §f: Esperons que j'ai raison !
+§9<Lundquist> §f: Nan parce que j'ai vraiment pas envie de lui donner mon salaire du mois quoi ...
+§9<Lundquist> §f: Allez, zou !
+§7*Il prend le lingot, et "zou" sur la table d'enchantements*
+/give <player> goldingot 1 name:&dLingot_Enchanté sharpness:9
+§9<Lundquist> §f: ...
+§9<Lundquist> §f: ........
+§9<Lundquist> §f: Flute.

@@ -1,0 +1,96 @@
+# Configuration file for the messages
+# 
+# Replace the messages if you want.
+# 
+# ChatColor.<Color> will make any words following (including spaces that colour).
+# 
+# Supported colors:
+#    BLACK
+#    DARK_BLUE
+#    DARK_GREEN
+#    DARK_AQUA
+#    DARK_RED
+#    DARK_PURPLE
+#    GOLD
+#    GRAY
+#    DARK_GRAY
+#    BLUE
+#    GREEN
+#    AQUA
+#    RED
+#    LIGHT_PURPLE
+#    YELLOW
+#    WHITE
+# 
+# Each message has slightly different parameters. The parameters available
+# are the ones that are already in the message (and none others)
+# 
+# NOTE:
+#   Any character other than normal characters will not get read and will crash the 
+# configuration.
+
+
+stats-no-job: ChatColor.REDIl faut rejoindre une adoration avant.
+stats-job: 'Niveau d''adoration de %jobcolour%%jobname%: %joblevel% (ChatColor.WHITE%jobexp%/%jobmaxexp%)'
+browse-no-jobs: There are no jobs you can join.
+browse-jobs-header: 'Vous pouvez rejoindre ces adorations :'
+browse-jobs-footer: Pour en savoir plus faites /jobs info [JobName]
+admin-command-success: Commande effectuée.
+admin-command-failed: ChatColor.REDErreur avec la commande.
+fire-target: Vous avez quitté %jobcolour%%jobname%.
+fire-target-no-job: Le joueur ne fait pas partie de %jobcolour%%jobname%.
+employ-target: Vous avez rejoint %jobcolour%%jobname%.
+promote-target: You have been promoted %levelsgained% levels in %jobcolour%%jobname%.
+demote-target: You have been demoted %levelslost% levels in %jobcolour%%jobname%.
+grantxp-target: You have been granted %expgained% experience in %jobcolour%%jobname%.
+removexp-target: You have lost %explost% experience in %jobcolour%%jobname%.
+transfer-target: You have been transferred from %oldjobcolour%%oldjobname% to %newjobcolour%%newjobname%.
+join-too-many-jobs: ChatColor.REDYou have already joined too many jobs.
+break-header: 'Casser:'
+place-header: 'Placer:'
+kill-header: 'Tuer:'
+fish-header: 'Pecher:'
+craft-header: 'Fabriquer:'
+smelt-header: 'Fondre:'
+brew-header: 'Distiller:'
+enchant-header: Enchanter
+break-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+break-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+place-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+place-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+kill-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+kill-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+fish-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+fish-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+craft-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+craft-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+smelt-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+smelt-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+brew-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+brew-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+enchant-info-no-sub: ChatColor.WHITE    %item% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+enchant-info-sub: ChatColor.WHITE    %item%:%subitem% - %income% ChatColor.GREENincomeChatColor.WHITE. %experience% ChatColor.YELLOWexp
+break-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for breaking anything.'
+place-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for placing anything.'
+kill-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for killing anything.'
+fish-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money for fishing.'
+craft-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from crafting.'
+smelt-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from smelting.'
+brew-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from brewing.'
+enchant-none: '%jobcolour%%jobname%ChatColor.WHITE does not get money from enchanting.'
+at-max-level: ChatColor.YELLOW-- You have reached the maximum level --
+skill-up-broadcast: '%playername% a est maintenant un %titlecolour%%titlename%
+  de %jobcolour%%jobname%ChatColor.WHITE.'
+skill-up-no-broadcast: Congratulations, you have been promoted to a %titlecolour%%titlename% %jobcolour%%jobname%ChatColor.WHITE.
+level-up-broadcast: 'La devotion de %playername% pour %jobcolour%%jobname% ChatColor.WHITE est maintenant de %joblevel% !'
+level-up-no-broadcast: Votre dévotion pour %jobcolour%%jobname% est maintenant au niveau %joblevel%ChatColor.WHITE.
+join-job-success: You have joined the job %jobcolour%%jobname%ChatColor.WHITE.
+join-job-failed-already-in: Vous suivez déjà %jobcolour%%jobname%ChatColor.WHITE.
+join-job-failed-too-many: Vous avez déjà une adoration.
+join-job-failed-no-slots: Il y a trop de monde avec %jobcolour%%jobname%ChatColor.WHITE.
+leave-job-sucess: Vous avez quitté %jobcolour%%jobname%ChatColor.WHITE.
+error-no-job: ChatColor.REDThe job you have selected does not exist!
+error-no-permission: ChatColor.REDYou do not have permission to do that!
+join-too-many-job: ChatColor.REDVous avez déjà une adoration.
+leave-job-failed-too-many: ChatColor.REDYou have joined too many jobs!
+leave-job-success: Vous avez quitté %jobcolour%%jobname%ChatColor.WHITE.

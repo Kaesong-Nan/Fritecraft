@@ -1,0 +1,131 @@
+id: 2
+category: 10
+cooldown: -60000
+name: '&d&lLa Légende III'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §d§lLa Légende III
+rewards:
+  money: 0
+  xp: 0
+  commands:
+  - pex user @p add permission.legende.legende3
+  items: []
+permission: ''
+disable-parties: false
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 35df1e18-12b4-4ef0-9d24-6f5902b24a77
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dLingot Enchanté
+      enchants:
+        DAMAGE_ALL: 9
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_SUBMIT
+  custom_string: Zac
+  timeframe: 0
+  questId: 35df1e18-12b4-4ef0-9d24-6f5902b24a77
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 129.0
+    y: 66.0
+    z: 1717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 491573e5-f856-490d-afa7-eae2106fe6a6
+  entity: PLAYER
+  custom_int: 120
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+  amount: 1
+  lore: ''
+  index: 1
+  type: CRAFT
+  custom_string: ''
+  timeframe: 0
+  questId: 35df1e18-12b4-4ef0-9d24-6f5902b24a77
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 129.0
+    y: 66.0
+    z: 1717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 28533684-c53b-4e7c-9929-4abf5f8f8b9f
+  entity: PLAYER
+  custom_int: 0
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+  amount: 1
+  lore: ''
+  index: 2
+  type: CITIZENS_SUBMIT
+  custom_string: Zac
+  timeframe: 0
+  questId: 35df1e18-12b4-4ef0-9d24-6f5902b24a77
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 129.0
+    y: 66.0
+    z: 1717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: c8d280b8-2a42-41de-8c5f-43d55004e126
+  entity: PLAYER
+  custom_int: 120
+  exclude-spawners: false
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dJeton de Fritegirl §r
+      enchants:
+        LOOT_BONUS_BLOCKS: 2
+  amount: 20
+  lore: ''
+  index: 3
+  type: CITIZENS_SUBMIT
+  custom_string: Zac
+  timeframe: 0
+  questId: 35df1e18-12b4-4ef0-9d24-6f5902b24a77
+  reset-on-death: false
+  display-name: ''
+  location:
+    world: Bouquenia
+    x: 129.0
+    y: 66.0
+    z: 1717.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: 76571c91-6d8c-439f-94ff-4ac514b0e1ec
+  entity: PLAYER
+  custom_int: 120
+  exclude-spawners: false

@@ -1,0 +1,122 @@
+Consume:
+  Skills:
+  - sound{s=entity.wither.hurt} @Target
+  - consume{d=2;h=15} @PlayersInRadius{r=60}
+  - potion{type=WEAKNESS;duration=40;level=4}
+  - potion{type=SLOW;duration=40;level=4}
+  - potion{type=CONFUSION;duration=40;level=4}
+  - potion{type=BLINDNESS;duration=40;level=4}
+  - effect:particles{particle=sweepAttack;a=5} @Target
+  - delay 10
+  - consume{d=2;h=15} @PlayersInRadius{r=60}
+  - effect:particles{particle=sweepAttack;a=5} @Target
+  - sound{s=entity.wither.hurt} @Target
+  - delay 10
+  - consume{d=2;h=15} @PlayersInRadius{r=60}
+  - effect:particles{particle=sweepAttack;a=5} @Target
+  - sound{s=entity.wither.hurt} @Target
+  - delay 10
+  - consume{d=2;h=15} @PlayersInRadius{r=60}
+  - effect:particles{particle=sweepAttack;a=5} @Target
+  - sound{s=entity.wither.hurt} @Target
+Shackle:
+  Skills:
+  - potion{type=SLOW;duration=200;level=4}
+  - effect:particleline{particle=cloud;a=50;db=0.05} @Target
+Cripple:
+  Skills:
+  - potion{type=WEAKNESS;duration=200;level=1}
+  - effect:lightning{l=true;lr=50} @target
+Harm:
+  Skills:
+  - potion{type=HARM;duration=25;level=1}
+  - damage{amount=5}
+Haze:
+  Skills:
+  - potion{type=CONFUSION;duration=200;level=4}
+  - effect:particles{particle=cloud;a=50}
+  - effect:explosion @Target
+  - damage{amount=6}
+Wither:
+  Skills:
+  - potion{type=WITHER;duration=200;level=2}
+Starve:
+  Skills:
+  - potion{type=HUNGER;duration=200;level=10}
+  - damage{amount=5}
+Blind:
+  Skills:
+  - potion{type=BLINDNESS;duration=200;level=4}
+  - effect:smokeswirl{duration=200;i=10} @Target
+Toxic:
+  Skills:
+  - potion{type=POISON;duration=200;level=4}
+Invisible:
+  Skills:
+  - potion{type=INVISIBILITY;duration=999999999999999;level=4}
+Buff:
+  Skills:
+  - potion{type=INCREASE_DAMAGE;duration=25;level=1}
+  - damage{amount=5}
+ArrowBarrage:
+  Skills:
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+  - delay 10
+  - shoot{type=ARROW;velocity=5;damage=4}
+HellBarrage:
+  Skills:
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+  - delay 10
+  - shootfireball{y=1;v=4} @target
+Horsemen:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> Déesse de la Faim, vengez moi ! J'invoque les cavaliers !"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=War;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=Death;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=Famine;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=Pestilence;amount=1;noise=5} @Self
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> Hahahah! Prenez ça!"} @PlayersInRadius{r=20}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self

@@ -1,0 +1,68 @@
+# Title configuration
+#
+# Stores the titles people gain at certain levels.
+# Each title requres to have a name, short name (used when the player has more than
+# 1 job) the colour of the title and the level requrirement to attain the title.
+#
+# It is recommended but not required to have a title at level 0.
+#
+# Titles are completely optional.
+# Posible variable are {level} to add current jobs level.
+# Optionaly you can set different titles based by job.
+#   JobName: Miner
+Titles:
+  Converti:
+    Name: Converti
+    ShortName: '{level} '
+    ChatColour: WHITE
+    levelReq: 0
+  Disciple:
+    Name: Disciple
+    ShortName: '{level} '
+    ChatColour: WHITE
+    levelReq: 1
+  Admirateur:
+    Name: Admirateur
+    ShortName: '{level} '
+    ChatColour: WHITE
+    levelReq: 2
+  Partisan:
+    Name: Partisan
+    ShortName: '{level} '
+    ChatColour: GREEN
+    levelReq: 3
+  Fidèle:
+    Name: Fidèle
+    ShortName: '{level} '
+    ChatColour: GREEN
+    levelReq: 4
+  Zélote:
+    Name: Zélote
+    ShortName: '{level} '
+    ChatColour: RED
+    levelReq: 5
+  Gardien:
+    Name: Gardien
+    ShortName: '{level} '
+    ChatColour: RED
+    levelReq: 6
+  Champion:
+    Name: Champion
+    ShortName: '{level} '
+    ChatColour: DARK_RED
+    levelReq: 7
+  Prêtre:
+    Name: Prêtre
+    ShortName: '{level} '
+    ChatColour: DARK_RED
+    levelReq: 8
+  Exalté:
+    Name: Exalté
+    ShortName: '{level} '
+    ChatColour: GOLD
+    levelReq: 9
+  Illuminé:
+    Name: Illuminé
+    ShortName: '{level} '
+    ChatColour: DARK_PURPLE
+    levelReq: 10

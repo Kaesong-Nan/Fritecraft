@@ -1,0 +1,130 @@
+MoulinetteBleue:
+  Id: DIAMOND_SWORD
+  Display: '&a&lMoulinette Bleue &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Solidité I'
+  - '&7Vitesse IV'
+  - ''
+  - '&aExquis'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.20
+      AttackSpeed: -0.6
+      Damage: 7
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DURABILITY:1
+
+MoulinetteVerte:
+  Id: DIAMOND_SWORD
+  Display: '&a&lMoulinette Verte &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Solidité I'
+  - '&7Chance III'
+  - ''
+  - '&aExquis'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      Luck: 6
+      AttackSpeed: -0.6
+      Damage: 7
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DURABILITY:1
+  - LOOT_BONUS_MOBS:3
+
+MoulinetteRouge:
+  Id: DIAMOND_SWORD
+  Display: '&a&lMoulinette Rouge &r'
+  Lore:
+  - '&7Tranchant X'
+  - '&7Vigueur V'
+  - '&7Solidité I'
+  - ''
+  - '&aExquis'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      Health: 10
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DURABILITY:1
+
+MoulinetteJaune:
+  Id: DIAMOND_SWORD
+  Display: '&a&lMoulinette Jaune &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Recul I'
+  - '&7Solidité I'
+  - ''
+  - '&aExquis'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      KnockbackResistance: 0.2
+  Enchantments:
+  - DAMAGE_ALL:15
+  - DURABILITY:1
+  - KNOCKBACK:1
+
+MoulinetteRose:
+  Id: DIAMOND_SWORD
+  Display: '&a&lMoulinette Rose &r'
+  Lore:
+  - '&7Tranchant V'
+  - '&7Régénération I'
+  - ''
+  - '&aExquis'
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+  Enchantments:
+  - DAMAGE_ALL:5
+  Skills:
+  - skill{s=EnchantRegen} ~onTimer:40 @Self

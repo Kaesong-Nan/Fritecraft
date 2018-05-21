@@ -1,0 +1,35 @@
+id: 26
+category: 40
+cooldown: -1
+name: '&f&lRafraichissant'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §f§lRafraichissant
+    lore:
+    - §8Food & Drinks
+    - §8Sweets
+    internal: H4sIAAAAAAAAAE2LQW+CMBhAvy1bgmQ/Y1eSFkoNxw3MbANlKKJwQywBLGoQFvBX7SeO444v7z0dQIe37XlQ6ru7lrWSGjyzE7xj5OAS4cKgtk0Ngi1qODmSBlmSklooJzaVOujzdJNdX8v7ArRejv3QybsOAE8avCa5GiT8yomj7FCh04GrYmJ05niLVMia25JdkunoMsra2a8/qD85/1q7z/e2Si1eZZdoOLYJ8q2NkusNLtrdjzCTJvMSFXoRCTw2ii9+Fk3wEI+dmcXpGMZcBXFkBaZQQZNV6Z5XwlyZWctI0KY4jFck9D6rtImIeBR4fuvygB0ADV5E3kpYuFv32km/PgL8AdeAlGYqAQAA
+    skull-owner: CSCoreLib
+item_extra:
+  custom-skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VjZDVlODQ4MDIxNGJkNjMzNzU2ZTYxOTJlMTQ3M2NlMjZhYWJhN2E2ZmI4MmY1OTE4ODBhYjQ4Nzc1NjMifX19
+  custom-skullOwner: CSCoreLib
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 2198488a-b951-48fa-a681-d9ee78bde7fa
+categoryId: 032ccd89-1e72-4cd0-b76d-d26bc04f471e
+parentId: 6e9a218d-c6ab-4399-99a4-b72d87e9635e
+missions: []

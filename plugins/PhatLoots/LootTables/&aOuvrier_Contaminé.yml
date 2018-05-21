@@ -1,0 +1,28 @@
+'&aOuvrier_Contaminé':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aCookie Radioactif
+        lore:
+        - Biscuit croustillant au cacao
+        - émettant d'étrange rayonnements alpha
+        enchants:
+          PROTECTION_FIRE: 1
+        internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy5xzz8fcOiH9w8WBk6QkE9qYnHJ0j4j1d9HDh5gY2BzzM0vzSs5wAABHAwswTn5JQwcuYmZeRmJeSkcDLxwK/wSc1MZBNNT81KLMpP1chMrPFITc0oymBk4/QtSixJLMvPzoGaAVXIBVcRngJUwILnHWH2RdugGvwBk90z7sun1s7fCZnD37D85EwRmEXaPKNw9+WWpual5JcEFqakpaG5igrmJD6YqvhikDNldu0TmhSi9cj6K7K4p+0Ruf1v3+THcXfaXjcGAsLukYe7KzstPzk5KTM4OSi3OLC5JzEtOxeU6Ebja+CK4YmQ3Ptq5R7LZ1yUE2Y2LJdoO9RYe24aISw5i45IH5sac0uRsXNHIApJkYAAAUkFZAW8CAAA=
+    Probability: 100.0
+  Name: '&aOuvrier_Contaminé'
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 1
+    Minutes: 0
+  RoundDownTime: false

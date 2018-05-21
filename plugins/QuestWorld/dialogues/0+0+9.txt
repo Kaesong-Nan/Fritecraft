@@ -1,0 +1,12 @@
+&e<Guide> &f: Bonjour, et bienveue sur Fritecraft !
+&e<Guide> &f: Vous êtes ici dans la mairie de Bouquenia, le monde RP du serveur.
+&e<Guide> &f: C'est ici que se trouve notre tutoriel pour acceuillir les nouveaux joueurs.
+&e<Guide> &f: Commencez par faire un peu le tour de la zone, et parlez aux PNJs.
+&e<Guide> &f: Chacun vous expliquera une particularité du serveur.
+&e<Guide> &f: Quand vous vous sentirez prêt, vous pourrez aller dans notre monde survie.
+&e<Guide> &f: Un monde où les joueurs peuvent construire une maison sécurisée et récolter des ressources.
+&e<Guide> &f: Ce monde n'est jamais effacé.
+&e<Guide> &f: Contrairement au monde ressources et aux dimensions du Nether et l'End.
+&e<Guide> &f: Retenez juste cette commande utile : &c/menu&f.
+&e<Guide> &f: Ou simplement, utilisez ce &bPDA &f!
+&e<Guide> &f: Et n'hésitez par à lire les descriptions des icones !

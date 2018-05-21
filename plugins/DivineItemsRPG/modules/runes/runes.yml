@@ -1,0 +1,121 @@
+Runes:
+  Strength:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Strength %level%'
+    Desc: 
+    - '&7Grants &b&lStrength %level% &7effect'
+    Effect: INCREASE_DAMAGE
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.15
+    ItemTypes:
+    - WEAPON
+  Regen:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Regeneration %level%'
+    Desc: 
+    - '&7Grants &b&lRegeneration %level% &7effect'
+    Effect: REGENERATION
+    LevelMin: 1
+    LevelMax: 2
+    DropChance: 0.07
+    ItemTypes:
+    - ARMOR
+  Speed:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Speed %level%'
+    Desc: 
+    - '&7Grants &b&lSpeed %level% &7effect'
+    Effect: SPEED
+    LevelMin: 1
+    LevelMax: 2
+    DropChance: 0.09
+    ItemTypes:
+    - ARMOR
+  Jump:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Jump %level%'
+    Desc: 
+    - '&7Grants &b&lJump %level% &7effect'
+    Effect: JUMP
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.11
+    ItemTypes:
+    - ARMOR
+  Shield:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Shield %level%'
+    Desc: 
+    - '&7Grants &b&lDamage Resistance %level% &7effect'
+    Effect: DAMAGE_RESISTANCE
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.04
+    ItemTypes:
+    - ARMOR
+  Haste:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Haste %level%'
+    Desc: 
+    - '&7Grants &b&lHaste %level% &7effect'
+    Effect: FAST_DIGGING
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.06
+    ItemTypes:
+    - TOOL
+  TigerEye:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Tiger Eye %level%'
+    Desc: 
+    - '&7Grants &b&lNight Vision %level% &7effect'
+    Effect: NIGHT_VISION
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.06
+    ItemTypes:
+    - ARMOR
+  FlameCloak:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Flame Cloak %level%'
+    Desc: 
+    - '&7Grants &b&lFire Resistance %level% &7effect'
+    Effect: FIRE_RESISTANCE
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.03
+    ItemTypes:
+    - ARMOR
+  Fish:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Fish %level%'
+    Desc: 
+    - '&7Grants &b&lWater Breathing %level% &7effect'
+    Effect: WATER_BREATHING
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.02
+    ItemTypes:
+    - HELMET
+  Assasin:
+    Enabled: true
+    Material: 'PRISMARINE_SHARD:0'
+    Name: 'Assasin %level%'
+    Desc: 
+    - '&7Grants &b&lInvisibility %level% &7effect'
+    Effect: INVISIBILITY
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.01
+    ItemTypes:
+    - WEAPON

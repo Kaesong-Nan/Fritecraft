@@ -1,0 +1,19 @@
+name: Squelettes
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Squelettes'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: BONE
+data: 0
+location: HUB<>1136.5213493098174<>140.752319077582<>-264.6381734251847<>8.111297<>46.30863
+slot: 46

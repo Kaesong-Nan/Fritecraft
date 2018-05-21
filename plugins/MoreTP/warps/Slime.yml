@@ -1,0 +1,19 @@
+name: Slime
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&7Spawners de Slime'
+- '&7Rang &eMoine &7requis'
+- ''
+- '&8&m---------------------------'
+cooldown: 2
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: SLIME_BALL
+data: 0
+location: HUB<>973.9571010141441<>137.52900973243405<>-384.40454774061243<>-3.1482768<>-359.18506
+slot: 49

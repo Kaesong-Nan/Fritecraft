@@ -1,0 +1,24 @@
+'&cGriefer':
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §eCadeau
+        internal: H4sIAAAAAAAAAE2OwU6DQBiEf01MkPgYXkm2uxS6Bw9Gql1SFkspZbktsBVwqQ0FIzyTDylHD3OY+WaSMQFMeNh/Dlq/d1+nWisDblkJj2UhMZVEWq5TEsumLrVWK4ktXEpE7JxSvMAmmPPoorq+Vtd7MHr10w+dupoAcGPAXSL1oOBXjT7K0gqVqa+LkTmzj/dIh6y5uOycjPkLc1g7882zsx3pv+6yl8elFsSvsvNuyNsEbUmk1SZaFO3hm7dcZ42uRLxGWfxhc68gAU4qMa0n/jZnx4MdxsUYeGLKmh3mbaR5U9jBJCaBBRHNaxXMCr2k5qNPTyl6mp/DH1oMzDEUAQAA
+    Probability: 100.0
+  Name: '&cGriefer'
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

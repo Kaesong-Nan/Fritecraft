@@ -1,0 +1,3 @@
+&7*En regardant sous un lit, vous trouvez un vieux livre ouvragé*
+&7*Le contenu vous semble illisible*
+&7*Le titre vous fait comprendre que c’est le livre qu’Yvan recherche*

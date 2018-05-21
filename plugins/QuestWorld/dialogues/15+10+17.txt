@@ -1,0 +1,8 @@
+&f*C'est un peu bizarre... Mais l'objectif de quete vous demande de vous offrir un des Os de Jack.*
+&f*Vous le prenez donc dans la main droite et vous le glissez ensuite dans votre main gauche.*
+&f*Mais avant que le message "objectif atteint" ne s'affiche, vous réalisez quelque chose*
+&f*En faisant cela, vous venez de vous auto-maudire par Jack.*
+&f*D'accord, la quete vous demandez de faire cela.*
+&f*Vous faites toujours tout ce qu'on vous demande ?*
+&f*Genre, si on vous demande de sauter dans un trou, vous le faites ?*
+&f*C'est pas franchement malin de votre part !*

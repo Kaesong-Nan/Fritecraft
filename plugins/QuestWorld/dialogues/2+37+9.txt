@@ -1,0 +1,16 @@
+&d<Vincent> &f: Euh ... Ouais, ça s'fait pas trop d'entrer chez les gens comme ça ...
+&d<Vincent> &f: Y'a une raison précise pour cette ... "visite" ?
+&d<Vincent> &f: Laisse moi deviner ...
+&d<Vincent> &f: Tu as vu que j'étais un enderman, et tu veux apprendre à utiliser les &denderchest
+&d<Vincent> &f: C'est un peu raciste ça.
+&d<Vincent> &f: Mais ...
+&d<Vincent> &f: Je pourrais t'apprendre à utiliser ces &denderchest&f ...
+&d<Vincent> &f: Mais évidemment ...
+&d<Vincent> &f: Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire !
+&d<Vincent> &f: Car tête bien pensante est par deux fois force de décision !
+&d<Vincent> &f: Enderman sans métier n'est plus apte à exercer une activité professionelle !
+&d<Vincent> &f: Premièrement, j'ai faim.
+&d<Vincent> &f: Chorus.
+&d<Vincent> &f: Miam.
+&d<Vincent> &f: Allez go.
+&e&l>> &r&7Apportez des &dfruits Chorus&f à Vincent.

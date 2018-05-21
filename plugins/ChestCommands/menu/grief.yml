@@ -1,0 +1,287 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lSécurité'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'sécurité; securite; caserne'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Parcelles:
+  NAME: '&9&lParcelles'
+  LORE:
+    - '&fPour éviter que quelqu''un ne touche'
+    - '&fà votre belle maison, vous pouvez'
+    - '&fla sécuriser en définissant une'
+    - '&fparcelle, dans laquelle personne à'
+    - '&fvous ne pourra interagir.'
+  ID: 2
+  POSITION-X: 3
+  POSITION-Y: 2
+
+Protections:
+  NAME: '&9&lProtections'
+  LORE:
+    - '&fLes parcelles sont protégées contre'
+    - '&flittéralement tout.'
+    - '&f '
+    - '&fFeu, lave, eau, arbres, explosions,'
+    - '&fenderman, pistons, redstone ...'
+    - '&fMêmes les portes, cadres et animaux !'
+  ID: tnt
+  POSITION-X: 4
+  POSITION-Y: 2
+
+Create:
+  NAME: '&9&lDefinir une parcelle'
+  LORE:
+    - '&fPour définir votre parcelle,'
+    - '&fil faut utiliser une pelle en or.'
+    - '&fVous pouvez en obtenir une par ce menu.'
+    - '&fFaites un clic droit sur un premier bloc,'
+    - '&fpuis sur un deuxième, de façon'
+    - '&fà faire un carré.'
+    - '&f '
+    - '&fPlacer votre premier coffre génère'
+    - '&fautomatiquement une petite parcelle.'
+  ID: 284
+  POSITION-X: 5
+  POSITION-Y: 2
+
+Taille:
+  NAME: '&9&lTaille'
+  LORE:
+    - '&fLes parcelles doivent avoir'
+    - '&fune taille minimale et 5x5.'
+    - '&f '
+    - '&fLa taille maximale est'
+    - '&fplus ou moins "illimitée"'
+  ID: 4
+  POSITION-X: 6
+  POSITION-Y: 2
+
+Max:
+  NAME: '&9&lLimites de blocs'
+  LORE:
+    - '&fAu début, vous disposez de'
+    - '&f60 blocs (aire, pas volume).'
+    # - '&fPour chaque heure de jeu sur'
+    # - '&fle serveur cette limite augmente'
+    # - '&flégèrement (10).'
+    - '&f '
+    - '&fIl est possible'
+    - '&fd''acheter des blocs, contre'
+    - '&fdes émeraudes.'
+    - '&f'
+    - '&7Tarif = &a4e &fpar bloc'
+  ID: 404
+  POSITION-X: 7
+  POSITION-Y: 2
+
+###############
+
+Voir:
+  NAME: '&9&lGraphique'
+  LORE:
+    - '&fSi vous voulez voir à quoi'
+    - '&fressemblent les limites de votre'
+    - '&fparcelle pour savoir ce qui est'
+    - '&fprotégé ou non, faites un clic'
+    - '&fdroit avec un baton dans votre parcelle'
+    - '&f '
+    - '&fCela permet aussi de voir le nombre de'
+    - '&fblocs disponibles pour éventuellement'
+    - '&fagrandir votre parcelle.'
+  ID: stick
+  POSITION-X: 3
+  POSITION-Y: 3
+
+Resize:
+  NAME: '&9&lModifier la taille'
+  LORE:
+    - '&fPour agrandir votre parcelle,'
+    - '&fil suffit de faire un clic droit'
+    - '&fsur un des coins que vous souhaitez'
+    - '&fdéplacer, et le replacer autre part.'
+    - '&f '
+    - '&fSi vous voulez une parcelle avec une'
+    - '&fforme plus complexe, il suffit de créer'
+    - '&fune parcelle adjacente à la première.'
+  ID: glowstone
+  POSITION-X: 4
+  POSITION-Y: 3
+
+Profondeur:
+  NAME: '&9&lProfondeur'
+  LORE:
+    - '&fLorsque vous définissez votre'
+    - '&fparcelle, elle va s''étendre'
+    - '&fjusqu''au ciel, et elle sera'
+    - '&fprofonde de 40 blocs.'
+  ID: 270
+  POSITION-X: 5
+  POSITION-Y: 3
+
+Coffres:
+  NAME: '&9&lCoffres'
+  LORE:
+    - '&fLes coffres sont protégés automatiquement'
+    - '&fSi vous voulez autoriser un joueur,'
+    - '&fil faut utiliser des commandes :'
+    - '&c/containertrust <nom>'
+  ID: chest
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Animaux:
+  NAME: '&9&lAnimaux'
+  LORE:
+    - '&fVos animaux à l''intérieur de'
+    - '&fla parcelle seront également'
+    - '&fen sécurité !'
+  ID: leather
+  POSITION-X: 7
+  POSITION-Y: 3
+
+Trust:
+  NAME: '&9&lFaire confiance'
+  LORE:
+    - '&fSi vous voulez laisser un autre joueur'
+    - '&fconstruire dans votre parcelle, vous'
+    - '&fdevez l''ajouter à une liste'
+    - '&c/trust <nom du joueur>'
+  ID: apple
+  POSITION-X: 3
+  POSITION-Y: 4
+
+Trustdeux:
+  NAME: '&9&lFaire confiance II'
+  LORE:
+    - '&fPour autoriser un joueur à utiliser'
+    - '&fles boutons et leviers :'
+    - '&9/accesstrust <nom du joueur>'
+    - '&f '
+    - '&fVous voir une liste des joueurs'
+    - '&fà qui vous faites confiance :'
+    - '&9/trustlist'
+  ID: 330
+  POSITION-X: 4
+  POSITION-Y: 4
+
+Mega:
+  NAME: '&9&lMondes'
+  LORE:
+    - '&fLe monde de ressources peut contenir'
+    - '&fvotre parcelle, mais pas les autres mondes,'
+    - '&fcomme le Nether ou l''End.'
+  ID: diamond
+  POSITION-X: 5
+  POSITION-Y: 4
+
+Pelle:
+  NAME: '&e&lPelle'
+  COMMAND: 'console: give {player} 284 1'
+  LORE:
+    - '&fVous pouvez obtenir'
+    - '&ffacilement une pelle'
+    - '&fen or en cliquant ici.'
+    - ''
+    - '&7Prix: &a2 émeraudes'
+  ID: 284
+  PRICE: 2
+  POSITION-X: 1
+  POSITION-Y: 6
+
+BuyContrat:
+  NAME: '&e&lContrat de Claim'
+  COMMAND: 'console: rv give {player} Claim 1'
+  LORE:
+    - '&fVous pouvez obtenir plus de blocs'
+    - '&fde claims avec un contrat à utiliser.'
+    - ''
+    - '&7Prix: &a135 émeraudes'
+  ID: 339
+  PRICE: 135
+  POSITION-X: 9
+  POSITION-Y: 6
+# Buyblocks1:
+#   NAME: '&a&lAcheter des blocs'
+#   COMMAND: 'buyclaim 10'
+#   LORE:
+#     - '&fPour acheter 10 blocs,'
+#     - '&fcliquez ici.'
+#     - '&fChaque bloc vaut &a4 émeraudes&f,'
+#     - '&fdonc &a40 émeraudes&f en tout.'
+#     - '&f '
+#     - '&fSinon, utilisez cette commande :'
+#     - '&c/buyclaim <nombre de blocs>'
+#   ID: 1
+#   POSITION-X: 8
+#   POSITION-Y: 6
+#
+# Buyblocks2:
+#   NAME: '&a&lAcheter des blocs'
+#   COMMAND: 'buyclaim 50'
+#   LORE:
+#     - '&fPour acheter 50 blocs,'
+#     - '&fcliquez ici.'
+#     - '&fChaque bloc vaut &a4 émeraudes&f,'
+#     - '&fdonc &a200 émeraudes&f en tout.'
+#     - '&f '
+#     - '&fSinon, utilisez cette commande :'
+#     - '&c/buyclaim <nombre de blocs>'
+#   ID: 1
+#   POSITION-X: 9
+#   POSITION-Y: 6
+
+Book:
+  NAME: '&e&lBook'
+  COMMAND: 'console: claimbook {player}'
+  LORE:
+    - '&fCliquez ici pour obtenir'
+    - '&fun petit guide sur les'
+    - '&fdifférentes commandes.'
+  ID: book
+  POSITION-X: 2
+  POSITION-Y: 6

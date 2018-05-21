@@ -1,0 +1,27 @@
+&f&e<Isaac Kleiner> &f: Maintenant, je vais vous téléportativer vers...
+&f&e<Isaac Kleiner> &f: Vers...
+&f&e<Isaac Kleiner> &f: Vers la Mairie de Bouquenia ! Un classique !
+&f&e<Isaac Kleiner> &f: Z'etes prets ?
+&f&e<Isaac Kleiner> &f: 3...
+&f&e<Isaac Kleiner> &f: 2...
+&f&e<Isaac Kleiner> &f: 1...
+/minecraft:tp <player> 1097 183 405
+&f&e<Isaac Kleiner> &f: C'est bon, vous y etes ?
+&f&e<Isaac Kleiner> &f: ...
+&f&e<Isaac Kleiner> &f: Plait-il ?
+&f&e<Isaac Kleiner> &f: Une montagne dites vous ? Mais c'est pas la mairie de Bouquenia ça !
+&f&e<Isaac Kleiner> &f: Ne bougez pas, je reprogramme le téléportationneur...
+/minecraft:tp <player> -255 313 2644
+&f&e<Isaac Kleiner> &f: Bizarre...   C'est pas ça non plus ...
+/minecraft:tp <player> 674 48 1343
+&f&e<Isaac Kleiner> &f: Mais c'est un vrai casse-tete ma parole !
+&f&e<Isaac Kleiner> &f: Je me noies littéralement dans mes calculs !
+&f&e<Isaac Kleiner> &f: On voit bien que ce n'est pas vous qui vous tapez le sale boulot !
+/minecraft:tp <player> -6 17 888
+&f&e<Isaac Kleiner> &f: Oui, je sais, je sais !
+&f&e<Isaac Kleiner> &f: C'est pas encore ça, et vous devez commencer à trouver le temps long !
+&f&e<Isaac Kleiner> &f: Mais vous n'allez pas non plus vous momifier sur place !
+&f&e<Isaac Kleiner> &f: Profitez-en pour observer le paysage !
+&f&e<Isaac Kleiner> &f: Respirez l'air vivifiant qui vous entoure ! Ces arbres, ces nuages dans le ciel !
+&f&e<Isaac Kleiner> &f: De quoi donner du plaisir meme a un mort !
+/minecraft:tp <player> 1325 64 1066

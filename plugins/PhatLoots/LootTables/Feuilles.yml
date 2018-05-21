@@ -1,0 +1,35 @@
+Feuilles:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        display-name: §dLes Feuilles
+        title: '&dLes Feuilles'
+        author: JeanDubuisson
+        pages:
+        - |-
+          Les feuilles c'est généralement vert.§0
+          §0Mais ça peut changer de couleur selon les biomes.§0
+          §0
+          §0Généralement ça pousse sur les arbres.§0
+          §0
+          §0Il y a les chênes, les sapins, les bouleaux, l'acajou, l'acacia, et le chêne noir.§0
+          §0
+          §0Vive les feuilles.
+        generation: 0
+    Probability: 100.0
+  Name: Feuilles
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 5
+    Minutes: 5
+  RoundDownTime: false

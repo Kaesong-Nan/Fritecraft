@@ -1,0 +1,46 @@
+belsnickel:
+  Mobtype: ZOMBIE
+  Disguise:
+    Type: player
+    Player: '&c&lBelsnickel'
+    Skin: tacotimmy
+  BossBar:
+    Enabled: true
+    Title: '&cBelsnickel'
+    Range: 40
+    Color: RED
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  Options:
+    Silent: true
+    Despawn: true
+    FollowRange: 50
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 5.0
+    PreventMobKillDrops: true
+  Display: '&c&lBelsnickel'
+  Health: 500
+  Damage: 10
+  Skills:
+  - effect:particles{particle=snowshovel;amount=10;hs=0.5;vs=0.5} ~onTimer:5 @self
+  - sound{s=entity.witch.death;p=0.8;v=0.8} @self ~onDamaged
+  - sound{s=entity.blaze.ambient;p=0.3;v=0.2} @self ~onTimer:60 0.25
+  - particles{p=reddust;a=50;hs=0.8;vs=1.2;s=0;y=1.0;c=#8ad9ff} @self ~onDamaged
+  - randomskill{skills=IceBolt,NoelLeap} ~onTimer:100 @Target
+  # - skill{s=NoelDeath} ~onDeath
+  Equipment:
+  - Bonnet:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - Spearmint:0
+  Drops:
+  - ItemBonnet 1 1
+  - CaneEnSucreMenthe 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker

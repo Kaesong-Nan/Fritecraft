@@ -1,0 +1,2 @@
+/playsound entity.cow.say master @a[r=10] ~ ~ ~ 1
+&7*Toujours pas*

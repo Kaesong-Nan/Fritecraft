@@ -1,0 +1,23 @@
+name: nether
+displayname: '&8&l[&b&m=---=&8&l> &f&lNether &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &6{cost}'
+- ''
+- '&eAccès rapie au Nether'
+- '&7Ressources'
+- '&7Biomes uniques'
+- '&7Reset périodiques'
+- ''
+- '&7Requiert d''avoir l''accès au Nether'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 5.0
+glowing: false
+permission: multiverse.access.Bouquenia_nether
+item: NETHERRACK
+data: 0
+location: Bouquenia_nether<>-33.43963201676859<>17.0<>98.50693690621165<>-9.728462<>-4.6074104
+slot: 26

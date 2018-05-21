@@ -1,0 +1,244 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5&lElixirs'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'pouvoir; elixir; bénédiction'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 3
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: quartz:0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Menu:
+  COMMAND: 'open: menu.yml'
+  NAME: '&e[arrow_left] Menu principal'
+  LORE:
+    - 'Aller au menu principal'
+  ID: 347
+  POSITION-X: 1
+  POSITION-Y: 1
+
+Elixirs:
+  NAME: '&c&l[*] Les Elixirs [*]'
+  LORE:
+    - '&fLes elixirs coûtent &a25 &fflacons de faveur'
+    - '&fdivine chacun, et durent tous &210 minutes&f.'
+    - '&f '
+    - '&fChaque déesse a son elixir, avec un &2effet'
+    - '&f&2principal &fqui lui est unique, quelques effets'
+    - '&fsecondaires, et un &4effet négatif &fpour contrebalancer.'
+    - '&f '
+    - '&fLes elixirs peuvent etre offensifs, defensifs,'
+    - '&fou utilitaire. Pour connaitre les effets de'
+    - '&fchaque elixir, lisez la description.'
+  ID: 374
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+Nuggets:
+  NAME: '&6&l<3 Thé au poulet <3'
+  LORE:
+    - '&fStyle pacifiste'
+    - '&fPouvoir : &aSauts'
+    - '&7Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:4
+  POSITION-X: 1
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Nuggetsgirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.nuggets'
+  KEEP-OPEN: true
+
+Frite:
+  NAME: '&6&l<3 Nectar de Frite <3'
+  LORE:
+    - '&fStyle offensif'
+    - '&fPouvoir : &aForce'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:11
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Fritegirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.frite'
+  KEEP-OPEN: true
+
+Hamburger:
+  NAME: '&6&l<3 Creme de Sandwich <3'
+  LORE:
+    - '&fStyle défensif'
+    - '&fPouvoir: &aResistance'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:1
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Hamburgirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.burger'
+  KEEP-OPEN: true
+
+Soupe:
+  NAME: '&6&l<3 Shot de soupe secrète <3'
+  LORE:
+    - '&fStyle hybride'
+    - '&fPouvoir: &aResistance à la lave'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:7
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Soupegirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.soupe'
+  KEEP-OPEN: true
+
+Soda:
+  NAME: '&6&l<3 Liqueur de bulle <3'
+  LORE:
+    - '&fStyle défensif'
+    - '&fPouvoir: &aAmphibie'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:10
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Sodagirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.soda'
+  KEEP-OPEN: true
+
+Candy:
+  NAME: '&6&l<3 Caramel aqueux <3'
+  LORE:
+    - '&fStyle pacifiste'
+    - '&fPouvoir: &aInvisibilité'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:5
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Candygirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.candy'
+  KEEP-OPEN: true
+
+Flurry:
+  NAME: '&6&l<3 Milkshake frigide <3'
+  LORE:
+    - '&fStyle utilitaire'
+    - '&fPouvoir: &aCélérité'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c25 Flacons'
+  ID: dye:12
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Flurrygirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.flurry'
+  KEEP-OPEN: true
+
+Choco:
+  NAME: '&6&l<3 Tonique chocolaté <3'
+  LORE:
+    - '&fStyle utilitaire'
+    - '&fPouvoir: &aVision Nocturne'
+    - 'Absorption, Satiété, Chance'
+    - ''
+    - '&fPrix : &c5 Flacons'
+  ID: dye:3
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'console: loot give {player} Chocogirl'
+  REQUIRED-ITEM: 384, 25
+  PERMISSION: 'adoration.choco'
+  KEEP-OPEN: true
+
+# Key:
+#   NAME: '&6&l[*] Clé Divine [*]'
+#   LORE:
+#     - '&fIl vous faut cette clé pour'
+#     - '&fouvrir le coffre de l''ile divine.'
+#     - '&fLes lots sont très très variés !'
+#     - ''
+#     - '&fPrix : &c20 Flacons'
+#   ID: 131
+#   POSITION-X: 5
+#   POSITION-Y: 6
+#   COMMAND: 'console: cc give physical Divin 1 {player}'
+#   REQUIRED-ITEM: 384, 20
+#   KEEP-OPEN: true
+
+# Vie:
+#   NAME: '&a&l[*] Vie [*]'
+#   LORE:
+#     - '&fLes vies vous permettez de conserver'
+#     - '&fvotre inventaire après la mort.'
+#     - '&fA chaque mort, une vie est utilisée.'
+#     - ''
+#     - '&fPrix : &c64 Flacons'
+#   ID: 339
+#   POSITION-X: 1
+#   POSITION-Y: 6
+#   COMMAND: 'console: addguardians {player} 1'
+#   REQUIRED-ITEM: 384, 64
+#   KEEP-OPEN: true
+
+Flacon:
+  NAME: '&2&lFlacon'
+  # COMMAND: 'bottle get max'
+  LORE:
+    - '&fPour acheter ces elixirs ou une'
+    - '&fclé, il vous faut des flacons de faveur.'
+    - '&fIl est possible de convertir votre faveur'
+    - '&freprésentée par la barre d''expérience en'
+    - '&fflacons avec une &atable d''enchantements&f.'
+    - ''
+    - '&fFaites un &aclic gauche&f sur une table avec'
+    - '&fune &afiole vide&f pour obtenir un flacon.'
+    - ''
+    - '&fCela stockera &a10xp &fdans une bouteille.'
+  ID: 384
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true

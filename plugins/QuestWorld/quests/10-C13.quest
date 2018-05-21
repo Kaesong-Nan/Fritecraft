@@ -1,0 +1,49 @@
+id: 10
+category: 13
+cooldown: -60000
+name: Yvan le joueur
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: TORCH
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Yvan le joueur
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: true
+in-order: true
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+uniqueId: 3affbd20-4835-4e41-967f-bb253585c7ac
+categoryId: fc84e293-0f50-49bd-af0d-509ade0467dd
+missions:
+- item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+  amount: 1
+  lore: ''
+  index: 0
+  type: CITIZENS_INTERACT
+  custom_string: Yvan
+  timeframe: 0
+  questId: 3affbd20-4835-4e41-967f-bb253585c7ac
+  reset-on-death: false
+  display-name: Allez parler à Yvan le Joueur
+  location:
+    world: Bouquenia
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  uniqueId: e0f5b9bc-0bbf-4832-ab5d-7eea9c55b881
+  entity: PLAYER
+  custom_int: 172
+  exclude-spawners: false

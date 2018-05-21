@@ -1,0 +1,47 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  damage: 11
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §6§lEclipse §r
+    lore:
+    - §7ᚐᚑᚒᚓᚔᚍᚎᚏ§r §6§lDescription §7ᚏᚎᚍᚔᚓᚒᚑᚐ
+    - '§7Type: §fSword'
+    - §7Tier:§6 Heroic
+    - '§6⚔ Physique: §f84.27%'
+    - '§b⚡ Magique: §f15.73%'
+    - §7ᚐᚑᚒᚓᚔᚍᚎᚏ§r §6§lAttributes §7ᚏᚎᚍᚔᚓᚒᚑᚐ
+    - '§a▸ AD: §f12.69 §7- §f18.02'
+    - '§a▸ Chance Coup Critique: §f+13.62%'
+    - '§a▸ Férocité: §f3.78x'
+    - '§6▸ Précision: §f+25.83%'
+    - ''
+    - '§a▸ Durabilité: §f§lUnbreakable'
+    - §8§l§m------§a§l Gemmes §8§l§m------
+    - '§a▣ Gemme: §f§r§a§lFlawless Emerald'
+    - §8§l§m------§b§l Enchantements §8§l§m------
+    - §c○ (Vide)
+    - §c○ (Vide)
+    - §c○ (Vide)
+    - §8§l§m------§c§l Runes §8§l§m------
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §8§l§m------§d§l Pouvoirs §8§l§m------
+    - '§d⚡ Pouvoir: §fHellFire I §7[§cShift§7] §7[§5Gauche§7] §7[§d10 sec.§7]'
+    - §d♯ (Vide)
+    - §d♯ (Vide)
+    - '§a▣ Gemme: §f§r§a§lFlawless Emerald'
+    - '§a▣ Gemme: §f§r§a§lFlawless Emerald'
+    enchants:
+      PROTECTION_FIRE: 7
+      OXYGEN: 28
+      DURABILITY: 29
+      ARROW_KNOCKBACK: 19
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAONiYOBgEHN39Y03ik/LSSzPSS0ujk/NTS1KzElhMHZx9HV0d3Ww0DNVrXEO8gzxdHb0iYcKGusZIAkGOYaAhIxUORhYQjxdgxjYMlKL8jOToYYbYBpuAjXH0BCb6SYoglDTLVWhxhliGmcGM84AxV1wx5pjMc/UFGggp6OTp49nSGS8AYN4RmpOTlpmUaqVoZWhgZWPq1uIVUlRaSoDAIUHjZwmAQAA

@@ -1,0 +1,14 @@
+&9<Val> &f: Ha ! Je suppose que vous venez nous rejoindre pour élucider les mystère de cet artefact.
+&9<Val> &f: Ca a l'air d'un objet doté d'une magie très puissante.
+&9<Val> &f: Forcément, ça nous interesse.
+&9<Val> &f: Il y a une sorte de corruption qui en émane.
+&9<Val> &f: Et on ne sait pas bien encore ce que tout ça signifie.
+&9<Val> &f: Selon Aglioti, le temps nous est compté.
+&9<Val> &f: La corruption pourrait s'étendre.
+&9<Val> &f: Il pense aussi que cet artefact serait une sorte de porte vers une autre dimension ...
+&9<Val> &f: Enfin bon, plus vite on a fini avec cette histoire, et plus vite on pourra rentrer.
+&9<Val> &f: Je n'aime pas trop dormir près de cette chose.
+&9<Val> &f: Ca fait des bruits bizarres ...
+&9<Val> &f: Si vous voulez vous rendre utile, parlez à Aglioti.
+&9<Val> &f: Cette grotte me donne le malaise.
+&e&l>> &r&7Cette série de quêtes vous donnera l'accès au Nether.

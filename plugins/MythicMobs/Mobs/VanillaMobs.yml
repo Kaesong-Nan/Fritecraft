@@ -1,0 +1,231 @@
+#
+# This example file shows you how to change default values for
+# vanilla mobs. Most MythicMobs options will work here, including
+# skills and effects! **: FALSE does not work, though.**
+
+####### SURFACE
+WITCH:
+  Display: 'Witch'
+  Health: 39
+  KillMessages:
+  - '&7<target.name> a été tué par une sorcière'
+  Drops:
+  # - CaneEnSucre 1 1
+SLIME:
+  Display: 'Slime'
+  KillMessages:
+  - '&7<target.name> a été tué par un slime'
+  Options:
+    KnockbackResistance: 0.9
+  Skills:
+  - potion{type=POISON;lvl=1;duration=60} @PlayersInRadius{r=2} ~onTimer:20
+  - potion{type=SLOW;lvl=1;duration=60} @PlayersInRadius{r=2} ~onTimer:20
+  - potion{t=DAMAGE_RESISTANCE;d=999999999;l=1} @Self ~onSpawn 1
+  - effect:particles{particle=mobSpell;amount=100;hs=3;vs=3;c=#4e9331} ~onTimer:20 @self
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+ZOMBIE:
+  Health: 30
+  Damage: 5
+  Display: 'Zombie'
+  KillMessages:
+  - '&7<target.name> a été tué par un zombie'
+  # Skills:
+  # - skill{s=Firework} @self ~onDeath
+  Drops:
+  # - CaneEnSucre 1 1
+CREEPER:
+  Health: 25
+  Display: 'Creeper'
+  KillMessages:
+  - '&7<target.name> a été tué par un creeper'
+  # Skills:
+  # - skill{s=Firework} @self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+SPIDER:
+  Health: 25
+  Damage: 3
+  Display: 'Spider'
+  KillMessages:
+  - '&7<target.name> a été tué par une araignée'
+  Skills:
+  - potion{type=POISON;lvl=0;duration=100} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=0;duration=100} @Target ~onAttack
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CaneEnSucre 1 1
+SKELETON:
+  Health: 25
+  Display: 'Skeleton'
+  KillMessages:
+  - '&7<target.name> a été tué par un squelette'
+  # Skills:
+  # - skill{s=Firework} @self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+
+####### UNDERGROUND
+CAVE_SPIDER:
+  Health: 20
+  Display: 'CaveSpider'
+  KillMessages:
+  - '&7<target.name> a été tué par une araignée des cavernes'
+  Damage: 5
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=1;duration=100} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=0;duration=100} @Target ~onAttack
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+SILVERFISH:
+  Health: 12
+  Damage: 3
+  Display: 'Silverfish'
+  KillMessages:
+  - '&7<target.name> a été tué par un silverfish'
+  Skills:
+  - potion{type=SLOW_DIGGING;lvl=2;duration=200} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=1;duration=200} @Target ~onAttack
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+
+####### MONUMENT
+ELDER_GUARDIAN:
+  Health: 130
+  Damage: 16
+  Display: 'ElderGuardian'
+  KillMessages:
+  - '&7<target.name> a été tué par un gros poisson'
+  # Skills:
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CaneEnSucre 1 1
+GUARDIAN:
+  Health: 50
+  Damage: 10
+  Display: 'Guardian'
+  KillMessages:
+  - '&7<target.name> a été tué par un gros poisson'
+  # Skills:
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+
+####### END
+ENDERMAN:
+  Health: 50
+  Damage: 7
+  Display: 'Enderman'
+  KillMessages:
+  - '&7<target.name> a été tué par un enderman'
+  Skills:
+  - potion{type=BLINDNESS;lvl=0;duration=100} @Target ~onAttack
+  - teleport{spreadh=10;spreadv=1} @target ~onDamaged 0.2
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+ENDERMITE:
+  Health: 14
+  Damage: 4
+  Display: 'Endermite'
+  KillMessages:
+  - '&7<target.name> a été tué par une endermite'
+  Skills:
+  - potion{type=BLINDNESS;lvl=1;duration=100} @Target ~onAttack
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+
+####### NETHER
+WITHER_SKELETON:
+  Health: 60
+  Damage: 15
+  Display: '&6Emissaire Atrophié'
+  KillMessages:
+  - '&7<target.name> a été tué par un emissaire atrophié'
+  Options:
+  - KnockbackResistance: 3.0
+  Skills:
+  - potion{type=WITHER;duration=60;lvl=0} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=2;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=2;hs=3;vs=3} ~onTimer:5 @self
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Equipment:
+  - 0:4
+  - 0:3
+  - 0:2
+  - 0:1
+  - epee_bedrock:0
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+
+BLAZE:
+  Health: 30
+  Damage: 8
+  Display: 'Blaze'
+  KillMessages:
+  - '&7<target.name> a été tué par un blaze'
+  Skills:
+  - ignite{ticks=80} @Target ~onAttack
+  - ignite{ticks=80} @Trigger ~onDamaged
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+GHAST:
+  Health: 20
+  Damage: 25
+  Display: 'Ghast'
+  KillMessages:
+  - '&7<target.name> a été tué par un ghast'
+  # Skills:
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CaneEnSucre 1 1
+MAGMA_CUBE:
+  Display: 'LavaSlime'
+  KillMessages:
+  - '&7<target.name> a été tué par un magmacube'
+  Skills:
+  - ignite{ticks=80} @Target ~onAttack
+  - ignite{ticks=80} @Trigger ~onDamaged
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+PIG_ZOMBIE:
+  Health: 30
+  Damage: 8
+  Display: 'PigZombie'
+  KillMessages:
+  - '&7<target.name> a été tué par un zombie cochon'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  # - randomskill{skills=Firework1,Firework2,Firework3,Firework4,Firework5} @Self ~onDeath
+  Drops:
+  # - CandyCorn 1 1
+  # - CaneEnSucre 1 1
+WITHER:
+  Health: 400
+  Skills:
+  - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=CONFUSION;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=SLOW;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=20;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=50;hs=3;vs=3} ~onTimer:5 @self

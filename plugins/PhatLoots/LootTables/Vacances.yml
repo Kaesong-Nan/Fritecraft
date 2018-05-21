@@ -1,0 +1,24 @@
+Vacances:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dDisque du Soleil §r
+        lore:
+        - §7Jeton de la fête de l'été.
+    Probability: 100.0
+  Name: Vacances
+  Reset:
+    Hours: 1
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

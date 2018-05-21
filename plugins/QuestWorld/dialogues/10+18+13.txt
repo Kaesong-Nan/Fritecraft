@@ -1,0 +1,16 @@
+§9<Lundquist> §f: C'est quand même plutôt joli hein ?
+§9<Lundquist> §f: Enfin bon, on n'est pas là pour faire des boucles d'oreilles.
+§9<Lundquist> §f: Surtout qu'on n'a pas d'oreilles ...
+§9<Lundquist> §f: Alors, allons y ...
+§7*Place le diamant sur la table à enchantements*
+/give <player> diamond 1 efficiency:2
+§9<Lundquist> §f: Hmm.
+§9<Lundquist> §f: J'avoue être un peu surpris.
+§9<Lundquist> §f: Je m'attendais à mieux que ça de la part d'un diamant.
+§9<Lundquist> §f: Hmm ...
+§9<Lundquist> §f: J'ai une petite idée.
+§9<Lundquist> §f: Et si ...
+§9<Lundquist> §f: Et si moins la valeur du matériau est élévée, meilleur est l'enchantement ?
+§9<Lundquist> §f: On peut essayer, qu'est ce qu'on a à perdre ?
+§7*Des lapis et de l'expérience ...*
+§9<Lundquist> §f: Bon, je pense qu'on pourrait essayer avec un sylex, non ?

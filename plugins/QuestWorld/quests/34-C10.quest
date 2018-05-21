@@ -1,0 +1,30 @@
+id: 34
+category: 10
+cooldown: -1
+name: '&eArène: Pigmen'
+item:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '§eArène: Pigmen'
+    internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1lYAvITM9NzGNgAACte8j6IwAAAA==
+    skull-owner: Pigman
+rewards:
+  money: 0
+  xp: 0
+  commands: []
+  items: []
+permission: ''
+disable-parties: false
+in-order: false
+auto-claim: false
+world-blacklist: []
+min-party-size: 1
+item_extra:
+  custom-skullOwner: Pigman
+uniqueId: 8350059e-5cb4-46e0-91bd-845a2b02068b
+categoryId: 2a8cf224-ff91-4651-bb20-e5887a1c5b27
+missions: []

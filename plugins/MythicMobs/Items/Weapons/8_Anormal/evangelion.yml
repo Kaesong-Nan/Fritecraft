@@ -1,0 +1,41 @@
+Evangelion:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&4&lEvangelion &r'
+  Lore:
+  - '&7Tranchant XX'
+  - '&7Sweeping III'
+  - '&7Solidité III'
+  - '&7Célérité I'
+  - '&7Critique I'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dMaudit'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:20
+  - SWEEPING:3
+  - DURABILITY:3
+
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=EnchantHaste} ~onTimer:80 1
+  - skill{s=EnchantCritique} ~onAttack @Target 0.1

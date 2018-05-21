@@ -1,0 +1,20 @@
+name: leviathan
+displayname: '&8&l[&b&m=---=&8&l> &f&lStation du Leviathan &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bInfo Warp &8&m--------'
+- ''
+- '&bPrix&f&l: &agratuit'
+- ''
+- '&ePortail de l''End'
+- '&5Anomalie du Leviathan'
+- '&5Anomalie Fritegirl'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: BEDROCK
+data: 0
+location: Bouquenia<>-172.93475718520241<>65.0<>1189.0119501230279<>0.032959513<>-91.39914
+slot: 34

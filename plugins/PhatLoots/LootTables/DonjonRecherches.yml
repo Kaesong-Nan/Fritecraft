@@ -1,0 +1,54 @@
+DonjonRecherches:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        display-name: §dRecherches
+        title: Recherches
+        author: Gildas
+        pages:
+        - |-
+          Recherches, jour 1§0
+          §0
+          §0Nous sommes aujourd'hui le premier jour de la septième décade de Soupegirl.§0
+          §0
+          §0Certains habitants ont ressenti des tremblements qui semblaient provenir du volcan.
+        - |-
+          Recherches, jour 2§0
+          §0
+          §0Nous avons dépéché une équipe de chercheurs dans le cratère. Trois sur les six sont morts dans la lave. Les autres ont installé un avant poste de recherche afin d'effectuer des prélèvements de lave.
+        - |-
+          Recherches, jour 7§0
+          §0
+          §0Je n'ai pas tenu ce livre à jour depuis un moment. Nous avons été débordés. Des vagues d'énergie montent depuis la lave mais nous ne pouvons pas les expliquer. Jacques est mort hier, écrasé par une pierre.
+        - |-
+          Recherches, jour 44§0
+          §0
+          §0Trop de soucis... La chaleur... Les monstres qui... du mal à écrire...§0
+          §0
+          §0Il y a un passage sous...§0
+          §0
+          §0L'entrée... dans les montagnes...§0
+          §0IL ARRIVE......................
+        - |-
+          Note de l'équipe de recherche :§0
+          §0
+          §0Nous avons retrouvé ce livre dans une caverne sous le volcan. Il y avait deux petits tas de cendres à côté.§0
+          §0Nous le rapportons pour archivage.
+        generation: 0
+    Probability: 100.0
+  Name: DonjonRecherches
+  Reset:
+    Hours: 0
+    Days: 10
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

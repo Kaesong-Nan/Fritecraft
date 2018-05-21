@@ -1,0 +1,40 @@
+pLameAir:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Lame Aérienne §r
+  Skills:
+  - skill{s=Electrique} ~onTimer:5 @self
+pRustInPeace:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lRust in Peace §r
+  Skills:
+  - skill{s=Electrique} ~onTimer:5 @self
+pElectron:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lElectron §r
+  Skills:
+  - skill{s=Electrique} ~onTimer:5 @self
+pDude:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lLame de Dude §r
+  Skills:
+  - skill{s=Electrique} ~onTimer:5 @self

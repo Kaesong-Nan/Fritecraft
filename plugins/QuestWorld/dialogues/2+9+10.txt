@@ -1,0 +1,8 @@
+&9< Forgeron > &f: Epée, bouclier, armure en papier maché ou en diamant !
+&9< Forgeron > &f: Ah un client ! C'est pour une commande ? Je vends meme des épées en bois !
+&9< Forgeron > &f: Un collier ?
+&9< Forgeron > &f: Vous voulez un collier.
+&9< Forgeron > &f: J'ai étudié le forgeage pendant dix huit ans.
+&9< Forgeron > &f: Et la seule chose que me réclament les péquenauds du coin, ce sont des colliers ?
+&9< Forgeron > &f: Faites voir vot' liste ? Pouah ! On peut rien faire avec ces matériaux...
+&9< Forgeron > &f: Allez hop, petit collier pour petit personnage, ne me remerciez pas !

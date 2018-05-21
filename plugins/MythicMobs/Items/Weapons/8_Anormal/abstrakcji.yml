@@ -1,0 +1,43 @@
+Abstrakcji:
+  Id: DIAMOND_SWORD
+  # Id: DIAMOND_AXE
+  Display: '&4&lAbstrakcji &r'
+  Lore:
+  - '&7Tranchant XV'
+  - '&7Sweeping III'
+  - '&7Solidité V'
+  - '&7Chance I'
+  - '&7Faveur I'
+  - '&7Egide'
+  - '&7Sapeur'
+  - ''
+  - '&4Anormal'
+  - '&7Particules : &dObscur'
+
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # Armor: 4
+      # Health: 8
+      Luck: 2
+
+  Enchantments:
+  - DAMAGE_ALL:15
+  - SWEEPING:3
+  - DURABILITY:5
+  - LOOT_BONUS_MOBS:1
+
+  Skills:
+  - skill{s=Obscur} ~onTimer:5 @self
+  - skill{s=EnchantEgide} ~onTimer:400 1
+  - skill{s=EnchantSapeur} ~onAttack 1

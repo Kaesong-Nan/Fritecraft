@@ -1,0 +1,59 @@
+MainMenu:
+  Hats:
+    Name: '&eChapeaux'
+    Material: '310:0'
+    Lore:
+    - '&7Chapeaux à porter pour le swag'
+  Particles:
+    Name: '&eParticules'
+    Material: '377:0'
+    Lore:
+    - '&7Faire apparaitre des'
+    - '&7particules autours de vous'
+    - '&7avec différents effets !'
+  Suits:
+    Name: '&eTenues'
+    Material: '316:0'
+    Lore:
+    - '&7Collectionnez et portez'
+    - '&7toutes les pièces d''une tenue'
+    - '&7pour un effet spécial !'
+  Gadgets:
+    Name: '&eJouets'
+    Material: '33:0'
+    Lore:
+    - '&7Gadgets à utiliser'
+    - '&7pour faire la fête,'
+    - '&7ou embeter les autres.'
+  Pets:
+    Name: '&eMinipets'
+    Material: '352:0'
+    Lore:
+    - '&7Des petites créatures'
+    - '&7qui vous suivront partout !'
+  Morphs:
+    Name: '&eTransformations'
+    Material: '397:2'
+    Lore:
+    - '&7Transformez-vous en une'
+    - '&7des créatures de Bouquenia'
+    - '&7aux yeux de tous !'
+  Banners:
+    Name: '&eBanners'
+    Material: '1217:0'
+    Lore:
+    - '&7Unlock all the Banners and'
+    - '&7wear them as hats while in'
+    - '&7in a lobby!'
+  Emotes:
+    Name: '&eEmotes'
+    Material: '1217:1'
+    Lore:
+    - '&7Exprimez-vous !'
+  Cloaks:
+    Name: '&eCapes'
+    Material: '116:0'
+    Lore:
+    - '&7Faites de particules, elles'
+    - '&7apparaissent si vous êtes'
+    - '&7immobile.'

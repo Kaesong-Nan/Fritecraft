@@ -1,0 +1,14 @@
+&a<Elsevier> &f: Oh, vous voulez déposer un article scientifique ?
+&a<Elsevier> &f: Très bien.
+&a<Elsevier> &f: Hmm ... "Les vegetaux" ... pas super original comme titre, hmm ?
+&a<Elsevier> &f: Peu importe.
+&a<Elsevier> &f: Alors ... Le formatisme a l'air correct.
+&a<Elsevier> &f: La méthodologie a l'air de correspondre aux standards ...
+&a<Elsevier> &f: Références bibliographiques dans les normes ...
+&a<Elsevier> &f: Ok, je peux l'accepter pour publication.
+&a<Elsevier> &f: Vous voulez en garder une copie ?
+&a<Elsevier> &f: Ok, une seconde ...
+&7*place l'article dans une photocopieuse imaginaire*
+&a<Elsevier> &f: Tenez, c'est pour vous en souvenir.
+/give <player> paper 1 name:&dLes_Vegetaux lore:par_Lazarus_et_<player>|Accepté_pour_publication
+&a<Elsevier> &f: Au revoir.

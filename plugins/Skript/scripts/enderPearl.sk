@@ -1,0 +1,11 @@
+on projectile shoot:
+    if projectile is ender pearl:
+        if {endershootercooldown.%shooter%} doesn't exist:
+            set {endershootercooldown.%shooter%} to now
+        set {_difference} to difference between {endershootercooldown.%shooter%} and now
+
+on damage of player:
+    if {_difference} is more than 2 seconds:
+        damage cause is fall
+        victim is player
+        cancel event

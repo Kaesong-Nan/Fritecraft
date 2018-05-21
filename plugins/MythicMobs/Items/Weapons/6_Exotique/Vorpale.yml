@@ -1,0 +1,37 @@
+Vorpale:
+  Id: DIAMOND_SWORD
+  Display: '&6Lame Vorpale &r'
+  Lore:
+  - '&7Tranchant XII'
+  - '&7Fléau IV'
+  - '&7Solidité V'
+  - '&7Vigueur IV'
+  - '&7Vampirisme I'
+  - ''
+  - '&6Exotique'
+  - '&7Particules :&d Maudit'
+
+  Options:
+    Unbreakable: false
+    Repairable: true
+    RepairCost: 999
+  Hide:
+    - Unbreakable
+    - Enchants
+    - Attributes
+  Attributes:
+    MainHand:
+      AttackSpeed: -0.6
+      Damage: 7
+      # MovementSpeed: 0.10-0.15
+      # Armor: 4
+      Health: 8
+      # Luck: 4
+
+  Enchantments:
+  - DAMAGE_ALL:12
+  - DAMAGE_ARTHROPODS:4
+  - DURABILITY:5
+  Skills:
+  - skill{s=Maudit} ~onTimer:5 @self
+  - skill{s=EnchantVampirisme} ~onAttack 1

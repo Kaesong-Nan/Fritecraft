@@ -1,0 +1,98 @@
+BossHierophante:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lEnderdague §r
+          lore:
+          - §7Tranchant XX
+          - §7Vitesse III
+          - §cFragilité VII
+          - §cCécité I
+          - ''
+          - §6Exotique
+          - §7Particules :§d Paradoxal
+          - §7Compétence :§9 Linceul
+          enchants:
+            DAMAGE_ALL: 20
+          repair-cost: 999
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWHgCA31dPHNLy7RTTp6/0ew3wMWBk6QkE9qYnFJ+Nc19cZ9Cv1sDGyOufmleSX2h43BgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg2h6al5qUWayXm5+WWpual5JcEFqagozA6d/QWpRYklmfh7QfkagOXhUM5DqvAM6DGBA2HmCcAsTKzxSE3NKMtCcxgBzGqZKkp21/wGxzhKGWZZYUpKYnI03zLCpJdlpDjLEOk0E1TqXxNzE9FRcgYZVMQMDADg4lq6MAgAA
+      Probability: 20.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§lEctoplasme §r
+          lore:
+          - §7Substance mystérieuse provenant
+          - §7d'un être puissant.
+      Probability: 50.0
+    LowerNumberOfLoots: 1
+    Name: Random
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Item
+    BonusAmount: 128
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 10
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    BonusAmount: 3
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 64
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lClé Divine
+        lore:
+        - §7Une clé pour le coffret §6Divin
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    Probability: 100.0
+  Name: BossHierophante
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false
