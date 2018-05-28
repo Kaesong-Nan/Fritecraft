@@ -24,3 +24,5 @@ Certains plugins ne sont pas inclus : Buycraft, DiscordSRV et Dynmap.
 Les fichiers des mondes, logs, et données des joueurs ne sont pas inclus. Ils seraient inutiles, leur modification impossible, et github ne permetterai pas un upload de cette taille.
 
 Les identifiants des bases de données ne sont utilisable qu'en utilisateur local sur le serveur, et le port 3306 est fermé aux connections externes, et la connection par ssh est désactivée. Les bases de données sont donc sécurisées.
+
+
