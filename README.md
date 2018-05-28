@@ -12,9 +12,8 @@
 <br>
 ### Etat du serveur
 
-  <a href="#">
-     <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.cpu&alarm=10min_cpu_usage&refresh=auto&label=CPU"></img>  <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.ram&alarm=ram_in_use&refresh=auto&label=RAM"></img>  <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=disk_space._&alarm=disk_space_usage&refresh=auto&label=SSD"> <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.uptime&refresh=auto&label=Debian">
-  </a>
+
+<img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.cpu&alarm=10min_cpu_usage&refresh=auto&label=CPU"></img>  <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.ram&alarm=ram_in_use&refresh=auto&label=RAM"></img>  <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=disk_space._&alarm=disk_space_usage&refresh=auto&label=SSD"> <img src="http://149.91.83.56:19999/api/v1/badge.svg?chart=system.uptime&refresh=auto&label=Debian">
 
 Voir plus avec le [Netdata](http://149.91.83.56:19999/)
 
