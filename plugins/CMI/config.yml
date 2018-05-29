@@ -70,7 +70,7 @@ Optimizations:
   # Useful when you have players with complicated names
   PartialPlayerName: false
   # Enables DiscordSRV plugin support for messages
-  DiscordSRVSupport: true
+  DiscordSRVSupport: false
   # When set to true, commands in help page will be sorted alphabeticaly
   # If set to false, commands will be sorted by priority
   CommandSorting: true
