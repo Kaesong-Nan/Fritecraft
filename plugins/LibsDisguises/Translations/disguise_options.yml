@@ -28485,3 +28485,213 @@
 
 # Used as a shortcut for setBaby(false) when disguising an entity
 "adult": "adult"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setParticleId": "setParticleId"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setColor": "setColor"
+
+# Found in the disguise options for AreaEffectCloud and uses a float
+"setRadius": "setRadius"
+
+# Found in the disguise options for Entity and uses a boolean
+"setAddEntityAnimations": "setAddEntityAnimations"
+
+# Found in the disguise options for PolarBear and uses a boolean
+"setStanding": "setStanding"
+
+# Found in the disguise options for Sheep and uses a boolean
+"setSheared": "setSheared"
+
+# Found in the disguise options for Vex and uses a boolean
+"setAngry": "setAngry"
+
+# Found in the disguise options for WitherSkull and uses a boolean
+"setBlue": "setBlue"
+
+# Found in the disguise options for Wolf and uses a float
+"setDamageTaken": "setDamageTaken"
+
+# Found in the disguise options for Wolf and uses a boolean
+"setBegging": "setBegging"
+
+# Found in the disguise options for Entity and uses a boolean
+"setRightClicking": "setRightClicking"
+
+# Found in the disguise options for Player and uses a boolean
+"setHatEnabled": "setHatEnabled"
+
+# Found in the disguise options for Shulker and uses a BlockFace
+"setFacingDirection": "setFacingDirection"
+
+# Found in the disguise options for Villager and uses a Profession
+"setProfession": "setProfession"
+
+# Found in the disguise options for Vindicator and uses a boolean
+"setJohnny": "setJohnny"
+
+# Found in the disguise options for Wither and uses a int
+"setInvulnerability": "setInvulnerability"
+
+# Found in the disguise options for Wither and uses multiple ints
+"setTargets": "setTargets"
+
+# Found in the disguise options for Wolf and uses a AnimalColor
+"setCollarColor": "setCollarColor"
+
+# Used as a shortcut for setBaby when disguising an entity
+"baby": "baby"
+
+# Used as a shortcut for setBaby(false) when disguising an entity
+"adult": "adult"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setParticleId": "setParticleId"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setColor": "setColor"
+
+# Found in the disguise options for AreaEffectCloud and uses a float
+"setRadius": "setRadius"
+
+# Found in the disguise options for Entity and uses a boolean
+"setAddEntityAnimations": "setAddEntityAnimations"
+
+# Found in the disguise options for PolarBear and uses a boolean
+"setStanding": "setStanding"
+
+# Found in the disguise options for Sheep and uses a boolean
+"setSheared": "setSheared"
+
+# Found in the disguise options for Vex and uses a boolean
+"setAngry": "setAngry"
+
+# Found in the disguise options for WitherSkull and uses a boolean
+"setBlue": "setBlue"
+
+# Found in the disguise options for Wolf and uses a float
+"setDamageTaken": "setDamageTaken"
+
+# Found in the disguise options for Wolf and uses a boolean
+"setBegging": "setBegging"
+
+# Found in the disguise options for Entity and uses a boolean
+"setRightClicking": "setRightClicking"
+
+# Found in the disguise options for Player and uses a boolean
+"setHatEnabled": "setHatEnabled"
+
+# Found in the disguise options for Shulker and uses a BlockFace
+"setFacingDirection": "setFacingDirection"
+
+# Found in the disguise options for Villager and uses a Profession
+"setProfession": "setProfession"
+
+# Found in the disguise options for Vindicator and uses a boolean
+"setJohnny": "setJohnny"
+
+# Found in the disguise options for Wither and uses a int
+"setInvulnerability": "setInvulnerability"
+
+# Found in the disguise options for Wither and uses multiple ints
+"setTargets": "setTargets"
+
+# Found in the disguise options for Wolf and uses a AnimalColor
+"setCollarColor": "setCollarColor"
+
+# Used as a shortcut for setBaby when disguising an entity
+"baby": "baby"
+
+# Used as a shortcut for setBaby(false) when disguising an entity
+"adult": "adult"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setParticleId": "setParticleId"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setColor": "setColor"
+
+# Found in the disguise options for AreaEffectCloud and uses a float
+"setRadius": "setRadius"
+
+# Found in the disguise options for Entity and uses a boolean
+"setAddEntityAnimations": "setAddEntityAnimations"
+
+# Found in the disguise options for PolarBear and uses a boolean
+"setStanding": "setStanding"
+
+# Found in the disguise options for Sheep and uses a boolean
+"setSheared": "setSheared"
+
+# Found in the disguise options for Vex and uses a boolean
+"setAngry": "setAngry"
+
+# Found in the disguise options for WitherSkull and uses a boolean
+"setBlue": "setBlue"
+
+# Found in the disguise options for Wolf and uses a float
+"setDamageTaken": "setDamageTaken"
+
+# Found in the disguise options for Wolf and uses a boolean
+"setBegging": "setBegging"
+
+# Found in the disguise options for Entity and uses a boolean
+"setRightClicking": "setRightClicking"
+
+# Found in the disguise options for Player and uses a boolean
+"setHatEnabled": "setHatEnabled"
+
+# Found in the disguise options for Shulker and uses a BlockFace
+"setFacingDirection": "setFacingDirection"
+
+# Found in the disguise options for Villager and uses a Profession
+"setProfession": "setProfession"
+
+# Found in the disguise options for Vindicator and uses a boolean
+"setJohnny": "setJohnny"
+
+# Found in the disguise options for Wither and uses a int
+"setInvulnerability": "setInvulnerability"
+
+# Found in the disguise options for Wither and uses multiple ints
+"setTargets": "setTargets"
+
+# Found in the disguise options for Wolf and uses a AnimalColor
+"setCollarColor": "setCollarColor"
+
+# Used as a shortcut for setBaby when disguising an entity
+"baby": "baby"
+
+# Used as a shortcut for setBaby(false) when disguising an entity
+"adult": "adult"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setParticleId": "setParticleId"
+
+# Found in the disguise options for AreaEffectCloud and uses a int
+"setColor": "setColor"
+
+# Found in the disguise options for AreaEffectCloud and uses a float
+"setRadius": "setRadius"
+
+# Found in the disguise options for Entity and uses a boolean
+"setAddEntityAnimations": "setAddEntityAnimations"
+
+# Found in the disguise options for PolarBear and uses a boolean
+"setStanding": "setStanding"
+
+# Found in the disguise options for Sheep and uses a boolean
+"setSheared": "setSheared"
+
+# Found in the disguise options for Vex and uses a boolean
+"setAngry": "setAngry"
+
+# Found in the disguise options for WitherSkull and uses a boolean
+"setBlue": "setBlue"
+
+# Found in the disguise options for Wolf and uses a float
+"setDamageTaken": "setDamageTaken"
+
+# Found in the disguise options for Wolf and uses a boolean
+"setBegging": "setBegging"

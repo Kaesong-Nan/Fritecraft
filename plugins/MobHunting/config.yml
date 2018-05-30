@@ -4,27 +4,27 @@
 # ########################################################################
 # Here is where you set the base prize in $ for killing a mob of each type
 # You can either set a decimal number ex 1.23 or a range 1.23:2.23
-#
+# 
 # For each kill you can run a console command to give the player a reward.
 # You can use the following variables:
 # {killer},{killed},{player},{killed_player},{prize},{world},
-# {killerpos},{killedpos}. Killerpos and Killedpos will have the
-# format <x> <y> <z>. Which could be used to /summon items.
+# {killerpos},{killedpos}. Killerpos and Killedpos will have the 
+# format <x> <y> <z>. Which could be used to /summon items. 
 # An example could be /summon apple {killedpos} 2. to summon two apples where
 # where the mob was killed or /summon apple {killerpos} 1. to summon an
 # an apple where the player is.
 # Another example could be to give the player permission to fly
 # for 1 hour or use give command to the player items.
-#
+# 
 # You can also specify the message send to the player.
 # The text can be color coded with these codes:
 # http://minecraft.gamepedia.com/Formatting_codes
-#
+# 
 # You can run many console commands on each line, each command
 # must be separated by |
 # The player will have the cmd run in {mob_cmd_run_chance} times in average. If mob_cmd_run_chance=0 it
 # will never run. If f.ex. mob_cmd_run_chance=0.50 and it will run run every second time in average.
-#
+# 
 # The mobname_head_prize is only used if you want the dropped heads after killing a mob to have a value.
 # Please also check the "dropmoneyonground" section in this file.
 example:
@@ -467,7 +467,7 @@ boss:
 # Rewards for killing villagers
 # ########################################################################
 # Here is where you set the base prize in $ for killing the villagers
-# MobHunting only handle Villagers on profession level, all careers is
+# MobHunting only handle Villagers on profession level, all careers is 
 # handles as their profession. Info anbout Profession and Caarer:
 # http://minecraft.gamepedia.com/Villager#Professions_and_careers
 villager:
@@ -961,7 +961,7 @@ fishing:
 # Pvp configuration. Set pvp_allowed = true if you want give the players a reward when they kill eachother.
 # You can alsp run a console command when this happens to give the player a reward or punish him.
 # You can you the following variables {player},{world},{killed_player}.
-# An example could be to give the player permission to fly
+# An example could be to give the player permission to fly 
 # for 1 hour or use give command to the player items.
 # You can also specify the message send to the player.
 # You can run many console commands on each line, each command
@@ -972,7 +972,7 @@ pvp:
     # Set pvpAllowed=false to disable rewards on killing other players.
     pvp_allowed: false
 
-    # Set rob_from_victim=true to steal from the victim or
+    # Set rob_from_victim=true to steal from the victim or 
     # rob_from_victim=false to get the reward money from the server.
     rob_from_victim: true
 
@@ -1006,13 +1006,13 @@ pvp:
 # ########################################################################
 # Special / Achievements rewards
 # ########################################################################
-# Here is where you set the prize in $ for achieving a special kill.
-# For each achievment you can run a console command to give the player a reward.
+# Here is where you set the prize in $ for achieving a special kill. 
+# For each achievment you can run a console command to give the player a reward. 
 # You can use the following variables {player},{world}, {killerpos},
 # {monstertype} and more can be added on request.
-# monstertype is the monstername. A valid list can be found in your
+# monstertype is the monstername. A valid list can be found in your 
 # lang file. Ex. if it is mobs.skeleton.name, monstertype will return skeleton
-# An example command could be to give the player permission to fly
+# An example command could be to give the player permission to fly 
 # for 1 hour or use give command to the player items.
 # You can also specify the message send to the player.
 # You can run many console commands on each line, each command
@@ -1227,7 +1227,7 @@ grinding:
   disable_grinding_detection_in_worlds:
   - worldname
 
-  # Killing stacked mobs (created by a mob stacking plugin)
+  # Killing stacked mobs (created by a mob stacking plugin) 
   # is by nature detected as grinding and by default allowed. If you want to the the grinding detection to detect
   # killings of stacked to be detected as gring, you must set grinding_stacked_mobs_allowed to false.
   grinding_stacked_mobs_allowed: true
@@ -1277,8 +1277,8 @@ multiplier:
   # ########################################################################
   #  Bonus multipliers
   # ########################################################################
-  # These are bonus multipliers that can modify the base prize.
-  # REMEMBER: These are not in $ but they are a multiplier.
+  # These are bonus multipliers that can modify the base prize. 
+  # REMEMBER: These are not in $ but they are a multiplier. 
   # Setting to 1 will disable them.
   bonus:
     sneaky: 2.0
@@ -1319,7 +1319,7 @@ multiplier:
   # ########################################################################
   # Rank multipliers########################################################################
   # You can add multipliers for players with different ranks/groups. To do this"
-  #
+  # 
   # you must set give the user/group permissions with a format like this:
   # mobhunting.multiplier.guest
   # mobhunting.multiplier.guardian
@@ -1329,7 +1329,7 @@ multiplier:
   # mobhunting.multiplier.op <____ Notice 'op' is reserved for OP'ed players!
   # OP'ed players will only get the OP multiplier
   # you can make your own permission nodes. You just need to keep the format
-  # mobhunting.multiplier.name 'value' in your permissions file and the
+  # mobhunting.multiplier.name 'value' in your permissions file and the 
   # format below in this file.
   rank:
 
@@ -1347,13 +1347,13 @@ multiplier:
   # Penalty multipliers
   # ########################################################################
   # You can chance the multiplier for different world difficulties.
-  # A player which play in a HARD world should get more that a player
+  # A player which play in a HARD world should get more that a player 
   # a player who is player in a peaceful world.The difficulty multipliers
   # with the mobs basic reward.
   # REMEMBER: These are not money, but a multiplier. Setting to 1 will disable them.
   difficulty:
 
-    # This is the reward multiplier for the WorldDifficulty. Note that extrahard is
+    # This is the reward multiplier for the WorldDifficulty. Note that extrahard is 
     # used for worlds where the plugin ExtraHardMode is enabled.
     world_difficulty_multiplier:
       difficulty:
@@ -1366,8 +1366,8 @@ multiplier:
   # ########################################################################
   # Penalty multipliers
   # ########################################################################
-  # These are penalty multipliers that can modify the base prize.
-  # REMEMBER: These are not in $ but they are a multiplier.
+  # These are penalty multipliers that can modify the base prize. 
+  # REMEMBER: These are not in $ but they are a multiplier. 
   # Setting to 1 will disable them.
   penalty:
 
@@ -1390,7 +1390,7 @@ bounties:
   # Set to true if you want to disable players to be able to put bounties on each other.
   enable_player_bounties: false
 
-  # Here you set how much of a bound the bounty owner get back if
+  # Here you set how much of a bound the bounty owner get back if 
   # he drop the bounty on another player
   bounty_return_pct: 50
 
@@ -1442,12 +1442,12 @@ plugins:
 
     # Bonus multiplier for killing while disgused.
     # Can be both positive an negative = reward or penalty
-    # and over and under 1 = raise or lower the reward.
+    # and over and under 1 = raise or lower the reward. 
     undercover_multiplier: 0.95
 
     # Bonus multiplier for killing a disgused player.
     # Can be both positive an negative = reward or penalty
-    # and over and under 1 = raise or lower the reward.
+    # and over and under 1 = raise or lower the reward. 
     cover_blown_multiplier: 1.2
 
   # ########################################################################
@@ -1460,7 +1460,7 @@ plugins:
 
     # Set the number of seconds between each check. Recommended setting is
     # masterMobHunter_check_every: 300 ~ to update all MasterMobHunters every 5th minute.
-    # Be careful not to lower this number too much. It can cause lag and server crashes
+    # Be careful not to lower this number too much. It can cause lag and server crashes 
     # because of database lockings.
     masterMobHunter_check_every: 300
 
@@ -2092,9 +2092,9 @@ plugins:
 dropmoneyonground:
 
   # When a player get a money reward for a kill, the money will go directly
-  # into his pocket. If you set dropMoneyOnGround=true the reward will
+  # into his pocket. If you set dropMoneyOnGround=true the reward will 
   # dropped on ground to be picked up by the player.
-  # Negative rewards will always be taken from the player.
+  # Negative rewards will always be taken from the player. 
   drop_money_on_ground: true
 
   # Here you can set the type of the ITEM to be dropped.
@@ -2105,56 +2105,56 @@ dropmoneyonground:
   # SKULL: The reward is dropped as a SKULL with a custom texture. You can generate custom texture value
   # and custom texture signature at http://mineskin.org
   # KILLER: The reward is dropped as the killers head.
-  #
+  # 
   # OBS: If the Gringotts plugin is installed and support not disabled, the droped item will be the Gringotts chosen item.
   # Examples:
-  #
+  # 
   # Bag of gold: (https://mineskin.org/6875)
-  #
+  # 
   # drop_money_on_ground_skull_reward_name: 'Bag of gold'
   # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0ODU5MTIwNjk3OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5NmNlMTNmZjYxNTVmZGYzMjM1ZDhkMjIxNzRjNWRlNGJmNTUxMmYxYWRlZGExYWZhM2ZjMjgxODBmM2Y3In19fQ=='
   # drop_money_on_ground_skull_texture_signature: 'm8u2ChI43ySVica7pcY0CsCuMCGgAdN7c9f/ZOxDZsPzJY8eiDrwxLIh6oPY1rvE1ja/rmftPSmdnbeHYrzLQ18QBzehFp8ZVegPsd9iNHc4FuD7nr1is2FD8M8AWAZOViiwlUKnfd8avb3SKfvFmhmVhQtE+atJYQrXhJwiqR4S+KTccA6pjIESM3AWlbCOmykg31ey7MQWB4YgtRp8NyFD3HNTLZ8alcEXBuG3t58wYBEME1UaOFah45tHuV1FW+iGBHHFWLu1UsAbg0Uw87Pp+KSTUGrhdwSc/55czILulI8IUnUfxmkaThRjd7g6VpH/w+9jLvm+7tOwfMQZlXp9104t9XMVnTAchzQr6mB3U6drCsGnuZycQzEgretQsUh3hweN7Jzz5knl6qc1n3Sn8t1yOvaIQLWG1f3l6irPdl28bwEd4Z7VDrGqYgXsd2GsOK/gCQ7rChNqbJ2p+jCja3F3ZohfmTYOU8W7DJ8Ne+xaofSuPnWODnZN9x+Y+3RE3nzH9tzP+NBMsV3YQXpvUD7Pepg7ScO+k9Fj3/F+KfBje0k6xfl+75s7kR3pNWQI5EVrO6iuky6dMuFPUBfNfq33fZV6Tqr/7o24aKpfA4WwJf91G9mC18z8NCgFR6iK4cPGmkTMvNtxUQ3MoB0LCOkRcbP0i7qxHupt8xE='
-  #
+  # 
   # Bag of gold (alternative): (https://mineskin.org/3384)
-  #
+  # 
   # drop_money_on_ground_skull_reward_name: 'Bag of gold'
   # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzQzMzI0MzY1MDYsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2NzczZDc0Y2Y1MDhmZDc3Yzc4MmZmZDI5ZGYyZmU0N2ZiNzE0YjViMGQ3ZGU2N2Q1Mjg2OTMxZTJmMWRmMiJ9fX0='
   # drop_money_on_ground_skull_texture_signature: 'JdvJksowuxYQ0eqf56J+Dmczg7zvlw2DbIc58Q33kRt65uMUNn2iRCQsbNpztC1cAAgyYMOyFDiOUZQeIK03CSRoPLDtWp2u501YoGKqhjgrE0V0UDh3JetWKz4Ob0KmATtY+4R2vSoMjHFEFppM0Oq+8ZER12FAiVEMAzeseFN3Z9fWAMc/V10LoquGBpq6ExTfSCEEMDEGZopF1T8ZBKL0vf4DVendfz4v3yl7bRBzISZEAnF+ECTa9z36r8HRqS8+s0eO/AWYQcRaKIu9H+wSK5F/1v+rgifeSlMAnt1Na8m1b5tMfNuq6pXxWCq4nUGgYVTOLUinqs9ZcFz3Z6Mtx5YtymKk2M0mzxmTm9+AeOL4s3K/UrJYQlcmLBJSv4hd6EigJXoashzWNCHKmFDYCdEhh4FArq4G9vRZtoudcTeMsvi0VmXIgER8U5iSfoTtzXcGbf/GT0ECtgfeA40f5oCqyE4nXreudMmvlDCBr/KHbILQWeeH/jhtYqQ6OwJb3Ji2Bs9F5fQmICSqk7X4yKzexf8rdDhOG1z+/TCot7K8unPVuQx46sXPeP7t2hCiHOXMAnOMt8vuL3gQUURIEM6fMryjmlKsgvk8Jo0gawavRCIZQtA6vT0JRRnSAchzEOA7QP1iiVV3LnwX9Yqw7oMJ/+REV1hWesuzDOc='
-  #
+  # 
   # Chest: (https://mineskin.org/3136)
-  #
+  # 
   # drop_money_on_ground_skull_reward_name: 'Treasure chest'
   # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzI4Mzk3Nzk2ODMsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5NDcxMjQ1YmNhN2M0ZmUwNjQ0MGQ5YjRiOWY3NDIxN2VkNzM0M2FhZDU5YTc5MThiMWExZDYxZDhiYTZkYSJ9fX0='
   # drop_money_on_ground_skull_texture_signature: 'lVA2QIbvybpzhcXof5yWz/7nkHdhG/3MGO+1DyD1txdRCALV6BRwsDUBwIUg06MkLUpBkjmiOvFcCRgal/jDE/xkkJPyk2tb/w4NtQ5PiPiAe0oInVnuiSIVFIE4tnsCdvX0joll3uKwVu6XY3t1KEsqJATcPhA5hslVn1iOp/IfMziIfuCzzob04rScpwcw0mLNtbtbMVAl6LYR9gXVuOkAfXujuYq4lbI/iW0yuLxSAzr8i9QWBP2ftup4qQHwocQRTdUE6/G5G9LwJWXhhnqKWjgjfvL0y2FRFJkgN1cvuq7DvUDBVsePnRIHwU5YvBPMjcZe/KE8VPTSodsN84/+++5p95Puxe1DXMX822xR71IQsxM7eax7Ffrr/Tzxw2rSDh9ivGGlRAB85OHwp/ouUgWNSrT8inNMYImque9EuZku9p3OFet8iZsFhkMXANeNtTVL7LKV7/L/0YWwoeyBnw5QQqvGyWKw3dac5eDkRNCyCtdDIntM5vsd8FxnIFj36zxLWgmrJmOM9hg5PBM4gcDxxryBcug8jSe+W9XDU39OOJotXajj8dgSL8yUn+d7l4Qvat/vJbAE8lonMl7P0P9QBPzmcIUvlRMuHSpRZQYkoCbwc2Filahd/5INtm7I4Y28XYzzupdwLk3cavKfOloL5YrWNqaZr/+9Tbk='
-  #
+  # 
   # Birthday present: (https://mineskin.org/4743)
-  #
+  # 
   # drop_money_on_ground_skull_reward_name: 'Birthday present'
   # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0Nzk5MzEzNDMxMjgsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNDRkZjIzMjBiNzYzMTI0N2FhZGY1OWMwZWNlOTdhNGJiNTdkZjI4YzFjZWU3OTM0ZjZhZTI4YWY4OTg5In19fQ=='
   # drop_money_on_ground_skull_texture_signature: 'k1xQ6E1NuxG1ZN7nlQqRJltYrJn44XHVhNA9pSEu2Pt2mkuixMxhIDj2Tg6o+JWlTyGfXtPVWLxygeGymmeSGaVcmDTaCALg7PL11ZfSzSWSxaIufNbj1EcSi264jg5FrAa/2/DnFsgu16wjlWiIGtjCzgx2QabY8YofoPKw6Y6Y5FHZJVXpT8Rsxs8ok6ZHtfm/ZyyTgvRSzh2mKmVyQIYJ1ZKxuqWhDQfbtBpu3dlEzMAEJo85Dvb7uIFYa7WFitjFJue/c9qpqAnazWFLrx33nYpjjeYhcfAvsaNQW3JVFEkyxzEgzOHbdsbiZcqTCwO+49whu175xOqT7XhouEubDT7A3H1jiSvQvkUZJv/GzUF4qFYHSfxhr6OWoBrRGwWmPdcrYx7fUWKo43CAqa5inaiTV4gU70BWrx5i3LhIJxpnspAyTXs8tZBxeoh8IizWD7uXkYYqh3j9cwuHoxfwZuMpOx9CPTC6R/YwJ1YK5OgJBY1+QhNw+NOilWT3jTok82elFvOLm3a5yLyVs+/UPmLD7rZsFm7/DD3VnRcpgjKRiyy2j9vYsYLyNE2BVLVJxBVk2yyy9u7L4VR6PO+8v2dh9DQl7vM2ORCxKPl2lt6woHWM2+eT1PXr16LtMtAOGYT8mlKFhp8Ou2+9fu4AqWkX7n3swU6XLiK5cJs='
-  #
+  # 
   # Choose between "ITEM","KILLED","SKULL","KILLER"
   drop_money_on_ground_itemtype: SKULL
 
   # Use the reward as a currency (bag of gold) which can be sold, bought, stored in a
   # protected chest or a protected area (a Bank?). Check the command /mh money sell.
-  # If false the bag of gold will be picked up as money, if true the bag of gold
-  # will be picked up as an item. OBS: If you want to use the bags as an Economy
+  # If false the bag of gold will be picked up as money, if true the bag of gold 
+  # will be picked up as an item. OBS: If you want to use the bags as an Economy 
   # replacing Essentials/CraftConomy/... and more, then you have to install the
   # BagOfGold plugin as well. (https://dev.bukkit.org/projects/bagofgold)
   drop_money_use_item_as_currency: false
 
   # Here you can chance the command /mh money ... to /mh <alias> ...
-  # Example: gold,bag,silver,coin,????
+  # Example: gold,bag,silver,coin,???? 
   drop_money_command_alias: money
 
-  # Here you can set which item should be used when you have
-  # chosen drop_money_on_ground_itemtype: ITEM.
-  # Use Minecraft Item names like:
-  # GOLD_NUGGET, DIAMOND, GOLD_INGOT, EMERALD, GOLDEN_APPLE
+  # Here you can set which item should be used when you have 
+  # chosen drop_money_on_ground_itemtype: ITEM. 
+  # Use Minecraft Item names like: 
+  # GOLD_NUGGET, DIAMOND, GOLD_INGOT, EMERALD, GOLDEN_APPLE 
   drop_money_on_ground_item: EMERALD
 
-  # Here you can set of the color of the number above the dropped item.
+  # Here you can set of the color of the number above the dropped item. 
   # Use color names like WHITE, RED, BLUE, GOLD
   drop_money_on_ground_text_color: WHITE
 
@@ -2171,7 +2171,7 @@ dropmoneyonground:
   drop_money_on_ground_skull_texture_signature: JdvJksowuxYQ0eqf56J+Dmczg7zvlw2DbIc58Q33kRt65uMUNn2iRCQsbNpztC1cAAgyYMOyFDiOUZQeIK03CSRoPLDtWp2u501YoGKqhjgrE0V0UDh3JetWKz4Ob0KmATtY+4R2vSoMjHFEFppM0Oq+8ZER12FAiVEMAzeseFN3Z9fWAMc/V10LoquGBpq6ExTfSCEEMDEGZopF1T8ZBKL0vf4DVendfz4v3yl7bRBzISZEAnF+ECTa9z36r8HRqS8+s0eO/AWYQcRaKIu9H+wSK5F/1v+rgifeSlMAnt1Na8m1b5tMfNuq6pXxWCq4nUGgYVTOLUinqs9ZcFz3Z6Mtx5YtymKk2M0mzxmTm9+AeOL4s3K/UrJYQlcmLBJSv4hd6EigJXoashzWNCHKmFDYCdEhh4FArq4G9vRZtoudcTeMsvi0VmXIgER8U5iSfoTtzXcGbf/GT0ECtgfeA40f5oCqyE4nXreudMmvlDCBr/KHbILQWeeH/jhtYqQ6OwJb3Ji2Bs9F5fQmICSqk7X4yKzexf8rdDhOG1z+/TCot7K8unPVuQx46sXPeP7t2hCiHOXMAnOMt8vuL3gQUURIEM6fMryjmlKsgvk8Jo0gawavRCIZQtA6vT0JRRnSAchzEOA7QP1iiVV3LnwX9Yqw7oMJ/+REV1hWesuzDOc=
 
   # Dark room mobspawners usually collect items in a HOPPER. This is allowed by default.
-  # If you want to deny HOPPERS to collect MobHunting Money rewards
+  # If you want to deny HOPPERS to collect MobHunting Money rewards 
   # set "deny_hoppers_to_pickup_money_on_ground"=false
   deny_hoppers_to_pickup_money_on_ground: true
 
@@ -2218,13 +2218,13 @@ general:
   disabled_in_worlds:
   - worldname
 
-  # The language (file) to use. You can put the name of the language file as the language code
+  # The language (file) to use. You can put the name of the language file as the language code 
   # (eg. en_US, de_DE, fr_FR, ect.) or you can specify the name of a custom file without the .lang
   # Please check the lang/ folder for a list of all available translations.
   language: fr_FR
 
   # Can the players earn money on mobs spawned from mobspawners, eggs and from eggs from Dispensers?
-  # If you disable this you are still able to get rewards from specific Spawners, if you white list the area
+  # If you disable this you are still able to get rewards from specific Spawners, if you white list the area 
   # using '/mh whitelistarea'.
   disable_money_rewards_from_mobspawners_and_eggs: true
 
@@ -2236,7 +2236,7 @@ general:
 
   # As of V 5.0.0 MobHunting utilizises the Advancement system (L key) to to show which
   # Achievements the players has made. This is still BETA feature and it is only Supported
-  # on Spigot Servers and if you have any problems, you can set 'disable_mobhunting_advancements: true
+  # on Spigot Servers and if you have any problems, you can set 'disable_mobhunting_advancements: true 
   # and the reload the plugin.
   disable_mobhunting_advancements: true
 
@@ -2264,7 +2264,7 @@ general:
   debug: false
 
   # Rounding of rewards when you uses a range or %. (ex creeperPrize=10:30) the reward.
-  # All numbers except 0 can be used.
+  # All numbers except 0 can be used. 
   # Set rounding_reward=1 if you want integers. IE. 10,11,12,13,14...
   # Set rounding_reward=0.01 if you want 2 decimals 10.00, 10.01, 10.02... integers.
   # Set rounding_reward=5 if you want multipla of 5 IE. 10,15,20,25...
@@ -2291,25 +2291,25 @@ general:
   # be showed in a Inventory GUI.
   use_gui_for_bounties: true
 
-  # Disable natural drops when a mob is killed
+  # Disable natural drops when a mob is killed 
   # (because player is grinding or protected by Worldguard or in God mode or similar)
-  # If you want the mobs to drops normal rewards set
+  # If you want the mobs to drops normal rewards set 
   # "disable_natural_item_drops"=false
   disable_natural_item_drops: true
 
   # Disable natural xp drops when a mob is killed
   # (because player is grinding or protected by Worldguard or in God mode or similar)
-  # If you want the mobs to drop normal XP set
+  # If you want the mobs to drop normal XP set 
   # "disable_natural_xp_drops"=false
   disable_natural_xp_drops: true
 
   # Try to cancel natural drops when a mob is killed the player is in creative mode.
-  # If you want the mobs to drops normal rewards set
+  # If you want the mobs to drops normal rewards set 
   # "try_to_cancel_natural_drops_when_in_creative"=false
   try_to_cancel_natural_drops_when_in_creative: true
 
   # Try to cancel XP drops when a mob is killed while the player is in creative mode.
-  # If you want the mobs to drop normal XP set
+  # If you want the mobs to drop normal XP set 
   # "try_to_cancel_xp_drops_when_in_creative"=false
   try_to_cancel_xp_drops_when_in_creative: true
 

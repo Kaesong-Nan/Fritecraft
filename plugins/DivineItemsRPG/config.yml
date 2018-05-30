@@ -143,6 +143,14 @@ AmmoTypes:
     Enabled: true
     Prefix: '&e☔&f'
     Name: Mixture
+  ENDER_PEARL:
+    Enabled: true
+    Name: Ender Peral
+    Prefix: '&b◉'
+  EXP_POTION:
+    Enabled: true
+    Name: Exp Potion
+    Prefix: '&e☘'
 Attributes:
   DAMAGE:
     Name: AD
@@ -294,6 +302,12 @@ Attributes:
     Value: §f
     Bonus: §6⏏§f
     Capability: 7.0
+  DIRECT_DAMAGE:
+    Name: Direct Damage
+    Prefix: §f▸
+    Value: §f
+    Bonus: §6⏏§f
+    Capability: 100.0
 ItemGroups:
   Weapons:
   - WOOD_SWORD

@@ -35,6 +35,7 @@
 # [sourceSuffix] to show source player suffix if posible
 # ***********************************************
 # Some lines supports option to send them to custom places, like action bar, title, sub title or even create JSON/clickable messages
+# If line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
 # If line starts with !actionbar! then player will get action bar message defined after this variable
 # If line starts with !broadcast! then everyone will receive message
 # If line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case its used after !broadcast! then everyone who is online will get this custom text message
@@ -49,7 +50,7 @@
 # <URL> includes url
 
 info:
-  # use !prefix! in any locale line to automaticaly include this prefix
+  # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
   NoPermission: '&cYou don''t have permission!'
   NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
@@ -117,6 +118,7 @@ info:
   cantDetermineMobType: '&cCan''t determine mob type from &e[type] &cvariable'
   cantRename: '!actionbar!&eYou can''t rename item to this name'
   wrongName: '&cWrong name'
+  invalidName: '&cInvalid name'
   notSet: not set
   startedEditingPainting: '&eYou started painting editing. Click any other block to
     cancel.'
@@ -154,12 +156,12 @@ info:
     not: '&cServer don''t belong to bungee network'
     noserver: '&cCan''t find server by this name!'
   InventorySave:
+    info: '&8Info: &8[playerDisplayName]'
     saved: '&e[time] &eInventory saved with id: &e[id]'
     NoSavedInv: '&eThis player doesn''t have any saved inventories'
     NoEntries: '&4File exists, but no inventories were found!'
     CantFind: '&eCan''t find inventory with this id'
     TopLine: '&e*************** [playerDisplayName] saved inventory ***************'
-    BottomLine: '&e************************************************************'
     List: '&eid: &6[id]&e. &6[time]'
     KillerSymbol: '&c ☠'
     Click: '&eClick to check ([id]) saved inventory'
@@ -538,11 +540,15 @@ Chat:
   localPrefix: ''
   shoutPrefix: '&c[S]&r'
   shoutDeduction: '!actionbar!&cDeducted &e[amount] &cfor shout'
+  # Use \n to add new line
   publicHover: '&eSent time: &6%server_time_hh:mm:ss%'
   privateHover: '&eSent time: &6%server_time_hh:mm:ss%'
   staffHover: '&eSent time: &6%server_time_hh:mm:ss%'
   helpopHover: '&eSent time: &6%server_time_hh:mm:ss%'
   link: '&l&4[&7LINK&4]'
+  item: '&7[%cmi_iteminhand_displayname%[amount]&7]'
+  itemAmount: ' x[amount]'
+  itemEmpty: '&7[Mighty fist]'
 command:
   help:
     output:
@@ -1127,6 +1133,7 @@ command:
       noitem: '&cNot holding any item in hand.'
       invalidEnchant: '&cYou dont have permission to enchant item with invalid enchantment'
       inccorectId: '&eIncorrect enchant name or id.'
+      wrongItem: '&eWrong item in your hand'
       levellimit: '&cLevel is to high, max allowed is &e[level].'
       posible: '&ePosible enchants: '
       posibleList: '&6[enchant]'
@@ -1636,6 +1643,12 @@ command:
     help:
       info: '&eRemove saved inventories for player'
       args: (playerName) [id/all/last]
+  invremoveall:
+    help:
+      info: '&eRemoves all saved inventories'
+      args: '[confirmed]'
+    info:
+      removed: '&eAll saved inventories removed ([count])'
   invsave:
     help:
       info: '&eSave inventory'
@@ -2190,6 +2203,7 @@ command:
       args: (playerName)
     info:
       feedback: '&ePing: &6[ping]'
+      selffeedback: '&eYour ping is &6[ping]ms'
   placeholders:
     help:
       info: '&eList out all placeholders'
@@ -2197,6 +2211,7 @@ command:
     info:
       list: '&e[place]. &6[placeholder]'
       outputResult: ' &eresult: &6[result]'
+      parse: '&6[placeholder] &eby [source] &6result &8|&f[result]&8|'
   playtime:
     help:
       info: '&eShows player total play time'
@@ -2491,6 +2506,13 @@ command:
       args: '[message]'
     info:
       noOneToReplay: '&eThere is no one to replay'
+  resetdbfields:
+    help:
+      info: '&eResets particular database collumns to default value'
+      args: '[collumnName] (-w:[worldName]) (-p:[playerName])'
+    info:
+      feedback: '&eUpdated &7[amount] &eplayers'
+      nofield: '&cCant find field by this name'
   ride:
     help:
       info: '&eRide target entity'
@@ -2564,6 +2586,7 @@ command:
       - /scan id 52 r 30
       - scan id diamond_block r g q 32
     info:
+      loadingChunkInfo: '&eLoading chunk information!'
       startScanning: '&eFound &6[amount] &echunks to check. Starting!'
       paused: '&eScanning paused, to continue use &6/cmi scan continue.'
       continuing: '&eScanning continuing'
@@ -2751,6 +2774,15 @@ command:
     info:
       shaked: '&eYou shaked of: &6[entity]'
       nothing: '&eNothing to shake off'
+  signspy:
+    help:
+      info: '&eToggle sign spy'
+      args: (playerName)
+      explanation:
+      - cmi.command.signspy.hide - Hides created signs from signspy
+    info:
+      text: '&5Sign&2Spy&7[&8[senderDisplayName]&7]&7: &f[text]'
+      toggled: '&eSign spy toggled to &6[state] &estate'
   silence:
     help:
       info: '&eBlocks public messages'
@@ -2783,6 +2815,11 @@ command:
     help:
       info: '&eChanges players skin'
       args: '[skinName/off] (playerName)'
+    info:
+      changed: '&eChanged skin to &6[skinOwner] &elook'
+      failed: '&eFailed to apply skin'
+      resetSteve: '&eRemoved skin'
+      reset: '&eApplied default skin'
   smite:
     help:
       info: '&eStrike ground or player with lightning'
@@ -2863,6 +2900,7 @@ command:
       spawnedEntities: '&eSpawned &6[entities] &eentities '
       spawnedPasangers: '&eand &6[passengers] &epassengers'
       nothingSpawned: '&eNO entities spawned'
+      cantSpawn: '&eCan''t spawn this type of entity'
   staffmsg:
     help:
       info: '&eSends message to staff chanell'
@@ -3168,6 +3206,12 @@ command:
     help:
       info: '&eSends title message to all online player''s'
       args: '[title %subtitle% subtitle]'
+    info:
+      message: '&f[messsage]'
+  toast:
+    help:
+      info: '&eSends toast message to player'
+      args: '[playerName] (-t:[advType]) (-icon:[material]) [message]'
     info:
       message: '&f[messsage]'
   toggleshiftedit:

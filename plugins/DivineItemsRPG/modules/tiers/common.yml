@@ -349,3 +349,5 @@ Item:
       Chance: 0.0
       Min: -1
       Max: -1
+  AmmoTypes:
+    ARROW: 100.0

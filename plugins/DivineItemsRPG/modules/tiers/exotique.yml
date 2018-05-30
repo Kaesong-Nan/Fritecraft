@@ -352,6 +352,8 @@ Item:
       Chance: 5.0
       Min: 0
       Max: 1
+  AmmoTypes:
+    ARROW: 100.0
 Drops:
   Chance: 0.5
   Broadcast: false

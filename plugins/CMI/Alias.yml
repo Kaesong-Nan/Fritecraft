@@ -284,6 +284,9 @@ Alias:
   # /cmi invremove $1-
   /invremove: true
   #  
+  # /cmi invremoveall $1-
+  /invremoveall: true
+  #  
   # /cmi invsave $1-
   /invsave: true
   #  
@@ -484,6 +487,9 @@ Alias:
   /reply: false
   /r: true
   #  
+  # /cmi resetdbfields $1-
+  /resetdbfields: false
+  #  
   # /cmi ride $1-
   /ride: false
   #  
@@ -547,6 +553,9 @@ Alias:
   #  
   # /cmi shakeitoff $1-
   /shakeitoff: false
+  #  
+  # /cmi signspy $1-
+  /signspy: false
   #  
   # /cmi silence $1-
   /silence: false
@@ -631,6 +640,9 @@ Alias:
   #  
   # /cmi tmb $1-
   /tmb: false
+  #  
+  # /cmi toast $1-
+  /toast: false
   #  
   # /cmi toggleshiftedit $1-
   /toggleshiftedit: false
@@ -744,6 +756,7 @@ Alias:
   # /cmi workbench $1-
   /workbench: false
   /wb: false
+  /craft: false
   #  
   # /cmi worth $1-
   /worth: false

@@ -104,7 +104,7 @@ Permission:
     - '&c&lPAS LA PERMISSION'
     # Set to true, will play sound
     # when player select the item.
-    #
+    # 
     # Sounds: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Sounds
     Play-Sound:
       Enabled: true
@@ -122,7 +122,7 @@ Permission:
     - '&a&lDISPONIBLE'
     # Set to true, will play sound
     # when player select the item.
-    #
+    # 
     # Sounds: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Sounds
     Play-Sound:
       Enabled: true

@@ -56,9 +56,9 @@ Optimizations:
   # Enables or disables maintenance mode
   Maintenance: false
   AutoDownload:
-    # In case you dont have GeoIP.dat it will be downloaded automaticaly on server start. Restart can be needed for it to take effect
+    # In case you dont have GeoIP.dat it will be downloaded automatically on server start. Restart can be needed for it to take effect
     GeoIp: true
-    # In case you dont have GeoLiteCity.dat it will be downloaded automaticaly on server start. Restart can be needed for it to take effect
+    # In case you dont have GeoLiteCity.dat it will be downloaded automatically on server start. Restart can be needed for it to take effect
     GeoLiteCity: true
   # Sets indicator when creating elevator signs. Its case insensitive
   ElevatorIndicator: '[CMIElevator]'
@@ -66,7 +66,7 @@ Optimizations:
   MoneyFormat: '###,###.###'
   # Do you want to record sell hand actions into file
   SellLog: true
-  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips
+  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips 
   # Useful when you have players with complicated names
   PartialPlayerName: false
   # Enables DiscordSRV plugin support for messages
@@ -137,6 +137,8 @@ Optimizations:
   # When set to true, player play time will be grabbed from user stats file instead of from CMI user data file
   # This can help to get more accurate play time if you have older server and using players stats feature
   PlayTimeFromStats: true
+  # When set to true, playtimetop list will be loaded on server startup
+  PreloadTopPlaytime: false
   # Do you want to use CMI playtime tracking
   # While this is enabled, player play time will be record for each hour he playied in server
   CMIPlayTimeTracking: true
@@ -371,7 +373,7 @@ TabList:
   # If disabled then this will use only default format and will skip checking for custom one to save some resources if needed
   GroupedEnabled: true
   Updates:
-    # Automaticaly updates tab list every x seconds for ALL online players
+    # automatically updates tab list every x seconds for ALL online players
     # If you are using static Footer and Header you can disable this by setting to -1
     # Consider setting this to -1 if its completely enough to update on player events
     AutoInterval: 60
@@ -459,11 +461,18 @@ Chat:
   ReplyToLastMessenger: false
   # Defines regex when replacing url in chat with short word
   LinkRegex2: (https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9]\.[^\s]{2,})
+  # When set to true, particular variables in chat will be translated into items player are holding. List of variables belove
+  HoverItems: true
+  # Defines regex when replacing item line in chat with players item in hand information. Only works when CMI hover over chat format is enabled
+  ItemRegex:
+  - (\%item\%)
+  - (\[item\])
+  - (\%i\%)
   # Do you want to enable private messaging over bungeecord
   BungeeMessages: true
   # Do you want to enable public messaging over bungeecord
   BungeePublicMessages: true
-  # Used for simple chat messages. Optional variables: {prefix} {suffix} {group}. Supporting PlaceHolderAPI variables like %player_server%
+  # Used for simple chat messages. Optional variables: {world} {prefix} {suffix} {group}. Supporting PlaceHolderAPI variables like %player_server%
   GeneralFormat: '{prefix}&f{displayName}&7: &r{message}'
   # Defines range of regular messages to travel
   # Set to -1 to disable range restriction
@@ -753,7 +762,7 @@ Animations:
   DoubleClick: false
   # Delay in milliseconds between clicks to sit on chair when double click is enabled
   DoubleClickDelay: 200
-# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming,
+# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, 
 # Sintax should be [permissionNode]:[damageCause]:[multiplier]
 # Example: nolavadamage:lava:0 will prevent lava damage with cmi.damagecontrol.nolavadamage permission node
 # Negative values will heal player instead of damaging him
@@ -804,6 +813,9 @@ Elytra:
     ShowParticles: true
   Launch:
     Time: 2
+  Fix:
+    # Disables option to damage yourself while flying with arrows to boost up
+    PreventSelfDamage: false
 FlightCharge:
   # Do you want to enable flight charge feature
   Enabled: false
@@ -843,13 +855,13 @@ FlightCharge:
   # This will define if you want to kill player if fall damage if higher than his health amount
   KillOnFall: false
 Point:
-  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust,
+  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust, 
   DefaultParticle: COLOURED_DUST
 Messages:
   Login:
     # If set to true, login message wont be shown
     Disabled: false
-    # Defines number of players from which to automaticaly start hiding join messages
+    # Defines number of players from which to automatically start hiding join messages
     # Set to -1 to disable this
     AutoHideFrom: -1
     Custom:
@@ -858,7 +870,7 @@ Messages:
   Logout:
     # If set to true, logout message wont be shown
     Disabled: false
-    # Defines number of players from which to automaticaly start hiding logout messages
+    # Defines number of players from which to automatically start hiding logout messages
     # Set to -1 to disable this
     AutoHideFrom: -1
     Custom:
@@ -868,7 +880,7 @@ Messages:
   FirstJoinMessage:
     Use: false
   DeathMessage:
-    # Defines number of players from which to automaticaly start hiding death messages
+    # Defines number of players from which to automatically start hiding death messages
     # Set to -1 to disable this
     AutoHideFrom: -1
 Books:
@@ -925,12 +937,14 @@ WorldLimits:
   Enabled: false
   # World list with default game modes
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
-  # Posible modes: creative, survival, adventure, spectator,
+  # Posible modes: creative, survival, adventure, spectator, 
   Gamemode:
   - world:Survival
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed
   Fly:
   - world:False
+  # When set to false, only players with cmi.worldlimit.fly.aboveroof can fly above world build limit
+  FlyAboveRoof: true
   # If player will have cmi.worldlimit.god.bypass permission node, fly mode wont be changed
   GodMode:
   - world:False
@@ -962,6 +976,11 @@ CheckForNameChange:
   OnLogin: true
   AmountToShow: 3
   OnInfoShow: true
+  # Do you want to perform commands
+  PerformCommandsOnNewName: false
+  # Command list to be performed in case player logs in with new name
+  NameChangeCommands:
+  - 'asConsole! cmi broadcast !&2[oldname] logged in with new name: [newname]'
 inv:
   # Do you want to save the player's inventory on his death
   SaveOnDeath: true
@@ -1060,7 +1079,7 @@ scan:
   GlobalRangeByDefault: false
   # Range in chunks. 2 is 25 chunks, 1 is 9 and 0 is only chunk you are standing in
   DefaultRange: 2
-  # When this set to true, all found items in containers will be removed automaticaly durring scan. Ex: /scan id 7 purge
+  # When this set to true, all found items in containers will be removed automatically durring scan. Ex: /scan id 7 purge
   EnablePurge: false
 search:
   # When this set to true, all found items in inventories will be deleted durring search. Ex: /cmi search id 7 purge
@@ -1086,6 +1105,7 @@ lfix:
   SoftCap: 19.0
   # Staring speed when fixing light. Range from 1 to 100
   DefaultSpeed: 15
+# Removeuser command will use same configurations when removing player data files or moving them to new place
 purge:
   # Cleans files on server startup
   CleanOnStart: false
