@@ -1,0 +1,34 @@
+FinishRedirect: true
+LeaveRedirect: true
+Start:
+  World: Bouquenia
+  X: -19
+  Y: 71
+  Z: 1720
+End:
+  World: Bouquenia
+  X: -24
+  Y: 123
+  Z: 1734
+Checkpoints:
+- Bouquenia:-19:76:1761
+- Bouquenia:-18:86:1718
+- Bouquenia:-20:96:1755
+- Bouquenia:-20:101:1722
+- Bouquenia:-20:117:1734
+EndCommands:
+- loot give %player% ParkourFrite
+Reset:
+  World: Bouquenia
+  X: -17
+  Y: 71
+  Z: 1718
+  yaw: -332.43310546875
+  pitch: 6.941736221313477
+FallBack: true
+FallBackY: 70
+CheckpointFallBackY:
+  '2': 82
+  '3': 92
+  '5': 114
+  '1': 73

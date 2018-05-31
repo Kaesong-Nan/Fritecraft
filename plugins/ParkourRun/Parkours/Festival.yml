@@ -1,0 +1,31 @@
+FinishRedirect: true
+LeaveRedirect: false
+Start:
+  World: Bouquenia
+  X: 1454
+  Y: 112
+  Z: 1572
+End:
+  World: Bouquenia
+  X: 1442
+  Y: 117
+  Z: 1432
+Checkpoints:
+- Bouquenia:1434:114:1562
+- Bouquenia:1433:122:1552
+- Bouquenia:1452:117:1525
+- Bouquenia:1468:111:1511
+- Bouquenia:1455:116:1491
+- Bouquenia:1456:115:1456
+Reset:
+  World: Bouquenia
+  X: 1457
+  Y: 112
+  Z: 1572
+  yaw: 91.79595947265625
+  pitch: 16.084808349609375
+EndCommands:
+- loot give Ventouz ParkourFestival
+- loot give %player% ParkourFrite
+FallBackY: 108
+FallBack: true

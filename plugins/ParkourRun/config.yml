@@ -1,0 +1,72 @@
+Permissions:
+  Enabled: true
+  Reset: parkour.reset
+  Checkpoint: parkour.checkpoint
+  Leave: parkour.leave
+  Resume: parkour.resume
+  Leaderboard: parkour.leaderboard
+Sound:
+  Start: BLOCK_WOOD_BUTTON_CLICK_OFF
+  End: BLOCK_WOOD_BUTTON_CLICK_OFF
+  Checkpoint: BLOCK_WOOD_BUTTON_CLICK_OFF
+  TimerReset: BLOCK_WOOD_BUTTON_CLICK_OFF
+  CommandReset: BLOCK_WOOD_BUTTON_CLICK_OFF
+  CommandCheckpoint: BLOCK_WOOD_BUTTON_CLICK_OFF
+  CommandLeave: BLOCK_WOOD_BUTTON_CLICK_OFF
+Hologram:
+  ParkourStart: '&e&lParkour%next%&a&lDébut'
+  ParkourEnd: '&e&lParkour%next%&c&lFin'
+  Checkpoint: '&e&lCheckpoint%next%&b #%checkpoint%'
+  StatsHeader: '&7Current Stats of Parkour%next%&c%name%'
+  StatsList: '&e%place_id%&7. &a%player% &7- &a%formatted_time%'
+  StatsSize: 10
+  StatsUpdateDelay: 30
+DelayedTicks: 50
+ResumeDelay: 86400000
+AutoResumeJoinEnabled: false
+ResumeEnabled: false
+FlyDetectionEnabled: true
+TeleportDetectionEnabled: false
+TitleSupport: false
+ActionBarSupport: false
+Message:
+  Prefix: '&7[&aParkour!&7] '
+  NoPermission: '%prefix% &cI''m sorry, but you do not have permission to perform
+    this command. Please contact the server administrators if you believe that this
+    is in error.'
+  NoRace: '%prefix% &cYou are currently not in a parkour race.'
+  CommandLeave: '%prefix% &aYou stopped the parkour.'
+  FlyOnStart: '%prefix% &c&lYou must not be flying to start the parkour!'
+  FlyOnEnd: '%prefix% &c&lYou must not be flying to end the parkour!'
+  ParkourStart: '%prefix% &a&lParkour challenge started! Use &e&l/parkour reset &a&lto
+    restart!'
+  ParkourFinishFailed: '%prefix% &a&lYour time of &e&l%time% &a&ldid not beat your
+    previous record of &e&l%old_time%&a&l! Try again to beat your old record!'
+  ParkourFinishNotFailed: '%prefix% &a&lYou beat your previous record of &e&l%old_time%
+    &a&lwith &e&l%time%&a&l!'
+  ParkourFinish: '%prefix% &a&lCongratulations on completing the parkour! You finished
+    in &e&l%time%&a&l! Try again to get an even better record!'
+  ParkourTimeReset: '%prefix% &a&lReset your timer to 00:00! Get to the finish line!'
+  NotStarted: '%prefix% &a&lThis is the finish line for the parkour! Get to the start
+    line and climb back up here!'
+  ReachedCheckpoint: '%prefix% &a&lYou reached &e&lCheckpoint #%checkpoint%&a&l. You
+    can type &e&l/parkour checkpoint &a&lto get back to this place.'
+  FlyDetected: '%prefix% &c&lParkour challenge failed! Do not fly!'
+  TeleportDetected: '%prefix% &c&lParkour challenge failed! Do not teleport!'
+  Delay: '%prefix% &cYou need to wait until %formatted_time% to do this parkour again!'
+  CheckpointsRequired: '%prefix% &cYou haven''t reached your last checkpoint!'
+  Resume: '%prefix% &cYou resumed your last parkour!'
+  ResumeFailed: '%prefix% &cYou don''t have a parkour to resume!'
+  Title:
+    Begin: '&eBegin!'
+    Ending: '&aYou finished it!'
+  ActionBar:
+    Begin: '&eBegin!'
+    Ending: '&aYou finished it!'
+    Running: '&e%time% seconds'
+Leaderboard:
+  ListDisplay: 10
+  Message:
+    ParkourNotExist: '&cParkour &7%name% &cdoes not exist!'
+    PlaceRegistered: '&aPlace &7%place_id%&a. &e%player% &7(&c%formatted_time%&7)'
+    PlaceUnregistered: '&aPlace &7%place_id%&a. &e<?> &7(&c%formatted_time%&7)'

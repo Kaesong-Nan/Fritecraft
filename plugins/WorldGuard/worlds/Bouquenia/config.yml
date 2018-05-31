@@ -1,0 +1,49 @@
+#
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+dynamics:
+    disable-mushroom-spread: true
+    disable-ice-melting: true
+    disable-snow-melting: true
+    disable-snow-formation: true
+physics:
+    allow-portal-anywhere: false
+ignition:
+    block-tnt: false
+    block-tnt-block-damage: true
+    block-lighter: false
+fire:
+    disable-lava-fire-spread: true
+    disable-all-fire-spread: true
+    disable-fire-spread-blocks: []
+    lava-spread-blocks: []
+mobs:
+    block-creeper-explosions: false
+    block-creeper-block-damage: true
+    block-wither-explosions: false
+    block-wither-block-damage: true
+    block-wither-skull-explosions: false
+    block-wither-skull-block-damage: true
+    block-enderdragon-block-damage: true
+    block-fireball-explosions: false
+    block-fireball-block-damage: true
+    anti-wolf-dumbness: false
+    disable-enderman-griefing: true
+    block-painting-destroy: true
+    block-item-frame-destroy: true
+    block-plugin-spawning: false
+    block-above-ground-slimes: false
+    block-creature-spawn: []
+    block-enderdragon-portal-creation: true
+    block-other-explosions: true
+    block-zombie-door-destruction: true
+    disable-snowman-trails: false
+    allow-tamed-spawns: true

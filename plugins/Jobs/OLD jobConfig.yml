@@ -1,0 +1,7229 @@
+# Jobs configuration.
+#
+# Stores information about eac job.
+#
+# For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
+
+Jobs:
+  Frite:
+    fullname: Fritegirl
+    shortname: Frite
+    ChatColour: GOLD
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 4
+    conditions:
+      mmo:
+        requires:
+        - j:Fritegirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-true
+        - p:mcmmo.perks.xp.50percentboost.herbalism-true
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-true
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Fritegirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Fritegirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Fritegirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Fritegirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Fritegirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Fritegirl-50
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.swords-true
+        - p:mcmmo.perks.lucky.herbalism-true
+      Gardien:
+        requires:
+        - j:Fritegirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Fritegirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Fritegirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Fritegirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Fritegirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+    Break:
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+    Place:
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+    Kill:
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 300.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Nuggets:
+    fullname: Nuggetsgirl
+    shortname: Nuggets
+    ChatColour: BLUE
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 11
+    conditions:
+      mmo:
+        requires:
+        - j:Nuggetsgirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-true
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-true
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-true
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Nuggetsgirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Nuggetsgirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Nuggetsgirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Nuggetsgirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Nuggetsgirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Nuggetsgirl-50
+        - p:mcmmo.perks.lucky.unarmed-true
+        - p:mcmmo.perks.lucky.acrobatics-true
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Nuggetsgirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Nuggetsgirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Nuggetsgirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Nuggetsgirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Nuggetsgirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+    Break:
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Burger:
+    fullname: Hamburgirl
+    shortname: Burger
+    ChatColour: DARK_RED
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 35
+      Data: 14
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Hamburgirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-true
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-true
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-true
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Hamburgirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Hamburgirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Hamburgirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Hamburgirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Hamburgirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Hamburgirl-50
+        - p:mcmmo.perks.lucky.axes-true
+        - p:mcmmo.perks.lucky.excavation-true
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Hamburgirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Hamburgirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Hamburgirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Hamburgirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Hamburgirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+
+      # Autres
+      347:
+        experience: 10
+        points: 1
+      compass:
+        experience: 10
+        points: 1
+      tnt:
+        experience: 5
+        points: 2
+      91:
+        experience: 2
+        points: 1
+      purpur_block:
+        experience: 3
+      end_crystal:
+        experience: 50
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Soupe:
+    fullname: Soupegirl
+    shortname: Soupe
+    ChatColour: GOLD
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 8
+    conditions:
+      skills:
+        requires:
+        - j:Soupegirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-true
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-true
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-true
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Soupegirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Soupegirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Soupegirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Soupegirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Soupegirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Soupegirl-50
+        - p:mcmmo.perks.lucky.axes-true
+        - p:mcmmo.perks.lucky.mining-true
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Soupegirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Soupegirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Soupegirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Soupegirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Soupegirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Soda:
+    fullname: Sodagirl
+    shortname: Soda
+    ChatColour: GREEN
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 35
+      Data: 5
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Sodagirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-true
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-true
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-true
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Soupegirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Soupegirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Soupegirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Soupegirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Soupegirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Soupegirl-50
+        - p:mcmmo.perks.lucky.archery-true
+        - p:mcmmo.perks.lucky.fishing-true
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Soupegirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Soupegirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Soupegirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Soupegirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Soupegirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Candy:
+    fullname: Candygirl
+    shortname: Candy
+    ChatColour: DARK_GRAY
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 35
+      Data: 7
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Candygirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-true
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-true
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-true
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Candygirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Candygirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Candygirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Candygirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Candygirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Candygirl-50
+        - p:mcmmo.perks.lucky.acrobatics-true
+        - p:mcmmo.perks.lucky.herbalism-true-true
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Candygirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Candygirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Candygirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Candygirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Candygirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Flurry:
+    fullname: Flurrygirl
+    shortname: Flurry
+    ChatColour: AQUA
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 35
+      Data: 3
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Flurrygirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-true
+        - p:mcmmo.perks.xp.50percentboost.excavation-true
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-true
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Flurrygirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Flurrygirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Flurrygirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Flurrygirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Flurrygirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Flurrygirl-50
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.excavation-true
+        - p:mcmmo.perks.lucky.mining-true
+      Gardien:
+        requires:
+        - j:Flurrygirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Flurrygirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Flurrygirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Flurrygirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Flurrygirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Choco:
+    fullname: Chocogirl
+    shortname: Choco
+    ChatColour: LIGHT_PURPLE
+    chat-display: shortjob
+    max-level: 200
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 35
+      Data: 12
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Chocogirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-true
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-true
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-true
+        - p:adoration.faim-false
+      converti:
+        requires:
+        - j:Chocogirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Chocogirl-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Chocogirl-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Chocogirl-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Chocogirl-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Chocogirl-50
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.axes-true
+        - p:mcmmo.perks.lucky.woodcutting-true
+      Gardien:
+        requires:
+        - j:Chocogirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Chocogirl-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Chocogirl-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Chocogirl-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Chocogirl-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14
+
+  Faim:
+    fullname: Faim
+    shortname: Faim
+    ChatColour: DARK_PURPLE
+    chat-display: shortjob
+    max-level: 200
+    slots: 1
+    leveling-progression-equation: 16+(48*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+
+# Apparence dans le menu
+    Gui:
+      Id: 7
+      Data: 0
+
+# Permissions aux ransg
+    conditions:
+      mmo:
+        requires:
+        - j:Faim-0
+        perform:
+        - p:mcmmo.perks.xp.10percentboost.all-true
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-true
+      converti:
+        requires:
+        - j:Faim-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Faim-10
+        perform:
+        - p:deluxetags.tag.Disciple-true
+      Admirateur:
+        requires:
+        - j:Faim-20
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+      Partisant:
+        requires:
+        - j:Faim-30
+        perform:
+        - p:deluxetags.tag.Partisant-true
+      Fidele:
+        requires:
+        - j:Faim-40
+        perform:
+        - p:deluxetags.tag.Fidele-true
+      Zelote:
+        requires:
+        - j:Faim-50
+        perform:
+        - p:deluxetags.tag.Zelote-true
+      Gardien:
+        requires:
+        - j:Faim-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+      Champion:
+        requires:
+        - j:Faim-70
+        perform:
+        - p:deluxetags.tag.Champion-true
+      Pretre:
+        requires:
+        - j:Faim-80
+        perform:
+        - p:deluxetags.tag.Pretre-true
+      Exalte:
+        requires:
+        - j:Faim-90
+        perform:
+        - p:deluxetags.tag.Exalte-true
+      Illumine:
+        requires:
+        - j:Faim-100
+        perform:
+        - p:deluxetags.tag.Illumine-true
+# Briser des blocs avec la tnt
+    # TNTBreak:
+    #   STONE:
+    #     points: 1
+    #     experience: 1
+    #   STONE-1:
+    #     points: 1
+    #     experience: 1
+    #   STONE-3:
+    #     points: 1
+    #     experience: 1
+    #   STONE-5:
+    #     points: 1
+    #     experience: 1
+    #   LOG:
+    #     points: 5.0
+    #     experience: 5.0
+
+    # Taming animals
+    Tame:
+      Wolf:
+        experience: 50.0
+        points: 20
+      Ocelot:
+        experience: 50.0
+        points: 20
+      horse:
+        experience: 50.0
+        points: 20
+
+    Breed:
+      Wolf:
+        points: 4.0
+        experience: 5.0
+      Ocelot:
+        points: 4.0
+        experience: 5.0
+      Pig:
+        points: 4.0
+        experience: 5.0
+      Cow:
+        points: 4.0
+        experience: 5.0
+      Horse:
+        points: 4.0
+        experience: 5.0
+      Rabbit:
+        points: 4.0
+        experience: 5.0
+      Sheep:
+        points: 4.0
+        experience: 5.0
+      Chicken:
+        points: 4.0
+        experience: 5.0
+
+    # Explore options. Each number represents players number in exploring that chunk
+    # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+    Explore:
+      1:
+        points: 5.0
+        experience: 5.0
+      2:
+        points: 2.5
+        experience: 2.5
+      3:
+        points: 1.0
+        experience: 1.0
+      4:
+        points: 0.5
+        experience: 0.5
+      5:
+        points: 0.1
+        experience: 0.1
+
+# Briser des blocs
+    Break:
+
+      # Plantes
+      CROPS-7:
+        experience: 1.5
+        points: 1
+      SUGAR_CANE_BLOCK:
+        experience: 1.5
+        points: 1
+      MELON_BLOCK:
+        experience: 3.5
+        points: 3
+      PUMPKIN:
+        experience: 3.8
+        points: 3
+      CACTUS:
+        experience: 1.2
+        points: 1
+      COCOA-4:
+        experience: 3.0
+        points: 3
+      BROWN_MUSHROOM:
+        experience: 2.0
+        points: 2
+      RED_MUSHROOM:
+        experience: 3.2
+        points: 2
+      CARROT-7:
+        experience: 1.9
+        points: 2
+      CARROT-0:
+        experience: -1.5
+      POTATO-7:
+        experience: 1.7
+        points: 2
+      POTATO-0:
+        experience: -1.5
+      CROPS-0:
+        experience: -1.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+        points: 2
+      NETHER_WARTS-3:
+        experience: 2.4
+        points: 2
+      YELLOW_FLOWER:
+        experience: 3.0
+        points: 1
+      RED_ROSE:
+        experience: 3.0
+        points: 1
+      RED_ROSE-1:
+        experience: 8.0
+        points: 5
+      RED_ROSE-2:
+        experience: 8.0
+        points: 3
+      RED_ROSE-3:
+        experience: 5.0
+        points: 3
+      RED_ROSE-4:
+        experience: 5.0
+        points: 3
+      RED_ROSE-5:
+        experience: 5.0
+        points: 3
+      RED_ROSE-6:
+        experience: 5.0
+        points: 3
+      RED_ROSE-7:
+        experience: 5.0
+        points: 3
+      RED_ROSE-8:
+        experience: 5.0
+        points: 4
+      175-0:
+        experience: 6.0
+        points: 4
+      175-1:
+        experience: 8.0
+        points: 4
+      175-4:
+        experience: 8.0
+        points: 4
+      175-5:
+        experience: 8.0
+        points: 4
+      175-8:
+        experience: 0.3
+      SAPLING:
+        experience: -2.0
+
+      # Minerais
+      COAL_ORE:
+        experience: 2.0
+        points: 2
+      GLOWING_REDSTONE_ORE:
+        experience: 2.0
+        points: 2
+      IRON_ORE:
+        experience: 2.0
+        points: 2
+      GOLD_ORE:
+        experience: 8.0
+        points: 8
+      LAPIS_ORE:
+        experience: 6.0
+        points: 4
+      DIAMOND_ORE:
+        experience: 21.0
+        points: 10
+      EMERALD_ORE:
+        experience: 30.0
+        points: 15
+      QUARTZ_ORE:
+        experience: 5.4
+        points: 3
+      STONE:
+        experience: 0.2
+
+      # Excavation
+      DIRT:
+        experience: 0.2
+      MYCEL:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.6
+      CLAY:
+        experience: 3.0
+        points: 1
+      OBSIDIAN:
+        experience: 7.0
+        points: 3
+      3-2:
+        experience: 0.3
+      packed_ice:
+        experience: 3.0
+        points: 1
+      172:
+        experience: 0.2
+      159:
+        experience: 0.2
+
+      # Bois
+      LOG:
+        experience: 1.5
+      LOG_2:
+        experience: 1.9
+
+      # End
+      121:
+        experience: 0.2
+      purpur_block:
+        experience: 2
+        points: 1
+      purpur_pillar:
+        experience: 2
+        points: 1
+      end_rod:
+        experience: 10
+        points: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+        points: 5
+      chorus_flower:
+        experience: 10
+        points: 5
+
+      # Donjons
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+        points: 1
+      mob_spawner:
+        experience: 50
+        points: 20
+      prismarine:
+        experience: 2.0
+      sea_lantern:
+        experience: 15.0
+        points: 2
+      NETHER_BRICK:
+        experience: 1.5
+      NETHER_BRICK_STAIRS:
+        experience: 1.1
+      NETHERRACK:
+        experience: 0.2
+
+# Placer des blocs
+    Place:
+
+      # Pénalités anti-abus
+      COAL_ORE:
+        experience: -1.2
+      REDSTONE_ORE:
+        experience: -3.0
+      IRON_ORE:
+        experience: -2.0
+      GOLD_ORE:
+        experience: -11.0
+      LAPIS_ORE:
+        experience: -5.0
+      DIAMOND_ORE:
+        experience: -14.0
+      QUARTZ_ORE:
+        experience: -3.5
+      MELON_BLOCK:
+        experience: -3.0
+      PUMPKIN:
+        experience: -3.0
+
+      # Plantes
+      SAPLING:
+        experience: 1.5
+      CROPS-0:
+        experience: 0.9
+      CARROT:
+        experience: 1.1
+      POTATO:
+        experience: 1.2
+      NETHER_WARTS-0:
+        experience: 1.6
+      207-0:
+        experience: 1
+
+      # Systèmes
+      RAILS:
+        experience: 2.0
+      TNT:
+        experience: 10.0
+        points: 2
+
+
+
+
+# Pecher
+    Fish:
+      RAW_FISH:
+        experience: 10.0
+        points: 7
+      349-1:
+        experience: 20.0
+        points: 15
+      349-2:
+        experience: 50.0
+        points: 30
+      349-3:
+        experience: 60.0
+        points: 30
+      168:
+        experience: 5.0
+        points: 4
+      enchanted_book:
+        experience: 45.0
+        points: 30
+
+# Moutons
+    Shear:
+      Black:
+        experience: 5.0
+        points: 1
+      Blue:
+        experience: 5.0
+        points: 1
+      Brown:
+        experience: 5.0
+        points: 1
+      Cyan:
+        experience: 5.0
+        points: 1
+      Gray:
+        experience: 5.0
+        points: 1
+      Green:
+        experience: 5.0
+        points: 1
+      Light_blue:
+        experience: 5.0
+        points: 1
+      Lime:
+        experience: 5.0
+        points: 1
+      Magenta:
+        experience: 5.0
+        points: 1
+      Orange:
+        experience: 5.0
+        points: 1
+      Pink:
+        experience: 5.0
+        points: 1
+      Purple:
+        experience: 5.0
+        points: 1
+      Red:
+        experience: 5.0
+        points: 1
+      Silver:
+        experience: 5.0
+        points: 1
+      White:
+        experience: 1.0
+        points: 1
+      Yellow:
+        experience: 5.0
+        points: 1
+
+# Fabrications
+    Craft:
+
+      # Alchimie
+      MAGMA_CREAM:
+        experience: 12.0
+        points: 1
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+        points: 1
+      speckled_melon:
+        experience: 7.0
+        points: 1
+      BLAZE_POWDER:
+        experience: 5.0
+        points: 1
+      golden_carrot:
+        experience: 5
+        points: 1
+
+      # Divinités
+      GOLDEN_APPLE:
+        experience: 50.0
+        points: 50
+      BOOK_AND_QUILL:
+        experience: 20
+        points: 6
+      322-1:
+        experience: 200
+        points: 500
+      116:
+        experience: 30
+        points: 5
+      painting:
+        experience: 10
+        points: 5
+      381:
+        experience: 15
+
+
+
+# Vache
+    Milk:
+      Cow:
+        experience: 7.0
+        points: 3
+      Mushroomcow:
+        experience: 14.0
+        points: 3
+
+# Four
+    Smelt:
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 1
+      nether_brick:
+        experience: 1
+      baked_potato:
+        experience: 2
+      320:
+        experience: 4
+      cooked_beef:
+        experience: 4
+      cooked_fish:
+        experience: 4
+      cooked_chicken:
+        experience: 4
+      cooked_rabbit:
+        experience: 4
+      cooked_mutton:
+        experience: 4
+      chorus_fruit:
+        experience: 2
+      350-1:
+        experience: 4
+
+# Alchimie
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+        points: 5
+      REDSTONE:
+        experience: 20.0
+        points: 12
+      GLOWSTONE_DUST:
+        experience: 20.0
+        points: 12
+      SPIDER_EYE:
+        experience: 10.0
+        points: 4
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+        points: 5
+      BLAZE_POWDER:
+        experience: 32.0
+        points: 13
+      SUGAR:
+        experience: 30.0
+        points: 12
+      speckled_melon:
+        experience: 20.0
+        points: 10
+      MAGMA_CREAM:
+        experience: 36.0
+        points: 19
+      GHAST_TEAR:
+        experience: 55.0
+        points: 23
+      SULPHUR:
+        experience: 10.0
+        points: 4
+      golden_carrot:
+        experience: 16.0
+        points: 8
+      rabbit_foot:
+        experience: 75.0
+        points: 29
+      349-3:
+        experience: 100.0
+        points: 29
+      437:
+        experience: 30.0
+        points: 19
+
+# tuer
+    Kill:
+    # passifs
+      CHICKEN:
+        experience: 5.0
+        points: 1
+      COW:
+        experience: 6.0
+        points: 1
+      PIG:
+        experience: 5.0
+        points: 1
+      SQUID:
+        experience: 10.0
+        points: 1
+      MUSHROOM_COW:
+        experience: 10.0
+        points: 1
+
+      # mobs
+      CREEPER:
+        experience: 8.0
+        points: 1
+      SKELETON:
+        experience: 8.0
+        points: 1
+      SPIDER:
+        experience: 5.0
+        points: 1
+      ZOMBIE:
+        experience: 4.0
+        points: 1
+      ENDERMAN:
+        experience: 19.0
+        points: 2
+      SLIME:
+        experience: 5.0
+        points: 1
+      SILVERFISH:
+        experience: 9.0
+        points: 2
+      WITCH:
+        experience: 27.0
+        points: 3
+      SHULKER:
+        points: 5
+        experience: 5.0
+      # nether
+
+      PIG_ZOMBIE:
+        experience: 19.0
+        points: 2
+      GHAST:
+        experience: 25.0
+        points: 2
+      BLAZE:
+        experience: 10.0
+        points: 2
+      MAGMA_CUBE:
+        experience: 7.0
+        points: 1
+      WITHER_SKELETON:
+        experience: 75.0
+        points: 12
+
+      # monument marin
+
+      GUARDIAN:
+        experience: 60.0
+        points: 30
+      ELDER_GUARDIAN:
+        experience: 200.0
+        points: 50
+
+      # boss
+      ENDER_DRAGON:
+        experience: 650.0
+        points: 100
+      WITHER:
+        experience: 750.0
+        points: 100
+
+# mobs elite
+    MMKill:
+      SpiderElite:
+        experience: 15
+        points: 10
+      CreeperElite:
+        experience: 15
+        points: 10
+      ZombieElite:
+        experience: 15
+        points: 10
+      SkeletonElite:
+        experience: 15
+        points: 10
+      SilverfishElite:
+        experience: 10
+        points: 10
+      EndermanElite:
+        experience: 25
+        points: 10
+      SlimeElite:
+        experience: 5
+        points: 10
+      CaveSpiderElite:
+        experience: 15
+        points: 10
+      WITHER_SKELETONElite:
+        experience: 50
+        points: 10
+      BlazeElite:
+        experience: 20
+        points: 10
+      ZombiePigElite:
+        experience: 20
+        points: 10
+      BossAnomalieTemple:
+        experience: 30
+        points: 10
+
+# Manger pour les déesses
+
+    Eat:
+      # qualité 1 à 5
+      Potato:
+        experience: 3.0
+        points: 1
+      Cookie:
+        experience: 5.0
+        points: 3
+      Melon:
+        experience: 6.0
+        points: 3
+      Beetroot:
+        experience: 6.0
+        points: 3
+      # qualité 6 à 10
+      Carrot:
+        experience: 12.0
+        points: 5
+      Apple:
+        experience: 14.0
+        points: 7
+      chorus_fruit:
+        experience: 6.0
+        points: 3
+      # qualité 11 à 20
+      Cooked_rabbit:
+        experience: 20.0
+        points: 10
+      Cooked_fish:
+        experience: 22.0
+        points: 11
+      Baked_potato:
+        experience: 14.0
+        points: 7
+      Bread:
+        experience: 15.0
+        points: 7
+      Cooked_chicken:
+        experience: 26.0
+        points: 13
+      Pumpkin_pie:
+        experience: 30.0
+        points: 14
+      282:
+        experience: 26.0
+        points: 12
+      beetroot_soup:
+        experience: 26.0
+        points: 12
+      Cooked_mutton:
+        experience: 30.0
+        points: 13
+      350-1:
+        experience: 30.0
+        points: 14
+      # qualité 20
+      Golden_carrot:
+        experience: 30.0
+        points: 15
+      Golden_apple:
+        experience: 30.0
+        points: 15
+      Rabbit_stew:
+        experience: 44.0
+        points: 22
+      320:
+        experience: 30.0
+        points: 13
+      Cooked_beef:
+        experience: 30
+        points: 14

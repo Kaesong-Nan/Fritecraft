@@ -1,0 +1,288 @@
+#
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: ''
+nickname-prefix: ''
+max-nick-length: 15
+change-displayname: true
+change-playerlist: true
+teleport-safety: true
+teleport-cooldown: 5
+teleport-delay: 0
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: false
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+kits:
+  tools:
+    delay: 10
+    items:
+    - 272 1
+    - 273 1
+    - 274 1
+    - 275 1
+  matos:
+    delay: 20
+    items:
+    - DIAMOND_PICKAXE 1
+    - DIAMOND_AXE 1
+    - DIAMOND_SPADE 1
+    - DIAMOND_HOE 1
+    - DIAMOND_SWORD 1
+    - DIAMOND_HELMET 1
+    - DIAMOND_CHESTPLATE 1
+    - DIAMOND_LEGGINGS 1
+    - DIAMOND_BOOTS 1
+enabledSigns:
+- warp
+- kit
+- heal
+- info
+- time
+- weather
+sign-use-per-second: 2
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Staff: admin modo
+  Joueurs: user VIP
+debug: false
+remove-god-on-disconnect: true
+auto-afk: 200
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: true
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: none
+custom-quit-message: none
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: true
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 2
+  laic: 2
+  moine: 3
+  alpha: 4
+  beta: 5
+  gamma: 6
+  premium: 7
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 10
+command-costs:
+  home: 0
+currency-symbol: e
+max-money: 100000
+min-money: 0
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: <{jobs} {DISPLAYNAME}> {MESSAGE}
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: true
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: false
+  alert:
+    on-placement: 10,11,46,327
+    on-break: 169
+  blacklist: {}
+newbies:
+  announce-format: '&dBienvenue sur Fritecraft, {DISPLAYNAME}&d!'
+  spawnpoint: default
+  kit: ''
+respawn-listener-priority: lowest
+respawn-at-home: true

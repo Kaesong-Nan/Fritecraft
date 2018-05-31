@@ -1,0 +1,22 @@
+{
+  "reference": {
+    "rayTraceRange": 250.0,
+    "blockChangesPerSecond": 80000,
+    "undoHistorySize": 20,
+    "statusMessageThreshold": 80000,
+    "playerDataDirectory": "players/",
+    "defaultBrush": "voxel material",
+    "defaultBrushSize": 3.0,
+    "defaultBrushMaterial": "AIR",
+    "permissionsRequiredMessage": "§4You require more permissions in order to perform this action.",
+    "defaultHelpMessage": "§cNo help is provided for this command.",
+    "defaultBrushHelpMessage": "§cNo help is provided for this brush part.",
+    "brushSizeChangedMessage": "§aYour brush size was changed to §6%.1f",
+    "brushNotFoundMessage": "§cCould not find a brush part named §6%s",
+    "brushSetMessage": "§aYour brush has been set to §6%s",
+    "materialNotFoundMessage": "§cCould not find that material.",
+    "materialSetMessage": "§aSet material to §6%s",
+    "materialMaskSetMessage": "§aSet secondary material to §6%s",
+    "caseSensitiveAliases": true
+  }
+}

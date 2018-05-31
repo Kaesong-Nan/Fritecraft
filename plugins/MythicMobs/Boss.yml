@@ -1,0 +1,366 @@
+#
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+
+
+BigHealthBoss:
+  Type: pig_zombie
+  Display: '&6Hungry Hungry Piggy Zombie'
+  Health: 20000
+  Modules:
+    ImmunityTable: true
+    ThreatTable: true
+  Options:
+    NoDamageTicks: 10
+
+
+
+SkeletonElite:
+  Mobtype: SKELETON
+  Health: 60
+  Display: '&6Squelette Elite'
+  Options:
+    PreventRandomEquipment: true
+  Skills:
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Squelette Elite
+    Range: 10
+    Color: WHITE
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+CreeperElite:
+  Mobtype: CREEPER
+  Health: 60
+  Damage: 10
+  Display: '&6Creeper Elite'
+  Options:
+    PreventSuicide: true
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.3
+  Skills:
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Creeper Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+SpiderElite:
+  Mobtype: SPIDER
+  Health: 48
+  Damage: 8
+  Options:
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.3
+  Display: '&6Araignée Elite'
+  Skills:
+  - potion{type=POISON;lvl=1;duration=120} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=1;duration=200} @Target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Araignée Elite
+    Range: 10
+    Color: PINK
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+ZombieElite:
+  Mobtype: ZOMBIE
+  Health: 60
+  Damage: 8
+  Options:
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.3
+    PreventRandomEquipment: true
+  Display: '&6Cadavre Elite'
+  Skills:
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Cadavre Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+SlimeElite:
+  Mobtype: SLIME
+  Display: '&6Gélatine Elite'
+  Options:
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.3
+  Skills:
+  - potion{type=POISON;lvl=2;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+  - potion{type=SLOW;lvl=1;duration=60} @PlayersInRadius{r=4} ~onTimer:20
+  - potion{t=DAMAGE_RESISTANCE;d=999999999;l=2} @Self ~onSpawn 1
+  - effect:particles{particle=mobSpell;amount=100;hs=3;vs=3;c=#4e9331} ~onTimer:20 @self
+  BossBar:
+    Enabled: true
+    Title: Gélatine Elite
+    Range: 10
+    Color: GREEN
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+CaveSpiderElite:
+  Mobtype: CAVE_SPIDER
+  Health: 20
+  Damage: 6
+  Display: '&6Araignée Venimeuse Elite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=1000} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=1000} @Target ~onAttack
+  - potion{type=CONFUSION;lvl=2;duration=100} @Target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Araignée Venimeuse Elite
+    Range: 10
+    Color: BLUE
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+
+SilverfishElite:
+  Mobtype: SILVERFISH
+  Health: 25
+  Damage: 4
+  Display: '&6Silverfish Elite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=400} @Target ~onAttack
+  - potion{type=BLINDNESS;lvl=1;duration=500} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=2000} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=2000} @Target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Silverfish Elite
+    Range: 10
+    Color: WHITE
+    Style: SEGMENTED_12
+    CreateFog: true
+    DarkenSky: true
+
+SilverfishCrypte:
+  Mobtype: SILVERFISH
+  Health: 20
+  Damage: 4
+  Display: '&6Silverfish de la crytpe'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=400} @Target ~onAttack
+  - potion{type=BLINDNESS;lvl=1;duration=500} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=2000} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=2000} @Target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+
+EndermanElite:
+  Mobtype: ENDERMAN
+  Health: 120
+  Damage: 10
+  Display: '&6Enderman Elite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=200} @Target ~onAttack
+  - potion{type=BLINDNESS;lvl=1;duration=200} @Target ~onAttack
+  - potion{type=SLOW_DIGGING;lvl=2;duration=2000} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=2000} @Target ~onAttack
+  - teleport{spreadh=25;spreadv=0} @target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Enderman Elite
+    Range: 10
+    Color: PURPLE
+    Style: SEGMENTED_12
+    CreateFog: true
+    DarkenSky: true
+
+
+Emissaire:
+  Mobtype: WITHER_SKELETON
+  Health: 50
+  Damage: 8
+  Display: '&6Emissaire Atrophié'
+  Options:
+    KnockbackResistance: 0.6
+  Skills:
+  - message{m="<mob.name><&co> Hahaha ! Mourez, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
+  - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=CONFUSION;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=SLOW;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=20;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=50;hs=3;vs=3} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Emissaire Atrophié
+    Range: 10
+    Color: YELLOW
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+  Equipment:
+  - 0:4
+  - 0:3
+  - 0:2
+  - 0:1
+
+
+WitherSkeletonElite:
+  Mobtype: WITHER_SKELETON
+  Health: 80
+  Damage: 10
+  Display: '&6Emissaire Atrophié Elite'
+  Options:
+    KnockbackResistance: 0.9
+    PreventRandomEquipment: true
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> Vous osez me défier !"} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> Hahaha ! Mourez, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
+  - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=CONFUSION;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=SLOW;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=20;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=50;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Emissaire Atrophié Elite
+    Range: 10
+    Color: YELLOW
+    Style: SEGMENTED_10
+    CreateFog: true
+    DarkenSky: true
+
+Atrophie:
+  Mobtype: WITHER
+  Health: 400
+  Skills:
+  - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=10} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=10} ~onTimer:20
+  - effect:particles{particle=mobSpell;amount=6;hs=8;vs=8} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Atrophie
+    Range: 10
+    Color: White
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+
+ZombiePigElite:
+  Mobtype: PIG_ZOMBIE
+  Health: 60
+  Damage: 10
+  Display: '&6Zombie Cochon Elite'
+  Skills:
+  - potion{type=HUNGER;lvl=5;duration=100} @Target ~onAttack
+  - potion{type=WEAKNESS;lvl=2;duration=200} @Target ~onAttack
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Zombie Cochon Elite
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+
+BlazeElite:
+  Mobtype: BLAZE
+  Health: 60
+  Damage: 8
+  Display: '&6Incendiaire Elite'
+  Skills:
+  - ignite{ticks=60} @Target ~onAttack
+  - ignite{ticks=60} @Trigger ~onDamaged
+  - effect:particles{particle=witchMagic;amount=10;hs=1;vs=2} ~onTimer:5 @self
+  BossBar:
+    Enabled: true
+    Title: Incendiaire Elite
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_6
+    CreateFog: true
+    DarkenSky: true
+
+BossAnomalieTemple:
+  Mobtype: WITHER_SKELETON
+  Health: 80
+  Damage: 6
+  Display: '&cOmbre de Yvan'
+  Options:
+    KnockbackResistance: 0.7
+    PreventRandomEquipment: true
+  Skills:
+  - potion{type=WITHER;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=HUNGER;duration=60;lvl=10} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=CONFUSION;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=SLOW;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - potion{type=WEAKNESS;duration=60;lvl=1} @PlayersInRadius{r=3} ~onTimer:20
+  - effect:particles{particle=smoke;amount=10;hs=3;vs=3} ~onTimer:5 @self
+  - effect:particles{particle=mobSpell;amount=10;hs=3;vs=3} ~onTimer:5 @self
+  - throw{velocity=10;velocityY=2} @PlayersInRadius{r=5} ~onDamaged
+  - message{cooldown=10;m="<mob.name><&co> La Faim engloutira tout !"} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{cooldown=10;m="<mob.name><&co> Vous m avez bien servi ..."} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{cooldown=10;m="<mob.name><&co> Vous avez été beaucoup trop curieux ..."} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{cooldown=10;m="<mob.name><&co> Disparaissez ..."} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  BossBar:
+    Enabled: true
+    Title: Ombre de Yvan
+    Range: 10
+    Color: YELLOW
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+
+
+
+Tesla:
+  Mobtype: guardian
+  Riding: Crystal
+  Display: '&7Tesla'
+  Health: 30
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Faction: Guard
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    Despawn: true
+    AlwaysShowName: false
+    MovementSpeed: 0.002
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  - CUSTOM 0
+  - CONTACT 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  Skills:
+  - potion{t=INVISIBILITY;d=999999999;l=1} @Self ~onSpawn 1
+######################

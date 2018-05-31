@@ -1,0 +1,30 @@
+FinishRedirect: false
+LeaveRedirect: false
+Start:
+  World: Bouquenia
+  X: 1209
+  Y: 74
+  Z: 525
+Reset:
+  World: Bouquenia
+  X: 1209
+  Y: 74
+  Z: 526
+  yaw: -181.93202209472656
+  pitch: 89.56130981445312
+End:
+  World: Bouquenia
+  X: 1194
+  Y: 93
+  Z: 539
+Checkpoints:
+- Bouquenia:1210:84:517:-5.5794267654418945:90.0
+- Bouquenia:1216:93:537:-6.4568023681640625:90.0
+FallBackY: 71
+CheckpointFallBackY:
+  '1': 80
+  '2': 90
+ParkourStatsHologram: {}
+EndCommands:
+- loot give %player% ParkourNoel
+FallBack: true

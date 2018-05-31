@@ -1,0 +1,2971 @@
+# Jobs configuration.
+#
+# Stores information about eac job.
+#
+# For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
+
+Jobs:
+  Frite:
+    fullname: Fritegirl
+    shortname: Frite
+    ChatColour: GOLD
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 4
+    conditions:
+      mmo:
+        requires:
+        - j:Fritegirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-true
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Fritegirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Fritegirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.swords-true
+        - p:mcmmo.perks.xp.10percentboost.herbalism-true
+        - p:mcmmo.perks.xp.10percentboost.alchemy-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Fritegirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.swords-true
+        - p:mcmmo.perks.xp.50percentboost.herbalism-true
+        - p:mcmmo.perks.xp.50percentboost.alchemy-true
+        - p:mcmmo.ability.herbalism.farmersdiet-true
+        - p:mcmmo.ability.herbalism.greenterra-true
+        - p:mcmmo.ability.herbalism.greenthumb.*-true
+        - p:mcmmo.ability.herbalism.hylianluck-true
+        - p:mcmmo.ability.swords.counterattack-true
+        - p:mcmmo.ability.swords.serratedstrikes-true
+        - p:mcmmo.ability.alchemy.concoctions-true
+      Partisant:
+        requires:
+        - j:Fritegirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Fritegirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.swords-true
+        - p:mcmmo.perks.xp.double.herbalism-true
+        - p:mcmmo.perks.xp.double.alchemy-true
+      Zelote:
+        requires:
+        - j:Fritegirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.swords-true
+        - p:mcmmo.perks.lucky.herbalism-true
+      Gardien:
+        requires:
+        - j:Fritegirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.swords-true
+        - p:mcmmo.perks.xp.150percentboost.herbalism-true
+        - p:mcmmo.perks.xp.150percentboost.alchemy-true
+      Champion:
+        requires:
+        - j:Fritegirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Fritegirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.swords-true
+        - p:mcmmo.perks.xp.triple.herbalism-true
+        - p:mcmmo.perks.xp.triple.alchemy-true
+      Exalte:
+        requires:
+        - j:Fritegirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.swords-true
+        - p:mcmmo.perks.cooldowns.halved.herbalism-true
+      Illumine:
+        requires:
+        - j:Fritegirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Golden_apple:
+        experience: 60.0
+      Golden_apple-1:
+        experience: 600.0
+      Potato:
+        experience: 6.0
+      Melon:
+        experience: 12.0
+      Beetroot:
+        experience: 12.0
+      Apple:
+        experience: 28.0
+      Baked_potato:
+        experience: 28.0
+      Bread:
+        experience: 30.0
+      beetroot_soup:
+        experience: 52.0
+      Golden_carrot:
+        experience: 60.0
+    # MMKill:
+    #   CREEPER:
+    #     experience: 10.0
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   HUSK:
+    #     experience: 10
+    #   STRAY:
+    #     experience: 10
+    #   SLIME:
+    #     experience: 5
+    #   VINDICATOR:
+    #     experience: 10
+    #   EVOKER:
+    #     experience: 10
+    #   ENDERMAN:
+    #     experience: 20.0
+    #   SILVERFISH:
+    #     experience: 10.0
+    #   WITCH:
+    #     experience: 20.0
+    #   PIG_ZOMBIE:
+    #     experience: 15.0
+    #   BLAZE:
+    #     experience: 15.0
+    #   WITHER_SKELETON:
+    #     experience: 20.0
+    #   WITHER:
+    #     experience: 750.0
+    Break:
+      CROPS-7:
+        experience: 2
+      MELON_BLOCK:
+        experience: 3
+      PUMPKIN:
+        experience: 3
+      CACTUS:
+        experience: 2
+      CARROT-7:
+        experience: 2
+      POTATO-7:
+        experience: 2
+      BEETROOT_BLOCK-3:
+        experience: 2
+      NETHER_WARTS-3:
+        experience: 2
+      YELLOW_FLOWER:
+        experience: 3
+      GOLD_ORE:
+        experience: 8
+      MOB_SPAWNER:
+        experience: 50
+      MOSSY_COBBLESTONE:
+        experience: 1
+    Smelt:
+      GOLD_INGOT:
+        experience: 7.0
+      baked_potato:
+        experience: 4
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 50.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Repair:
+      Diamond_sword:
+        experience: 5
+      Iron_sword:
+        experience: 5
+    Craft:
+      bread:
+        experience: 2
+      MOSSY_COBBLESTONE:
+        experience: 1
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+  Nuggets:
+    fullname: Nuggetsgirl
+    shortname: Nuggets
+    ChatColour: BLUE
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 11
+    conditions:
+      mmo:
+        requires:
+        - j:Nuggetsgirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-true
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Nuggetsgirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Nuggetsgirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.unarmed-true
+        - p:mcmmo.perks.xp.10percentboost.herbalism-true
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Nuggetsgirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.unarmed-true
+        - p:mcmmo.perks.xp.50percentboost.herbalism-true
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-true
+        - p:mcmmo.ability.acrobatics.dodge-true
+        - p:mcmmo.ability.acrobatics.gracefulroll-true
+        - p:mcmmo.ability.herbalism.farmersdiet-true
+        - p:mcmmo.ability.herbalism.greenterra-true
+        - p:mcmmo.ability.herbalism.greenthumb.*-true
+        - p:mcmmo.ability.herbalism.hylianluck-true
+        - p:mcmmo.ability.unarmed.berserk-true
+        - p:mcmmo.ability.unarmed.blockcracker-true
+        - p:mcmmo.ability.unarmed.iromarm-true
+        - p:mcmmo.ability.unarmed.deflect-true
+        - p:mcmmo.ability.unarmed.disarm-true
+        - p:mcmmo.ability.unarmed.irongrip-true
+      Partisant:
+        requires:
+        - j:Nuggetsgirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Nuggetsgirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.unarmed-true
+        - p:mcmmo.perks.xp.double.herbalism-true
+        - p:mcmmo.perks.xp.double.acrobatics-true
+      Zelote:
+        requires:
+        - j:Nuggetsgirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.unarmed-true
+        - p:mcmmo.perks.lucky.herbalism-true
+        - p:mcmmo.perks.lucky.acrobatics-true
+      Gardien:
+        requires:
+        - j:Nuggetsgirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.unarmed-true
+        - p:mcmmo.perks.xp.150percentboost.herbalism-true
+        - p:mcmmo.perks.xp.150percentboost.acrobatics-true
+      Champion:
+        requires:
+        - j:Nuggetsgirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Nuggetsgirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.unarmed-true
+        - p:mcmmo.perks.xp.triple.herbalism-true
+        - p:mcmmo.perks.xp.triple.acrobatics-true
+      Exalte:
+        requires:
+        - j:Nuggetsgirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.unarmed-true
+        - p:mcmmo.perks.cooldowns.halved.herbalism-true
+        - p:mcmmo.perks.cooldowns.halved.acrobatics-true
+      Illumine:
+        requires:
+        - j:Nuggetsgirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Cookie:
+        experience: 7.0
+      Potato:
+        experience: 5.0
+      Carrot:
+        experience: 20.0
+      Apple:
+        experience: 28.0
+      Bread:
+        experience: 30.0
+      Cooked_chicken:
+        experience: 50.0
+      Beetroot:
+        experience: 12.0
+      beetroot_soup:
+        experience: 52.0
+    Tame:
+      Wolf:
+        experience: 50.0
+      Ocelot:
+        experience: 50.0
+      horse:
+        experience: 50.0
+    # Kill:
+    #   CHICKEN:
+    #     experience: 5
+    #   SQUID:
+    #     experience: 5
+    Breed:
+      Wolf:
+        experience: 10.0
+      Ocelot:
+        experience: 10.0
+      Pig:
+        experience: 10.0
+      Cow:
+        experience: 10.0
+      Horse:
+        experience: 10.0
+      Rabbit:
+        experience: 10.0
+      Sheep:
+        experience: 10.0
+      Chicken:
+        experience: 10.0
+    Break:
+      LAPIS_ORE:
+        experience: 7.0
+      CROPS-7:
+        experience: 2
+      CARROT-7:
+        experience: 2
+      POTATO-7:
+        experience: 2
+      CACTUS:
+        experience: 1
+      BEETROOT_BLOCK-3:
+        experience: 2
+      COCOA-4:
+        experience: 3.0
+      LOG:
+        experience: 4
+      LOG_2:
+        experience: 4
+    Place:
+      SAPLING:
+        experience: 2
+    Shear:
+      Black:
+        experience: 10.0
+      Blue:
+        experience: 10.0
+      Brown:
+        experience: 10.0
+      Cyan:
+        experience: 10.0
+      Gray:
+        experience: 10.0
+      Green:
+        experience: 10.0
+      Light_blue:
+        experience: 10.0
+      Lime:
+        experience: 10.0
+      Magenta:
+        experience: 10.0
+      Orange:
+        experience: 10.0
+      Pink:
+        experience: 10.0
+      Purple:
+        experience: 10.0
+      Red:
+        experience: 10.0
+      Silver:
+        experience: 10.0
+      White:
+        experience: 10.0
+      Yellow:
+        experience: 10.0
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 50.0
+      322-1:
+        experience: 200
+      Bread:
+        experience: 2
+      cookie:
+        experience: 0.5
+    Smelt:
+      cooked_chicken:
+        experience: 10
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+  Burger:
+    fullname: Hamburgirl
+    shortname: Burger
+    ChatColour: DARK_RED
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 14
+    conditions:
+      mmo:
+        requires:
+        - j:Hamburgirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-true
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Hamburgirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Hamburgirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.axes-true
+        - p:mcmmo.perks.xp.10percentboost.excavation-true
+        - p:mcmmo.perks.xp.10percentboost.repair-true
+        - p:mcmmo.perks.xp.10percentboost.smelting-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Hamburgirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.axes-true
+        - p:mcmmo.perks.xp.50percentboost.excavation-true
+        - p:mcmmo.perks.xp.50percentboost.repair-true
+        - p:mcmmo.perks.xp.50percentboost.smelting-true
+        - p:mcmmo.ability.axes.criticalhit-true
+        - p:mcmmo.ability.axes.greaterimpact-true
+        - p:mcmmo.ability.axes.impact-true
+        - p:mcmmo.ability.axes.skullsplitter-true
+        - p:mcmmo.ability.excavation.gigadrillbreaker-true
+        - p:mcmmo.ability.excavation.treasures-true
+        - p:mcmmo.ability.repair.arcaneforging-true
+        - p:mcmmo.ability.repair.superrepair-true
+        - p:mcmmo.ability.repair.repairmastery-true
+        - p:mcmmo.ability.repair.salvage-true
+        - p:mcmmo.ability.smelting.secondsmelt-true
+      Partisant:
+        requires:
+        - j:Hamburgirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Hamburgirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.axes-true
+        - p:mcmmo.perks.xp.double.excavation-true
+        - p:mcmmo.perks.xp.double.repair-true
+        - p:mcmmo.perks.xp.double.smelting-true
+      Zelote:
+        requires:
+        - j:Hamburgirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.axes-true
+        - p:mcmmo.perks.lucky.excavation-true
+        - p:mcmmo.perks.lucky.repair-true
+        - p:mcmmo.perks.lucky.smelting-true
+      Gardien:
+        requires:
+        - j:Hamburgirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.axes-true
+        - p:mcmmo.perks.xp.150percentboost.excavation-true
+        - p:mcmmo.perks.xp.150percentboost.repair-true
+        - p:mcmmo.perks.xp.150percentboost.smelting-true
+      Champion:
+        requires:
+        - j:Hamburgirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Hamburgirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.axes-true
+        - p:mcmmo.perks.xp.triple.excavation-true
+        - p:mcmmo.perks.xp.triple.repair-true
+        - p:mcmmo.perks.xp.triple.smelting-true
+      Exalte:
+        requires:
+        - j:Hamburgirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.axes-true
+        - p:mcmmo.perks.cooldowns.halved.excavation-true
+      Illumine:
+        requires:
+        - j:Hamburgirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Cooked_beef:
+        experience: 50
+      320:
+        experience: 50.0
+      Cooked_mutton:
+        experience: 50.0
+      282:
+        experience: 50.0
+      Beetroot:
+        experience: 12.0
+      Bread:
+        experience: 30.0
+    # MMKill:
+    #   CREEPER:
+    #     experience: 10.0
+    #   COW:
+    #     experience: 7.0
+    #   PIG:
+    #     experience: 7.0
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   HUSK:
+    #     experience: 10
+    #   STRAY:
+    #     experience: 10
+    #   SLIME:
+    #     experience: 5
+    #   VINDICATOR:
+    #     experience: 10
+    #   EVOKER:
+    #     experience: 10
+    #   ENDERMAN:
+    #     experience: 20.0
+    #   SILVERFISH:
+    #     experience: 5.0
+    #   WITCH:
+    #     experience: 20.0
+    #   PIG_ZOMBIE:
+    #     experience: 15.0
+    #   BLAZE:
+    #     experience: 15.0
+    #   WITHER_SKELETON:
+    #     experience: 20.0
+    #   WITHER:
+    #     experience: 750.0
+    Breed:
+      Pig:
+        experience: 5.0
+      Cow:
+        experience: 5.0
+    Break:
+      BROWN_MUSHROOM:
+        experience: 2.0
+      RED_MUSHROOM:
+        experience: 3.0
+      REDSTONE_ORE:
+        experience: 2.0
+      DIRT:
+        experience: 0.1
+      MYCEL:
+        experience: 0.3
+      GRASS:
+        experience: 0.1
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.5
+      CLAY:
+        experience: 3.0
+      3-2:
+        experience: 0.3
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 10
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+    Smelt:
+      IRON_INGOT:
+        experience: 2.0
+      GOLD_INGOT:
+        experience: 5.0
+      brick:
+        experience: 2
+      320:
+        experience: 5
+      cooked_beef:
+        experience: 5
+      cooked_rabbit:
+        experience: 5
+      cooked_mutton:
+        experience: 5
+      SAND:
+        experience: 2
+      STONE:
+        experience: 1.0
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Repair:
+      Diamond_helmet:
+        experience: 3
+      Diamond_chestplate:
+        experience: 3
+      Diamond_leggings:
+        experience: 3
+      Diamond_boots:
+        experience: 3
+      Iron_helmet:
+        experience: 3
+      Iron_chestplate:
+        experience: 3
+      Iron_leggings:
+        experience: 3
+      Iron_boots:
+        experience: 3
+    Milk:
+      Cow:
+        experience: 10.0
+      Mushroomcow:
+        experience: 15.0
+  Soupe:
+    fullname: Soupegirl
+    shortname: Soupe
+    ChatColour: GOLD
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 8
+    conditions:
+      skills:
+        requires:
+        - j:Soupegirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-true
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Soupegirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Soupegirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.axes-true
+        - p:mcmmo.perks.xp.10percentboost.excavation-true
+        - p:mcmmo.perks.xp.10percentboost.smelting-true
+        - p:mcmmo.perks.xp.10percentboost.repair-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Soupegirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.axes-true
+        - p:mcmmo.perks.xp.50percentboost.excavation-true
+        - p:mcmmo.perks.xp.50percentboost.smelting-true
+        - p:mcmmo.perks.xp.50percentboost.repair-true
+        - p:mcmmo.ability.axes.criticalhit-true
+        - p:mcmmo.ability.axes.greaterimpact-true
+        - p:mcmmo.ability.axes.impact-true
+        - p:mcmmo.ability.axes.skullsplitter-true
+        - p:mcmmo.ability.mining.blastmining.*-true
+        - p:mcmmo.ability.mining.superbreaker-true
+        - p:mcmmo.ability.repair.arcaneforging-true
+        - p:mcmmo.ability.repair.superrepair-true
+        - p:mcmmo.ability.repair.repairmastery-true
+        - p:mcmmo.ability.repair.salvage-true
+        - p:mcmmo.ability.smelting.secondsmelt-true
+      Partisant:
+        requires:
+        - j:Soupegirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Soupegirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.axes-true
+        - p:mcmmo.perks.xp.double.excavation-true
+        - p:mcmmo.perks.xp.double.smelting-true
+        - p:mcmmo.perks.xp.double.repair-true
+      Zelote:
+        requires:
+        - j:Soupegirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.axes-true
+        - p:mcmmo.perks.lucky.excavation-true
+        - p:mcmmo.perks.lucky.smelting-true
+      Gardien:
+        requires:
+        - j:Soupegirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.axes-true
+        - p:mcmmo.perks.xp.150percentboost.excavation-true
+        - p:mcmmo.perks.xp.150percentboost.smelting-true
+        - p:mcmmo.perks.xp.150percentboost.repair-true
+      Champion:
+        requires:
+        - j:Soupegirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Soupegirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.axes-true
+        - p:mcmmo.perks.xp.triple.excavation-true
+        - p:mcmmo.perks.xp.triple.smelting-true
+        - p:mcmmo.perks.xp.triple.repair-true
+      Exalte:
+        requires:
+        - j:Soupegirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.axes-true
+        - p:mcmmo.perks.cooldowns.halved.excavation-true
+      Illumine:
+        requires:
+        - j:Soupegirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      beetroot_soup:
+        experience: 50.0
+      282:
+        experience: 50.0
+      Rabbit_stew:
+        experience: 80.0
+      Bread:
+        experience: 30.0
+      Beetroot:
+        experience: 10.0
+      Potato:
+        experience: 5.0
+      Baked_potato:
+        experience: 28.0
+      Carrot:
+        experience: 25.0
+      Cooked_mutton:
+        experience: 50.0
+    # MMKill:
+    #   SQUID:
+    #     experience: 10.0
+    #   CREEPER:
+    #     experience: 10.0
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   HUSK:
+    #     experience: 10
+    #   SLIME:
+    #     experience: 5
+    #   VINDICATOR:
+    #     experience: 10
+    #   EVOKER:
+    #     experience: 10
+    #   ENDERMAN:
+    #     experience: 20.0
+    #   SILVERFISH:
+    #     experience: 5.0
+    #   WITCH:
+    #     experience: 20.0
+    #   PIG_ZOMBIE:
+    #     experience: 20.0
+    #   BLAZE:
+    #     experience: 15.0
+    #   GHAST:
+    #     experience: 10
+    #   MAGMA_CUBE:
+    #     experience: 10
+    #   WITHER_SKELETON:
+    #     experience: 20.0
+    #   WITHER:
+    #     experience: 750.0
+    Break:
+      BROWN_MUSHROOM:
+        experience: 2.0
+      RED_MUSHROOM:
+        experience: 3.0
+      BEETROOT_BLOCK-3:
+        experience: 2
+      NETHER_WARTS-3:
+        experience: 3
+      COAL_ORE:
+        experience: 3.0
+      GLOWING_REDSTONE_ORE:
+        experience: 3.0
+      IRON_ORE:
+        experience: 3.0
+      GOLD_ORE:
+        experience: 10.0
+      LAPIS_ORE:
+        experience: 5.0
+      DIAMOND_ORE:
+        experience: 20.0
+      EMERALD_ORE:
+        experience: 20.0
+      QUARTZ_ORE:
+        experience: 6
+      OBSIDIAN:
+        experience: 1.0
+      GLOWSTONE:
+        experience: 3.0
+      MAGMA:
+        experience: 2.0
+      NETHER_BRICK:
+        experience: 1.0
+      NETHER_BRICK_STAIRS:
+        experience: 1.0
+      NETHERRACK:
+        experience: 0.1
+    Place:
+      NETHER_WARTS-0:
+        experience: 1.0
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+      282:
+        experience: 10
+      413:
+        experience: 10
+      436:
+        experience: 10
+    Smelt:
+      nether_brick:
+        experience: 1
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      IRON_INGOT:
+        experience: 3.0
+      GOLD_INGOT:
+        experience: 6.0
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Repair:
+      Diamond_helmet:
+        experience: 3
+      Diamond_chestplate:
+        experience: 3
+      Diamond_leggings:
+        experience: 3
+      Diamond_boots:
+        experience: 3
+      Iron_helmet:
+        experience: 3
+      Iron_chestplate:
+        experience: 3
+      Iron_leggings:
+        experience: 3
+      Iron_boots:
+        experience: 3
+      Iron_sword:
+        experience: 2
+      Iron_pickaxe:
+        experience: 2
+      Iron_axe:
+        experience: 2
+      Diamond_sword:
+        experience: 5
+      Diamond_pickaxe:
+        experience: 5
+      Diamond_axe:
+        experience: 5
+  Soda:
+    fullname: Sodagirl
+    shortname: Soda
+    ChatColour: GREEN
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 5
+    conditions:
+      mmo:
+        requires:
+        - j:Sodagirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-true
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Sodagirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Sodagirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.archery-true
+        - p:mcmmo.perks.xp.10percentboost.fishing-true
+        - p:mcmmo.perks.xp.10percentboost.alchemy-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Sodagirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.archery-true
+        - p:mcmmo.perks.xp.50percentboost.fishing-true
+        - p:mcmmo.perks.xp.50percentboost.alchemy-true
+        - p:mcmmo.ability.fishing.treasures-true
+        - p:mcmmo.ability.fishing.magic-true
+        - p:mcmmo.ability.fishing.shakemob-true
+        - p:mcmmo.ability.fishing.fishermansdiet-true
+        - p:mcmmo.ability.archery.daze-true
+        - p:mcmmo.ability.archery.trackarrows-true
+        - p:mcmmo.ability.alchemy.concoctions-true
+      Partisant:
+        requires:
+        - j:Sodagirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Sodagirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.archery-true
+        - p:mcmmo.perks.xp.double.fishing-true
+        - p:mcmmo.perks.xp.double.alchemy-true
+      Zelote:
+        requires:
+        - j:Sodagirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.archery-true
+        - p:mcmmo.perks.lucky.fishing-true
+      Gardien:
+        requires:
+        - j:Sodagirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.archery-true
+        - p:mcmmo.perks.xp.150percentboost.fishing-true
+        - p:mcmmo.perks.xp.150percentboost.alchemy-true
+      Champion:
+        requires:
+        - j:Sodagirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Sodagirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.archery-true
+        - p:mcmmo.perks.xp.triple.fishing-true
+        - p:mcmmo.perks.xp.triple.alchemy-true
+      Exalte:
+        requires:
+        - j:Sodagirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.archery-true
+        - p:mcmmo.perks.cooldowns.halved.fishing-true
+      Illumine:
+        requires:
+        - j:Sodagirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Melon:
+        experience: 10.0
+      Apple:
+        experience: 30.0
+      Cooked_fish:
+        experience: 40.0
+      350-1:
+        experience: 40.0
+    # Kill:
+    #   CREEPER:
+    #     experience: 10.0
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   WITCH:
+    #     experience: 20.0
+    #   PIG_ZOMBIE:
+    #     experience: 20.0
+    #   BLAZE:
+    #     experience: 15.0
+    #   GHAST:
+    #     experience: 15
+    #   GUARDIAN:
+    #     experience: 60.0
+    #   ELDER_GUARDIAN:
+    #     experience: 200.0
+    # MMKill:
+    #   CREEPER:
+    #     experience: 5.0
+    #   SKELETON:
+    #     experience: 5.0
+    #   SPIDER:
+    #     experience: 5.0
+    #   ZOMBIE:
+    #     experience: 5.0
+    #   WITCH:
+    #     experience: 5.0
+    #   PIG_ZOMBIE:
+    #     experience: 5.0
+    #   BLAZE:
+    #     experience: 5.0
+    #   GHAST:
+    #     experience: 15
+    #   GUARDIAN:
+    #     experience: 60.0
+    #   ELDER_GUARDIAN:
+    #     experience: 100.0
+    Break:
+      prismarine:
+        experience: 1.0
+      sea_lantern:
+        experience: 10.0
+      sponge-1:
+        experience: 5
+    Fish:
+      RAW_FISH:
+        experience: 20.0
+      349-1:
+        experience: 30.0
+      349-2:
+        experience: 50.0
+      349-3:
+        experience: 60.0
+      168:
+        experience: 5.0
+      enchanted_book:
+        experience: 50.0
+      Diamond:
+        experience: 20
+      GOLD_INGOT:
+        experience: 20
+      IRON_INGOT:
+        experience: 20
+      2256:
+        experience: 100
+      2257:
+        experience: 100
+      2258:
+        experience: 100
+      2259:
+        experience: 100
+      2260:
+        experience: 100
+      2261:
+        experience: 100
+      2262:
+        experience: 100
+      2263:
+        experience: 100
+      2264:
+        experience: 100
+      2265:
+        experience: 100
+      2266:
+        experience: 100
+      2267:
+        experience: 100
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+    Smelt:
+      350-1:
+        experience: 5
+      cooked_fish:
+        experience: 5
+      sponge:
+        experience: 5
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Repair:
+      fishing_rod:
+        experience: 5
+  Candy:
+    fullname: Candygirl
+    shortname: Candy
+    ChatColour: LIGHT_PURPLE
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 7
+    conditions:
+      mmo:
+        requires:
+        - j:Candygirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-true
+        - p:adoration.flurry-false
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Candygirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Candygirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-true
+        - p:mcmmo.perks.xp.10percentboost.herbalism-true
+        - p:mcmmo.perks.xp.10percentboost.swords-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Candygirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-true
+        - p:mcmmo.perks.xp.50percentboost.herbalism-true
+        - p:mcmmo.perks.xp.50percentboost.swords-true
+        - p:mcmmo.ability.acrobatics.dodge-true
+        - p:mcmmo.ability.acrobatics.gracefulroll-true
+        - p:mcmmo.ability.herbalism.farmersdiet-true
+        - p:mcmmo.ability.herbalism.greenterra-true
+        - p:mcmmo.ability.herbalism.greenthumb.*-true
+        - p:mcmmo.ability.herbalism.hylianluck-true
+        - p:mcmmo.ability.swords.counterattack-true
+        - p:mcmmo.ability.swords.serratedstrikes-true
+      Partisant:
+        requires:
+        - j:Candygirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Candygirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.acrobatics-true
+        - p:mcmmo.perks.xp.double.herbalism-true
+        - p:mcmmo.perks.xp.double.swords-true
+      Zelote:
+        requires:
+        - j:Candygirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.acrobatics-true
+        - p:mcmmo.perks.lucky.herbalism-true
+        - p:mcmmo.perks.lucky.swords-true
+      Gardien:
+        requires:
+        - j:Candygirl-60
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.acrobatics-true
+        - p:mcmmo.perks.xp.150percentboost.herbalism-true
+        - p:mcmmo.perks.xp.150percentboost.swords-true
+      Champion:
+        requires:
+        - j:Candygirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Candygirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.acrobatics-true
+        - p:mcmmo.perks.xp.triple.herbalism-true
+        - p:mcmmo.perks.xp.triple.swords-true
+      Exalte:
+        requires:
+        - j:Candygirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.acrobatics-true
+        - p:mcmmo.perks.cooldowns.halved.herbalism-true
+        - p:mcmmo.perks.cooldowns.halved.swords-true
+      Illumine:
+        requires:
+        - j:Candygirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Golden_carrot:
+        experience: 70.0
+      Golden_apple:
+        experience: 70.0
+      Melon:
+        experience: 10.0
+      Beetroot:
+        experience: 10.0
+      Carrot:
+        experience: 24.0
+      chorus_fruit:
+        experience: 10.0
+      Pumpkin_pie:
+        experience: 60.0
+      Cookie:
+        experience: 10.0
+    # MMKill:
+    #   CREEPER:
+    #     experience: 10.0
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   ENDERMAN:
+    #     experience: 20.0
+    #   SLIME:
+    #     experience: 5.0
+    #   HUSK:
+    #     experience: 10
+    #   SILVERFISH:
+    #     experience: 5.0
+    #   WITCH:
+    #     experience: 20.0
+    #   SHULKER:
+    #     experience: 20.0
+    #   WITHER_SKELETON:
+    #     experience: 20.0
+    Break:
+      CROPS-7:
+        experience: 2
+      SUGAR_CANE_BLOCK:
+        experience: 2
+      MELON_BLOCK:
+        experience: 5
+      PUMPKIN:
+        experience: 5
+      CACTUS:
+        experience: 2
+      COCOA-4:
+        experience: 3.0
+      POTATO-7:
+        experience: 2
+      CARROT-7:
+        experience: 2
+      BEETROOT_BLOCK-3:
+        experience: 2
+      121:
+        experience: 0.3
+      purpur_block:
+        experience: 2
+      purpur_pillar:
+        experience: 2
+      end_rod:
+        experience: 5
+      end_bricks:
+        experience: 2
+      chorus_plant:
+        experience: 10
+      chorus_flower:
+        experience: 10
+      OBSIDIAN:
+        experience: 7.0
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+      400:
+        experience: 15
+      cake:
+        experience: 15
+      381:
+        experience: 5
+    Smelt:
+      chorus_fruit:
+        experience: 3
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+  Flurry:
+    fullname: Flurrygirl
+    shortname: Flurry
+    ChatColour: AQUA
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 3
+    conditions:
+      mmo:
+        requires:
+        - j:Flurrygirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-true
+        - p:adoration.choco-false
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Flurrygirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Flurrygirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.mining-true
+        - p:mcmmo.perks.xp.10percentboost.excavation-true
+        - p:mcmmo.perks.xp.10percentboost.unarmed-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Flurrygirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.mining-true
+        - p:mcmmo.perks.xp.50percentboost.excavation-true
+        - p:mcmmo.perks.xp.50percentboost.unarmed-true
+        - p:mcmmo.ability.excavation.gigadrillbreaker-true
+        - p:mcmmo.ability.excavation.treasures-true
+        - p:mcmmo.ability.mining.blastmining.*-true
+        - p:mcmmo.ability.mining.superbreaker-true
+        - p:mcmmo.ability.unarmed.berserk-true
+        - p:mcmmo.ability.unarmed.blockcracker-true
+        - p:mcmmo.ability.unarmed.iromarm-true
+        - p:mcmmo.ability.unarmed.deflect-true
+        - p:mcmmo.ability.unarmed.disarm-true
+        - p:mcmmo.ability.unarmed.irongrip-true
+      Partisant:
+        requires:
+        - j:Flurrygirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Flurrygirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.mining-true
+        - p:mcmmo.perks.xp.double.excavation-true
+        - p:mcmmo.perks.xp.double.unarmed-true
+      Zelote:
+        requires:
+        - j:Flurrygirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.mining-true
+        - p:mcmmo.perks.lucky.excavation-true
+        - p:mcmmo.perks.lucky.unarmed-true
+      Gardien:
+        requires:
+        - j:Flurrygirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.swords-true
+        - p:mcmmo.perks.xp.150percentboost.excavation-true
+        - p:mcmmo.perks.xp.150percentboost.unarmed-true
+      Champion:
+        requires:
+        - j:Flurrygirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Flurrygirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.mining-true
+        - p:mcmmo.perks.xp.triple.excavation-true
+        - p:mcmmo.perks.xp.triple.unarmed-true
+      Exalte:
+        requires:
+        - j:Flurrygirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.mining-true
+        - p:mcmmo.perks.cooldowns.halved.excavation-true
+        - p:mcmmo.perks.cooldowns.halved.unarmed-true
+      Illumine:
+        requires:
+        - j:Flurrygirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Golden_carrot:
+        experience: 30.0
+      Golden_apple:
+        experience: 30.0
+      Melon:
+        experience: 6.0
+      Carrot:
+        experience: 12.0
+      Pumpkin_pie:
+        experience: 30.0
+      Apple:
+        experience: 14.0
+      Bread:
+        experience: 15.0
+      Cake:
+        experience: 5.0
+    Break:
+      COAL_ORE:
+        experience: 4.0
+      GLOWING_REDSTONE_ORE:
+        experience: 4.0
+      IRON_ORE:
+        experience: 4.0
+      GOLD_ORE:
+        experience: 16.0
+      LAPIS_ORE:
+        experience: 12.0
+      DIAMOND_ORE:
+        experience: 40.0
+      EMERALD_ORE:
+        experience: 30.0
+      STONE:
+        experience: 0.2
+      DIRT:
+        experience: 0.2
+      GRASS:
+        experience: 0.2
+      GRAVEL:
+        experience: 0.3
+      SAND:
+        experience: 0.5
+      CLAY:
+        experience: 3.0
+      OBSIDIAN:
+        experience: 6.0
+      3-2:
+        experience: 0.5
+      packed_ice:
+        experience: 4.0
+      MOSSY_COBBLESTONE:
+        experience: 1.0
+      mob_spawner:
+        experience: 50
+    Place:
+      cake:
+        experience: 50
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+      cake:
+        experience: 20
+    Milk:
+      Cow:
+        experience: 10.0
+      Mushroomcow:
+        experience: 15.0
+    Smelt:
+      IRON_INGOT:
+        experience: 3.0
+      GOLD_INGOT:
+        experience: 6.0
+      STONE:
+        experience: 1.0
+      SAND:
+        experience: 2.0
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Repair:
+      Iron_pickaxe:
+        experience: 5
+      Diamond_pickaxe:
+        experience: 5
+      Diamond_shovel:
+        experience: 5
+      Iron_shovel:
+        experience: 5
+    TNTBreak:
+      COAL_ORE:
+        experience: 5.0
+      GLOWING_REDSTONE_ORE:
+        experience: 5.0
+      IRON_ORE:
+        experience: 5.0
+      GOLD_ORE:
+        experience: 15.0
+      LAPIS_ORE:
+        experience: 15.0
+      DIAMOND_ORE:
+        experience: 50.0
+      EMERALD_ORE:
+        experience: 35.0
+      STONE:
+        experience: 0.3
+  Choco:
+    fullname: Chocogirl
+    shortname: Choco
+    ChatColour: LIGHT_PURPLE
+    chat-display: shortfull
+    max-level: 15
+    leveling-progression-equation: (4000*joblevel)
+    income-progression-equation: baseincome*1
+    points-progression-equation: basepoints+(joblevel-1)*0.01
+    experience-progression-equation: baseexperience*0.5
+    Gui:
+      Id: 35
+      Data: 12
+    conditions:
+      mmo:
+        requires:
+        - j:Chocogirl-0
+        perform:
+        - p:mcmmo.perks.xp.50percentboost.swords-false
+        - p:mcmmo.perks.xp.10percentboost.swords-false
+        - p:mcmmo.perks.xp.double.swords-false
+        - p:mcmmo.perks.xp.triple.swords-false
+        - p:mcmmo.perks.xp.50percentboost.herbalism-false
+        - p:mcmmo.perks.xp.10percentboost.herbalism-false
+        - p:mcmmo.perks.xp.double.herbalism-false
+        - p:mcmmo.perks.xp.triple.herbalism-false
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-false
+        - p:mcmmo.perks.xp.double.woodcutting-false
+        - p:mcmmo.perks.xp.triple.woodcutting-false
+        - p:mcmmo.perks.xp.50percentboost.unarmed-false
+        - p:mcmmo.perks.xp.10percentboost.unarmed-false
+        - p:mcmmo.perks.xp.double.unarmed-false
+        - p:mcmmo.perks.xp.triple.unarmed-false
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-false
+        - p:mcmmo.perks.xp.double.acrobatics-false
+        - p:mcmmo.perks.xp.triple.acrobatics-false
+        - p:mcmmo.perks.xp.50percentboost.axes-false
+        - p:mcmmo.perks.xp.10percentboost.axes-false
+        - p:mcmmo.perks.xp.double.axes-false
+        - p:mcmmo.perks.xp.triple.axes-false
+        - p:mcmmo.perks.xp.50percentboost.archery-false
+        - p:mcmmo.perks.xp.10percentboost.archery-false
+        - p:mcmmo.perks.xp.double.archery-false
+        - p:mcmmo.perks.xp.triple.archery-false
+        - p:mcmmo.perks.xp.50percentboost.mining-false
+        - p:mcmmo.perks.xp.10percentboost.mining-false
+        - p:mcmmo.perks.xp.double.mining-false
+        - p:mcmmo.perks.xp.triple.mining-false
+        - p:mcmmo.perks.xp.50percentboost.excavation-false
+        - p:mcmmo.perks.xp.10percentboost.excavation-false
+        - p:mcmmo.perks.xp.double.excavation-false
+        - p:mcmmo.perks.xp.triple.excavation-false
+        - p:mcmmo.perks.xp.50percentboost.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.fishing-false
+        - p:mcmmo.perks.xp.double.fishing-false
+        - p:mcmmo.perks.xp.triple.fishing-false
+        - p:mcmmo.perks.xp.10percentboost.all-false
+        - p:mcmmo.perks.xp.50percentboost.all-false
+        - p:mcmmo.perks.xp.double.all-false
+        - p:adoration.nuggets-false
+        - p:adoration.frite-false
+        - p:adoration.burger-false
+        - p:adoration.soupe-false
+        - p:adoration.soda-false
+        - p:adoration.candy-false
+        - p:adoration.flurry-false
+        - p:adoration.choco-true
+        - p:adoration.faim-false
+        - p:mcmmo.ability.all-false
+        - p:mcmmo.skills.all-true
+      converti:
+        requires:
+        - j:Chocogirl-0
+        perform:
+        - p:deluxetags.tag.Converti-true
+      Disciple:
+        requires:
+        - j:Chocogirl-1
+        perform:
+        - p:deluxetags.tag.Disciple-true
+        - p:mcmmo.perks.xp.10percentboost.archery-true
+        - p:mcmmo.perks.xp.10percentboost.woodcutting-true
+        - p:mcmmo.perks.xp.10percentboost.acrobatics-true
+        - p:mcmmo.ability.acrobatics.roll-true
+        - p:mcmmo.ability.fishing.vanillaxpboost-true
+        - p:mcmmo.ability.axes.axemastery-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.herbalism.doubledrops-true
+        - p:mcmmo.ability.mining.doubledrops-true
+        - p:mcmmo.ability.repair.armorrepair-true
+        - p:mcmmo.ability.repair.diamondrepair-true
+        - p:mcmmo.ability.repair.ironrepair-true
+        - p:mcmmo.ability.repair.leatherrepair-true
+        - p:mcmmo.ability.repair.othermaterialrepair-true
+        - p:mcmmo.ability.repair.stonerepair-true
+        - p:mcmmo.ability.repair.stringrepair-true
+        - p:mcmmo.ability.repair.toolrepair-true
+        - p:mcmmo.ability.repair.woodrepair-true
+        - p:mcmmo.ability.repair.*-true
+        - p:mcmmo.ability.repair.goldrepair-false
+        - p:mcmmo.ability.smelting.fuelefficiency-true
+        - p:mcmmo.ability.smelting.vanillaxpboost-true
+        - p:mcmmo.ability.swords.bleed-true
+        - p:mcmmo.ability.taming.beastlore-true
+        - p:mcmmo.ability.woodcutting.doubledrops-true
+        - p:mcmmo.ability.alchemy.catalysis-true
+        - p:mcmmo.ability.alchemy.concoctions-false
+        - p:mcmmo.ability.acrobatics.dodge-false
+        - p:mcmmo.ability.acrobatics.gracefulroll-false
+        - p:mcmmo.ability.alchemy.concoctions-false -false
+        - p:mcmmo.ability.archery.daze-false
+        - p:mcmmo.ability.archery.skillshot-false
+        - p:mcmmo.ability.archery.trackarrows-false
+        - p:mcmmo.ability.axes.criticalhit-false
+        - p:mcmmo.ability.axes.greaterimpact-false
+        - p:mcmmo.ability.axes.impact-false
+        - p:mcmmo.ability.axes.skullsplitter-false
+        - p:mcmmo.ability.excavation.gigadrillbreaker-false
+        - p:mcmmo.ability.excavation.treasures-false
+        - p:mcmmo.ability.fishing.fishermansdiet-false
+        - p:mcmmo.ability.fishing.magic-false
+        - p:mcmmo.ability.fishing.shakemob-false
+        - p:mcmmo.ability.fishing.treasures-false
+        - p:mcmmo.ability.herbalism.farmersdiet-false
+        - p:mcmmo.ability.herbalism.greenterra-false
+        - p:mcmmo.ability.herbalism.greenthumb.*-false
+        - p:mcmmo.ability.herbalism.hylianluck-false
+        - p:mcmmo.ability.mining.blastmining.*-false
+        - p:mcmmo.ability.mining.superbreaker-false
+        # - p:mcmmo.ability.repair.arcaneforging-false
+        # - p:mcmmo.ability.repair.repairmastery-false
+        # - p:mcmmo.ability.repair.salvage-false
+        # - p:mcmmo.ability.repair.superrepair-false
+        - p:mcmmo.ability.smelting.secondsmelt-false
+        - p:mcmmo.ability.swords.counterattack-false
+        - p:mcmmo.ability.swords.serratedstrikes-false
+        - p:mcmmo.ability.unarmed.berserk-false
+        - p:mcmmo.ability.unarmed.blockcracker-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.deflect-false
+        - p:mcmmo.ability.unarmed.disarm-false
+        - p:mcmmo.ability.unarmed.iromarm-false
+        - p:mcmmo.ability.unarmed.irongrip-false
+        - p:mcmmo.ability.woodcutting.leafblower-false
+        - p:mcmmo.ability.woodcutting.treefeller-false
+      Admirateur:
+        requires:
+        - j:Chocogirl-2
+        perform:
+        - p:deluxetags.tag.Admirateur-true
+        - p:mcmmo.perks.xp.50percentboost.archery-true
+        - p:mcmmo.perks.xp.50percentboost.woodcutting-true
+        - p:mcmmo.perks.xp.50percentboost.acrobatics-true
+        - p:mcmmo.ability.acrobatics.dodge-true
+        - p:mcmmo.ability.acrobatics.gracefulroll-true
+        - p:mcmmo.ability.archery.skillshot-true
+        - p:mcmmo.ability.archery.daze-true
+        - p:mcmmo.ability.archery.trackarrows-true
+        - p:mcmmo.ability.woodcutting.leafblower-true
+        - p:mcmmo.ability.woodcutting.treefeller-true
+      Partisant:
+        requires:
+        - j:Chocogirl-3
+        perform:
+        - p:deluxetags.tag.Partisant-true
+        - p:mcmmo.perks.xp.10percentboost.all-true
+      Fidele:
+        requires:
+        - j:Chocogirl-4
+        perform:
+        - p:deluxetags.tag.Fidele-true
+        - p:mcmmo.perks.xp.double.archery-true
+        - p:mcmmo.perks.xp.double.woodcutting-true
+        - p:mcmmo.perks.xp.double.acrobatics-true
+      Zelote:
+        requires:
+        - j:Chocogirl-5
+        perform:
+        - p:deluxetags.tag.Zelote-true
+        - p:mcmmo.perks.lucky.archery-true
+        - p:mcmmo.perks.lucky.woodcutting-true
+        - p:mcmmo.perks.lucky.acrobatics-true
+      Gardien:
+        requires:
+        - j:Chocogirl-6
+        perform:
+        - p:deluxetags.tag.Gardien-true
+        - p:mcmmo.perks.xp.150percentboost.archery-true
+        - p:mcmmo.perks.xp.150percentboost.woodcutting-true
+        - p:mcmmo.perks.xp.150percentboost.acrobatics-true
+      Champion:
+        requires:
+        - j:Chocogirl-7
+        perform:
+        - p:deluxetags.tag.Champion-true
+        - p:mcmmo.perks.xp.50percentboost.all-true
+      Pretre:
+        requires:
+        - j:Chocogirl-8
+        perform:
+        - p:deluxetags.tag.Pretre-true
+        - p:mcmmo.perks.xp.triple.archery-true
+        - p:mcmmo.perks.xp.triple.woodcutting-true
+        - p:mcmmo.perks.xp.triple.acrobatics-true
+      Exalte:
+        requires:
+        - j:Chocogirl-9
+        perform:
+        - p:deluxetags.tag.Exalte-true
+        - p:mcmmo.perks.cooldowns.halved.archery-true
+        - p:mcmmo.perks.cooldowns.halved.woodcutting-true
+        - p:mcmmo.perks.cooldowns.halved.acrobatics-true
+      Illumine:
+        requires:
+        - j:Chocogirl-10
+        perform:
+        - p:deluxetags.tag.Illumine-true
+        - p:mcmmo.perks.xp.double.all-true
+    Eat:
+      Cookie:
+        experience: 12.0
+      Cake:
+        experience: 10.0
+      Carrot:
+        experience: 20.0
+      Bread:
+        experience: 25.0
+      Golden_carrot:
+        experience: 60.0
+    # MMKill:
+    #   CREEPER:
+    #     experience: 10.0
+    #   EVOKER:
+    #     experience: 10
+    #   VINDICATOR:
+    #     experience: 10
+    #   SKELETON:
+    #     experience: 10.0
+    #   SPIDER:
+    #     experience: 10.0
+    #   ZOMBIE:
+    #     experience: 10.0
+    #   WITCH:
+    #     experience: 20.0
+    #   PIG_ZOMBIE:
+    #     experience: 15.0
+    #   BLAZE:
+    #     experience: 15.0
+    #   GHAST:
+    #     experience: 15
+    Break:
+      LOG:
+        experience: 4
+      LOG_2:
+        experience: 4
+      CROPS-7:
+        experience: 2
+      CARROT-7:
+        experience: 2
+      SUGAR_CANE_BLOCK:
+        experience: 2
+      DIAMOND_ORE:
+        experience: 40.0
+      COCOA-4:
+        experience: 5.0
+    Place:
+      SAPLING:
+        experience: 3
+      Cake:
+        experience: 30
+    Craft:
+      MAGMA_CREAM:
+        experience: 12.0
+      FERMENTED_SPIDER_EYE:
+        experience: 13.0
+      speckled_melon:
+        experience: 7.0
+      BLAZE_POWDER:
+        experience: 5.0
+      golden_carrot:
+        experience: 5
+      GOLDEN_APPLE:
+        experience: 100.0
+      322-1:
+        experience: 400
+      cake:
+        experience: 20
+      cookie:
+        experience: 2
+      bread:
+        experience: 3
+    Brew:
+      NETHER_STALK:
+        experience: 10.0
+      REDSTONE:
+        experience: 20.0
+      GLOWSTONE_DUST:
+        experience: 20.0
+      SPIDER_EYE:
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        experience: 25.0
+      BLAZE_POWDER:
+        experience: 32.0
+      SUGAR:
+        experience: 30.0
+      speckled_melon:
+        experience: 20.0
+      MAGMA_CREAM:
+        experience: 36.0
+      GHAST_TEAR:
+        experience: 55.0
+      SULPHUR:
+        experience: 10.0
+      golden_carrot:
+        experience: 16.0
+      rabbit_foot:
+        experience: 75.0
+      349-3:
+        experience: 100.0
+      437:
+        experience: 30.0
+    Smelt:
+      coal-1:
+        experience: 5

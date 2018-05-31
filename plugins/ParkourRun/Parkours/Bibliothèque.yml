@@ -1,0 +1,22 @@
+FinishRedirect: false
+LeaveRedirect: false
+Start:
+  World: HUB
+  X: 164
+  Y: 87
+  Z: 904
+Checkpoints:
+- HUB:171:85:818
+End:
+  World: HUB
+  X: 165
+  Y: 87
+  Z: 785
+FallBackY: 80
+Reset:
+  World: HUB
+  X: 164
+  Y: 87
+  Z: 907
+  yaw: 183.60791015625
+  pitch: 5.918132305145264

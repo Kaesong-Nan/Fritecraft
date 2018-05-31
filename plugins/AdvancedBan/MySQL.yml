@@ -1,0 +1,6 @@
+MySQL:
+  IP: localhost
+  DB-Name: base
+  Username: localuser
+  Password: fritegirl
+  Port: 3306

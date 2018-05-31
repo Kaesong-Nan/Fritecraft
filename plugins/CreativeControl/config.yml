@@ -1,0 +1,57 @@
+disabled-commands:
+- /command1
+- /command2
+disabled-gamemodes:
+- ADVENTURE
+- SPECTATOR
+disabled-items:
+- TNT
+- BEDROCK
+disabled-worlds:
+- world1
+- world2
+disable-creative-spawners: true
+remove-permissions:
+- permissionnode1
+- permission.node.2
+add-permissions:
+- permissionnode1
+- permission.node.2
+db-type: mysql
+db-host: localhost
+db-port: '3306'
+db-user: DEFAULT
+db-password: test
+db-database: DEFAULT
+message-prefix: '&4[CC]&c '
+inventory-switching: true
+excluded-blocks:
+- DIRT
+- SAND
+enabled-features:
+- BlockBreak
+- BlockFall
+- BlockPlace
+- BlockExplode
+- BedrockBreak
+- HangingBreak
+- HangingPlace
+- VehicleCreate
+- VehicleDestroy
+- VehicleMove
+- PlayerArmorStandManipulate
+- PlayerCommandRestrict
+- PlayerBannedItemFromInventory
+- PlayerBucketEmpty
+- PlayerDamageEntity
+- PlayerDeathNoDrop
+- PlayerDropItem
+- PlayerGamemodeChange
+- PlayerJoin
+- PlayerOpenRestrictedInventory
+- PlayerPickupItem
+- PlayerQuit
+- SpawnerSpawnEntity
+- CreatureSpawn
+- PistonExtend
+- PistonRetract
