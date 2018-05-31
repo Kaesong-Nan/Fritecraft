@@ -4,7 +4,7 @@
 #Ignorer les dossiers d'archive
 /_archive
 /_jars
-/world-achives
+/_world-achives
 /spigots
 
 #Ignorer les dossiers de mondes
@@ -125,3 +125,11 @@ whitelist.json
 /plugins/WorldGuard/cache
 /plugins/WorldGuard/report.txt
 /plugins/WorldGuard/profile.txt
+paper.yml
+/plugins/Citizens/saves.yml
+/plugins/Jobs/furnaceBrewingStands.yml
+/plugins/MCMMOXPBar/config.yml
+/plugins/Shopkeepers/save.yml
+server.properties
+spigot.yml
+
