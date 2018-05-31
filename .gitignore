@@ -1,11 +1,17 @@
+
 #Ignorer les fichiers java compilés .jar
 *.jar
 
 #Ignorer les dossiers d'archive
 /_archive
 /_jars
-/_world-achives
+/_world-archives
 /spigots
+*.mca
+*.mcr
+*.lock
+*.dat_old
+*.mcm
 
 #Ignorer les dossiers de mondes
 /Biomes
@@ -65,6 +71,7 @@ whitelist.json
 *.key
 *.hocon
 *.vstencil
+*.c
 /plugins/AdvancedBan/data
 /plugins/AutomaticInventory/PlayerData
 /plugins/BuycraftX
@@ -87,8 +94,8 @@ whitelist.json
 /plugins/GriedPreventionData/softMute.txt
 /plugins/Gringotts/.uuids-migrated
 /plugins/HolographicDisplays/database.yml
-/plugins/LibsDisguise/GameProfiles
-/plugins/LibsDisguise/SavedDisguises
+/plugins/LibsDisguises/GameProfiles
+/plugins/LibsDisguises/SavedDisguises
 /plugins/mcMMO/backup
 /plugins/mcMMO/flatfile
 /plugins/MobHunting/backup
@@ -100,6 +107,7 @@ whitelist.json
 /plugins/ParkourRun/Stats.yml
 /plugins/PerWorldInventory/data
 /plugins/Plan/logs
+/plugins/PhatLoots/LootTimes
 /plugins/Plan/ServerInfoFile.yml
 /plugins/PluginMetrics
 /plugins/ProtocolLib/lastupdate
@@ -132,4 +140,4 @@ paper.yml
 /plugins/Shopkeepers/save.yml
 server.properties
 spigot.yml
-
+/plugins/CMI/skinCache.yml
