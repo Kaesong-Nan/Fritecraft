@@ -49,12 +49,9 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
-    remove-corrupt-tile-entities: true
-    use-chunk-inhabited-timer: true
-    queue-light-updates: false
-    portal-search-radius: 128
-    optimize-explosions: false
-    use-vanilla-world-scoreboard-name-coloring: false
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    max-entity-collisions: 8
+    disable-creeper-lingering-effect: false
     delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
     save-queue-limit-for-auto-save: 50
@@ -86,11 +83,15 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
-    filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 8
-    disable-creeper-lingering-effect: false
+    portal-search-radius: 128
+    queue-light-updates: false
+    optimize-explosions: false
+    use-vanilla-world-scoreboard-name-coloring: false
+    remove-corrupt-tile-entities: true
+    use-chunk-inhabited-timer: true
     keep-spawn-loaded-range: 6
     auto-save-interval: -1
+    allow-leashing-undead-horse: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     hopper:
@@ -110,18 +111,17 @@ world-settings:
     use-alternate-fallingblock-onGround-detection: false
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
-    allow-leashing-undead-horse: false
-    baby-zombie-movement-speed: 0.2
     mob-spawner-tick-rate: 40
     all-chunks-are-slime-chunks: true
     keep-spawn-loaded: true
     armor-stands-do-collision-entity-lookups: true
     spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.2
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
     container-update-tick-rate: 2
     disable-teleportation-suffocation-check: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false

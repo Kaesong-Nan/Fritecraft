@@ -161,7 +161,7 @@
   z: 1010
   type: admin
   object: villager
-  uuid: 733f93e4-5ffd-4471-96df-82181a2f2ee8
+  uuid: 6e84cf13-3851-4bfd-839d-b78e3a66373d
   prof: BLACKSMITH
   recipes:
     '0':
@@ -293,7 +293,7 @@
   z: 1010
   type: admin
   object: villager
-  uuid: cf396ccc-d553-4bd2-a287-0e019d32ca22
+  uuid: c179d7db-a634-40f5-8151-a493320ea8ba
   prof: BLACKSMITH
   recipes:
     '0':
