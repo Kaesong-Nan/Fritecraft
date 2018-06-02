@@ -53,6 +53,9 @@ ops.json
 permissions.yml
 usercache.json
 wepif.yml
+spigot.yml
+server.properties
+paper.yml
 whitelist.json
 
 #Ignorer les logs de plugins et données de sauvegarde
@@ -79,6 +82,7 @@ whitelist.json
 /plugins/ChatControl/logs
 /plugins/CrazyAuctions/Data.yml
 /plugins/CrazyCrates/data.yml
+/plugins/Citizens/saves.yml
 /plugins/CustomEnderChest/PlayerData
 /plugins/DeluxeTags/userdata
 /plugins/DiscordSRV
@@ -94,10 +98,12 @@ whitelist.json
 /plugins/GriedPreventionData/softMute.txt
 /plugins/Gringotts/.uuids-migrated
 /plugins/HolographicDisplays/database.yml
+/plugins/Jobs/furnaceBrewingStands.yml
 /plugins/LibsDisguises/GameProfiles
 /plugins/LibsDisguises/SavedDisguises
 /plugins/mcMMO/backup
 /plugins/mcMMO/flatfile
+/plugins/MCMMOXPBar/config.yml
 /plugins/MobHunting/backup
 /plugins/MobHunting/hologram-leaderboards.yml
 /plugins/MoreTP/data
@@ -117,6 +123,7 @@ whitelist.json
 /plugins/QuickSell/citizens_npcs.yml
 /plugins/RankVouchers/user-data
 /plugins/RankVouchers/users.yml
+/plugins/Shopkeepers/save.yml
 /plugins/ShowCaseStandalone/yaml-storage
 /plugins/ShowCaseStandalone/sessions.yml
 /plugins/Skript/backups
