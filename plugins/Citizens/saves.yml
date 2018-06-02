@@ -33,7 +33,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -102,7 +102,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -136,7 +136,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -168,7 +168,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '0.5'
       avoidwater: false
@@ -197,7 +197,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -225,7 +225,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -254,7 +254,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -284,7 +284,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,type,location,owner,mounttrait,spawned,gravity,lookclose
+    traitnames: type,lookclose,spawned,location,gravity,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -312,7 +312,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -341,7 +341,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -369,7 +369,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -402,7 +402,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -435,7 +435,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -468,7 +468,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -501,7 +501,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -534,7 +534,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -567,7 +567,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -600,7 +600,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -629,7 +629,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -658,7 +658,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -691,7 +691,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -721,7 +721,7 @@ npc:
       owner:
         owner: Fat_Flat
         uuid: ''
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -749,7 +749,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,powered,lookclose
+    traitnames: type,lookclose,spawned,powered,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -778,7 +778,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -811,7 +811,7 @@ npc:
       owner:
         owner: potoroo725
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -839,7 +839,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -872,7 +872,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -901,7 +901,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -930,7 +930,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -959,7 +959,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -988,7 +988,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1022,7 +1022,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,poses,type,owner,location,mounttrait,spawned,gravity,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,poses,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1200,7 +1200,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,waypoints,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: true
@@ -1230,7 +1230,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1259,7 +1259,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: poses,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,poses,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1287,7 +1287,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1317,7 +1317,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1385,7 +1385,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1453,7 +1453,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1521,7 +1521,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1589,7 +1589,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1657,7 +1657,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1725,7 +1725,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1793,7 +1793,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1861,7 +1861,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1890,7 +1890,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1919,7 +1919,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1948,7 +1948,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1976,7 +1976,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2005,7 +2005,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2034,7 +2034,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2061,7 +2061,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: poses,type,owner,location,mounttrait,spawned,powered,lookclose
+    traitnames: type,lookclose,spawned,powered,location,poses,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2106,7 +2106,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2134,7 +2134,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2200,7 +2200,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2228,7 +2228,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2253,7 +2253,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2288,7 +2288,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2316,7 +2316,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2344,7 +2344,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2372,7 +2372,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2400,7 +2400,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2428,7 +2428,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2456,7 +2456,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2484,7 +2484,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2512,7 +2512,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2540,7 +2540,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2568,7 +2568,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2596,7 +2596,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2624,7 +2624,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2649,7 +2649,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2677,7 +2677,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2705,7 +2705,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2733,7 +2733,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2887,7 +2887,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,waypoints,age,type,owner,location,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,age,location,equipment,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: true
@@ -2919,7 +2919,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2948,7 +2948,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2983,7 +2983,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3012,7 +3012,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3040,7 +3040,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3075,7 +3075,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3132,7 +3132,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3160,7 +3160,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3189,7 +3189,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3214,7 +3214,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3271,7 +3271,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3300,7 +3300,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3329,7 +3329,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3358,7 +3358,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3387,7 +3387,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3416,7 +3416,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3445,7 +3445,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3474,7 +3474,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3612,7 +3612,7 @@ npc:
         x: '-26.3795'
         y: '70.0'
         z: '1753.365'
-        yaw: '-178.62054443359375'
+        yaw: '160.21664428710938'
         pitch: '0.0'
       equipment:
         hand:
@@ -3653,7 +3653,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3681,7 +3681,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3709,7 +3709,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3737,7 +3737,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3765,7 +3765,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3793,7 +3793,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3824,7 +3824,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3888,7 +3888,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3916,7 +3916,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3944,7 +3944,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4009,7 +4009,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       stationaryticks: 100
       speedmodifier: '1.0'
@@ -4039,7 +4039,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4068,7 +4068,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4097,7 +4097,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4126,7 +4126,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4155,7 +4155,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4184,7 +4184,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4213,7 +4213,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4242,7 +4242,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4268,7 +4268,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: poses,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,poses,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4297,7 +4297,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4328,7 +4328,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4357,7 +4357,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4386,7 +4386,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4449,7 +4449,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       stationaryticks: 100
       speedmodifier: '1.0'
@@ -4513,7 +4513,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       stationaryticks: 100
       speedmodifier: '1.0'
@@ -4557,7 +4557,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,waypoints,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4571,7 +4571,7 @@ npc:
         x: '587.5258'
         y: '73.0'
         z: '904.5307'
-        yaw: '-56.39557647705078'
+        yaw: '-49.47205352783203'
         pitch: '0.0'
       spawned: true
       type: ENDERMITE
@@ -4582,7 +4582,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4613,7 +4613,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4649,7 +4649,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4677,7 +4677,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4702,7 +4702,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4727,7 +4727,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4752,7 +4752,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4777,7 +4777,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4804,7 +4804,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4829,7 +4829,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4854,7 +4854,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4879,7 +4879,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4904,7 +4904,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4929,7 +4929,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4957,7 +4957,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4982,7 +4982,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5010,7 +5010,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5035,7 +5035,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5068,7 +5068,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5100,7 +5100,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5158,7 +5158,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5186,7 +5186,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5215,7 +5215,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5244,7 +5244,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5273,7 +5273,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5301,7 +5301,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5329,7 +5329,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5357,7 +5357,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5498,7 +5498,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5526,7 +5526,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5555,7 +5555,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5590,7 +5590,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,owner,mounttrait,waypoints
     navigator:
       stationaryticks: 100
       speedmodifier: '0.5'
@@ -5619,7 +5619,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5639,7 +5639,7 @@ npc:
       location:
         world: Bouquenia
         x: '411.0058'
-        y: '48.0489'
+        y: '47.9874'
         z: '2133.9171'
         yaw: '1.9305648803710938'
         pitch: '0.0'
@@ -5647,7 +5647,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5674,7 +5674,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5701,7 +5701,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5728,7 +5728,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5755,7 +5755,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5782,7 +5782,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -5869,7 +5869,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       distancemargin: '0.5'
       speedmodifier: '0.5'
@@ -5996,7 +5996,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       distancemargin: '0.5'
       speedmodifier: '0.5'
@@ -6123,7 +6123,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait,waypoints
     navigator:
       distancemargin: '1.0'
       speedmodifier: '0.4000000059604645'
@@ -6158,7 +6158,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6193,7 +6193,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6213,7 +6213,7 @@ npc:
         x: '277.8682'
         y: '65.0'
         z: '972.0946'
-        yaw: '46.04179382324219'
+        yaw: '40.8480224609375'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -6225,7 +6225,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,gravity,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6257,7 +6257,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6289,7 +6289,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6321,7 +6321,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6353,7 +6353,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6385,7 +6385,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6417,7 +6417,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6449,7 +6449,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6481,7 +6481,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6513,7 +6513,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6545,7 +6545,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6577,7 +6577,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6604,7 +6604,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6636,7 +6636,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6668,7 +6668,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6700,7 +6700,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6732,7 +6732,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6764,7 +6764,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6796,7 +6796,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6828,7 +6828,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6860,7 +6860,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6892,7 +6892,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6924,7 +6924,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6955,7 +6955,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -6985,7 +6985,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: rabbittype,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: rabbittype,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7016,7 +7016,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: ocelotmodifiers,age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,ocelotmodifiers,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7041,7 +7041,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7069,7 +7069,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7097,7 +7097,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7128,7 +7128,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: ocelotmodifiers,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,ocelotmodifiers,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7159,7 +7159,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: ocelotmodifiers,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,ocelotmodifiers,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7190,7 +7190,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: ocelotmodifiers,age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,ocelotmodifiers,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7227,7 +7227,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7264,7 +7264,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7301,7 +7301,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7330,7 +7330,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,gravity,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,gravity,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7367,7 +7367,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7404,7 +7404,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7441,7 +7441,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7478,7 +7478,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7515,7 +7515,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7544,7 +7544,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,bossbar,lookclose
+    traitnames: bossbar,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7571,7 +7571,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7600,7 +7600,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7628,7 +7628,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7661,7 +7661,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7688,7 +7688,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7723,7 +7723,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7751,7 +7751,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7779,7 +7779,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7808,7 +7808,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,bossbar,lookclose
+    traitnames: bossbar,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7833,7 +7833,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7865,7 +7865,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7919,7 +7919,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -7973,7 +7973,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8007,7 +8007,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8035,7 +8035,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8063,7 +8063,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8090,7 +8090,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8118,7 +8118,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8148,7 +8148,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8188,7 +8188,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8218,7 +8218,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8245,7 +8245,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8270,7 +8270,7 @@ npc:
         x: '-5.4999'
         y: '65.5'
         z: '1774.6884'
-        yaw: '-174.84375'
+        yaw: '165.4913330078125'
         pitch: '0.0'
       lookclose:
         enabled: true
@@ -8281,7 +8281,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,poses,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,poses,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8332,7 +8332,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8369,7 +8369,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8410,7 +8410,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: profession,shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8452,7 +8452,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8494,7 +8494,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8514,7 +8514,7 @@ npc:
         x: '126.5'
         y: '58.0'
         z: '1841.5'
-        yaw: '-131.30226135253906'
+        yaw: '-68.67300415039062'
         pitch: '0.0'
       npcdestinations:
         enabledplugins: []
@@ -8653,7 +8653,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,waypoints,text,type,owner,location,mounttrait,spawned,lookclose,speech,inventory
+    traitnames: type,lookclose,inventory,speech,spawned,location,gravity,equipment,text,owner,mounttrait,waypoints
     navigator:
       distancemargin: '0.5'
       speedmodifier: '1.0'
@@ -8689,7 +8689,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8811,7 +8811,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: waypoints,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait,waypoints
     navigator:
       distancemargin: '1.0'
       speedmodifier: '1.0'
@@ -8839,7 +8839,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8866,7 +8866,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8893,7 +8893,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8918,7 +8918,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8943,7 +8943,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8968,7 +8968,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -8993,7 +8993,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9018,7 +9018,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9043,7 +9043,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9068,7 +9068,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9097,7 +9097,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9212,7 +9212,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9261,7 +9261,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,age,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,age,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9293,7 +9293,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9320,7 +9320,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9367,7 +9367,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9400,7 +9400,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9425,7 +9425,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9450,7 +9450,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9478,7 +9478,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9506,7 +9506,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9534,7 +9534,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9562,7 +9562,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9590,7 +9590,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9618,7 +9618,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9646,7 +9646,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9674,7 +9674,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9702,7 +9702,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9730,7 +9730,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9758,7 +9758,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9785,7 +9785,7 @@ npc:
         x: '1428.5231'
         y: '67.0'
         z: '1533.4353'
-        yaw: '-52.05287170410156'
+        yaw: '131.2135467529297'
         pitch: '0.0'
       inventory:
         '0':
@@ -9839,7 +9839,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9870,7 +9870,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: profession,shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9907,7 +9907,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9949,7 +9949,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,horsemodifiers,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,horsemodifiers,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -9982,7 +9982,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10010,7 +10010,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10038,7 +10038,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10066,7 +10066,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10094,7 +10094,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10119,7 +10119,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10185,7 +10185,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10251,7 +10251,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10317,7 +10317,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10383,7 +10383,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10449,7 +10449,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10515,7 +10515,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10583,7 +10583,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10651,7 +10651,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10719,7 +10719,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10787,7 +10787,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10853,7 +10853,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10919,7 +10919,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -10985,7 +10985,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11051,7 +11051,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11117,7 +11117,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11183,7 +11183,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11249,7 +11249,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11315,7 +11315,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11381,7 +11381,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11447,7 +11447,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,armorstandtrait,mounttrait,spawned,lookclose
+    traitnames: armorstandtrait,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11481,7 +11481,7 @@ npc:
       owner:
         owner: Ludokozo
         uuid: 62b8009f-4cef-4120-a3fc-780cdddbc867
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11510,7 +11510,7 @@ npc:
       owner:
         owner: Ludokozo
         uuid: 62b8009f-4cef-4120-a3fc-780cdddbc867
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11550,7 +11550,7 @@ npc:
       owner:
         owner: Ludokozo
         uuid: 62b8009f-4cef-4120-a3fc-780cdddbc867
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: profession,shopkeeper,type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11585,7 +11585,7 @@ npc:
       owner:
         owner: Ludokozo
         uuid: 62b8009f-4cef-4120-a3fc-780cdddbc867
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: profession,shopkeeper,type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11620,7 +11620,7 @@ npc:
       owner:
         owner: Ludokozo
         uuid: 62b8009f-4cef-4120-a3fc-780cdddbc867
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: profession,shopkeeper,type,lookclose,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11656,7 +11656,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,age,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,age,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11685,7 +11685,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11718,7 +11718,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11804,7 +11804,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11832,7 +11832,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11857,7 +11857,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11882,7 +11882,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11907,7 +11907,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11932,7 +11932,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11957,7 +11957,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -11987,7 +11987,7 @@ npc:
       owner:
         owner: cinnoi
         uuid: 8bf247ad-b215-49ef-9d36-828e88f11dad
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12016,7 +12016,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12053,7 +12053,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12085,7 +12085,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12117,7 +12117,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12149,7 +12149,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12182,7 +12182,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,withertrait,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,withertrait,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12214,7 +12214,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12247,7 +12247,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12266,13 +12266,13 @@ npc:
         x: '258.4623'
         y: '65.0'
         z: '978.6592'
-        yaw: '30.353548049926758'
+        yaw: '34.50596618652344'
         pitch: '0.0'
       spawned: true
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12305,7 +12305,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12355,7 +12355,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12406,7 +12406,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12433,7 +12433,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12460,7 +12460,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12485,7 +12485,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12510,7 +12510,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12538,7 +12538,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12567,7 +12567,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12598,7 +12598,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: profession,shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12627,7 +12627,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12656,7 +12656,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12689,7 +12689,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12723,7 +12723,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12757,7 +12757,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12791,7 +12791,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12820,7 +12820,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12855,7 +12855,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -12889,7 +12889,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13002,7 +13002,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13026,7 +13026,7 @@ npc:
         x: '243.0937'
         y: '68.0625'
         z: '1032.9072'
-        yaw: '-1.0699005126953125'
+        yaw: '7.476348876953125'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -13036,7 +13036,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13073,7 +13073,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13104,7 +13104,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13135,7 +13135,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13165,7 +13165,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13195,7 +13195,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13225,7 +13225,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13255,7 +13255,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13286,7 +13286,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13316,7 +13316,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13341,14 +13341,14 @@ npc:
         x: '230.4609'
         y: '68.0'
         z: '1047.0579'
-        yaw: '-133.0345001220703'
+        yaw: '-135.59890747070312'
         pitch: '0.0'
       gravity:
         enabled: false
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13380,7 +13380,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13409,7 +13409,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose
+    traitnames: profession,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13436,7 +13436,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13461,7 +13461,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13503,7 +13503,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13545,7 +13545,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13737,7 +13737,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -13935,7 +13935,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14133,7 +14133,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14187,7 +14187,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14218,7 +14218,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,profession,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: profession,shopkeeper,type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14243,7 +14243,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14268,7 +14268,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14293,7 +14293,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14318,7 +14318,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14343,7 +14343,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14368,7 +14368,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14393,7 +14393,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14418,7 +14418,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14443,7 +14443,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14462,13 +14462,13 @@ npc:
         x: '266.3833'
         y: '71.0'
         z: '1137.8188'
-        yaw: '72.18687438964844'
+        yaw: '74.21489715576172'
         pitch: '0.0'
       type: SLIME
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14493,7 +14493,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14520,7 +14520,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14547,7 +14547,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14574,7 +14574,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14601,7 +14601,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,owner,location,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14628,7 +14628,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose,shopkeeper
+    traitnames: shopkeeper,type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14651,12 +14651,12 @@ npc:
         x: '1187.3721'
         y: '71.0'
         z: '487.4714'
-        yaw: '142.9228515625'
+        yaw: '125.75544738769531'
         pitch: '0.0'
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14679,12 +14679,12 @@ npc:
         x: '1186.0132'
         y: '71.0'
         z: '484.9105'
-        yaw: '127.79497528076172'
+        yaw: '136.07337951660156'
         pitch: '0.0'
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14709,7 +14709,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14736,12 +14736,12 @@ npc:
         x: '1158.0869'
         y: '73.0'
         z: '540.7975'
-        yaw: '-179.84140014648438'
+        yaw: '156.5313262939453'
         pitch: '0.0'
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14853,7 +14853,7 @@ npc:
         x: '1158.73'
         y: '73.0625'
         z: '533.7993'
-        yaw: '70.3359375'
+        yaw: '57.36724853515625'
         pitch: '0.0'
       equipment:
         helmet:
@@ -14940,7 +14940,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14965,7 +14965,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -14993,7 +14993,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,owner,location,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15021,7 +15021,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: age,type,location,owner,mounttrait,spawned,lookclose
+    traitnames: type,lookclose,spawned,age,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15054,7 +15054,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15087,7 +15087,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15120,7 +15120,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15157,7 +15157,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15180,7 +15180,7 @@ npc:
         x: '-1117.6048'
         y: '69.0'
         z: '914.5307'
-        yaw: '-81.55694580078125'
+        yaw: '9.384284973144531'
         pitch: '0.0'
       spawned: true
       equipment:
@@ -15241,7 +15241,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15264,7 +15264,7 @@ npc:
         x: '-1117.6476'
         y: '69.0'
         z: '920.5394'
-        yaw: '125.5195083618164'
+        yaw: '106.34735107421875'
         pitch: '0.0'
       spawned: true
       equipment:
@@ -15325,7 +15325,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15362,7 +15362,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15399,7 +15399,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,profession,mounttrait,spawned,lookclose,inventory
+    traitnames: profession,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15431,7 +15431,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15515,7 +15515,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15599,7 +15599,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,location,owner,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,gravity,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15631,7 +15631,7 @@ npc:
       owner:
         owner: loamos
         uuid: 727d04df-7bfe-4d13-9d7d-3f30ca785077
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,inventory
+    traitnames: type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -15660,7 +15660,7 @@ npc:
       owner:
         owner: Ventouz
         uuid: c4d93544-cd59-458f-a1c5-1b7848fbacb6
-    traitnames: equipment,type,owner,location,mounttrait,spawned,lookclose,shopkeeper,inventory
+    traitnames: shopkeeper,type,lookclose,inventory,spawned,location,equipment,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

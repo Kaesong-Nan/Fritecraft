@@ -210,3 +210,21 @@ TvTeam:
   Members:
   - b6ff5174-4f44-41c4-b0a0-ae03b18a574b|creepertomics55
   - ae45327a-ae65-40d0-afce-5048fe1c1341|babychicken16
+MonCoeur:
+  Leader: a0db704c-e078-424b-910c-51dbd0225328|iKumae
+  Password: Moncoeur2312
+  Locked: true
+  Level: 10
+  Xp: 519
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - a0db704c-e078-424b-910c-51dbd0225328|iKumae
+  - 03aad94c-2f75-4424-b746-ef371c1d57bb|HayamiChan

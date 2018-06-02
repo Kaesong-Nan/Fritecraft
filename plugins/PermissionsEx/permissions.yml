@@ -4786,4 +4786,28 @@ users:
     - libsdisguises.disguise.bat
     options:
       name: SravehOG
+  a0db704c-e078-424b-910c-51dbd0225328:
+    permissions:
+    - gadgetsmenu.hats.cavespider
+    - gadgetsmenu.hats.letter_p
+    - gadgetsmenu.hats.cry
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
+    - permission.guilde.creeperelite
+    - permission.guilde.squeletteelite
+    - permission.guilde.silverfishelite
+    - gadgetsmenu.gadgets.firetrail
+    - gadgetsmenu.hats.number_9
+    - gadgetsmenu.hats.polarbear
+    options:
+      name: iKumae
+  03aad94c-2f75-4424-b746-ef371c1d57bb:
+    permissions:
+    - gadgetsmenu.hats.number_1
+    - gadgetsmenu.hats.number_4
+    - gadgetsmenu.hats.symbol_question
+    - gadgetsmenu.emotes.grin
+    - gadgetsmenu.hats.letter_m
+    options:
+      name: HayamiChan
 schema-version: 1
