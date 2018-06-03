@@ -74,7 +74,7 @@ Metamorph:
   Password: '666'
   Locked: true
   Level: 10
-  Xp: 295
+  Xp: 298
   Ally: ''
   ExpShareMode: EQUAL
   ItemShareMode: EQUAL
@@ -145,7 +145,7 @@ MacDo:
   Leader: bfd1db5f-dfc5-4315-ae84-7d1eb3901171|Hakuryu42
   Locked: true
   Level: 10
-  Xp: 618
+  Xp: 222
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE

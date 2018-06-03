@@ -38,32 +38,6 @@ a5c11135-3348-4ad4-acbc-9de8051b94af:
   money: 0.0
   uuid: 2351844f-f400-4fa4-9642-35169c5b048a
   uniqueid: 78d7b13c-1947-44f0-a308-3d39add8ff24
-409a5633-65a9-4c1a-810f-6796fdafbae4:
-  location:
-    ==: org.bukkit.Location
-    world: Pitman
-    x: 1625.0
-    y: 45.0
-    z: 1320.0
-    pitch: 0.0
-    yaw: 0.0
-  description: Spider
-  money: 0.0
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: 409a5633-65a9-4c1a-810f-6796fdafbae4
-ce9d2bd6-1b18-453c-9ede-3b76265a6577:
-  location:
-    ==: org.bukkit.Location
-    world: Pitman
-    x: 1625.0
-    y: 45.0
-    z: 1320.0
-    pitch: 0.0
-    yaw: 0.0
-  description: Spider
-  money: 0.0
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: ce9d2bd6-1b18-453c-9ede-3b76265a6577
 81cf8639-920f-4c52-a0fb-f809473ee9e0:
   location:
     ==: org.bukkit.Location
