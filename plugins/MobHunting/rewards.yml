@@ -1858,19 +1858,6 @@ f9026e7b-2e78-47c8-9536-53ae6ac3a8e4:
   money: 0.0
   uuid: 2351844f-f400-4fa4-9642-35169c5b048a
   uniqueid: 1e4221a9-0c5b-4cdb-bab6-d31c70e99a08
-12775ba9-f50d-4067-a8cb-c963360b8448:
-  location:
-    ==: org.bukkit.Location
-    world: Pitman
-    x: -1343.0
-    y: 62.0
-    z: 172.0
-    pitch: 0.0
-    yaw: 0.0
-  description: Shulker
-  money: 0.0
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: 12775ba9-f50d-4067-a8cb-c963360b8448
 94435362-629e-43bb-afaf-661f2d5b0370:
   location:
     ==: org.bukkit.Location
