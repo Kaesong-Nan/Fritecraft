@@ -447,3 +447,56 @@ Mystery-Boxes:
       Three-Star: '&fYou found a &e✰✰✰&7✰✰ &fMystery Box!'
       Four-Star: '&fYou found a &e✰✰✰✰&7✰ &fMystery Box!'
       Five-Star: '&fYou found a &e✰✰✰✰✰ &fMystery Box!'
+  JSON-Messages:
+    Found-Mystery-Box:
+      One-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰&7✰✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Two-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰&7✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Three-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰&7✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Four-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰✰&7✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+      Five-Star:
+        Name: '&bMystery Box'
+        Lore:
+        - '&7Rarity: &e✰✰✰✰✰'
+        - '&7You can find &bMystery Box &7by'
+        - '&7playing on the server.'
+    Found-Loot:
+      Common:
+        Name: '&aCommon {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &aCommon'
+      Rare:
+        Name: '&9Rare {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &9Rare'
+      Epic:
+        Name: '&5Epic {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &5Epic'
+      Legendary:
+        Name: '&6Legendary {LOOT}'
+        Lore:
+        - '&7Type: {CATEGORY}'
+        - '&7Rarity: &6Legendary'

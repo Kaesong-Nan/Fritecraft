@@ -28,6 +28,8 @@ Cosmetic-Item-Purchase:
   # This is the command when player purchase cosmetic items.
   # This command is depends on your permission plugin.
   Execute-Command: pex user {PLAYER} add {PERMISSION}
+  # Reopen GUI menu after player purchase item.
+  Reopen-GUI-Menu-After-Purchase: true
 # General settings.
 Settings:
   # The default pet's name.
@@ -148,4 +150,4 @@ Check-Update: true
 # the latest plugin when it's released.
 Auto-Update: true
 # Do not edit this.
-Config-Version: 1.0.5
+Config-Version: 1.0.6

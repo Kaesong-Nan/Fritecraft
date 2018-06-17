@@ -403,6 +403,17 @@ Items:
   - ''
   - '  &bStatus: {STATUS}'
   - ''
+  Random-Mystery-Vault-Animation:
+    Name: '&eRandom Animation'
+    Material: '368:0'
+    Show: true
+    Lore:
+    - '&7Let us make a choice'
+    - '&7for you of what animation'
+    - '&7you wanted.'
+    - ''
+    - '&bStatus: {STATUS}'
+    - ''
 Reset-Buttons:
   Reset-Cosmetics:
     Name: '&cReset Cosmetics'
@@ -693,3 +704,9 @@ Cooldown-Bypass: Cooldown Bypass
 Self-Morph-View: Self Morph View
 Counting-Mystery-Boxes: '&cCounting Mystery Boxes...'
 Required-Full-Data: '{PREFIX}&cPlease make sure your data is not missing.'
+Enabled-Random-Mystery-Vault-Animation: '{PREFIX}&eYou &aenabled &bRandom Animation
+  &efor your mystery vault animation.'
+Disabled-Random-Mystery-Vault-Animation: '{PREFIX}&eYou &cdisabled &bRandom Animation
+  &efor your mystery vault animation.'
+Gadget-Activated-In-Same-Area: '{PREFIX}&cThere''s a gadget activated in this area!
+  Please try at another area.'
