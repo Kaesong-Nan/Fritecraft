@@ -4810,4 +4810,9 @@ users:
     - gadgetsmenu.hats.letter_m
     options:
       name: HayamiChan
+  34876ffd-9aaf-4839-b9d4-ef9bbdb10c59:
+    group:
+    - diacre
+    options:
+      name: Sam81402
 schema-version: 1
