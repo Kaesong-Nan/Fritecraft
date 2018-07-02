@@ -1,4 +1,4 @@
-# 
+#
 #  - '&8&m-----------------------'
 cfg_version: 1.0
 Item:
@@ -8,7 +8,7 @@ Item:
   - '&7Réussite: &a&l%s%%'
   - '%desc%'
   - ''
-  - '&7&[Glissez sur un item pour l''améliorer]'
+  - '&7[Glissez sur un item pour l''améliorer]'
   ItemFlags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES
