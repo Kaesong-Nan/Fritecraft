@@ -2,7 +2,7 @@ Gems:
   Gemme_Frite:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Fritegirl'
     Desc:
     - '&9Bonus:'
@@ -23,7 +23,7 @@ Gems:
   Gemme_Nuggets:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Nuggetsgirl'
     Desc:
     - '&9Bonus:'
@@ -44,7 +44,7 @@ Gems:
   Gemme_Burger:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Hamburgirl'
     Desc:
     - '&9Bonus:'
@@ -65,7 +65,7 @@ Gems:
   Gemme_Soupe:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Soupegirl'
     Desc:
     - '&9Bonus:'
@@ -86,7 +86,7 @@ Gems:
   Gemme_Soda:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Sodagirl'
     Desc:
     - '&9Bonus:'
@@ -107,7 +107,7 @@ Gems:
   Gemme_Candy:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Candygirl'
     Desc:
     - '&9Bonus:'
@@ -128,7 +128,7 @@ Gems:
   Gemme_Flurry:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Flurrygirl'
     Desc:
     - '&9Bonus:'
@@ -149,7 +149,7 @@ Gems:
   Gemme_Choco:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Chocogirl'
     Desc:
     - '&9Bonus:'
@@ -170,7 +170,7 @@ Gems:
   Gemme_Faim:
     Enabled: true
     Enchanted: true
-    Material: PRISMARINE_SHARD
+    Material: 'PRISMARINE_CRYSTALS:0'
     Name: '&bGemme de Fringirl'
     Desc:
     - '&9Bonus:'
