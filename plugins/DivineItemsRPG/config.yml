@@ -62,7 +62,7 @@ Strings:
   Modifier: x
   Level: '&cNiveau requis: %n '
   Class: '&cUtilisable par: '
-  ClassSeparator: '&7/'
+  ClassSeparator: '&7, '
   ClassColor: '&f'
 DamageModifiers:
   ENTITY_ATTACK:
@@ -72,7 +72,7 @@ DamageModifiers:
     PLAYER: 1.0
     MOB: 1.0
   POISON:
-    PLAYER: 2.15
+    PLAYER: 2.0
     MOB: 2.0
 DamageTypes:
   PHYSICAL:
@@ -155,7 +155,7 @@ AmmoTypes:
     Prefix: '&e☘'
 Attributes:
   DAMAGE:
-    Name: AD
+    Name: Dégâts
     Prefix: '&a▸'
     Value: '&f'
     Bonus: '&6⏏&f'
@@ -197,7 +197,7 @@ Attributes:
     Bonus: '&6⏏&f'
     Capability: 75.0
   CRITICAL_RATE:
-    Name: Chance Coup Critique
+    Name: Précision
     Prefix: '&a▸'
     Value: '&f'
     Bonus: '&6⏏&f'
@@ -233,7 +233,7 @@ Attributes:
     Bonus: '&6⏏&f'
     Capability: -1
   FIRE_DEFENSE:
-    Name: Résistance au Feu
+    Name: Résistance Incendiaire
     Prefix: '&c▸'
     Value: '&f'
     Bonus: '&6⏏&f'
@@ -263,7 +263,7 @@ Attributes:
     Bonus: '&6⏏&f'
     Capability: 70.0
   DURABILITY:
-    Name: Durabilité
+    Name: Solidité
     Prefix: '&a▸'
     Value: '&f'
     Bonus: '&6⏏&f'
@@ -305,13 +305,13 @@ Attributes:
     Bonus: §6⏏§f
     Capability: 7.0
   DIRECT_DAMAGE:
-    Name: Direct Damage
+    Name: Dégâts bruts
     Prefix: §f▸
     Value: §f
     Bonus: §6⏏§f
     Capability: 100.0
   AOE_DAMAGE:
-    Name: AoE Damage
+    Name: Dégâts de zone
     Prefix: §3☯
     Value: §f
     Bonus: §6⏏§f

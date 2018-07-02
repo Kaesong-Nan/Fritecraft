@@ -1,52 +1,47 @@
 # -----------------------------------------------------------------------------------------------------------
-IDName: common
-Display: Common
-Color: '&f'
+IDName: inutile
+Display: Inutile
+Color: '&7'
 FindBroadcast: false
 EquipOnEntity: true
 Item:
   Display: '%c%%prefix_tier% %prefix_material% %prefix_type% %itemtype% %suffix_material%
     %suffix_type% %suffix_tier%'
   Lore:
-  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lDescription &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
-  - '&7Type: &f%TYPE%'
-  - '&7Tier:%c% %TIER%'
+#  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lDescription &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
   - '%DAMAGE_TYPES%'
   - '%SOULBOUND%'
-  - '%CLASS%'
-  - '%LEVEL%'
-  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lAttributes &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
+#  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lAttributs &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  - ''
   - '%DAMAGE%'
   - '%CRITICAL_RATE%'
   - '%CRITICAL_DAMAGE%'
   - '%PENETRATION%'
   - '%VAMPIRISM%'
-  - '%ACCURACY_RATE%'
-  - '%DODGE_RATE%'
-  - '%BLOCK_RATE%'
-  - '%BLOCK_DAMAGE%'
-  - '%MOVEMENT_SPEED%'
   - '%ATTACK_SPEED%'
+  - '%MOVEMENT_SPEED%'
+  - '%MAX_HEALTH%'
   - '%DEFENSE%'
   - '%FIRE_DEFENSE%'
   - '%MAGIC_DEFENSE%'
   - '%WATER_DEFENSE%'
   - '%WIND_DEFENSE%'
   - '%POISON_DEFENSE%'
-  - '%MAX_HEALTH%'
-  - '%PVP_DAMAGE%'
-  - '%PVE_DAMAGE%'
-  - '%PVP_DEFENSE%'
-  - '%PVE_DEFENSE%'
+  - '%DODGE_RATE%'
   - ''
-  - '%DURABILITY%'
-  - '%DURABILITY_UNBREAK%'
-  - '%SET%'
   - '%BONUS_STATS%'
   - '%GEM%'
   - '%ENCHANT%'
   - '%RUNE%'
   - '%ABILITY%'
+
+#  - '%CLASS%'
+#  - '%LEVEL%'
+  - '%DURABILITY%'
+  - '%DURABILITY_UNBREAK%'
+  - '%SET%'
+  - '&7%TYPE%'
+  - '&7%TIER%'
   Color:
     Random: true
     Value: 255,255,255
