@@ -1,138 +1,190 @@
 Gems:
-  Flawed_Emerald:
+  Gemme_Frite:
     Enabled: true
-    Enchanted: false
-    Material: EMERALD:0
-    Name: '&a&lFlawed Emerald'
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Fritegirl'
     Desc:
-    - '&a&lGem Bonuses:'
-    - '&7- &f&lAttack Damage: &a&l+%var_a%%'
-    - '&7- &f&lCrit. Dmg. Mod.: &a&l+%var_b%%'
+    - '&9Bonus:'
+    - '&7- &f&lPrécision: &e&l+%var_a%%'
     Variables:
-      a: 2.5
-      b: 1.35
+      a: 10.0
     VariablesPerLvl:
-      a: 1.25
-      b: 0.65
+      a: 10.0
     VariablesAttributes:
-      a: DAMAGE
-      b: CRITICAL_DAMAGE
+      a: CRITICAL_RATE
     VariablesPercentage:
       a: true
-      b: true
     LevelMin: 1
     LevelMax: 5
     ItemTypes:
-    - '*SWORD'
-    - '*AXE'
-    ItemLoreDisplay: §a§lFlawed Emerald
-  Flawless_Emerald:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Fritegirl
+  Gemme_Nuggets:
     Enabled: true
     Enchanted: true
-    Material: EMERALD:0
-    Name: '&a&lFlawless Emerald'
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Nuggetsgirl'
     Desc:
-    - '&a&lGem Bonuses:'
-    - '&7- &f&lAttack Damage: &a&l+%var_a%%'
-    - '&7- &f&lCrit. Dmg.: &a&l+%var_b%%'
-    - '&7- &f&lCrit. Rate: &a&l+%var_c%%'
+    - '&9Bonus:'
+    - '&7- &f&lEsquive: &e&l+%var_a%%'
     Variables:
-      a: 5.5
-      b: 1.5
-      c: 2.5
+      a: 0.05
     VariablesPerLvl:
-      a: 1.5
-      b: 0.75
-      c: 0.35
+      a: 0.05
     VariablesAttributes:
-      a: DAMAGE
-      b: CRITICAL_DAMAGE
-      c: CRITICAL_RATE
+      a: MOVEMENT_SPEED
     VariablesPercentage:
       a: true
-      b: true
-      c: true
     LevelMin: 1
     LevelMax: 5
     ItemTypes:
-    - '*SWORD'
-    - '*AXE'
-    ItemLoreDisplay: §a§lFlawless Emerald
-  Gold_Nugget:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Nuggetsgirl
+  Gemme_Burger:
     Enabled: true
     Enchanted: true
-    Material: GOLD_NUGGET:0
-    Name: '&e&lGold Nugget'
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Hamburgirl'
     Desc:
-    - '&e&lGem Bonuses:'
-    - '&7- &f&lDodge Rate: &e&l+%var_a%%'
-    - '&7- &f&lAccuracy Rate: &e&l+%var_b%%'
+    - '&9Bonus:'
+    - '&7- &f&lVie: &e&l+%var_a%'
     Variables:
+      a: 2.0
+    VariablesPerLvl:
+      a: 2.0
+    VariablesAttributes:
+      a: MAX_HEALTH
+    VariablesPercentage:
+      a: false
+    LevelMin: 1
+    LevelMax: 5
+    ItemTypes:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Hamburgirl
+  Gemme_Soupe:
+    Enabled: true
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Soupegirl'
+    Desc:
+    - '&9Bonus:'
+    - '&7- &f&lDurabilité: &e&l+%var_a%%'
+    Variables:
+      a: 100.0
+    VariablesPerLvl:
+      a: 100.0
+    VariablesAttributes:
+      a: DURABILITY
+    VariablesPercentage:
+      a: true
+    LevelMin: 1
+    LevelMax: 5
+    ItemTypes:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Soupegirl
+  Gemme_Soda:
+    Enabled: true
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Sodagirl'
+    Desc:
+    - '&9Bonus:'
+    - '&7- &f&lVampirisme: &e&l+%var_a%%'
+    Variables:
+      a: 5.0
+    VariablesPerLvl:
+      a: 5.0
+    VariablesAttributes:
+      a: VAMPIRISM
+    VariablesPercentage:
+      a: true
+    LevelMin: 1
+    LevelMax: 5
+    ItemTypes:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Sodagirl
+  Gemme_Candy:
+    Enabled: true
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Candygirl'
+    Desc:
+    - '&9Bonus:'
+    - '&7- &f&lPenetration: &e&l+%var_a%'
+    Variables:
+      a: 2.0
+    VariablesPerLvl:
       a: 1.0
-      b: 1.25
+    VariablesAttributes:
+      a: DIRECT_DAMAGE
+    VariablesPercentage:
+      a: false
+    LevelMin: 1
+    LevelMax: 5
+    ItemTypes:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Candygirl
+  Gemme_Flurry:
+    Enabled: true
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Flurrygirl'
+    Desc:
+    - '&9Bonus:'
+    - '&7- &f&lCélérité: &e&l+%var_a%%'
+    Variables:
+      a: 10.0
     VariablesPerLvl:
-      a: 0.25
-      b: 0.45
+      a: 10.0
+    VariablesAttributes:
+      a: ATTACK_SPEED
+    VariablesPercentage:
+      a: true
+    LevelMin: 1
+    LevelMax: 5
+    ItemTypes:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Flurrygirl
+  Gemme_Choco:
+    Enabled: true
+    Enchanted: true
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Chocogirl'
+    Desc:
+    - '&9Bonus:'
+    - '&7- &f&lEsquive: &e&l+%var_a%%'
+    Variables:
+      a: 10.0
+    VariablesPerLvl:
+      a: 5.0
     VariablesAttributes:
       a: DODGE_RATE
-      b: ACCURACY_RATE
     VariablesPercentage:
       a: true
-      b: true
     LevelMin: 1
     LevelMax: 5
     ItemTypes:
-    - ARMOR
-    ItemLoreDisplay: §e§lGold Nugget
-  Flawless_Diamond:
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Chocogirl
+  Gemme_Faim:
     Enabled: true
     Enchanted: true
-    Material: DIAMOND:0
-    Name: '&b&lFlawless Diamond'
+    Material: PRISMARINE_SHARD
+    Name: '&bGemme de Fringirl'
     Desc:
-    - '&b&lGem Bonuses:'
-    - '&7- &f&lPvP Damage: &b&l+%var_a%%'
-    - '&7- &f&lPvE Damage: &b&l+%var_b%%'
+    - '&9Bonus:'
+    - '&7- &f&lDégâts: &e&l+%var_a%'
     Variables:
-      a: 1.5
-      b: 2.5
+      a: 2.0
     VariablesPerLvl:
-      a: 0.35
-      b: 1.35
+      a: 2.0
     VariablesAttributes:
-      a: PVP_DAMAGE
-      b: PVE_DAMAGE
+      a: DAMAGE
     VariablesPercentage:
-      a: true
-      b: true
+      a: false
     LevelMin: 1
     LevelMax: 5
     ItemTypes:
-    - WEAPON
-    ItemLoreDisplay: §b§lFlawless Diamond
-  Flawless_Saphire:
-    Enabled: true
-    Enchanted: true
-    Material: INK_SACK:4
-    Name: '&9&lFlawless Saphire'
-    Desc:
-    - '&9&lGem Bonuses:'
-    - '&7- &f&lPvP Defense: &9&l+%var_a%%'
-    - '&7- &f&lPvE Defense: &9&l+%var_b%%'
-    Variables:
-      a: 1.0
-      b: 2.0
-    VariablesPerLvl:
-      a: 0.45
-      b: 0.75
-    VariablesAttributes:
-      a: PVP_DEFENSE
-      b: PVE_DEFENSE
-    VariablesPercentage:
-      a: true
-      b: true
-    LevelMin: 1
-    LevelMax: 10
-    ItemTypes:
-    - ARMOR
-    ItemLoreDisplay: §9§lFlawless Saphire
+    - ALL
+    ItemLoreDisplay: §9§lGemme de Fringirl
