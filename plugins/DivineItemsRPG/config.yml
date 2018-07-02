@@ -1,4 +1,4 @@
-# 
+#
 # - Hooks
 # Use only ONE of this.
 # Use it for class and level restrictions in items.
@@ -47,7 +47,7 @@ Modules:
   Runes: true
   Scrolls: false
   Sell: false
-  Soulbound: true
+  Soulbound: false
   Tiers: true
   Sets: true
   Arrows: true
@@ -103,7 +103,7 @@ DamageTypes:
     HitActions:
     - '[EFFECT] SLIME 0.5 0.5 0.5 0.05 50 @Target'
   WATER:
-    Enabled: true
+    Enabled: false
     Prefix: '&9⚓'
     Name: Eau
     Value: '&f'
