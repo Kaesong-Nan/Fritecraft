@@ -1,4 +1,4 @@
-# 
+#
 # - Hooks
 # Use only ONE of this.
 # Use it for class and level restrictions in items.
@@ -33,7 +33,7 @@ Global:
 Modules:
   Abilities: true
   Abyss Dust: true
-  Buffs: true
+  Buffs: false
   Combat Log: false
   Custom Items: true
   Drops: true
@@ -42,17 +42,17 @@ Modules:
   Identify: true
   Item Hints: true
   Magic Dust: true
-  Notifications: true
+  Notifications: false
   Repair: true
   Runes: true
-  Scrolls: true
-  Sell: true
+  Scrolls: false
+  Sell: false
   Soulbound: true
   Tiers: true
   Sets: true
   Arrows: true
   Consumables: true
-  Resolve: true
+  Resolve: false
 Strings:
   DamageSeparator: ' &7- '
   DurabilitySeparator: '&7/'

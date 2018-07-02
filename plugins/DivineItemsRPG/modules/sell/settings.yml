@@ -1,5 +1,5 @@
 cfg_version: 1.0
-Enabled: true
+Enabled: false
 SellButton:
   Material: 'STAINED_GLASS_PANE:5:1'
   Display: '&a[Sell Confirm]'

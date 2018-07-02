@@ -1,6 +1,6 @@
 cfg_version: 1.0
 Anvil:
-  Enabled: true
+  Enabled: false
   Action:
     Click: RIGHT
     isShiftOnly: true
