@@ -39,7 +39,7 @@ rewards:
       - HIDE_ENCHANTS
   - ==: org.bukkit.inventory.ItemStack
     type: EMERALD
-    amount: 12
+    amount: 11
   - ==: org.bukkit.inventory.ItemStack
     type: MELON
     amount: 6

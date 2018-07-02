@@ -2915,13 +2915,18 @@ users:
       name: KiTo_YT
   38044716-df2a-4bae-8849-26330b907a89:
     permissions:
+    - ultracosmetics.gadgets.tnt
+    - ultracosmetics.gadgets.blizzardblaster
+    - ultracosmetics.gadgets.melonthrower
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.gadgets.colorbomb
+    - ultracosmetics.gadgets.tsunami
     - quicksell.sell
     - permission.rig.cantine4
     - permission.crb.cueillette9
     - permission.crb.bovin3
     - permission.crb.bovin2
-    - ultracosmetics.gadgets.partypopper
-    - ultracosmetics.gadgets.firework
     - essentials.workbench
     - scs.create.display
     - moretp.delay.bypass
@@ -2933,9 +2938,6 @@ users:
     - permission.crb.equipement2
     - permission.crb.equipement1
     - permission.crb.equipement3
-    - ultracosmetics.gadgets.colorbomb
-    - ultracosmetics.gadgets.blizzardblaster
-    - ultracosmetics.gadgets.tsunami
     - permission.pirate2
     - automaticinventory.refillstacks
     - permission.foin
@@ -2966,7 +2968,6 @@ users:
     - permission.bouquenia.vincent
     - permission.guilde.araigneecaverneelite
     - permission.guilde.squeletteelite
-    - ultracosmetics.gadgets.tnt
     - permission.choco.usine7
     - permission.choco.usine6
     - permission.boomboom
@@ -2987,7 +2988,6 @@ users:
     - permission.choco.usine5
     - permission.choco.usine4
     - permission.choco.usine2
-    - ultracosmetics.gadgets.melonthrower
     - deluxetags.tag.Barbecue
     - deluxetags.tag.Keke
     - deluxetags.tag.Surfer

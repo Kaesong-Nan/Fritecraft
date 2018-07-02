@@ -47,7 +47,6 @@ rewards:
       - §7Jeton de la fête de l'été.
   - ==: org.bukkit.inventory.ItemStack
     type: IRON_NUGGET
-    amount: 4
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
