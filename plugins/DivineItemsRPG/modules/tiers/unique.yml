@@ -119,7 +119,7 @@ Item:
       Min: 10.0
       Max: 30.0
   Restrictions:
-    Soulbound: true
+    Soulbound: false
     Untradeable: false
     Levels: 75-100
     LevelScaleValues: 1.025

@@ -25,7 +25,7 @@ Global:
   BreakItems: true
   MaxGetTargetDistance: 30
   AttributeFormat: '%att_prefix% %att_name%: %att_value%'
-  DamageTypeFormat: '%type_prefix% %type_name%: %type_value%'
+  DamageTypeFormat: '%type_prefix% %type_name%'
   AmmoTypeFormat: '&7Munition: %type_prefix% %type_name%'
   AllowAttributesToMobs: true
   AllowFishHookDamage: true
