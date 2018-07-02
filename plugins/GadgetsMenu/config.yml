@@ -59,6 +59,9 @@ Settings:
   # Warn: Send a warning message to the player and reject to equip cosmetic.
   # Drop: Drop the old item on the ground and equip cosmetic.
   Equip-Cosmetic-Item-To-Slot: WARN
+  # Sync player's selected cosmetics when they join the server.
+  # Set to 'false' to reduce server lag.
+  Sync-Cosmetics-On-Join: true
 # The menu selector settings.
 Menu-Item:
   # The name of the selector.
@@ -150,4 +153,4 @@ Check-Update: true
 # the latest plugin when it's released.
 Auto-Update: true
 # Do not edit this.
-Config-Version: 1.0.6
+Config-Version: 1.0.7

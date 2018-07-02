@@ -113,12 +113,19 @@ info:
   nothingInHand: '&eYou need to hold item in hand'
   nothingToShow: '&eNothing to show'
   noItem: '&cCan''t find item'
+  dontHaveItem: '&cYou dont have &6[itemName] x[amount] &cin your inventory'
   ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
   cantDoForPlayer: '&eYou can''t do this to &6[playerDisplayName]'
   cantDetermineMobType: '&cCan''t determine mob type from &e[type] &cvariable'
   cantRename: '!actionbar!&eYou can''t rename item to this name'
   wrongName: '&cWrong name'
   invalidName: '&cInvalid name'
+  alreadyexist: '&4This name is taken'
+  dontexist: '&4Nothing found by this name'
+  flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
+  specializedItemFail: '&cCan''t determine specialized command item requirement by
+    value: &7[value]'
+  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
   notSet: not set
   startedEditingPainting: '&eYou started painting editing. Click any other block to
     cancel.'
@@ -189,13 +196,19 @@ info:
   afkSymbolOn: '&8[&7Afk&8]&r'
   afkSymbolOff: ''
   prevPage: '&2----<< &6Prev '
+  prevPageGui: '&6Previous page '
+  prevPageClean: '&6Prev '
   prevPageOff: '&2----<< &7Prev '
   prevPageHover: '&7<<<'
   nextPage: '&6 Next &2>>----'
+  nextPageGui: '&6Next Page'
+  nextPageClean: '&6 Next'
   nextPageOff: '&7 Next &2>>----'
   nextPageHover: '&7>>>'
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&2[totalEntries]'
+  valueToLong: '&eValue is too long. Max: [max]'
+  valueToShort: '&eValue is too short. Min: [min]'
   DamageCause:
     contact: Block Damage
     entity_attack: Entity attack
@@ -471,12 +484,16 @@ modify:
   commandEditInfo: '&eClick to paste old text. Type &6cancel &eto cancel action. Type
     &6remove &eto remove line'
   commandEditInfoHover: '&eClick to paste old text'
+warp:
+  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
 teleportation:
   relocation: '!actionbar!&4Your teleport location was obstructed. You have been teleported
     to a safe location.'
 afk:
   left: '&6[playerDisplayName] &eno longer AFK'
   MayNotRespond: '&ePlayer may not respond, he is AFK'
+  MayNotRespondStaff: '&eStaff memeber is AFK and may not respond. Try contacting
+    us throw discord'
 BossBar:
   hpBar: '&f[victim] &e[max]&f/&e[current] &f(&c-[damage]&f)'
 Potion:
@@ -632,6 +649,7 @@ command:
       coordZ: '&eZ'
       body: '&7Body rotation: &f[amount]'
       head: '&7Head [coord]&7: &f[amount]'
+      torso: '&7Torso [coord]&7: &f[amount]'
       leftArm: '&7Left arm [coord]&7: &f[amount]'
       rightArm: '&7Right arm [coord]&7: &f[amount]'
       leftLeg: '&7Left leg [coord]&7: &f[amount]'
@@ -1038,6 +1056,8 @@ command:
     help:
       info: '&eManage dynamic signs'
       args: ''
+      explanation:
+      - Look at sign and perform /cmi dsign new
     info:
       howTo: '&cThis is not dynamic sign, to create new perform &e/cmi dsign new'
       gui: '&7---- &f<Open gui> &7----'
@@ -1653,6 +1673,31 @@ command:
     help:
       info: '&eSave inventory'
       args: (playerName)
+  ipban:
+    help:
+      info: '&eBan ip'
+      args: '[ip/playerName] (reason) (-s)'
+      explanation:
+      - cmi.command.banip.bypass - to bypass ban
+    info:
+      message: '&cYou are ip banned from this server!'
+      reason: '&6Reason: &e[reason]'
+      defaultReason: '&eViolated server rules'
+      messageToAll: '&6[playerDisplayName] &egot ip banned by &6[senderDisplayName]
+        &efor: &6[reason]'
+      banedSilent: '&7[&8Silent&7]&6[playerDisplayName] &egot ip banned by &6[senderDisplayName]
+        &efor: &6[reason]'
+  ipbanlist:
+    help:
+      info: '&eBan ip list'
+      args: ''
+    info:
+      list: '&e[place]. &7[ip] &e- &6[reason]  '
+      bannedBy: '&7Banned by: &f[source]'
+      ends: '&7Ends: &f[time]'
+      related: |-
+        &7Related accounts:
+        &f[list]
   iteminfo:
     help:
       info: '&eShow item information'
@@ -1783,7 +1828,8 @@ command:
         &6[condition]'
       oneTime: '&cThis is one time use kit and you already used it!'
       cantUseNow: '&cYou can''t use this kit for next [time]'
-      oneTimeUse: '&eOne time use'
+      limitedTimeUseError: '&eCan''t use more than &6[times] &etimes'
+      limitedTimeUse: '&7Can use for &c[times] &7times'
       canUseIn: '&eCan use again in: [time]'
       cooldown: '&eCooldown: [time]'
       noKit: '&eCan''t find kit by this name'
@@ -1868,6 +1914,9 @@ command:
       WeightExtra:
       - '&eHigher value have bigger priority'
       - '&eKits should be in same group'
+      despiteWeight: '&eShow despite weight: &6[Weight]'
+      despiteWeightExtra:
+      - '&ePLayer is not getting access to kit, but can preview it'
       Slot: '&eSlot: &6[slot]'
       SlotAuto: '&6Auto'
       Clone: '&eClone items from inventory'
@@ -1875,6 +1924,9 @@ command:
       - '&eUse right mouse button to include armors'
       - '&eClick again to revert changes'
       timeDelay: '&eDelay: &6[time]'
+      usages: '&eCan be used for &6[times] &etimes'
+      usagesUnlimited: '&6Unlimited'
+      ignoreWeight: '&eShow despite weight: &6[state]'
       timeDelaySeconds: '&eIn seconds: &6[time]'
       moneyCost: '&eMoney cost: [cost]'
       expCost: '&eExp cost: [cost]'
@@ -2142,6 +2194,13 @@ command:
     info:
       mutedFor: '&ePublic chat muted for &6[time]'
       isMuted: '!actionbar!&ePublic chat is muted for &6[time]'
+  nameplate:
+    help:
+      info: '&eSet players name plate prefix or suffix'
+      args: (playerName) (-pref:[prefix]) (-suf:[suffix])
+    info:
+      feedback: '&eYou have updated nameplate for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&eYour nameplate got updated'
   near:
     help:
       info: '&eToggle afk mode'
@@ -2163,6 +2222,7 @@ command:
         change only colors'
       blockedNick: '&cYou cant use this nick name'
       blockedNickLength: '&eNick name is to long. Max &6[amount] &esymbols'
+      blockedNickLengthMin: '&eNick name is to short. Min &6[amount] &esymbols'
       inUse: '&cNick name is already being used by another player'
   note:
     help:
@@ -2212,6 +2272,14 @@ command:
       list: '&e[place]. &6[placeholder]'
       outputResult: ' &eresult: &6[result]'
       parse: '&6[placeholder] &eby [source] &6result &8|&f[result]&8|'
+  playercollision:
+    help:
+      info: '&eSet players collision mode'
+      args: (playerName) [true/false] (-s)
+    info:
+      feedback: '&eYou have set collision to &3[boolean]&e for &3[playerDisplayName]&e
+        (&3[offon]&e).'
+      targetfeedback: '&eYour collision mode changed to &3[boolean]'
   playtime:
     help:
       info: '&eShows player total play time'
@@ -2252,6 +2320,7 @@ command:
       particleAmount: '&eParticle amount: &6[amount]'
       particlePercent: '&ePercentage of sides shrinked particles: &6[amount]%'
       activationRange: '&eActivation range: &6[amount]'
+      bungeeTeleport: '&eTeleport to exact bungee location: [state]'
       teleportToLocation: '&eTeleport to portal location'
       teleportToTarget: '&eTeleport to portal target location'
       performCommandsWithoutTp: '&ePerform commands without valid teleport location'
@@ -2267,6 +2336,7 @@ command:
     info:
       feedback: '&e[playerDisplayName] &e(&3[offon]&e) ([world]&e,&6[x]&e:&6[y]&e:&6[z]&e)'
       feedbackRegion: '&eChunk &6[chunkx]&e:&6[chunkz]&e Region &6[regionx]&e:&6[regionz]'
+      feedbackDirection: '&eDirection &6[direction] &e(&6[degrees] &edegrees)'
       feedbackBiome: '&eBiome &6[biome]'
       feedbackLight: '&eLight level &6[lightLevel]'
       netherCoord: '&eNether World coord: &e(&6[x]&e:&6[y]&e:&6[z]&e)'
@@ -2384,6 +2454,12 @@ command:
     help:
       info: '&eSe rank for player'
       args: (playerName) [rankName]
+      explanation:
+      - -cmd will perform command defined for that rank rankup
+      - -cost will charge player with money, exp or items if defined for that rank
+        rankup
+      - player will get rank even if he doesnt have enough money, exp or required
+        items
     info:
       set: '&eRank changed for &6[playerDisplayName] &eto &6[rankName]'
   rankup:
@@ -2392,6 +2468,8 @@ command:
       args: (rankName) (confirm)
     info:
       noRank: ' &eYou don''t have any rank associated with you'
+      requiresPrevious: ' &eYou cant rankup to this rank. It requires you to have
+        &6[rank] &erank(`s)'
       list: '&ePick one rank you want to rank up to: '
       confirm: '&eClick me to confirm rankup to &6[rank]'
   realname:
@@ -2548,6 +2626,19 @@ command:
       saving: '[simbol] &2checked: &e[checked]&2 from &e[total]&2 saved: &e[saved]
         &2skipped: &e[skipped] [simbol]'
       saved: '&eSave finished. Saved: &6[saved] &eSkipped: &6[skipped]'
+  saveditems:
+    help:
+      info: '&eSave or manage saved items'
+      args: '[save/get/remove/list] (savedItemName) (-t:playerName) (-s)'
+    info:
+      info:
+      - '&fLeft click to get item'
+      - '&fMiddle mouse click to detele'
+      got: '&eGot &6[name] &eitem'
+      give: '&eGive &6[name] &eitem'
+      removed: '&eRemoved &6[name] &eitem'
+      saved: '&eSaved &6[name] &eitem'
+      title: '&8[current]&7/&8[total]'
   sc:
     help:
       info: '&eStarts sign copy proccess'
@@ -2748,6 +2839,7 @@ command:
       - /cmi setwarp spawn true hand 13 - all in one
     info:
       newSet: '&eNew warp (&6[warp]&e) set'
+      noSet: '&cWarp with this name already exists'
   setworth:
     help:
       info: '&eChange item worth'
@@ -2820,6 +2912,7 @@ command:
       failed: '&eFailed to apply skin'
       resetSteve: '&eRemoved skin'
       reset: '&eApplied default skin'
+      update: '&eUpdated skin'
   smite:
     help:
       info: '&eStrike ground or player with lightning'
@@ -3111,6 +3204,20 @@ command:
       time: '&eYou will be unbanned after &6[time]'
       badTime: '&cTime is defined incorrectly'
       badTimeRange: '&cYou can''t ban for longer than &6[seconds]'
+  tempipban:
+    help:
+      info: '&eTemp ban ip'
+      args: '[ip/playerName] [time] (reason) (-s)'
+      explanation:
+      - cmi.command.banip.bypass - to bypass ban
+    info:
+      message: '&cThe Ban Hammer has spoken!'
+      reason: '&6Reason: &e[reason]'
+      defaultReason: '&eViolated server rules'
+      messageToAll: '&6[playerDisplayName] &7got temp ip banned for &7[time]&7by &6[senderDisplayName]&7:
+        &6[reason]'
+      banedSilent: '&7[&8Silent&7]&6[playerDisplayName] &7got temp ip banned for &7[time]&7:
+        &6[reason]'
   tfly:
     help:
       info: '&eSet temporary players fly mode until relog or until time ends'
@@ -3200,12 +3307,6 @@ command:
     help:
       info: '&eSends title message to player'
       args: '[playerName] [title %subtitle% subtitle]'
-    info:
-      message: '&f[messsage]'
-  tmb:
-    help:
-      info: '&eSends title message to all online player''s'
-      args: '[title %subtitle% subtitle]'
     info:
       message: '&f[messsage]'
   toast:
@@ -3328,6 +3429,8 @@ command:
     help:
       info: '&eCheck servers tps status'
       args: ''
+    info:
+      Tps: '&eTPS: &6[tps]'
   tptoggle:
     help:
       info: '&eToggle teleportation access to player'

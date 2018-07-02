@@ -547,3 +547,4 @@ mobhunting.commands.money.deposit=§aYou deposit ${money} ${rewardname} §ainto 
 mobhunting.bagofgoldsign.line2.balance=Balance
 mobhunting.commands.npc.removed=NPC ${npcname} (${npcid}) removed.
 mobhunting.commands.happyhour.not_started=§5The Happy Hour event is not started
+mobhunting.commands.region.unknownFlag=Unknown flag §4${flag}

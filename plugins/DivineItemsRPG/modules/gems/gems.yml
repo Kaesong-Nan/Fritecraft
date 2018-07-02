@@ -2,7 +2,7 @@ Gems:
   Flawed_Emerald:
     Enabled: true
     Enchanted: false
-    Material: 'EMERALD:0'
+    Material: EMERALD:0
     Name: '&a&lFlawed Emerald'
     Desc:
     - '&a&lGem Bonuses:'
@@ -22,13 +22,14 @@ Gems:
       b: true
     LevelMin: 1
     LevelMax: 5
-    ItemTypes: 
+    ItemTypes:
     - '*SWORD'
     - '*AXE'
+    ItemLoreDisplay: §a§lFlawed Emerald
   Flawless_Emerald:
     Enabled: true
     Enchanted: true
-    Material: 'EMERALD:0'
+    Material: EMERALD:0
     Name: '&a&lFlawless Emerald'
     Desc:
     - '&a&lGem Bonuses:'
@@ -53,13 +54,14 @@ Gems:
       c: true
     LevelMin: 1
     LevelMax: 5
-    ItemTypes: 
+    ItemTypes:
     - '*SWORD'
     - '*AXE'
+    ItemLoreDisplay: §a§lFlawless Emerald
   Gold_Nugget:
     Enabled: true
     Enchanted: true
-    Material: 'GOLD_NUGGET:0'
+    Material: GOLD_NUGGET:0
     Name: '&e&lGold Nugget'
     Desc:
     - '&e&lGem Bonuses:'
@@ -79,12 +81,13 @@ Gems:
       b: true
     LevelMin: 1
     LevelMax: 5
-    ItemTypes: 
-    - 'ARMOR'
+    ItemTypes:
+    - ARMOR
+    ItemLoreDisplay: §e§lGold Nugget
   Flawless_Diamond:
     Enabled: true
     Enchanted: true
-    Material: 'DIAMOND:0'
+    Material: DIAMOND:0
     Name: '&b&lFlawless Diamond'
     Desc:
     - '&b&lGem Bonuses:'
@@ -104,12 +107,13 @@ Gems:
       b: true
     LevelMin: 1
     LevelMax: 5
-    ItemTypes: 
-    - 'WEAPON'
+    ItemTypes:
+    - WEAPON
+    ItemLoreDisplay: §b§lFlawless Diamond
   Flawless_Saphire:
     Enabled: true
     Enchanted: true
-    Material: 'INK_SACK:4'
+    Material: INK_SACK:4
     Name: '&9&lFlawless Saphire'
     Desc:
     - '&9&lGem Bonuses:'
@@ -129,5 +133,6 @@ Gems:
       b: true
     LevelMin: 1
     LevelMax: 10
-    ItemTypes: 
-    - 'ARMOR'
+    ItemTypes:
+    - ARMOR
+    ItemLoreDisplay: §9§lFlawless Saphire

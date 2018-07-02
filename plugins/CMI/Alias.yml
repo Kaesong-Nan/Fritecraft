@@ -86,6 +86,7 @@ Alias:
   #  
   # /cmi clear $1-
   /clear: false
+  /ci: true
   #  
   # /cmi clearchat $1-
   /clearchat: false
@@ -207,6 +208,10 @@ Alias:
   # /cmi gm $1-
   /gm: false
   /gamemode: false
+  # /cmi gm creative $1-
+  /gmc: false
+  # /cmi gm survival $1-
+  /gms: false
   #  
   # /cmi god $1-
   /god: false
@@ -268,7 +273,6 @@ Alias:
   #  
   # /cmi inv $1-
   /inv: true
-  /ci: true
   /cinv: true
   /invsee: true
   #  
@@ -289,6 +293,12 @@ Alias:
   #  
   # /cmi invsave $1-
   /invsave: true
+  #  
+  # /cmi ipban $1-
+  /ipban: false
+  #  
+  # /cmi ipbanlist $1-
+  /ipbanlist: false
   #  
   # /cmi iteminfo $1-
   /iteminfo: true
@@ -386,6 +396,9 @@ Alias:
   # /cmi mutechat $1-
   /mutechat: false
   #  
+  # /cmi nameplate $1-
+  /nameplate: false
+  #  
   # /cmi near $1-
   /near: false
   #  
@@ -409,6 +422,9 @@ Alias:
   #  
   # /cmi placeholders $1-
   /placeholders: false
+  #  
+  # /cmi playercollision $1-
+  /playercollision: false
   #  
   # /cmi playtime $1-
   /playtime: true
@@ -473,6 +489,7 @@ Alias:
   #  
   # /cmi removewarp $1-
   /removewarp: false
+  /delwarp: false
   #  
   # /cmi repair $1-
   /repair: false
@@ -501,6 +518,9 @@ Alias:
   #  
   # /cmi saveall $1-
   /saveall: false
+  #  
+  # /cmi saveditems $1-
+  /saveditems: false
   #  
   # /cmi sc $1-
   /sc: false
@@ -618,6 +638,9 @@ Alias:
   # /cmi tempban $1-
   /tempban: false
   #  
+  # /cmi tempipban $1-
+  /tempipban: false
+  #  
   # /cmi tfly $1-
   /tfly: true
   #  
@@ -637,9 +660,6 @@ Alias:
   #  
   # /cmi titlemsg $1-
   /titlemsg: false
-  #  
-  # /cmi tmb $1-
-  /tmb: false
   #  
   # /cmi toast $1-
   /toast: false

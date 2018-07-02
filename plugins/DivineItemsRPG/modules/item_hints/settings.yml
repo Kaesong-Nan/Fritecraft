@@ -3,3 +3,21 @@ ForAllItems: true
 Glow: false
 FormatOne: '%name%'
 FormatMany: '%name% &7x%amount%'
+EnabledFor:
+  Gems: true
+  Enchants: true
+  Runes: true
+  Abilities: true
+  Scrolls: true
+  Repair: true
+  Identify: true
+  Custom Items: true
+  Tiers: true
+  Abyss Dust: true
+  Magic Dust: true
+  Consumables: true
+  Sets: true
+  Arrows: true
+ItemBlackList:
+- BEDROCK
+- BARRIER

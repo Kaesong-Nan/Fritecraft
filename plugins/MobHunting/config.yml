@@ -44,8 +44,10 @@ example:
       chance: 1.0
 
     # You can use any command you want, each command has some options.
-    #  'cmd:' and 'chance:' is mandatory fields, 'message:' and 'permission:' is optional
+    #  'cmd:' and 'chance:' is mandatory fields, 'message:' 'message_type:' and 'permission:' is optional
     # If you add a permission, the command will only be run if the player has this permission.
+    # message_type can be: Chat, ActionBar, BossBar, Title, Subtitle. Default/Fallback is Chat. The words 
+    # are case sensitive and you you will need a supporting plugin. Ex. TitleManager,ActionBar,BossBar
     commands:
     - chance: '0.5'
       cmd: pex user {player} add any.permission {world}
@@ -1037,12 +1039,15 @@ achievements:
     charged_kill:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     creeper_punch:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     axe_murderer:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     david_and_goliath:
       money: 1000.0
       commands: give {player} diamond_helmet 1
@@ -1050,17 +1055,23 @@ achievements:
     recordhungry:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     infighting:
       money: 20.0
       commands: give {player} gold_ingot 1
+      messages: ''
     by_the_book:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     creepercide:
       money: 10.0
       commands: give {player} gold_ingot 1
+      message: ''
     hunt_begins:
       money: 5.0
+      commands: ''
+      message: ''
     itsmagic:
       money: 20.0
       commands: give {player} gold_ingot 1
@@ -1513,6 +1524,20 @@ plugins:
     # For InfernalMobs mob prize is calculated by the minecraft reward x multiplier_per_level^Infernal_Level
     # Ex.If multiplier=1.2 and level is 3 normal reward will be multiplied with 1.2*1.2*1.2=1,728
     multiplier_per_level: 1.25
+
+  # ########################################################################
+  # InfernalMobs settings
+  # ########################################################################
+  # Here you can chance the behavior of EliteMobs Integration, or you can disable
+  # integration completely.
+  # https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+  elitemobs:
+
+    # Enable/Disable integration with EliteMobs
+    enable_integration_elitemobs: true
+
+    # The reward for EliteMobs from level 50-400 will be multiplier linearly
+    maximum_multiplier: 2.0
 
   # ########################################################################
   # Level Mob Settings (Conquestian / LorinthsRPGMobs
@@ -2262,6 +2287,9 @@ general:
 
   # If kills are not being registered in mob hunting. Enable this to see why they arent
   debug: false
+
+  # Backup config on each server start / reload
+  backup: true
 
   # Rounding of rewards when you uses a range or %. (ex creeperPrize=10:30) the reward.
   # All numbers except 0 can be used. 

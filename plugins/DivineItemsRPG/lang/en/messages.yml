@@ -257,6 +257,19 @@ Help:
   - '&2> &a/di arrows drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop an arrow in
     the world.'
   - '&2> &a/di arrows list &7- List of all arrows.'
+  Consumables:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aConsumables &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di consumables get <ID> <Amount> &7- Get a specified consumable.'
+  - '&2> &a/di consumables give <Player> <ID> <Amount> &7- Give a consumable to player.'
+  - '&2> &a/di consumables drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop a consumable
+    in the world.'
+  - '&2> &a/di consumables list &7- List of all consumables.'
 Buffs:
   Get: You just got the %type% buff for %time% seconds. Your %type% has been increased
     for %value%%
@@ -301,6 +314,7 @@ Gems:
       None: '&c&lFailure! &7Try again!'
     NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
       anymore.'
+    MultipleNotAllowed: Your item is already have gem &c%gem%&7!
 Enchants:
   Invalid: '&cEnchant &7%s &cdoes not exists.'
   Enchanting:
@@ -364,6 +378,7 @@ Abilities:
       None: '&c&lFailure! &7Try again!'
     NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
       anymore.'
+  Cooldown: '&eYou must wait &c%s &eseconds to use this ability again.'
 Identify:
   Invalid:
     Item: '&cItem &7%s &cdoes not exists.'
@@ -465,6 +480,10 @@ ItemTypes:
   LEGGINGS: Leggings
   BOOTS: Boots
   ELYTRA: Elytra
+  ALL: Any
+  WEAPON: Weapon
+  ARMOR: Armor
+  TOOL: Tool
 EntityNames:
   ELDER_GUARDIAN: Elder Guardian
   WITHER_SKELETON: Wither Skeleton
@@ -517,3 +536,15 @@ EntityNames:
   PARROT: Parrot
   VILLAGER: Villager
   PLAYER: Player
+Soulbound:
+  NoDrop: '&cYou can not drop untradeable item!'
+Consumables:
+  Invalid: '&cConsume &7%s &cdoes not exists.'
+  Cooldown: '&cYou must wait &f%s &cseconds to consume it again.'
+  FullHunger: '&cYou can not consume it because your food level is full.'
+  FullHp: '&cYou can not consume it because your health is full.'
+Resolve:
+  Title:
+    Resolved: '&a&lResolved!'
+  SubTitle:
+    Resolved: '&7You resolved &f%item%&7!'

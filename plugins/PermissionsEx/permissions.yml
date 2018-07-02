@@ -3099,6 +3099,7 @@ users:
       name: vapouchino
   ab7a87f5-230a-4931-8cdc-5d865e210743:
     permissions:
+    - gadgetsmenu.hats.blaze
     - permission.guilde.creeperelite
     - permission.end.portal
     - multiverse.access.Bouquenia_the_end
@@ -3330,6 +3331,7 @@ users:
     - moine
   6cce8726-2b5a-42cc-82a4-7caec70b16fc:
     permissions:
+    - gadgetsmenu.hats.grin
     - essentials.workbench
     - gadgetsmenu.suits.baker.boots
     - permission.end.dragon
@@ -4815,4 +4817,9 @@ users:
     - diacre
     options:
       name: Sam81402
+  833c4419-e1fc-4a77-8306-d7276865e560:
+    permissions:
+    - permission.dimitrianomalie
+    options:
+      name: Stevonniie
 schema-version: 1

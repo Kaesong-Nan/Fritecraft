@@ -522,3 +522,4 @@ mobs.MythicMobs_SlimeElite.name=§6Gélatine Elite
 mobs.MythicMobs_CreeperElite.name=§6Creeper Elite
 mobs.MythicMobs_0PMissileMob0.name=§6Precision Missile
 mobs.MythicMobs_BouleVerte.name=Boule Verte
+mobhunting.commands.region.unknownFlag=Unknown flag §4${flag}

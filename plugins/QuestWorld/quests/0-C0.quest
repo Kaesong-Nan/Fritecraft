@@ -29,7 +29,7 @@ rewards:
     type: STONE_SWORD
   - ==: org.bukkit.inventory.ItemStack
     type: BAKED_POTATO
-    amount: 19
+    amount: 9
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC

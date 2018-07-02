@@ -51,6 +51,8 @@ Modules:
   Tiers: true
   Sets: true
   Arrows: true
+  Consumables: true
+  Resolve: true
 Strings:
   DamageSeparator: ' &7- '
   DurabilitySeparator: '&7/'
@@ -305,6 +307,24 @@ Attributes:
   DIRECT_DAMAGE:
     Name: Direct Damage
     Prefix: §f▸
+    Value: §f
+    Bonus: §6⏏§f
+    Capability: 100.0
+  AOE_DAMAGE:
+    Name: AoE Damage
+    Prefix: §3☯
+    Value: §f
+    Bonus: §6⏏§f
+    Capability: -1.0
+  LOOT_RATE:
+    Name: Loot Rate
+    Prefix: §e☘
+    Value: §f
+    Bonus: §6⏏§f
+    Capability: 250.0
+  BURN_RATE:
+    Name: Chance to Burn
+    Prefix: §c✡
     Value: §f
     Bonus: §6⏏§f
     Capability: 100.0

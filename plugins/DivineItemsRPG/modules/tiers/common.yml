@@ -115,6 +115,8 @@ Item:
     - Cleric
     MaxAttributes: -1
     MaxBonuses: 5
+    LevelScaleBlackList:
+    - CRITICAL_DAMAGE
   Attributes:
     DAMAGE:
       Default:
@@ -332,6 +334,51 @@ Item:
         Chance: 3.0
         Min: 3.0
         Max: 5.0
+    DIRECT_DAMAGE:
+      Default:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+      Bonus:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+    AOE_DAMAGE:
+      Default:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+      Bonus:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+    LOOT_RATE:
+      Default:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+      Bonus:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+    BURN_RATE:
+      Default:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+      Bonus:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+    RANGE:
+      Default:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
+      Bonus:
+        Chance: 20.0
+        Min: 5.0
+        Max: 25.0
   Slots:
     GEM:
       Chance: 45.0

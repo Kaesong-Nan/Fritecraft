@@ -29,3 +29,5 @@ Design:
   Header: '&8&l&m------&a&l Gemmes &8&l&m------'
   EmptySlot: '&a□ (Vide)'
   FilledSlot: '&a▣ Gemme: &f'
+General:
+  AllowMultipleSameGemsInOneItem: true
