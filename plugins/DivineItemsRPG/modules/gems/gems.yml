@@ -29,9 +29,9 @@ Gems:
     - '&9Bonus:'
     - '&7- &f&lEsquive: &e&l+%var_a%%'
     Variables:
-      a: 0.05
+      a: 5.0
     VariablesPerLvl:
-      a: 0.05
+      a: 5.0
     VariablesAttributes:
       a: MOVEMENT_SPEED
     VariablesPercentage:
