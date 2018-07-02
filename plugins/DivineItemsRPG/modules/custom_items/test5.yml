@@ -1,0 +1,54 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  damage: 10
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §5Mighty Sword of Glory
+    lore:
+    - §6⚔ Physique73.17%
+    - §9⚓ Eau26.83%
+    - ''
+    - '§a▸ Dégâts: §f15.76 §7- §f20.12'
+    - '§e▸ Vitesse d''attaque: §f21.58%'
+    - ''
+    - '§6⏏§f Résistance Physique: §f§a+27.72%'
+    - '§6⏏§f Précision: §f§a+5.89%'
+    - '§6⏏§f Santé: §f§a+18.73%'
+    - '§6⏏§f Pénétration: §f§a+11.87%'
+    - '§6⏏§f Chance to Burn: §f§a+73.7%'
+    - §8§l§m------§a§l Gemmes §8§l§m------
+    - §a□ (Vide)
+    - §a□ (Vide)
+    - §a□ (Vide)
+    - §8§l§m------§b§l Enchantements §8§l§m------
+    - §c○ (Vide)
+    - §8§l§m------§c§l Runes §8§l§m------
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §b◇ (Vide)
+    - §8§l§m------§d§l Pouvoirs §8§l§m------
+    - §d♯ (Vide)
+    - §d♯ (Vide)
+    - §d♯ (Vide)
+    - '§a▸ Solidité: §f767§7/§f767'
+    - §7Sword
+    - §7Légendaire
+    enchants:
+      PROTECTION_FIRE: 6
+      PROTECTION_FALL: 30
+      PROTECTION_EXPLOSIONS: 3
+      PROTECTION_PROJECTILE: 13
+      KNOCKBACK: 18
+      FIRE_ASPECT: 20
+      LOOT_BONUS_MOBS: 10
+      SILK_TOUCH: 25
+      DURABILITY: 26
+      LOOT_BONUS_BLOCKS: 11
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAI3PQWrCQBQG4D9GJAa6ULt04wXceAEFWypUC1UP8DRPHZqZieMTegEP4sJ7dNtbNWINRA06uwc///9NCAQoTwYvnwhjXrKJSDmuot4TcWq2FR7aSC0Uu00IwPcRTKeD/tBuBPA6PqrH853pdFdQ6Wm7NfJT+m297g9eWj6OrSDQpMyKTBTgKasekWY00lF2at4mEZp/jRPmKK39SNiRKGvS1SOxMIscCes8CeuMhP93n1Q7z2j6fmOKZVUEuk5ecHYXnF3G6TYf5Tznf90nTUsuEt0MA3940rRf6AEAAA==

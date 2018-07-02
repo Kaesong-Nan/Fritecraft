@@ -8,10 +8,8 @@ Item:
   Display: '%c%%prefix_tier% %prefix_material% %prefix_type% %itemtype% %suffix_material%
     %suffix_type% %suffix_tier%'
   Lore:
-#  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lDescription &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
   - '%DAMAGE_TYPES%'
   - '%SOULBOUND%'
-#  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lAttributs &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
   - ''
   - '%DAMAGE%'
   - '%CRITICAL_RATE%'
@@ -34,9 +32,6 @@ Item:
   - '%ENCHANT%'
   - '%RUNE%'
   - '%ABILITY%'
-
-#  - '%CLASS%'
-#  - '%LEVEL%'
   - '%DURABILITY%'
   - '%DURABILITY_UNBREAK%'
   - '%SET%'

@@ -1,0 +1,48 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_HOE
+  damage: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §4Hoe
+    lore:
+    - '§6⚔ Physique: §f45.13%'
+    - '§b⚡ Magique: §f29.98%'
+    - '§c☀ Feu: §f24.89%'
+    - §cRequire Soulbound to use!
+    - ''
+    - '§a▸ Dégâts: §f12.07 §7- §f16.75'
+    - '§c▸ Pénétration: §f+14.74%'
+    - '§c▸ Vampirisme: §f+9.79%'
+    - '§c▸ Santé: §f19.36'
+    - ''
+    - '§6⏏§f PvP Defense: §f§a+10.67%'
+    - '§6⏏§f Résistance Incendiaire: §f§a+22.84%'
+    - '§6⏏§f Dégâts bruts: §f§a+49.33%'
+    - §8§l§m------§a§l Gemmes §8§l§m------
+    - §a□ (Vide)
+    - §8§l§m------§b§l Enchantements §8§l§m------
+    - §c○ (Vide)
+    - §8§l§m------§c§l Runes §8§l§m------
+    - §b◇ (Vide)
+    - §8§l§m------§d§l Pouvoirs §8§l§m------
+    - §d♯ (Vide)
+    - '§a▸ Durabilité: §f§lUnbreakable'
+    - §7Hoe
+    - §7Anormal
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 26
+      PROTECTION_EXPLOSIONS: 6
+      PROTECTION_PROJECTILE: 29
+      DAMAGE_ALL: 24
+      LOOT_BONUS_MOBS: 6
+      DIG_SPEED: 17
+      LOOT_BONUS_BLOCKS: 10
+      ARROW_FIRE: 14
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAIWOzQoBURiG39AYyoJchJWNC0BRlJ/ys7P58OFkzjk68025C/fkHuY+bOzN5KeILJ96e96nCPjIzfrdCfJkrNMUFFBpizi1jISHdq02il1YBJDJwp/P+52hDSXBKItCigOmO3vw2tpGRlqNRe16Pi0S8zSwAl+TMjsyax+ll3pEmlHesmGnVnVNxx5TILtEOj6wI1HWJNK07scS7znxR078ymlegIfqT071eUIitNp3SNOWfxV9HQM38AYcW1IBAAA=

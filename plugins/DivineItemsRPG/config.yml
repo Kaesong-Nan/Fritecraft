@@ -1,4 +1,4 @@
-#
+# 
 # - Hooks
 # Use only ONE of this.
 # Use it for class and level restrictions in items.
@@ -297,7 +297,7 @@ Attributes:
     Prefix: '&c▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: 20
+    Capability: 200
   RANGE:
     Name: Portée
     Prefix: §6▸
