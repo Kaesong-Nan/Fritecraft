@@ -2,6 +2,9 @@
 #Ignorer les fichiers java compilés .jar
 *.jar
 
+#Ignorer les DS Store
+*.DS_Store
+
 #Ignorer les dossiers d'archive
 /_archive
 /_jars
