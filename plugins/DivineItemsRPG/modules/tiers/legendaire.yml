@@ -392,20 +392,20 @@ Item:
   Slots:
     GEM:
       Chance: 100.0
-      Min: 1
+      Min: 4
       Max: 4
     ENCHANT:
-      Chance: 100.0
-      Min: 1
-      Max: 3
+      Chance: 0.0
+      Min: -1
+      Max: -1
     RUNE:
       Chance: 100.0
-      Min: 1
-      Max: 3
+      Min: 2
+      Max: 2
     ABILITY:
       Chance: 100.0
       Min: 1
-      Max: 3
+      Max: 1
   AmmoTypes:
     ARROW: 100.0
 Drops:

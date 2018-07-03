@@ -372,15 +372,15 @@ Item:
         Max: 25.0
   Slots:
     GEM:
-      Chance: 45.0
+      Chance: 50.0
       Min: 0
-      Max: 2
+      Max: 1
     ENCHANT:
-      Chance: 25.0
+      Chance: 0.0
       Min: 0
       Max: 1
     RUNE:
-      Chance: 10.0
+      Chance: 0.0
       Min: 0
       Max: 1
     ABILITY:

@@ -1,4 +1,4 @@
-# 
+#
 # - Hooks
 # Use only ONE of this.
 # Use it for class and level restrictions in items.
@@ -103,7 +103,7 @@ DamageTypes:
     HitActions:
     - '[EFFECT] SLIME 0.5 0.5 0.5 0.05 50 @Target'
   WATER:
-    Enabled: false
+    Enabled: true
     Prefix: '&9⚓'
     Name: Eau
     Value: '&f'
