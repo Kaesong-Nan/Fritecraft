@@ -8,7 +8,7 @@ Item:
   Display: '%c%%prefix_tier% %prefix_material% %prefix_type% %itemtype% %suffix_material%
     %suffix_type% %suffix_tier%'
   Lore:
-  - ''
+  - '&f'
   - '%DAMAGE%'
   - '%CRITICAL_RATE%'
   - '%CRITICAL_DAMAGE%'
@@ -24,15 +24,15 @@ Item:
   - '%WIND_DEFENSE%'
   - '%POISON_DEFENSE%'
   - '%DODGE_RATE%'
-  - ''
+  - '&f'
   - '%GEM%'
   - '%ENCHANT%'
   - '%RUNE%'
   - '%ABILITY%'
-  - ''
+  - '&f'
   - '%DURABILITY%'
   - '%DURABILITY_UNBREAK%'
-  - ''
+  - '&f'
   - '%SET%'
   - '&7%TYPE%'
   - '&7%TIER%'
@@ -113,7 +113,7 @@ Item:
       Min: 10.0
       Max: 30.0
   Restrictions:
-    Soulbound: true
+    Soulbound: false
     Untradeable: false
     Levels: 75-100
     LevelScaleValues: 1.025
