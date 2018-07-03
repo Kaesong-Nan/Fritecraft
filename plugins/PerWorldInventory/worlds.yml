@@ -27,6 +27,7 @@ groups:
     - Faim
     - Pitman
     - Biomes
+    - Orion
     default-gamemode: SURVIVAL
   Skyblock:
     worlds:
