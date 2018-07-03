@@ -2,7 +2,7 @@ uniqueId: ccc9c47b-a72b-4c76-b903-1a0cc93e818c
 categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
 id: 14
 category: 5
-cooldown: -1
+cooldown: 0
 name: '&d&lMantra &r'
 item:
   ==: org.bukkit.inventory.ItemStack

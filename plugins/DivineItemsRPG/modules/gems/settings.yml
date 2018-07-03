@@ -26,7 +26,6 @@ Sounds:
   Failure: BLOCK_ANVIL_DESTROY
   Success: ENTITY_EXPERIENCE_ORB_PICKUP
 Design:
-#  Header: '&8&l&m------&a&l Gemmes &8&l&m------'
   Header: ''
   EmptySlot: '&a□ (Vide)'
   FilledSlot: '&a▣ Gemme: &f'

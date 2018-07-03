@@ -68,7 +68,7 @@ Optimizations:
   LongDateFormat: dd/MM/yy HH:mm:ss
   # Do you want to record sell hand actions into file
   SellLog: true
-  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips
+  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips 
   # Useful when you have players with complicated names
   PartialPlayerName: false
   # Enables DiscordSRV plugin support for messages
@@ -802,7 +802,7 @@ Animations:
   DoubleClick: false
   # Delay in milliseconds between clicks to sit on chair when double click is enabled
   DoubleClickDelay: 200
-# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming,
+# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, 
 # Sintax should be [permissionNode]:[damageCause]:[multiplier]
 # Example: nolavadamage:lava:0 will prevent lava damage with cmi.damagecontrol.nolavadamage permission node
 # Negative values will heal player instead of damaging him
@@ -895,7 +895,7 @@ FlightCharge:
   # This will define if you want to kill player if fall damage if higher than his health amount
   KillOnFall: false
 Point:
-  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust,
+  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust, 
   DefaultParticle: COLOURED_DUST
 Messages:
   Login:
@@ -992,7 +992,7 @@ WorldLimits:
   Enabled: false
   # World list with default game modes
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
-  # Posible modes: creative, survival, adventure, spectator,
+  # Posible modes: creative, survival, adventure, spectator, 
   Gamemode:
   - world:Survival
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed

@@ -1,0 +1,22 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all posible variables.
+
+Bouquenia:
+  test:
+    Loc: 278.0:64.0:982.0:278.0:68.0:985.0
+    enabled: true
+    effect: portal
+    showParticles: true
+    Tp:
+      ==: org.bukkit.Location
+      world: Bouquenia
+      x: 271.50454441648986
+      y: 64.9375
+      z: 978.088561414198
+      pitch: 10.1812315
+      yaw: -29.34128
+    particleAmount: 10
+    particleHide: 9
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
