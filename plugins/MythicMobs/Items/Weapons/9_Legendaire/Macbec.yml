@@ -1,6 +1,6 @@
 Macbec:
   Id: DIAMOND_SWORD
-  Display: '&5&lMacbec &r'
+  Display: '&5&lMacbec'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

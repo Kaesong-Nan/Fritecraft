@@ -1,6 +1,6 @@
 Excalibur:
   Id: DIAMOND_SWORD
-  Display: '&5&lExcalibur &r'
+  Display: '&5&lExcalibur'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

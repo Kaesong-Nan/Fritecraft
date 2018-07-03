@@ -1,6 +1,6 @@
 Permafrost:
   Id: DIAMOND_SWORD
-  Display: '&5&lPermafrost &r'
+  Display: '&5&lPermafrost'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

@@ -1,6 +1,6 @@
 SystemeChoco:
   Id: DIAMOND_SWORD
-  Display: '&5&lSystème Choco &r'
+  Display: '&5&lSystème Choco'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

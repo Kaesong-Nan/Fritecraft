@@ -1,6 +1,6 @@
 Whopper:
   Id: DIAMOND_SWORD
-  Display: '&5&lWhopper &r'
+  Display: '&5&lWhopper'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

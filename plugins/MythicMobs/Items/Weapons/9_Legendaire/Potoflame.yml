@@ -1,6 +1,6 @@
 Potoflame:
   Id: DIAMOND_SWORD
-  Display: '&5&lPotoflame &r'
+  Display: '&5&lPotoflame'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'

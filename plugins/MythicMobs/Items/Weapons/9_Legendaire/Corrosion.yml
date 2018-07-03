@@ -1,6 +1,6 @@
 Corrosion:
   Id: DIAMOND_SWORD
-  Display: '&5&lCorrosion &r'
+  Display: '&5&lCorrosion'
   Lore:
   # - '&b&oPrécurseur'
   # - '&b&oLégendaire'
