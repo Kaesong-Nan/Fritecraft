@@ -68,7 +68,7 @@ Optimizations:
   LongDateFormat: dd/MM/yy HH:mm:ss
   # Do you want to record sell hand actions into file
   SellLog: true
-  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips 
+  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips
   # Useful when you have players with complicated names
   PartialPlayerName: false
   # Enables DiscordSRV plugin support for messages
@@ -188,7 +188,7 @@ PlaytimeRewards:
 Sleeping:
   # When set to true, players can speedup night by sleeping in bed
   # This will allow to speed up night in percentage depending how many players are sleeping in beds in that world
-  Speedup: false
+  Speedup: true
   # When set to true, players who are in afk mode will be excluded from speed calculations
   ExcludeAfk: true
   # Defines speed to go throw night, bigger numbers will make it go faster and less players you will need to go throw night
@@ -305,7 +305,7 @@ ReSpawn:
     - worldSpawn
 Afk:
   # Enable or disable auto afk system entirely
-  Enabled: false
+  Enabled: true
   # Prevents jumping in one place to avoid afk status
   PreventJumping: true
   # Prevents damage while afk
@@ -314,14 +314,14 @@ Afk:
   CheckInterval: 10
   # Defines how long to wait after player stops moving to set him as afk
   # Player needs to have cmi.command.afk.auto permission node
-  AutoAfkIn: 300
+  AutoAfkIn: 180
   # Defines commands to be performed when player enters afk mode
   # Supports specialized commands
   AutoAfkCmds:
-  - cmi broadcast !&6[playerDisplayName] &eis now AFK
+  - cmi broadcast !&6[playerDisplayName] &eest AFK
   # Defines commands to be performed when player leaves afk mode
   AfkLeaveCmds:
-  - cmi broadcast !&6[playerDisplayName] &eis no longer AFK
+  - cmi broadcast !&6[playerDisplayName] &en'est plus AFK
   # Defines how long to wait after player stops moving to kick player
   # This can be used not only to kick but to perform repeating action every x seconds if needed
   # Keep it at -1 to disable auto kick
@@ -371,12 +371,12 @@ Ranks:
   AutoRankUp:
     # Defines how often in seconds plugin will check for posible player rankups
     # Set it to 0 or less to disable auto rankup checks
-    Delay: 30
+    Delay: 10
     # Defines how often in seconds each separate player will be checked for rankup
     # This is different than general check just to avoid couple players ranking up at same time
     # This also defines how often player will be notified about posible rankup and it will proportionaly increase with each time player get notification to avoid annoying spam in chat
     # Keep it longer or same as general delay time
-    PlayerDelay: 120
+    PlayerDelay: 60
 Signs:
   # Defines in milliseconds how often to check if player entered sign trigger area
   # Bigger numbers can help slightly lower server load
@@ -481,7 +481,7 @@ Chat:
   ModifyChatFormat: false
   # When set to true, regular and private messages (excludes clean messages) will have aditional information when hovering over it (PlaceHolderAPI supported) and can be clicked for quick reply option
   # To change default hover over messages seen on sent message, go to your locale file to Chat section
-  ClickHoverMessages: false
+  ClickHoverMessages: true
   # Enables support for DiscordSRV plugin
   DiscordSRVPublicChat: true
   # Enables support for DynMap web chat
@@ -802,7 +802,7 @@ Animations:
   DoubleClick: false
   # Delay in milliseconds between clicks to sit on chair when double click is enabled
   DoubleClickDelay: 200
-# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, 
+# All posible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming,
 # Sintax should be [permissionNode]:[damageCause]:[multiplier]
 # Example: nolavadamage:lava:0 will prevent lava damage with cmi.damagecontrol.nolavadamage permission node
 # Negative values will heal player instead of damaging him
@@ -895,7 +895,7 @@ FlightCharge:
   # This will define if you want to kill player if fall damage if higher than his health amount
   KillOnFall: false
 Point:
-  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust, 
+  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, tile_break, tile_dust,
   DefaultParticle: COLOURED_DUST
 Messages:
   Login:
@@ -992,7 +992,7 @@ WorldLimits:
   Enabled: false
   # World list with default game modes
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
-  # Posible modes: creative, survival, adventure, spectator, 
+  # Posible modes: creative, survival, adventure, spectator,
   Gamemode:
   - world:Survival
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed

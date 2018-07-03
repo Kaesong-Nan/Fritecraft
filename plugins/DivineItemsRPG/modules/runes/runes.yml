@@ -2,9 +2,9 @@ Runes:
   Force:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Force %rlevel%'
+    Name: 'Force %level%'
     Desc:
-    - '&7Effet passif: &b&lForce %rlevel%'
+    - '&7Effet passif: &b&lForce %level%'
     Effect: INCREASE_DAMAGE
     LevelMin: 1
     LevelMax: 3
@@ -14,9 +14,9 @@ Runes:
   Regen:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Régéneration %rlevel%'
+    Name: 'Régéneration %level%'
     Desc:
-    - '&7Effet passif: &b&lRégénération %rlevel%'
+    - '&7Effet passif: &b&lRégénération %level%'
     Effect: REGENERATION
     LevelMin: 1
     LevelMax: 2
@@ -26,9 +26,9 @@ Runes:
   Sauts:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Sauts %rlevel%'
+    Name: 'Sauts %level%'
     Desc:
-    - '&7Effet passif: &b&lSauts %rlevel%'
+    - '&7Effet passif: &b&lSauts %level%'
     Effect: JUMP
     LevelMin: 1
     LevelMax: 3
@@ -38,9 +38,9 @@ Runes:
   Resistance:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Résistance %rlevel%'
+    Name: 'Résistance %level%'
     Desc:
-    - '&7Effet passif: &b&lRésistance %rlevel%'
+    - '&7Effet passif: &b&lRésistance %level%'
     Effect: DAMAGE_RESISTANCE
     LevelMin: 1
     LevelMax: 3
@@ -50,9 +50,9 @@ Runes:
   Celerite:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Célérité %rlevel%'
+    Name: 'Célérité %level%'
     Desc:
-    - '&7Effet passif: &b&lCélérité %rlevel%'
+    - '&7Effet passif: &b&lCélérité %level%'
     Effect: FAST_DIGGING
     LevelMin: 1
     LevelMax: 3
@@ -62,9 +62,9 @@ Runes:
   Vision:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Nyctalopie %rlevel%'
+    Name: 'Nyctalopie %level%'
     Desc:
-    - '&7Effet passif: &b&lNyctalopie %rlevel%'
+    - '&7Effet passif: &b&lNyctalopie %level%'
     Effect: NIGHT_VISION
     LevelMin: 1
     LevelMax: 1
@@ -74,9 +74,9 @@ Runes:
   Feu:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Résistance au feu %rlevel%'
+    Name: 'Résistance au feu %level%'
     Desc:
-    - '&7Effet passif: &b&lRésistance au feu %rlevel%'
+    - '&7Effet passif: &b&lRésistance au feu %level%'
     Effect: FIRE_RESISTANCE
     LevelMin: 1
     LevelMax: 1
@@ -86,9 +86,9 @@ Runes:
   Amphibie:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Amphibie %rlevel%'
+    Name: 'Amphibie %level%'
     Desc:
-    - '&7Effet passif: &b&lAmphibie %rlevel%'
+    - '&7Effet passif: &b&lAmphibie %level%'
     Effect: WATER_BREATHING
     LevelMin: 1
     LevelMax: 1
@@ -98,9 +98,9 @@ Runes:
   Invisible:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Invisibilité %rlevel%'
+    Name: 'Invisibilité %level%'
     Desc:
-    - '&7Effet passif: &b&lInvisibilité %rlevel%'
+    - '&7Effet passif: &b&lInvisibilité %level%'
     Effect: INVISIBILITY
     LevelMin: 1
     LevelMax: 1
@@ -110,9 +110,9 @@ Runes:
   Egide:
     Enabled: true
     Material: 'PRISMARINE_SHARD:0'
-    Name: 'Egide %rlevel%'
+    Name: 'Egide %level%'
     Desc:
-    - '&7Effet passif: &b&lEgide %rlevel%'
+    - '&7Effet passif: &b&lEgide %level%'
     Effect: ABSORPTION
     LevelMin: 1
     LevelMax: 1

@@ -1,4 +1,4 @@
-# 
+#
 #  - '&8&m-----------------------'
 cfg_version: 1.0
 Item:
@@ -28,7 +28,8 @@ Sounds:
   Failure: BLOCK_ANVIL_DESTROY
   Success: ENTITY_EXPERIENCE_ORB_PICKUP
 Design:
-  Header: '&8&l&m------&d&l Pouvoirs &8&l&m------'
+#  Header: '&8&l&m------&d&l Pouvoirs &8&l&m------'
+  Header: ''
   EmptySlot: '&d♯ (Vide)'
   FilledSlot: '&d⚡ Pouvoir: &f'
   RightClick: '&7[&5Droite&7]'
