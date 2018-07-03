@@ -657,7 +657,7 @@ PlayerMail:
   # For how long to keep players mail in days
   ExpiresIn: 30
   # Mailing to all players will send mails to players who loged into server in last x days
-  mailAllDays: 7
+  mailAllDays: 70
 DisplayName:
   # If you have 3rd party plugin changing players didsplay name, set this to false
   Change: true
@@ -776,7 +776,7 @@ Mirror:
   MaxRange: 50
 NetherPortal:
   # Can prevent nether portal creation entirely. Option to bypass with cmi.netherportalbypass
-  PreventCreation: false
+  PreventCreation: true
   # Maximum height nether portal can be created. Vanilla size is 23
   MaxHeight: 23
   # Maximum width nether portal can be created. Vanilla size is 23
@@ -943,11 +943,11 @@ Spawn:
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
-    Use: false
-    World: None
-    X: 0.0
-    Y: 0.0
-    Z: 0.0
+    Use: true
+    World: Bouquenia
+    X: 277.0
+    Y: 68.0
+    Z: 913.0
     Pitch: 0.0
     Yaw: 0.0
 Newbie:
@@ -1018,25 +1018,35 @@ WorldLimits:
   # Prevents particular entity spawn reasons in defined worlds. All posible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, CUSTOM, DEFAULT
   SpawnReasons:
     Bouquenia:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     Bouquenia_the_end:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     test:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     Biomes:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     plots:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     cleanroom:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     Hunger:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     Bouquenia_nether:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     HUB:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
     Pitman:
-    - None
+    - BUILD_WITHER
+    - NETHER_PORTAL
 # Checks and shows on players login if he have been changed hes name over Mojang
 # Looks to be working only with online servers, duhhhh
 CheckForNameChange:
