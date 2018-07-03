@@ -1,4 +1,4 @@
-# 
+#
 #  - '&8&m-----------------------'
 cfg_version: 1.0
 Item:
@@ -27,7 +27,7 @@ Sounds:
   Success: ENTITY_EXPERIENCE_ORB_PICKUP
 Design:
   Header: ''
-  EmptySlot: '&a□ (Vide)'
+  EmptySlot: '&a□ (Gemme)'
   FilledSlot: '&a▣ Gemme: &f'
 General:
   AllowMultipleSameGemsInOneItem: true
