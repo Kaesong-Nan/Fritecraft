@@ -30,7 +30,6 @@ Sounds:
   Success: ENTITY_EXPERIENCE_ORB_PICKUP
 
 Design:
-#  Header: '&8&l&m------&b&l Enchantements &8&l&m------'
   Header: ''
   EmptySlot: '&c○ (Enchantement)'
   FilledSlot: '&c◉ Enchantement: &f'

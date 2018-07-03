@@ -29,7 +29,6 @@ Sounds:
   Success: ENTITY_EXPERIENCE_ORB_PICKUP
 
 Design:
-#  Header: '&8&l&m------&c&l Runes &8&l&m------'
   Header: ''
   EmptySlot: '&b◇ (Rune)'
   FilledSlot: '&b◈ Rune: &f'
