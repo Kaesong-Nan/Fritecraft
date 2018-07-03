@@ -1,16 +1,16 @@
-uniqueId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+uniqueId: f1665384-9f55-47b5-8155-c1401bf55b6c
 categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
-id: 17
+id: 12
 category: 5
 cooldown: 0
-name: '&d&lBezoar &r'
+name: '&d&lVitamines &r'
 item:
   ==: org.bukkit.inventory.ItemStack
   type: ENCHANTED_BOOK
   meta:
     ==: ItemMeta
     meta-type: ENCHANTED
-    display-name: §d§lBezoar §r
+    display-name: §d§lVitamines §r
     lore:
     - §7Utilisé pour les armes légendaires.
 rewards:
@@ -23,7 +23,7 @@ rewards:
     meta:
       ==: ItemMeta
       meta-type: ENCHANTED
-      display-name: §d§lBezoar §r
+      display-name: §d§lVitamines §r
       lore:
       - §7Utilisé pour les armes légendaires.
 permission: ''
@@ -35,15 +35,14 @@ min-party-size: 1
 missions:
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 4
+    type: GOLDEN_APPLE
   amount: 128
   lore: Hey there! Do this Quest.
   index: 0
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -53,21 +52,20 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: 9296b23b-ea5a-439b-9e22-1fcdf650205a
+  uniqueId: 1936c77d-e204-4a2b-bb3c-b70fb10ea772
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 11
-  amount: 128
+    type: NETHER_STALK
+  amount: 512
   lore: Hey there! Do this Quest.
   index: 1
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -77,21 +75,20 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: 124c8fa9-29e9-4003-be5e-ccaf63bfaf5e
+  uniqueId: a5546813-28b3-457e-871a-df755aea8138
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 1
-  amount: 128
+    type: SUGAR
+  amount: 512
   lore: Hey there! Do this Quest.
   index: 2
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -101,21 +98,20 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: 40122666-4933-4c10-aa47-e6141e6afff8
+  uniqueId: 693c32b8-e88e-48f4-a35b-742a58766c9f
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 14
-  amount: 128
+    type: SULPHUR
+  amount: 256
   lore: Hey there! Do this Quest.
   index: 3
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -125,21 +121,20 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: a9b5a5d0-e412-405b-ae46-632cd7a9f79d
+  uniqueId: 29d8c67e-fb8d-4c7f-8114-645ccc91ec6f
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 10
-  amount: 128
+    type: REDSTONE
+  amount: 512
   lore: Hey there! Do this Quest.
   index: 4
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -149,21 +144,20 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: 92b3b7a7-5e54-4969-9f9d-39300cbafc27
+  uniqueId: 02b9e922-896d-4f45-baef-06c13e039ecb
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 5
-  amount: 128
+    type: GLOWSTONE_DUST
+  amount: 512
   lore: Hey there! Do this Quest.
   index: 5
   type: SUBMIT
   custom_string: ''
   timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
+  questId: f1665384-9f55-47b5-8155-c1401bf55b6c
   reset-on-death: false
   display-name: ''
   location:
@@ -173,79 +167,7 @@ missions:
     z: 912.0
     pitch: 0.0
     yaw: 0.0
-  uniqueId: b6f94788-abe6-4c8f-a21b-5271f03dfe75
-  entity: PLAYER
-  custom_int: 0
-  exclude-spawners: false
-- item:
-    ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 12
-  amount: 128
-  lore: Hey there! Do this Quest.
-  index: 6
-  type: SUBMIT
-  custom_string: ''
-  timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
-  reset-on-death: false
-  display-name: ''
-  location:
-    world: Bouquenia
-    x: 277.0
-    y: 68.0
-    z: 912.0
-    pitch: 0.0
-    yaw: 0.0
-  uniqueId: 754a317e-cbc9-4b5f-b9ad-7193ca5bc228
-  entity: PLAYER
-  custom_int: 0
-  exclude-spawners: false
-- item:
-    ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 3
-  amount: 128
-  lore: Hey there! Do this Quest.
-  index: 7
-  type: SUBMIT
-  custom_string: ''
-  timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
-  reset-on-death: false
-  display-name: ''
-  location:
-    world: Bouquenia
-    x: 277.0
-    y: 68.0
-    z: 912.0
-    pitch: 0.0
-    yaw: 0.0
-  uniqueId: 81303529-ad3e-4060-a542-2ed50990a3d9
-  entity: PLAYER
-  custom_int: 0
-  exclude-spawners: false
-- item:
-    ==: org.bukkit.inventory.ItemStack
-    type: INK_SACK
-    damage: 8
-  amount: 128
-  lore: Hey there! Do this Quest.
-  index: 8
-  type: SUBMIT
-  custom_string: ''
-  timeframe: 0
-  questId: 8dce958d-3acc-4d2b-8d7c-2dce9cd488b9
-  reset-on-death: false
-  display-name: ''
-  location:
-    world: Bouquenia
-    x: 277.0
-    y: 68.0
-    z: 912.0
-    pitch: 0.0
-    yaw: 0.0
-  uniqueId: 3053e0cc-a3d5-4230-bcc7-51e7ea7346e0
+  uniqueId: ad6b9f29-0f57-40c6-9aae-8cab0c517d00
   entity: PLAYER
   custom_int: 0
   exclude-spawners: false

@@ -1,4 +1,4 @@
-#
+# 
 #  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&lDescription &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
 Soulbound: false# -----------------------------------------------------------------------------------------------------------
 IDName: exotique
@@ -29,7 +29,6 @@ Item:
   - '%POISON_DEFENSE%'
   - '%DODGE_RATE%'
   - ''
-#  - '%BONUS_STATS%'
   - '%GEM%'
   - '%ENCHANT%'
   - '%RUNE%'

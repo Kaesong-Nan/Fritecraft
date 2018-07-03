@@ -3332,6 +3332,7 @@ users:
     - moine
   6cce8726-2b5a-42cc-82a4-7caec70b16fc:
     permissions:
+    - gadgetsmenu.hats.australia
     - gadgetsmenu.hats.grin
     - essentials.workbench
     - gadgetsmenu.suits.baker.boots

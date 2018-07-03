@@ -2,7 +2,7 @@ uniqueId: 08fd9a2c-e57c-4576-a527-49d0de684a7e
 categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
 id: 31
 category: 5
-cooldown: -1
+cooldown: 0
 name: '&d&lLa Relique &r'
 item:
   ==: org.bukkit.inventory.ItemStack
@@ -134,7 +134,13 @@ missions:
   exclude-spawners: false
 - item:
     ==: org.bukkit.inventory.ItemStack
-    type: STRUCTURE_VOID
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: §d§lVitamines §r
+      lore:
+      - §7Utilisé pour les armes légendaires.
   amount: 1
   lore: Hey there! Do this Quest.
   index: 3

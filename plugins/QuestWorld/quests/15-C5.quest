@@ -2,7 +2,7 @@ uniqueId: 6a2f6f19-f56a-43e4-82db-57f34543c813
 categoryId: ec6e453c-8d60-4781-9eae-1130b904d71d
 id: 15
 category: 5
-cooldown: -1
+cooldown: 0
 name: '&d&lNazar &r'
 item:
   ==: org.bukkit.inventory.ItemStack
