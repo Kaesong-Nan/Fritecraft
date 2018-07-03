@@ -16,7 +16,7 @@ rewards:
   items:
   - ==: org.bukkit.inventory.ItemStack
     type: EMERALD
-    amount: 64
+    amount: 63
   - ==: org.bukkit.inventory.ItemStack
     type: DIAMOND
     meta:
