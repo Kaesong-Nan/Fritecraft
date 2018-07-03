@@ -61,7 +61,7 @@ Item:
   Enchants:
     Min: 1
     Max: 10
-    SafeOnly: false
+    SafeOnly: true
     List:
     - ARROW_KNOCKBACK:1:10
     - ARROW_INFINITE:1:10
