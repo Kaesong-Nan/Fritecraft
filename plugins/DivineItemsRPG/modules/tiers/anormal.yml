@@ -83,10 +83,6 @@ Item:
     - PROTECTION_EXPLOSIONS:1:10
     - SILK_TOUCH:1:10
     - THORNS:1:10
-  Flags:
-#  - HIDE_ATTRIBUTES
-#  - HIDE_ENCHANTS
-#  - HIDE_UNBREAKABLE
   DamageTypes:
     PHYSICAL:
       Chance: 50.0
