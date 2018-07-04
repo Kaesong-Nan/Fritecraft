@@ -1,4 +1,4 @@
-# 
+#
 # - Hooks
 # Use only ONE of this.
 # Use it for class and level restrictions in items.
@@ -213,7 +213,7 @@ Attributes:
     Prefix: '&a▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   PVP_DEFENSE:
     Name: PvP Defense
     Prefix: '&b▸'
@@ -225,37 +225,37 @@ Attributes:
     Prefix: '&b▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: 100.0
+    Capability: 80.0
   POISON_DEFENSE:
     Name: Résistance au Poison
     Prefix: '&a▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   FIRE_DEFENSE:
     Name: Résistance Incendiaire
     Prefix: '&c▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   MAGIC_DEFENSE:
     Name: Résistance Magique
     Prefix: '&d▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   WATER_DEFENSE:
     Name: Résistance Aquatique
     Prefix: '&9▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   WIND_DEFENSE:
     Name: Résistance Aérienne
     Prefix: '&7▸'
     Value: '&f'
     Bonus: '&6⏏&f'
-    Capability: -1
+    Capability: 80
   MOVEMENT_SPEED:
     Name: Vitesse
     Prefix: '&e▸'

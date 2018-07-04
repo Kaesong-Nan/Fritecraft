@@ -10,7 +10,7 @@ Alias:
   /actionbarmsg: true
   #
   # /cmi afk $1-
-  /afk: false
+  /afk: true
   #
   # /cmi air $1-
   /air: false

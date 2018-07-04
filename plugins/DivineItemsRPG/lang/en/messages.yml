@@ -467,23 +467,23 @@ Admin:
     Full: Reload complete!
     Cfg: Config files are reloaded!
 ItemTypes:
-  ROD: Fishing Rod
-  SWORD: Sword
-  PICKAXE: Pickaxe
-  AXE: Axe
-  SPADE: Spade
-  HOE: Hoe
-  BOW: Bow
-  SHIELD: Shield
-  HELMET: Helmet
-  CHESTPLATE: Chestplate
-  LEGGINGS: Leggings
-  BOOTS: Boots
-  ELYTRA: Elytra
-  ALL: Any
-  WEAPON: Weapon
-  ARMOR: Armor
-  TOOL: Tool
+  ROD: Cane
+  SWORD: Epée
+  PICKAXE: Pioche
+  AXE: Hache
+  SPADE: Pelle
+  HOE: Faux
+  BOW: Arc
+  SHIELD: Bouclier
+  HELMET: Casque
+  CHESTPLATE: Plastron
+  LEGGINGS: Jambières
+  BOOTS: Bottes
+  ELYTRA: Elytres
+  ALL: Tout
+  WEAPON: Arme
+  ARMOR: Armure
+  TOOL: Outil
 EntityNames:
   ELDER_GUARDIAN: Elder Guardian
   WITHER_SKELETON: Wither Skeleton

@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------------------------------------
 IDName: unique
 Display: Unique
-Color: '&9'
+Color: '&9&l'
 FindBroadcast: false
 EquipOnEntity: true
 Item:
