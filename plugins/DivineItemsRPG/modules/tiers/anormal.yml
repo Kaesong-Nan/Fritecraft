@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------------------------------------
 IDName: anormal
 Display: Anormal
-Color: '&4'
+Color: '&4&l'
 FindBroadcast: false
 EquipOnEntity: true
 Item:

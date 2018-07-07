@@ -10,8 +10,13 @@ Alias:
   /actionbarmsg: true
   #  
   # /cmi afk $1-
+<<<<<<< HEAD
   /afk: false
   #  
+=======
+  /afk: true
+  #
+>>>>>>> 83970ef76c8f010bcd2a695cbe45e1b41c1c6746
   # /cmi air $1-
   /air: false
   #  

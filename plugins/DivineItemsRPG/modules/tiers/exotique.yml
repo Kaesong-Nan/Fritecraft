@@ -1,7 +1,7 @@
 Soulbound: false# -----------------------------------------------------------------------------------------------------------
 IDName: exotique
 Display: Exotique
-Color: '&6'
+Color: '&6&l'
 FindBroadcast: false
 EquipOnEntity: true
 Item:

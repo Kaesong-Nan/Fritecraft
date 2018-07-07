@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------------------------------------
 IDName: legendaire
 Display: Légendaire
-Color: '&5'
+Color: '&5&l'
 FindBroadcast: false
 EquipOnEntity: true
 Item:
