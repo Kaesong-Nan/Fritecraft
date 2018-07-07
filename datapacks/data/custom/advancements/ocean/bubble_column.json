@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:magma_block"
         },
-        "title": "Pushed Around",
-        "description": "Enter a bubble column"
+        "title": "Jacuzzi",
+        "description": "Pénétrer dans une colonne à bulles"
     },
 	"parent": "custom:ocean/dolphins_grace",
     "criteria": {

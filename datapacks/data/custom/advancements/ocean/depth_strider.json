@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_boots"
 		},
-		"title": "Water Walker",
-		"description": "Use Depth Strider to walk in water"
+		"title": "Marcheur des profondeurs",
+		"description": "Utiliser l'enchantement agilité aquatique"
 	},
 	"parent": "custom:ocean/boat",
 	"criteria": {

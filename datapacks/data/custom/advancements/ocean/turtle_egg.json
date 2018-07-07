@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:turtle_egg"
 		},
-		"title": "Beach Baby",
-		"description": "Pick up a turtle egg"
+		"title": "Bébé de plage",
+		"description": "Ramasser un oeuf de tortue"
 	},
 	"parent": "custom:ocean/breed_turtle",
 	"criteria": {

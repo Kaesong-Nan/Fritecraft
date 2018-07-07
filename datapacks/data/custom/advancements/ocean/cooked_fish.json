@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cooked_cod"
 		},
-		"title": "Delicious Fish",
-		"description": "Catch and cook a fish"
+		"title": "Delicieux Poisson",
+		"description": "Cuire un poisson"
 	},
 	"parent": "custom:ocean/fishy_business",
 	"criteria": {

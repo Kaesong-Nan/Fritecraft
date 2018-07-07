@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:scute"
 		},
-		"title": "Come out of Your Shell",
-		"description": "Pick up a scute"
+		"title": "Sors de ta coquille !",
+		"description": "Ramasser une écaille de tortue"
 	},
 	"parent": "custom:ocean/turtle_egg",
 	"criteria": {

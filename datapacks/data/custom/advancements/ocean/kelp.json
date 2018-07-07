@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:kelp"
 		},
-		"title": "Kelp! Kelp!",
-		"description": "Collect some kelp"
+		"title": "Végétation aquatique",
+		"description": "Récuperer des algues"
 	},
 	"parent": "custom:ocean/green_in_the_blue",
 	"criteria": {

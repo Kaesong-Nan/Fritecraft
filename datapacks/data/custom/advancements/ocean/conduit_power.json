@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:conduit"
         },
-        "title": "Open Your Eyes",
-        "description": "Activate a conduit"
+        "title": "Ascension Marine",
+        "description": "Activater un conduit"
     },
     "parent": "custom:ocean/treasure",
     "criteria": {

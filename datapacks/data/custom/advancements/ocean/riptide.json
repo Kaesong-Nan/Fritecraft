@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:trident"
 		},
-		"title": "Pulled out to Sea",
-		"description": "Use Riptide to transport yourself through water"
+		"title": "Turbo",
+		"description": "Utiliser un boost de vitesse sous-marin"
 	},
 	"parent": "custom:ocean/bubble_column",
 	"criteria": {

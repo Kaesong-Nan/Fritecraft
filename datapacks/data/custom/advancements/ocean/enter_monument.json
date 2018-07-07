@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:prismarine"
 		},
-		"title": "Out of Your Comfort Zone",
-		"description": "Enter an ocean monument"
+		"title": "Monument marin",
+		"description": "Pénétrer dans un monument marin"
 	},
 	"parent": "custom:ocean/ocean_ruins",
 	"criteria": {

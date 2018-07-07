@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:trident"
 		},
-		"title": "Poseidon's Fury",
-		"description": "Create a perfect trident",
+		"title": "Furie de Sodagirl",
+		"description": "Fabriquer le trident parfait",
 		"frame": "challenge"
 	},
 	"parent": "custom:ocean/throw_trident",
@@ -34,7 +34,7 @@
 							{
 								"enchantment": "minecraft:unbreaking",
 								"levels": 3
-							},	
+							},
 							{
 								"enchantment": "minecraft:mending",
 								"levels": 1

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:turtle_helmet"
 		},
-		"title": "Hard Hat",
-		"description": "Wear a turtle shell",
+		"title": "Indestructible",
+		"description": "Equiper une carapace de tortue",
 		"frame": "goal"
 	},
 	"parent": "custom:ocean/scute",

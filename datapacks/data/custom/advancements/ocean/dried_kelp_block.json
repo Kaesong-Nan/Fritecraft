@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dried_kelp_block"
 		},
-		"title": "Sushi Block",
-		"description": "Craft a block of dried kelp"
+		"title": "Bloc de sushi",
+		"description": "Fabriquer un bloc d'algues séchées"
 	},
 	"parent": "custom:ocean/dried_kelp",
 	"criteria": {

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:water_bucket"
         },
-        "title": "Ocean",
-        "description": "Enter the Deep",
+        "title": "Océan",
+        "description": "Pénétrer dans les abysses",
         "background": "minecraft:textures/block/prismarine_bricks.png",
         "show_toast": false,
         "announce_to_chat": false

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:rotten_flesh"
 		},
-		"title": "Sailors Forgotten",
-		"description": "Put a drowned sailor to rest"
+		"title": "Navigateur oublié",
+		"description": "Achever un noyé"
 	},
 	"parent": "custom:ocean/shipwreck",
 	"criteria": {

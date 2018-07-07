@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dead_bubble_coral_block"
 		},
-		"title": "Sun-Dried",
-		"description": "Kill coral"
+		"title": "Tout sec",
+		"description": "Tuer du corail"
 	},
 	"parent": "custom:ocean/coral_block",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:filled_map"
 		},
-		"title": "Hidden Booty",
-		"description": "Use a treasure map to find buried treasure"
+		"title": "Trésor caché",
+		"description": "Utiliser une carte au trésor"
 	},
 	"parent": "custom:ocean/shipwreck",
 	"criteria": {

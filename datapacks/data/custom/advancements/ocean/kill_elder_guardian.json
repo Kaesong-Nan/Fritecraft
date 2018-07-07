@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dark_prismarine"
 		},
-		"title": "The Deep End",
-		"description": "Defeat an elder guardian",
+		"title": "Gros poisson",
+		"description": "Tuer un ancien gardien",
 		"frame": "goal"
 	},
 	"parent": "custom:ocean/enter_monument",

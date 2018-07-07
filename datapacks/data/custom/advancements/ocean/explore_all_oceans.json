@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:blue_ice"
 		},
-		"title": "Across the Seven Seas",
-		"description": "Explore all the ocean biomes",
+		"title": "Les Sept Mers du Monde",
+		"description": "Explorer tous les biomes marins",
 		"frame": "challenge"
 	},
 	"parent": "custom:ocean/riptide",

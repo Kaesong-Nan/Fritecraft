@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:cod"
         },
-        "title": "Swimming with the Dolphins",
-        "description": "Speed through the water with dolphins"
+        "title": "Natation Olympique",
+        "description": "Nager avec des dauphins"
     },
     "parent": "custom:ocean/frost_walker",
     "criteria": {

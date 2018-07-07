@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:ink_sac"
 		},
-		"title": "Splat!",
-		"description": "Collect some ink"
+		"title": "Splaf !",
+		"description": "Récuperer de l'encre"
 	},
 	"parent": "custom:ocean/root",
 	"criteria": {

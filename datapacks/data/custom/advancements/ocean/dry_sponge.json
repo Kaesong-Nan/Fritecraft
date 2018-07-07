@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sponge"
 		},
-		"title": "Out to Dry",
-		"description": "Dry a wet sponge"
+		"title": "Bob n'a pas besoin d'eau",
+		"description": "Faire sécher une éponge"
 	},
 	"parent": "custom:ocean/kill_elder_guardian",
 	"criteria": {

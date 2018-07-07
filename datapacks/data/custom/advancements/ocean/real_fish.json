@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:salmon"
 		},
-		"title": "Now This Is Fishing!",
-		"description": "Catch a real fish"
+		"title": "Pêche véritable !",
+		"description": "Attraper un vrai poisson"
 	},
 	"parent": "custom:ocean/fishy_business",
 	"criteria": {

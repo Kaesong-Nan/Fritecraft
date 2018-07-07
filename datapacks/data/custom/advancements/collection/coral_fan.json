@@ -4,7 +4,7 @@
 			"item": "minecraft:horn_coral_fan"
 		},
 		"title": "Fanatique",
-		"description": "Collectionner les 5 couleurs de fan de corail"
+		"description": "Collectionner les 5 couleurs d'éventail de mer"
 	},
 	"parent": "custom:collection/coral",
 	"criteria": {

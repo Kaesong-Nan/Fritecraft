@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:polished_granite"
 		},
-		"title": "Bits of Atlantis",
-		"description": "Find some oceanic ruins"
+		"title": "Atlantis",
+		"description": "Trouver des ruines inondées"
 	},
 	"parent": "custom:ocean/root",
 	"criteria": {

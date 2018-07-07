@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:pufferfish_bucket"
 		},
-		"title": "Live Catch",
-		"description": "Pick up all three types of fish",
+		"title": "Vif",
+		"description": "Attrapez tous les types de poisson",
 		"frame": "goal"
 	},
 	"parent": "custom:ocean/tactical_fishing",

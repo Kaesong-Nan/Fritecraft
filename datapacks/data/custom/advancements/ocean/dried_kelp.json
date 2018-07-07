@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dried_kelp"
 		},
-		"title": "Speed-Eating",
-		"description": "Eat dried kelp"
+		"title": "Crouistillant",
+		"description": "Manger des algues séchées"
 	},
 	"parent": "custom:ocean/kelp",
 	"criteria": {

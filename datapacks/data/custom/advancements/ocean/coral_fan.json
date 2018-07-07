@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brain_coral_fan"
 		},
-		"title": "Cooler Coral",
-		"description": "Collect some coral fans"
+		"title": "Coral",
+		"description": "Trouver un éventail de mer"
 	},
 	"parent": "custom:ocean/coral",
 	"criteria": {
