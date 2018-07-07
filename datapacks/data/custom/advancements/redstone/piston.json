@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:piston"
         },
-        "title": "Push...",
-        "description": "Craft and place a piston"
+        "title": "Faut pas pousser",
+        "description": "Fabriquer et placer un piston"
     },
     "parent": "custom:redstone/root",
     "criteria": {

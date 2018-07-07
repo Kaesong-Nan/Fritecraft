@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:dropper"
         },
-        "title": "Drop This!",
-        "description": "Craft and place a dropper"
+        "title": "Délicatesse",
+        "description": "Fabriquer et placer un dropper"
     },
     "parent": "custom:redstone/hopper",
     "criteria": {

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_torch"
         },
-        "title": "Powerful Light",
-        "description": "Craft and place a redstone torch"
+        "title": "Photons actifs",
+        "description": "Fabriquer et placer une torche redstone"
     },
     "parent": "custom:redstone/root",
     "criteria": {

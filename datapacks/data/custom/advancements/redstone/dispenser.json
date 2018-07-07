@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:dispenser"
         },
-        "title": "Dispense This!",
-        "description": "Craft and place a dispenser"
+        "title": "Automatisation",
+        "description": "Fabriquer et placer un distributeur"
     },
-    "parent": "custom:redstone/dropper",	
+    "parent": "custom:redstone/dropper",
     "criteria": {
         "dispenser": {
             "trigger": "minecraft:placed_block",

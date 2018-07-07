@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:slime_block"
         },
-        "title": "...And Stick!",
-        "description": "Craft and place a slime block"
+        "title": "Superglue",
+        "description": "Fabriquer et placer un bloc de slime"
     },
     "parent": "custom:redstone/sticky_piston",
     "criteria": {

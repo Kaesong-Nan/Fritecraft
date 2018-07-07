@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:observer"
         },
-        "title": "Observe This!",
-        "description": "Craft and place an observer"
+        "title": "Regarde moi ça",
+        "description": "Fabriquer et placer un observateur"
     },
-    "parent": "custom:redstone/dispenser",	
+    "parent": "custom:redstone/dispenser",
     "criteria": {
         "observer": {
             "trigger": "minecraft:placed_block",

@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:detector_rail"
         },
-        "title": "Minecart Power",
-        "description": "Craft and place a detector rail"
+        "title": "La puissance du chariot",
+        "description": "Fabriquer et placer un rail de détection"
     },
-    "parent": "custom:redstone/pressure_plate",	
+    "parent": "custom:redstone/pressure_plate",
     "criteria": {
         "detector_rail": {
             "trigger": "minecraft:placed_block",

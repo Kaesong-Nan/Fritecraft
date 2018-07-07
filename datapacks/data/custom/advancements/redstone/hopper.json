@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:hopper"
         },
-        "title": "Moving Storage",
-        "description": "Craft and place a hopper"
+        "title": "Déménagement",
+        "description": "Fabriquer et placer un entonnoir"
     },
     "parent": "custom:redstone/root",
     "criteria": {

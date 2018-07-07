@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:comparator"
         },
-        "title": "(Don't) Compare Yourself",
-        "description": "Craft and place a comparator"
+        "title": "Comparaison",
+        "description": "Fabriquer et placer un comparateur"
     },
     "parent": "custom:redstone/repeater",
     "criteria": {

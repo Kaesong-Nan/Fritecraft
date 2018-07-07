@@ -4,9 +4,9 @@
             "item": "minecraft:tnt"
         },
         "title": "BOOM",
-        "description": "Craft TNT"
+        "description": "Fabriquer du TNT"
     },
-    "parent": "custom:redstone/root",	
+    "parent": "custom:redstone/root",
     "criteria": {
         "tnt": {
             "trigger": "minecraft:inventory_changed",

@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:hopper_minecart"
         },
-        "title": "Moving Moving Storage",
-        "description": "Put a hopper in a minecart"
+        "title": "Aspirateur",
+        "description": "Placer un entonnoir dans un wagonnet"
     },
-    "parent": "custom:redstone/hopper",	
+    "parent": "custom:redstone/hopper",
     "criteria": {
         "hopper_minecart": {
             "trigger": "minecraft:inventory_changed",

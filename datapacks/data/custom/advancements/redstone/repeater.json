@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:repeater"
         },
-        "title": "Repeat Yourself",
-        "description": "Craft and place a repeater"
+        "title": "Vous pouvez répéter ?",
+        "description": "Fabriquer et placer un relai"
     },
     "parent": "custom:redstone/redstone_torch",
     "criteria": {
