@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:dark_oak_leaves"
         },
-        "title": "Hedge Fund",
-        "description": "Collect some leaves"
+        "title": "Débrouissallage",
+        "description": "Récuperer des feuilles"
     },
-    "parent": "custom:forestry/sapling",	
+    "parent": "custom:forestry/sapling",
     "criteria": {
         "oak_leaves": {
             "trigger": "minecraft:inventory_changed",

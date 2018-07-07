@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:fire_charge"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "Pyromaniac",
+		"description": "Assemble a fire charge"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/root",
     "criteria": {
-        "stick": {
+        "fire_charge": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:fire_charge"
                     }
                 ]
             }

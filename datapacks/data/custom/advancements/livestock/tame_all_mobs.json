@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:name_tag"
 		},
-		"title": "Mutual Protection",
-		"description": "Tame one of every tameable mob",
+		"title": "30 millions d'amis",
+		"description": "Etre pote avec tous les animaux",
 		"frame": "challenge"
 	},
 	"parent": "custom:livestock/tame_horse",

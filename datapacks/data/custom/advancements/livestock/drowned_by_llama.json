@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:slime_ball"
 		},
-		"title": "Wow. How Did You Even Do That?",
-		"description": "Drown in a llama's spit",
+		"title": "Wow. Comment t'as fait ça ?",
+		"description": "Se noyer dans la bave",
 		"frame": "goal"
 	},
 	"parent": "custom:livestock/tame_a_mob",

@@ -1,20 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:debug_stick"
+            "item": "minecraft:water_bucket"
         },
-        "title": "Begone, Bugs!",
-        "description": "Craft a debug stick",
-		"hidden": true
+        "title": "H2O",
+		"description": "Fill your bucket with water"
     },
-    "parent": "custom:forestry/stick",	
+    "parent": "yanis48:ocean/root",
     "criteria": {
-        "debug_stick": {
+        "water_bucket": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:debug_stick"
+                        "item": "minecraft:water_bucket"
                     }
                 ]
             }

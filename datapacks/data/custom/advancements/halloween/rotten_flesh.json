@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "title": "Time To Leave The Party",
+		"description": "Chew a piece of rotten flesh"
+    },
+    "parent": "yanis48:halloween/pumpkin_pie",
+    "criteria": {
+        "rotten_flesh": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rotten_flesh"
+                }
+            }
+        }
+    }
+}

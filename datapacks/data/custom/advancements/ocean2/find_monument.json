@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine",
+			"data": 2
+        },
+        "title": "Is It The Atlantis?",
+        "description": "Find a monument"
+    },
+    "parent": "yanis48:ocean/water_bucket",	
+    "criteria": {
+        "find_monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Monument"
+            }
+        }
+    }
+}

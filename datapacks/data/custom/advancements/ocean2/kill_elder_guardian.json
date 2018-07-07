@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "prismarine_crystals"
+        },
+        "title": "Poseidon",
+        "description": "Defeat the Elder Guardian",
+        "frame": "challenge"
+    },
+    "parent": "yanis48:ocean/drink_water_breathing",
+	"rewards": {
+		"experience": 60
+	},
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        }
+    }
+}

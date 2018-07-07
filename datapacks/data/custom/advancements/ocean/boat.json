@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_boat"
 		},
-		"title": "Ship Shape",
-		"description": "Create a vessel for your journey"
+		"title": "C'est bateau",
+		"description": "Fabriquer un navire pour votre voyage"
 	},
 	"parent": "custom:ocean/root",
 	"criteria": {

@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:bread"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "Smoke Wheat Everyday",
+		"description": "Bake bread"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/root",
     "criteria": {
-        "stick": {
+        "bread": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:bread"
                     }
                 ]
             }

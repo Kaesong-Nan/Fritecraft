@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:rabbit_stew"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "Killer Bunny",
+		"description": "Prepare a rabbit stew"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/bread",
     "criteria": {
-        "stick": {
+        "rabbit_stew": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:rabbit_stew"
                     }
                 ]
             }

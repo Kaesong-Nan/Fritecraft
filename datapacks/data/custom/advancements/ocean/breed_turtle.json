@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:seagrass"
 		},
-		"title": "Protective Parents",
-		"description": "Breed some turtles"
+		"title": "Parents protectifs",
+		"description": "Faire se reproduire des tortues"
 	},
 	"parent": "custom:ocean/green_in_the_blue",
 	"criteria": {

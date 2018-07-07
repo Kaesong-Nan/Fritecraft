@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:ender_chest"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "Interdimensional",
+		"description": "Craft an Enderchest"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/anvil",
     "criteria": {
-        "stick": {
+        "ender_chest": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:ender_chest"
                     }
                 ]
             }

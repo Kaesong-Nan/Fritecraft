@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:ladder"
         },
-        "title": "Climbing the Ranks",
-        "description": "Craft and place a ladder to climb on"
+        "title": "Gravir les échelons",
+        "description": "Placer une échelle"
     },
-    "parent": "custom:forestry/stick",	     
+    "parent": "custom:forestry/stick",
     "criteria": {
         "ladder": {
             "trigger": "minecraft:placed_block",

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass_bottle"
+        },
+        "title": "Scuba Diving",
+        "description": "Drink a potion of water breathing"
+    },
+    "parent": "yanis48:ocean/find_monument",	
+    "criteria": {
+        "potion": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+				"item": {
+					"potion": "long_water_breathing"
+				}
+            }
+        }
+    }
+}

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:jungle_sapling"
 		},
-		"title": "Restoration",
-		"description": "Help restore a forest by planting a sapling"
+		"title": "Eco-responsable",
+		"description": "Aider une forêt en plantant un arbre"
 	},
 	"parent": "custom:forestry/sapling",
 	"criteria": {

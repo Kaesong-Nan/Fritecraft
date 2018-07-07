@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_axe"
 		},
-		"title": "Forestry",
-		"description": "Logs and leaves",
+		"title": "Sylviculture",
+		"description": "Du bois et des feuilles",
 		"background": "minecraft:textures/block/oak_log.png",
 		"show_toast": false,
         "announce_to_chat": false

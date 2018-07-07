@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:golden_carrot"
 		},
-		"title": "Artificial Selection",
-		"description": "Breed a horse and a donkey to make a mule"
+		"title": "Sélection artifificelle",
+		"description": "Faire se reproduire un cheval et un âne"
 	},
 	"parent": "custom:livestock/tame_horse",
 	"criteria": {

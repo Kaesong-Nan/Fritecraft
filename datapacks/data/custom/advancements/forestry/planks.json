@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:acacia_planks"
         },
-        "title": "Planking",
-        "description": "Craft wooden planks"
+        "title": "Plancher sur le problème",
+        "description": "Fabriquer des planches"
     },
     "parent": "custom:forestry/log",
     "criteria": {

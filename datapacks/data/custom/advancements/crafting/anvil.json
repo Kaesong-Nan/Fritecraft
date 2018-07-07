@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:anvil"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "Blacksmith",
+		"description": "Forge an anvil"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/root",
     "criteria": {
-        "stick": {
+        "anvil": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:anvil"
                     }
                 ]
             }

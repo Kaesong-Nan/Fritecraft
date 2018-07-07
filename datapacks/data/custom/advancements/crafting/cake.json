@@ -1,19 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stick"
+            "item": "minecraft:cake"
         },
-        "title": "Le meilleur baton",
-        "description": "Frabriquer un baton"
+        "title": "The Lie",
+		"description": "Make a cake",
+		"frame": "challenge"
     },
-    "parent": "custom:forestry/planks",
+    "parent": "yanis48:crafting/bread",
+	"rewards": {
+        "experience": 20
+    },
     "criteria": {
-        "stick": {
+        "cake": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stick"
+                        "item": "minecraft:cake"
                     }
                 ]
             }

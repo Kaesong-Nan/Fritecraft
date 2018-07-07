@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:leather"
 		},
-		"title": "Genuine Leather",
-		"description": "Kill an animal for its leather"
+		"title": "Cuir véritable",
+		"description": "Tuer un animal pour son cuir"
 	},
 	"parent": "custom:livestock/kill_an_animal",
 	"criteria": {

@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:dark_oak_wood"
         },
-        "title": "Woof",
-        "description": "Create a block of bark"
+        "title": "Ecorce",
+        "description": "Créer un bloc d'écorce"
     },
-    "parent": "custom:forestry/log",	
+    "parent": "custom:forestry/log",
     "criteria": {
         "oak_wood": {
             "trigger": "minecraft:inventory_changed",

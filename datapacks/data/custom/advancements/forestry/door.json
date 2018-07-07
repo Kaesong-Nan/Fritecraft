@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:birch_door"
         },
-        "title": "Knock on Wood",
-        "description": "Craft a door"
+        "title": "Toc toc",
+        "description": "Fabriquer une porte"
     },
     "parent": "custom:forestry/planks",
     "criteria": {

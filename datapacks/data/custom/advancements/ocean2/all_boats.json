@@ -1,82 +1,76 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stripped_spruce_wood"
+            "item": "minecraft:dark_oak_boat"
         },
-        "title": "Lost Its Bark",
-        "description": "Strip a wood block of its bark"
+        "title": "Captain Nemo",
+        "description": "Craft all types of boats",
+		"frame": "goal"
     },
-    "parent": "custom:forestry/wood",	
+    "parent": "yanis48:ocean/water_bucket",
+	"rewards": {
+        "experience": 20
+    },
     "criteria": {
-        "stripped_oak_wood": {
+        "oak_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_oak_wood"
+                        "item": "minecraft:boat"
                     }
                 ]
             }
         },
-        "stripped_spruce_wood": {
+		"spruce_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_spruce_wood"
+                        "item": "minecraft:spruce_boat"
                     }
                 ]
             }
         },
-		"stripped_birch_wood": {
+		"birch_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_birch_wood"
+                        "item": "minecraft:birch_boat"
                     }
                 ]
             }
         },
-        "stripped_jungle_wood": {
+		"jungle_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_jungle_wood"
+                        "item": "minecraft:jungle_boat"
                     }
                 ]
             }
         },
-        "stripped_acacia_wood": {
+		"acacia_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_acacia_wood"
+                        "item": "minecraft:acacia_boat"
                     }
                 ]
             }
         },
-        "stripped_dark_oak_wood": {
+		"dark_oak_boat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_dark_oak_wood"
+                        "item": "minecraft:dark_oak_boat"
                     }
                 ]
             }
         }
-	},
-	"requirements": [
-		[
-			"stripped_oak_wood",
-			"stripped_spruce_wood",
-			"stripped_birch_wood",
-			"stripped_jungle_wood",
-			"stripped_acacia_wood",
-			"stripped_dark_oak_wood"
-		]
-	]
+    }
 }

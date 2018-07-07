@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:jungle_trapdoor"
         },
-        "title": "Under Here!",
-        "description": "Craft a trapdoor"
+        "title": "A la trappe !",
+        "description": "Fabriquer une trappe"
     },
     "parent": "custom:forestry/door",
     "criteria": {

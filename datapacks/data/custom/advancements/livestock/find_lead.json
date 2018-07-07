@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lead"
 		},
-		"title": "Follow the Leader",
-		"description": "Craft a lead to move your livestock"
+		"title": "Suivez le guide !",
+		"description": "Fabriquer une laisse pour le bétail"
 	},
 	"parent": "custom:livestock/root",
 	"criteria": {
