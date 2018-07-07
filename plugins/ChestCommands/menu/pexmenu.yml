@@ -68,7 +68,7 @@ Ender:
   VIEW-PERMISSION: CustomEnderChest.commands
 
 Bench:
-  COMMAND: 'wbench'
+  COMMAND: 'workbench'
   NAME: '&9&l[**] Station Swanson Swag [**]'
   ID: workbench
   POSITION-X: 3

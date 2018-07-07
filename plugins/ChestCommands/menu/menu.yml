@@ -107,7 +107,7 @@ Cosmetics:
 #   POSITION-X: 5
 #   POSITION-Y: 1
 Metro:
-  COMMAND: 'warps'
+  COMMAND: 'warp'
   NAME: '&e&l[**] Transports [**]'
   LORE:
     - ''

@@ -146,7 +146,7 @@ Alias:
   /editplaytime: false
   #
   # /cmi editwarp $1-
-  /editwarp: true
+  /editwarp: false
   #
   # /cmi effect $1-
   /effect: true
@@ -382,7 +382,7 @@ Alias:
   /mirror: false
   #
   # /cmi money $1-
-  /money: true
+  /money: false
   #
   # /cmi more $1-
   /more: true
@@ -488,8 +488,8 @@ Alias:
   /removeuser: false
   #
   # /cmi removewarp $1-
-  /removewarp: true
-  /delwarp: true
+  /removewarp: false
+  /delwarp: false
   #
   # /cmi repair $1-
   /repair: false
@@ -566,7 +566,7 @@ Alias:
   /setspawn: true
   #
   # /cmi setwarp $1-
-  /setwarp: true
+  /setwarp: false
   #
   # /cmi setworth $1-
   /setworth: false
@@ -774,7 +774,7 @@ Alias:
   /whowas: true
   #
   # /cmi workbench $1-
-  /workbench: false
+  /workbench: true
   /wb: true
   /craft: true
   #
