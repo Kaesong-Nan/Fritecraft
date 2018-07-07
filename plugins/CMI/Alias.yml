@@ -5,211 +5,224 @@
 # True/false defines if alias is enabled or disabled
 
 Alias:
-  #
+  #  
   # /cmi actionbarmsg $1-
   /actionbarmsg: true
-  #
+  #  
   # /cmi afk $1-
+<<<<<<< HEAD
   /afk: false
+=======
+<<<<<<< HEAD
+  /afk: false
+  #  
+=======
+  /afk: true
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   #
+>>>>>>> 83970ef76c8f010bcd2a695cbe45e1b41c1c6746
   # /cmi air $1-
   /air: false
-  #
+  #  
   # /cmi alert $1-
   /alert: false
-  #
+  #  
   # /cmi aliaseditor $1-
   /aliaseditor: false
-  #
+  #  
   # /cmi armorstand $1-
   /armorstand: false
-  #
+  #  
   # /cmi attachcommand $1-
   /attachcommand: true
   /powertool: true
-  #
+  #  
   # /cmi back $1-
   /back: true
   /cback: true
-  #
+  #  
   # /cmi balance $1-
   /balance: true
   /bal: true
-  #
+  #  
   # /cmi baltop $1-
   /baltop: true
-  #
+  #  
   # /cmi ban $1-
   /ban: false
-  #
+  #  
   # /cmi blockcycling $1-
   /blockcycling: false
-  #
+  #  
   # /cmi blockinfo $1-
   /blockinfo: false
-  #
+  #  
   # /cmi blocknbt $1-
   /blocknbt: false
-  #
+  #  
   # /cmi book $1-
   /book: true
-  #
+  #  
   # /cmi bossbarmsg $1-
   /bossbarmsg: true
-  #
+  #  
   # /cmi broadcast $1-
   /broadcast: true
-  #
+  #  
   # /cmi charges $1-
   /charges: true
-  #
+  #  
   # /cmi chat $1-
   /chat: false
-  #
+  #  
   # /cmi checkaccount $1-
   /checkaccount: true
-  #
+  #  
   # /cmi checkban $1-
   /checkban: true
-  #
+  #  
   # /cmi checkcommand $1-
   /checkcommand: true
-  #
+  #  
   # /cmi checkexp $1-
   /checkexp: true
-  #
+  #  
   # /cmi checkperm $1-
   /checkperm: true
-  #
+  #  
   # /cmi cheque $1-
   /cheque: false
-  #
+  #  
   # /cmi clear $1-
   /clear: true
   /ci: true
-  #
+  #  
   # /cmi clearchat $1-
   /clearchat: true
   /cc: true
-  #
+  #  
   # /cmi clearender $1-
   /clearender: false
-  #
+  #  
   # /cmi colorlimits $1-
   /colorlimits: false
-  #
+  #  
   # /cmi colors $1-
   /colors: true
-  #
+  #  
   # /cmi commandspy $1-
   /commandspy: true
-  #
+  #  
   # /cmi compass $1-
   /compass: false
-  #
+  #  
   # /cmi condense $1-
   /condense: false
-  #
+  #  
   # /cmi counter $1-
   /counter: true
-  #
+  #  
   # /cmi cplaytime $1-
   /cplaytime: false
-  #
+  #  
   # /cmi ctext $1-
   /ctext: false
-  #
+  #  
   # /cmi cuff $1-
   /cuff: true
   # /cmi cuff false $1-
   /uncuff: true
-  #
+  #  
   # /cmi customrecipe $1-
   /customrecipe: true
-  #
+  #  
   # /cmi dback $1-
   /dback: true
-  #
+  #  
   # /cmi disableenchant $1-
   /disableenchant: false
-  #
+  #  
   # /cmi dispose $1-
   /dispose: true
-  #
+  #  
   # /cmi dsign $1-
   /dsign: false
-  #
+  #  
   # /cmi editctext $1-
   /editctext: true
-  #
+  #  
   # /cmi editplaytime $1-
   /editplaytime: false
-  #
+  #  
   # /cmi editwarp $1-
 <<<<<<< HEAD
   /editwarp: false
   #
 =======
   /editwarp: true
+<<<<<<< HEAD
   #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
+  #  
 >>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi effect $1-
   /effect: true
-  #
+  #  
   # /cmi enchant $1-
   /enchant: true
-  #
+  #  
   # /cmi ender $1-
   /ender: false
   /ce: false
   /ec: false
   /cend: false
   /enderchest: false
-  #
+  #  
   # /cmi entityinfo $1-
   /entityinfo: true
-  #
+  #  
   # /cmi entitynbt $1-
   /entitynbt: true
-  #
+  #  
   # /cmi exp $1-
   /exp: true
-  #
+  #  
   # /cmi feed $1-
   /feed: true
-  #
+  #  
   # /cmi fixchunk $1-
   /fixchunk: true
-  #
+  #  
   # /cmi flightcharge $1-
   /flightcharge: true
   # /cmi flightcharge recharge $1-
   /recharge: true
   /fcharge: true
-  #
+  #  
   # /cmi fly $1-
   /fly: true
-  #
+  #  
   # /cmi flyc $1-
   /flyc: false
-  #
+  #  
   # /cmi flyspeed $1-
   /flyspeed: false
-  #
+  #  
   # /cmi getbook $1-
   /getbook: false
-  #
+  #  
   # /cmi give $1-
   /give: true
   /i: true
   /item: true
-  #
+  #  
   # /cmi giveall $1-
   /giveall: true
-  #
+  #  
   # /cmi glow $1-
   /glow: false
-  #
+  #  
   # /cmi gm $1-
   /gm: true
   /gamemode: true
@@ -217,286 +230,290 @@ Alias:
   /gmc: true
   # /cmi gm survival $1-
   /gms: true
-  #
+  #  
   # /cmi god $1-
   /god: true
-  #
+  #  
   # /cmi groundclean $1-
   /groundclean: true
-  #
+  #  
   # /cmi haspermission $1-
   /haspermission: false
-  #
+  #  
   # /cmi hat $1-
   /hat: true
-  #
+  #  
   # /cmi head $1-
   /head: false
-  #
+  #  
   # /cmi heal $1-
   /heal: true
-  #
+  #  
   # /cmi helpop $1-
   /helpop: false
-  #
+  #  
   # /cmi hideflags $1-
   /hideflags: false
-  #
+  #  
   # /cmi hologram $1-
   /hologram: true
-  #
+  #  
   # /cmi home $1-
   /home: true
-  #
+  #  
   # /cmi homes $1-
   /homes: true
-  #
+  #  
   # /cmi hunger $1-
   /hunger: true
-  #
+  #  
   # /cmi ic $1-
   /ic: false
-  #
+  #  
   # /cmi ifoffline $1-
   /ifoffline: true
-  #
+  #  
   # /cmi ifonline $1-
   /ifonline: true
-  #
+  #  
   # /cmi ignore $1-
   /ignore: false
-  #
+  #  
   # /cmi importfrom $1-
   /importfrom: false
-  #
+  #  
   # /cmi importoldusers $1-
   /importoldusers: false
-  #
+  #  
   # /cmi info $1-
   /info: true
   /whois: true
-  #
+  #  
   # /cmi inv $1-
   /inv: true
   /cinv: true
   /invsee: true
-  #
+  #  
   # /cmi invcheck $1-
   /invcheck: true
-  #
+  #  
   # /cmi invlist $1-
   /invlist: true
-  #
+  #  
   # /cmi invload $1-
   /invload: true
-  #
+  #  
   # /cmi invremove $1-
   /invremove: true
-  #
+  #  
   # /cmi invremoveall $1-
   /invremoveall: true
-  #
+  #  
   # /cmi invsave $1-
   /invsave: true
-  #
+  #  
   # /cmi ipban $1-
   /ipban: false
-  #
+  #  
   # /cmi ipbanlist $1-
   /ipbanlist: false
-  #
+  #  
   # /cmi iteminfo $1-
   /iteminfo: true
-  #
+  #  
   # /cmi itemlore $1-
   /itemlore: true
   /ilore: true
-  #
+  #  
   # /cmi itemname $1-
   /itemname: true
   /iname: true
   /rename: true
-  #
+  #  
   # /cmi itemnbt $1-
   /itemnbt: true
-  #
+  #  
   # /cmi jail $1-
   /jail: true
-  #
+  #  
   # /cmi jailedit $1-
   /jailedit: true
-  #
+  #  
   # /cmi jump $1-
   /jump: false
-  #
+  #  
   # /cmi kick $1-
   /kick: false
-  #
+  #  
   # /cmi killall $1-
   /killall: false
-  #
+  #  
   # /cmi kit $1-
   /kit: false
-  #
+  #  
   # /cmi kitcdreset $1-
   /kitcdreset: false
-  #
+  #  
   # /cmi kiteditor $1-
   /kiteditor: false
-  #
+  #  
   # /cmi lastonline $1-
   /lastonline: true
-  #
+  #  
   # /cmi launch $1-
   /launch: false
-  #
+  #  
   # /cmi lfix $1-
   /lfix: true
-  #
+  #  
   # /cmi list $1-
   /list: false
-  #
+  #  
   # /cmi lockip $1-
   /lockip: true
-  #
+  #  
   # /cmi mail $1-
   /mail: true
-  #
+  #  
   # /cmi mailall $1-
   /mailall: true
-  #
+  #  
   # /cmi maintenance $1-
   /maintenance: true
-  #
+  #  
   # /cmi maxhp $1-
   /maxhp: false
-  #
+  #  
   # /cmi maxplayers $1-
   /maxplayers: true
-  #
+  #  
   # /cmi me $1-
   /me: true
-  #
+  #  
   # /cmi merchant $1-
   /merchant: true
-  #
+  #  
   # /cmi migratedatabase $1-
   /migratedatabase: false
-  #
+  #  
   # /cmi mirror $1-
   /mirror: false
-  #
+  #  
   # /cmi money $1-
 <<<<<<< HEAD
   /money: false
   #
 =======
   /money: true
+<<<<<<< HEAD
   #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
+  #  
 >>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi more $1-
   /more: true
-  #
+  #  
   # /cmi msg $1-
   /msg: true
-  #
+  #  
   # /cmi mute $1-
   /mute: false
-  #
+  #  
   # /cmi mutechat $1-
   /mutechat: false
-  #
+  #  
   # /cmi nameplate $1-
   /nameplate: false
-  #
+  #  
   # /cmi near $1-
   /near: true
-  #
+  #  
   # /cmi nick $1-
   /nick: true
-  #
+  #  
   # /cmi note $1-
   /note: true
-  #
+  #  
   # /cmi oplist $1-
   /oplist: true
-  #
+  #  
   # /cmi patrol $1-
   /patrol: false
-  #
+  #  
   # /cmi paytoggle $1-
   /paytoggle: false
-  #
+  #  
   # /cmi ping $1-
   /ping: true
-  #
+  #  
   # /cmi placeholders $1-
   /placeholders: false
-  #
+  #  
   # /cmi playercollision $1-
   /playercollision: false
-  #
+  #  
   # /cmi playtime $1-
   /playtime: true
-  #
+  #  
   # /cmi playtimetop $1-
   /playtimetop: true
-  #
+  #  
   # /cmi point $1-
   /point: true
-  #
+  #  
   # /cmi portals $1-
   /portals: false
-  #
+  #  
   # /cmi pos $1-
   /pos: true
-  #
+  #  
   # /cmi preview $1-
   /preview: true
-  #
+  #  
   # /cmi prewards $1-
   /prewards: true
-  #
+  #  
   # /cmi ptime $1-
   /ptime: true
-  #
+  #  
   # /cmi purge $1-
   /purge: false
-  #
+  #  
   # /cmi pweather $1-
   /pweather: true
-  #
+  #  
   # /cmi rankdown $1-
   /rankdown: true
-  #
+  #  
   # /cmi rankinfo $1-
   /rankinfo: true
-  #
+  #  
   # /cmi ranklist $1-
   /ranklist: true
-  #
+  #  
   # /cmi rankset $1-
   /rankset: true
-  #
+  #  
   # /cmi rankup $1-
   /rankup: true
-  #
+  #  
   # /cmi realname $1-
   /realname: false
-  #
+  #  
   # /cmi recipe $1-
   /recipe: true
-  #
+  #  
   # /cmi reload $1-
   /reload: false
-  #
+  #  
   # /cmi removehome $1-
   /removehome: true
   /delhome: true
-  #
+  #  
   # /cmi removeuser $1-
   /removeuser: false
-  #
+  #  
   # /cmi removewarp $1-
 <<<<<<< HEAD
   /removewarp: false
@@ -505,169 +522,177 @@ Alias:
 =======
   /removewarp: true
   /delwarp: true
+<<<<<<< HEAD
   #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
+  #  
 >>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi repair $1-
   /repair: false
-  #
+  #  
   # /cmi repaircost $1-
   /repaircost: true
-  #
+  #  
   # /cmi replaceblock $1-
   /replaceblock: false
-  #
+  #  
   # /cmi reply $1-
   /reply: true
   /r: true
-  #
+  #  
   # /cmi resetdbfields $1-
   /resetdbfields: false
-  #
+  #  
   # /cmi ride $1-
   /ride: false
-  #
+  #  
   # /cmi sameip $1-
   /sameip: false
-  #
+  #  
   # /cmi saturation $1-
   /saturation: false
-  #
+  #  
   # /cmi saveall $1-
   /saveall: true
-  #
+  #  
   # /cmi saveditems $1-
   /saveditems: false
-  #
+  #  
   # /cmi sc $1-
   /sc: false
   /scopy: true
-  #
+  #  
   # /cmi scan $1-
   /scan: true
-  #
+  #  
   # /cmi schedule $1-
   /schedule: false
-  #
+  #  
   # /cmi se $1-
   /se: true
-  #
+  #  
   # /cmi search $1-
   /search: true
-  #
+  #  
   # /cmi seen $1-
   /seen: true
-  #
+  #  
   # /cmi sell $1-
   /sell: false
-  #
+  #  
   # /cmi sendall $1-
   /sendall: false
-  #
+  #  
   # /cmi server $1-
   /server: true
-  #
+  #  
   # /cmi servertime $1-
   /servertime: false
-  #
+  #  
   # /cmi setfirstspawn $1-
   /setfirstspawn: false
-  #
+  #  
   # /cmi sethome $1-
   /sethome: true
-  #
+  #  
   # /cmi setmotd $1-
   /setmotd: true
-  #
+  #  
   # /cmi setspawn $1-
   /setspawn: true
-  #
+  #  
   # /cmi setwarp $1-
 <<<<<<< HEAD
   /setwarp: false
   #
 =======
   /setwarp: true
+<<<<<<< HEAD
   #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
+  #  
 >>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi setworth $1-
   /setworth: false
-  #
+  #  
   # /cmi shakeitoff $1-
   /shakeitoff: false
-  #
+  #  
   # /cmi signspy $1-
   /signspy: false
-  #
+  #  
   # /cmi silence $1-
   /silence: false
-  #
+  #  
   # /cmi silentchest $1-
   /silentchest: false
-  #
+  #  
   # /cmi sit $1-
   /sit: true
-  #
+  #  
   # /cmi skin $1-
   /skin: false
-  #
+  #  
   # /cmi smite $1-
   /smite: true
   /lightning: true
-  #
+  #  
   # /cmi socialspy $1-
   /socialspy: true
-  #
+  #  
   # /cmi sound $1-
   /sound: false
-  #
+  #  
   # /cmi spawn $1-
   /spawn: true
-  #
+  #  
   # /cmi spawner $1-
   /spawner: true
-  #
+  #  
   # /cmi spawnmob $1-
   /spawnmob: true
-  #
+  #  
   # /cmi staffmsg $1-
   /staffmsg: true
-  #
+  #  
   # /cmi stats $1-
   /stats: true
-  #
+  #  
   # /cmi statsedit $1-
   /statsedit: false
-  #
+  #  
   # /cmi status $1-
   /status: true
-  #
+  #  
   # /cmi sudo $1-
   /sudo: false
-  #
+  #  
   # /cmi suicide $1-
   /suicide: false
-  #
+  #  
   # /cmi switchplayerdata $1-
   /switchplayerdata: false
-  #
+  #  
   # /cmi tablistupdate $1-
   /tablistupdate: false
-  #
+  #  
   # /cmi tagtoggle $1-
   /tagtoggle: false
-  #
+  #  
   # /cmi tempban $1-
   /tempban: false
-  #
+  #  
   # /cmi tempipban $1-
   /tempipban: false
-  #
+  #  
   # /cmi tfly $1-
   /tfly: true
-  #
+  #  
   # /cmi tgod $1-
   /tgod: true
-  #
+  #  
   # /cmi time $1-
   /time: true
   # /cmi time day $1-
@@ -678,110 +703,110 @@ Alias:
   /morning: true
   # /cmi time dusk $1-
   /dusk: true
-  #
+  #  
   # /cmi titlemsg $1-
   /titlemsg: true
-  #
+  #  
   # /cmi toast $1-
   /toast: false
-  #
+  #  
   # /cmi toggleshiftedit $1-
   /toggleshiftedit: false
-  #
+  #  
   # /cmi toggletotem $1-
   /toggletotem: false
-  #
+  #  
   # /cmi top $1-
   /top: true
-  #
+  #  
   # /cmi tp $1-
   /tp: false
-  #
+  #  
   # /cmi tpa $1-
   /tpa: false
-  #
+  #  
   # /cmi tpaall $1-
   /tpaall: false
-  #
+  #  
   # /cmi tpaccept $1-
   /tpaccept: false
-  #
+  #  
   # /cmi tpahere $1-
   /tpahere: false
-  #
+  #  
   # /cmi tpall $1-
   /tpall: false
-  #
+  #  
   # /cmi tpallworld $1-
   /tpallworld: true
-  #
+  #  
   # /cmi tpbypass $1-
   /tpbypass: true
-  #
+  #  
   # /cmi tpdeny $1-
   /tpdeny: false
-  #
+  #  
   # /cmi tphere $1-
   /tphere: false
-  #
+  #  
   # /cmi tppos $1-
   /tppos: true
-  #
+  #  
   # /cmi tps $1-
   /tps: false
-  #
+  #  
   # /cmi tptoggle $1-
   /tptoggle: false
-  #
+  #  
   # /cmi tree $1-
   /tree: false
-  #
+  #  
   # /cmi unban $1-
   /unban: false
-  #
+  #  
   # /cmi unbreakable $1-
   /unbreakable: false
-  #
+  #  
   # /cmi uncondense $1-
   /uncondense: false
-  #
+  #  
   # /cmi unjail $1-
   /unjail: true
-  #
+  #  
   # /cmi unloadchunks $1-
   /unloadchunks: true
-  #
+  #  
   # /cmi usermeta $1-
   /usermeta: true
-  #
+  #  
   # /cmi vanish $1-
   /vanish: true
-  #
+  #  
   # /cmi vanishedit $1-
   /vanishedit: true
-  #
+  #  
   # /cmi version $1-
   /version: true
-  #
+  #  
   # /cmi viewrange $1-
   /viewrange: true
-  #
+  #  
   # /cmi voteedit $1-
   /voteedit: true
-  #
+  #  
   # /cmi votes $1-
   /votes: true
-  #
+  #  
   # /cmi votetop $1-
   /votetop: false
-  #
+  #  
   # /cmi walkspeed $1-
   /walkspeed: false
   /wspeed: false
-  #
+  #  
   # /cmi warp $1-
   /warp: false
-  #
+  #  
   # /cmi weather $1-
   /weather: true
   # /cmi weather sun $1-
@@ -790,14 +815,14 @@ Alias:
   /rain: true
   # /cmi weather storm $1-
   /storm: true
-  #
+  #  
   # /cmi whowas $1-
   /whowas: true
-  #
+  #  
   # /cmi workbench $1-
   /workbench: true
   /wb: true
   /craft: true
-  #
+  #  
   # /cmi worth $1-
   /worth: true
