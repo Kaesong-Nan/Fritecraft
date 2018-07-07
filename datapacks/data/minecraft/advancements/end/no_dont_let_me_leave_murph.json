@@ -3,15 +3,12 @@
         "icon": {
             "item": "minecraft:chorus_plant"
         },
-        "title": {"translate":"No! Don't let me leave, Murph!"},
-        "description": {"translate":"Travel so far into the End dimension you might as well be on another planet"},
+        "title": "Un peu loin non ?",
+        "description": "Voyager trop loin dans l'End",
         "frame": "challenge",
 		"hidden": "true"
     },
-    "parent": "blazeandcave:end/im_coming_back_murph",
-    "rewards": {
-        "function": "bc_rewards:end/no_dont_let_me_leave_murph"
-    },		
+    "parent": "minecraft:end/im_coming_back_murph",
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",
@@ -19,7 +16,7 @@
 				"dimension": "the_end",
 				"position": {
 					"x": {
-						"min": 100000.0
+						"min": 10000.0
 					}
 				}
             }
@@ -30,7 +27,7 @@
 				"dimension": "the_end",
 				"position": {
 					"z": {
-						"min": 100000.0
+						"min": 10000.0
 					}
 				}
             }
@@ -41,7 +38,7 @@
 				"dimension": "the_end",
 				"position": {
 					"x": {
-						"max": -100000.0
+						"max": -10000.0
 					}
 				}
             }
@@ -52,11 +49,11 @@
 				"dimension": "the_end",
 				"position": {
 					"z": {
-						"max": -100000.0
+						"max": -10000.0
 					}
 				}
             }
-        }	
+        }
     },
     "requirements": [
         [

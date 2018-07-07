@@ -3,14 +3,11 @@
         "icon": {
             "item": "minecraft:chorus_flower"
         },
-        "title": {"translate":"I'm Coming Back, Murph!"},
-        "description": {"translate":"Travel far into the End dimension"},
+        "title": "Je reviendrai !",
+        "description": "Aller loin dans l'End",
         "frame": "goal"
     },
-    "parent": "blazeandcave:end/void_walker",
-    "rewards": {
-        "function": "bc_rewards:end/im_coming_back_murph"
-    },		
+    "parent": "minecraft:end/void_walker",
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",
@@ -18,7 +15,7 @@
 				"dimension": "the_end",
 				"position": {
 					"x": {
-						"min": 10000.0
+						"min": 2000.0
 					}
 				}
             }
@@ -29,7 +26,7 @@
 				"dimension": "the_end",
 				"position": {
 					"z": {
-						"min": 10000.0
+						"min": 2000.0
 					}
 				}
             }
@@ -40,7 +37,7 @@
 				"dimension": "the_end",
 				"position": {
 					"x": {
-						"max": -10000.0
+						"max": -2000.0
 					}
 				}
             }
@@ -51,11 +48,11 @@
 				"dimension": "the_end",
 				"position": {
 					"z": {
-						"max": -10000.0
+						"max": -2000.0
 					}
 				}
             }
-        }	
+        }
     },
     "requirements": [
         [

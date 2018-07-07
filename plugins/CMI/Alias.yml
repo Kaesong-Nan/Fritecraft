@@ -390,9 +390,6 @@ Alias:
   # /cmi money $1-
   /money: false
   #
-  /money: true
-  #
-  #
   # /cmi more $1-
   /more: true
   #

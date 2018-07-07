@@ -3,13 +3,13 @@
         "icon": {
             "item": "minecraft:lingering_potion"
         },
-        "title": {"translate":"Noxious Fumes"},
-        "description": {"translate":"Use dragon's breath to brew a lingering potion"}
+        "title": "Fumées nocives",
+        "description": "Fabriquer une potion persistente"
     },
     "parent": "minecraft:end/dragon_breath",
 	"rewards": {
-		"function": "bc_rewards:end/noxious_fumes"
-    },	
+		"function": "minecraft:end/noxious_fumes"
+    },
     "criteria": {
         "lingering_potion": {
             "trigger": "minecraft:inventory_changed",

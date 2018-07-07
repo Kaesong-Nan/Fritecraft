@@ -4,8 +4,8 @@
             "item": "minecraft:elytra",
 			"durability": 1
         },
-        "title": "Worn Out",
-        "description": "Wear out an elytra",
+        "title": "Tout cassé",
+        "description": "Utiliser des elytrs jusqu'à les casser",
         "frame": "goal"
     },
     "parent": "minecraft:end/elytra",

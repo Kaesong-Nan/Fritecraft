@@ -3,13 +3,10 @@
         "icon": {
             "item": "minecraft:chorus_flower"
         },
-        "title": {"translate":"Extrabiologist"},
-        "description": {"translate":"Plant a chorus plant in the overworld for study"}
+        "title": "Xenobiologiste",
+        "description": "Planter un chorus plant dans le monde normal"
     },
-    "parent": "blazeandcave:end/getting_chorus",
-	"rewards": {
-		"function": "bc_rewards:end/extrabiologist"
-    },		
+    "parent": "minecraft:end/chorus_fruit",
     "criteria": {
         "chorus_flower": {
             "trigger": "minecraft:placed_block",
