@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:cooked_porkchop"
         },
-        "title": "Piggy Biker Gang",
-        "description": "If you mess with one, you mess with all of them"
+        "title": "Déclaration de guerre",
+        "description": "Ils sont solidaires"
     },
-    "parent": "minecraft:nether/root",  
+    "parent": "minecraft:nether/root",
     "criteria": {
         "hurt_pigman": {
             "trigger": "minecraft:player_hurt_entity",

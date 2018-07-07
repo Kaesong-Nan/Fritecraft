@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magma_cream"
 		},
-		"title": "Heated Core",
-		"description": "Kill a magma cube"
+		"title": "Coeur chaud",
+		"description": "Tuer un cube de magma"
 	},
 	"parent": "minecraft:nether/find_fortress",
 	"criteria": {

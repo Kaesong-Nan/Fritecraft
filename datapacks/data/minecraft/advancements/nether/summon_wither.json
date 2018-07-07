@@ -3,24 +3,20 @@
         "icon": {
             "item": "minecraft:nether_star"
         },
-        "title": {
-            "translate": "advancements.nether.summon_wither.title"
-        },
-        "description": {
-            "translate": "Summon the wither"
-        },
+        "title": "Atrophie",
+        "description": "Tuer le Wither",
 		"frame": "challenge"
     },
     "parent": "minecraft:nether/get_wither_skull",
 	"rewards": {
-        "experience": 100
+        "experience": 1000
     },
     "criteria": {
-        "summon_wither": {
-            "trigger": "minecraft:summoned_entity",
+        "wither": {
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "wither"
+                    "type": "minecraft:wither"
                 }
             }
         }

@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:glass_bottle"
         },
-        "title": "A Much More Doable Challenge",
-        "description": "Get all possible potion effects during your life",
+        "title": "Facile !",
+        "description": "Obtenir tous les effets différents durant votre vie",
 		"frame": "challenge"
     },
     "parent": "minecraft:nether/all_potions",
     "rewards": {
 		"experience": 200
-    },		
+    },
     "criteria": {
         "speed": {
             "trigger": "minecraft:effects_changed",
@@ -123,7 +123,7 @@
                     "minecraft:hunger": {}
                 }
             }
-        },		
+        },
         "weakness": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
