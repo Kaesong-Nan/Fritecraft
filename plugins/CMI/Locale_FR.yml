@@ -126,6 +126,8 @@ info:
   specializedItemFail: '&cCan''t determine specialized command item requirement by
     value: &7[value]'
   sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
+  sunSpeedingTitle: '&7[hour]'
+  sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
   notSet: not set
   startedEditingPainting: '&eYou started painting editing. Click any other block to
     cancel.'
@@ -791,6 +793,14 @@ command:
       - If message starts with ! then clean message will be shown
     info:
       format: '&e[&4Broadcast&e] &2[message]'
+  burn:
+    help:
+      info: '&eburn a player'
+      args: (playerName) (time) (-s)
+    info:
+      feedback: '&eYou have put on fire &3[playerDisplayName]&e for &6[time] &e(&3[offon]&e).'
+      targetfeedback: '&eYou have been put on fire by &3[senderDisplayName]&e for
+        &6[time]&e.'
   charges:
     help:
       info: '&eShows left charges'
@@ -1109,6 +1119,15 @@ command:
     info:
       cantSet: '&cFailed to change playtime'
       set: '&eChanged from &6[old] &eto &6[new]'
+  editwarnings:
+    help:
+      info: '&eCheck player warnings'
+      args: (playerName/clearall) (clear)
+    info:
+      list: '&7[place]. &e[time] &6by [warnedBy] &cfor: &7[warnedFor]'
+      hover: '&7Expires in: [time]'
+      cleared: '&eAll warnings from player got cleared'
+      allCleared: '&eAll warnings from ALL players got cleared'
   editwarp:
     help:
       info: '&eEdit warps'
@@ -1198,6 +1217,13 @@ command:
       currentExp: '&e[playerDisplayName] &eis at &6[lvl]&elvl and &6[exp]&eexp.'
       selfFeedback: '&eExp was set to &3[exp] &efor &3[playerDisplayName]&e (&3[offon]&e).'
       targetFeedback: '&eYour exp was set to &3[exp]&e by &3[senderDisplayName]&e.'
+  ext:
+    help:
+      info: '&eExtinguish a player'
+      args: (playerName) (-s)
+    info:
+      feedback: '&eYou have extinguished &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&eYou have been extinguished by &3[senderDisplayName]&e.'
   feed:
     help:
       info: '&eFeed player'
@@ -1830,6 +1856,7 @@ command:
       cantUseNow: '&cYou can''t use this kit for next [time]'
       limitedTimeUseError: '&eCan''t use more than &6[times] &etimes'
       limitedTimeUse: '&7Can use for &c[times] &7times'
+      limitedTimeAllUsed: '&cYou cannot get new one'
       canUseIn: '&eCan use again in: [time]'
       cooldown: '&eCooldown: [time]'
       noKit: '&eCan''t find kit by this name'
@@ -2866,6 +2893,10 @@ command:
     info:
       shaked: '&eYou shaked of: &6[entity]'
       nothing: '&eNothing to shake off'
+  shoot:
+    help:
+      info: '&eShoot projectile'
+      args: (playerName) (-t:targetPlayer) (type) (speed)
   signspy:
     help:
       info: '&eToggle sign spy'
@@ -3592,6 +3623,29 @@ command:
         (&3[offon]&e).'
       targetfeedback: '&eYour walkspeed set to &3[amount]&e by &3[senderDisplayName]&e.'
       max: '&eMax allowed walk speed for you is &6[max]&e.'
+  warn:
+    help:
+      info: '&eWarn player'
+      args: '[playerName] (category) (reason) (-s)'
+    info:
+      noSelfWarning: '&cYou can''t warn yourself'
+      cantBan: '&cCan''t warn this player'
+      messageToAll: '&6[playerDisplayName] &cgot warned by &6[senderDisplayName] &cfor:
+        &6[reason]'
+      banedSilent: '&7[&8Silent&7]&6[playerDisplayName] &cgot warned by &6[senderDisplayName]
+        &cfor: &6[reason]'
+  warnings:
+    help:
+      info: '&eCheck player warnings'
+      args: (playerName)
+    info:
+      totalPoints: '&7---- &e[playerDisplayName] &etotal violation points: &6[totalPoints]
+        &7----'
+      noWarnings: '&ePlayer doesn''t have any warnings'
+      list: '&7[place]. &e[time] &6by [warnedBy] &cfor: &7[warnedFor]'
+      hover:
+      - '&7Expires in: &e[time]'
+      - '&7Violation points: &e[points]'
   warp:
     help:
       info: '&eTeleports to warp location'

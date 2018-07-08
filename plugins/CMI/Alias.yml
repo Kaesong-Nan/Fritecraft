@@ -60,6 +60,9 @@ Alias:
   # /cmi broadcast $1-
   /broadcast: true
   #  
+  # /cmi burn $1-
+  /burn: false
+  #  
   # /cmi charges $1-
   /charges: true
   #  
@@ -145,6 +148,9 @@ Alias:
   # /cmi editplaytime $1-
   /editplaytime: false
   #  
+  # /cmi editwarnings $1-
+  /editwarnings: false
+  #  
   # /cmi editwarp $1-
   /editwarp: true
   #  
@@ -169,6 +175,9 @@ Alias:
   #  
   # /cmi exp $1-
   /exp: true
+  #  
+  # /cmi ext $1-
+  /ext: false
   #  
   # /cmi feed $1-
   /feed: true
@@ -574,6 +583,9 @@ Alias:
   # /cmi shakeitoff $1-
   /shakeitoff: false
   #  
+  # /cmi shoot $1-
+  /shoot: false
+  #  
   # /cmi signspy $1-
   /signspy: false
   #  
@@ -592,6 +604,7 @@ Alias:
   # /cmi smite $1-
   /smite: true
   /lightning: true
+  /thor: false
   #  
   # /cmi socialspy $1-
   /socialspy: true
@@ -619,6 +632,7 @@ Alias:
   #  
   # /cmi status $1-
   /status: true
+  /gc: false
   #  
   # /cmi sudo $1-
   /sudo: false
@@ -757,6 +771,12 @@ Alias:
   # /cmi walkspeed $1-
   /walkspeed: false
   /wspeed: false
+  #  
+  # /cmi warn $1-
+  /warn: false
+  #  
+  # /cmi warnings $1-
+  /warnings: false
   #  
   # /cmi warp $1-
   /warp: false

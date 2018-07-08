@@ -1,3 +1,9 @@
+# *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+# Shopkeepers Config
+# Wiki: https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Configuration
+# *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+# 
+# The initial debugging state of the plugin.
 disable-other-villagers: true
 hire-other-villagers: false
 block-villager-spawns: false
@@ -210,3 +216,44 @@ msg-button-chest-lore:
 - ' your shopkeeper is using'
 msg-trading-title-prefix: '&2'
 msg-trading-title-default: Shopkeeper
+enable-metrics: true
+shop-creation-item-spawn-egg-entity-type: VILLAGER
+use-legacy-mob-behavior: false
+disable-gravity: false
+gravity-chunk-range: 4
+hire-require-creation-permission: true
+msg-selected-sell-shop: '&aSelling shopkeeper selected (sells items to players).'
+msg-name-has-not-changed: '&aThe shop''s name has not changed.'
+msg-missing-hire-perm: '&7You do not have the permission to hire shopkeepers.'
+msg-cant-hire-shop-type: '&7You do not have the permission to hire this type of shopkeeper.'
+msg-sell-shop-created: |-
+  &aShopkeeper created!
+  &aAdd items you want to sell to your chest, then
+  &aright-click the shop while sneaking to modify costs.
+msg-confirmation-required: '&7Please confirm this action by typing &6/shopkeepers
+  confirm'
+msg-command-unknown: '&cUnknown command ''&e{command}&c''!'
+msg-command-argument-unexpected: '&cUnexpected argument ''&e{argument}&c''.'
+msg-command-argument-missing: '&cMissing argument ''&e{argumentFormat}&c''.'
+msg-command-argument-invalid: '&cInvalid argument ''&e{argument}&c''.'
+msg-command-player-argument-missing: '&cNo player specified for ''&e{argumentFormat}&c''.'
+msg-command-player-argument-invalid: '&cNo player found for ''&e{argument}&c''.'
+msg-command-shop-type-argument-invalid: '&cUnknown shop type ''&e{argument}&c''.'
+msg-command-shop-object-type-argument-invalid: '&cUnknown shop object type ''&e{argument}&c''.'
+msg-command-shopkeeper-argument-invalid: '&cNo shopkeeper found for ''&e{argument}&c''.'
+msg-command-help-title: '&9***** &8[&6Shopkeepers v{version}&8] &9*****'
+msg-command-help-usage-format: '&e{usage}'
+msg-command-help-description-format: '&8 - &3{description}'
+msg-command-description-shopkeeper: Creates a shopkeeper.
+msg-command-description-help: Shows this help page.
+msg-command-description-reload: Reloads this plugin.
+msg-command-description-debug: Toggles debug mode on and off.
+msg-command-description-list: Lists all shops for the specified player, or all admin
+  shops.
+msg-command-description-remove: Removes all shops for the specified player, all players,
+  or all admin shops.
+msg-command-description-remote: Remotely opens a shop.
+msg-command-description-transfer: Transfers the ownership of a shop.
+msg-command-description-settradeperm: Sets, removes (-) or displays (?) the trading
+  permission.
+msg-command-description-setforhire: Sets one of your shops for sale.

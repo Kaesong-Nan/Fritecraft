@@ -186,21 +186,28 @@ PlaytimeRewards:
   # No point in listing all rewards if player is still far away
   OneTimeAmount: 2
 Sleeping:
-  # When set to true, players can speedup night by sleeping in bed
-  # This will allow to speed up night in percentage depending how many players are sleeping in beds in that world
-  Speedup: true
-  # When set to true, players who are in afk mode will be excluded from speed calculations
-  ExcludeAfk: true
-  # Defines speed to go throw night, bigger numbers will make it go faster and less players you will need to go throw night
-  BaseSpeed: 100
-  # Defines minimal speed to go throw night, this is in case there are more players than base speed and calculation return default speed
-  MinSpeed: 5
-  # Minimal amount of players sleeping in beds before speeding it up
-  MinBeforeSpeeding: 1
+  Speedup:
+    # When set to true, players can speedup night by sleeping in bed
+    # This will allow to speed up night in percentage depending how many players are sleeping in beds in that world
+    Enabled: true
+    # Type of speedup information, can be: none, title, bossbar
+    InfoType: title
+    # When set to true, players who are in afk mode will be excluded from speed calculations
+    ExcludeAfk: true
+    # Defines speed to go throw night, bigger numbers will make it go faster and less players you will need to go throw night
+    BaseSpeed: 100
+    # Defines minimal speed to go throw night, this is in case there are more players than base speed and calculation return default speed
+    MinSpeed: 5
+    # Minimal amount of players sleeping in beds before speeding it up
+    MinBeforeSpeeding: 1
 Compass:
   # Enable EXPERIMENTAL boss bar compass
   # Only for 1.9+ servers
   BossBar: false
+  # Requires to hold compass in had to see it
+  RequireCompass: false
+  # Compass update interval in milliseconds
+  UpdateInterval: 200
 ExploitPatcher:
   # When enabled this will prevent item pickup while you have openend workbench or player crafting window. Mainly to prevent 1.12 duplication glitch, until its fixed
   PreventItemPickup: true
@@ -220,6 +227,9 @@ BossBar:
   # Only players with cmi.bossbar.hpbar permission node can see it
   # Permission node is been rechecked no more often than every minute for efficiency
   HpBarEnabled: true
+  # List of mob types which will be excluded from hp boss bar
+  HpBarBlackList:
+  - Ender_dragon
 Ban:
   # When set to true players who are banned will get messages modified by CMI instead of seying vanilla type of message
   OverrideLoginMessage: false
@@ -814,7 +824,7 @@ Totem:
   # When this set to true, on players death totem will be used even if he is not holding it in hand
   RemoveFromInventory: true
   Cooldown:
-    # When this set to true player can use totem only every X second
+    # When this set to true player can use totem only every X second's
     Use: false
     Time: 600
   Warmup:
@@ -822,6 +832,8 @@ Totem:
     # Totem will be consumed durring activation and wont be returned even if resurection is not used during warmup time
     Use: false
     Time: 10
+  # If player falls into void while having totem, he will be teleported to respawn location and totem gets consumed
+  ProtectFromVoid: true
 Elytra:
   # cmi.elytra - allows usage of elytra
   # cmi.elytra.boost - allows usage of boost
@@ -928,6 +940,36 @@ Books:
   DefaultAuthor: Server
 # Defines name of customtext on players login to server. To disable just set name to non existing customText
 Motd: welcomeMessage
+Warnings:
+  Default:
+    LifeTime: 86400
+    Points: 1
+    DefaultReason: '&7Violated server rules'
+  Categories:
+    Swear:
+      LifeTime: 86400
+      Points: 3
+      DefaultReason: '&7Swearing'
+    Grief:
+      LifeTime: 86400
+      Points: 10
+      DefaultReason: '&7Griefing'
+    Bug:
+      LifeTime: 86400
+      Points: 30
+      DefaultReason: '&7Using bugs'
+    Cheat:
+      LifeTime: 86400
+      Points: 50
+      DefaultReason: '&7Using cheats'
+  Perform:
+    '3':
+    - cmi mute [playerName] 10m
+    - cmi msg [playerName] !&cMuted for &710 &cminutes for getting &73 &cwarnings!
+    '5':
+    - cmi kick [playerName] &cKicked for getting 5 warnings!
+    '10':
+    - cmi tempban [playerName] 5m &cTemporary banned for getting 10 warnings!
 Spawn:
   # Forces players to login in defined spawn point when logging into server
   SpawnOnJoin: false
