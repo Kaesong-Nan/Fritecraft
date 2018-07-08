@@ -16,7 +16,7 @@ rewards:
   items:
   - ==: org.bukkit.inventory.ItemStack
     type: FLINT
-    amount: 4
+    amount: 3
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC

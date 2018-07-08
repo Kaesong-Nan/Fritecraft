@@ -22,4 +22,4 @@ AnomaliePomme1:
   ShowFlames: true
   Breakable: false
   Conditions: []
-  ActiveMobs: 1
+  ActiveMobs: 0

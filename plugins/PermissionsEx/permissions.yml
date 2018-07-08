@@ -1,6 +1,8 @@
 groups:
   laic:
     permissions:
+    - cmi.command.removehome
+    - cmi.command.delhome
     - gadgetsmenu.animations.normal
     - gadgetsmenu.mysteryboxes.open.*
     - cmi.command.home
@@ -234,6 +236,8 @@ groups:
         - essentials.gamemode
   moine:
     permissions:
+    - cmi.command.removehome
+    - cmi.command.delhome
     - headdb.category.online_players
     - headdb.category.plants
     - headdb.category.miscellaneous
@@ -807,6 +811,8 @@ groups:
       rank: 41
   pretre:
     permissions:
+    - cmi.command.sethome.10
+    - cmi.command.back
     - parkour.checkpoint
     - cmi.command.petre
     - gadgetsmenu.morphs.*
@@ -2336,6 +2342,9 @@ users:
     - moine
   472ad53a-a245-4ac7-a196-fd265b1fc565:
     permissions:
+    - gadgetsmenu.gadgets.explosivebow
+    - gadgetsmenu.particles.portal
+    - cmi.command.workbench
     - gadgetsmenu.hats.unitedstates
     - gadgetsmenu.hats.bird
     - gadgetsmenu.gadgets.parachute
@@ -4824,4 +4833,13 @@ users:
     - permission.dimitrianomalie
     options:
       name: Stevonniie
+  16e0438c-66d5-442e-aaf8-d892fd22e84b:
+    permissions:
+    - permission.choco.usine4
+    - permission.choco.usine3
+    - permission.choco.usine2
+    - permission.choco.usine1
+    - permission.dimitrianomalie
+    - permission.guilde.slimeelite
+    - permission.guilde.zombieelite
 schema-version: 1

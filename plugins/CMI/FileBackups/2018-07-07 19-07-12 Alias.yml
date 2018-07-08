@@ -10,8 +10,13 @@ Alias:
   /actionbarmsg: true
   #  
   # /cmi afk $1-
-  /afk: true
+<<<<<<< HEAD
+  /afk: false
   #  
+=======
+  /afk: true
+  #
+>>>>>>> 83970ef76c8f010bcd2a695cbe45e1b41c1c6746
   # /cmi air $1-
   /air: false
   #  
@@ -382,7 +387,7 @@ Alias:
   /mirror: false
   #  
   # /cmi money $1-
-  /money: false
+  /money: true
   #  
   # /cmi more $1-
   /more: true
@@ -774,7 +779,7 @@ Alias:
   /whowas: true
   #  
   # /cmi workbench $1-
-  /workbench: true
+  /workbench: false
   /wb: true
   /craft: true
   #  

@@ -10,8 +10,17 @@ Alias:
   /actionbarmsg: true
   #  
   # /cmi afk $1-
-  /afk: true
+<<<<<<< HEAD
+  /afk: false
+=======
+<<<<<<< HEAD
+  /afk: false
   #  
+=======
+  /afk: true
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+  #
+>>>>>>> 83970ef76c8f010bcd2a695cbe45e1b41c1c6746
   # /cmi air $1-
   /air: false
   #  
@@ -146,8 +155,17 @@ Alias:
   /editplaytime: false
   #  
   # /cmi editwarp $1-
+<<<<<<< HEAD
+  /editwarp: false
+  #
+=======
   /editwarp: true
+<<<<<<< HEAD
+  #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
   #  
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi effect $1-
   /effect: true
   #  
@@ -382,8 +400,17 @@ Alias:
   /mirror: false
   #  
   # /cmi money $1-
+<<<<<<< HEAD
   /money: false
+  #
+=======
+  /money: true
+<<<<<<< HEAD
+  #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
   #  
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi more $1-
   /more: true
   #  
@@ -488,9 +515,19 @@ Alias:
   /removeuser: false
   #  
   # /cmi removewarp $1-
+<<<<<<< HEAD
+  /removewarp: false
+  /delwarp: false
+  #
+=======
   /removewarp: true
   /delwarp: true
+<<<<<<< HEAD
+  #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
   #  
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi repair $1-
   /repair: false
   #  
@@ -566,8 +603,17 @@ Alias:
   /setspawn: true
   #  
   # /cmi setwarp $1-
+<<<<<<< HEAD
+  /setwarp: false
+  #
+=======
   /setwarp: true
+<<<<<<< HEAD
+  #
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
+=======
   #  
+>>>>>>> 1a9fd1e7d62a3b5ef7d6b3464a4ae2f315c98ee0
   # /cmi setworth $1-
   /setworth: false
   #  
