@@ -356,8 +356,6 @@ info:
     - DepthStrider
     frost_walker:
     - FrostWalker
-    binding_curse:
-    - BindingCurse
     damage_all:
     - Sharpness
     damage_undead:
