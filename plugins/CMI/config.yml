@@ -1308,6 +1308,7 @@ Enchanting:
       vanishing_curse: 1
       depth_strider: 3
       frost_walker: 2
+      binding_curse: 1
       damage_all: 5
       damage_undead: 5
       damage_arthropods: 5
