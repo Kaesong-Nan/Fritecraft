@@ -59,6 +59,7 @@ GUI-Menus:
         - '&75. {RECENT_LOOT_5}'
         - ''
         - '&7Vous avez: &b{MYSTERY_BOXES} Boites Mystères'
+        Slot: 49
       Craft-Mystery-Boxes:
         Name: '&aForger une Boite Mystère'
         Material: '145:0'
@@ -72,6 +73,7 @@ GUI-Menus:
         - '&7Vous avez: &b{MYSTERY_DUST} Poussière Mystique'
         - '&eClic pour ouvrir la Forge.'
         Show: true
+        Slot: 50
       Gift-Inventory:
         Name: '&aGift Inventory'
         Texture: http://textures.minecraft.net/texture/d2ac1c51807e261c12c4f2adbad36b8b2c497c277f7223ec244cb4608c59c
@@ -87,6 +89,7 @@ GUI-Menus:
         - ''
         - '&eClick to view your gift inventory!'
         Show: true
+        Slot: 48
       Loading-Mystery-Boxes:
         Name: '&cLoading...'
         Material: '160:14'
@@ -100,12 +103,14 @@ GUI-Menus:
         - '&7Select your Mystery Vault'
         - '&7animations when you open'
         - '&7mystery boxes.'
+        Slot: 53
       Open-Multiple-Boxes:
         Name: '&cOpen Multiple Boxes'
         Material: '399:0'
         Lore:
         - '&7Open multiple boxes at the'
         - '&7same time!'
+        Slot: 51
   Mystery-Box-Crafting-Menu:
     GUI-Name: Mystery Box Crafting
     Items:

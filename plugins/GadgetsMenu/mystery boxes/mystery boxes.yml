@@ -89,6 +89,9 @@ Mystery-Boxes:
         Message:
         - '&7Vous possédez déjà ce loot,'
         - '&7vous recevez donc &a{MYSTERY_DUST} Poussières Mystique &7à la place.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 2
     Rare:
       Give-Mystery-Dust:
         Enabled: true
@@ -99,6 +102,9 @@ Mystery-Boxes:
         Message:
         - '&7Vous possédez déjà ce loot,'
         - '&7vous recevez donc &a{MYSTERY_DUST} Poussières Mystique &7à la place.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 5
     Epic:
       Give-Mystery-Dust:
         Enabled: true
@@ -109,6 +115,9 @@ Mystery-Boxes:
         Message:
         - '&7Vous possédez déjà ce loot,'
         - '&7vous recevez donc &a{MYSTERY_DUST} Poussières Mystique &7à la place.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 8
     Legendary:
       Give-Mystery-Dust:
         Enabled: true
@@ -119,6 +128,9 @@ Mystery-Boxes:
         Message:
         - '&7Vous possédez déjà ce loot,'
         - '&7vous recevez donc &a{MYSTERY_DUST} Poussières Mystique &7à la place.'
+      Execute-Command:
+        Enabled: false
+        Command: eco give {PLAYER} 12
   Holograms:
     Found-Loot:
       Common: '&a{LOOT} Exquis'

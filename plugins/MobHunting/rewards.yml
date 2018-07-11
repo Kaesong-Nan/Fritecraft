@@ -4276,3 +4276,31 @@ bc6a5a4c-12d7-4c83-bffc-508d751abadd:
   money: '0.00000'
   uuid: 2351844f-f400-4fa4-9642-35169c5b048a
   uniqueid: 8447e5f2-9658-42c9-94a9-ef8537fe49b2
+2a2ea593-a575-40f3-b51a-9915ebc83ec8:
+  location:
+    ==: org.bukkit.Location
+    world: Pitman
+    x: 3437.0
+    y: 71.0
+    z: 4120.0
+    pitch: 0.0
+    yaw: 0.0
+  description: Ghast
+  money: '0.00000'
+  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
+  uniqueid: 2a2ea593-a575-40f3-b51a-9915ebc83ec8
+  skinuuid: 904bca99-3f31-4acc-b68e-2e76c15803f7
+a08c9107-11df-472f-b3e0-36a0ba2e94d4:
+  location:
+    ==: org.bukkit.Location
+    world: Pitman
+    x: 3422.0
+    y: 74.0
+    z: 4122.0
+    pitch: 0.0
+    yaw: 0.0
+  description: Ghast
+  money: '0.00000'
+  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
+  uniqueid: a08c9107-11df-472f-b3e0-36a0ba2e94d4
+  skinuuid: 904bca99-3f31-4acc-b68e-2e76c15803f7
