@@ -4835,6 +4835,8 @@ users:
       name: Stevonniie
   16e0438c-66d5-442e-aaf8-d892fd22e84b:
     permissions:
+    - gadgetsmenu.particles.note
+    - gadgetsmenu.hats.letter_n
     - gadgetsmenu.particles.redstone
     - gadgetsmenu.hats.england
     - gadgetsmenu.hats.symbol_poundkey
