@@ -5,6 +5,10 @@
 #Ignorer les DS Store
 *.DS_Store
 
+#Fichiers divers
+*.b2
+*.sha1
+
 #Ignorer les dossiers d'archive
 /_archive
 /_jars
