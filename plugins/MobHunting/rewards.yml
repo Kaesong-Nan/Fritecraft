@@ -4290,17 +4290,3 @@ a08c9107-11df-472f-b3e0-36a0ba2e94d4:
   uuid: 2351844f-f400-4fa4-9642-35169c5b048a
   uniqueid: a08c9107-11df-472f-b3e0-36a0ba2e94d4
   skinuuid: 904bca99-3f31-4acc-b68e-2e76c15803f7
-548ffb18-e8c8-4c6d-817c-ef0b5a49af72:
-  location:
-    ==: org.bukkit.Location
-    world: Pitman
-    x: -2787.0
-    y: 62.0
-    z: 3241.0
-    pitch: 0.0
-    yaw: 0.0
-  description: Squelette
-  money: '0.00000'
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: 548ffb18-e8c8-4c6d-817c-ef0b5a49af72
-  skinuuid: 4f5e3a24-c33a-4665-95c5-db9538729677
