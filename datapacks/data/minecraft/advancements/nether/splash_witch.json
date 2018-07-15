@@ -3,11 +3,11 @@
         "icon": {
             "item": "minecraft:splash_potion"
         },
-        "title": "Taste of Your Own Medicine",
-        "description": "Kill a witch with a splash potion",
+        "title": "Quand on joue avec le feu",
+        "description": "Tuer une sorcière avec une potion",
         "frame": "goal"
     },
-    "parent": "minecraft:nether/brew_potion",  
+    "parent": "minecraft:nether/brew_potion",
     "criteria": {
         "splashed_witch": {
             "trigger": "minecraft:player_killed_entity",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:brewing_stand"
         },
-        "title": "Brewing Machine",
-        "description": "Craft a brewing stand"
+        "title": "Alchimiste",
+        "description": "Fabriquer un alambic"
     },
     "parent": "minecraft:nether/obtain_blaze_rod",
     "criteria": {

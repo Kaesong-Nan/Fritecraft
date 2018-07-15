@@ -3,13 +3,9 @@
         "icon": {
             "item": "minecraft:gunpowder"
         },
-        "title": {"translate":"Giant Floating Jellyfish"},
-        "description": {"translate":"Shoot down a ghast"}
-    },
+        "title": "Méduse Volante",
+        "description": "Tuer un ghast",
     "parent": "minecraft:nether/root",
-    "rewards": {
-        "function": "bc_rewards:nether/giant_floating_jellyfish"
-    },		
     "criteria": {
         "ghast": {
             "trigger": "minecraft:player_killed_entity",

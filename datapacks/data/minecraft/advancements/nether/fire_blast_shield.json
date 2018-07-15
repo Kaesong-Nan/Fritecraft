@@ -3,13 +3,9 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Fire Blast Shield"},
-        "description": {"translate":"Block the explosion of a ghast's fireball"}
-    },
+        "title": "Bouclier anti-explosion",
+        "description": "Bloquer l'explosion d'une boule de feu de ghast",
     "parent": "blazeandcave:nether/giant_floating_jellyfish",
-	"rewards": {
-		"function": "bc_rewards:nether/fire_blast_shield"
-    },
     "criteria": {
         "deflected_explosion": {
             "trigger": "minecraft:entity_hurt_player",
